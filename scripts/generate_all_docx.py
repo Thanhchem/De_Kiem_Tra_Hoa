@@ -4,6 +4,7 @@ import docx
 from docx.shared import Inches, Pt, RGBColor, Cm
 from docx.enum.text import WD_TAB_ALIGNMENT, WD_ALIGN_PARAGRAPH
 from docx.enum.table import WD_TABLE_ALIGNMENT
+from docx.enum.section import WD_SECTION_START
 from docx.oxml import OxmlElement, parse_xml
 from docx.oxml.ns import nsdecls, qn
 
@@ -86,16 +87,40 @@ def render_rich_text(p, text, base_font="Times New Roman", base_size=12, base_bo
                       subscript=is_sub, superscript=is_sup, color=base_color)
 
 def setup_header_footer(doc):
+    # Set default tab stops on Normal style (media_1791090732037.png)
+    normal_style = doc.styles['Normal']
+    normal_style.paragraph_format.tab_stops.clear_all()
+    for pos in [0.5, 1.5, 5.0, 9.5, 14.0]:
+        normal_style.paragraph_format.tab_stops.add_tab_stop(Cm(pos), WD_TAB_ALIGNMENT.LEFT)
+
     section = doc.sections[0]
+    # 1. Paper size A4: 21 cm x 29.7 cm (media_1791090698295.png)
+    section.page_width = Cm(21.0)
+    section.page_height = Cm(29.7)
+
+    # 2. Margins: 1.5 cm all sides
     section.top_margin = Cm(1.5)
     section.bottom_margin = Cm(1.5)
     section.left_margin = Cm(1.5)
     section.right_margin = Cm(1.5)
-    section.different_first_page_header_footer = True
 
-    # 1. DEFAULT HEADER (Pages 2+) - Matching media_1791087945720.png exactly
+    # 3. Layout tab (media_1791090715080.png)
+    section.start_type = WD_SECTION_START.NEW_PAGE
+    section.different_first_page_header_footer = False
+    section.header_distance = Cm(0.6)
+    section.footer_distance = Cm(0.6)
+
+    # Vertical alignment: Top
+    sectPr = section._sectPr
+    vAlign = OxmlElement('w:vAlign')
+    vAlign.set(qn('w:val'), 'top')
+    sectPr.append(vAlign)
+
+    # 4. Header (Applies to whole document, matching media_1791087945720.png)
     header = section.header
     hp = header.paragraphs[0]
+    hp.text = ""
+    hp.paragraph_format.tab_stops.clear_all()
     hp.paragraph_format.tab_stops.add_tab_stop(Cm(18.0), WD_TAB_ALIGNMENT.RIGHT)
     hp.paragraph_format.space_before = Pt(0)
     hp.paragraph_format.space_after = Pt(2)
@@ -114,9 +139,11 @@ def setup_header_footer(doc):
 
     add_p_border_bottom(hp, color=COLOR_HF_GREEN_HEX, sz="8")
 
-    # 2. DEFAULT FOOTER (Pages 2+) - Matching media_1791087945720.png exactly
+    # 5. Footer (Applies to whole document, matching media_1791087945720.png)
     footer = section.footer
     fp = footer.paragraphs[0]
+    fp.text = ""
+    fp.paragraph_format.tab_stops.clear_all()
     fp.paragraph_format.tab_stops.add_tab_stop(Cm(18.0), WD_TAB_ALIGNMENT.RIGHT)
     fp.paragraph_format.space_before = Pt(4)
     fp.paragraph_format.space_after = Pt(0)
@@ -128,26 +155,6 @@ def setup_header_footer(doc):
     add_page_number_field(fp, font_size=10, bold=True, color=COLOR_HF_RED)
 
     add_p_border_top(fp, color=COLOR_HF_GREEN_HEX, sz="8")
-
-    # 3. FIRST PAGE HEADER (Empty)
-    first_header = section.first_page_header
-    fhp = first_header.paragraphs[0]
-    fhp.text = ""
-
-    # 4. FIRST PAGE FOOTER (Has footer matching media_1791087945720.png)
-    first_footer = section.first_page_footer
-    ffp = first_footer.paragraphs[0]
-    ffp.paragraph_format.tab_stops.add_tab_stop(Cm(18.0), WD_TAB_ALIGNMENT.RIGHT)
-    ffp.paragraph_format.space_before = Pt(4)
-    ffp.paragraph_format.space_after = Pt(0)
-
-    r_ffl = ffp.add_run("CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế | CS2: 24 Đặng Thái Thân, TP Huế")
-    set_run_style(r_ffl, font_size=9.5, italic=True, color=COLOR_HF_RED)
-
-    ffp.add_run('\t')
-    add_page_number_field(ffp, font_size=10, bold=True, color=COLOR_HF_RED)
-
-    add_p_border_top(ffp, color=COLOR_HF_GREEN_HEX, sz="8")
 
 def add_exam_header_block(doc, is_teacher=False):
     tbl = doc.add_table(rows=1, cols=2)
@@ -226,59 +233,98 @@ def add_question_prompt(doc, q_num, prompt_text):
 def add_choices_tabbed(doc, choices, correct_idx=None, is_teacher=False, layout_mode="4cols"):
     labels = ["A. ", "B. ", "C. ", "D. "]
 
+    def set_standard_tabs(p):
+        p.paragraph_format.tab_stops.clear_all()
+        for pos in [0.5, 1.5, 5.0, 9.5, 14.0]:
+            p.paragraph_format.tab_stops.add_tab_stop(Cm(pos), WD_TAB_ALIGNMENT.LEFT)
+
     if layout_mode == "4cols":
         p = doc.add_paragraph()
-        p.paragraph_format.tab_stops.add_tab_stop(Cm(0.5), WD_TAB_ALIGNMENT.LEFT)
-        p.paragraph_format.tab_stops.add_tab_stop(Cm(4.8), WD_TAB_ALIGNMENT.LEFT)
-        p.paragraph_format.tab_stops.add_tab_stop(Cm(9.2), WD_TAB_ALIGNMENT.LEFT)
-        p.paragraph_format.tab_stops.add_tab_stop(Cm(13.6), WD_TAB_ALIGNMENT.LEFT)
+        set_standard_tabs(p)
         p.paragraph_format.space_before = Pt(0)
         p.paragraph_format.space_after = Pt(2)
         p.paragraph_format.line_spacing = 1.15
 
-        for i in range(4):
-            p.add_run('\t')
-            is_corr = (is_teacher and i == correct_idx)
-            r_lbl = p.add_run(labels[i])
-            set_run_style(r_lbl, font_size=12, bold=True, color=COLOR_CORRECT if is_corr else None)
-            render_rich_text(p, choices[i] + ("  " if i < 3 else ""), base_size=12,
-                             base_bold=is_corr, base_color=COLOR_CORRECT if is_corr else None)
+        # Choice 0 (A) -> 0.5 cm
+        p.add_run('\t')
+        is_corr = (is_teacher and correct_idx == 0)
+        r_lbl = p.add_run(labels[0])
+        set_run_style(r_lbl, font_size=12, bold=True, color=COLOR_CORRECT if is_corr else None)
+        render_rich_text(p, choices[0] + "  ", base_size=12,
+                         base_bold=is_corr, base_color=COLOR_CORRECT if is_corr else None)
+
+        # Choice 1 (B) -> 5.0 cm (skip 1.5 cm if choice A is short)
+        tabs_to_b = '\t\t' if len(choices[0]) < 5 else '\t'
+        p.add_run(tabs_to_b)
+        is_corr = (is_teacher and correct_idx == 1)
+        r_lbl = p.add_run(labels[1])
+        set_run_style(r_lbl, font_size=12, bold=True, color=COLOR_CORRECT if is_corr else None)
+        render_rich_text(p, choices[1] + "  ", base_size=12,
+                         base_bold=is_corr, base_color=COLOR_CORRECT if is_corr else None)
+
+        # Choice 2 (C) -> 9.5 cm
+        p.add_run('\t')
+        is_corr = (is_teacher and correct_idx == 2)
+        r_lbl = p.add_run(labels[2])
+        set_run_style(r_lbl, font_size=12, bold=True, color=COLOR_CORRECT if is_corr else None)
+        render_rich_text(p, choices[2] + "  ", base_size=12,
+                         base_bold=is_corr, base_color=COLOR_CORRECT if is_corr else None)
+
+        # Choice 3 (D) -> 14.0 cm
+        p.add_run('\t')
+        is_corr = (is_teacher and correct_idx == 3)
+        r_lbl = p.add_run(labels[3])
+        set_run_style(r_lbl, font_size=12, bold=True, color=COLOR_CORRECT if is_corr else None)
+        render_rich_text(p, choices[3], base_size=12,
+                         base_bold=is_corr, base_color=COLOR_CORRECT if is_corr else None)
 
     elif layout_mode == "2cols":
         p1 = doc.add_paragraph()
-        p1.paragraph_format.tab_stops.add_tab_stop(Cm(0.5), WD_TAB_ALIGNMENT.LEFT)
-        p1.paragraph_format.tab_stops.add_tab_stop(Cm(9.2), WD_TAB_ALIGNMENT.LEFT)
+        set_standard_tabs(p1)
         p1.paragraph_format.space_before = Pt(0)
         p1.paragraph_format.space_after = Pt(1)
         p1.paragraph_format.line_spacing = 1.15
 
-        for i in [0, 1]:
-            p1.add_run('\t')
-            is_corr = (is_teacher and i == correct_idx)
-            r_lbl = p1.add_run(labels[i])
-            set_run_style(r_lbl, font_size=12, bold=True, color=COLOR_CORRECT if is_corr else None)
-            render_rich_text(p1, choices[i], base_size=12,
-                             base_bold=is_corr, base_color=COLOR_CORRECT if is_corr else None)
+        p1.add_run('\t')
+        is_corr = (is_teacher and correct_idx == 0)
+        r_lbl = p1.add_run(labels[0])
+        set_run_style(r_lbl, font_size=12, bold=True, color=COLOR_CORRECT if is_corr else None)
+        render_rich_text(p1, choices[0], base_size=12,
+                         base_bold=is_corr, base_color=COLOR_CORRECT if is_corr else None)
+
+        tabs_to_b = '\t\t' if len(choices[0]) < 12 else '\t'
+        p1.add_run(tabs_to_b)
+        is_corr = (is_teacher and correct_idx == 1)
+        r_lbl = p1.add_run(labels[1])
+        set_run_style(r_lbl, font_size=12, bold=True, color=COLOR_CORRECT if is_corr else None)
+        render_rich_text(p1, choices[1], base_size=12,
+                         base_bold=is_corr, base_color=COLOR_CORRECT if is_corr else None)
 
         p2 = doc.add_paragraph()
-        p2.paragraph_format.tab_stops.add_tab_stop(Cm(0.5), WD_TAB_ALIGNMENT.LEFT)
-        p2.paragraph_format.tab_stops.add_tab_stop(Cm(9.2), WD_TAB_ALIGNMENT.LEFT)
+        set_standard_tabs(p2)
         p2.paragraph_format.space_before = Pt(0)
         p2.paragraph_format.space_after = Pt(2)
         p2.paragraph_format.line_spacing = 1.15
 
-        for i in [2, 3]:
-            p2.add_run('\t')
-            is_corr = (is_teacher and i == correct_idx)
-            r_lbl = p2.add_run(labels[i])
-            set_run_style(r_lbl, font_size=12, bold=True, color=COLOR_CORRECT if is_corr else None)
-            render_rich_text(p2, choices[i], base_size=12,
-                             base_bold=is_corr, base_color=COLOR_CORRECT if is_corr else None)
+        p2.add_run('\t')
+        is_corr = (is_teacher and correct_idx == 2)
+        r_lbl = p2.add_run(labels[2])
+        set_run_style(r_lbl, font_size=12, bold=True, color=COLOR_CORRECT if is_corr else None)
+        render_rich_text(p2, choices[2], base_size=12,
+                         base_bold=is_corr, base_color=COLOR_CORRECT if is_corr else None)
+
+        tabs_to_d = '\t\t' if len(choices[2]) < 12 else '\t'
+        p2.add_run(tabs_to_d)
+        is_corr = (is_teacher and correct_idx == 3)
+        r_lbl = p2.add_run(labels[3])
+        set_run_style(r_lbl, font_size=12, bold=True, color=COLOR_CORRECT if is_corr else None)
+        render_rich_text(p2, choices[3], base_size=12,
+                         base_bold=is_corr, base_color=COLOR_CORRECT if is_corr else None)
 
     else: # 1col
         for i in range(4):
             p = doc.add_paragraph()
-            p.paragraph_format.tab_stops.add_tab_stop(Cm(0.5), WD_TAB_ALIGNMENT.LEFT)
+            set_standard_tabs(p)
             p.paragraph_format.space_before = Pt(0)
             p.paragraph_format.space_after = Pt(1 if i < 3 else 2)
             p.paragraph_format.line_spacing = 1.15
@@ -443,7 +489,9 @@ def build_exam_document(is_teacher=False):
     ]
     for lbl, text, is_true, expl in tf1_items:
         p = doc.add_paragraph()
-        p.paragraph_format.tab_stops.add_tab_stop(Cm(0.5), WD_TAB_ALIGNMENT.LEFT)
+        p.paragraph_format.tab_stops.clear_all()
+        for pos in [0.5, 1.5, 5.0, 9.5, 14.0]:
+            p.paragraph_format.tab_stops.add_tab_stop(Cm(pos), WD_TAB_ALIGNMENT.LEFT)
         p.paragraph_format.space_before = Pt(0)
         p.paragraph_format.space_after = Pt(2)
         p.paragraph_format.line_spacing = 1.15
@@ -477,7 +525,9 @@ def build_exam_document(is_teacher=False):
     ]
     for lbl, text, is_true, expl in tf2_items:
         p = doc.add_paragraph()
-        p.paragraph_format.tab_stops.add_tab_stop(Cm(0.5), WD_TAB_ALIGNMENT.LEFT)
+        p.paragraph_format.tab_stops.clear_all()
+        for pos in [0.5, 1.5, 5.0, 9.5, 14.0]:
+            p.paragraph_format.tab_stops.add_tab_stop(Cm(pos), WD_TAB_ALIGNMENT.LEFT)
         p.paragraph_format.space_before = Pt(0)
         p.paragraph_format.space_after = Pt(2)
         p.paragraph_format.line_spacing = 1.15
