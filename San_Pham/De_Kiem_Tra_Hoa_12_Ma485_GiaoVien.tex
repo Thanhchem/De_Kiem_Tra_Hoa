@@ -1,0 +1,622 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{top=1.5cm,bottom=1.2cm,left=1.4cm,right=1.4cm,headheight=28pt,headsep=12pt,footskip=18pt}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage[version=4]{mhchem}
+\usepackage{fancyhdr}
+\usepackage{ex_test}
+
+\renewcommand{\baselinestretch}{0.95}
+\setlength{\parskip}{0pt}
+
+\definecolor{hfRed}{RGB}{211,47,47}
+\definecolor{hfGreen}{RGB}{139,195,144}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\itshape\color{hfRed} Tài liệu lưu hành nội bộ}
+\fancyhead[R]{\small\itshape\color{hfRed} Thầy \textbf{TRẦN VĂN THẠNH} - 0777.470.803}
+\renewcommand{\headrulewidth}{0.8pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \headrulewidth\hfill}}
+
+\fancyfoot[L]{\small\itshape\color{hfRed} CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+\fancyfoot[R]{\small\bfseries\color{hfRed} Trang \thepage}
+\renewcommand{\footrulewidth}{0.8pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+
+\fancypagestyle{firstpage}{
+  \fancyhf{}
+  \renewcommand{\headrulewidth}{0pt}
+  \fancyfoot[L]{\small\itshape\color{hfRed} CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+  \fancyfoot[R]{\small\bfseries\color{hfRed} Trang \thepage}
+  \renewcommand{\footrulewidth}{0.8pt}
+  \renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+}
+
+\begin{document}
+\thispagestyle{firstpage}
+
+\noindent
+\begin{minipage}[t]{0.42\textwidth}
+	\centering\fontsize{10pt}{12pt}\selectfont
+	\textbf{SỞ GD \& ĐT THÀNH PHỐ HUẾ}\\
+	\textbf{TRƯỜNG THPT HOÁ CHÂU}\\
+	\textbf{ĐỀ CHÍNH THỨC}\\
+	\textit{(Đề gồm có 03 trang)}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.56\textwidth}
+	\centering\small
+	\textbf{ĐỀ KIỂM TRA GIỮA HỌC KÌ I – NĂM HỌC 2025-2026}\\
+	\textbf{MÔN: HOÁ HỌC – LỚP 12}\\
+	\textit{Thời gian làm bài: 45 phút (không kể thời gian phát đề)}\\
+	\fbox{\textbf{MÃ ĐỀ: 485}}\\
+	\textbf{\color{hfRed}(BẢN GIÁO VIÊN -- CÓ LỜI GIẢI CHI TIẾT)}
+\end{minipage}
+
+\smallskip
+\noindent\hrulefill
+\smallskip
+
+\noindent\textbf{Họ, tên thí sinh:} \dotfill\ \textbf{Lớp:} \dotfill\ \textbf{Số báo danh:} \dotfill
+
+\smallskip
+\noindent\textit{(Cho nguyên tử khối của các nguyên tử: H = 1; C = 12; O = 16; N = 14; Cl = 35,5)}
+\smallskip
+
+\noindent
+\textbf{A. TRẮC NGHIỆM KHÁCH QUAN}
+
+\smallskip
+\noindent
+\textbf{PHẦN I (3 điểm -- 12 câu): Câu trắc nghiệm nhiều phương án lựa chọn.} \textit{Thí sinh trả lời từ câu 1 đến câu 12. Mỗi câu hỏi thí sinh chỉ chọn một phương án.}
+
+\Opensolutionfile{ans}[ans-gv485]
+
+\begin{ex}
+Thuỷ phân $324\text{ gam}$ tinh bột với hiệu suất 75\% khối lượng glucose thu được là
+\choice
+{$360\text{ gam}$}
+{\True $270\text{ gam}$}
+{$300\text{ gam}$}
+{$250\text{ gam}$}
+\loigiai{
+Phương trình hóa học thủy phân tinh bột:
+\[\ce{(C6H10O5)_n + n H2O ->[H^+, t^\circ] n C6H12O6}\]
+Số mol mắt xích tinh bột:
+\[n_{\text{tinh bột}} = \dfrac{324}{162} = 2\text{ mol}.\]
+Theo lý thuyết, số mol glucose thu được: $n_{\text{glucose (LT)}} = 2\text{ mol} \Rightarrow m_{\text{glucose (LT)}} = 2 \times 180 = 360\text{ gam}$.\\
+Do hiệu suất của phản ứng đạt $75\%$, khối lượng glucose thực tế thu được là:
+\[m = 360 \times 75\% = \mathbf{270\text{ gam}}.\]
+\textbf{Chọn B.}
+}
+\end{ex}
+
+\begin{ex}
+Phát biểu nào sau đây không đúng khi nhận xét về maltose?
+\choice
+{Là một disaccharide}
+{Phân tử có một nhóm -OH hemiacetal}
+{Cho được phản ứng thuỷ phân}
+{\True Không làm mất màu nước bromine}
+\loigiai{
+- Maltose là disaccharide tạo từ hai gốc $\alpha$-glucose qua liên kết $\alpha$-1,4-glycosidic.\\
+- Trong phân tử maltose vẫn còn một nhóm $-\ce{OH}$ hemiacetal tự do ở C1 của gốc glucose thứ hai. Do đó, trong dung dịch, maltose có thể mở vòng tạo nhóm aldehyde $-\ce{CHO}$, thể hiện tính khử: tráng bạc, khử $\ce{Cu(OH)2}$ và làm mất màu nước bromine.\\
+- Phát biểu D: ``Không làm mất màu nước bromine'' là phát biểu \textbf{không đúng}.\\
+\textbf{Chọn D.}
+}
+\end{ex}
+
+\begin{ex}
+Khi xà phòng hoá tristearin thu được sản phẩm là
+\choice
+{$\ce{C15H31COONa}$ và $\ce{C2H5OH}$}
+{$\ce{C15H31COOH}$ và $\ce{C3H5(OH)3}$}
+{\True $\ce{C17H35COONa}$ và $\ce{C3H5(OH)3}$}
+{$\ce{C17H35COOH}$ và $\ce{C3H5(OH)3}$}
+\loigiai{
+Tristearin có công thức cấu tạo là $\ce{(C17H35COO)3C3H5}$. Phản ứng xà phòng hóa trong môi trường kiềm ($\ce{NaOH}$):
+\[\ce{(C17H35COO)3C3H5 + 3 NaOH ->[t^\circ] 3 C17H35COONa + C3H5(OH)3}\]
+Sản phẩm thu được là muối sodium stearate ($\ce{C17H35COONa}$) và glycerol ($\ce{C3H5(OH)3}$).\\
+\textbf{Chọn C.}
+}
+\end{ex}
+
+\begin{ex}
+Công thức cấu tạo dạng mạch vòng của $\alpha$-glucose là
+\begin{center}
+	\includegraphics[width=14.5cm]{San_Pham/images_crop_485/fig_cau4_glucose_clean.png}
+\end{center}
+\choice
+{\True Cấu trúc A}
+{Cấu trúc B}
+{Cấu trúc C}
+{Cấu trúc D}
+\loigiai{
+- Glucose mạch vòng chủ yếu ở dạng vòng pyranose 6 cạnh.\\
+- Dạng $\alpha$-D-glucopyranose (cấu trúc A) có nhóm $-\ce{OH}$ hemiacetal ở vị trí C1 hướng xuống dưới (khác phía với nhóm $-\ce{CH2OH}$ ở C5 hướng lên trên). Các vị trí còn lại: C2 hướng xuống, C3 hướng lên, C4 hướng xuống.\\
+- Cấu trúc B là dạng $\beta$-D-glucopyranose (nhóm $-\ce{OH}$ ở C1 hướng lên trên).\\
+- Cấu trúc C và D là các dạng vòng furanose 5 cạnh.\\
+\textbf{Chọn A.}
+}
+\end{ex}
+
+\begin{ex}
+Đun nóng hỗn hợp các chất trong bình cầu chứa $12\text{ mL}$ acetic acid ($D = 1{,}05\text{ g/mL}$), $11\text{ mL}$ pentyl alcohol ($D = 0{,}81\text{ g/mL}$) và $4\text{ mL}$ dung dịch $\ce{H2SO4}$ đặc cùng một ít đá bọt trong 20 phút. Khối lượng ester thu được sau khi tách khỏi hỗn hợp và làm sạch là $8\text{ gam}$. Hiệu suất phản ứng ester hoá đạt
+\choice
+{$29{,}30\%$}
+{\True $60{,}78\%$}
+{$66{,}67\%$}
+{$72{,}27\%$}
+\loigiai{
+Phương trình hóa học phản ứng ester hóa:
+\[\ce{CH3COOH + C5H11OH <=>[\ce{H2SO4 \text{ đặc}}, t^\circ] CH3COOC5H11 + H2O}\]
+Khối lượng các chất ban đầu:
+\begin{itemize}
+	\item $m_{\ce{CH3COOH}} = 12 \times 1{,}05 = 12{,}6\text{ gam} \Rightarrow n_{\ce{CH3COOH}} = \dfrac{12{,}6}{60} = 0{,}21\text{ mol}$.
+	\item $m_{\ce{C5H11OH}} = 11 \times 0{,}81 = 8{,}91\text{ gam} \Rightarrow n_{\ce{C5H11OH}} = \dfrac{8{,}91}{88} = 0{,}10125\text{ mol}$.
+\end{itemize}
+So sánh tỉ lệ mol: $0{,}10125 < 0{,}21 \Rightarrow$ pentyl alcohol phản ứng hết trước, hiệu suất phản ứng tính theo pentyl alcohol.\\
+Khối lượng ester ($\ce{CH3COOC5H11}$, $M = 130\text{ g/mol}$) thu được theo lý thuyết:
+\[m_{\text{ester (LT)}} = 0{,}10125 \times 130 = 13{,}1625\text{ gam}.\]
+Hiệu suất phản ứng ester hóa:
+\[H = \dfrac{m_{\text{ester (TT)}}}{m_{\text{ester (LT)}}} \times 100\% = \dfrac{8}{13{,}1625} \times 100\% \approx \mathbf{60{,}78\%}.\]
+\textbf{Chọn B.}
+}
+\end{ex}
+
+\begin{ex}
+Chất nào sau đây không phải là ester?
+\choice
+{$\ce{HCOOCH3}$}
+{\True $\ce{C2H5COC3H7}$}
+{$\ce{CH3COOC2H5}$}
+{$\ce{(C15H31COO)3C3H5}$}
+\loigiai{
+- Các chất A, C, D đều chứa nhóm chức ester ($-\ce{COO}-$).\\
+- Chất B ($\ce{C2H5COC3H7}$ hay hexan-3-one) chứa nhóm chức carbonyl ($>\ce{C=O}$) liên kết với 2 gốc hydrocarbon, thuộc loại hợp chất ketone, không phải ester.\\
+\textbf{Chọn B.}
+}
+\end{ex}
+
+\begin{ex}
+Cho các phát biểu sau:
+\begin{enumerate}[(a)]
+	\item Khi làm đậu phụ xảy ra sự đông tụ protein.
+	\item Enzyme bị biến tính không thể thực hiện vai trò xúc tác.
+	\item Không nên vắt chanh vào sữa khi uống.
+	\item Sự thuỷ phân protein xảy ra trong quá trình làm nước mắm hay nấu nước tương.
+	\item Mỗi enzyme có một nhiệt độ tối ưu. Tại nhiệt độ tối ưu, enzyme có hoạt tính tối đa làm tốc độ phản ứng xảy ra nhanh nhất.
+\end{enumerate}
+Số phát biểu đúng là:
+\choice
+{2}
+{3}
+{4}
+{\True 5}
+\loigiai{
+Phân tích từng phát biểu:
+\begin{itemize}
+	\item (a) Đúng. Protein trong sữa đậu nành bị đông tụ dưới tác dụng của chất làm đông (nước chua, muối $\ce{Ca^{2+}}, \ce{Mg^{2+}}$) tạo thành đậu phụ.
+	\item (b) Đúng. Khi bị biến tính, cấu trúc không gian ba chiều đặc thù của enzyme bị phá hủy làm mất tâm hoạt động, do đó mất khả năng xúc tác.
+	\item (c) Đúng. Acid citric trong chanh làm giảm pH khiến protein casein trong sữa đông tụ vón cục, làm giảm giá trị dinh dưỡng và gây khó tiêu.
+	\item (d) Đúng. Protein trong cá (nước mắm) hoặc hạt đậu nành (nước tương) bị enzyme protease thủy phân dần dần thành các polypeptide ngắn và amino acid.
+	\item (e) Đúng. Hoạt tính xúc tác của enzyme phụ thuộc chặt chẽ vào nhiệt độ; mỗi enzyme đều có một nhiệt độ tối ưu mà tại đó hoạt tính là lớn nhất.
+\end{itemize}
+Vậy cả 5 phát biểu đều đúng.\\
+\textbf{Chọn D.}
+}
+\end{ex}
+
+\begin{ex}
+Tên gọi của hợp chất $\ce{C6H5-CH2-CH(NH2)-COOH}$ là
+\choice
+{Amino phenyl propionic acid}
+{phenylalanine}
+{2-amino-3-phenylpropionic acid}
+{\True 2-amino-3-phenylpropanoic acid}
+\loigiai{
+- Phân tích cấu tạo $\ce{C6H5-CH2-CH(NH2)-COOH}$:\\
+Mạch chính chứa 3 carbon (propanoic acid), nhóm carboxyl $-\ce{COOH}$ ở C1, nhóm amino $-\ce{NH2}$ ở C2, nhóm phenyl $-\ce{C6H5}$ ở C3.\\
+- Tên thay thế chuẩn theo danh pháp IUPAC hiện hành: \textbf{2-amino-3-phenylpropanoic acid}.\\
+(Tên thông thường là phenylalanine; tên bán hệ thống là $\alpha$-amino-$\beta$-phenylpropionic acid).\\
+\textbf{Chọn D.}
+}
+\end{ex}
+
+\begin{ex}
+Công thức cấu tạo của glycine là
+\choice
+{$\ce{C2H5NH2}$}
+{\True $\ce{H2NCH2COOH}$}
+{$\ce{CH3NH2}$}
+{$\ce{H2NCH(CH3)COOH}$}
+\loigiai{
+Glycine (kí hiệu Gly) là amino acid đơn giản nhất, có công thức cấu tạo là $\ce{H2N-CH2-COOH}$ (aminoethanoic acid).\\
+\textbf{Chọn B.}
+}
+\end{ex}
+
+\begin{ex}
+Cho dãy các chất: tinh bột, cellulose, glucose, fructose, saccharose. Số chất trong dãy thuộc loại monosaccharide là
+\choice
+{1}
+{3}
+{\True 2}
+{4}
+\loigiai{
+Phân loại carbohydrate trong dãy:
+\begin{itemize}
+	\item Monosaccharide: glucose, fructose (2 chất).
+	\item Disaccharide: saccharose (1 chất).
+	\item Polysaccharide: tinh bột, cellulose (2 chất).
+\end{itemize}
+Vậy có 2 chất thuộc loại monosaccharide.\\
+\textbf{Chọn C.}
+}
+\end{ex}
+
+\begin{ex}
+Chất nào sau đây là thành phần chính của chất giặt rửa tổng hợp?
+\begin{center}
+	\includegraphics[width=6.5cm]{San_Pham/images_crop_485/fig_cau11_detergent_clean.png}
+\end{center}
+\choice
+{$\ce{(C17H35COO)2Ca}$}
+{$\ce{C15H31COONa}$}
+{$\ce{C17H35COOK}$}
+{\True $\ce{CH3[CH2]11-C6H4-SO3Na}$}
+\loigiai{
+- Các chất B ($\ce{C15H31COONa}$) và C ($\ce{C17H35COOK}$) là muối sodium/potassium của acid béo, là thành phần chính của xà phòng.\\
+- Chất A ($\ce{(C17H35COO)2Ca}$) là muối kết tủa không tan, gây mất tác dụng của xà phòng trong nước cứng.\\
+- Chất D ($\ce{CH3[CH2]11-C6H4-SO3Na}$ hay sodium 4-dodecylbenzenesulfonate) là muối sulfonate thuộc nhóm chất hoạt động bề mặt tổng hợp từ dầu mỏ, là thành phần chính của chất giặt rửa tổng hợp.\\
+\textbf{Chọn D.}
+}
+\end{ex}
+
+\begin{ex}
+Số amine bậc I trong số các chất: $\ce{CH3NH2}$, $\ce{CH3NH3Cl}$, $\ce{(NH2)2CO}$, $\ce{CH3NHCH3}$, $\ce{CH3CH2NH2}$, $\ce{NH2CH2NH2}$, $\ce{(CH3)3N}$, $\ce{C6H5NH2}$ (aniline) là:
+\choice
+{6}
+{7}
+{5}
+{\True 4}
+\loigiai{
+Bậc của amine bằng số gốc hydrocarbon liên kết với nguyên tử nitrogen (hoặc số nguyên tử H trong $\ce{NH3}$ bị thay thế bởi gốc hydrocarbon).\\
+Xét từng chất:
+\begin{enumerate}[1.]
+	\item $\ce{CH3NH2}$: amine bậc I. (Thỏa mãn)
+	\item $\ce{CH3NH3Cl}$: muối methylammonium chloride, không phải amine.
+	\item $\ce{(NH2)2CO}$: urea (diamide của carbonic acid), không phải amine.
+	\item $\ce{CH3NHCH3}$: dimethylamine, amine bậc II.
+	\item $\ce{CH3CH2NH2}$: ethylamine, amine bậc I. (Thỏa mãn)
+	\item $\ce{NH2CH2NH2}$: methanediamine, diamine chứa 2 nhóm $-\ce{NH2}$ bậc I. (Thỏa mãn)
+	\item $\ce{(CH3)3N}$: trimethylamine, amine bậc III.
+	\item $\ce{C6H5NH2}$: aniline, amine bậc I. (Thỏa mãn)
+\end{enumerate}
+Vậy có 4 amine bậc I.\\
+\textbf{Chọn D.}
+}
+\end{ex}
+
+\Closesolutionfile{ans}
+
+\vspace{0.3cm}
+\noindent
+\textbf{PHẦN II (2 điểm -- 2 câu): Câu trắc nghiệm đúng sai.} \textit{Thí sinh trả lời từ câu 1 đến câu 2. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}
+
+\setcounter{ex}{0}
+
+\begin{ex}
+Thực hiện phản ứng điều chế isoamyl acetate theo trình tự sau:
+\begin{itemize}
+	\item \textit{Bước 1:} Cho $2\text{ mL}$ isoamyl alcohol, $2\text{ mL}$ acetic acid nguyên chất và 2 giọt sulfuric acid đặc vào ống nghiệm khô.
+	\item \textit{Bước 2:} Lắc đều, đun cách thủy hỗn hợp 5-6 phút trong nồi nước nóng.
+	\item \textit{Bước 3:} Để nguội, rồi rót hỗn hợp sản phẩm vào ống nghiệm chứa $2\text{ mL}$ dung dịch $\ce{NaCl}$ bão hòa.
+\end{itemize}
+\begin{enumerate}[a)]
+	\item Tách isoamyl acetate từ hỗn hợp sau bước 3 bằng phương pháp chiết.
+	\item Mục đích chính của việc cho dung dịch $\ce{NaCl}$ bão hòa nhằm tránh sự phân hủy sản phẩm.
+	\item Ở bước 2 xảy ra phản ứng ester hóa, giải phóng hơi có mùi thơm của chuối chín.
+	\item Phản ứng ester hóa giữa isoamyl alcohol với acetic acid là phản ứng thuận nghịch.
+\end{enumerate}
+\loigiai{
+\begin{itemize}
+	\item \textbf{Ý a) Đúng.} Isoamyl acetate hầu như không tan trong nước và dung dịch muối, có khối lượng riêng nhỏ hơn dung dịch $\ce{NaCl}$ nên nổi lên trên tạo thành hai lớp chất lỏng phân biệt, do đó có thể tách riêng bằng phễu chiết.
+	\item \textbf{Ý b) Sai.} Mục đích của việc thêm dung dịch $\ce{NaCl}$ bão hòa là làm tăng tỉ trọng của pha nước và làm giảm độ tan của ester trong nước (hiện tượng salting-out), giúp ester tách lớp rõ rệt hơn; không nhằm mục đích tránh phân hủy sản phẩm.
+	\item \textbf{Ý c) Đúng.} Ở bước 2, phản ứng ester hóa diễn ra tạo ra isoamyl acetate (dầu chuối) có mùi thơm ngọt đặc trưng của chuối chín.
+	\item \textbf{Ý d) Đúng.} Phản ứng ester hóa giữa carboxylic acid và alcohol với xúc tác acid vô cơ mạnh là phản ứng thuận nghịch (hai chiều).
+\end{itemize}
+\textbf{Đáp án:} a - Đúng, b - Sai, c - Đúng, d - Đúng.
+}
+\end{ex}
+
+\begin{ex}
+Em hãy cho biết các phát biểu sau đúng hay sai?
+\begin{enumerate}[a)]
+	\item Thuỷ phân saccharose và maltose chỉ thu được một monosaccharide duy nhất.
+	\item Glucose và Fructose đều có thể mở vòng thành dạng mạch hở.
+	\item Glucose và fructose là đồng phân của nhau.
+	\item Thuỷ phân 1 tấn tinh bột thu được 10 tấn glucose. Hiệu suất thuỷ phân tinh bột đạt 80\%.
+\end{enumerate}
+\loigiai{
+\begin{itemize}
+	\item \textbf{Ý a) Sai.} Khi thủy phân hoàn toàn:
+	\[\text{Maltose} + \ce{H2O} \xrightarrow{\text{H}^+, t^\circ} \text{2 Glucose (1 loại monosaccharide)}\]
+	\[\text{Saccharose} + \ce{H2O} \xrightarrow{\text{H}^+, t^\circ} \text{Glucose} + \text{Fructose (2 loại monosaccharide khác nhau)}\]
+	Do đó saccharose không cho 1 monosaccharide duy nhất.
+	\item \textbf{Ý b) Đúng.} Trong dung dịch nước, các dạng mạch vòng của glucose và fructose luôn tồn tại trong cân bằng chuyển hóa động mở vòng tạo dạng mạch hở chứa nhóm carbonyl.
+	\item \textbf{Ý c) Đúng.} Cả glucose và fructose đều có công thức phân tử là $\ce{C6H12O6}$ ($M = 180\text{ g/mol}$) nhưng khác nhau về công thức cấu tạo nên là đồng phân của nhau.
+	\item \textbf{Ý d) Sai.} Theo định luật bảo toàn khối lượng và phương trình phản ứng:
+	\[\ce{(C6H10O5)_n} (162n) \rightarrow n\ce{C6H12O6} (180n)\]
+	Từ 1 tấn tinh bột, khối lượng glucose tối đa theo lý thuyết (hiệu suất 100\%) chỉ là:
+	\[m_{\text{glucose (LT)}} = 1 \times \dfrac{180}{162} \approx 1{,}11\text{ tấn}.\]
+	Với hiệu suất $80\%$, lượng glucose thực tế chỉ thu được $1{,}11 \times 80\% \approx 0{,}889\text{ tấn} < 1\text{ tấn}$, hoàn toàn không thể thu được 10 tấn.
+\end{itemize}
+\textbf{Đáp án:} a - Sai, b - Đúng, c - Đúng, d - Sai.
+}
+\end{ex}
+
+\vspace{0.3cm}
+\noindent
+\textbf{PHẦN III (2,0 điểm -- 8 câu): Câu trắc nghiệm yêu cầu trả lời ngắn.} \textit{Thí sinh trả lời từ câu 1 đến câu 8.}
+
+\setcounter{ex}{0}
+
+\begin{ex}
+Lên men $m\text{ gam}$ glucose với hiệu suất 90\%, lượng khí $\ce{CO2}$ sinh ra hấp thụ hết vào nước vôi trong, thu được $10\text{ gam}$ kết tủa. Khối lượng sau phản ứng giảm $3{,}4\text{ gam}$ so với khối lượng dung dịch nước vôi trong ban đầu. Giá trị của $m$ là bao nhiêu?
+\loigiai{
+Kết tủa thu được là $\ce{CaCO3}$:
+\[n_{\ce{CaCO3}} = \dfrac{10}{100} = 0{,}1\text{ mol}.\]
+Khối lượng dung dịch giảm $3{,}4\text{ gam}$:
+\[\Delta m_{\text{dd}} = m_{\ce{CO2}} - m_{\text{kết tủa}} = -3{,}4\text{ gam}\]
+\[\Rightarrow m_{\ce{CO2}} = 10 - 3{,}4 = 6{,}6\text{ gam} \Rightarrow n_{\ce{CO2}} = \dfrac{6{,}6}{44} = 0{,}15\text{ mol}.\]
+Phương trình phản ứng lên men rượu:
+\[\ce{C6H12O6 ->[men rượu] 2 CO2 + 2 C2H5OH}\]
+Số mol glucose theo lý thuyết:
+\[n_{\text{glucose (LT)}} = \dfrac{n_{\ce{CO2}}}{2} = \dfrac{0{,}15}{2} = 0{,}075\text{ mol}.\]
+Do hiệu suất quá trình lên men đạt 90\%, số mol glucose thực tế cần dùng là:
+\[n_{\text{glucose (TT)}} = \dfrac{0{,}075}{0{,}9} = \dfrac{1}{12}\text{ mol}.\]
+Khối lượng glucose ban đầu:
+\[m = \dfrac{1}{12} \times 180 = \mathbf{15\text{ gam}}.\]
+\textbf{Đáp số:} $\mathbf{15}$.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu amine bậc 1 trong các amine sau?\\
+(1). $\ce{CH3CH2CH2NH2}$. \quad (2). $\ce{CH3CH(NH2)CH3}$. \quad (3). $\ce{CH3NHCH2CH3}$. \quad (4). $\ce{(CH3)3N}$.
+\loigiai{
+- (1) $\ce{CH3CH2CH2NH2}$ (propan-1-amine): amine bậc 1.\\
+- (2) $\ce{CH3CH(NH2)CH3}$ (propan-2-amine): amine bậc 1.\\
+- (3) $\ce{CH3NHCH2CH3}$ (N-methylethanamine): amine bậc 2.\\
+- (4) $\ce{(CH3)3N}$ (trimethylamine): amine bậc 3.\\
+Vậy có 2 amine bậc 1 là (1) và (2).\\
+\textbf{Đáp số:} $\mathbf{2}$.
+}
+\end{ex}
+
+\begin{ex}
+Một ester X mạch hở, có công thức phân tử $\ce{C4H8O2}$. Có bao nhiêu đồng phân cấu tạo ester của X?
+\loigiai{
+Các đồng phân cấu tạo ester của $\ce{C4H8O2}$ (dạng $\ce{RCOOR'}$):
+\begin{enumerate}[1.]
+	\item $\ce{HCOOCH2CH2CH3}$ (propyl formate)
+	\item $\ce{HCOOCH(CH3)2}$ (isopropyl formate)
+	\item $\ce{CH3COOCH2CH3}$ (ethyl acetate)
+	\item $\ce{CH3CH2COOCH3}$ (methyl propionate)
+\end{enumerate}
+Tổng cộng có 4 đồng phân cấu tạo ester.\\
+\textbf{Đáp số:} $\mathbf{4}$.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu đồng phân amine bậc một ứng với công thức phân tử $\ce{C4H11N}$?
+\loigiai{
+Amine bậc một có dạng $\ce{C4H9NH2}$ (gốc butyl $-\ce{C4H9}$ có 4 đồng phân cấu tạo):
+\begin{enumerate}[1.]
+	\item $\ce{CH3-CH2-CH2-CH2-NH2}$ (butan-1-amine)
+	\item $\ce{CH3-CH2-CH(NH2)-CH3}$ (butan-2-amine)
+	\item $\ce{(CH3)2CH-CH2-NH2}$ (2-methylpropan-1-amine)
+	\item $\ce{(CH3)3C-NH2}$ (2-methylpropan-2-amine)
+\end{enumerate}
+Tổng cộng có 4 đồng phân amine bậc 1.\\
+\textbf{Đáp số:} $\mathbf{4}$.
+}
+\end{ex}
+
+\begin{ex}
+Cơ thể người mã hoá được mấy loại amino acid có trong bảng sau để tổng hợp protein cho cơ thể?
+\begin{center}
+	\includegraphics[width=14.0cm]{San_Pham/images_crop_485/fig_cau5_amino_acids_clean.png}
+\end{center}
+\loigiai{
+Cơ thể người chỉ mã hóa các $\alpha$-amino acid tiêu chuẩn (trong số 20 amino acid tiêu chuẩn) để tổng hợp protein.\\
+Quan sát 4 chất trong hình:
+\begin{itemize}
+	\item Chất A: $^+\ce{H3N-CH2-CH2-COO-}$ ($\beta$-alanine, là $\beta$-amino acid, không tham gia mã hóa protein).
+	\item Chất B: $\ce{CH3-CH(NH3^+)-COO-}$ (dạng ion lưỡng cực của $\alpha$-alanine / Ala, là một $\alpha$-amino acid tiêu chuẩn tham gia mã hóa tổng hợp protein).
+	\item Chất C: $^+\ce{H3N-CH2-CH(NH2)-CH2-COO-}$ (diaminobutanoate, không phải amino acid tiêu chuẩn).
+	\item Chất D: $\ce{H2N-CH2-OH}$ (amino alcohol, không phải amino acid).
+\end{itemize}
+Vậy chỉ có duy nhất 1 loại amino acid (chất B) được mã hóa để tổng hợp protein cho cơ thể.\\
+\textbf{Đáp số:} $\mathbf{1}$.
+}
+\end{ex}
+
+\begin{ex}
+Thuỷ phân hết $m\text{ gam}$ tetrapeptide Ala-Ala-Ala-Ala (mạch hở) thu được hỗn hợp gồm $28{,}24\text{ gam}$ Ala, $32\text{ gam}$ Ala-Ala và $27{,}27\text{ gam}$ Ala-Ala-Ala. Giá trị của $m$ là bao nhiêu? \textit{(Làm tròn kết quả 1 lần cuối cùng đến hàng đơn vị)}.
+\loigiai{
+Khối lượng mol của các chất:
+\[M_{\text{Ala}} = 89\text{ g/mol}\]
+\[M_{\text{Ala-Ala}} = 2 \times 89 - 18 = 160\text{ g/mol}\]
+\[M_{\text{Ala-Ala-Ala}} = 3 \times 89 - 36 = 231\text{ g/mol}\]
+\[M_{\text{tetrapeptide}} = 4 \times 89 - 54 = 302\text{ g/mol}\]
+Số mol các sản phẩm thu được:
+\[n_{\text{Ala}} = \dfrac{28{,}24}{89} \approx 0{,}3173\text{ mol}\]
+\[n_{\text{Ala-Ala}} = \dfrac{32}{160} = 0{,}2\text{ mol}\]
+\[n_{\text{Ala-Ala-Ala}} = \dfrac{27{,}27}{231} \approx 0{,}11805\text{ mol}\]
+Bảo toàn số mol gốc Ala:
+\[n_{\text{Ala (tổng)}} = 1 \times n_{\text{Ala}} + 2 \times n_{\text{Ala-Ala}} + 3 \times n_{\text{Ala-Ala-Ala}}\]
+\[n_{\text{Ala (tổng)}} = 0{,}3173 + 2 \times 0{,}2 + 3 \times 0{,}11805 \approx 1{,}07145\text{ mol}.\]
+Do mỗi phân tử tetrapeptide $\text{Ala}_4$ chứa 4 gốc Ala:
+\[n_{\text{tetrapeptide}} = \dfrac{n_{\text{Ala (tổng)}}}{4} = \dfrac{1{,}07145}{4} \approx 0{,}26786\text{ mol}.\]
+Khối lượng tetrapeptide ban đầu:
+\[m = 0{,}26786 \times 302 \approx 80{,}895\text{ gam} \approx \mathbf{81\text{ gam}}.\]
+\textbf{Đáp số:} $\mathbf{81}$.
+}
+\end{ex}
+
+\begin{ex}
+Saccharose tham gia được bao nhiêu phản ứng nào sau đây?
+\begin{enumerate}[(a)]
+	\item Phản ứng với thuốc thử Tollens.
+	\item Phản ứng với nước bromine.
+	\item Phản ứng với $\ce{Cu(OH)2}$ tạo dung dịch màu xanh lam.
+	\item Phản ứng thuỷ phân trong môi trường kiềm.
+\end{enumerate}
+\loigiai{
+- (a) Không tham gia, do phân tử saccharose không có nhóm $-\ce{OH}$ hemiacetal/hemiketal tự do nên không mở vòng tạo nhóm aldehyde, không có tính khử và không tráng bạc.\\
+- (b) Không tham gia, vì saccharose không có tính khử đối với nước bromine.\\
+- (c) Có tham gia, vì phân tử saccharose chứa nhiều nhóm $-\ce{OH}$ kề nhau (polyalcohol) hòa tan $\ce{Cu(OH)2}$ ở nhiệt độ thường tạo phức chất màu xanh lam.\\
+- (d) Không tham gia, carbohydrate chỉ bị thủy phân trong môi trường acid hoặc xúc tác enzyme, không bị thủy phân trong môi trường kiềm.\\
+Vậy saccharose chỉ tham gia 1 phản ứng duy nhất là (c).\\
+\textbf{Đáp số:} $\mathbf{1}$.
+}
+\end{ex}
+
+\begin{ex}
+Protein tham gia được loại phản ứng dưới đây? Viết theo số thứ tự tăng dần (1234...)
+\begin{enumerate}[(1)]
+	\item Phản ứng khử thành alcohol.
+	\item Phản ứng màu với $\ce{Cu(OH)2}$.
+	\item Phản ứng màu với $\ce{HNO3}$.
+	\item Phản ứng thuỷ phân.
+\end{enumerate}
+\loigiai{
+- (1) Protein không có phản ứng khử thành alcohol.\\
+- (2) Phản ứng màu biuret với $\ce{Cu(OH)2}$ trong môi trường kiềm cho phức màu tím đặc trưng.\\
+- (3) Phản ứng màu xanthoproteic với $\ce{HNO3}$ đặc tạo kết tủa màu vàng.\\
+- (4) Phản ứng thủy phân liên kết peptide xúc tác acid, base hoặc enzyme tạo amino acid.\\
+Các phản ứng protein tham gia được: (2), (3), (4).\\
+Viết theo số thứ tự tăng dần: \textbf{234}.\\
+\textbf{Đáp số:} $\mathbf{234}$.
+}
+\end{ex}
+
+\vspace{0.4cm}
+\noindent
+\textbf{B. PHẦN IV - TỰ LUẬN (3 ĐIỂM)}
+
+\setcounter{ex}{0}
+
+\begin{ex}
+\textbf{(1,5 điểm)}
+\begin{enumerate}[a)]
+	\item Cho hợp chất hữu cơ X có công thức phân tử $\ce{C3H6O2}$. Hãy viết các đồng phân cấu tạo ester và gọi tên chúng.
+	\item Viết công thức khung phân tử của stearic acid và oleic acid, biết oleic acid là acid béo omega-9, có liên kết đôi $\ce{C=C}$ ở dạng cis. Dự đoán nhiệt độ nóng chảy của oleic acid và stearic acid. Giải thích.
+\end{enumerate}
+\loigiai{
+\textbf{a) Các đồng phân cấu tạo ester của $\ce{C3H6O2}$:}
+\begin{itemize}
+	\item $\ce{HCOOCH2CH3}$: ethyl formate (hoặc ethyl methanoate).
+	\item $\ce{CH3COOCH3}$: methyl acetate (hoặc methyl ethanoate).
+\end{itemize}
+
+\textbf{b) Công thức khung phân tử và nhiệt độ nóng chảy:}
+\begin{itemize}
+	\item \textit{Công thức khung phân tử:}
+	\begin{itemize}
+		\item Stearic acid ($\ce{C17H35COOH}$): là chuỗi hydrocarbon no 18 carbon duỗi thẳng dạng zigzag liên tục, đầu tận cùng là nhóm carboxyl $-\ce{COOH}$.
+		\item Oleic acid ($\text{cis}-\ce{C17H33COOH}$): acid béo không no 18 carbon omega-9 có 1 liên kết đôi $\ce{C=C}$ cấu hình \textit{cis} ở vị trí C9=C10. Do liên kết đôi ở dạng \textit{cis}, mạch carbon bị bẻ cong (gập góc) tại vị trí này.
+	\end{itemize}
+	\item \textit{Dự đoán nhiệt độ nóng chảy:} Nhiệt độ nóng chảy của stearic acid cao hơn oleic acid ($t_{\text{nc}}^{\text{stearic}} \approx 69{,}6^\circ\text{C}$ ở thể rắn; $t_{\text{nc}}^{\text{oleic}} \approx 13 - 14^\circ\text{C}$ ở thể lỏng ở nhiệt độ phòng).
+	\item \textit{Giải thích:}
+	\begin{itemize}
+		\item Phân tử stearic acid có mạch thẳng không bị gấp khúc nên các phân tử dễ dàng xếp khít chặt chẽ vào nhau trong mạng tinh thể, làm tăng diện tích tiếp xúc và tăng lực tương tác Van der Waals liên phân tử $\Rightarrow$ nhiệt độ nóng chảy cao.
+		\item Phân tử oleic acid có liên kết đôi cấu hình \textit{cis} làm cho mạch bị bẻ cong, các phân tử khó xếp khít sít nhau, làm giảm tương tác Van der Waals giữa các phân tử $\Rightarrow$ nhiệt độ nóng chảy thấp hơn nhiều.
+	\end{itemize}
+\end{itemize}
+}
+\end{ex}
+
+\begin{ex}
+\textbf{(0,75 điểm)}
+\begin{enumerate}[a)]
+	\item Cho các lọ đựng các dung dịch sau bị mất nhãn: glucose, fructose và tinh bột. Trình bày cách nhận biết chúng.
+	\item X là hỗn hợp gồm glucose, fructose và tinh bột. Phân tích thành phần nguyên tố trong X được $\%C = 40{,}82\%$; $\%H = 6{,}57\%$ (theo khối lượng). Phần trăm khối lượng tinh bột trong X là bao nhiêu?
+\end{enumerate}
+\loigiai{
+\textbf{a) Nhận biết các dung dịch:}
+\begin{enumerate}[1.]
+	\item Lấy mỗi dung dịch một ít vào ống nghiệm đánh số làm mẫu thử.
+	\item Nhỏ vài giọt dung dịch iodine ($\ce{I2}$) vào các mẫu thử:
+	\begin{itemize}
+		\item Mẫu thử xuất hiện màu xanh tím đặc trưng là \textbf{tinh bột}.
+		\item Hai mẫu thử còn lại (glucose, fructose) không đổi màu.
+	\end{itemize}
+	\item Lấy hai mẫu thử chưa nhận biết (glucose và fructose), nhỏ vài giọt dung dịch nước bromine ($\ce{Br2}$) vào từng mẫu thử:
+	\begin{itemize}
+		\item Mẫu thử làm mất màu nước bromine là \textbf{glucose} do phản ứng oxy hóa nhóm $-\ce{CHO}$ thành acid gluconic:
+		\[\ce{CH2OH[CHOH]4CHO + Br2 + H2O -> CH2OH[CHOH]4COOH + 2 HBr}\]
+		\item Mẫu thử không làm mất màu nước bromine là \textbf{fructose} (trong môi trường acid yếu của nước bromine, fructose không chuyển hóa thành glucose nên không làm mất màu).
+	\end{itemize}
+\end{enumerate}
+
+\textbf{b) Tính phần trăm khối lượng tinh bột trong X:}
+\begin{itemize}
+	\item Glucose và fructose đều có công thức phân tử là $\ce{C6H12O6}$ ($M = 180\text{ g/mol}$):
+	\[\%C_1 = \dfrac{6 \times 12}{180} \times 100\% = 40{,}00\%.\]
+	\item Tinh bột có công thức mắt xích $\ce{C6H10O5}$ ($M = 162\text{ g/mol}$):
+	\[\%C_2 = \dfrac{6 \times 12}{162} \times 100\% = \dfrac{72}{162} \times 100\% = \dfrac{4}{9} \times 100\% \approx 44{,}44\%.\]
+	\item Gọi phần trăm khối lượng tinh bột trong X là $a\%$, phần trăm khối lượng monosaccharide là $(100 - a)\%$:
+	\[\%C_X = 40{,}00 \times \dfrac{100 - a}{100} + \dfrac{72}{162} \times 100 \times \dfrac{a}{100} = 40{,}82\%\]
+	\[\Leftrightarrow 40{,}00 + a \times \left(\dfrac{72}{162} - 0{,}4\right) = 40{,}82\]
+	\[\Leftrightarrow a \times \dfrac{2}{45} = 0{,}82 \Leftrightarrow a = \dfrac{0{,}82 \times 45}{2} = \mathbf{18{,}45\%}.\]
+\end{itemize}
+Vậy phần trăm khối lượng của tinh bột trong hỗn hợp X là \textbf{18,45\%}.
+}
+\end{ex}
+
+\begin{ex}
+\textbf{(0,75 điểm)} Cho $0{,}02\text{ mol}$ $\alpha$-amino acid X tác dụng vừa đủ với dung dịch chứa $0{,}04\text{ mol}$ $\ce{NaOH}$. Mặt khác $0{,}02\text{ mol}$ X tác dụng vừa đủ với $0{,}02\text{ mol}$ $\ce{HCl}$, thu được $3{,}67\text{ gam}$ muối.
+\begin{enumerate}[a)]
+	\item Nhúng Quỳ tím vào dung dịch X thì quỳ tím chuyển sang màu gì? Giải thích.
+	\item Xác định công thức cấu tạo và gọi tên X, Viết kí hiệu của X.
+\end{enumerate}
+\loigiai{
+\textbf{a) Hiện tượng khi nhúng quỳ tím vào dung dịch X:}
+\begin{itemize}
+	\item Tỉ lệ mol $\dfrac{n_{\ce{NaOH}}}{n_X} = \dfrac{0{,}04}{0{,}02} = 2 \Rightarrow$ X có 2 nhóm carboxyl ($-\ce{COOH}$).
+	\item Tỉ lệ mol $\dfrac{n_{\ce{HCl}}}{n_X} = \dfrac{0{,}02}{0{,}02} = 1 \Rightarrow$ X có 1 nhóm amino ($-\ce{NH2}$).
+	\item Phân tử X có 2 nhóm $-\ce{COOH}$ và 1 nhóm $-\ce{NH2}$ (số nhóm $-\ce{COOH} >$ số nhóm $-\ce{NH2}$) nên dung dịch X có tính acid ($\text{pH} < 7$).
+	\item Do đó, nhúng quỳ tím vào dung dịch X làm \textbf{quỳ tím chuyển sang màu đỏ (hoặc hồng)}.
+\end{itemize}
+
+\textbf{b) Xác định CTCT, tên gọi và kí hiệu của X:}
+\begin{itemize}
+	\item Khi tác dụng với $\ce{HCl}$:
+	\[\ce{H2N-R-(COOH)2 + HCl -> ClH3N-R-(COOH)2}\]
+	$n_{\text{muối}} = n_X = 0{,}02\text{ mol}$.\\
+	Khối lượng mol của muối: $M_{\text{muối}} = \dfrac{3{,}67}{0{,}02} = 183{,}5\text{ g/mol}$.
+	\item Khối lượng mol của X:
+	\[M_X = M_{\text{muối}} - 36{,}5 = 183{,}5 - 36{,}5 = 147\text{ g/mol}.\]
+	\item Ta có: $M_R + 16 + 2 \times 45 = 147 \Rightarrow M_R = 41$ (gốc $-\ce{C3H5}-$).
+	\item Vì X là một $\alpha$-amino acid, nhóm $-\ce{NH2}$ phải liên kết với nguyên tử carbon số 2 ($\alpha$). Do đó, công thức cấu tạo của X là:
+	\[\ce{HOOC-CH2-CH2-CH(NH2)-COOH}\]
+	\item \textbf{Tên gọi:} \textbf{glutamic acid} (hoặc acid glutamic; tên thay thế: \textbf{2-aminopentanedioic acid}).
+	\item \textbf{Kí hiệu:} \textbf{Glu} (hoặc kí hiệu 1 chữ cái: \textbf{E}).
+\end{itemize}
+}
+\end{ex}
+
+\begin{center}
+\textbf{--------- HẾT ---------}
+\end{center}
+
+\end{document}
