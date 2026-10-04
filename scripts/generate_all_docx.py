@@ -157,30 +157,30 @@ def add_exam_header_block(doc, is_teacher=False):
     tbl_pr.append(tblBorders)
 
     c0 = tbl.cell(0, 0)
-    c0.width = Cm(7.5)
+    c0.width = Cm(6.5)
     p0 = c0.paragraphs[0]
     p0.alignment = WD_ALIGN_PARAGRAPH.CENTER
     p0.paragraph_format.space_after = Pt(2)
     p0.paragraph_format.line_spacing = 1.15
     r = p0.add_run("SỞ GIÁO DỤC & ĐÀO TẠO TP HUẾ\nTRƯỜNG THPT HAI BÀ TRƯNG\n")
-    set_run_style(r, font_size=11, bold=True)
+    set_run_style(r, font_size=10.5, bold=True)
     r_code = p0.add_run("Mã đề thi: 209")
-    set_run_style(r_code, font_size=11, bold=True, color=COLOR_PRIMARY)
+    set_run_style(r_code, font_size=10.5, bold=True, color=COLOR_PRIMARY)
 
     c1 = tbl.cell(0, 1)
-    c1.width = Cm(10.5)
+    c1.width = Cm(11.5)
     p1 = c1.paragraphs[0]
     p1.alignment = WD_ALIGN_PARAGRAPH.CENTER
     p1.paragraph_format.space_after = Pt(2)
     p1.paragraph_format.line_spacing = 1.15
-    r = p1.add_run("ĐỀ KIỂM TRA CUỐI KÌ II - NĂM HỌC 2024-2025\nMÔN HÓA HỌC LỚP 11\n")
-    set_run_style(r, font_size=11, bold=True)
+    r = p1.add_run("ĐỀ KIỂM TRA CUỐI KÌ II - NĂM HỌC 2024-2025\nMÔN: HÓA HỌC 11\n")
+    set_run_style(r, font_size=10.5, bold=True)
     if is_teacher:
         r_sub = p1.add_run("(HƯỚNG DẪN CHẤM VÀ LỜI GIẢI CHI TIẾT)")
-        set_run_style(r_sub, font_size=10.5, bold=True, color=COLOR_CORRECT)
+        set_run_style(r_sub, font_size=10, bold=True, color=COLOR_CORRECT)
     else:
-        r_sub = p1.add_run("Thời gian làm bài: 45 phút (không kể thời gian phát đề)")
-        set_run_style(r_sub, font_size=10.5, italic=True)
+        r_sub = p1.add_run("Thời gian làm bài: 45 phút (không kể phát đề)")
+        set_run_style(r_sub, font_size=10, italic=True)
 
     p_info = doc.add_paragraph()
     p_info.paragraph_format.space_before = Pt(4)
