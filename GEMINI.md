@@ -41,7 +41,12 @@ Mỗi đề thi luôn tạo ra 2 file Word:
 2. **Bản Giáo viên** (`De_Kiem_Tra_Hoa_[Lop]_Ma[Made]_GiaoVien.docx`):
    - Có dòng ghi chú đỏ `(BẢN GIÁO VIÊN -- CÓ LỜI GIẢI CHI TIẾT)`.
    - Đáp án đúng được in đậm màu đỏ/được đánh dấu rõ ràng.
-   - Mỗi câu đều có khung lời giải chi tiết (`#F0F4F8`, viền trái màu xanh lam `#1565C0`).
+   - Mỗi câu đều có phần lời giải chi tiết trình bày rõ ràng, nổi bật.
+
+### 1.7. Tuyệt đối không dùng dạng bảng (Table) trong nội dung đề thi
+- Trong toàn bộ phần nội dung đề thi (phương án lựa chọn A-B-C-D, các ý đúng/sai, và lời giải chi tiết): **Tuyệt đối KHÔNG sử dụng Table (bảng)**.
+- Bố trí các phương án A, B, C, D bằng đoạn văn bản thuần túy (Paragraph) kết hợp điểm dừng Tab (Tab stops: 4.5 cm, 9.0 cm, 13.5 cm).
+- Phần lời giải chi tiết trình bày dưới dạng đoạn văn bản thụt lề rõ ràng (Left Indent 0.5 - 0.8 cm), có tiêu đề in đậm màu xanh (`#1565C0`), không lồng vào ô bảng để thuận tiện copy và chỉnh sửa văn bản Word.
 
 ---
 
