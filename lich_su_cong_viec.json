@@ -1,0 +1,18 @@
+{
+  "De_Kiem_Tra_Hoa_11_Ma209.pdf": {
+    "status": "completed",
+    "processed_at": "2026-10-04 10:50:00",
+    "md5": "3a9938ba1db95ae86ee6a53f8fd49a19",
+    "student_deliverables": {
+      "pdf": "San_Pham/De_Kiem_Tra_Hoa_11_Ma209_HocSinh.pdf",
+      "tex": "San_Pham/De_Kiem_Tra_Hoa_11_Ma209_HocSinh.tex",
+      "docx": "San_Pham/De_Kiem_Tra_Hoa_11_Ma209.docx"
+    },
+    "teacher_deliverables": {
+      "pdf": "San_Pham/De_Kiem_Tra_Hoa_11_Ma209_GiaoVien.pdf",
+      "tex": "San_Pham/De_Kiem_Tra_Hoa_11_Ma209_GiaoVien.tex",
+      "docx": "San_Pham/De_Kiem_Tra_Hoa_11_Ma209_GiaoVien.docx"
+    },
+    "description": "Đề kiểm tra cuối kì II Hóa học 11 (Mã 209). Cấu trúc Catechin chuẩn ChemFig. Header/Footer bản quyền Thầy Trần Văn Thạnh theo mẫu 3C2-26-27-DE. Canh tab A, B, C, D không dùng bảng trong Word, chữ chuẩn đẹp không sít nhau."
+  }
+}

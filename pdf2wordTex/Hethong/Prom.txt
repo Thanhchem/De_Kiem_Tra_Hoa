@@ -1,0 +1,121 @@
+chuyển toàn bộ câu hỏi sang code latex theo gói ex_test, các kí hiệu toán học và số đều để trong $$ một cách chuẩn xác phù hợp.
+Đây là mẫu câu trắc nghiệm trong gói ex_test
+\begin{ex}
+	...
+	\choice
+	{}
+	{}
+	{}
+	{}
+	\loigiai{
+	...
+	}
+\end{ex}
+mẫu câu đúng sai
+\begin{ex} 
+	...
+	\choiceTF
+	{}
+	{}
+	{}
+	{}
+	\loigiai{
+	...
+	}
+\end{ex}
+mẫu câu trả lời ngắn
+\begin{ex}
+	...
+	\par\shortans[oly]{...}
+	\loigiai{
+	
+	}
+\end{ex}
+Mẫu câu tự luận
+\begin{ex}
+	...
+	\loigiai{
+	
+	}
+\end{ex}
+Mẫu câu bài tập
+\begin{bt}
+	...
+	\loigiai{
+	
+	}
+\end{bt}
+Nếu có môi trường 
+\begin{enumerate}
+	\item[a)] 
+	\item[b)] 
+\end{enumerate}
+thì thay bằng 
+\begin{enumerate}[a)]
+	\item 
+	\item 
+\end{enumerate}
+Các kí hiệu tổ hợp, chỉnh hợp hay hoán Vị C, A, P đều để trong $\mathrm{C}$, $\mathrm{A}$, $\mathrm{P}$.
+\ne và \geq và \leq thì thay thành \neq, \geqslant \leqslant
+các kí hiệu khoảng cách từ 1 điểm đến 1 đường thẳng hay một mặt phẳng thì chữ d phải để trong $\mathrm{d}$.
+nếu có lệnh \iff thì thay bằng \Leftrightarrow.
+Trước \int_ đều thêm \displaystyle,
+Đáp án đúng thì thêm \True, không tự ý thêm lời giải trừ phi mình yêu cầu.
+max, min thì gõ là \max\limits_ hoặc \min\limits_
+\lim_ thì thay thành \lim\limits_
+phân số bình thường dùng \dfrac{}{}, phân số trên số mũ thì dùng \tfrac{}{}
+bảng biến thiên thì dùng gói lệnh tik-tab-vn để vẽ.
+vẽ tất cả đồ thị hàm số bằng code tikz một cách chính xác cho từng câu có hình vẽ, nhớ ghi chú câu nào rõ ràng
+các kí hiệu e^ đều thay bằng \mathrm{e}^
+D= đều thay bằng \mathscr{D}
+các kí hiệu kiểu này $(...)$ và $[...]$ đều thay bằng $\left(...\right)$ hoặc bằng $\left[...\right]$ để ngoặc được đẹp hơn.
+Các công thức toán học nếu có dạng $ , ,$ thì tách riêng thành các công thức riêng biệt $ $, $ $ nha.
+Các lệnh \begin{cases} x = 1 + 2t \\ y = -2 - t \\ z = 3 + 3t \end{cases} đều chuyển sang dạng $\heva{& ... \\ & ...}$ hoặc \hoac{& ... \\ & ...}
+\vec thì dùng \overrightarrow thay thế.
+nếu gặp kiểu đường thẳng viết là d: thì bạn chuyển thành d\colon nhé
+^{\prime} thì thay bằng '
+\shortans{} kiểu này thì sau bạn thêm thành \par\shortans[oly]{} nhé
+\le luôn dùng \leqslant, \ge luôn dùng \geqslant
+Trong bảng biến thiên bạn hay dùng tùy chọn esp nó bị lỗi nên chuyển sang là espcl.
+Đây là code mẫu vẽ hình
+\begin{tikzpicture}[scale=1, font=\footnotesize, line join=round, line cap=round, >=stealth,declare function={ab=2;ad=4;cao=3.5;gocB=35;}]
+\path (0,0) coordinate (B)
+(ad,0) coordinate (C)
+(gocB:ab) coordinate (A)
+($(C)-(B)+(A)$) coordinate (D)
+($(A)+(90:cao)$) coordinate (A')
+($(B)+(90:cao)$) coordinate (B')
+($(C)+(90:cao)$) coordinate (C')
+($(D)+(90:cao)$) coordinate (D')
+;
+\draw[dashed] (A')--(A)--(B) (A)--(D);
+\draw (A')--(B')--(C')--(D')--cycle 
+(D)--(D')--(C')--(C) (C')--(B')--(B) (D)--(C)--(B)
+;
+\foreach \x/\gm in {A'/120,B'/90,C'/90,D'/90,A/160,B/-90,D/40,C/-90} \fill (\x) circle (1pt) ($(\x)+(\gm:3.5mm)$)node{$\x$};
+\end{tikzpicture}
+Bạn vẽ theo code mình nhé. Nét đứt nét liền phải vẽ chính xác nhé bạn.
+Các phần câu hỏi trong đề thi hãy code theo từng phần thế này cho mình nha, đó là tiêu đề cho từng phần đó, nếu nó đang là đề thi
+\begin{flushleft}
+		\color{blue!50!green}\fbox{\fontfamily{qag}\bfseries\selectfont PHẦN 1. Câu trắc nghiệm 4 phương án}
+	\end{flushleft}
+	\setcounter{ex}{0}
+\setcounter{bt}{0}
+\begin{flushleft}
+		{\color{blue!50!green}\fbox{\fontfamily{qag}\bfseries\selectfont PHẦN 2. Câu trắc nghiệm đúng sai}}
+	\end{flushleft}
+	\setcounter{ex}{0}
+\setcounter{bt}{0}
+\begin{flushleft}
+		{\color{blue!50!green}\fbox{\fontfamily{qag}\bfseries\selectfont PHẦN 3. Câu trắc nghiệm trả lời ngắn}}
+	\end{flushleft}
+	\setcounter{ex}{0}
+\setcounter{bt}{0}
+\begin{flushleft}
+		{\color{blue!50!green}\fbox{ \fontfamily{qag}\bfseries\selectfont Tự Luận:}}
+	\end{flushleft}
+	\setcounter{ex}{0}
+\setcounter{bt}{0}
+
+Thay dấu ngoặc của dạng này (1,0 điểm) thành [1,0 điểm] nhé.
+Còn nó là đề cương thì Các mục của file phải giữ nguyên nha bạn.

@@ -1,0 +1,10 @@
+__pycache__/
+*.aux
+*.log
+*.thm
+*.tmp
+*.bak
+*.pyc
+*.swp
+preview_*.png
+check_*.png
