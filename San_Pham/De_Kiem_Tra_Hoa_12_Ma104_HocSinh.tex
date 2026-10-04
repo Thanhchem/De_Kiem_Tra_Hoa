@@ -1,0 +1,353 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{top=1.3cm,bottom=1.2cm,left=1.4cm,right=1.4cm,headheight=15pt,headsep=12pt,footskip=18pt}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage[version=4]{mhchem}
+\usepackage{fancyhdr}
+\usepackage{ex_test}
+
+\renewcommand{\baselinestretch}{0.95}
+\setlength{\parskip}{0pt}
+
+\definecolor{hfRed}{RGB}{211,47,47}
+\definecolor{hfGreen}{RGB}{139,195,144}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\itshape\color{hfRed} Tài liệu lưu hành nội bộ}
+\fancyhead[R]{\small\itshape\color{hfRed} Thầy \textbf{TRẦN VĂN THẠNH} - 0777.470.803}
+\renewcommand{\headrulewidth}{0.8pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \headrulewidth\hfill}}
+
+\fancyfoot[L]{\small\itshape\color{hfRed} CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+\fancyfoot[R]{\small\bfseries\color{hfRed} Trang \thepage}
+\renewcommand{\footrulewidth}{0.8pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+
+\fancypagestyle{firstpage}{
+  \fancyhf{}
+  \renewcommand{\headrulewidth}{0pt}
+  \fancyfoot[L]{\small\itshape\color{hfRed} CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+  \fancyfoot[R]{\small\bfseries\color{hfRed} Trang \thepage}
+  \renewcommand{\footrulewidth}{0.8pt}
+  \renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+}
+
+\begin{document}
+\thispagestyle{firstpage}
+
+\noindent
+\begin{minipage}[t]{0.42\textwidth}
+	\centering\fontsize{9.5pt}{12pt}\selectfont
+	\textbf{SỞ GD \& ĐT THÀNH PHỐ HUẾ}\\
+	\textbf{TRƯỜNG THPT NGUYỄN CHÍ THANH}\\
+	\textbf{ĐỀ CHÍNH THỨC}\\
+	\textit{(Đề thi có 04 trang)}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.56\textwidth}
+	\centering\small
+	\textbf{ĐỀ KIỂM TRA GIỮA HỌC KÌ 1 - NĂM HỌC 2025--2026}\\
+	\textbf{MÔN: HÓA HỌC -- 12CTST}\\
+	\textit{Thời gian làm bài: 45 phút (không kể thời gian phát đề)}
+\end{minipage}
+
+\smallskip
+\noindent\hrulefill
+\smallskip
+
+\noindent\textbf{Họ và tên:} \dotfill\ \textbf{Số báo danh:} \dotfill\ \textbf{Mã đề 104}
+
+\smallskip
+\noindent\textit{Cho biết nguyên tử khối của các nguyên tố (amu): H=1; O=16; C=12; Ag=108; Na=23; N=14.}
+\smallskip
+
+\noindent
+\textbf{A. PHẦN TRẮC NGHIỆM (7 điểm)}
+
+\smallskip
+\noindent
+\textbf{Phần I. Câu trắc nghiệm nhiều phương án lựa chọn.} \textit{(Thí sinh trả lời từ câu 1 đến câu 16. Mỗi câu hỏi thí sinh chỉ chọn một phương án).}
+
+\Opensolutionfile{ans}[ans-hs]
+
+\begin{ex}
+Phản ứng nào dưới đây \textbf{không} thể hiện tính base của amine?
+\choice
+{$\ce{C6H5NH2 + HCl -> C6H5NH3Cl}$}
+{\True $\ce{RNH2 + HNO2 -> ROH + N2 ^ + H2O}$}
+{$\ce{Fe^{3+} + 3RNH2 + 3H2O -> Fe(OH)3 v + 3RNH3^+}$}
+{$\ce{RNH2 + H2O <=> RNH3^+ + OH^-}$}
+\end{ex}
+
+\begin{ex}
+Nhận xét nào dưới đây là không đúng khi nói về glucose và fructose?
+\choice
+{Đều tạo được kết tủa đỏ gạch $\ce{Cu2O}$ khi tác dụng với $\ce{Cu(OH)2}$, đun nóng trong môi trường kiềm}
+{Đều xảy ra phản ứng tráng bạc khi tác dụng với thuốc thử Tollens}
+{Đều tạo được dung dịch màu xanh lam khi tác dụng với $\ce{Cu(OH)2}$ trong môi trường kiềm}
+{\True Đều làm mất màu nước bromine}
+\end{ex}
+
+\begin{ex}
+Khi đun nóng chất X có công thức phân tử $\ce{C3H6O2}$ với dung dịch $\ce{NaOH}$ thu được $\ce{CH3COONa}$. Công thức cấu tạo của X là:
+\choice
+{$\ce{CH3COOC2H5}$}
+{\True $\ce{CH3COOCH3}$}
+{$\ce{HCOOC2H5}$}
+{$\ce{C2H5COOH}$}
+\end{ex}
+
+\begin{ex}
+Trong cây thuốc lá tự nhiên và khói thuốc lá chứa một amine rất độc, đó là nicotin với công thức cấu tạo như sau:
+\begin{center}
+	\includegraphics[width=13.5cm]{San_Pham/images_crop/fig_cau4_nicotin.png}
+\end{center}
+Nicotin làm tăng huyết áp và nhịp tim, có khả năng gây xơ vữa động mạch vành và suy giảm trí nhớ. Số nguyên tử carbon trong một phân tử nicotin là:
+\choice
+{11}
+{8}
+{9}
+{\True 10}
+\end{ex}
+
+\begin{ex}
+Chất giặt rửa tổng hợp sodium laurylsulfate có công thức cấu tạo như sau:
+\begin{center}
+	\includegraphics[width=9.5cm]{San_Pham/images_crop/fig_cau5_sodium_laurylsulfate.png}
+\end{center}
+Nhóm được khoanh tròn trong công thức trên là
+\choice
+{đầu kị nước}
+{đuôi ưa nước}
+{\True đầu ưa nước}
+{đuôi kị nước}
+\end{ex}
+
+\begin{ex}
+Chất nào sau đây là amine bậc hai?
+\choice
+{$\ce{(C2H5)3N}$}
+{$\ce{CH3CH(NH2)CH3}$}
+{$\ce{C2H5NH2}$}
+{\True $\ce{(C2H5)2NH}$}
+\end{ex}
+
+\begin{ex}
+Bệnh nhân phải tiếp đường (truyền dung dịch đường vào tĩnh mạch), đó là loại đường nào?
+\choice
+{\True Glucose}
+{Cellulose}
+{Saccharose}
+{Fructose}
+\end{ex}
+
+\begin{ex}
+$\ce{HCOOCH3}$ được sử dụng làm dung môi cho nitrocellulose và cellulose acetate, một chất trung gian trong sản xuất dược phẩm và thuốc xông hơi. Tên gọi của $\ce{HCOOCH3}$ là:
+\choice
+{methyl acetate}
+{\True methyl formate}
+{ethyl acetate}
+{ethyl formate}
+\end{ex}
+
+\begin{ex}
+Xà phòng hoá hoàn toàn $17{,}24\text{ gam}$ chất béo cần vừa đủ $0{,}06\text{ mol}$ $\ce{NaOH}$. Cô cạn dung dịch sau phản ứng thu được bao nhiêu gam xà phòng?
+\choice
+{$21{,}15\text{ gam}$}
+{$14{,}12\text{ gam}$}
+{$14{,}84\text{ gam}$}
+{\True $17{,}8\text{ gam}$}
+\end{ex}
+
+\begin{ex}
+Chất nào sau đây là thành phần chính của xà phòng?
+\choice
+{$\ce{CH3[CH2]_{16}COOCH3}$}
+{\True $\ce{CH3[CH2]_{14}COONa}$}
+{$\ce{CH3COONa}$}
+{$\ce{CH3[CH2]_{11}C6H4SO3Na}$}
+\end{ex}
+
+\begin{ex}
+Aniline tác dụng với $(\ce{HNO2 + HCl})$ ở $0 - 5^\circ\text{C}$ tạo muối diazonium để tổng hợp phẩm nhuộm azo và dược phẩm.
+\[\ce{C6H5NH2 + HONO + HCl ->[0 - 5^\circ\text{C}] X + 2H2O}\]
+Chất X có công thức cấu tạo là:
+\choice
+{$[\ce{C6H5N2H}]^+\ce{Cl^-}$}
+{$[\ce{C6H5NH2}]^+\ce{Cl^-}$}
+{\True $[\ce{C6H5N2}]^+\ce{Cl^-}$}
+{$[\ce{C6H5NH3}]^+\ce{Cl^-}$}
+\end{ex}
+
+\begin{ex}
+Các gốc $\alpha$-glucose trong phân tử tinh bột tạo dạng mạch amylopectin phân nhánh, xoắn. Phần phân nhánh liên kết với nhau bởi liên kết
+\choice
+{$\beta$-1,2-glycoside}
+{$\alpha$-1,4-glycoside}
+{$\alpha$-1,3-glycoside}
+{\True $\alpha$-1,6-glycoside}
+\end{ex}
+
+\begin{ex}
+Một số ester được dùng trong hương liệu, mĩ phẩm, bột giặt là nhờ các ester
+\choice
+{\True có mùi thơm, an toàn với người sử dụng}
+{đều có nguồn gốc từ thiên nhiên}
+{có thể bay hơi nhanh sau khi sử dụng}
+{là chất lỏng dễ bay hơi}
+\end{ex}
+
+\begin{ex}
+Cho dung dịch ethylamine lần lượt tác dụng với: dung dịch $\ce{FeCl3}$; dung dịch $\ce{HCl}$; $\ce{Cu(OH)2}$; dung dịch $\ce{NaOH}$. Số trường hợp xảy ra phản ứng là:
+\choice
+{2}
+{4}
+{5}
+{\True 3}
+\end{ex}
+
+\begin{ex}
+Kết quả thí nghiệm của các dung dịch X, Y, Z với thuốc thử được ghi ở bảng sau:
+\begin{center}
+\begin{tabular}{|c|l|l|}
+\hline
+\textbf{Mẫu thử} & \textbf{Thuốc thử} & \textbf{Hiện tượng} \\ \hline
+X & Dung dịch $\ce{I2}$ & Có màu xanh tím \\ \hline
+Y & $\ce{Cu(OH)2}$ & Có màu xanh lam \\ \hline
+Z & Dung dịch $\ce{AgNO3}$ trong $\ce{NH3}$ & Tạo kết tủa Ag \\ \hline
+\end{tabular}
+\end{center}
+Các dung dịch X, Y, Z lần lượt là
+\choice
+{\True Hồ tinh bột, saccharose, glucose}
+{Cellulose, saccharose, glucose}
+{Cellulose, glucose, saccharose}
+{Hồ tinh bột, glucose, saccharose}
+\end{ex}
+
+\begin{ex}
+Công thức của triolein là:
+\choice
+{$\ce{(C17H35COO)3C3H5}$}
+{\True $\ce{(C17H33COO)3C3H5}$}
+{$\ce{(CH3COO)3C3H5}$}
+{$\ce{(HCOO)3C3H5}$}
+\end{ex}
+
+\Closesolutionfile{ans}
+
+\vspace{0.3cm}
+\noindent
+\textbf{Phần II. Câu trắc nghiệm đúng/sai. (2 điểm -- 2 câu).} \textit{Thí sinh trả lời từ câu 1 đến câu 2. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}
+
+\setcounter{ex}{0}
+
+\begin{ex}
+Tinh bột là loại lương thực quan trọng và là nguyên liệu chủ yếu để sản xuất bánh, kẹo, rượu, bia, ... Cellulose là thành phần chính tạo nên màng tế bào thực vật, có nhiều trong gỗ, bông gòn dùng làm nguyên liệu sản xuất thuốc súng không khói.
+\begin{enumerate}[a)]
+	\item Tinh bột và cellulose là đồng phân cấu tạo của nhau do cùng có công thức phân tử dạng $\ce{(C6H10O5)_n}$.
+	\item Tinh bột và cellulose đều thuộc loại polysaccharide.
+	\item Dung dịch hồ tinh bột tạo với iodine hợp chất màu xanh tím, cellulose không có tính chất này.
+	\item Thuỷ phân hoàn toàn 162 gam tinh bột hoặc cellulose đều thu được 180 gam sản phẩm là glucose.
+\end{enumerate}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Aspirin được sử dụng làm thuốc giảm đau, hạ sốt. Sau khi uống, aspirin bị thuỷ phân trong cơ thể tạo thành salicylic acid. Salicylic acid ức chế quá trình sinh tổng hợp prostaglandin (chất gây đau, sốt và viêm khi nồng độ trong máu cao hơn mức bình thường).
+\begin{center}
+	\includegraphics[width=11.5cm]{San_Pham/images_crop/fig_cau2_p2_aspirin.png}
+\end{center}
+\begin{enumerate}[a)]
+	\item 1 mol aspirin hay 1 mol salicylic acid đều phản ứng tối đa với 2 mol $\ce{NaOH}$.
+	\item Trong phân tử aspirin có số liên kết $\pi$ và vòng là 5.
+	\item Aspirin có công thức phân tử $\ce{C9H8O4}$.
+	\item Aspirin được điều chế theo phản ứng sau:
+	\[\ce{(CH3CO)2O + HOC6H4COOH ->[H2SO4, t^\circ] CH3COOC6H4COOH + CH3COOH}\]
+	Để sản xuất 3 triệu viên thuốc aspirin cần tối thiểu 260 kg salicylic acid. Biết rằng mỗi viên thuốc có chứa 81 mg aspirin và hiệu suất phản ứng đạt 70\%.
+\end{enumerate}
+\loigiai{}
+\end{ex}
+
+\vspace{0.3cm}
+\noindent
+\textbf{Phần III. Câu trắc nghiệm yêu cầu trả lời ngắn. (4 câu -- 1 điểm).} \textit{Thí sinh trả lời từ câu 1 đến câu 4.}
+
+\setcounter{ex}{0}
+
+\begin{ex}
+Cho công thức cấu tạo thu gọn và tên gọi sau:
+\begin{center}
+\begin{tabular}{|c|l|l|}
+\hline
+\textbf{Chất} & \textbf{Công thức cấu tạo thu gọn} & \textbf{Tên gọi} \\ \hline
+(1) & $\ce{CH3N(CH3)2}$ & Aniline \\ \hline
+(2) & $\ce{CH3CH2NHCH3}$ & Trimethylamine \\ \hline
+(3) & $\ce{CH3CH2NH2}$ & Ethylamine \\ \hline
+(4) & $\ce{C6H5NH2}$ & N-methylethanamine \\ \hline
+\end{tabular}
+\end{center}
+Sắp xếp các chất theo thứ tự tên gọi tương ứng?
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Tại một nhà máy rượu, cứ 10 tấn tinh bột (chứa 6,85\% tạp chất trơ) sẽ sản xuất được $7{,}21\text{ m}^3$ ethanol $40^\circ$ (cho khối lượng riêng của ethanol nguyên chất là $0{,}789\text{ g/cm}^3$). Hiệu suất của quá trình sản xuất là bao nhiêu phần trăm? \textit{(Kết quả làm tròn đến hàng đơn vị)}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Một loại chất béo có chứa 80\% triolein về khối lượng. Xà phòng hóa hoàn toàn $22{,}1\text{ kg}$ chất béo này trong dung dịch $\ce{NaOH}$, đun nóng thu được $x$ bánh xà phòng. Biết rằng trong mỗi bánh xà phòng có chứa $60\text{ gam}$ sodium oleate. Xác định giá trị của $x$?
+\begin{center}
+	\includegraphics[width=4.5cm]{San_Pham/images_crop/fig_cau3_p3_soap.png}
+\end{center}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Khi xà phòng hóa triglyceride X bằng dung dịch $\ce{NaOH}$ dư, đun nóng, thu được sản phẩm gồm glycerol, sodium stearate và sodium palmitate. Có bao nhiêu đồng phân cấu tạo thỏa mãn tính chất trên của X?
+\loigiai{}
+\end{ex}
+
+\vspace{0.4cm}
+\noindent
+\textbf{B. PHẦN TỰ LUẬN (3 CÂU -- 3 ĐIỂM)}
+
+\setcounter{ex}{0}
+
+\begin{ex}
+\textbf{(1 điểm)} Viết phương trình phản ứng hoàn thành sơ đồ chuyển hóa sau (ghi rõ điều kiện phản ứng nếu có):
+\begin{center}
+\textbf{Tinh bột $\rightarrow$ Glucose $\rightarrow$ Ethanol $\rightarrow$ Acetic acid $\rightarrow$ Ethyl acetate.}
+\end{center}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+\textbf{(1 điểm)} Aniline có nhiều ứng dụng quan trọng và đa dạng trong các ngành công nghiệp, đặc biệt là ngành sản xuất phẩm nhuộm và dược phẩm. Aniline có thể được tổng hợp từ benzene theo sơ đồ chuyển hoá sau:
+\begin{center}
+	\includegraphics[width=13.5cm]{San_Pham/images_crop/fig_cau2_tuluan_aniline.png}
+\end{center}
+Theo sơ đồ trên, từ 1 tấn benzene sẽ điều chế được bao nhiêu kg aniline? Biết hiệu suất toàn bộ quá trình là 60\%.
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+\textbf{(1 điểm)}
+\begin{enumerate}[a,]
+	\item Trong cây xanh, glucose được tổng hợp nhờ quá trình quang hợp. Viết phương trình phản ứng xảy ra?
+	\item Một nhóm học sinh muốn thử nghiệm phản ứng tráng bạc lên kính bằng nguyên liệu đầu là glucose. Giả sử lớp bạc có diện tích là $100\text{ cm}^2$ và độ dày là $0{,}5\text{ }\mu\text{m}$. Biết rằng khối lượng riêng của bạc là $10{,}49\text{ g/cm}^3$ và khối lượng mol của glucose là $180\text{ g/mol}$. Khối lượng glucose cần dùng là bao nhiêu gam? (Giả thiết hiệu suất phản ứng tráng bạc là 92\%).
+\end{enumerate}
+\loigiai{}
+\end{ex}
+
+\begin{center}
+\textbf{---------HẾT---------}
+\end{center}
+
+\end{document}
