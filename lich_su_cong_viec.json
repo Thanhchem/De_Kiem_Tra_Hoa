@@ -14,5 +14,21 @@
       "docx": "San_Pham/De_Kiem_Tra_Hoa_11_Ma209_GiaoVien.docx"
     },
     "description": "Đề kiểm tra cuối kì II Hóa học 11 (Mã 209). Cấu trúc Catechin chuẩn ChemFig. Header/Footer bản quyền Thầy Trần Văn Thạnh theo mẫu 3C2-26-27-DE. Canh tab A, B, C, D không dùng bảng trong Word, chữ chuẩn đẹp không sít nhau."
+  },
+  "BO_24_DE_KIEM_TRA_HOA_12_De01": {
+    "status": "completed",
+    "processed_at": "2026-10-05 10:45:00",
+    "source_pdf": "PDF_Goc/BO_24_DE_KIEM_TRA_HOA_12.pdf",
+    "student_deliverables": {
+      "pdf": "San_Pham/De_Kiem_Tra_Hoa_12_De01_HocSinh.pdf",
+      "tex": "San_Pham/De_Kiem_Tra_Hoa_12_De01_HocSinh.tex",
+      "docx": "San_Pham/De_Kiem_Tra_Hoa_12_De01.docx"
+    },
+    "teacher_deliverables": {
+      "pdf": "San_Pham/De_Kiem_Tra_Hoa_12_De01_GiaoVien.pdf",
+      "tex": "San_Pham/De_Kiem_Tra_Hoa_12_De01_GiaoVien.tex",
+      "docx": "San_Pham/De_Kiem_Tra_Hoa_12_De01_GiaoVien.docx"
+    },
+    "description": "Đề kiểm tra định kỳ Hóa học 12 - Chương 1: Ester - Lipid (Đề số 01 - Mã đề 101). Trọn bộ 3 phần (18 TN 4 phương án, 4 Đúng/Sai, 6 Trả lời ngắn). Header/Footer chuẩn bản quyền Thầy Trần Văn Thạnh, canh tab không dùng bảng, lời giải chi tiết thụt lề chuẩn, chỉ số dưới/trên triệt để."
   }
 }

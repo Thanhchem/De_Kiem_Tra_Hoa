@@ -8,3 +8,4 @@ __pycache__/
 *.swp
 preview_*.png
 check_*.png
+scratch/
