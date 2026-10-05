@@ -1,0 +1,67 @@
+\documentclass[tikz,border=12pt]{standalone}
+\usepackage[utf8]{vietnam}
+\usepackage{sansmath}
+\usepackage{amsmath}
+\usetikzlibrary{calc,arrows.meta}
+\sansmath
+\renewcommand{\familydefault}{\sfdefault}
+
+\begin{document}
+\begin{tikzpicture}[x=1cm, y=1cm, line cap=round, line join=round, >=Stealth]
+  \tikzset{
+    axis/.style={line width=1.1pt, draw=black},
+    tick/.style={line width=0.9pt, draw=black},
+    curve/.style={line width=1.35pt, draw=black},
+    dashed_line/.style={line width=0.85pt, draw=black, dashed, dash pattern=on 3pt off 2.5pt},
+    box_node/.style={draw=black, line width=0.85pt, inner sep=4.5pt, font=\sffamily\fontsize{11.5pt}{13.5pt}\selectfont, fill=white},
+    ybox_node/.style={draw=black, line width=0.85pt, inner sep=4.5pt, font=\sffamily\fontsize{11pt}{13pt}\selectfont, rotate=90, fill=white},
+    label_num/.style={font=\sffamily\fontsize{11pt}{13pt}\selectfont, anchor=north},
+    axis_lbl/.style={font=\sffamily\fontsize{12pt}{14pt}\selectfont}
+  }
+
+  % Scaling parameters:
+  \def\xscale{1.05}
+  \def\peakheight{3.6} % peak height
+  \def\ymax{5.2} % y-axis height
+  \def\xmax{12.4} % x-axis end
+
+  % Axes
+  % X-axis from 0 to xmax
+  \draw[axis, ->] (0, 0) -- (\xmax, 0);
+  % Y-axis from 0 to ymax
+  \draw[axis, ->] (0, 0) -- (0, \ymax);
+
+  % Ticks on X-axis (0 to 10)
+  \foreach \i in {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10} {
+    \ifnum\i>0
+      \draw[tick] (\i*\xscale, 0) -- (\i*\xscale, 0.18);
+    \fi
+    \node[label_num] at (\i*\xscale, -0.15) {\textbf{\i}};
+  }
+
+  % Label "pH" at the end of X-axis
+  \node[axis_lbl, anchor=north] at (\xmax - 0.45, -0.15) {\textbf{pH}};
+
+  % Label for Y-axis inside rectangular box, rotated 90 degrees
+  \node[ybox_node] at (-0.75, 3.2) {\textbf{Độ hoạt động của enzyme}};
+
+  % Curve 1: Pepsin (pH 0 to 4, peak at 2)
+  \draw[curve] plot[domain=0:4, samples=100] (\x* \xscale, {\peakheight * (sin(\x * 180 / 4))^2});
+
+  % Dashed vertical line for Pepsin (pH = 2)
+  \draw[dashed_line] (2*\xscale, \peakheight) -- (2*\xscale, 0);
+
+  % Pepsin box label above the peak
+  \node[box_node] at (2*\xscale, \peakheight + 0.62) {\textbf{Pepsin}};
+
+  % Curve 2: Trypsin (pH 6 to 10, peak at 8)
+  \draw[curve] plot[domain=6:10, samples=100] (\x* \xscale, {\peakheight * (sin((\x - 6) * 180 / 4))^2});
+
+  % Dashed vertical line for Trypsin (pH = 8)
+  \draw[dashed_line] (8*\xscale, \peakheight) -- (8*\xscale, 0);
+
+  % Trypsin box label above the peak
+  \node[box_node] at (8*\xscale, \peakheight + 0.62) {\textbf{Trypsin}};
+
+\end{tikzpicture}
+\end{document}
