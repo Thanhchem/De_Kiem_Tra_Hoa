@@ -212,8 +212,69 @@ def add_section_header(doc, title, subtitle=None):
         p2.paragraph_format.space_after = Pt(4)
         render_rich_text(p2, f"_{subtitle}_", base_size=10.5, base_italic=True)
 
-def render_options_no_table(doc, opts):
-    """Trình bày các phương án A, B, C, D hoàn toàn KHÔNG DÙNG BẢNG, dùng paragraph có tab stops."""
+def render_question_prompt(p, text, base_size=10.5):
+    """In đậm tiền tố 'Câu X.' ở đầu câu hỏi, phần nội dung câu hỏi sau đó giữ bình thường."""
+    m = re.match(r'^(Câu\s+\d+\.)\s*(.*)$', text.strip(), re.DOTALL)
+    if m:
+        lbl = m.group(1)
+        rest = m.group(2)
+        r_lbl = p.add_run(lbl + " ")
+        set_run_style(r_lbl, font_size=base_size, bold=True)
+        render_rich_text(p, rest, base_size=base_size, base_bold=False)
+    else:
+        render_rich_text(p, text, base_size=base_size, base_bold=False)
+
+def render_statement(p, stmt, ans=None, is_teacher=False, base_size=10.5):
+    """In đậm tiền tố 'a)', 'b)', 'c)', 'd)' ở Phần II."""
+    m = re.match(r'^([a-d]\))\s*(.*)$', stmt.strip())
+    if m:
+        lbl = m.group(1)
+        body = m.group(2)
+        r_lbl = p.add_run(lbl + " ")
+        set_run_style(r_lbl, font_size=base_size, bold=True)
+        render_rich_text(p, body, base_size=base_size, base_bold=False)
+    else:
+        render_rich_text(p, stmt, base_size=base_size, base_bold=False)
+
+    if is_teacher and ans:
+        p.add_run("  ➔ ")
+        r_ans = p.add_run(f"({ans})")
+        set_run_style(r_ans, font_size=base_size, bold=True, color=COLOR_CORRECT)
+
+def render_single_option(p, opt_str, is_teacher=False, base_size=10.5):
+    """
+    In đậm nhãn A., B., C., D. cho mọi phương án.
+    Nếu là bản giáo viên và phương án đúng: in đậm và tô màu đỏ cho cả nhãn và nội dung (kèm sub/sup).
+    """
+    clean_str = opt_str.strip()
+    is_correct = False
+    if clean_str.startswith('*') and clean_str.endswith('*'):
+        is_correct = True
+        clean_str = clean_str[1:-1].strip()
+
+    m = re.match(r'^([A-D]\.\s*)(.*)$', clean_str)
+    if m:
+        lbl = m.group(1)
+        body = m.group(2)
+    else:
+        lbl = ""
+        body = clean_str
+
+    if is_teacher and is_correct:
+        if lbl:
+            r_lbl = p.add_run(lbl)
+            set_run_style(r_lbl, font_size=base_size, bold=True, color=COLOR_CORRECT)
+        render_rich_text(p, body, base_size=base_size, base_bold=True, base_color=COLOR_CORRECT)
+    else:
+        if lbl:
+            r_lbl = p.add_run(lbl)
+            set_run_style(r_lbl, font_size=base_size, bold=True, color=None)
+        render_rich_text(p, body, base_size=base_size, base_bold=False, base_color=None)
+
+def render_options_no_table(doc, opts, is_teacher=False):
+    """Trình bày các phương án A, B, C, D hoàn toàn KHÔNG DÙNG BẢNG, dùng paragraph có tab stops.
+    In đậm nhãn A., B., C., D. cho mọi phương án. Phương án đúng in đậm màu đỏ trong bản giáo viên.
+    """
     clean_opts = [re.sub(r'[*_~^]', '', opt) for opt in opts]
     max_len = max(len(o) for o in clean_opts)
 
@@ -229,32 +290,32 @@ def render_options_no_table(doc, opts):
         for idx, opt in enumerate(opts):
             if idx > 0:
                 p.add_run('\t')
-            render_rich_text(p, opt, base_size=10.5)
+            render_single_option(p, opt, is_teacher=is_teacher, base_size=10.5)
     elif max_len <= 38:
         p1 = doc.add_paragraph()
         p1.paragraph_format.space_before = Pt(1)
         p1.paragraph_format.space_after = Pt(1)
         p1.paragraph_format.tab_stops.clear_all()
         p1.paragraph_format.tab_stops.add_tab_stop(Cm(9.0), WD_TAB_ALIGNMENT.LEFT)
-        render_rich_text(p1, opts[0], base_size=10.5)
+        render_single_option(p1, opts[0], is_teacher=is_teacher, base_size=10.5)
         p1.add_run('\t')
-        render_rich_text(p1, opts[1], base_size=10.5)
+        render_single_option(p1, opts[1], is_teacher=is_teacher, base_size=10.5)
 
         p2 = doc.add_paragraph()
         p2.paragraph_format.space_before = Pt(1)
         p2.paragraph_format.space_after = Pt(2)
         p2.paragraph_format.tab_stops.clear_all()
         p2.paragraph_format.tab_stops.add_tab_stop(Cm(9.0), WD_TAB_ALIGNMENT.LEFT)
-        render_rich_text(p2, opts[2], base_size=10.5)
+        render_single_option(p2, opts[2], is_teacher=is_teacher, base_size=10.5)
         p2.add_run('\t')
-        render_rich_text(p2, opts[3], base_size=10.5)
+        render_single_option(p2, opts[3], is_teacher=is_teacher, base_size=10.5)
     else:
         for opt in opts:
             p = doc.add_paragraph()
             p.paragraph_format.left_indent = Cm(0.5)
             p.paragraph_format.space_before = Pt(1)
             p.paragraph_format.space_after = Pt(1)
-            render_rich_text(p, opt, base_size=10.5)
+            render_single_option(p, opt, is_teacher=is_teacher, base_size=10.5)
 
 def add_solution_no_table(doc, solution_text):
     """Trình bày lời giải KHÔNG DÙNG BẢNG (đoạn văn thụt đầu dòng, phân biệt rõ nét)."""
@@ -490,9 +551,9 @@ def build_exam_de01(is_teacher=False):
         p_q = doc.add_paragraph()
         p_q.paragraph_format.space_before = Pt(3)
         p_q.paragraph_format.space_after = Pt(1)
-        render_rich_text(p_q, item["q"], base_size=10.5, base_bold=False)
+        render_question_prompt(p_q, item["q"], base_size=10.5)
 
-        render_options_no_table(doc, item["opts"])
+        render_options_no_table(doc, item["opts"], is_teacher=is_teacher)
 
         if is_teacher and item.get("sol"):
             add_solution_no_table(doc, item["sol"])
@@ -507,7 +568,7 @@ def build_exam_de01(is_teacher=False):
     p_q = doc.add_paragraph()
     p_q.paragraph_format.space_before = Pt(4)
     p_q.paragraph_format.space_after = Pt(2)
-    render_rich_text(p_q, "Câu 1. Cho các triglyceride X, Y với công thức cấu tạo sau:", base_size=10.5)
+    render_question_prompt(p_q, "Câu 1. Cho các triglyceride X, Y với công thức cấu tạo sau:", base_size=10.5)
 
     img_xy = os.path.join(CROP_DIR, "triglyceride_XY.png")
     if os.path.exists(img_xy):
@@ -533,10 +594,7 @@ def build_exam_de01(is_teacher=False):
         p_stmt.paragraph_format.left_indent = Cm(0.5)
         p_stmt.paragraph_format.space_before = Pt(1)
         p_stmt.paragraph_format.space_after = Pt(1)
-        if is_teacher:
-            render_rich_text(p_stmt, f"{stmt}  ➔ *({ans})*", base_size=10.5)
-        else:
-            render_rich_text(p_stmt, stmt, base_size=10.5)
+        render_statement(p_stmt, stmt, ans=ans, is_teacher=is_teacher, base_size=10.5)
 
     if is_teacher:
         sol_c1 = "\n".join([f"• {stmt[:2]} *{ans}*: {expl}" for stmt, ans, expl in c1_statements])
@@ -546,7 +604,7 @@ def build_exam_de01(is_teacher=False):
     p_q = doc.add_paragraph()
     p_q.paragraph_format.space_before = Pt(4)
     p_q.paragraph_format.space_after = Pt(2)
-    render_rich_text(p_q, "Câu 2. Nhiệt độ sôi và độ tan của một số ester, carboxylic acid và alcohol có cùng số nguyên tử carbon được cho trong bảng sau:", base_size=10.5)
+    render_question_prompt(p_q, "Câu 2. Nhiệt độ sôi và độ tan của một số ester, carboxylic acid và alcohol có cùng số nguyên tử carbon được cho trong bảng sau:", base_size=10.5)
 
     # Bảng dữ liệu Câu 2
     tbl_data = [
@@ -598,10 +656,7 @@ def build_exam_de01(is_teacher=False):
         p_stmt.paragraph_format.left_indent = Cm(0.5)
         p_stmt.paragraph_format.space_before = Pt(1)
         p_stmt.paragraph_format.space_after = Pt(1)
-        if is_teacher:
-            render_rich_text(p_stmt, f"{stmt}  ➔ *({ans})*", base_size=10.5)
-        else:
-            render_rich_text(p_stmt, stmt, base_size=10.5)
+        render_statement(p_stmt, stmt, ans=ans, is_teacher=is_teacher, base_size=10.5)
 
     if is_teacher:
         sol_c2 = "\n".join([f"• {stmt[:2]} *{ans}*: {expl}" for stmt, ans, expl in c2_statements])
@@ -611,7 +666,7 @@ def build_exam_de01(is_teacher=False):
     p_q = doc.add_paragraph()
     p_q.paragraph_format.space_before = Pt(4)
     p_q.paragraph_format.space_after = Pt(2)
-    render_rich_text(p_q, "Câu 3. Các phát biểu sau đây về xà phòng và chất giặt rửa là đúng hay sai?", base_size=10.5)
+    render_question_prompt(p_q, "Câu 3. Các phát biểu sau đây về xà phòng và chất giặt rửa là đúng hay sai?", base_size=10.5)
 
     c3_statements = [
         ("a) Xà phòng và chất giặt rửa thường có cấu tạo gồm hai phần: ưa nước và kị nước.", "Đúng", "Cả xà phòng và chất giặt rửa đều có cấu tạo lưỡng cực gồm phần đầu ưa nước và phần đuôi hydrocarbon kị nước."),
@@ -624,10 +679,7 @@ def build_exam_de01(is_teacher=False):
         p_stmt.paragraph_format.left_indent = Cm(0.5)
         p_stmt.paragraph_format.space_before = Pt(1)
         p_stmt.paragraph_format.space_after = Pt(1)
-        if is_teacher:
-            render_rich_text(p_stmt, f"{stmt}  ➔ *({ans})*", base_size=10.5)
-        else:
-            render_rich_text(p_stmt, stmt, base_size=10.5)
+        render_statement(p_stmt, stmt, ans=ans, is_teacher=is_teacher, base_size=10.5)
 
     if is_teacher:
         sol_c3 = "\n".join([f"• {stmt[:2]} *{ans}*: {expl}" for stmt, ans, expl in c3_statements])
@@ -637,7 +689,7 @@ def build_exam_de01(is_teacher=False):
     p_q = doc.add_paragraph()
     p_q.paragraph_format.space_before = Pt(4)
     p_q.paragraph_format.space_after = Pt(2)
-    render_rich_text(p_q, "Câu 4. Các phát biểu sau đây là đúng hay sai?", base_size=10.5)
+    render_question_prompt(p_q, "Câu 4. Các phát biểu sau đây là đúng hay sai?", base_size=10.5)
 
     c4_statements = [
         ("a) Chất giặt rửa thường là muối sodium alkylsulfate hoặc alkylbenzene sulfonate.", "Đúng", "Các chất giặt rửa tổng hợp thông dụng thường gặp là muối sodium alkylsulfate hoặc alkylbenzene sulfonate."),
@@ -650,10 +702,7 @@ def build_exam_de01(is_teacher=False):
         p_stmt.paragraph_format.left_indent = Cm(0.5)
         p_stmt.paragraph_format.space_before = Pt(1)
         p_stmt.paragraph_format.space_after = Pt(1)
-        if is_teacher:
-            render_rich_text(p_stmt, f"{stmt}  ➔ *({ans})*", base_size=10.5)
-        else:
-            render_rich_text(p_stmt, stmt, base_size=10.5)
+        render_statement(p_stmt, stmt, ans=ans, is_teacher=is_teacher, base_size=10.5)
 
     if is_teacher:
         sol_c4 = "\n".join([f"• {stmt[:2]} *{ans}*: {expl}" for stmt, ans, expl in c4_statements])
@@ -709,7 +758,7 @@ def build_exam_de01(is_teacher=False):
         p_q = doc.add_paragraph()
         p_q.paragraph_format.space_before = Pt(4)
         p_q.paragraph_format.space_after = Pt(2)
-        render_rich_text(p_q, item["q"], base_size=10.5)
+        render_question_prompt(p_q, item["q"], base_size=10.5)
 
         if item.get("img") and os.path.exists(item["img"]):
             p_img = doc.add_paragraph()
