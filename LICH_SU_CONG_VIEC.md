@@ -1,6 +1,6 @@
 # NHẬT KÝ LỊCH SỬ XỬ LÝ ĐỀ THI (PDF ➔ TEX ➔ WORD)
 
-*Cập nhật lần cuối: 2026-10-04 10:50:00*
+*Cập nhật lần cuối: 2026-10-05 11:00:00*
 
 Hệ thống tự động theo dõi, chuyển đổi và quản lý toàn bộ các tệp đề thi từ thư mục `PDF_Goc/` sang định dạng LaTeX chuẩn `ex_test` và Microsoft Word (`.docx`).
 
@@ -11,7 +11,7 @@ Hệ thống tự động theo dõi, chuyển đổi và quản lý toàn bộ c
 | STT | File PDF Gốc | Đề Học Sinh (PDF / Word) | Đề Giáo Viên Có Lời Giải (PDF / Word) | Trạng Thái |
 |:---:|:---|:---|:---|:---:|
 | 1 | [`De_Kiem_Tra_Hoa_11_Ma209.pdf`](file:///c:/Antigravity_Thanh/PDF_Goc/De_Kiem_Tra_Hoa_11_Ma209.pdf) | • [PDF Học sinh (3 trang A4)](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_11_Ma209_HocSinh.pdf)<br>• [TeX Học sinh](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_11_Ma209_HocSinh.tex)<br>• [Word Học sinh](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_11_Ma209.docx) | • [PDF Giáo viên (8 trang chi tiết)](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_11_Ma209_GiaoVien.pdf)<br>• [TeX Giáo viên](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_11_Ma209_GiaoVien.tex)<br>• [Word Giáo viên](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_11_Ma209_GiaoVien.docx) | Hoàn thành |
-| 2 | [`BO_24_DE_KIEM_TRA_HOA_12.pdf`](file:///c:/Antigravity_Thanh/PDF_Goc/BO_24_DE_KIEM_TRA_HOA_12.pdf)<br>*(Đề số 01: Ester -- Lipid)* | • [PDF Học sinh (4 trang A4)](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_12_De01_HocSinh.pdf)<br>• [TeX Học sinh](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_12_De01_HocSinh.tex)<br>• [Word Học sinh](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_12_De01.docx) | • [PDF Giáo viên (4 trang chi tiết)](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_12_De01_GiaoVien.pdf)<br>• [TeX Giáo viên](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_12_De01_GiaoVien.tex)<br>• [Word Giáo viên](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_12_De01_GiaoVien.docx) | Hoàn thành |
+| 2 | [`BO_24_DE_KIEM_TRA_HOA_12.pdf`](file:///c:/Antigravity_Thanh/PDF_Goc/BO_24_DE_KIEM_TRA_HOA_12.pdf)<br>*(Đề số 01: Ester -- Lipid)* | • [PDF Học sinh (4 trang A4)](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_12_De01_HocSinh.pdf)<br>• [TeX Học sinh](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_12_De01_HocSinh.tex)<br>• [Word Học sinh](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_12_De01.docx) | • [PDF Giáo viên (4 trang chi tiết)](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_12_De01_GiaoVien.pdf)<br>• [TeX Giáo viên](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_12_De01_GiaoVien.tex)<br>• [Word Giáo viên](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_12_De01_GiaoVien.docx) | Hoàn thành (Đã xóa tên trường & các ký hiệu SBT) |
 
 ---
 

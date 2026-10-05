@@ -59,7 +59,6 @@ def make_tex(is_teacher=False):
 \begin{minipage}[t]{0.44\textwidth}
 	\centering\fontsize{10pt}{12pt}\selectfont
 	\textbf{SỞ GIÁO DỤC VÀ ĐÀO TẠO THỪA THIÊN HUẾ}\\
-	\textbf{TRƯỜNG THPT CHUYÊN QUỐC HỌC}\\
 	\textbf{ĐỀ CHÍNH THỨC}\\
 	\textit{(Đề thi có 04 trang)}
 \end{minipage}\hfill

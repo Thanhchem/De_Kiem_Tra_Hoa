@@ -161,9 +161,8 @@ def build_title_block_no_table(doc, is_teacher=False):
     """Tiêu đề đầu đề thi trình bày tab stop thanh lịch, không viền rườm rà."""
     headers_data = [
         ("SỞ GIÁO DỤC VÀ ĐÀO TẠO THỪA THIÊN HUẾ", "ĐỀ KIỂM TRA ĐỊNH KỲ CHƯƠNG 1 (ESTER - LIPID)", 10, True, 11, True),
-        ("TRƯỜNG THPT CHUYÊN QUỐC HỌC", "MÔN: HOÁ HỌC - LỚP 12", 10.5, True, 11, True),
-        ("ĐỀ CHÍNH THỨC", "Thời gian làm bài: 50 phút (không kể thời gian phát đề)", 10, True, 10, False),
-        ("(Đề thi có 04 trang)", "MÃ ĐỀ THI: 101", 9.5, False, 10.5, True)
+        ("ĐỀ CHÍNH THỨC", "MÔN: HOÁ HỌC - LỚP 12", 10.5, True, 11, True),
+        ("(Đề thi có 04 trang)", "Thời gian: 50 phút | MÃ ĐỀ THI: 101", 9.5, False, 10, True)
     ]
     for l_text, r_text, l_size, l_bold, r_size, r_bold in headers_data:
         p = doc.add_paragraph()
@@ -289,7 +288,7 @@ def build_exam_de01(is_teacher=False):
     part1_questions = [
         {
             "num": 1,
-            "q": "Câu 1 (SBT - CĐ). Chất nào sau đây thuộc loại ester?",
+            "q": "Câu 1. Chất nào sau đây thuộc loại ester?",
             "opts": [
                 "*A. CH~3~COOC~2~H~5~.*" if is_teacher else "A. CH~3~COOC~2~H~5~.",
                 "B. HOOCCH~3~.",
@@ -366,7 +365,7 @@ def build_exam_de01(is_teacher=False):
         },
         {
             "num": 8,
-            "q": "Câu 8 (SBT – KNTT). Thực hiện phản ứng ester hoá giữa HOOC-COOH với hỗn hợp CH~3~OH và C~2~H~5~OH thu được tối đa bao nhiêu ester hai chức?",
+            "q": "Câu 8. Thực hiện phản ứng ester hoá giữa HOOC-COOH với hỗn hợp CH~3~OH và C~2~H~5~OH thu được tối đa bao nhiêu ester hai chức?",
             "opts": [
                 "A. 2.",
                 "*B. 3.*" if is_teacher else "B. 3.",
@@ -410,7 +409,7 @@ def build_exam_de01(is_teacher=False):
         },
         {
             "num": 12,
-            "q": "Câu 12 (SBT – KNTT). Xà phòng và chất giặt rửa có đặc điểm chung nào sau đây?",
+            "q": "Câu 12. Xà phòng và chất giặt rửa có đặc điểm chung nào sau đây?",
             "opts": [
                 "A. Không tan trong nước.",
                 "B. Là muối sodium hoặc potassium của acid béo.",
@@ -421,7 +420,7 @@ def build_exam_de01(is_teacher=False):
         },
         {
             "num": 13,
-            "q": "Câu 13 (SBT – CTST). Cho các chất sau: CH~3~[CH~2~]~7~CH=CH[CH~2~]~7~COONa, CH~3~[CH~2~]~14~COOK, CH~3~[CH~2~]~10~COOK và CH~3~COONa. Trong các chất nêu trên, có bao nhiêu chất có thể là thành phần chính của xà phòng?",
+            "q": "Câu 13. Cho các chất sau: CH~3~[CH~2~]~7~CH=CH[CH~2~]~7~COONa, CH~3~[CH~2~]~14~COOK, CH~3~[CH~2~]~10~COOK và CH~3~COONa. Trong các chất nêu trên, có bao nhiêu chất có thể là thành phần chính của xà phòng?",
             "opts": [
                 "A. 1.",
                 "B. 2.",
@@ -432,7 +431,7 @@ def build_exam_de01(is_teacher=False):
         },
         {
             "num": 14,
-            "q": "Câu 14 (SBT – CTST). Phát biểu nào sau đây về xà phòng là đúng?",
+            "q": "Câu 14. Phát biểu nào sau đây về xà phòng là đúng?",
             "opts": [
                 "A. Xà phòng có thành phần chính là muối sodium hoặc potassium của carboxylic acid.",
                 "B. Các phân tử xà phòng đều có đầu kị nước gắn với đuôi dài ưa nước.",
@@ -443,7 +442,7 @@ def build_exam_de01(is_teacher=False):
         },
         {
             "num": 15,
-            "q": "Câu 15 (SBT – CTST). Trong số các vật phẩm tiêu dùng sau: xà phòng bánh, dầu gội đầu, nước bồ kết và baking soda (NaHCO~3~), số vật phẩm có thành phần chất giặt rửa tự nhiên và tổng hợp là",
+            "q": "Câu 15. Trong số các vật phẩm tiêu dùng sau: xà phòng bánh, dầu gội đầu, nước bồ kết và baking soda (NaHCO~3~), số vật phẩm có thành phần chất giặt rửa tự nhiên và tổng hợp là",
             "opts": [
                 "A. 1.",
                 "*B. 2.*" if is_teacher else "B. 2.",
@@ -465,7 +464,7 @@ def build_exam_de01(is_teacher=False):
         },
         {
             "num": 17,
-            "q": "Câu 17 (SBT - CĐ). Cho các phản ứng sau:\n(1) Thuỷ phân ester trong môi trường acid.\n(2) Thuỷ phân ester trong dung dịch NaOH, đun nóng.\n(3) Cho ester tác dụng với dung dịch KOH, đun nóng.\n(4) Thuỷ phân dẫn xuất halogen trong dung dịch NaOH, đun nóng.\n(5) Cho carboxylic acid tác dụng với dung dịch NaOH.\nNhững phản ứng nào không được gọi là phản ứng xà phòng hoá?",
+            "q": "Câu 17. Cho các phản ứng sau:\n(1) Thuỷ phân ester trong môi trường acid.\n(2) Thuỷ phân ester trong dung dịch NaOH, đun nóng.\n(3) Cho ester tác dụng với dung dịch KOH, đun nóng.\n(4) Thuỷ phân dẫn xuất halogen trong dung dịch NaOH, đun nóng.\n(5) Cho carboxylic acid tác dụng với dung dịch NaOH.\nNhững phản ứng nào không được gọi là phản ứng xà phòng hoá?",
             "opts": [
                 "A. (1), (2), (3), (4).",
                 "*B. (1), (4), (5).*" if is_teacher else "B. (1), (4), (5).",
@@ -508,7 +507,7 @@ def build_exam_de01(is_teacher=False):
     p_q = doc.add_paragraph()
     p_q.paragraph_format.space_before = Pt(4)
     p_q.paragraph_format.space_after = Pt(2)
-    render_rich_text(p_q, "Câu 1 (SBT – CTST). Cho các triglyceride X, Y với công thức cấu tạo sau:", base_size=10.5)
+    render_rich_text(p_q, "Câu 1. Cho các triglyceride X, Y với công thức cấu tạo sau:", base_size=10.5)
 
     img_xy = os.path.join(CROP_DIR, "triglyceride_XY.png")
     if os.path.exists(img_xy):
@@ -547,7 +546,7 @@ def build_exam_de01(is_teacher=False):
     p_q = doc.add_paragraph()
     p_q.paragraph_format.space_before = Pt(4)
     p_q.paragraph_format.space_after = Pt(2)
-    render_rich_text(p_q, "Câu 2 (SBT – CTST). Nhiệt độ sôi và độ tan của một số ester, carboxylic acid và alcohol có cùng số nguyên tử carbon được cho trong bảng sau:", base_size=10.5)
+    render_rich_text(p_q, "Câu 2. Nhiệt độ sôi và độ tan của một số ester, carboxylic acid và alcohol có cùng số nguyên tử carbon được cho trong bảng sau:", base_size=10.5)
 
     # Bảng dữ liệu Câu 2
     tbl_data = [
@@ -612,7 +611,7 @@ def build_exam_de01(is_teacher=False):
     p_q = doc.add_paragraph()
     p_q.paragraph_format.space_before = Pt(4)
     p_q.paragraph_format.space_after = Pt(2)
-    render_rich_text(p_q, "Câu 3 (SBT – KNTT). Các phát biểu sau đây về xà phòng và chất giặt rửa là đúng hay sai?", base_size=10.5)
+    render_rich_text(p_q, "Câu 3. Các phát biểu sau đây về xà phòng và chất giặt rửa là đúng hay sai?", base_size=10.5)
 
     c3_statements = [
         ("a) Xà phòng và chất giặt rửa thường có cấu tạo gồm hai phần: ưa nước và kị nước.", "Đúng", "Cả xà phòng và chất giặt rửa đều có cấu tạo lưỡng cực gồm phần đầu ưa nước và phần đuôi hydrocarbon kị nước."),
@@ -638,7 +637,7 @@ def build_exam_de01(is_teacher=False):
     p_q = doc.add_paragraph()
     p_q.paragraph_format.space_before = Pt(4)
     p_q.paragraph_format.space_after = Pt(2)
-    render_rich_text(p_q, "Câu 4 (SBT – KNTT). Các phát biểu sau đây là đúng hay sai?", base_size=10.5)
+    render_rich_text(p_q, "Câu 4. Các phát biểu sau đây là đúng hay sai?", base_size=10.5)
 
     c4_statements = [
         ("a) Chất giặt rửa thường là muối sodium alkylsulfate hoặc alkylbenzene sulfonate.", "Đúng", "Các chất giặt rửa tổng hợp thông dụng thường gặp là muối sodium alkylsulfate hoặc alkylbenzene sulfonate."),
@@ -688,19 +687,19 @@ def build_exam_de01(is_teacher=False):
         },
         {
             "num": 4,
-            "q": "Câu 4 (SBT – KNTT). Cho 0,1 mol butanoic acid tác dụng với 0,1 mol methyl alcohol có mặt H~2~SO~4~ đặc làm xúc tác. Tính khối lượng ester tạo thành theo gam (biết 67% alcohol chuyển hoá thành ester). (Làm tròn kết quả đến hai chữ số thập phân).",
+            "q": "Câu 4. Cho 0,1 mol butanoic acid tác dụng với 0,1 mol methyl alcohol có mặt H~2~SO~4~ đặc làm xúc tác. Tính khối lượng ester tạo thành theo gam (biết 67% alcohol chuyển hoá thành ester). (Làm tròn kết quả đến hai chữ số thập phân).",
             "ans": "6,83",
             "sol": "• Phương trình phản ứng:\n    CH~3~CH~2~CH~2~COOH + CH~3~OH <=(H~2~SO~4~ đ, t°)=> CH~3~CH~2~CH~2~COOCH~3~ + H~2~O\n• Khối lượng mol ester methyl butanoate: M = 102 g/mol.\n• Số mol ester tạo thành: n~ester~ = 0,1 × 67% = 0,067 mol.\n• Khối lượng ester thu được: m~ester~ = 0,067 × 102 = 6,834 g ≈ 6,83 gam.\n➔ Đáp số: 6,83."
         },
         {
             "num": 5,
-            "q": "Câu 5 (SBT – KNTT). Một loại dầu thực vật trong đó thành phần chất béo chứa hai gốc linoleate, một gốc oleate và thành phần phần trăm khối lượng chất béo trong dầu thực vật là 88%. Tính chỉ số ester của dầu thực vật đó. (Biết chỉ số ester là số miligam KOH dùng để xà phòng hoá hết lượng triglyceride có trong 1 g chất béo).",
+            "q": "Câu 5. Một loại dầu thực vật trong đó thành phần chất béo chứa hai gốc linoleate, một gốc oleate và thành phần phần trăm khối lượng chất béo trong dầu thực vật là 88%. Tính chỉ số ester của dầu thực vật đó. (Biết chỉ số ester là số miligam KOH dùng để xà phòng hoá hết lượng triglyceride có trong 1 g chất béo).",
             "ans": "168",
             "sol": "• Công thức cấu tạo chất béo: (C~17~H~31~COO)~2~(C~17~H~33~COO)C~3~H~5~\n    M = 2 × 279 + 281 + 41 = 880 g/mol.\n• Trong 1 g dầu thực vật có:\n    m~chất béo~ = 1 × 88% = 0,88 g => n~chất béo~ = 0,88 / 880 = 0,001 mol.\n• Phản ứng xà phòng hóa cần:\n    n~KOH~ = 3 × n~chất béo~ = 0,003 mol.\n• Khối lượng KOH tương ứng:\n    m~KOH~ = 0,003 × 56 = 0,168 g = 168 mg.\n• Vậy chỉ số ester của loại dầu thực vật là 168.\n➔ Đáp số: 168."
         },
         {
             "num": 6,
-            "q": "Câu 6 (SBT – KNTT). Số miligam KOH dùng để xà phòng hoá hết lượng triglyceride có trong 1 g chất béo được gọi là chỉ số ester hoá của loại chất béo đó. Tính chỉ số ester của một loại chất béo chứa 65% tristearin và 23% triolein (còn lại là tạp chất không phản ứng). (Kết quả làm tròn đến phần nguyên).",
+            "q": "Câu 6. Số miligam KOH dùng để xà phòng hoá hết lượng triglyceride có trong 1 g chất béo được gọi là chỉ số ester hoá của loại chất béo đó. Tính chỉ số ester của một loại chất béo chứa 65% tristearin và 23% triolein (còn lại là tạp chất không phản ứng). (Kết quả làm tròn đến phần nguyên).",
             "ans": "166",
             "sol": "• Trong 1 g chất béo có:\n    m~tristearin~ = 0,65 g (M = 890 g/mol) => n~tristearin~ = 0,65 / 890 mol.\n    m~triolein~ = 0,23 g (M = 884 g/mol) => n~triolein~ = 0,23 / 884 mol.\n• Số mol KOH cần dùng:\n    n~KOH~ = 3 × (n~tristearin~ + n~triolein~) = 3 × (0,65 / 890 + 0,23 / 884) ≈ 0,0029715 mol.\n• Khối lượng KOH cần dùng:\n    m~KOH~ = 0,0029715 × 56 ≈ 0,1664 g = 166,4 mg ≈ 166 mg.\n• Vậy chỉ số ester của chất béo là 166.\n➔ Đáp số: 166."
         }
