@@ -1,11 +1,17 @@
-\documentclass[tikz,border=18pt]{standalone}
+\documentclass[tikz,border=20pt]{standalone}
 \usepackage[utf8]{vietnam}
-\usepackage{tgheros}
-\usepackage{sansmath}
+\usepackage{times}
 \usepackage{amsmath}
-\usetikzlibrary{calc,arrows.meta}
-\sansmath
-\renewcommand{\familydefault}{\sfdefault}
+\usetikzlibrary{calc,arrows.meta,shadings}
+
+\definecolor{glassblue}{RGB}{215, 235, 246}
+\definecolor{glassborder}{RGB}{95, 130, 175}
+\definecolor{glowgreen}{RGB}{180, 232, 195}
+\definecolor{raygreen}{RGB}{0, 175, 35}
+\definecolor{copperorange}{RGB}{235, 140, 80}
+\definecolor{battop}{RGB}{242, 178, 168}
+\definecolor{batfront}{RGB}{228, 230, 232}
+\definecolor{batside}{RGB}{185, 188, 192}
 
 \begin{document}
 \begin{tikzpicture}[x=1cm, y=1cm, line cap=round, line join=round]
@@ -13,168 +19,170 @@
   % Styles
   \tikzset{
     wire/.style={line width=1.1pt, draw=black!90},
-    glass_edge/.style={line width=0.95pt, draw=blue!45!black!65},
-    glass_fill/.style={top color=blue!5!cyan!4, bottom color=blue!12!cyan!8, fill opacity=0.35},
-    pointer/.style={line width=0.65pt, draw=black!85},
-    label_txt/.style={font=\sffamily\fontsize{11pt}{13.5pt}\selectfont, inner sep=2pt}
+    glass_edge/.style={line width=0.85pt, draw=glassborder},
+    pointer/.style={line width=0.55pt, draw=black!85},
+    label_txt/.style={font=\fontsize{11.5pt}{14pt}\selectfont, inner sep=1.5pt}
   }
 
   % -------------------------------------------------------------
-  % 1. NGUỒN ĐIỆN (Battery / Power Supply) at bottom left
+  % 1. NGUỒN ĐIỆN (Battery Box at bottom left)
   % -------------------------------------------------------------
-  \coordinate (B_bl) at (0.3, -3.2);
-  \coordinate (B_br) at (2.4, -3.2);
-  \coordinate (B_tr) at (2.4, -2.1);
-  \coordinate (B_tl) at (0.3, -2.1);
+  \coordinate (B_bl) at (1.5, -3.2);
+  \coordinate (B_br) at (3.5, -3.2);
+  \coordinate (B_tr) at (3.5, -2.2);
+  \coordinate (B_tl) at (1.5, -2.2);
   
-  \coordinate (B_tbl) at ($(B_tl) + (0.45, 0.32)$);
-  \coordinate (B_tbr) at ($(B_tr) + (0.45, 0.32)$);
-  \coordinate (B_rbr) at ($(B_br) + (0.45, 0.32)$);
+  \coordinate (B_tbl) at ($(B_tl) + (0.42, 0.32)$);
+  \coordinate (B_tbr) at ($(B_tr) + (0.42, 0.32)$);
+  \coordinate (B_rbr) at ($(B_br) + (0.42, 0.32)$);
 
-  % Top face (Red/Pinkish)
-  \filldraw[draw=black!80, line width=0.8pt, top color=red!35!brown!25, bottom color=red!45!brown!35]
+  % Top face
+  \filldraw[draw=black!80, line width=0.65pt, fill=battop]
     (B_tl) -- (B_tr) -- (B_tbr) -- (B_tbl) -- cycle;
 
-  % Right face (Dark gray)
-  \filldraw[draw=black!80, line width=0.8pt, fill=black!25]
+  % Right face
+  \filldraw[draw=black!80, line width=0.65pt, fill=batside]
     (B_tr) -- (B_tbr) -- (B_rbr) -- (B_br) -- cycle;
 
-  % Front face (Light gray)
-  \filldraw[draw=black!80, line width=0.8pt, top color=black!10, bottom color=black!18]
+  % Front face
+  \filldraw[draw=black!80, line width=0.65pt, fill=batfront]
     (B_bl) -- (B_br) -- (B_tr) -- (B_tl) -- cycle;
 
-  % Battery Terminals (Cọc bình)
-  % Left terminal (-)
-  \filldraw[draw=black!80, line width=0.6pt, fill=black!40] (0.9, -1.95) ellipse (0.12cm and 0.05cm);
-  \filldraw[draw=black!80, line width=0.6pt, fill=black!30] (0.78, -1.95) rectangle (1.02, -1.75);
-  \filldraw[draw=black!80, line width=0.6pt, fill=black!15] (0.9, -1.75) ellipse (0.12cm and 0.05cm);
+  % Battery Terminals (2 metal posts)
+  % Left post (Negative) at x = 2.05
+  \filldraw[draw=black!80, line width=0.45pt, fill=black!45] (2.05, -2.04) ellipse (0.09cm and 0.04cm);
+  \filldraw[draw=black!80, line width=0.45pt, fill=black!25] (1.96, -2.04) rectangle (2.14, -1.86);
+  \filldraw[draw=black!80, line width=0.45pt, fill=black!15] (2.05, -1.86) ellipse (0.09cm and 0.04cm);
 
-  % Right terminal (+)
-  \filldraw[draw=black!80, line width=0.6pt, fill=black!40] (1.9, -1.95) ellipse (0.12cm and 0.05cm);
-  \filldraw[draw=black!80, line width=0.6pt, fill=black!30] (1.78, -1.95) rectangle (2.02, -1.75);
-  \filldraw[draw=black!80, line width=0.6pt, fill=black!15] (1.9, -1.75) ellipse (0.12cm and 0.05cm);
+  % Right post (Positive) at x = 2.95
+  \filldraw[draw=black!80, line width=0.45pt, fill=black!45] (2.95, -2.04) ellipse (0.09cm and 0.04cm);
+  \filldraw[draw=black!80, line width=0.45pt, fill=black!25] (2.86, -2.04) rectangle (3.04, -1.86);
+  \filldraw[draw=black!80, line width=0.45pt, fill=black!15] (2.95, -1.86) ellipse (0.09cm and 0.04cm);
 
   % -------------------------------------------------------------
-  % 2. DÂY NỐI VÀ KÍ HIỆU (+) (-)
+  % 2. ỐNG THỦY TINH (Glass Tube Outline & Body Shading)
   % -------------------------------------------------------------
-  % Left wire (-) from terminal (0.9, -1.75) -> left -> up -> Cathode (1.0, 0)
-  \draw[wire] (0.9, -1.75) -- (0.9, -1.35) -- (-0.4, -1.35) -- (-0.4, 0) -- (1.0, 0);
-  
+  % Glass body background shading (Light luminous icy glass)
+  \shade[top color=glassblue!70!white, bottom color=glassblue!90!black!15, middle color=white, opacity=0.85]
+    (1.8, 1.35) -- (4.6, 1.35)
+    to[out=0, in=185] (6.5, 1.48) -- (8.2, 1.50)
+    to[out=5, in=195] (11.4, 2.40)
+    arc (90:-90:0.68cm and 1.60cm)
+    to[out=165, in=-5] (8.2, 0.10) -- (6.5, 0.12)
+    to[out=175, in=0] (4.6, 0.25) -- (1.8, 0.25)
+    arc (270:90:0.30cm and 0.55cm) -- cycle;
+
+  % Green glow discharge between Cathode and Anode
+  \shade[top color=glowgreen!85!white, bottom color=glowgreen!75!teal!30, middle color=glowgreen!95!white, opacity=0.8] 
+    (2.15, 0.26) rectangle (4.6, 1.34);
+
+  % -------------------------------------------------------------
+  % 3. DÂY NỐI MẠCH ĐIỆN VÀ KÝ HIỆU (+) (-)
+  % -------------------------------------------------------------
+  % Negative circuit wire: Left post -> up to -1.45 -> left to 0.8 -> up to 0.8 -> right to cathode (2.05, 0.8)
+  \draw[wire] (2.05, -1.86) -- (2.05, -1.45) -- (0.8, -1.45) -- (0.8, 0.8) -- (2.05, 0.8);
+
+  % Positive circuit wire: Right post -> up to -1.45 -> right to 4.6 -> up to anode base (4.6, 0.28)
+  \draw[wire] (2.95, -1.86) -- (2.95, -1.45) -- (4.6, -1.45) -- (4.6, 0.28);
+
   % Circle (-) on left wire
-  \filldraw[fill=white, draw=black!85, line width=0.8pt] (-0.4, -0.68) circle (0.24cm);
-  \node[font=\fontsize{11pt}{12pt}\selectfont\bfseries] at (-0.4, -0.68) {$-$};
-
-  % Right wire (+) from terminal (1.9, -1.75) -> right -> up -> Anode (3.2, -0.52)
-  \draw[wire] (1.9, -1.75) -- (1.9, -1.35) -- (3.2, -1.35) -- (3.2, -0.52);
+  \filldraw[fill=white, draw=black!85, line width=0.75pt] (0.8, -0.32) circle (0.24cm);
+  \node[font=\fontsize{11pt}{12pt}\selectfont\bfseries] at (0.8, -0.32) {$-$};
 
   % Circle (+) on right wire
-  \filldraw[fill=white, draw=black!85, line width=0.8pt] (3.2, -0.92) circle (0.24cm);
-  \node[font=\fontsize{10.5pt}{12pt}\selectfont\bfseries] at (3.2, -0.92) {$+$};
+  \filldraw[fill=white, draw=black!85, line width=0.75pt] (4.6, -0.32) circle (0.24cm);
+  \node[font=\fontsize{10.5pt}{12pt}\selectfont\bfseries] at (4.6, -0.32) {$+$};
 
   % -------------------------------------------------------------
-  % 3. ỐNG THỦY TINH CHÂN KHÔNG (Glass Vacuum Tube)
+  % 4. ĐIỆN CỰC VÀ TIA ÂM CỰC
   % -------------------------------------------------------------
-  % Background glass body
-  \fill[glass_fill] 
-    (0.6, 0.55) -- (3.8, 0.55) 
-    to[out=0, in=185] (7.5, 0.95)
-    to[out=5, in=195] (9.6, 1.55)
-    to[out=15, in=90] (10.05, 0)
-    to[out=-90, in=-15] (9.6, -1.55)
-    to[out=165, in=-5] (7.5, -0.95)
-    to[out=175, in=0] (3.8, -0.55)
-    -- (0.6, -0.55)
-    arc (-90:90:0.25cm and 0.55cm) -- cycle;
+  % Cathode Disc (Cực âm) at x = 2.1
+  \filldraw[draw=black!90, line width=0.7pt, fill=black!75]
+    (2.05, 0.8) ellipse (0.07cm and 0.48cm);
+  \filldraw[draw=black!90, line width=0.7pt, fill=black!55]
+    (2.17, 0.8) ellipse (0.07cm and 0.48cm);
+  \draw[line width=0.7pt, draw=black!90] (2.05, 1.28) -- (2.17, 1.28);
+  \draw[line width=0.7pt, draw=black!90] (2.05, 0.32) -- (2.17, 0.32);
 
-  % Left dome cap
-  \draw[glass_edge] (0.6, -0.55) arc (-90:90:0.25cm and 0.55cm);
+  % Anode Disc with Hole (Cực dương) at x = 4.6
+  \filldraw[draw=copperorange!90!black, line width=0.8pt, fill=copperorange]
+    (4.6, 0.8) ellipse (0.15cm and 0.52cm);
+  % Central hole (Lỗ tròn)
+  \filldraw[draw=black!85, fill=white, line width=0.6pt] 
+    (4.6, 0.8) ellipse (0.045cm and 0.11cm);
 
-  % Green glow between Cathode and Anode
-  \fill[green!55!teal!35, fill opacity=0.45] 
-    (1.15, -0.48) rectangle (3.2, 0.48);
+  % Cathode Ray (Tia âm cực) - Emerges from anode aperture to phosphor screen!
+  % Faint fluorescent glow halo
+  \draw[line width=2.6pt, raygreen!40!white, opacity=0.55] 
+    (4.6, 0.8) -- (11.4, 0.8);
+  % Sharp laser beam
+  \draw[line width=1.35pt, raygreen] 
+    (4.6, 0.8) -- (11.4, 0.8);
 
-  % Cathode Disc (Cực âm) at x=1.1
-  \filldraw[draw=black!90, line width=0.8pt, fill=black!75]
-    (1.0, 0) ellipse (0.08cm and 0.48cm);
-  \filldraw[draw=black!90, line width=0.8pt, fill=black!55]
-    (1.15, 0) ellipse (0.08cm and 0.48cm);
-  \draw[line width=0.7pt, draw=black!90] (1.0, 0.48) -- (1.15, 0.48);
-  \draw[line width=0.7pt, draw=black!90] (1.0, -0.48) -- (1.15, -0.48);
+  % Glass tube upper profile
+  \draw[glass_edge] 
+    (1.8, 1.35) -- (4.6, 1.35)
+    to[out=0, in=185] (6.5, 1.48) -- (8.2, 1.50)
+    to[out=5, in=195] (11.4, 2.40);
 
-  % Anode Disc with Hole (Cực dương có lỗ) at x=3.2
-  \filldraw[draw=orange!60!brown!90, line width=0.9pt, fill=orange!70!brown!60]
-    (3.2, 0) ellipse (0.16cm and 0.52cm);
-  \draw[orange!50!brown!90, line width=0.8pt] (3.2, 0) ellipse (0.16cm and 0.52cm);
-  % Central hole (Lỗ)
-  \filldraw[draw=black!85, fill=white, line width=0.7pt] 
-    (3.2, 0) ellipse (0.05cm and 0.12cm);
+  % Glass tube lower profile
+  \draw[glass_edge] 
+    (1.8, 0.25) -- (4.6, 0.25)
+    to[out=0, in=175] (6.5, 0.12) -- (8.2, 0.10)
+    to[out=-5, in=165] (11.4, -0.80);
 
-  % Cathode Ray (Tia âm cực) - Green beam
-  \draw[line width=3.5pt, green!50!teal!60, opacity=0.35] 
-    (1.15, 0) -- (10.05, 0);
-  \draw[line width=1.6pt, green!75!black!90] 
-    (3.2, 0) -- (10.05, 0);
-
-  % Upper glass tube profile
-  \draw[glass_edge] (0.6, 0.55) -- (3.8, 0.55) 
-    to[out=0, in=185] (7.5, 0.95)
-    to[out=5, in=195] (9.6, 1.55);
-
-  % Lower glass tube profile
-  \draw[glass_edge] (0.6, -0.55) -- (3.8, -0.55) 
-    to[out=0, in=175] (7.5, -0.95)
-    to[out=-5, in=165] (9.6, -1.55);
+  % Left dome outer boundary (convex curved to the left)
+  \draw[glass_edge] (1.8, 1.35) arc (90:270:0.30cm and 0.55cm);
 
   % Phosphor Screen (Màn phosphor) at right end
-  \filldraw[glass_edge, fill=cyan!15!green!15, fill opacity=0.55]
-    (9.6, 1.55) to[out=15, in=90] (10.05, 0) to[out=-90, in=-15] (9.6, -1.55)
-    to[out=140, in=-140] (9.6, 1.55) -- cycle;
+  \shade[top color=glassblue!60!green!25, bottom color=glassblue!80!green!35, middle color=white!75!green!20, opacity=0.85]
+    (11.4, 0.8) ellipse (0.68cm and 1.60cm);
+  \draw[glass_edge, line width=0.95pt] 
+    (11.4, 0.8) ellipse (0.68cm and 1.60cm);
 
-  % Flared edge rim
-  \draw[glass_edge, line width=1.1pt] 
-    (9.6, 0) ellipse (0.75cm and 1.55cm);
+  % Green glowing spot at the screen center where cathode ray hits
+  \fill[raygreen!45!white, opacity=0.7] (11.4, 0.8) circle (0.13cm);
+  \fill[raygreen] (11.4, 0.8) circle (0.06cm);
+  \fill[white] (11.4, 0.8) circle (0.02cm);
 
-  % Green spot where beam strikes phosphor
-  \fill[green!80!black!90] (10.05, 0) circle (0.08cm);
-  \fill[green!50!white, opacity=0.85] (10.05, 0) circle (0.04cm);
-
-  % Glass shine highlights (phản quang thủy tinh)
-  \draw[white, line width=1.6pt, opacity=0.6] 
-    (4.2, 0.45) to[out=0, in=185] (7.5, 0.85) to[out=5, in=195] (9.4, 1.4);
-  \draw[white, line width=1.4pt, opacity=0.5] 
-    (1.4, 0.42) -- (3.5, 0.42);
+  % Glossy reflections on glass (vệt sáng bóng phản chiếu)
+  \draw[white, line width=1.6pt, opacity=0.75] 
+    (1.9, 1.27) -- (4.5, 1.27);
+  \draw[white, line width=1.6pt, opacity=0.75] 
+    (4.8, 1.27) to[out=0, in=185] (6.5, 1.39) -- (8.2, 1.41) to[out=5, in=195] (11.1, 2.27);
+  \draw[white, line width=1.2pt, opacity=0.5] 
+    (4.8, 0.33) to[out=0, in=175] (6.5, 0.21) -- (8.2, 0.19) to[out=-5, in=165] (11.1, -0.67);
 
   % -------------------------------------------------------------
-  % 4. CHÚ THÍCH (Callout Labels with Pointers)
+  % 5. CHÚ THÍCH (Callouts & Pointer Lines)
   % -------------------------------------------------------------
-
   % 1. "Ống chân không"
-  \node[label_txt] (lbl_ong) at (3.2, 2.3) {Ống chân không};
-  \draw[pointer] (lbl_ong.south) -- (3.8, 0.85);
+  \node[label_txt] (lbl_ong) at (4.7, 3.1) {Ống chân không};
+  \draw[pointer] (lbl_ong.south) -- (5.0, 1.43);
 
   % 2. "Cathode (cực âm)"
-  \node[label_txt] (lbl_cat) at (0.8, 1.45) {Cathode (cực âm)};
-  \draw[pointer] (lbl_cat.south) -- (1.1, 0.55);
+  \node[label_txt] (lbl_cat) at (1.9, 2.25) {Cathode (cực âm)};
+  \draw[pointer] (lbl_cat.south) -- (2.12, 1.30);
 
   % 3. "Tia âm cực"
-  \node[label_txt] (lbl_tia) at (6.8, 1.55) {Tia âm cực};
-  \draw[pointer] (lbl_tia.south) -- (6.2, 0.05);
+  \node[label_txt] (lbl_tia) at (8.5, 2.25) {Tia âm cực};
+  \draw[pointer] (lbl_tia.south) -- (7.7, 0.82);
 
   % 4. "Lỗ"
-  \node[label_txt] (lbl_lo) at (4.8, -0.65) {Lỗ};
-  \draw[pointer] (lbl_lo.west) -- (3.35, -0.05);
+  \node[label_txt] (lbl_lo) at (5.7, -0.15) {Lỗ};
+  \draw[pointer] (lbl_lo.north west) -- (4.72, 0.74);
 
-  % 5. "Anode (cực dương)"
-  \node[label_txt] (lbl_ano) at (4.9, -1.45) {Anode (cực dương)};
-  \draw[pointer] (lbl_ano.west) -- (3.3, -0.35);
+  % 5. "Anode (cực dương)" - shifted right to prevent any overlap with (+) circle
+  \node[label_txt, anchor=west] (lbl_ano) at (5.2, -0.95) {Anode (cực dương)};
+  \draw[pointer] ($(lbl_ano.north west) + (0.1, 0)$) -- (4.78, 0.45);
 
   % 6. "Nguồn"
-  \node[label_txt] (lbl_nguon) at (3.1, -2.65) {Nguồn};
-  \draw[pointer] (lbl_nguon.west) -- (2.4, -2.65);
+  \node[label_txt] (lbl_nguon) at (4.65, -2.6) {Nguồn};
+  \draw[pointer] (lbl_nguon.west) -- (3.65, -2.6);
 
   % 7. "Màn phosphor"
-  \node[label_txt] (lbl_man) at (8.7, -1.85) {Màn phosphor};
-  \draw[pointer] (lbl_man.north) -- (9.4, -0.4);
+  \node[label_txt] (lbl_man) at (10.3, -1.25) {Màn phosphor};
+  \draw[pointer] (lbl_man.north) -- (11.1, 0.05);
 
 \end{tikzpicture}
 \end{document}
