@@ -1,0 +1,70 @@
+\documentclass[tikz,border=15pt]{standalone}
+\usepackage[utf8]{vietnam}
+\usepackage{tgheros}
+\usepackage{sansmath}
+\usepackage{amsmath}
+\sansmath
+\renewcommand{\familydefault}{\sfdefault}
+
+\begin{document}
+\begin{tikzpicture}[x=1cm, y=1cm, line cap=round, line join=round]
+  \tikzset{
+    axis/.style={line width=1.15pt, draw=black},
+    tick/.style={line width=0.95pt, draw=black},
+    peak/.style={line width=2.8pt, draw=black!90},
+    axis_lbl/.style={font=\sffamily\fontsize{10.5pt}{12.5pt}\selectfont},
+    tick_num/.style={font=\sffamily\fontsize{10.5pt}{12.5pt}\selectfont},
+    label_peak/.style={font=\sffamily\fontsize{10pt}{12pt}\selectfont}
+  }
+
+  % Coordinates scale:
+  % Y-axis: 0 to 90 (1 unit y = 0.055 cm -> 80 is 4.4 cm, 90 is 4.95 cm)
+  \def\ys{0.055}
+
+  % Positions of 24, 25, 26 on X-axis:
+  \def\xposA{4.2}
+  \def\xposB{6.2}
+  \def\xposC{8.2}
+  \def\xmax{11.5}
+
+  % Axes
+  \draw[axis] (0, 0) -- (\xmax, 0);
+  \draw[axis] (0, 0) -- (0, 92*\ys);
+
+  % Y-axis ticks and labels
+  \foreach \y in {20, 40, 60, 80} {
+    \draw[tick] (0, \y*\ys) -- (-0.18, \y*\ys);
+    \node[tick_num, anchor=east] at (-0.22, \y*\ys) {\y};
+  }
+
+  % Y-axis title (rotated 90)
+  \node[axis_lbl, rotate=90, anchor=south] at (-1.1, 46*\ys) {Tỉ lệ \% số nguyên tử};
+
+  % X-axis ticks and labels at 24, 25, 26
+  \draw[tick] (\xposA, 0) -- (\xposA, -0.18);
+  \node[tick_num, anchor=north] at (\xposA, -0.22) {24};
+
+  \draw[tick] (\xposB, 0) -- (\xposB, -0.18);
+  \node[tick_num, anchor=north] at (\xposB, -0.22) {25};
+
+  \draw[tick] (\xposC, 0) -- (\xposC, -0.18);
+  \node[tick_num, anchor=north] at (\xposC, -0.22) {26};
+
+  % X-axis label m/z
+  \node[axis_lbl, anchor=west] at (\xmax - 0.75, -0.42) {$m/z$};
+
+  % Peaks:
+  % Peak 1: 24Mg (78.99%) at xposA
+  \draw[peak] (\xposA, 0) -- (\xposA, 78.99*\ys);
+  \node[label_peak, anchor=south] at (\xposA + 0.3, 78.99*\ys + 0.12) {$^{24}\text{Mg}\ (78{,}99\%)$};
+
+  % Peak 2: 25Mg (10%) at xposB
+  \draw[peak] (\xposB, 0) -- (\xposB, 10*\ys);
+  \node[label_peak, anchor=south] at (\xposB, 10*\ys + 0.15) {$^{25}\text{Mg}\ (10\%)$};
+
+  % Peak 3: 26Mg (11.01%) at xposC
+  \draw[peak] (\xposC, 0) -- (\xposC, 11.01*\ys);
+  \node[label_peak, anchor=south] at (\xposC + 0.5, 11.01*\ys + 0.15) {$^{26}\text{Mg}\ (11{,}01\%)$};
+
+\end{tikzpicture}
+\end{document}

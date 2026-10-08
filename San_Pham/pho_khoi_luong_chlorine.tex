@@ -1,0 +1,62 @@
+\documentclass[tikz,border=15pt]{standalone}
+\usepackage[utf8]{vietnam}
+\usepackage{tgheros}
+\usepackage{sansmath}
+\usepackage{amsmath}
+\sansmath
+\renewcommand{\familydefault}{\sfdefault}
+
+\begin{document}
+\begin{tikzpicture}[x=1cm, y=1cm, line cap=round, line join=round]
+  \tikzset{
+    axis/.style={line width=1.15pt, draw=black},
+    tick/.style={line width=0.95pt, draw=black},
+    peak/.style={line width=3.0pt, draw=black!90},
+    axis_lbl/.style={font=\sffamily\fontsize{10.5pt}{12.5pt}\selectfont},
+    tick_num/.style={font=\sffamily\fontsize{10.5pt}{12.5pt}\selectfont},
+    label_peak/.style={font=\sffamily\fontsize{10pt}{12pt}\selectfont},
+    caption_txt/.style={font=\sffamily\bfseries\itshape\fontsize{11pt}{13.5pt}\selectfont}
+  }
+
+  % Coordinates scale:
+  % X-axis: 0 to 48 (1 unit x = 0.23 cm -> width ~ 11.0 cm)
+  % Y-axis: 0 to 110 (1 unit y = 0.046 cm -> height ~ 5.1 cm)
+  \def\xs{0.23}
+  \def\ys{0.046}
+
+  % Axes
+  \draw[axis] (0, 0) -- (48*\xs, 0);
+  \draw[axis] (0, 0) -- (0, 112*\ys);
+
+  % Y-axis ticks and labels
+  \foreach \y in {25, 50, 75, 100} {
+    \draw[tick] (0, \y*\ys) -- (-0.18, \y*\ys);
+    \node[tick_num, anchor=east] at (-0.22, \y*\ys) {\y};
+  }
+
+  % Y-axis title (rotated 90)
+  \node[axis_lbl, rotate=90, anchor=south] at (-1.15, 55*\ys) {Tỉ lệ \% số nguyên tử};
+
+  % X-axis ticks and labels
+  \foreach \x in {10, 20, 30, 40} {
+    \draw[tick] (\x*\xs, 0) -- (\x*\xs, -0.18);
+    \node[tick_num, anchor=north] at (\x*\xs, -0.22) {\x};
+  }
+
+  % X-axis label m/z = A
+  \node[axis_lbl, anchor=west] at (42.5*\xs, -0.42) {$m/z = A$};
+
+  % Peaks:
+  % Peak 1: 35Cl (a%) at x=35, height = 75.77%
+  \draw[peak] (35*\xs, 0) -- (35*\xs, 75.77*\ys);
+  \node[label_peak, anchor=south] at (35*\xs - 0.2, 75.77*\ys + 0.12) {$^{35}_{\ 17}\text{Cl}\ (a\%)$};
+
+  % Peak 2: 37Cl (b%) at x=37, height = 24.23%
+  \draw[peak] (37*\xs, 0) -- (37*\xs, 24.23*\ys);
+  \node[label_peak, anchor=south west, inner sep=1pt] at (36.8*\xs, 24.23*\ys + 0.12) {$^{37}_{\ 17}\text{Cl}\ (b\%)$};
+
+  % Caption
+  \node[caption_txt, anchor=north] at (22*\xs, -1.05) {Hình 2.2. Phổ khối lượng của chlorine};
+
+\end{tikzpicture}
+\end{document}
