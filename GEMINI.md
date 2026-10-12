@@ -1,6 +1,6 @@
-# QUY CHUẨN SOẠN THẢO VÀ XỬ LÝ ĐỀ KIỂM TRA HÓA HỌC
+# QUY CHUẨN SOẠN THẢO VÀ XỬ LÝ ĐỀ KIỂM TRA HÓA HỌC ("FORM ĐỀ KIỂM TRA")
 
-Tài liệu này là quy tắc bắt buộc (Project Rules) dành cho AI khi xử lý bất kỳ đề kiểm tra Hóa học nào trong workspace này. Trong mọi phiên làm việc tiếp theo, AI phải tự động áp dụng đầy đủ các điều kiện dưới đây mà không cần người dùng nhắc lại.
+Tài liệu này là quy tắc bắt buộc (Project Rules) dành cho AI khi xử lý bất kỳ đề kiểm tra Hóa học nào trong workspace này, được định danh chính thức là **"form đề kiểm tra"** (chi tiết xem tại `FORM_DE_KIEM_TRA.md` và module `scripts/form_de_kiem_tra.py`). Trong mọi phiên làm việc tiếp theo, đặc biệt khi người dùng gửi ảnh đề thi, AI phải tự động áp dụng đầy đủ form chuẩn này mà không cần người dùng nhắc lại.
 
 ---
 
