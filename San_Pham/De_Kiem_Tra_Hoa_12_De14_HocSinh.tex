@@ -1,0 +1,357 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{geometry}
+\geometry{top=0.9cm,bottom=0.9cm,left=1.35cm,right=1.35cm,headheight=24pt,headsep=5pt,footskip=11pt}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\definecolor{hfRed}{HTML}{D32F2F}
+\definecolor{hfGreen}{HTML}{8BC390}
+\definecolor{mainGreen}{HTML}{2E7D32}
+
+\usepackage{ex_test}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.75pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0.75pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+
+\fancyhead[L]{\small\itshape\color{hfRed}Tài liệu lưu hành nội bộ}
+\fancyhead[R]{\small\color{hfRed}Thầy \textbf{TRẦN VĂN THẠNH} - 0777.470.803}
+
+\fancyfoot[L]{\footnotesize\itshape\color{hfRed}CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+\fancyfoot[R]{\small\textbf{\color{hfRed}Trang \thepage}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.0pt}
+
+\def\loigiai#1{}
+
+\begin{document}
+\Opensolutionfile{ans}[ans-de14-hs]
+
+\noindent
+\begin{minipage}[t]{0.48\textwidth}
+	\textbf{SỞ GIÁO DỤC VÀ ĐÀO TẠO THỪA THIÊN HUẾ}\\
+	\textbf{TRƯỜNG THPT HAI BÀ TRƯNG}\\
+	\textbf{ĐỀ CHÍNH THỨC}\\
+	\textit{(Đề thi có 04 trang)}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.48\textwidth}
+	\raggedleft
+	\textbf{\color{mainGreen}ĐỀ KIỂM TRA ĐỊNH KỲ CHƯƠNG 5 (PIN ĐIỆN – ĐIỆN PHÂN)}\\
+	\textbf{MÔN: HOÁ HỌC -- LỚP 12}\\
+	\textit{Thời gian làm bài: 50 phút (không kể thời gian phát đề)}\\
+	\textbf{Mã đề thi: 114}
+\end{minipage}
+
+
+\vspace{1pt}
+\noindent\textit{Họ, tên thí sinh: \dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots Lớp: \dots\dots\dots\dots SBD: \dots\dots\dots\dots}\\
+\noindent\textit{(Cho biết nguyên tử khối: H = 1; C = 12; N = 14; O = 16; Na = 23; Mg = 24; Al = 27; S = 32; Cl = 35,5; K = 39; Ca = 40; Fe = 56; Ni = 59; Cu = 64; Zn = 65; Br = 80; Ag = 108; Cd = 112; Sn = 119; hằng số Faraday F = 96500 C/mol).}
+
+\vspace{2pt}
+\noindent
+\textbf{PHẦN I (4,5 điểm -- 18 câu): Câu trắc nghiệm nhiều phương án lựa chọn.}\\
+\textit{Thí sinh trả lời từ câu 1 đến câu 18. Mỗi câu hỏi thí sinh chỉ chọn một phương án.}
+
+\setcounter{ex}{0}
+
+\begin{ex}
+(SBT – KNTT). Trong quá trình hoạt động của pin điện Ni -- Cu, quá trình xảy ra ở anode là
+\choice
+{\ce{Ni -> Ni^2+ + 2e}}
+{\ce{Cu -> Cu^2+ + 2e}}
+{\ce{Cu^2+ + 2e -> Cu}}
+{\ce{Ni^2+ + 2e -> Ni}}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+(SBT – KNTT). Trong quá trình hoạt động của pin điện Cu -- Ag, điện cực đồng là
+\choice
+{điện cực dương}
+{cathode}
+{điện cực bị giảm dần khối lượng}
+{nơi xảy ra quá trình khử}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+(SBT – KNTT). Trong quá trình hoạt động của pin điện hoá Zn -- Cu, nhận định về vai trò của cầu muối nào sau đây \textbf{không} đúng?
+\choice
+{Ngăn cách hai dung dịch chất điện li}
+{Cho dòng electron chạy qua}
+{Trung hoà điện ở mỗi dung dịch điện li}
+{Đóng kín mạch điện}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+(SBT – KNTT). Trong công nghiệp, việc tinh chế đồng từ đồng thô được thực hiện bằng phương pháp điện phân dung dịch với anode làm bằng
+\choice
+{graphite}
+{platinum}
+{thép}
+{đồng thô}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+(SBT – KNTT). Điện phân dung dịch chất nào sau đây (dùng điện cực trơ), thu được dung dịch có khả năng làm quỳ tím chuyển sang màu đỏ?
+\choice
+{\ce{NaBr}}
+{\ce{NaCl}}
+{\ce{CuSO4}}
+{\ce{CuCl2}}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+(SBT – KNTT). Điện phân dung dịch chất nào sau đây (với điện cực trơ, không có màng ngăn điện cực), thu được dung dịch có khả năng tẩy màu?
+\choice
+{\ce{CuSO4}}
+{\ce{NaCl}}
+{\ce{K2SO4}}
+{\ce{AgNO3}}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+(SBT – CTST). Dung dịch chất nào sau đây có thể hòa tan được lá sắt?
+\choice
+{\ce{AlCl3}}
+{\ce{Fe2(SO4)3}}
+{\ce{FeCl2}}
+{\ce{MgCl2}}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Sự khác biệt nào sau đây giữa thế điện cực chuẩn và thế điện cực thực tế?
+\choice
+{Thế điện cực chuẩn đo ở điều kiện tiêu chuẩn, thế điện cực thực tế đo trong điều kiện không tiêu chuẩn}
+{Thế điện cực chuẩn đo trong dung dịch kiềm, thế điện cực thực tế đo trong dung dịch acid}
+{Thế điện cực chuẩn đo ở nhiệt độ cao, thế điện cực thực tế đo ở nhiệt độ thấp}
+{Thế điện cực chuẩn đo trong chân không, thế điện cực thực tế đo trong không khí}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+(SBT – CTST). Trong pin điện hoá, quá trình oxi hoá
+\choice
+{chỉ xảy ra ở cực dương}
+{chỉ xảy ra ở cực âm}
+{xảy ra ở cả hai cực}
+{không xảy ra ở cả hai cực}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+(SBT – CTST). Cho pin điện hoá Zn – Fe. Xác định các chất, ion đóng vai trò là chất khử, chất oxi hoá trong pin:
+\choice
+{Zn là chất khử, \ce{Fe^2+} là chất oxi hoá}
+{Zn là chất oxi hoá, \ce{Fe^2+} là chất khử}
+{\ce{Zn^2+} là chất khử, Fe là chất oxi hoá}
+{\ce{Zn^2+} là chất oxi hoá, Fe là chất khử}
+\loigiai{}
+\end{ex}
+
+\newpage
+
+\begin{ex}
+(SBT – CTST). Trong quá trình điện phân dung dịch \ce{NaCl} (điện cực trơ), ở cathode xảy ra
+\choice
+{sự oxi hoá cation \ce{Na+}}
+{sự oxi hoá phân tử \ce{H2O}}
+{sự khử phân tử \ce{H2O}}
+{sự khử cation \ce{Na+}}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+(SBT – CTST). Điện phân nóng chảy \ce{NaCl} (điện cực trơ), ở cathode thu được chất nào sau đây?
+\choice
+{\ce{HCl}}
+{\ce{Cl2}}
+{Na}
+{\ce{NaOH}}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+(SBT – CTST). Sản phẩm thu được khi điện phân dung dịch \ce{KCl} (điện cực trơ, có màng ngăn) gồm
+\choice
+{K và \ce{Cl2}}
+{K, \ce{H2} và \ce{Cl2}}
+{KOH, \ce{H2} và \ce{Cl2}}
+{KOH, \ce{O2} và \ce{HCl}}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+(SBT – CTST). Điện phân dung dịch nào sau đây sẽ có khí thoát ra ở cả 2 điện cực (ngay lúc mới bắt đầu điện phân)?
+\choice
+{\ce{Cu(NO3)2}}
+{\ce{FeCl2}}
+{\ce{K2SO4}}
+{\ce{FeSO4}}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Thực hiện các thí nghiệm với 4 kim loại (X, Y, Z, T) và dung dịch muối của chúng (\ce{X^2+}, \ce{Y^2+}, \ce{Z+}, \ce{T^2+}) cho kết quả như sau:\\
+(1) T đẩy được Z ra khỏi dung dịch muối của nó.\\
+(2) Y không đẩy được Z ra khỏi dung dịch muối của nó.\\
+(3) X đẩy được Z ra khỏi dung dịch muối của nó.\\
+(4) X không đẩy được T ra khỏi dung dịch muối của nó.\\
+(5) X đẩy được Y ra khỏi dung dịch muối của nó.\\
+Khẳng định nào sau đây là đúng?
+\choice
+{Trong 4 kim loại trên, X có tính khử yếu nhất}
+{\ce{T^2+} có tính khử mạnh hơn \ce{Z+}}
+{Trong 4 ion kim loại trên, \ce{Y^2+} có tính oxi hóa yếu nhất}
+{T có tính khử yếu hơn X}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+(SBT – KNTT). Thiết lập pin điện hoá ở điều kiện chuẩn gồm hai điện cực tạo bởi các cặp oxi hoá -- khử \ce{Ni^2+/Ni} ($E^\circ_{\ce{Ni^2+/Ni}} = -0{,}257\text{ V}$) và \ce{Cd^2+/Cd} ($E^\circ_{\ce{Cd^2+/Cd}} = -0{,}403\text{ V}$). Sức điện động chuẩn của pin điện hoá trên là
+\choice
+{+0,146 V}
+{0,000 V}
+{-0,146 V}
+{+0,660 V}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+(SBT – KNTT). Lắp ráp pin điện hoá Sn -- Cu ở điều kiện chuẩn. Cho biết các giá trị thế điện cực chuẩn: $E^\circ_{\ce{Sn^2+/Sn}} = -0{,}137\text{ V}$ và $E^\circ_{\ce{Cu^2+/Cu}} = +0{,}340\text{ V}$. Sức điện động chuẩn của pin điện hoá trên là bao nhiêu vôn?
+\choice
+{-0,48 V}
+{0,48 V}
+{-0,146 V}
+{+0,660 V}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+(SBT – CTST). Cho 4 dung dịch chứa các ion sau:\\
+(1) \ce{Cu^2+}, \ce{Ag+}, \ce{NO3-}.\qquad (2) \ce{Na+}, \ce{K+}, \ce{Br-}, \ce{Cl-}.\\
+(3) \ce{Na+}, \ce{K+}, \ce{Cl-}, \ce{OH-}.\qquad (4) \ce{Cu^2+}, \ce{Zn^2+}, \ce{SO4^2-}.\\
+Lần lượt điện phân các dung dịch trên với điện cực trơ. Dung dịch nào sau khi điện phân có môi trường acid?
+\choice
+{(1), (2)}
+{(1), (4)}
+{(1), (3)}
+{(2), (3)}
+\loigiai{}
+\end{ex}
+
+\newpage
+
+\noindent
+\textbf{PHẦN II (4,0 điểm -- 4 câu): Câu trắc nghiệm đúng sai.}\\
+\textit{Thí sinh trả lời từ câu 1 đến câu 4. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}
+
+\setcounter{ex}{0}
+
+\begin{ex}
+(SBT – CTST). Pin điện hoá và bình điện phân là các thiết bị biến đổi qua lại giữa hoá năng và điện năng. Xét tính đúng/sai của các phát biểu sau:
+\choiceTF
+{Trong pin điện hoá, anode là cực dương, cathode là nơi xảy ra sự oxi hóa}
+{Trong bình điện phân, anode là cực dương, nơi xảy ra quá trình khử}
+{Trong pin điện hoá và bình điện phân, anode là nơi xảy ra quá trình oxi hóa, cathode là nơi xảy ra quá trình khử}
+{Các điện cực trong pin điện hoá và bình điện phân khác nhau về bản chất, giống nhau về dấu}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Cho giá trị thế điện cực chuẩn của các cặp oxi hoá – khử: $E^\circ_{\ce{Cu^2+/Cu}} = +0{,}34\text{ V}$; $E^\circ_{\ce{Zn^2+/Zn}} = -0{,}76\text{ V}$; $E^\circ_{\ce{Ag+/Ag}} = +0{,}80\text{ V}$. Chiều của các phản ứng hoá học xảy ra là:
+\choiceTF
+{\ce{Cu + Zn^2+ -> Cu^2+ + Zn}}
+{\ce{Zn + Cu^2+ -> Zn^2+ + Cu}}
+{\ce{Zn + 2Ag+ -> Zn^2+ + 2Ag}}
+{\ce{Cu + 2Ag+ -> Cu^2+ + 2Ag}}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Điện phân dung dịch \ce{CuSO4} loãng với điện cực trơ, đến khi cathode bắt đầu xuất hiện bọt khí thì dừng điện phân, thu được dung dịch X. Cho hỗn hợp Mg và Fe tác dụng với X, sau khi các phản ứng xảy ra hoàn toàn thu được dung dịch Y, khí Z và hỗn hợp chất rắn T.
+\choiceTF
+{Trong quá trình điện phân dung dịch \ce{CuSO4}, khối lượng điện cực cathode tăng}
+{Chất rắn T tan hoàn toàn trong lượng dư dung dịch sắt(III) sulfate}
+{Dung dịch Y tác dụng với dung dịch \ce{NaOH} dư, thu được kết tủa}
+{Dẫn khí Z qua ống chứa \ce{K2O} đun nóng thu được kim loại K}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+(SGK – CĐ). Chọn tính đúng sai cho mỗi phát biểu sau về pin điện hoá và bình điện phân:
+\choiceTF
+{Phản ứng xảy ra trong pin điện hóa là tự diễn biến, trong bình điện phân là không tự diễn biến}
+{Phản ứng xảy ra trong pin điện hóa là không tự diễn biến, trong bình điện phân là tự diễn biến}
+{Cực dương của bình điện phân được gọi là anode, của pin điện hóa được gọi là cathode}
+{Cực dương của bình điện phân được gọi là cathode, của pin điện hóa được gọi là anode}
+\loigiai{}
+\end{ex}
+
+\newpage
+
+\noindent
+\textbf{PHẦN III (1,5 điểm -- 6 câu): Câu trắc nghiệm yêu cầu trả lời ngắn.}\\
+\textit{Thí sinh trả lời từ câu 1 đến câu 6.}
+
+\setcounter{ex}{0}
+
+\begin{ex}
+Xét các cặp oxi hoá - khử sau: \ce{Al^3+/Al} ($-1{,}676\text{ V}$); \ce{Ag+/Ag} ($+0{,}799\text{ V}$); \ce{Mg^2+/Mg} ($-2{,}356\text{ V}$); \ce{Fe^2+/Fe} ($-0{,}44\text{ V}$). Số kim loại khử được ion \ce{H+} thành khí \ce{H2} ở điều kiện chuẩn là bao nhiêu?
+\par\noindent\textit{Trả lời:} \dotfill
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Sức điện động chuẩn của pin tạo bởi hai cặp \ce{Cu^2+/Cu} và \ce{Ag+/Ag} là $E^\circ_{\text{pin}} = 0{,}46\text{ V}$. Biết $E^\circ_{\ce{Cu^2+/Cu}} = +0{,}34\text{ V}$. Xác định giá trị thế điện cực chuẩn của cặp oxi hóa – khử \ce{Ag+/Ag} (theo đơn vị V).
+\par\noindent\textit{Trả lời:} \dotfill
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Điện phân dung dịch hỗn hợp gồm: \ce{NaCl}, \ce{Mg(NO3)2}, \ce{ZnCl2}, \ce{CuSO4} và \ce{Fe2(SO4)3} với điện cực trơ cho đến khi nước bắt đầu điện phân ở cả hai điện cực thì dừng lại. Thu được bao nhiêu chất rắn (kim loại) ở cathode?
+\par\noindent\textit{Trả lời:} \dotfill
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Cho các dung dịch sau: \ce{CuSO4}, \ce{Cu(NO3)2}, \ce{Na2SO4}, \ce{KNO3}, \ce{CuCl2}, \ce{FeCl2}, \ce{AgNO3}, \ce{NaOH}. Số dung dịch sau khi điện phân cho môi trường acid với điện cực trơ và có màng ngăn xốp là bao nhiêu?
+\par\noindent\textit{Trả lời:} \dotfill
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Một pin AAA có điện áp 1,5 V và dung lượng 1200 mAh. Giả sử pin này được sử dụng để cấp năng lượng cho một đèn pin tiêu thụ dòng điện 200 mA. Hãy tính thời gian hoạt động liên tục của đèn pin trước khi pin cạn năng lượng (theo đơn vị giờ).
+\par\noindent\textit{Trả lời:} \dotfill
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Muốn mạ một lớp copper (đồng) dày 0,1 mm lên một chiếc vòng tay bằng iron (sắt) có diện tích bề mặt là $20\text{ cm}^2$ thì cần sử dụng dung dịch \ce{CuSO4} và dòng điện có cường độ 2 A. Biết khối lượng riêng của đồng là $8{,}9\text{ g/cm}^3$ và khối lượng mol của copper là $63{,}5\text{ g/mol}$. Hãy tính thời gian (giờ) cần thiết để mạ xong chiếc vòng tay. (Làm tròn kết quả đến hàng phần mười).
+\par\noindent\textit{Trả lời:} \dotfill
+\loigiai{}
+\end{ex}
+
+
+\Closesolutionfile{ans}
+
+\end{document}
