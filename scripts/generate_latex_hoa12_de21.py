@@ -1,0 +1,554 @@
+# -*- coding: utf-8 -*-
+"""
+Script sinh file LaTeX (.tex) và biên dịch ra PDF cho:
+ĐỀ KIỂM TRA SỐ 21 - CHƯƠNG 7: KIM LOẠI NHÓM IA & NHÓM IIA (HÓA HỌC 12)
+Mã đề thi: 121
+Gồm 2 phiên bản:
+1. De_Kiem_Tra_Hoa_12_De21_HocSinh.pdf (Chuẩn chính xác 4 trang A4)
+2. De_Kiem_Tra_Hoa_12_De21_GiaoVien.pdf (Bản Giáo Viên có lời giải chi tiết và đáp án)
+"""
+
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
+import os
+import subprocess
+import glob
+import pymupdf
+
+OUT_DIR = r"c:\Antigravity_Thanh\San_Pham"
+
+def create_latex_de21(is_teacher=False):
+    ans_file = "ans-de21-gv" if is_teacher else "ans-de21-hs"
+    
+    tex = r"""\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{geometry}
+\geometry{top=0.65cm,bottom=0.65cm,left=1.25cm,right=1.25cm,headheight=20pt,headsep=3pt,footskip=9pt}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\definecolor{hfRed}{HTML}{D32F2F}
+\definecolor{hfGreen}{HTML}{8BC390}
+\definecolor{mainGreen}{HTML}{2E7D32}
+
+\usepackage{ex_test}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.75pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0.75pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+
+\fancyhead[L]{\small\itshape\color{hfRed}Tài liệu lưu hành nội bộ}
+\fancyhead[R]{\small\color{hfRed}Thầy \textbf{TRẦN VĂN THẠNH} - 0777.470.803}
+
+\fancyfoot[L]{\footnotesize\itshape\color{hfRed}CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+\fancyfoot[R]{\small\textbf{\color{hfRed}Trang \thepage}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{""" + (r"1.0pt" if is_teacher else r"0.0pt") + r"""}
+
+\def\loigiai#1{""" + (r"""
+\par\begingroup\color{blue!80!black}\small
+\noindent\textbf{\textit{Lời giải chi tiết:}}\par
+#1\par\endgroup""" if is_teacher else "") + r"""}
+
+\begin{document}
+\Opensolutionfile{ans}[""" + ans_file + r"""]
+
+\noindent
+\begin{minipage}[t]{0.48\textwidth}
+	\textbf{SỞ GIÁO DỤC VÀ ĐÀO TẠO THỪA THIÊN HUẾ}\\
+	\textbf{TRƯỜNG THPT HAI BÀ TRƯNG}\\
+	\textbf{ĐỀ CHÍNH THỨC}\\
+	\textit{(Đề thi có 04 trang)}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.48\textwidth}
+	\raggedleft
+	\textbf{\color{mainGreen}ĐỀ KIỂM TRA ĐỊNH KỲ CHƯƠNG 7 (KIM LOẠI NHÓM IA \& IIA)}\\
+	\textbf{MÔN: HOÁ HỌC -- LỚP 12}\\
+	\textit{Thời gian làm bài: 50 phút (không kể thời gian phát đề)}\\
+	\textbf{Mã đề thi: 121}
+\end{minipage}
+
+"""
+
+    if is_teacher:
+        tex += r"""
+\vspace{0.1cm}
+\begin{center}
+	\textbf{\color{hfRed}\Large (BẢN GIÁO VIÊN -- CÓ LỜI GIẢI CHI TIẾT)}
+\end{center}
+"""
+
+    tex += r"""
+\vspace{1pt}
+\noindent\textit{Họ, tên thí sinh: \dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots Lớp: \dots\dots\dots\dots SBD: \dots\dots\dots\dots}\\
+\noindent\textit{(Cho biết nguyên tử khối: H = 1; C = 12; N = 14; O = 16; Na = 23; Mg = 24; Al = 27; P = 31; S = 32; Cl = 35,5; K = 39; Ca = 40; Fe = 56; Cu = 64; Zn = 65; Br = 80; Rb = 85,5; Ag = 108; Cs = 133; Ba = 137).}
+
+\vspace{1pt}
+\noindent
+\textbf{PHẦN I (4,5 điểm -- 18 câu): Câu trắc nghiệm nhiều phương án lựa chọn.}\\
+\textit{Thí sinh trả lời từ câu 1 đến câu 18. Mỗi câu hỏi thí sinh chỉ chọn một phương án.}
+
+\begin{ex}
+Chất nào sau đây tác dụng được với dung dịch \ce{KHCO3}?
+\choice
+{\ce{K2SO4}.}
+{\ce{KNO3}.}
+""" + (r"{\True \ce{HCl}.}" if is_teacher else r"{\ce{HCl}.}") + r"""
+{\ce{KCl}.}
+\loigiai{""" + (r"""
+$\ce{KHCO3 + HCl -> KCl + CO2 ^ + H2O}$.\\
+\textbf{Chọn C.}""" if is_teacher else "") + r"""}
+\end{ex}
+
+\begin{ex}
+Dung dịch \ce{Na2CO3} tác dụng được với dung dịch nào sau đây?
+\choice
+{\ce{Na2SO4}.}
+{\ce{KNO3}.}
+{\ce{KOH}.}
+""" + (r"{\True \ce{CaCl2}.}" if is_teacher else r"{\ce{CaCl2}.}") + r"""
+\loigiai{""" + (r"""
+$\ce{Na2CO3 + CaCl2 -> CaCO3 v + 2NaCl}$.\\
+\textbf{Chọn D.}""" if is_teacher else "") + r"""}
+\end{ex}
+
+\begin{ex}
+Dung dịch nào sau đây phản ứng với dung dịch \ce{HCl} dư tạo ra chất khí?
+\choice
+{\ce{Ba(OH)2}.}
+""" + (r"{\True \ce{Na2CO3}.}" if is_teacher else r"{\ce{Na2CO3}.}") + r"""
+{\ce{K2SO4}.}
+{\ce{Ca(NO3)2}.}
+\loigiai{""" + (r"""
+$\ce{Na2CO3 + 2HCl -> 2NaCl + CO2 ^ + H2O}$.\\
+\textbf{Chọn B.}""" if is_teacher else "") + r"""}
+\end{ex}
+
+\begin{ex}
+Trong cốc nước chứa 0,01 mol \ce{Na+}; 0,02 mol \ce{Ca^2+}; 0,01 mol \ce{Mg^2+}; 0,05 mol \ce{HCO3-} và 0,02 mol \ce{Cl-}. Đun sôi cốc nước hồi lâu, nước thu được là
+\choice
+{Nước cứng tạm thời.}
+""" + (r"{\True Nước cứng vĩnh cửu.}" if is_teacher else r"{Nước cứng vĩnh cửu.}") + r"""
+{Nước mềm.}
+{Nước cứng toàn phần.}
+\loigiai{""" + (r"""
+Khi đun sôi: $\ce{2HCO3- -> CO3^2- + CO2 ^ + H2O} \rightarrow n_{\ce{CO3^2-}} = 0{,}025\text{ mol}$.\\
+$\ce{Ca^2+ + CO3^2- -> CaCO3 v}$ (hết 0,02 mol \ce{Ca^2+} và 0,02 mol \ce{CO3^2-}).\\
+$\ce{Mg^2+ + CO3^2- -> MgCO3 v}$ (kết tủa 0,005 mol \ce{Mg^2+}, còn dư 0,005 mol \ce{Mg^2+}).\\
+Sau khi đun sôi, nước còn chứa 0,005 mol \ce{Mg^2+} và 0,02 mol \ce{Cl-}, không còn \ce{HCO3-} $\rightarrow$ Nước cứng vĩnh cửu.\\
+\textbf{Chọn B.}""" if is_teacher else "") + r"""}
+\end{ex}
+
+\begin{ex}
+Phản ứng giải thích sự hình thành thạch nhũ trong các hang động núi đá vôi là:
+\choice
+{$\ce{CaCO3 + CO2 + H2O -> Ca(HCO3)2}$.}
+{$\ce{CaCO3 + 2HCl -> CaCl2 + CO2 + H2O}$.}
+{$\ce{CaCO3 ->[t^\circ] CaO + CO2}$.}
+""" + (r"{\True $\ce{Ca(HCO3)2 <=> CaCO3 + CO2 + H2O}$.}" if is_teacher else r"{$\ce{Ca(HCO3)2 <=> CaCO3 + CO2 + H2O}$.}") + r"""
+\loigiai{""" + (r"""
+Phản ứng tạo thạch nhũ: $\ce{Ca(HCO3)2 -> CaCO3 v + CO2 ^ + H2O}$.\\
+\textbf{Chọn D.}""" if is_teacher else "") + r"""}
+\end{ex}
+
+\begin{ex}
+Nước thải công nghiệp thường chứa các ion kim loại nặng như \ce{Hg^2+}, \ce{Pb^2+}, \ce{Fe^3+}. Để xử lí triệt để và làm giảm nồng độ của các ion kim loại nặng với chi phí thấp nhất, người ta sử dụng dung dịch chất nào sau đây?
+\choice
+{\ce{HCl}.}
+{\ce{NaCl}.}
+""" + (r"{\True \ce{Ca(OH)2}.}" if is_teacher else r"{\ce{Ca(OH)2}.}") + r"""
+{\ce{K2SO4}.}
+\loigiai{""" + (r"""
+Nước vôi \ce{Ca(OH)2} rẻ tiền, tạo kết tủa hydroxide/oxit với các ion kim loại nặng để lọc bỏ.\\
+\textbf{Chọn C.}""" if is_teacher else "") + r"""}
+\end{ex}
+
+\begin{ex}
+Cho các dãy kim loại sau: Fe, Na, K, Cu và Li. Số kim loại trong dãy tác dụng được với nước ở nhiệt độ thường là
+\choice
+{1.}
+{2.}
+""" + (r"{\True 3.}" if is_teacher else r"{3.}") + r"""
+{4.}
+\loigiai{""" + (r"""
+Có 3 kim loại là Na, K, Li tác dụng với nước ở nhiệt độ thường.\\
+\textbf{Chọn C.}""" if is_teacher else "") + r"""}
+\end{ex}
+
+\begin{ex}
+Nguyên tắc cơ bản để làm mềm nước cứng là làm giảm nồng độ của
+\choice
+""" + (r"{\True ion \ce{Ca^2+}, \ce{Mg^2+}.}" if is_teacher else r"{ion \ce{Ca^2+}, \ce{Mg^2+}.}") + r"""
+{ion \ce{HCO3-}.}
+{ion \ce{OH-}, \ce{SO4^2-}.}
+{ion \ce{Ca^2+}.}
+\loigiai{""" + (r"""
+Tính cứng do \ce{Ca^2+} và \ce{Mg^2+} gây ra nên nguyên tắc làm mềm nước là làm giảm nồng độ hai ion này.\\
+\textbf{Chọn A.}""" if is_teacher else "") + r"""}
+\end{ex}
+
+\begin{ex}
+Kim loại nhóm IIA có nhiệt độ nóng chảy, nhiệt độ sôi, khối lượng riêng biến đổi không theo quy luật như kim loại kiềm nhóm IA, nguyên nhân chủ yếu là do các kim loại nhóm IIA có
+\choice
+{điện tích hạt nhân khác nhau.}
+{cấu hình electron khác nhau.}
+{bán kính nguyên tử khác nhau.}
+""" + (r"{\True kiểu mạng tinh thể khác nhau.}" if is_teacher else r"{kiểu mạng tinh thể khác nhau.}") + r"""
+\loigiai{""" + (r"""
+Kim loại nhóm IIA có cấu trúc mạng tinh thể khác nhau (Be, Mg: lục phương; Ca, Sr: lập phương tâm diện; Ba: lập phương tâm khối).\\
+\textbf{Chọn D.}""" if is_teacher else "") + r"""}
+\end{ex}
+
+""" + (r"\newpage" if not is_teacher else "") + r"""
+
+\begin{ex}
+Khi để vôi sống trong không khí ẩm một thời gian sẽ có hiện tượng một phần bị chuyển hoá trở lại thành đá vôi. Khí nào sau đây có trong không khí gây ra hiện tượng trên?
+\choice
+{Oxygen.}
+{Methane.}
+{Nitrogen.}
+""" + (r"{\True Carbon dioxide.}" if is_teacher else r"{Carbon dioxide.}") + r"""
+\loigiai{""" + (r"""
+$\ce{CaO + H2O -> Ca(OH)2}$; sau đó $\ce{Ca(OH)2 + CO2 -> CaCO3 v + H2O}$. Khí gây ra là \ce{CO2}.\\
+\textbf{Chọn D.}""" if is_teacher else "") + r"""}
+\end{ex}
+
+\begin{ex}
+Đun nóng tinh thể \ce{CaF2} với dung dịch \ce{H2SO4} đặc ở nhiệt độ khoảng $250^\circ\text{C}$, thu được khí nào sau đây?
+\choice
+{\ce{SO2}.}
+{\ce{F2}.}
+""" + (r"{\True \ce{HF}.}" if is_teacher else r"{\ce{HF}.}") + r"""
+{\ce{H2S}.}
+\loigiai{""" + (r"""
+$\ce{CaF2 + H2SO4\text{ (đặc)} ->[250^\circ\text{C}] CaSO4 + 2HF ^}$.\\
+\textbf{Chọn C.}""" if is_teacher else "") + r"""}
+\end{ex}
+
+\begin{ex}
+Cho dung dịch \ce{HCl} vào dung dịch X thấy có hiện tượng sủi bọt khí; nếu cho dung dịch \ce{Ca(OH)2} vào dung dịch X thì sinh ra kết tủa trắng. Dung dịch X là
+\choice
+{\ce{Na2SO4}.}
+{\ce{KNO3}.}
+""" + (r"{\True \ce{Ca(HCO3)2}.}" if is_teacher else r"{\ce{Ca(HCO3)2}.}") + r"""
+{\ce{BaCl2}.}
+\loigiai{""" + (r"""
+$\ce{Ca(HCO3)2 + 2HCl -> CaCl2 + 2CO2 ^ + 2H2O}$;\\
+$\ce{Ca(HCO3)2 + Ca(OH)2 -> 2CaCO3 v + 2H2O}$.\\
+\textbf{Chọn C.}""" if is_teacher else "") + r"""}
+\end{ex}
+
+\begin{ex}
+Cho một mẩu Na vào dung dịch \ce{MgSO4} dư, thu được kết tủa X và chất khí Y. Hai chất X, Y lần lượt là
+\choice
+{Mg và \ce{H2}.}
+""" + (r"{\True \ce{Mg(OH)2} và \ce{H2}.}" if is_teacher else r"{\ce{Mg(OH)2} và \ce{H2}.}") + r"""
+{Mg và \ce{O2}.}
+{\ce{Na2SO4} và \ce{H2}.}
+\loigiai{""" + (r"""
+$\ce{2Na + 2H2O -> 2NaOH + H2 ^}$ (khí Y là \ce{H2});\\
+$\ce{2NaOH + MgSO4 -> Mg(OH)2 v + Na2SO4}$ (kết tủa X là \ce{Mg(OH)2}).\\
+\textbf{Chọn B.}""" if is_teacher else "") + r"""}
+\end{ex}
+
+\begin{ex}
+Trong cốc nước chứa nhiều các ion sau: \ce{Ca^2+}, \ce{Mg^2+}, \ce{Cl-}, \ce{SO4^2-}. Nước trong cốc trên thuộc loại
+\choice
+""" + (r"{\True có tính cứng vĩnh cửu.}" if is_teacher else r"{có tính cứng vĩnh cửu.}") + r"""
+{không có tính cứng.}
+{có tính cứng tạm thời.}
+{có tính cứng toàn phần.}
+\loigiai{""" + (r"""
+Nước chứa \ce{Ca^2+}, \ce{Mg^2+}, \ce{Cl-}, \ce{SO4^2-} là nước có tính cứng vĩnh cửu.\\
+\textbf{Chọn A.}""" if is_teacher else "") + r"""}
+\end{ex}
+
+\begin{ex}
+Nhận định nào \textbf{không} đúng về cấu tạo và tính chất của các kim loại nhóm IIA?
+\choice
+{Khối lượng riêng tương đối nhỏ, là những kim loại nhẹ hơn nhôm (trừ Ba).}
+{Độ cứng cao hơn kim loại nhóm IA, nhưng mềm hơn kim loại nhôm.}
+""" + (r"{\True Mạng tinh thể của chúng đều có kiểu lập phương tâm khối.}" if is_teacher else r"{Mạng tinh thể của chúng đều có kiểu lập phương tâm khối.}") + r"""
+{Nhiệt độ nóng chảy và nhiệt độ sôi tương đối thấp (trừ Be).}
+\loigiai{""" + (r"""
+Kim loại nhóm IIA có các kiểu mạng khác nhau: Be, Mg lục phương; Ca, Sr lập phương tâm diện; Ba lập phương tâm khối.\\
+\textbf{Chọn C.}""" if is_teacher else "") + r"""}
+\end{ex}
+
+\begin{ex}
+Cho các nhận định sau về tác hại của nước cứng:\\
+(1) Làm giảm bọt và giảm khả năng tẩy rửa khi giặt quần áo bằng xà phòng.\\
+(2) Làm đường ống dẫn nước bị đóng cặn, giảm lưu lượng dòng chảy.\\
+(3) Làm thức ăn lâu chín và giảm mùi vị đặc trưng khi nấu nướng.\\
+(4) Làm nồi hơi bị phủ cặn cách nhiệt, gây tốn nhiên liệu và có nguy cơ gây nổ lò hơi.\\
+Số nhận định đúng là
+\choice
+{1.}
+{2.}
+{3.}
+""" + (r"{\True 4.}" if is_teacher else r"{4.}") + r"""
+\loigiai{""" + (r"""
+Cả 4 nhận định trên đều đúng.\\
+\textbf{Chọn D.}""" if is_teacher else "") + r"""}
+\end{ex}
+
+\begin{ex}
+Phát biểu nào sau đây \textbf{không} đúng?
+\choice
+{Đun sôi nước cứng chỉ làm mềm nước cứng tạm thời.}
+{Dung dịch \ce{Na2CO3} làm mềm nước cứng tạm thời, nước cứng vĩnh cửu.}
+""" + (r"{\True Dung dịch \ce{NH4Cl} làm mềm nước cứng.}" if is_teacher else r"{Dung dịch \ce{NH4Cl} làm mềm nước cứng.}") + r"""
+{Cho dung dịch \ce{Ca(OH)2} vừa đủ làm mềm nước cứng tạm thời.}
+\loigiai{""" + (r"""
+Dung dịch \ce{NH4Cl} không kết tủa \ce{Ca^2+} hay \ce{Mg^2+} nên không làm mềm nước cứng.\\
+\textbf{Chọn C.}""" if is_teacher else "") + r"""}
+\end{ex}
+
+\begin{ex}
+Cho sơ đồ chuyển hoá hoá học sau:
+\par\vspace{1pt}\centerline{\includegraphics[height=1.45cm]{images_crop_de21/p1_cau18_so_do.png}}\vspace{1pt}
+Chất X trong sơ đồ trên có thể là
+\choice
+""" + (r"{\True \ce{BaCO3}.}" if is_teacher else r"{\ce{BaCO3}.}") + r"""
+{\ce{CaCO3}.}
+{\ce{BaSO3}.}
+{\ce{MgCO3}.}
+\loigiai{""" + (r"""
+X là \ce{BaCO3}:\\
+$\ce{BaCO3 ->[t^\circ] BaO (B_1) + CO2 (A_1)}$;\\
+$\ce{CO2 + Ca(OH)2 -> CaCO3 v (A_2) + H2O}$; $\ce{CaCO3 ->[900^\circ\text{C}] CaO + CO2}$;\\
+$\ce{BaO + 2HCl -> BaCl2 (B_2) + H2O}$; $\ce{BaCl2 + Na2SO4 -> BaSO4 v (B_3) + 2NaCl}$.\\
+\textbf{Chọn A.}""" if is_teacher else "") + r"""}
+\end{ex}
+
+""" + (r"\newpage" if not is_teacher else "") + r"""
+
+\noindent
+\textbf{PHẦN II (4,0 điểm -- 4 câu): Câu trắc nghiệm đúng sai.}\\
+\textit{Thí sinh trả lời từ câu 1 đến câu 4. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}
+
+\setcounter{ex}{0}
+
+\begin{ex}
+Trong tự nhiên, các nguyên tố nhóm IA chỉ tồn tại ở dạng hợp chất (chủ yếu là dạng muối). Sodium và potassium là hai nguyên tố phổ biến trong vỏ Trái Đất, có nhiều trong nước biển, muối mỏ, quặng halite (\ce{NaCl}), quặng sylvinite (\ce{NaCl.KCl}).
+\choiceTF
+""" + (r"{\True Trong đời sống hàng ngày, sodium chloride được dùng làm gia vị, bảo quản và chế biến thực phẩm.}" if is_teacher else r"{Trong đời sống hàng ngày, sodium chloride được dùng làm gia vị, bảo quản và chế biến thực phẩm.}") + r"""
+{Điện phân dung dịch \ce{NaCl} bão hoà có màng ngăn điện cực được ứng dụng trong công nghiệp để sản xuất nước Javel.}
+""" + (r"{\True Trong công nghiệp, khí chlorine được sản xuất bằng cách điện phân dung dịch muối ăn bão hoà có màng ngăn xốp.}" if is_teacher else r"{Trong công nghiệp, khí chlorine được sản xuất bằng cách điện phân dung dịch muối ăn bão hoà có màng ngăn xốp.}") + r"""
+""" + (r"{\True Sodium carbonate là nguyên liệu quan trọng để sản xuất thuỷ tinh, xà phòng, bột giặt, giấy, sợi và chất tẩy rửa.}" if is_teacher else r"{Sodium carbonate là nguyên liệu quan trọng để sản xuất thuỷ tinh, xà phòng, bột giặt, giấy, sợi và chất tẩy rửa.}") + r"""
+\loigiai{""" + (r"""
+a) \textbf{Đúng}.\\
+b) \textbf{Sai} vì sản xuất nước Javel bằng điện phân \textbf{không} có màng ngăn.\\
+c) \textbf{Đúng}.\\
+d) \textbf{Đúng}.""" if is_teacher else "") + r"""}
+\end{ex}
+
+\begin{ex}
+Khi nồng độ acid trong dịch vị dạ dày tăng cao có thể gây ra viêm loét dạ dày, tá tràng. Để giảm bớt nồng độ acid trong dịch vị dạ dày người ta thường dùng thuốc đau dạ dày có chứa thành phần chính là muối X.
+\choiceTF
+{Muối X là sodium bicarbonate có công thức hoá học là \ce{Na2CO3}.}
+""" + (r"{\True Muối X còn được dùng để tạo độ xốp cho các loại bánh nướng, làm mềm thực phẩm.}" if is_teacher else r"{Muối X còn được dùng để tạo độ xốp cho các loại bánh nướng, làm mềm thực phẩm.}") + r"""
+""" + (r"{\True Muối X bị phân huỷ khi đun nóng.}" if is_teacher else r"{Muối X bị phân huỷ khi đun nóng.}") + r"""
+""" + (r"{\True Trong công nghiệp hoá chất, muối X được sản xuất chủ yếu bằng phương pháp Solvay.}" if is_teacher else r"{Trong công nghiệp hoá chất, muối X được sản xuất chủ yếu bằng phương pháp Solvay.}") + r"""
+\loigiai{""" + (r"""
+a) \textbf{Sai} vì muối X là sodium hydrogencarbonate có công thức là \ce{NaHCO3}.\\
+b) \textbf{Đúng}. Bột nở làm xốp bánh.\\
+c) \textbf{Đúng}. $\ce{2NaHCO3 ->[t^\circ] Na2CO3 + CO2 + H2O}$.\\
+d) \textbf{Đúng}. Phương pháp Solvay tạo \ce{NaHCO3} kết tủa.""" if is_teacher else "") + r"""}
+\end{ex}
+
+\begin{ex}
+Bảng sau đây cho biết thông số một số tính chất vật lí cơ bản của các kim loại nhóm IIA:
+\par\vspace{1pt}\centerline{\includegraphics[height=1.5cm]{images_crop_de21/p2_cau3_bang_tinh_chat.png}}\vspace{1pt}
+\choiceTF
+{Nhiệt độ sôi tăng dần từ Be đến Ba.}
+{Khối lượng riêng tăng dần đều đặn từ trên xuống dưới từ Mg đến Ba.}
+{Độ cứng của các kim loại tăng dần từ Be đến Ba.}
+{Nhiệt độ nóng chảy giảm dần đều đặn từ Be đến Ba.}
+\loigiai{""" + (r"""
+a) \textbf{Sai} vì nhiệt độ sôi biến thiên không theo quy luật: 2770, 1110, 1440, 1380, 1640.\\
+b) \textbf{Sai} vì khối lượng riêng không tăng đều đặn (Mg là 1,74; Ca là 1,55 g/cm$^3$).\\
+c) \textbf{Sai} vì độ cứng giảm dần.\\
+d) \textbf{Sai} vì nhiệt độ nóng chảy không giảm đều đặn do khác kiểu mạng tinh thể.""" if is_teacher else "") + r"""}
+\end{ex}
+
+\begin{ex}
+Cho các phản ứng hoá học xảy ra theo sơ đồ sau:\\
+(1) $\ce{2X1 + 2H2O ->[dpdd, co mang ngan] 2X2 + X3 + H2}$\\
+(2) $\ce{2X2 + X4 -> BaCO3 v + K2CO3 + 2H2O}$\\
+(3) $\ce{X4 + X5 ->[1:1] BaSO4 v + 2CO2 ^ + 2H2O}$
+\choiceTF
+""" + (r"{\True Hợp chất $\text{X}_2$ là potassium hydroxide (KOH).}" if is_teacher else r"{Hợp chất $\text{X}_2$ là potassium hydroxide (KOH).}") + r"""
+""" + (r"{\True Đơn chất $\text{X}_3$ là chất khí có màu vàng lục nhạt.}" if is_teacher else r"{Đơn chất $\text{X}_3$ là chất khí có màu vàng lục nhạt.}") + r"""
+""" + (r"{\True Muối $\text{X}_4$ là muối acid (muối hydrogencarbonate).}" if is_teacher else r"{Muối $\text{X}_4$ là muối acid (muối hydrogencarbonate).}") + r"""
+""" + (r"{\True Khi đun nóng dung dịch muối $\text{X}_4$ thì thu được kết tủa trắng.}" if is_teacher else r"{Khi đun nóng dung dịch muối $\text{X}_4$ thì thu được kết tủa trắng.}") + r"""
+\loigiai{""" + (r"""
+$\text{X}_1$: KCl; $\text{X}_2$: KOH; $\text{X}_3$: \ce{Cl2}; $\text{X}_4$: \ce{Ba(HCO3)2}; $\text{X}_5$: \ce{H2SO4}.\\
+a) \textbf{Đúng}. $\text{X}_2$ là KOH.\\
+b) \textbf{Đúng}. $\text{X}_3$ là \ce{Cl2} màu vàng lục.\\
+c) \textbf{Đúng}. $\text{X}_4$ là \ce{Ba(HCO3)2} (muối acid).\\
+d) \textbf{Đúng}. $\ce{Ba(HCO3)2 ->[t^\circ] BaCO3 v + CO2 + H2O}$.""" if is_teacher else "") + r"""}
+\end{ex}
+
+""" + (r"\newpage" if not is_teacher else "") + r"""
+
+\noindent
+\textbf{PHẦN III (1,5 điểm -- 6 câu): Câu trắc nghiệm yêu cầu trả lời ngắn.}\\
+\textit{Thí sinh trả lời từ câu 1 đến câu 6.}
+
+\setcounter{ex}{0}
+
+\begin{ex}
+Trong công nghiệp, quá trình sản xuất soda bằng phương pháp Solvay đi từ các nguyên liệu ban đầu là muối ăn (\ce{NaCl}), đá vôi (\ce{CaCO3}) và ammonia (\ce{NH3}). Có bao nhiêu phương trình hoá học chủ yếu đã xảy ra trong toàn bộ quy trình trên?
+""" + (r"""\par\noindent\textbf{Đáp số:} \textbf{\color{red}3}""" if is_teacher else r"""\par\noindent\textit{Trả lời:} \dotfill""") + r"""
+\loigiai{""" + (r"""
+Có 3 phản ứng chính:\\
+(1) $\ce{CaCO3 ->[t^\circ] CaO + CO2}$;\\
+(2) $\ce{NaCl + NH3 + CO2 + H2O -> NaHCO3 v + NH4Cl}$;\\
+(3) $\ce{2NaHCO3 ->[t^\circ] Na2CO3 + CO2 + H2O}$.\\
+\textbf{Đáp số: 3.}""" if is_teacher else "") + r"""}
+\end{ex}
+
+\begin{ex}
+Cho các nguyên tố sau: Kr, Ca, Sr, Li, Ni, Rb. Có bao nhiêu nguyên tố là kim loại kiềm (nhóm IA) trong dãy trên?
+""" + (r"""\par\noindent\textbf{Đáp số:} \textbf{\color{red}2}""" if is_teacher else r"""\par\noindent\textit{Trả lời:} \dotfill""") + r"""
+\loigiai{""" + (r"""
+Có 2 kim loại kiềm (nhóm IA) là Li và Rb.\\
+\textbf{Đáp số: 2.}""" if is_teacher else "") + r"""}
+\end{ex}
+
+\begin{ex}
+Cho các chất sau: \ce{Ca(OH)2}, \ce{Na2CO3}, \ce{Na3PO4}, \ce{NaOH}, \ce{KCl}. Có bao nhiêu chất có thể dùng để làm mềm nước có tính cứng vĩnh cửu?
+""" + (r"""\par\noindent\textbf{Đáp số:} \textbf{\color{red}2}""" if is_teacher else r"""\par\noindent\textit{Trả lời:} \dotfill""") + r"""
+\loigiai{""" + (r"""
+Có 2 chất là \ce{Na2CO3} và \ce{Na3PO4}.\\
+\textbf{Đáp số: 2.}""" if is_teacher else "") + r"""}
+\end{ex}
+
+\begin{ex}
+Cho dung dịch của 4 chất sau đều trong suốt và không màu: \ce{NaCl}, \ce{Na2SO4}, \ce{KCl}, \ce{LiNO3}. Chỉ dùng ngọn lửa không màu của đèn khí thì có thể nhận biết được bao nhiêu dung dịch riêng biệt trong số 4 dung dịch trên?
+""" + (r"""\par\noindent\textbf{Đáp số:} \textbf{\color{red}2}""" if is_teacher else r"""\par\noindent\textit{Trả lời:} \dotfill""") + r"""
+\loigiai{""" + (r"""
+Nhận biết được 2 dung dịch là KCl (ngọn lửa tím nhạt) và \ce{LiNO3} (ngọn lửa đỏ tía). Hai dung dịch \ce{NaCl} và \ce{Na2SO4} đều ngọn lửa vàng nên không phân biệt được với nhau.\\
+\textbf{Đáp số: 2.}""" if is_teacher else "") + r"""}
+\end{ex}
+
+\begin{ex}
+Ở $20^\circ\text{C}$, độ tan của \ce{NaCl} trong nước là 35,9 gam trong 100 gam nước. Ở nhiệt độ này, dung dịch \ce{NaCl} bão hoà có nồng độ phần trăm là $a\%$. Xác định giá trị của $a$ (làm tròn kết quả đến hàng phần mười).
+""" + (r"""\par\noindent\textbf{Đáp số:} \textbf{\color{red}26,4}""" if is_teacher else r"""\par\noindent\textit{Trả lời:} \dotfill""") + r"""
+\loigiai{""" + (r"""
+$C\% = \dfrac{35{,}9}{100 + 35{,}9} \times 100\% = \dfrac{35{,}9}{135{,}9} \times 100\% \approx 26{,}4\%$.\\
+\textbf{Đáp số: 26,4.}""" if is_teacher else "") + r"""}
+\end{ex}
+
+\begin{ex}
+Một loại thuốc kháng acid dạ dày có tên thương mại là Rolaids chứa thành phần hoạt chất chính là dihydroxyaluminum sodium carbonate có công thức \ce{NaAl(OH)2CO3}. Mỗi viên thuốc chứa 0,334 gam hoạt chất \ce{NaAl(OH)2CO3}. Một cốc nước giải khát có thể tích 250 mL và có $\text{pH} = 3{,}0$. Giả thiết phản ứng trung hòa xảy ra hoàn toàn theo phương trình: $\ce{NaAl(OH)2CO3 + 4H+ -> Na+ + Al^3+ + CO2 + 3H2O}$. Tính số viên thuốc Rolaids cần dùng để trung hòa hết lượng acid có trong cốc nước giải khát trên (làm tròn kết quả đến hai chữ số thập phân).
+""" + (r"""\par\noindent\textbf{Đáp số:} \textbf{\color{red}0,03}""" if is_teacher else r"""\par\noindent\textit{Trả lời:} \dotfill""") + r"""
+\loigiai{""" + (r"""
+$n_{\ce{H+}} = 0{,}25 \times 10^{-3} = 2{,}5\times 10^{-4}\text{ mol}$.\\
+$n_{\ce{NaAl(OH)2CO3}} = \dfrac{2{,}5\times 10^{-4}}{4} = 6{,}25\times 10^{-5}\text{ mol}$.\\
+$M = 144\text{ g/mol} \rightarrow m = 6{,}25\times 10^{-5} \times 144 = 0{,}009\text{ g}$.\\
+Số viên thuốc = $\dfrac{0{,}009}{0{,}334} \approx 0{,}0269 \approx 0{,}03\text{ viên}$.\\
+\textbf{Đáp số: 0,03.}""" if is_teacher else "") + r"""}
+\end{ex}
+"""
+
+    if is_teacher:
+        tex += r"""
+\vspace{0.3cm}
+\noindent
+\textbf{\color{hfRed}\large BẢNG ĐÁP ÁN THAM KHẢO TOÀN ĐỀ}
+
+\vspace{0.1cm}
+\noindent
+\textbf{\color{mainGreen}PHẦN I:} 1.C \quad 2.D \quad 3.B \quad 4.B \quad 5.D \quad 6.C \quad 7.C \quad 8.A \quad 9.D \quad 10.D \quad 11.C \quad 12.C \quad 13.B \quad 14.A \quad 15.C \quad 16.D \quad 17.C \quad 18.A
+
+\vspace{0.1cm}
+\noindent
+\textbf{\color{mainGreen}PHẦN II:} Câu 1: a-Đ, b-S, c-Đ, d-Đ \quad|\quad Câu 2: a-S, b-Đ, c-Đ, d-Đ\\
+Câu 3: a-S, b-S, c-S, d-S \quad|\quad Câu 4: a-Đ, b-Đ, c-Đ, d-Đ
+
+\vspace{0.1cm}
+\noindent
+\textbf{\color{mainGreen}PHẦN III:} Câu 1: \textbf{3} \quad|\quad Câu 2: \textbf{2} \quad|\quad Câu 3: \textbf{2} \quad|\quad Câu 4: \textbf{2} \quad|\quad Câu 5: \textbf{26,4} \quad|\quad Câu 6: \textbf{0,03}
+"""
+
+    tex += r"""
+\Closesolutionfile{ans}
+\end{document}
+"""
+    return tex
+
+def compile_latex(tex_content, tex_filename, pdf_filename):
+    tex_path = os.path.join(OUT_DIR, tex_filename)
+    with open(tex_path, "w", encoding="utf-8") as f:
+        f.write(tex_content)
+    
+    # Biên dịch pdflatex 2 lần để giải quyết tham chiếu & ex_test
+    for i in range(2):
+        res = subprocess.run(
+            ["pdflatex", "-interaction=nonstopmode", tex_filename],
+            cwd=OUT_DIR,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True
+        )
+    
+    # Dọn dẹp file rác
+    for ext in ["aux", "log", "thm", "out"]:
+        for garbage in glob.glob(os.path.join(OUT_DIR, f"*.{ext}")):
+            try:
+                os.remove(garbage)
+            except:
+                pass
+    for ans_f in glob.glob(os.path.join(OUT_DIR, "ans-*.tex")):
+        try:
+            os.remove(ans_f)
+        except:
+            pass
+
+    pdf_path = os.path.join(OUT_DIR, pdf_filename)
+    if os.path.exists(pdf_path):
+        doc = pymupdf.open(pdf_path)
+        page_count = len(doc)
+        print(f"Biên dịch thành công: {pdf_filename} ({page_count} trang)")
+        return page_count
+    else:
+        print(f"LỖI: Không tìm thấy {pdf_filename}")
+        return 0
+
+def main():
+    print("--- Đang tạo file LaTeX và PDF cho ĐỀ SỐ 21 ---")
+    
+    # 1. Bản Học Sinh
+    tex_hs = create_latex_de21(is_teacher=False)
+    pages_hs = compile_latex(tex_hs, "De_Kiem_Tra_Hoa_12_De21_HocSinh.tex", "De_Kiem_Tra_Hoa_12_De21_HocSinh.pdf")
+    
+    # 2. Bản Giáo Viên
+    tex_gv = create_latex_de21(is_teacher=True)
+    pages_gv = compile_latex(tex_gv, "De_Kiem_Tra_Hoa_12_De21_GiaoVien.tex", "De_Kiem_Tra_Hoa_12_De21_GiaoVien.pdf")
+    
+    print("\n--- KẾT QUẢ BIÊN DỊCH ---")
+    print(f"Học sinh: {pages_hs} trang (Yêu cầu chuẩn: 4 trang)")
+    print(f"Giáo viên: {pages_gv} trang")
+    
+    if pages_hs == 4:
+        print("XÁC NHẬN: Bản Học Sinh ĐẠT CHUẨN CHÍNH XÁC 4 TRANG A4!")
+    else:
+        print(f"CẢNH BÁO: Bản Học Sinh có {pages_hs} trang, cần điều chỉnh!")
+
+if __name__ == "__main__":
+    main()
