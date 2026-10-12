@@ -1,0 +1,356 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{geometry}
+\geometry{top=0.65cm,bottom=0.65cm,left=1.25cm,right=1.25cm,headheight=20pt,headsep=3pt,footskip=9pt}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\definecolor{hfRed}{HTML}{D32F2F}
+\definecolor{hfGreen}{HTML}{8BC390}
+\definecolor{mainGreen}{HTML}{2E7D32}
+
+\usepackage{ex_test}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.75pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0.75pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+
+\fancyhead[L]{\small\itshape\color{hfRed}Tài liệu lưu hành nội bộ}
+\fancyhead[R]{\small\color{hfRed}Thầy \textbf{TRẦN VĂN THẠNH} - 0777.470.803}
+
+\fancyfoot[L]{\footnotesize\itshape\color{hfRed}CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+\fancyfoot[R]{\small\textbf{\color{hfRed}Trang \thepage}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.0pt}
+
+\def\loigiai#1{}
+
+\begin{document}
+\Opensolutionfile{ans}[ans-de22-hs]
+
+\noindent
+\begin{minipage}[t]{0.48\textwidth}
+	\textbf{SỞ GIÁO DỤC VÀ ĐÀO TẠO THỪA THIÊN HUẾ}\\
+	\textbf{TRƯỜNG THPT HAI BÀ TRƯNG}\\
+	\textbf{ĐỀ CHÍNH THỨC}\\
+	\textit{(Đề thi có 04 trang)}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.48\textwidth}
+	\raggedleft
+	\textbf{\color{mainGreen}ĐỀ KIỂM TRA ĐỊNH KỲ CHƯƠNG 8 (KIM LOẠI CHUYỂN TIẾP \& PHỨC CHẤT)}\\
+	\textbf{MÔN: HOÁ HỌC -- LỚP 12}\\
+	\textit{Thời gian làm bài: 50 phút (không kể thời gian phát đề)}\\
+	\textbf{Mã đề thi: 122}
+\end{minipage}
+
+
+\vspace{1pt}
+\noindent\textit{Họ, tên thí sinh: \dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots Lớp: \dots\dots\dots\dots SBD: \dots\dots\dots\dots}\\
+\noindent\textit{(Cho biết nguyên tử khối: H = 1; C = 12; N = 14; O = 16; Na = 23; Mg = 24; Al = 27; P = 31; S = 32; Cl = 35,5; K = 39; Ca = 40; Ti = 48; V = 51; Cr = 52; Mn = 55; Fe = 56; Co = 59; Ni = 58,7; Cu = 64; Zn = 65; Ag = 108; Cd = 112,4; Pt = 195; Au = 197; hằng số Faraday F = 96485 C/mol).}
+
+\vspace{1pt}
+\noindent
+\textbf{PHẦN I (4,5 điểm -- 18 câu): Câu trắc nghiệm nhiều phương án lựa chọn.}\\
+\textit{Thí sinh trả lời từ câu 1 đến câu 18. Mỗi câu hỏi thí sinh chỉ chọn một phương án.}
+
+\begin{ex}
+Muối nào sau đây có khả năng làm mất màu thuốc tím trong môi trường sulfuric acid loãng?
+\choice
+{\ce{Na2SO4}.}
+{\ce{FeSO4}.}
+{\ce{MgSO4}.}
+{\ce{Fe2(SO4)3}.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Từ cấu hình electron của nguyên tử Cu ở trạng thái cơ bản là $\text{[Ar]}3d^{10}4s^1$, xác định được cấu hình electron của ion $\ce{Cu^2+}$ là
+\choice
+{$\text{[Ar]}3d^9$.}
+{$\text{[Ar]}3d^8 4s^1$.}
+{$\text{[Ar]}3d^{10}$.}
+{$\text{[Ar]}3d^8$.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Trong dãy kim loại chuyển tiếp thứ nhất (từ Sc đến Zn), kim loại có tính dẫn điện tốt nhất là
+\choice
+{Fe.}
+{Ti.}
+{Cu.}
+{Mn.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Vanadium (V) có nhiều oxide có hoạt tính xúc tác như \ce{VO2}, \ce{V2O5}, \ce{V2O3},\dots Cấu hình electron của nguyên tử V là $1s^2 2s^2 2p^6 3s^2 3p^6 3d^3 4s^2$. Nhận xét nào sau đây là đúng về trạng thái oxi hoá của vanadium?
+\choice
+{Số oxi hoá lớn nhất là +3.}
+{Số oxi hoá lớn nhất là +2.}
+{Có nhiều số oxi hoá khác nhau trong các hợp chất.}
+{Số oxi hoá lớn nhất là +4.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Trong các chất sau đây, chất nào là phức chất?
+\choice
+{\ce{KAl(SO4)2.12H2O}.}
+{\ce{FeSO4.(NH4)2SO4.6H2O}.}
+{$\ce{[Co(NH3)3(NO2)3]}$.}
+{\ce{KCl.MgCl2.6H2O}.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Trong phức chất $\ce{[Zn(NH3)4]^2+}$, số lượng phối tử liên kết với nguyên tử trung tâm là
+\choice
+{2.}
+{3.}
+{4.}
+{3 hoặc 4.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Bản chất của liên kết hoá học giữa phối tử và nguyên tử trung tâm trong phức chất là liên kết
+\choice
+{ion.}
+{kim loại.}
+{cho -- nhận (phối trí).}
+{hydrogen.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Trong phức chất $\ce{[Fe(CN)6]^3-}$, nguyên tử trung tâm có số phối trí là bao nhiêu?
+\choice
+{4.}
+{6.}
+{2.}
+{8.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Chọn phát biểu đúng nhất để giải thích sự hình thành liên kết trong phức chất $\ce{[Ag(NH3)2]+}$:
+\choice
+{Liên kết trong phức chất được hình thành do phối tử \ce{NH3} cho cặp electron chưa liên kết vào orbital trống của nguyên tử trung tâm $\ce{Ag+}$.}
+{Liên kết trong phức chất được hình thành do phối tử \ce{NH3} cho cặp electron đã liên kết vào orbital trống của nguyên tử trung tâm $\ce{Ag+}$.}
+{Liên kết trong phức chất được hình thành do phối tử \ce{NH3} tạo liên kết ion với nguyên tử trung tâm $\ce{Ag+}$.}
+{Liên kết trong phức chất được hình thành do nguyên tử trung tâm $\ce{Ag+}$ cho cặp electron chưa liên kết vào orbital trống của phối tử \ce{NH3}.}
+\loigiai{}
+\end{ex}
+
+\newpage
+
+\begin{ex}
+Trong sự hình thành phức chất aqua của cation kim loại chuyển tiếp trong dung dịch, cation kim loại chuyển tiếp ($\ce{M^{n+}}$) thường nhận
+\choice
+{các cặp electron hoá trị riêng.}
+{các cặp electron hoá trị chung.}
+{các ion hoá trị riêng.}
+{các electron hoá trị riêng.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Trong sự hình thành phức chất aqua của cation kim loại chuyển tiếp trong dung dịch nước, cation kim loại chuyển tiếp ($\ce{M^{n+}}$) thường nhận các cặp electron hoá trị riêng từ các phân tử
+\choice
+{\ce{H2}.}
+{\ce{O2}.}
+{\ce{H2O}.}
+{kim loại.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Số phối trí phổ biến nhất của các cation kim loại chuyển tiếp dãy thứ nhất trong các phức chất aqua dạng bát diện $\ce{[M(OH2)6]^{n+}}$ là
+\choice
+{2.}
+{4.}
+{6.}
+{8.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Cho phát biểu sau: ``Khi tan trong nước, muối của các kim loại chuyển tiếp \dots(1)\dots thành các ion. Sau đó, cation kim loại chuyển tiếp $\ce{M^{n+}}$ thường nhận các cặp electron hoá trị riêng từ các phân tử \ce{H2O} để hình thành các liên kết cho -- nhận, tạo ra phức chất aqua có dạng tổng quát là \dots(2)\dots''. Cụm từ cần điền vào (1) và (2) lần lượt là:
+\choice
+{điện li, $\ce{[M(OH2)]_n+}$.}
+{điện li, $\ce{[M(OH2)_m]^n}$.}
+{phân li, $\ce{[M(OH2)_m]^{n+}}$.}
+{phân li, $\ce{[M(OH2)]_n+}$.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Phức chất cis-$\ce{[Pt(NH3)2Cl2]}$ (cisplatin) là một hợp chất vô cơ có khả năng ức chế mạnh các tế bào ung thư tinh hoàn, buồng trứng, bàng quang,\dots Hãy cho biết nguyên tử trung tâm trong phức chất này là
+\choice
+{\ce{Cl-}.}
+{\ce{Pt^2+}.}
+{\ce{OH-}.}
+{\ce{NH3}.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Nhỏ vài giọt dung dịch \ce{HCl} đặc vào ống nghiệm chứa dung dịch \ce{CuSO4} loãng thấy dung dịch từ màu xanh lam nhạt chuyển sang màu vàng chanh, chứng tỏ phức chất $\ce{[CuCl4]^2-}$ đã được tạo thành. Dấu hiệu nhận biết phản ứng tạo phức trên dựa vào
+\choice
+{sự ngưng tụ.}
+{sự biến đổi màu sắc.}
+{sự hoà tan chất rắn.}
+{sự xuất hiện kết tủa.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Cho phương trình hoá học: $\ce{[Fe(H2O)6]^2+(aq) + 6CN-(aq) -> [Fe(CN)6]^4-(aq) + 6H2O(l)}$. Ở phản ứng này, các phối tử \ce{H2O} trong phức chất $\ce{[Fe(H2O)6]^2+}$ đã bị thay thế bởi phối tử nào sau đây?
+\choice
+{\ce{Cl-}.}
+{\ce{CN-}.}
+{\ce{OH-}.}
+{\ce{NH3}.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Nước có lượng đáng kể các cation $\ce{Al^3+}$ và $\ce{Fe^3+}$ được gọi là nước nhiễm phèn. Trong nước nhiễm phèn, mỗi cation này bị thuỷ phân tạo thành phức chất dạng $\ce{[M(OH)3(H2O)3]}$. Chọn phát biểu sai:
+\choice
+{Cả 2 phức chất trên đều có dạng hình học là tứ diện đều.}
+{Phối tử \ce{OH-} và phối tử \ce{H2O} tạo phức được với ion trung tâm là do đều có cặp electron tự do.}
+{Khi tạo phức, các ion $\ce{Al^3+}$ và $\ce{Fe^3+}$ đóng vai trò là acid Lewis do có orbital trống nhận cặp electron.}
+{Nước bị nhiễm phèn thường có độ pH thấp (môi trường acid) do quá trình thuỷ phân sinh ra ion $\ce{H+}$ trong dung dịch.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Cho các phản ứng hoá học sau:\\
+(1) $\ce{[Co(OH2)6]^2+(aq) + 6NH3(aq) <=> [Co(NH3)6]^2+(aq) + 6H2O(l)}$\\
+(2) $\ce{2[Co(NH3)6]^2+(aq) + H2O2(aq) <=> 2[Co(NH3)6]^3+(aq) + 2OH-(aq)}$\\
+(3) $\ce{Au(s) + NO3-(aq) + 4H+(aq) + 4Cl-(aq) <=> [AuCl4]-(aq) + NO(g) + 2H2O(l)}$\\
+(4) $\ce{[Ag(NH3)2]+(aq) + 2CN-(aq) <=> [Ag(CN)2]-(aq) + 2NH3(aq)}$\\
+(5) $\ce{[Fe(OH2)6]^3+(aq) + 2Cl-(aq) <=> [Fe(OH2)4Cl2]+(aq) + 2H2O(l)}$\\
+Những phản ứng xảy ra sự thay thế phối tử trong phức chất là
+\choice
+{(1), (4), (5).}
+{(2), (3), (5).}
+{(1), (2), (4).}
+{(2), (4), (5).}
+\loigiai{}
+\end{ex}
+
+\newpage
+
+\noindent
+\textbf{PHẦN II (4,0 điểm -- 4 câu): Câu trắc nghiệm đúng sai.}\\
+\textit{Thí sinh trả lời từ câu 1 đến câu 4. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}
+
+\setcounter{ex}{0}
+
+\begin{ex}
+Mỗi phát biểu sau đây về heme B (thành phần cấu tạo nên hồng cầu) là đúng hay sai?
+\choiceTF
+{Heme B là thành phần không thể thiếu cấu tạo nên hemoglobin trong tế bào hồng cầu.}
+{Heme B là phức chất vòng càng của ion Fe(III).}
+{Heme B có vai trò sống còn trong việc vận chuyển và cung cấp oxygen đến các tế bào và mô trong cơ thể.}
+{Máu của các loài động vật giáp xác (như tôm, cua) có chứa hàm lượng lớn heme B.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Tiến hành hai thí nghiệm khảo sát sự tạo phức của ion copper(II):\\
+-- Thí nghiệm 1 (ở $0^\circ\text{C}$): Cho 1 mL dung dịch \ce{CuSO4} 0,5\% màu xanh lam nhạt vào ống nghiệm. Thêm từ từ đến hết 2 mL dung dịch \ce{HCl} đặc không màu vào ống nghiệm đó, thu được dung dịch chuyển sang màu vàng chanh do cân bằng: $\ce{[Cu(OH2)6]^2+(aq) + 4Cl-(aq) <=> [CuCl4]^2-(aq) + 6H2O(l)}$ có $K_C = 4{,}18\times 10^5$.\\
+-- Thí nghiệm 2 (ở $20^\circ\text{C}$): Cho 1 mL dung dịch \ce{CuSO4} 0,5\% màu xanh lam nhạt vào ống nghiệm. Thêm từ từ đến hết 2 mL dung dịch \ce{NaCl} bão hoà không màu vào ống nghiệm đó, thu được dung dịch có màu xanh lam nhạt hơn ban đầu.
+\choiceTF
+{Biểu thức tính hằng số cân bằng $K_C$ của phản ứng ở thí nghiệm 1 là $K_C = \dfrac{[\ce{[CuCl4]^2-}][\ce{H2O}]^6}{[\ce{[Cu(OH2)6]^2+}][\ce{Cl-}]^4}$.}
+{Trong thí nghiệm 1, phản ứng nghịch diễn ra thuận lợi hơn nhiều so với phản ứng thuận.}
+{Trong thí nghiệm 1, nồng độ anion \ce{Cl-} càng cao thì cân bằng càng chuyển dịch theo chiều thuận tạo phức màu vàng chanh.}
+{Trong thí nghiệm 2, không có dấu hiệu rõ ràng của phản ứng hình thành phức chất $\ce{[CuCl4]^2-}$.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Phức chất cisplatin có công thức cấu tạo như hình bên dưới và được sử dụng rộng rãi làm thuốc hoá trị chống ung thư:
+\par\vspace{1pt}\centerline{\includegraphics[height=1.4cm]{images_crop_de22/p2_cau3_cisplatin.png}}\vspace{1pt}
+\choiceTF
+{Dạng hình học của phân tử cisplatin là dạng vuông phẳng.}
+{Nguyên tử trung tâm của phức chất cisplatin là ion $\ce{Pt^2+}$.}
+{Trong phân tử cisplatin, các phối tử liên kết với nguyên tử trung tâm là \ce{NH3} và \ce{Cl-}.}
+{Phân tử phức chất cisplatin có tổng cộng 4 phối tử.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Metalloporphyrin có cấu trúc tương tự heme và được sử dụng trong y học để kiểm soát chứng tăng bilirubin máu ở trẻ sơ sinh (nguyên nhân gây vàng da ở trẻ sơ sinh). Cấu trúc của phức chất metalloporphyrin được cho như hình bên dưới:
+\par\vspace{1pt}\centerline{\includegraphics[height=1.5cm]{images_crop_de22/p2_cau4_metalloporphyrin.png}}\vspace{1pt}
+\choiceTF
+{Ion trung tâm của phức chất metalloporphyrin là cation $\ce{Fe^2+}$.}
+{Số phối trí của nguyên tử trung tâm trong phức chất trên là 4.}
+{Metalloporphyrin là một loại muối kép chứ không phải là phức chất.}
+{Các liên kết phối trí trong metalloporphyrin được tạo thành do các nguyên tử N dùng cặp electron chưa liên kết cho vào orbital trống của ion $\ce{Fe^2+}$.}
+\loigiai{}
+\end{ex}
+
+\newpage
+
+\noindent
+\textbf{PHẦN III (1,5 điểm -- 6 câu): Câu trắc nghiệm yêu cầu trả lời ngắn.}\\
+\textit{Thí sinh trả lời từ câu 1 đến câu 6.}
+
+\setcounter{ex}{0}
+
+\begin{ex}
+Cho các phức chất sau: $\ce{[Co(NH3)6]^3+}$, $\ce{[Ti(OH2)6]^3+}$, $\ce{[Zn(CN)4]^2-}$, $\ce{[Cd(CN)4]^2-}$, $\ce{[Mo(CO)6]}$. Có bao nhiêu phức chất có dạng hình học bát diện?
+\par\noindent\textit{Trả lời:} \dotfill
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Cho dung dịch \ce{NH3} đặc đến dư vào dung dịch \ce{CoCl2}, thu được dung dịch có màu hồng chuyển dần sang nâu. Hiện tượng này được giải thích là do tất cả các phối tử \ce{H2O} trong phức chất $\ce{[Co(OH2)6]^2+}$ đã được thay thế hoàn toàn bằng phối tử \ce{NH3}. Có bao nhiêu liên kết phối trí Co-N có trong phân tử phức chất mới được tạo thành?
+\par\noindent\textit{Trả lời:} \dotfill
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Phức chất $\ce{[Pt(NH3)4]^2+}$ có thể bị thế bởi 1 phối tử \ce{Cl-} để tạo thành phức chất mới. Điện tích của phức chất tạo thành là bao nhiêu?
+\par\noindent\textit{Trả lời:} \dotfill
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Cisplatin là một phức chất của $\ce{Pt^2+}$ được sử dụng rộng rãi trong phác đồ điều trị ung thư. Cisplatin có thể được tổng hợp theo sơ đồ sau:
+\par\vspace{1pt}\centerline{\includegraphics[height=1.35cm]{images_crop_de22/p3_cau4_so_do_cisplatin.png}}\vspace{1pt}
+Xác định giá trị của điện tích $X$.
+\par\noindent\textit{Trả lời:} \dotfill
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Phức chất $\ce{[MA_{$x$}B_{$y$}]}$ có dạng hình học vuông phẳng, trong đó M là nguyên tử trung tâm; A và B là các phối tử một càng; $x$ và $y$ là số lượng phối tử của A và B. Xác định giá trị của tổng $x + y$.
+\par\noindent\textit{Trả lời:} \dotfill
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Để tiến hành mạ đồng cho một tấm huy chương hình trụ tròn (ruột bằng sắt) có bán kính đáy $r = 2{,}5\text{ cm}$ và chiều cao $h = 0{,}3\text{ cm}$ sao cho lớp mạ đồng phủ đều mọi bề mặt với độ dày $0{,}1\text{ cm}$. Người ta tiến hành điện phân dung dịch \ce{CuSO4} 0,5 M dư với anode bằng đồng tinh khiết ở cường độ dòng điện không đổi $I = 2\text{ A}$. Biết hiệu suất điện phân là 100\%, khối lượng riêng của đồng $D = 8{,}95\text{ g/cm}^3$, lấy $\pi = 3{,}14$; $M_{\ce{Cu}} = 64\text{ g/mol}$; hằng số Faraday $F = 96485\text{ C/mol}$. Tính thời gian $t$ (theo đơn vị giờ) để hoàn thành quá trình mạ (làm tròn kết quả đến hàng phần mười).
+\par\noindent\textit{Trả lời:} \dotfill
+\loigiai{}
+\end{ex}
+
+\Closesolutionfile{ans}
+\end{document}
