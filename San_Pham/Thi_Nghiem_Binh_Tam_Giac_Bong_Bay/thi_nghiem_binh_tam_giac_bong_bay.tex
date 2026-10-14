@@ -1,0 +1,158 @@
+\documentclass[tikz,border=15pt]{standalone}
+\usepackage[utf8]{vietnam}
+\usepackage{times}
+\usepackage{amsmath}
+\usetikzlibrary{calc,arrows.meta,shadings}
+
+\begin{document}
+\begin{tikzpicture}[x=1cm, y=1cm, >=stealth, line cap=round, line join=round]
+
+  % Define colors
+  \definecolor{glassedge}{RGB}{45, 95, 140}
+  \definecolor{glassbg}{RGB}{242, 248, 255}
+  \definecolor{liquidblue}{RGB}{210, 238, 255}
+  \definecolor{liquidborder}{RGB}{100, 165, 220}
+  \definecolor{ballooncolor}{RGB}{38, 140, 85}
+  \definecolor{balloonhighlight}{RGB}{160, 240, 165}
+  \definecolor{darkgreen}{RGB}{18, 80, 45}
+
+  % ============================================================
+  % 1. ERLENMEYER FLASK (BÌNH TAM GIÁC)
+  % ============================================================
+
+  % Glass Background fill
+  \fill[glassbg] 
+    (-0.55, 3.4) -- (-0.6, 2.5) -- (-1.9, 0.3) 
+    to[out=-80, in=180] (-1.6, 0.05) -- (1.6, 0.05)
+    to[out=0, in=-100] (1.9, 0.3) -- (0.6, 2.5) -- (0.55, 3.4) -- cycle;
+
+  % Liquid inside flask (level at y = 1.1)
+  \fill[liquidblue!90] 
+    (-1.42, 1.1) -- (-1.85, 0.25)
+    to[out=-80, in=180] (-1.6, 0.08) -- (1.6, 0.08)
+    to[out=0, in=-100] (1.85, 0.25) -- (1.42, 1.1) -- cycle;
+
+  % Liquid surface meniscus
+  \draw[liquidborder, line width=0.9pt] 
+    (-1.42, 1.1) to[out=-5, in=-175] (1.42, 1.1);
+
+  % NaHCO3 powder/slurry at the bottom (solid reactant)
+  \foreach \x/\y in {
+    -1.3/0.14, -1.0/0.18, -0.7/0.12, -0.4/0.16, -0.1/0.13, 0.2/0.17, 0.6/0.12, 0.9/0.18, 1.2/0.14,
+    -1.1/0.22, -0.8/0.26, -0.5/0.21, -0.2/0.25, 0.1/0.22, 0.4/0.27, 0.8/0.23, 1.0/0.21,
+    -0.6/0.32, -0.3/0.35, 0.0/0.31, 0.3/0.34, 0.6/0.30
+  } {
+    \fill[white!85!gray] (\x, \y) circle (1.2pt);
+  }
+
+  % CO2 gas bubbles rising in liquid & flask neck
+  \foreach \x/\y/\r in {
+    -0.5/0.48/1.5pt, 0.2/0.45/1.8pt, 0.7/0.52/1.3pt,
+    -0.2/0.68/1.6pt, 0.5/0.78/2.0pt, 0.9/0.72/1.3pt,
+    -0.7/0.95/1.8pt, -0.3/1.05/2.2pt, 0.1/0.98/1.7pt, 0.6/1.03/2.3pt,
+    -0.2/1.35/1.9pt, 0.3/1.55/2.2pt, 0.0/1.85/1.7pt, 0.25/2.15/2.3pt,
+    -0.15/2.65/2.1pt, 0.1/2.95/2.4pt, -0.05/3.25/2.2pt
+  } {
+    \draw[glassedge!85, fill=white, line width=0.55pt] (\x, \y) circle (\r);
+  }
+
+  % Graduation markings on flask (placed on the left side)
+  \draw[glassedge!80, line width=0.65pt] (-1.55, 0.7) -- (-1.25, 0.7) node[right, font=\fontsize{6.5pt}{7pt}\selectfont, text=glassedge!90] {50};
+  \draw[glassedge!80, line width=0.65pt] (-1.35, 1.1) -- (-1.05, 1.1) node[right, font=\fontsize{6.5pt}{7pt}\selectfont, text=glassedge!90] {100};
+  \draw[glassedge!80, line width=0.65pt] (-1.15, 1.5) -- (-0.85, 1.5) node[right, font=\fontsize{6.5pt}{7pt}\selectfont, text=glassedge!90] {150};
+  \draw[glassedge!80, line width=0.65pt] (-0.95, 1.9) -- (-0.65, 1.9) node[right, font=\fontsize{6.5pt}{7pt}\selectfont, text=glassedge!90] {200};
+  \draw[glassedge!80, line width=0.65pt] (-0.75, 2.3) -- (-0.45, 2.3) node[right, font=\fontsize{6.5pt}{7pt}\selectfont, text=glassedge!90] {250};
+  \node[anchor=south, font=\fontsize{6.5pt}{7pt}\selectfont, text=glassedge!90] at (-0.8, 2.45) {mL};
+
+  % Flask outline
+  \draw[glassedge, line width=1.35pt]
+    (-0.55, 3.4) -- (-0.6, 2.5) -- (-1.9, 0.3) 
+    to[out=-80, in=180] (-1.6, 0.05) -- (1.6, 0.05)
+    to[out=0, in=-100] (1.9, 0.3) -- (0.6, 2.5) -- (0.55, 3.4);
+
+  % Flask bottom contour
+  \draw[glassedge!40, line width=0.6pt]
+    (-1.75, 0.16) -- (1.75, 0.16);
+
+  % Glass reflection highlight on flask left side
+  \draw[white, line width=1.6pt, opacity=0.7] 
+    (-1.68, 0.42) -- (-0.62, 2.42);
+
+  % ============================================================
+  % 2. INFLATED BALLOON (BÓNG BAY PHỒNG TO)
+  % ============================================================
+
+  % Balloon stretched over flask neck (rubber band seal)
+  \fill[ballooncolor!85!black] 
+    (-0.58, 3.22) rectangle (0.58, 3.44);
+  \draw[darkgreen!90!black, line width=0.8pt] 
+    (-0.58, 3.22) rectangle (0.58, 3.44);
+  
+  % Balloon neck gather
+  \fill[ballooncolor]
+    (-0.55, 3.4) to[out=80, in=-90] (-0.35, 3.75) 
+    -- (0.35, 3.75) to[out=-90, in=100] (0.55, 3.4) -- cycle;
+
+  % Inflated Balloon Body
+  \begin{scope}
+    % Clip path for balloon
+    \path[clip] 
+      (0, 3.65) 
+      to[out=170, in=-80] (-2.15, 5.2)
+      to[out=100, in=180] (0, 7.15)
+      to[out=0, in=80] (2.15, 5.2)
+      to[out=-100, in=10] (0, 3.65) -- cycle;
+
+    % Radial shading for 3D sphere look
+    \shade[inner color=balloonhighlight!85!white, outer color=ballooncolor!95!black] 
+      (-0.55, 5.85) circle (2.65cm);
+
+    % Translucent 3D highlight (crescent reflection)
+    \path[fill=white, opacity=0.48]
+      (-0.65, 6.65) to[out=160, in=80] (-1.75, 5.65)
+      to[out=60, in=200] (-0.85, 6.45) -- cycle;
+    
+    % Secondary soft reflection at bottom right
+    \path[fill=white, opacity=0.22]
+      (1.0, 4.5) to[out=70, in=-40] (1.3, 5.2) to[out=-120, in=90] (0.9, 4.4) -- cycle;
+  \end{scope}
+
+  % Balloon outline
+  \draw[darkgreen!95!black, line width=1.15pt] 
+    (0, 3.65) 
+    to[out=170, in=-80] (-2.15, 5.2)
+    to[out=100, in=180] (0, 7.15)
+    to[out=0, in=80] (2.15, 5.2)
+    to[out=-100, in=10] (0, 3.65);
+
+  % ============================================================
+  % 3. ANNOTATIONS & POINTERS (CHÚ THÍCH RÕ NÉT)
+  % ============================================================
+
+  % Arrow 1: Pointing to balloon
+  \draw[->, line width=0.85pt, draw=black!90] 
+    (2.8, 5.6) -- (1.55, 5.6);
+  \node[anchor=west, align=left, font=\fontsize{10.5pt}{13.5pt}\selectfont] at (2.85, 5.6) {
+    \textbf{Bóng bay phồng lên}\\
+    \textit{(chứa khí $\textnormal{CO}_2$ sinh ra)}
+  };
+
+  % Arrow 2: Pointing to liquid
+  \draw[->, line width=0.85pt, draw=black!90] 
+    (2.6, 0.8) -- (1.15, 0.7);
+  \node[anchor=west, align=left, font=\fontsize{10pt}{13.5pt}\selectfont] at (2.65, 0.8) {
+    \textbf{Dung dịch acetic acid ($\textnormal{CH}_3\textnormal{COOH}$)}\\
+    \textbf{trong giấm ăn tác dụng với}\\
+    \textbf{sodium hydrogen carbonate ($\textnormal{NaHCO}_3$)}
+  };
+
+  % Arrow 3 (left): CO2 gas bubbles
+  \draw[->, line width=0.75pt, draw=black!75] 
+    (-2.4, 1.95) -- (-0.35, 1.85);
+  \node[anchor=east, align=right, font=\fontsize{9.5pt}{12.5pt}\selectfont] at (-2.45, 1.95) {
+    \textit{Bọt khí $\textnormal{CO}_2$}\\
+    \textit{thoát ra}
+  };
+
+\end{tikzpicture}
+\end{document}

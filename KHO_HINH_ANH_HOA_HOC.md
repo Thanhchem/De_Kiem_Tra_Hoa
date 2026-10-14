@@ -83,6 +83,26 @@ Tài liệu này lưu trữ danh mục toàn bộ các hình ảnh cấu trúc H
 
 ---
 
-## 3. CÁC SCRIPTS TỰ ĐỘNG SINH HÌNH ẢNH
+## 3. SƠ ĐỒ THÍ NGHIỆM BÌNH TAM GIÁC NỐI BÓNG BAY ($\text{CH}_3\text{COOH} + \text{NaHCO}_3 \to \text{CO}_2$)
+
+- **Ý nghĩa Hóa học / KHTN 8:** Thí nghiệm chứng minh phản ứng hóa học xảy ra có sự tạo thành chất khí (dấu hiệu nhận biết phản ứng) và định luật bảo toàn khối lượng (khi phản ứng diễn ra trong hệ kín):
+  $$\text{CH}_3\text{COOH} + \text{NaHCO}_3 \to \text{CH}_3\text{COONa} + \text{CO}_2\uparrow + \text{H}_2\text{O}$$
+  Khí $\text{CO}_2$ sinh ra làm quả bóng bay gắn ở miệng bình tam giác phồng to lên.
+
+### 3.1. Hình ảnh thí nghiệm chuẩn độ nét cao
+- **Bản tiêu chuẩn (300 DPI, nền trắng):** `San_Pham/Thi_Nghiem_Binh_Tam_Giac_Bong_Bay/thi_nghiem_binh_tam_giac_bong_bay.png`
+- **Bản trong suốt (Transparent, dùng chèn Word không nền):** `San_Pham/Thi_Nghiem_Binh_Tam_Giac_Bong_Bay/thi_nghiem_binh_tam_giac_bong_bay_transparent.png`
+- **Bản Ultra HD (600 DPI in ấn):** `San_Pham/Thi_Nghiem_Binh_Tam_Giac_Bong_Bay/thi_nghiem_binh_tam_giac_bong_bay_hd.png`
+- **Bản Vector PDF (dùng chèn LaTeX):** `San_Pham/Thi_Nghiem_Binh_Tam_Giac_Bong_Bay/thi_nghiem_binh_tam_giac_bong_bay.pdf`
+- **Thư mục ảnh tài nguyên chung:** `San_Pham/images_khtn8/khtn8_flask_balloon.png`
+
+### 3.2. Mã nguồn LaTeX TikZ
+Xem chi tiết mã nguồn đầy đủ tại: `San_Pham/Thi_Nghiem_Binh_Tam_Giac_Bong_Bay/thi_nghiem_binh_tam_giac_bong_bay.tex`.
+
+---
+
+## 4. CÁC SCRIPTS TỰ ĐỘNG SINH HÌNH ẢNH
 - `scripts/ve_cong_thuc_alanine.py`: Tự động biên dịch và trích xuất ảnh PNG/PDF cho các công thức amino acid.
 - `scripts/ve_so_do_aniline.py`: Tự động biên dịch và trích xuất sơ đồ phản ứng điều chế aniline.
+- `San_Pham/Thi_Nghiem_Binh_Tam_Giac_Bong_Bay/thi_nghiem_binh_tam_giac_bong_bay.tex`: Mã nguồn TikZ vẽ thí nghiệm bình tam giác gắn bóng bay.
+

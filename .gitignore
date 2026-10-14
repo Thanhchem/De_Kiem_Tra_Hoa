@@ -9,3 +9,5 @@ __pycache__/
 preview_*.png
 check_*.png
 scratch/
+~$*
+

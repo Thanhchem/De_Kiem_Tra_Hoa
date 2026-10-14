@@ -109,3 +109,13 @@ Khi xử lý đề thi hoặc câu hỏi có liên quan đến các cấu trúc 
   - **B (Dạng in thiếu số 3 theo ảnh gốc):** `\chemfig{-[:-30](-[:-90]NH^{+})-[:30]COO^{-}}`
   - **C (Zwitterion axit 2,3-diaminopropanoic):** `\chemfig{^{+}H_3N-[:30](-[:90]NH_2)-[:-30]-[:30]COO^{-}}`
   - **D (Aminomethanol):** `\chemfig{H_2N-[:30]-[:-30]OH}`
+
+### 4.3. Sơ đồ thí nghiệm bình tam giác nối bóng bay ($\text{CH}_3\text{COOH} + \text{NaHCO}_3 \to \text{CO}_2$)
+- **Đường dẫn ảnh:**
+  - Bản tiêu chuẩn (300 DPI): `San_Pham/Thi_Nghiem_Binh_Tam_Giac_Bong_Bay/thi_nghiem_binh_tam_giac_bong_bay.png`
+  - Bản trong suốt (Transparent): `San_Pham/Thi_Nghiem_Binh_Tam_Giac_Bong_Bay/thi_nghiem_binh_tam_giac_bong_bay_transparent.png`
+  - Bản cực nét (600 DPI): `San_Pham/Thi_Nghiem_Binh_Tam_Giac_Bong_Bay/thi_nghiem_binh_tam_giac_bong_bay_hd.png`
+  - Bản vector: `San_Pham/Thi_Nghiem_Binh_Tam_Giac_Bong_Bay/thi_nghiem_binh_tam_giac_bong_bay.pdf`
+  - Ảnh tài nguyên chung: `San_Pham/images_khtn8/khtn8_flask_balloon.png`
+- **Mã nguồn vẽ (TikZ):** Xem tại `San_Pham/Thi_Nghiem_Binh_Tam_Giac_Bong_Bay/thi_nghiem_binh_tam_giac_bong_bay.tex`.
+

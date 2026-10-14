@@ -95,7 +95,7 @@ PART3_INFO = {
         },
         {
             "id": 8,
-            "question": "Câu 8. Trong phòng thí nghiệm, học sinh cho acetic acid (CH~3~COOH) trong giấm ăn tác dụng với sodium hydrogen carbonate (NaHCO~3~). CO~2~ sinh ra làm bóng bay phồng lên.\n[HÌNH ẢNH: Bình tam giác nối bóng bay phồng to]\nChọn đáp án đúng và ghép a–b–c–d ở cột (I) với các số tương ứng ở cột (II):",
+            "question": "Câu 8. Trong phòng thí nghiệm, học sinh cho acetic acid (CH~3~COOH) trong giấm ăn tác dụng với sodium hydrogen carbonate (NaHCO~3~). CO~2~ sinh ra làm bóng bay phồng lên như hình vẽ dưới đây.\nChọn đáp án đúng và ghép a–b–c–d ở cột (I) với các số tương ứng ở cột (II):",
             "has_table": True,
             "table_data": [
                 ("Cột I", "Cột II"),

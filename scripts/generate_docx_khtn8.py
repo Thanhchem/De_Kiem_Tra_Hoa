@@ -19,6 +19,7 @@ from docx.oxml import OxmlElement, parse_xml
 from docx.oxml.ns import nsdecls, qn
 
 sys.path.append(os.path.dirname(__file__))
+sys.stdout.reconfigure(encoding='utf-8')
 from khtn8_data_part1 import ALL_PART1
 from khtn8_data_part2_3_4 import PART2_INFO, PART3_INFO, PART4_ESSAY
 
@@ -414,7 +415,7 @@ def generate_exam_docx(is_teacher=False, output_filename="test.docx"):
                 p_img.paragraph_format.space_before = Pt(2)
                 p_img.paragraph_format.space_after = Pt(3)
                 p_img.alignment = WD_ALIGN_PARAGRAPH.CENTER
-                p_img.add_run().add_picture(img_flask, width=Cm(6.5))
+                p_img.add_run().add_picture(img_flask, width=Cm(12.5))
 
             t_data = q["table_data"]
             tbl = doc.add_table(rows=len(t_data), cols=2)
@@ -505,8 +506,17 @@ def generate_exam_docx(is_teacher=False, output_filename="test.docx"):
     r_end = p_end.add_run("CHÚC CÁC EM THI TỐT!!!")
     set_run_style(r_end, font_size=12, bold=True, color=COLOR_PRIMARY)
 
-    doc.save(output_filename)
-    print(f"Saved: {output_filename}")
+    safe_save(doc, output_filename)
+
+def safe_save(doc, target_path):
+    try:
+        doc.save(target_path)
+        print(f"Saved: {target_path}")
+    except PermissionError:
+        base, ext = os.path.splitext(target_path)
+        fallback_path = f"{base}_CapNhat{ext}"
+        doc.save(fallback_path)
+        print(f"File đang mở trong Word! Đã lưu bản cập nhật vào: {fallback_path}")
 
 if __name__ == "__main__":
     fn_hs = os.path.join(OUT_DIR, "De_Cuong_KHTN_8_Giua_HK1_Minh_Khai.docx")
