@@ -101,8 +101,30 @@ Xem chi tiết mã nguồn đầy đủ tại: `San_Pham/Thi_Nghiem_Binh_Tam_Gia
 
 ---
 
-## 4. CÁC SCRIPTS TỰ ĐỘNG SINH HÌNH ẢNH
+## 4. SƠ ĐỒ THÍ NGHIỆM TÁC DỤNG LÀM QUAY CỦA LỰC - CỜ LÊ VÀ BU LÔNG (KHTN 8 / VẬT LÍ 10)
+
+- **Ý nghĩa Vật lí / KHTN 8:** Minh họa tác dụng làm quay của lực (Mômen lực $M = F \cdot d$):
+  - Lực $\vec{F}$ có độ lớn bằng nhau được đặt tại 3 vị trí khác nhau trên cờ lê để vặn bu lông:
+    - **Hình a:** Lực đặt ngay tại trục quay (đầu cờ lê ngậm bu lông), giá của lực đi qua trục quay $\to$ cánh tay đòn $d = 0 \to M = 0 \to$ bu lông **không quay**.
+    - **Hình b:** Lực đặt ở giữa cán cờ lê $\to$ cánh tay đòn trung bình $\to$ bu lông quay nhưng cần lực lớn hơn so với hình c.
+    - **Hình c:** Lực đặt ở mút ngoài cùng của cán cờ lê $\to$ cánh tay đòn $d$ lớn nhất $\to$ mômen lực $M = F \cdot d$ lớn nhất $\to$ bu lông **quay dễ dàng nhất**.
+
+### 4.1. Hình ảnh thí nghiệm chuẩn độ nét cao
+- **Bản tiêu chuẩn (300 DPI, nền trắng):** `San_Pham/Thi_Nghiem_Co_Le_Bu_Long/thi_nghiem_co_le_bu_long.png`
+- **Bản trong suốt (Transparent, dùng chèn Word không nền):** `San_Pham/Thi_Nghiem_Co_Le_Bu_Long/thi_nghiem_co_le_bu_long_transparent.png`
+- **Bản Ultra HD (600 DPI in ấn):** `San_Pham/Thi_Nghiem_Co_Le_Bu_Long/thi_nghiem_co_le_bu_long_hd.png`
+- **Bản Vector PDF (dùng chèn LaTeX):** `San_Pham/Thi_Nghiem_Co_Le_Bu_Long/thi_nghiem_co_le_bu_long.pdf`
+- **Thư mục ảnh tài nguyên chung:** `San_Pham/images_khtn8/khtn8_wrenches.png`
+
+### 4.2. Mã nguồn LaTeX TikZ
+Xem chi tiết mã nguồn đầy đủ tại: `San_Pham/Thi_Nghiem_Co_Le_Bu_Long/thi_nghiem_co_le_bu_long.tex`.
+
+---
+
+## 5. CÁC SCRIPTS TỰ ĐỘNG SINH HÌNH ẢNH
 - `scripts/ve_cong_thuc_alanine.py`: Tự động biên dịch và trích xuất ảnh PNG/PDF cho các công thức amino acid.
 - `scripts/ve_so_do_aniline.py`: Tự động biên dịch và trích xuất sơ đồ phản ứng điều chế aniline.
 - `San_Pham/Thi_Nghiem_Binh_Tam_Giac_Bong_Bay/thi_nghiem_binh_tam_giac_bong_bay.tex`: Mã nguồn TikZ vẽ thí nghiệm bình tam giác gắn bóng bay.
+- `San_Pham/Thi_Nghiem_Co_Le_Bu_Long/thi_nghiem_co_le_bu_long.tex`: Mã nguồn TikZ vẽ 3 cờ lê và bu lông minh họa mômen lực.
+
 

@@ -119,3 +119,13 @@ Khi xử lý đề thi hoặc câu hỏi có liên quan đến các cấu trúc 
   - Ảnh tài nguyên chung: `San_Pham/images_khtn8/khtn8_flask_balloon.png`
 - **Mã nguồn vẽ (TikZ):** Xem tại `San_Pham/Thi_Nghiem_Binh_Tam_Giac_Bong_Bay/thi_nghiem_binh_tam_giac_bong_bay.tex`.
 
+### 4.4. Sơ đồ thí nghiệm cờ lê và bu lông (Tác dụng làm quay của lực / Moment lực)
+- **Đường dẫn ảnh:**
+  - Bản tiêu chuẩn (300 DPI): `San_Pham/Thi_Nghiem_Co_Le_Bu_Long/thi_nghiem_co_le_bu_long.png`
+  - Bản trong suốt (Transparent): `San_Pham/Thi_Nghiem_Co_Le_Bu_Long/thi_nghiem_co_le_bu_long_transparent.png`
+  - Bản cực nét (600 DPI): `San_Pham/Thi_Nghiem_Co_Le_Bu_Long/thi_nghiem_co_le_bu_long_hd.png`
+  - Bản vector: `San_Pham/Thi_Nghiem_Co_Le_Bu_Long/thi_nghiem_co_le_bu_long.pdf`
+  - Ảnh tài nguyên chung: `San_Pham/images_khtn8/khtn8_wrenches.png`
+- **Mã nguồn vẽ (TikZ):** Xem tại `San_Pham/Thi_Nghiem_Co_Le_Bu_Long/thi_nghiem_co_le_bu_long.tex`.
+
+

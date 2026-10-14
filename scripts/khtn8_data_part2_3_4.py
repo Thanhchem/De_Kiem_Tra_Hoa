@@ -329,13 +329,18 @@ p_min = P / S_max = 162 / 0,06 = 2 700 Pa."""
     },
     {
         "id": 11,
-        "question": "Câu 11. Đặt lực F có độ lớn bằng nhau tại các vị trí khác nhau trên cờ lê như hình dưới đây để lắp bu lông. Hình nào bu lông sẽ không quay, hình nào bu lông quay dễ dàng nhất? Vì sao?\n[HÌNH ẢNH: 3 cờ lê a), b), c)]",
+        "question": "Câu 11. Đặt lực F có độ lớn bằng nhau tại các vị trí khác nhau trên cờ lê như hình dưới đây để lắp bu lông. Hình nào bu lông sẽ không quay, hình nào bu lông quay dễ dàng nhất? Vì sao?",
         "has_image": True,
         "image_path": "San_Pham/images_khtn8/khtn8_wrenches.png",
         "solution": """• Hình bu lông sẽ không quay:
-Là hình c), vì phương của lực tác dụng đi qua trục quay (tâm của bu lông), cánh tay đòn bằng 0 nên moment lực bằng 0, không có tác dụng làm quay.
+- Đó là hình a).
+- Giải thích: Vì điểm đặt của lực tác dụng ngay tại đầu cờ lê (trục quay của bu lông), giá của lực đi qua trục quay nên cánh tay đòn d = 0. Do đó mômen lực M = F . d = 0, lực không có tác dụng làm quay bu lông.
+
 • Hình bu lông quay dễ dàng nhất:
-Là hình a), vì lực tác dụng vuông góc với cán cờ lê và đặt ở vị trí mút ngoài cùng của cán (cách xa trục quay nhất), làm cho cánh tay đòn d đạt giá trị lớn nhất => Moment lực M = F . d là lớn nhất, tạo tác dụng làm quay mạnh nhất."""
+- Đó là hình c).
+- Giải thích: Vì lực tác dụng đặt ở vị trí mút ngoài cùng của cán cờ lê (cách xa trục quay nhất), làm cho khoảng cách từ trục quay đến giá của lực (cánh tay đòn d) đạt giá trị lớn nhất. Do lực F ở các hình có độ lớn bằng nhau, cánh tay đòn d càng lớn thì mômen lực M = F . d càng lớn, tạo ra tác dụng làm quay mạnh nhất, giúp bu lông xoay dễ dàng nhất mà tốn ít sức nhất.
+
+• Trường hợp hình b): Lực đặt ở giữa cán cờ lê nên cánh tay đòn ngắn hơn hình c), mômen lực nhỏ hơn nên bu lông vẫn quay nhưng sẽ khó khăn và tốn nhiều sức hơn so với hình c)."""
     },
     {
         "id": 12,
