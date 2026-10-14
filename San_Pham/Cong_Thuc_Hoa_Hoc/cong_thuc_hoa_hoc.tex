@@ -1,0 +1,98 @@
+% ==============================================================================
+% BỘ CÔNG THỨC HÓA HỌC DẠNG KHUNG (SKELETAL) & ION LƯỠNG CỰC (ZWITTERION)
+% Bi soạn bởi Thầy TRẦN VĂN THẠNH - 0777.470.803
+% Sử dụng gói chemfig trong LaTeX
+% ==============================================================================
+
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{chemfig}
+\usepackage[scaled=0.95]{helvet}
+\usepackage{geometry}
+\geometry{top=2cm,bottom=2cm,left=2cm,right=2cm}
+
+% Cấu hình ChemFig chuẩn sách giáo khoa mới (Kết nối tri thức / Cánh diều / Chân trời sáng tạo)
+\setchemfig{
+    atom sep=2.2em,           % Khoảng cách giữa các nguyên tử (độ dài liên kết)
+    bond offset=1.8pt,         % Khoảng cách hở giữa liên kết và chữ
+    bond style={line width=1.0pt, line cap=round, line join=round}, % Độ dày nét vẽ 1.0pt
+    double bond sep=2.5pt      % Khoảng cách giữa 2 nét liên kết đôi
+}
+% Đổi font chữ các nguyên tử sang Sans-Serif chuẩn
+\renewcommand*\printatom[1]{\ensuremath{\mathsf{#1}}}
+
+\begin{document}
+
+\section*{CÁC CÔNG THỨC HÓA HỌC TRONG ĐỀ THI}
+
+\subsection*{1. Từng công thức riêng lẻ}
+
+\begin{itemize}
+    \item \textbf{Phương án A (Zwitterion của $\beta$-alanine / Axit 3-aminopropanoic):}
+    \begin{center}
+        \chemfig{^{+}H_3N-[:30]-[:-30]-[:30]COO^{-}}
+    \end{center}
+    Mã ChemFig:
+    \begin{verbatim}
+    \chemfig{^{+}H_3N-[:30]-[:-30]-[:30]COO^{-}}
+    \end{verbatim}
+
+    \item \textbf{Phương án B (Zwitterion của Alanine / Axit 2-aminopropanoic - Dạng chuẩn Hóa học):}
+    \begin{center}
+        \chemfig{-[:-30](-[:-90]NH_3^{+})-[:30]COO^{-}}
+    \end{center}
+    Mã ChemFig:
+    \begin{verbatim}
+    \chemfig{-[:-30](-[:-90]NH_3^{+})-[:30]COO^{-}}
+    \end{verbatim}
+
+    \item \textbf{Phương án B (Phiên bản theo đúng ảnh đề thi in thiếu số 3: $NH^+$):}
+    \begin{center}
+        \chemfig{-[:-30](-[:-90]NH^{+})-[:30]COO^{-}}
+    \end{center}
+    Mã ChemFig:
+    \begin{verbatim}
+    \chemfig{-[:-30](-[:-90]NH^{+})-[:30]COO^{-}}
+    \end{verbatim}
+
+    \item \textbf{Phương án C (Zwitterion của Axit 2,3-diaminopropanoic):}
+    \begin{center}
+        \chemfig{^{+}H_3N-[:30](-[:90]NH_2)-[:-30]-[:30]COO^{-}}
+    \end{center}
+    Mã ChemFig:
+    \begin{verbatim}
+    \chemfig{^{+}H_3N-[:30](-[:90]NH_2)-[:-30]-[:30]COO^{-}}
+    \end{verbatim}
+
+    \item \textbf{Phương án D (Aminomethanol - $H_2N-CH_2-OH$):}
+    \begin{center}
+        \chemfig{H_2N-[:30]-[:-30]OH}
+    \end{center}
+    Mã ChemFig:
+    \begin{verbatim}
+    \chemfig{H_2N-[:30]-[:-30]OH}
+    \end{verbatim}
+\end{itemize}
+
+\subsection*{2. Bố trí 4 phương án trên 1 hàng ngang (Chuẩn đề thi trắc nghiệm)}
+
+\noindent
+\textbf{A.} $\vcenter{\hbox{\chemfig{^{+}H_3N-[:30]-[:-30]-[:30]COO^{-}}}}$ \qquad\quad
+\textbf{B.} $\vcenter{\hbox{\chemfig{-[:-30](-[:-90]NH_3^{+})-[:30]COO^{-}}}}$ \qquad\quad
+\textbf{C.} $\vcenter{\hbox{\chemfig{^{+}H_3N-[:30](-[:90]NH_2)-[:-30]-[:30]COO^{-}}}}$ \qquad\quad
+\textbf{D.} $\vcenter{\hbox{\chemfig{H_2N-[:30]-[:-30]OH}}}$
+
+\subsection*{3. Bố trí lưới 2x2 (Khớp với bố cục đề gốc)}
+
+\begin{center}
+\begin{tabular}{ll}
+\textbf{A.} $\vcenter{\hbox{\chemfig{^{+}H_3N-[:30]-[:-30]-[:30]COO^{-}}}}$ &
+\qquad\qquad \textbf{B.} $\vcenter{\hbox{\chemfig{-[:-30](-[:-90]NH_3^{+})-[:30]COO^{-}}}}$ \\[3.5em]
+\textbf{C.} $\vcenter{\hbox{\chemfig{^{+}H_3N-[:30](-[:90]NH_2)-[:-30]-[:30]COO^{-}}}}$ &
+\qquad\qquad \textbf{D.} $\vcenter{\hbox{\chemfig{H_2N-[:30]-[:-30]OH}}}$
+\end{tabular}
+\end{center}
+
+\end{document}

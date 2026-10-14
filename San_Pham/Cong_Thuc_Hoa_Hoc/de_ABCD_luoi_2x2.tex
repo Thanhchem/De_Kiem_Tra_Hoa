@@ -1,0 +1,22 @@
+\documentclass[border=3mm]{standalone}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{chemfig}
+\usepackage[scaled=0.95]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\setchemfig{
+    atom sep=2.2em,
+    bond offset=1.8pt,
+    bond style={line width=1.0pt, line cap=round, line join=round}
+}
+\renewcommand*\printatom[1]{\ensuremath{\mathsf{#1}}}
+
+\begin{document}
+\begin{tabular}{ll}
+\textbf{A.} $\vcenter{\hbox{\chemfig{^{+}H_3N-[:30]-[:-30]-[:30]COO^{-}}}}$ &
+\qquad\qquad \textbf{B.} $\vcenter{\hbox{\chemfig{-[:-30](-[:-90]NH_3^{+})-[:30]COO^{-}}}}$ \\[3.5em]
+\textbf{C.} $\vcenter{\hbox{\chemfig{^{+}H_3N-[:30](-[:90]NH_2)-[:-30]-[:30]COO^{-}}}}$ &
+\qquad\qquad \textbf{D.} $\vcenter{\hbox{\chemfig{H_2N-[:30]-[:-30]OH}}}$
+\end{tabular}
+\end{document}
