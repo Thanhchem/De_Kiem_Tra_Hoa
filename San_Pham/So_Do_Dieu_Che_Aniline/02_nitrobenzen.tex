@@ -1,0 +1,18 @@
+\documentclass[border=3mm]{standalone}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{chemfig}
+\usepackage[scaled=0.95]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\setchemfig{
+    atom sep=2.0em,
+    bond offset=1.8pt,
+    bond style={line width=0.9pt, line cap=round, line join=round},
+    arrow style={line width=0.9pt, -{Latex[length=4.5pt, width=3.2pt]}}
+}
+\renewcommand*\printatom[1]{\ensuremath{\mathsf{#1}}}
+
+\begin{document}
+\chemfig{*6(-=-(-[:30,0.75]NO_2)=-=)}
+\end{document}
