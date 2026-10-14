@@ -72,3 +72,40 @@ Mỗi đề thi luôn tạo ra 2 file Word:
    - `git add` tất cả sản phẩm mới và script tạo file.
    - `git commit` với thông điệp rõ ràng mô tả đề thi vừa làm.
    - `git push origin main` lên repository: `https://github.com/Thanhchem/De_Kiem_Tra_Hoa.git`.
+
+---
+
+## 4. THƯ VIỆN HÌNH ẢNH & MÃ VẼ HÓA HỌC (TỰ ĐỘNG TÁI SỬ DỤNG)
+
+Khi xử lý đề thi hoặc câu hỏi có liên quan đến các cấu trúc dưới đây, AI **BẮT BUỘC TỰ ĐỘNG TÁI SỬ DỤNG** mã `chemfig` chuẩn và file ảnh độ nét cao đã dựng sẵn (chi tiết tra cứu tại `KHO_HINH_ANH_HOA_HOC.md`):
+
+### 4.1. Sơ đồ điều chế Aniline từ Benzen
+- **Đường dẫn ảnh:**
+  - Bản đầy đủ chuẩn (300 DPI): `San_Pham/So_Do_Dieu_Che_Aniline/so_do_dieu_che_aniline.png`
+  - Bản nền trong suốt (chèn Word không nền): `San_Pham/So_Do_Dieu_Che_Aniline/so_do_dieu_che_aniline_transparent.png`
+  - Bản cực nét (600 DPI): `San_Pham/So_Do_Dieu_Che_Aniline/so_do_dieu_che_aniline_hd.png`
+  - Bản vector: `San_Pham/So_Do_Dieu_Che_Aniline/so_do_dieu_che_aniline.pdf`
+- **Mã LaTeX `chemfig`:**
+  ```latex
+  \schemestart
+  \chemfig{*6(-=-(-[:30,0.75,,,draw=none]\phantom{NO_2})=-=)}
+  \arrow{->[][(1)]}[,1.6]
+  \chemfig{*6(-=-(-[:30,0.75]NO_2)=-=)}
+  \arrow{->[Zn + HCl][(2)]}[,1.8]
+  \chemfig{*6(-=-(-[:30,0.75]NH_3Cl)=-=)}
+  \arrow{->[NaOH][(3)]}[,1.8]
+  \chemfig{*6(-=-(-[:30,0.75]NH_2)=-=)}
+  \schemestop
+  ```
+
+### 4.2. Bộ công thức ion lưỡng cực (Zwitterion) Amino Acid (Alanine)
+- **Đường dẫn ảnh:**
+  - Bộ 4 đáp án hàng ngang: `San_Pham/Cong_Thuc_Hoa_Hoc/de_ABCD_hang_ngang.png`
+  - Bộ 4 đáp án lưới 2x2: `San_Pham/Cong_Thuc_Hoa_Hoc/de_ABCD_luoi_2x2.png`
+  - Từng công thức đơn lẻ (nền trắng & transparent): `San_Pham/Cong_Thuc_Hoa_Hoc/ct_A.png`, `ct_B.png`, `ct_C.png`, `ct_D.png`.
+- **Mã LaTeX `chemfig` từng chất:**
+  - **A (Zwitterion $\beta$-alanine):** `\chemfig{^{+}H_3N-[:30]-[:-30]-[:30]COO^{-}}`
+  - **B (Zwitterion Alanine chuẩn Hóa học):** `\chemfig{-[:-30](-[:-90]NH_3^{+})-[:30]COO^{-}}`
+  - **B (Dạng in thiếu số 3 theo ảnh gốc):** `\chemfig{-[:-30](-[:-90]NH^{+})-[:30]COO^{-}}`
+  - **C (Zwitterion axit 2,3-diaminopropanoic):** `\chemfig{^{+}H_3N-[:30](-[:90]NH_2)-[:-30]-[:30]COO^{-}}`
+  - **D (Aminomethanol):** `\chemfig{H_2N-[:30]-[:-30]OH}`
