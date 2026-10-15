@@ -1,0 +1,404 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{top=1.5cm,bottom=1.2cm,left=1.4cm,right=1.4cm,headheight=28pt,headsep=12pt,footskip=18pt}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage[version=4]{mhchem}
+\usepackage{fancyhdr}
+\usepackage{ex_test}
+
+\renewcommand{\baselinestretch}{0.96}
+\setlength{\parskip}{0pt}
+
+\definecolor{hfRed}{RGB}{211,47,47}
+\definecolor{hfGreen}{RGB}{139,195,144}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\itshape\color{hfRed} Tài liệu lưu hành nội bộ}
+\fancyhead[R]{\small\itshape\color{hfRed} Thầy \textbf{TRẦN VĂN THẠNH} - 0777.470.803}
+\renewcommand{\headrulewidth}{0.8pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \headrulewidth\hfill}}
+
+\fancyfoot[L]{\small\itshape\color{hfRed} CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+\fancyfoot[R]{\small\bfseries\color{hfRed} Trang \thepage}
+\renewcommand{\footrulewidth}{0.8pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+
+\fancypagestyle{firstpage}{
+  \fancyhf{}
+  \renewcommand{\headrulewidth}{0pt}
+  \fancyfoot[L]{\small\itshape\color{hfRed} CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+  \fancyfoot[R]{\small\bfseries\color{hfRed} Trang \thepage}
+  \renewcommand{\footrulewidth}{0.8pt}
+  \renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+}
+
+\begin{document}
+\thispagestyle{firstpage}
+
+\noindent
+\begin{minipage}[t]{0.44\textwidth}
+	\centering\fontsize{10pt}{12pt}\selectfont
+	\textbf{SỞ GIÁO DỤC VÀ ĐÀO TẠO THỪA THIÊN HUẾ}\\
+	\textbf{ĐỀ CHÍNH THỨC}\\
+	\textit{(Đề thi có 04 trang)}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.54\textwidth}
+	\centering\small
+	\textbf{ĐỀ KIỂM TRA ĐỊNH KỲ CHƯƠNG 1 (CÂN BẰNG HÓA HỌC)}\\
+	\textbf{MÔN: HOÁ HỌC -- LỚP 11}\\
+	\textit{Thời gian làm bài: 45 phút (không kể thời gian phát đề)}\\
+	\fbox{\textbf{MÃ ĐỀ: 101}}
+\end{minipage}
+
+\smallskip
+\noindent\hrulefill
+\smallskip
+
+\noindent\textbf{Họ, tên thí sinh:} \dotfill\ \textbf{Lớp:} \dotfill\ \textbf{Số báo danh:} \dotfill
+
+\smallskip
+\noindent\textit{(Cho biết nguyên tử khối: H = 1; C = 12; N = 14; O = 16; Na = 23; Al = 27; S = 32; Cl = 35,5; K = 39; Ca = 40; Ba = 137).}
+\smallskip
+
+\noindent
+\textbf{PHẦN I (4,5 điểm -- 18 câu): Câu trắc nghiệm nhiều phương án lựa chọn.}\\
+\textit{Thí sinh trả lời từ câu 1 đến câu 18. Mỗi câu hỏi thí sinh chỉ chọn một phương án.}
+
+\Opensolutionfile{ans}[ans-hoa11-de01hs]
+
+\begin{ex}
+Trong cùng điều kiện xác định, kết luận nào sau phản ứng xảy ra từ chất tham gia tạo thành chất sản phẩm. Kết luận nào sau đây là đúng?
+\choice
+{Nếu chất sản phẩm không thể tác dụng với nhau để tạo lại chất ban đầu thì đó là phản ứng thuận nghịch.}
+{Nếu chất sản phẩm có thể tác dụng với nhau để tạo lại chất ban đầu thì đó là phản ứng một chiều.}
+{Nếu chất sản phẩm có thể tác dụng với nhau để tạo lại chất khác thì đó là phản ứng thuận nghịch.}
+{Nếu chất sản phẩm có thể tác dụng với nhau để tạo lại chất ban đầu thì đó là phản ứng thuận nghịch.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Trong phản ứng thuận nghịch, kết luận nào sau đây là đúng tại thời điểm ban đầu?
+\choice
+{Tốc độ phản ứng thuận bằng tốc độ phản ứng nghịch.}
+{Nồng độ các chất trong hệ phản ứng không đổi.}
+{Tốc độ phản ứng nghịch bằng 0 sau đó giảm dần.}
+{Tốc độ phản ứng thuận đạt lớn nhất sau đó giảm dần.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+(SGK - CD): Phát biểu nào sau đây về một phản ứng thuận nghịch tại trạng thái cân bằng là sai?
+\choice
+{Tốc độ của phản ứng thuận bằng tốc độ của phản ứng nghịch.}
+{Nồng độ của tất cả các chất trong hỗn hợp phản ứng là không đổi.}
+{Nồng độ mol của chất phản ứng luôn bằng nồng độ mol của chất sản phẩm phản ứng.}
+{Phản ứng thuận và phản ứng nghịch vẫn diễn ra.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Phản ứng nào sau đây là phản ứng thuận nghịch?
+\choice
+{$\ce{Mg + 2HCl -> MgCl2 + H2}$.}
+{$\ce{H2 + I2 <=> 2HI}$.}
+{$\ce{C2H5OH + 3O2 ->[t^\circ] 2CO2 + 3H2O}$.}
+{$\ce{2KClO3 ->[t^\circ] 2KCl + 3O2}$.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Trong số các dung dịch có cùng nồng độ mol sau đây, dung dịch nào có độ dẫn điện yếu nhất?
+\choice
+{$\ce{NaCl}$}
+{$\ce{CH3COONa}$}
+{$\ce{CH3COOH}$}
+{$\ce{H2SO4}$}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Cho các chất dưới đây: $\ce{HClO4}, \ce{HClO}, \ce{HF}, \ce{HNO3}, \ce{H2S}, \ce{H2SO3}, \ce{NaOH}, \ce{NaCl}, \ce{CuSO4}, \ce{CH3COOH}$. Số chất thuộc loại chất điện li mạnh là
+\choice
+{5.}
+{6.}
+{7.}
+{4.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Trong dung dịch loãng của các chất khác nhau, tích số ion của nước chỉ phụ thuộc vào yếu tố nào sau đây?
+\choice
+{nồng độ}
+{thể tích}
+{nhiệt độ}
+{áp suất}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Dung dịch nào dưới đây dẫn điện tốt nhất?
+\choice
+{$\ce{NaI}\ 0{,}002\text{M}$}
+{$\ce{NaI}\ 0{,}010\text{M}$}
+{$\ce{NaI}\ 0{,}100\text{M}$}
+{$\ce{NaI}\ 0{,}001\text{M}$}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+{[CD - SBT]} Đối với phản ứng sau, cân bằng sẽ bị ảnh hưởng như thế nào khi tăng nhiệt độ (các điều kiện khác giữ không đổi)?
+\[ \ce{H2(g) + 1/2 O2(g) <=> H2O(l)} \quad \Delta_r\text{H}^\circ_{298} = -296\text{ kJ} \]
+\choice
+{Cân bằng chuyển dịch sang phải.}
+{Cân bằng chuyển dịch sang trái.}
+{Không thay đổi.}
+{Không dự đoán được sự chuyển dịch cân bằng.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+{[CD - SBT]} Trong phản ứng nào sau đây sự tăng áp suất sẽ dẫn tới cân bằng chuyển dịch sang trái (các điều kiện khác coi như không thay đổi)?
+\choice
+{$\ce{CaCO3(s) <=> CaO(s) + CO2(g)}$}
+{$\ce{CO(g) + H2O(g) <=> H2(g) + CO2(g)}$}
+{$\ce{2H2(g) + O2(g) <=> 2H2O(l)}$}
+{$\ce{C(s) + O2(g) <=> CO2(g)}$}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Cho cân bằng hóa học: $\ce{CaCO3(rắn) <=> CaO(rắn) + CO2(khí)}$. Biết phản ứng thuận là phản ứng thu nhiệt. Tác động nào sau đây vào hệ cân bằng để cân bằng đã cho chuyển dịch theo chiều thuận?
+\choice
+{Giảm nhiệt độ.}
+{Tăng áp suất.}
+{Tăng nồng độ khí $\ce{CO2}$.}
+{Tăng nhiệt độ.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Cho cân bằng hóa học: $\ce{PCl5(k) <=> PCl3(k) + Cl2(k)};\ \Delta_r\text{H}^\circ_{298} > 0$. Cân bằng chuyển dịch theo chiều thuận khi
+\choice
+{Thêm $\ce{PCl3}$ vào hệ phản ứng.}
+{Tăng áp suất của hệ phản ứng.}
+{Tăng nhiệt độ của hệ phản ứng.}
+{Thêm $\ce{Cl2}$ vào hệ phản ứng.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Cho các cân bằng sau:\\
+(1) $\ce{2SO2(g) + O2(g) <=> 2SO3(g)}$\\
+(2) $\ce{N2(g) + 3H2(g) <=> 2NH3(g)}$\\
+(3) $\ce{CO2(g) + H2(g) <=> CO(g) + H2O(g)}$\\
+(4) $\ce{2HI(g) <=> H2(g) + I2(g)}$\\
+Khi thay đổi áp suất, nhóm gồm các cân bằng hoá học đều không bị chuyển dịch là
+\choice
+{(1) và (2).}
+{(1) và (3).}
+{(3) và (4).}
+{(2) và (4).}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Cho cân bằng hoá học: $\ce{N2(g) + 3H2(g) <=> 2NH3(g)}$; phản ứng thuận là phản ứng tỏa nhiệt. Cân bằng hoá học không bị chuyển dịch khi
+\choice
+{Thay đổi nồng độ $\ce{N2}$}
+{Thêm chất xúc tác Fe.}
+{Thay đổi nhiệt độ.}
+{Thay đổi áp suất của hệ.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+(SGK-KNTT-Tr21): pH của dung dịch nào sau đây có giá trị nhỏ nhất?
+\choice
+{Dung dịch $\ce{HCl}\ 0{,}1\text{ M}$.}
+{Dung dịch $\ce{CH3COOH}\ 0{,}1\text{ M}$.}
+{Dung dịch $\ce{NaCl}\ 0{,}1\text{ M}$.}
+{Dung dịch $\ce{NaOH}\ 0{,}01\text{ M}$.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+(SGK-KNTT-Tr22): Đo pH của một cốc nước chanh được giá trị pH bằng 2,4. Nhận định nào sau đây không đúng?
+\choice
+{Nước chanh có môi trường acid.}
+{Nồng độ ion $[\ce{H+}]$ của nước chanh là $10^{-2{,}4}\text{ mol/L}$.}
+{Nồng độ ion $[\ce{H+}]$ của nước chanh là $0{,}24\text{ mol/L}$.}
+{Nồng độ của ion $[\ce{OH-}]$ của nước chanh nhỏ hơn $10^{-7}\text{ mol/L}$.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Cho các phát biểu sau:\\
+(1) Khi phản ứng thuận nghịch đạt trạng thái cân bằng hóa học, phản ứng dừng lại.\\
+(2) Cân bằng hóa học là cân bằng động.\\
+(3) Khi thay đổi trạng thái cân bằng của phản ứng thuận nghịch, cân bằng sẽ chuyển dịch về phía chống lại sự thay đổi đó.\\
+(4) Các yếu tố luôn ảnh hưởng đến cân bằng hoá học là: Nhiệt độ, nồng độ, áp suất.\\
+(5) Phản ứng thuận nghịch là phản ứng xảy ra theo 2 chiều ngược nhau trong cùng một điều kiện.\\
+(6) Phản ứng bất thuận nghịch là phản ứng xảy ra theo 1 chiều xác định.\\
+(7) Cân bằng hóa học là trạng thái mà phản ứng đã xảy ra hoàn toàn.\\
+(8) Khi phản ứng thuận nghịch đạt trạng thái cân bằng hóa học, lượng các chất sẽ không đổi.\\
+Số phát biểu đúng là
+\choice
+{7}
+{8}
+{6}
+{5}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+{[CD - SBT]}
+\begin{enumerate}[a)]
+	\item Cốc A chứa 50 ml dung dịch $\ce{KOH}\ 0{,}10\text{M}$ được chuẩn độ với dung dịch $\ce{HNO3}\ 0{,}10\text{M}$. Sau khi thêm 52 ml dung dịch $\ce{HNO3}$ vào, pH của dung dịch trong cốc A là
+	\choice
+	{$2{,}80$.}
+	{$2{,}71$.}
+	{$2{,}40$.}
+	{$3{,}00$.}
+	\item Chuẩn độ 100,0 ml dung dịch $\ce{NaOH}\ 0{,}1\text{M}$ bằng dung dịch $\ce{HCl}\ 1{,}0\text{ M}$. Thể tích dung dịch $\ce{HCl}$ cần thêm để dung dịch thu được có $\text{pH} = 12$ là
+	\choice
+	{$8{,}91\text{ ml}$.}
+	{$8{,}52\text{ ml}$.}
+	{$9{,}01\text{ ml}$.}
+	{$8{,}72\text{ ml}$.}
+\end{enumerate}
+\loigiai{}
+\end{ex}
+
+\Closesolutionfile{ans}
+
+\bigskip
+\noindent
+\textbf{PHẦN II (4,0 điểm -- 4 câu): Câu trắc nghiệm đúng sai.}\\
+\textit{Thí sinh trả lời từ câu 1 đến câu 4. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}
+
+\begin{ex}
+Trong bình kín có hệ cân bằng hóa học sau: $\ce{CO(g) + H2O(g) <=> CO2(g) + H2(g)};\ \Delta_r\text{H}^\circ_{298} > 0$.
+\choiceTF
+{a) Thêm một lượng hơi nước cân bằng chuyển dịch theo chiều thuận.}
+{b) Thêm một lượng $\ce{CO2}$ cân bằng chuyển dịch theo chiều thuận.}
+{c) Giảm áp suất chung của hệ cân bằng chuyển dịch theo chiều thuận.}
+{d) Tăng nhiệt độ cân bằng chuyển dịch theo chiều thuận.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Xét cân bằng trong bình kín có dung tích không đổi: $\ce{X(g) <=> 2Y(g)}$. Ban đầu cho 1 mol khí X vào bình, khi đạt đến trạng thái cân bằng thì thấy: Tại thời điểm ở $35^\circ\text{C}$ trong bình có $0{,}730\text{ mol X}$; Tại thời điểm ở $45^\circ\text{C}$ trong bình có $0{,}623\text{ mol X}$.
+\choiceTF
+{a) Phản ứng thuận là phản ứng thu nhiệt.}
+{b) Khi tăng áp suất, cân bằng chuyển dịch theo chiều nghịch.}
+{c) Thêm tiếp Y vào hỗn hợp cân bằng thì làm cho cân bằng chuyển dịch theo chiều nghịch.}
+{d) Thêm xúc tác thích hợp vào hỗn hợp cân bằng thì cân bằng vẫn không chuyển dịch.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Độ acid và độ kiềm của dung dịch có thể được đánh giá bằng nồng độ $\ce{H+}$ (Nồng độ $\ce{H+}$ càng cao thì pH càng nhỏ) hoặc quy về một giá trị gọi là pH (pH là chỉ số đánh giá độ acid hay base của một dung dịch).
+\choiceTF
+{a) Để so sánh mức độ acid giữa các dung dịch có thể dựa vào nồng độ: dung dịch acid nào có nồng độ mol/lít lớn hơn sẽ có tính acid mạnh hơn.}
+{b) Cho các dung dịch có cùng nồng độ: $\ce{K2SO3}$ (1), $\ce{NaClO4}$ (2), $\ce{HNO3}$ (3), $\ce{Ca(OH)2}$ (4). Chất có giá trị pH cao nhất là (3).}
+{c) Cho ba dung dịch có cùng nồng độ: $\ce{NH3}$ (1), $\ce{Ca(OH)2}$ (2), $\ce{KOH}$ (3). Giá trị pH các dung dịch được sắp xếp theo thứ tự giảm dần là: (2), (3), (1).}
+{d) Trong các dung dịch có cùng nồng độ, dung dịch có nồng độ ion $\ce{H+}$ nhỏ hơn và pH cao sẽ có tính acid yếu hơn.}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Bản chất acid -- base của nước được thể hiện trong hình sau:
+\begin{center}
+	\includegraphics[width=0.45\textwidth]{images_crop_hoa11_de01/cau4_mo_hinh_nuoc.png}
+\end{center}
+\choiceTF
+{a) Hai phân tử nước trong phương trình điện li trên là acid.}
+{b) Hai phân tử nước trong phương trình điện li trên là base.}
+{c) Nước là một chất lưỡng tính vì nó có thể đóng vai trò là một acid hoặc một base.}
+{d) Hai phân tử nước trong phương trình điện li trên một phân tử đóng vai trò acid và một phân tử đóng vai trò base.}
+\loigiai{}
+\end{ex}
+
+\bigskip
+\noindent
+\textbf{PHẦN III (1,5 điểm -- 6 câu): Câu trắc nghiệm yêu cầu trả lời ngắn.}\\
+\textit{Thí sinh trả lời từ câu 1 đến câu 6.}
+
+\begin{ex}
+Nồng độ mol của ion $\ce{NO3-}$ trong dung dịch $\ce{Ba(NO3)2}\ 0{,}1\text{ M}$ là x M. Xác định giá trị của x.
+\shortans{0{,}2}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+(SBT-CTST): Để chuẩn độ 40 mL dung dịch $\ce{HCl}$ chưa biết nồng độ đã dùng trung bình hết 34 mL dung dịch $\ce{NaOH}\ 0{,}12\text{ M}$. Tính nồng độ mol của dung dịch $\ce{HCl}$.
+\shortans{0{,}102}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+{[CD - SBT]} Xác định pH của dung dịch thu được sau khi thêm 25,0 ml dung dịch $\ce{NaOH}\ 0{,}1\text{M}$ vào 50,0 ml dung dịch $\ce{HCl}\ 0{,}1\text{ M}$.
+\shortans{1{,}48}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+{[CD - SBT]} Có bao nhiêu phát biểu nào dưới đây là đúng trong số các phát biểu đã cho dưới đây?\\
+(a) Để so sánh mức độ acid giữa các dung dịch có thể dựa vào nồng độ: dung dịch acid nào có nồng độ lớn hơn sẽ có tính acid mạnh hơn.\\
+(b) Trong các dung dịch có cùng nồng độ, dung dịch nào có tính acid mạnh hơn sẽ có nồng độ ion $\ce{H+}$ lớn hơn và pH lớn hơn.\\
+(c) Trong các dung dịch có cùng nồng độ, dung dịch nào có nồng độ ion $\ce{OH-}$ lớn hơn và pH nhỏ hơn sẽ có tính base lớn hơn.\\
+(d) Trong các dung dịch có cùng nồng độ, dung dịch nào có tính acid mạnh hơn sẽ có nồng độ ion $\ce{H+}$ lớn hơn và pH nhỏ hơn.\\
+(e) Trong các dung dịch có cùng nồng độ, dung dịch có nồng độ ion $\ce{H+}$ nhỏ hơn và pH cao sẽ có tính acid yếu hơn.\\
+(g) Trong một dãy các dung dịch có cùng nồng độ được sắp xếp theo tính acid tăng dần thì nồng độ ion $\ce{OH-}$ sẽ giảm dần và $K_a$ tăng dần.
+\shortans{3}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+{[CD - SGK]} Để trung hoà 10mL dung dịch $\ce{HCl}$ nồng độ x M cần 50 ml dung dịch $\ce{NaOH}\ 0{,}5\text{ M}$. Xác định giá trị của x.
+\shortans{2{,}5}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+(SBT - KNTT): Vỏ trứng có chứa calcium ở dạng $\ce{CaCO3}$. Để xác định hàm lượng $\ce{CaCO3}$ trong vỏ trứng, trong phòng thí nghiệm người ta có thể làm như sau:\\
+Lấy 1,0 g vỏ trứng khô, đã được làm sạch, hoà tan hoàn toàn trong 50 mL dung dịch $\ce{HCl}\ 0{,}4\text{ M}$. Lọc dung dịch sau phản ứng thu được 50 mL dung dịch A. Lấy 10,0 mL dung dịch A chuẩn độ với dung dịch $\ce{NaOH}\ 0{,}1\text{ M}$ thấy hết 5,6 mL. Xác định hàm lượng $\ce{CaCO3}$ trong vỏ trứng (giả thiết các tạp chất khác trong vỏ trứng không phản ứng với $\ce{HCl}$). Kết quả làm tròn đến hàng đơn vị phần trăm.
+\shortans{86\%}
+\loigiai{}
+\end{ex}
+
+\bigskip
+\noindent
+\textbf{PHẦN IV: Tự luận}\\
+\textit{Học sinh giải chi tiết các bài toán sau vào giấy làm bài.}
+
+\begin{ex}
+{[CD - SBT]} Điền từ ngữ thích hợp vào các chỗ trống trong mỗi phát biểu sau:
+\begin{enumerate}[a)]
+	\item Phản ứng thuận nghịch là phản ứng hóa học trong đó ở cùng điều kiện, xảy ra ...(1)... sự chuyển chất phản ứng thành sản phẩm và sự chuyển ...(2)... thành ...(3)...
+	\item Trạng thái cân bằng của mọi phản ứng thuận nghịch luôn có tốc độ phản ứng thuận ...(1)... tốc độ phản ứng nghịch, các phản ứng thuận và nghịch luôn diễn ra. Như vậy, cân bằng hóa học là ...(2)...
+	\item Với một phản ứng hóa học, khi hằng số cân bằng rất lớn so với 1 thì ở trạng thái cân bằng, nồng độ các chất sản phẩm ...(1)... nồng độ ...(2)...
+\end{enumerate}
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+{[CTST - SGK]} Ở các vùng quê, người dân thường dùng phèn chua để làm trong nước nhờ ứng dụng của phản ứng thuỷ phân ion $\ce{Al^3+}$? Giải thích? Chất hay ion nào là acid, là base trong phản ứng thuỷ phân $\ce{Al^3+}$?
+\begin{center}
+	\includegraphics[width=0.45\textwidth]{images_crop_hoa11_de01/cau2_tuan_phen_chua.png}
+\end{center}
+\loigiai{}
+\end{ex}
+
+\begin{center}
+\textbf{--------- HẾT ---------}
+\end{center}
+
+\end{document}
