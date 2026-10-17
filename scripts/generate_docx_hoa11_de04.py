@@ -1,606 +1,671 @@
 # -*- coding: utf-8 -*-
 """
-Tự động tạo 2 file Word cho ĐỀ SỐ 4 - HÓA HỌC 11:
-- De_Kiem_Tra_Hoa_11_De04.docx (Bản Học Sinh)
-- De_Kiem_Tra_Hoa_11_De04_GiaoVien.docx (Bản Giáo Viên)
-Chương 2: NITROGEN – SULFUR
-Tuân thủ 100% Form Đề Kiểm Tra trong GEMINI.md & form_de_kiem_tra.py:
-- Tuyệt đối không dùng Table trong nội dung câu hỏi/đáp án/lời giải.
-- Header & Footer chuẩn: #D32F2F, viền #8BC390, số trang tự động PAGE.
-- Căn lề A4 1.5 cm.
-- Chỉ số trên/dưới hóa học triệt để.
+Script tạo file Word (.docx) chuẩn "FORM ĐỀ KIỂM TRA" cho Đề thi thử Giữa học kì I Hóa học 11 (Đề số 04 / Mã đề 104)
+Thầy TRẦN VĂN THẠNH - Năm học 2026 - 2027
+
+Tạo 3 phiên bản:
+1. Bản Học sinh: San_Pham/De_Thi_Thu_Hoa_11_Giua_HK1_De04_HocSinh.docx
+2. Bản Giáo viên: San_Pham/De_Thi_Thu_Hoa_11_Giua_HK1_De04_GiaoVien.docx
+3. Bản Dạy trên màn hình: San_Pham/De_Thi_Thu_Hoa_11_Giua_HK1_De04_DayTrenManHinh.docx
 """
 
 import os
 import sys
-sys.stdout.reconfigure(encoding='utf-8')
+import re
+import shutil
 import docx
-from docx.shared import Cm, Pt, RGBColor
-from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.shared import Inches, Pt, RGBColor, Cm
+from docx.enum.text import WD_TAB_ALIGNMENT, WD_ALIGN_PARAGRAPH
+from docx.enum.table import WD_TABLE_ALIGNMENT, WD_ALIGN_VERTICAL
+from docx.enum.section import WD_SECTION_START
+from docx.oxml import OxmlElement, parse_xml
+from docx.oxml.ns import nsdecls, qn
 
-# Thêm đường dẫn scripts để import module dùng chung
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-from form_de_kiem_tra import (
-    setup_header_footer,
-    build_title_block,
-    add_section_header,
-    render_question_prompt,
-    render_options_no_table,
-    render_statement,
-    add_solution_no_table,
-    add_student_writing_lines,
-    render_rich_text,
-    set_run_style,
-    COLOR_CORRECT,
-    COLOR_SOLUTION,
-    COLOR_PRIMARY
+sys.path.append(os.path.dirname(__file__))
+from hoa11_de04_data import (
+    EXAM_INFO, PART_1_QUESTIONS, PART_2_QUESTIONS, PART_3_QUESTIONS
 )
 
-OUT_DIR = r"c:\Antigravity_Thanh\San_Pham"
-IMG_DIR = os.path.join(OUT_DIR, "images_crop_hoa11_de04")
+ROOT_DIR = r"c:\Antigravity_Thanh"
+OUT_DIR = os.path.join(ROOT_DIR, "San_Pham")
+IMG_DIR = os.path.join(OUT_DIR, "images_hoa11_de04")
+ONEDRIVE_DIR = r"C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\11"
+os.makedirs(OUT_DIR, exist_ok=True)
+os.makedirs(IMG_DIR, exist_ok=True)
 
-def add_centered_picture(doc, img_path, width_cm=8.0):
-    if os.path.exists(img_path):
-        p = doc.add_paragraph()
-        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-        p.paragraph_format.space_before = Pt(3)
-        p.paragraph_format.space_after = Pt(4)
-        run = p.add_run()
-        run.add_picture(img_path, width=Cm(width_cm))
+# Bảng màu chuẩn quy định trong FORM_DE_KIEM_TRA
+COLOR_HF_RED = RGBColor(211, 47, 47)        # Coral Red (#D32F2F) cho Header & Footer
+COLOR_HF_GREEN_HEX = "8BC390"               # Sage Green (#8BC390) cho viền Header & Footer
+COLOR_PRIMARY = RGBColor(46, 125, 50)       # Xanh lá đậm (#2E7D32) cho Tiêu đề Phần
+COLOR_CORRECT = RGBColor(198, 40, 40)       # Đỏ (#C62828) cho đáp án đúng Bản Giáo Viên
+COLOR_SOLUTION = RGBColor(21, 101, 192)     # Xanh lam (#1565C0) cho tiêu đề Lời giải
+COLOR_SCREEN_TITLE = RGBColor(106, 27, 154) # Tím đậm (#6A1B9A) cho tiêu đề bản Dạy Màn Hình
+COLOR_GRAY = RGBColor(97, 97, 97)
+COLOR_BORDER_GREY_HEX = "CCCCCC"
 
-def build_exam_document(is_teacher=False):
+def add_p_border_bottom(p, color="8BC390", sz="6"):
+    """Thêm đường kẻ viền dưới cho đoạn văn bản."""
+    pPr = p._element.get_or_add_pPr()
+    xml = f'<w:pBdr {nsdecls("w")}><w:bottom w:val="single" w:sz="{sz}" w:space="4" w:color="{color}"/></w:pBdr>'
+    pPr.append(parse_xml(xml))
+
+def add_p_border_top(p, color="8BC390", sz="6"):
+    """Thêm đường kẻ viền trên cho đoạn văn bản."""
+    pPr = p._element.get_or_add_pPr()
+    xml = f'<w:pBdr {nsdecls("w")}><w:top w:val="single" w:sz="{sz}" w:space="4" w:color="{color}"/></w:pBdr>'
+    pPr.append(parse_xml(xml))
+
+def set_cell_margins(cell, top=60, bottom=60, left=100, right=100):
+    """Cài đặt lề đệm cho ô bảng."""
+    tcPr = cell._tc.get_or_add_tcPr()
+    tcMar = OxmlElement('w:tcMar')
+    for m, val in [('w:top', top), ('w:bottom', bottom), ('w:left', left), ('w:right', right)]:
+        node = OxmlElement(m)
+        node.set(qn('w:w'), str(val))
+        node.set(qn('w:type'), 'dxa')
+        tcMar.append(node)
+    tcPr.append(tcMar)
+
+def set_run_style(run, font_name="Times New Roman", font_size=10.5, bold=False, italic=False, subscript=False, superscript=False, color=None):
+    """Cài đặt style chi tiết cho từng run text."""
+    run.font.name = font_name
+    run.font.size = Pt(font_size)
+    run.bold = bold
+    run.italic = italic
+    if subscript:
+        run.font.subscript = True
+    if superscript:
+        run.font.superscript = True
+    if color:
+        run.font.color.rgb = color
+
+def add_page_number_field(p, font_name="Times New Roman", font_size=10, bold=True, color=COLOR_HF_RED):
+    """Chèn trường số trang tự động PAGE vào chân trang."""
+    run_txt = p.add_run("Trang ")
+    set_run_style(run_txt, font_name=font_name, font_size=font_size, bold=bold, color=color)
+    
+    r = p.add_run()
+    set_run_style(r, font_name=font_name, font_size=font_size, bold=bold, color=color)
+    fld1 = parse_xml(r'<w:fldChar %s w:fldCharType="begin"/>' % nsdecls('w'))
+    instr1 = parse_xml(r'<w:instrText %s xml:space="preserve"> PAGE </w:instrText>' % nsdecls('w'))
+    fld2 = parse_xml(r'<w:fldChar %s w:fldCharType="separate"/>' % nsdecls('w'))
+    fld3 = parse_xml(r'<w:fldChar %s w:fldCharType="end"/>' % nsdecls('w'))
+    r._r.append(fld1); r._r.append(instr1); r._r.append(fld2); r._r.append(fld3)
+
+def render_rich_text(p, text, base_font="Times New Roman", base_size=10.5, base_bold=False, base_italic=False, base_color=None):
+    """
+    Sinh văn bản định dạng phong phú từ ký hiệu:
+    - *bold*
+    - _italic_
+    - ~subscript~ (CO~2~, H~2~O, NaCl)
+    - ^superscript^ (1s^2^, 4s^1^, H^+^)
+    """
+    tokens = re.split(r'(~[^~]+~|\^[^\^]+\^|\*[^\*]+\*|_[^_]+_)', text)
+    for token in tokens:
+        if not token:
+            continue
+
+        is_bold = base_bold
+        is_italic = base_italic
+        is_sub = False
+        is_sup = False
+        content = token
+
+        if token.startswith('*') and token.endswith('*'):
+            is_bold = True
+            content = token[1:-1]
+        elif token.startswith('_') and token.endswith('_'):
+            is_italic = True
+            content = token[1:-1]
+        elif token.startswith('~') and token.endswith('~'):
+            is_sub = True
+            content = token[1:-1]
+        elif token.startswith('^') and token.endswith('^'):
+            is_sup = True
+            content = token[1:-1]
+
+        run = p.add_run(content)
+        run_color = COLOR_CORRECT if (is_bold and not base_bold and not base_color) else base_color
+        set_run_style(run, font_name=base_font, font_size=base_size, bold=is_bold, italic=is_italic,
+                      subscript=is_sub, superscript=is_sup, color=run_color)
+
+def setup_header_footer(doc):
+    """Cài đặt Header & Footer chuẩn theo FORM_DE_KIEM_TRA."""
+    normal_style = doc.styles['Normal']
+    normal_style.paragraph_format.tab_stops.clear_all()
+
+    section = doc.sections[0]
+    section.page_width = Cm(21.0)
+    section.page_height = Cm(29.7)
+    section.top_margin = Cm(1.5)
+    section.bottom_margin = Cm(1.5)
+    section.left_margin = Cm(1.5)
+    section.right_margin = Cm(1.5)
+
+    section.start_type = WD_SECTION_START.NEW_PAGE
+    section.different_first_page_header_footer = False
+    section.header_distance = Cm(0.6)
+    section.footer_distance = Cm(0.6)
+
+    # 1. Header (Bảng 1x2, rộng 18.0 cm)
+    header = section.header
+    for p in header.paragraphs:
+        p.text = ""
+    tbl_h = header.add_table(rows=1, cols=2, width=Cm(18.0))
+    tbl_h.alignment = WD_TABLE_ALIGNMENT.CENTER
+    c_left = tbl_h.cell(0, 0)
+    c_right = tbl_h.cell(0, 1)
+    c_left.width = Cm(8.0)
+    c_right.width = Cm(10.0)
+
+    p_hl = c_left.paragraphs[0]
+    p_hl.paragraph_format.space_before = Pt(0)
+    p_hl.paragraph_format.space_after = Pt(2)
+    p_hl.alignment = WD_ALIGN_PARAGRAPH.LEFT
+    r_hl = p_hl.add_run("Tài liệu lưu hành nội bộ")
+    set_run_style(r_hl, font_size=10, italic=True, color=COLOR_HF_RED)
+
+    p_hr = c_right.paragraphs[0]
+    p_hr.paragraph_format.space_before = Pt(0)
+    p_hr.paragraph_format.space_after = Pt(2)
+    p_hr.alignment = WD_ALIGN_PARAGRAPH.RIGHT
+    r1 = p_hr.add_run("Thầy ")
+    set_run_style(r1, font_size=10, color=COLOR_HF_RED)
+    r2 = p_hr.add_run("TRẦN VĂN THẠNH")
+    set_run_style(r2, font_size=10, bold=True, color=COLOR_HF_RED)
+    r3 = p_hr.add_run(" - 0777.470.803")
+    set_run_style(r3, font_size=10, color=COLOR_HF_RED)
+
+    add_p_border_bottom(p_hl, color=COLOR_HF_GREEN_HEX, sz="6")
+    add_p_border_bottom(p_hr, color=COLOR_HF_GREEN_HEX, sz="6")
+
+    # 2. Footer (Bảng 1x2, rộng 18.0 cm)
+    footer = section.footer
+    for p in footer.paragraphs:
+        p.text = ""
+    tbl_f = footer.add_table(rows=1, cols=2, width=Cm(18.0))
+    tbl_f.alignment = WD_TABLE_ALIGNMENT.CENTER
+    c_fl = tbl_f.cell(0, 0)
+    c_fr = tbl_f.cell(0, 1)
+    c_fl.width = Cm(14.5)
+    c_fr.width = Cm(3.5)
+
+    p_fl = c_fl.paragraphs[0]
+    p_fl.paragraph_format.space_before = Pt(2)
+    p_fl.paragraph_format.space_after = Pt(0)
+    p_fl.alignment = WD_ALIGN_PARAGRAPH.LEFT
+    r_fl = p_fl.add_run("CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế   |   CS2: 24 Đặng Thái Thân, TP Huế")
+    set_run_style(r_fl, font_size=9.5, italic=True, color=COLOR_HF_RED)
+
+    p_fr = c_fr.paragraphs[0]
+    p_fr.paragraph_format.space_before = Pt(2)
+    p_fr.paragraph_format.space_after = Pt(0)
+    p_fr.alignment = WD_ALIGN_PARAGRAPH.RIGHT
+    add_page_number_field(p_fr, font_size=10, bold=True, color=COLOR_HF_RED)
+
+    add_p_border_top(p_fl, color=COLOR_HF_GREEN_HEX, sz="6")
+    add_p_border_top(p_fr, color=COLOR_HF_GREEN_HEX, sz="6")
+
+def build_title_block(doc, is_teacher=False, is_screen=False, base_size=10.5):
+    """Xây dựng Header Block không viền, đẹp mắt, chuẩn mực."""
+    tbl = doc.add_table(rows=1, cols=2)
+    tbl.alignment = WD_TABLE_ALIGNMENT.CENTER
+    cell_l, cell_r = tbl.cell(0, 0), tbl.cell(0, 1)
+    cell_l.width = Cm(8.0)
+    cell_r.width = Cm(10.0)
+
+    # Cột trái
+    p_tl1 = cell_l.paragraphs[0]
+    p_tl1.paragraph_format.space_before = Pt(0)
+    p_tl1.paragraph_format.space_after = Pt(1)
+    p_tl1.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    render_rich_text(p_tl1, f"*{EXAM_INFO['title_left_1']}*", base_size=10.5, base_bold=True)
+
+    p_tl2 = cell_l.add_paragraph()
+    p_tl2.paragraph_format.space_before = Pt(0)
+    p_tl2.paragraph_format.space_after = Pt(1)
+    p_tl2.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    render_rich_text(p_tl2, f"*{EXAM_INFO['title_left_2']}*", base_size=10.5, base_bold=True)
+
+    p_tl3 = cell_l.add_paragraph()
+    p_tl3.paragraph_format.space_before = Pt(0)
+    p_tl3.paragraph_format.space_after = Pt(0)
+    p_tl3.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    render_rich_text(p_tl3, f"_{EXAM_INFO['sub_left']}_", base_size=9.5, base_italic=True)
+
+    # Cột phải
+    p_tr1 = cell_r.paragraphs[0]
+    p_tr1.paragraph_format.space_before = Pt(0)
+    p_tr1.paragraph_format.space_after = Pt(1)
+    p_tr1.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    render_rich_text(p_tr1, f"*{EXAM_INFO['title_right_1']}*", base_size=11, base_bold=True)
+
+    p_tr2 = cell_r.add_paragraph()
+    p_tr2.paragraph_format.space_before = Pt(0)
+    p_tr2.paragraph_format.space_after = Pt(1)
+    p_tr2.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    render_rich_text(p_tr2, f"*{EXAM_INFO['title_right_2']}*", base_size=11.5, base_bold=True, base_color=COLOR_PRIMARY)
+
+    p_tr3 = cell_r.add_paragraph()
+    p_tr3.paragraph_format.space_before = Pt(0)
+    p_tr3.paragraph_format.space_after = Pt(0)
+    p_tr3.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    render_rich_text(p_tr3, f"_{EXAM_INFO['time_str']}_", base_size=9.5, base_italic=True)
+
+    # Dòng tiêu đề phụ cho Giáo viên / Màn hình
+    if is_teacher:
+        p_gv = doc.add_paragraph()
+        p_gv.paragraph_format.space_before = Pt(4)
+        p_gv.paragraph_format.space_after = Pt(2)
+        p_gv.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        rgv = p_gv.add_run("(BẢN GIÁO VIÊN -- CÓ ĐÁP ÁN & LỜI GIẢI CHI TIẾT)")
+        set_run_style(rgv, font_size=11.5, bold=True, color=COLOR_CORRECT)
+    elif is_screen:
+        p_sc = doc.add_paragraph()
+        p_sc.paragraph_format.space_before = Pt(4)
+        p_sc.paragraph_format.space_after = Pt(2)
+        p_sc.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        rsc = p_sc.add_run("(BẢN TRÌNH CHIẾU / GIẢNG DẠY MÀN HÌNH -- CÓ CHỪA CHỖ TRỐNG)")
+        set_run_style(rsc, font_size=11.5, bold=True, color=COLOR_SCREEN_TITLE)
+
+    # Dòng thông tin học sinh & mã đề
+    p_info = doc.add_paragraph()
+    p_info.paragraph_format.space_before = Pt(4)
+    p_info.paragraph_format.space_after = Pt(3)
+    p_info.paragraph_format.tab_stops.clear_all()
+    p_info.paragraph_format.tab_stops.add_tab_stop(Cm(18.0), WD_TAB_ALIGNMENT.RIGHT)
+    
+    render_rich_text(p_info, "*Họ và tên thí sinh:* .................................................... *Lớp:* ......... *Số báo danh:* .........", base_size=base_size)
+    p_info.add_run("\t")
+    r_md = p_info.add_run(f"Mã đề {EXAM_INFO['made']}")
+    set_run_style(r_md, font_size=11, bold=True)
+
+    p_div = doc.add_paragraph()
+    p_div.paragraph_format.space_before = Pt(0)
+    p_div.paragraph_format.space_after = Pt(4)
+    add_p_border_bottom(p_div, color=COLOR_BORDER_GREY_HEX, sz="4")
+
+def add_section_title(doc, title, subtitle=None, base_size=11):
+    """Tiêu đề phần: PHẦN I, PHẦN II, PHẦN III."""
+    p = doc.add_paragraph()
+    p.paragraph_format.space_before = Pt(6)
+    p.paragraph_format.space_after = Pt(2)
+    render_rich_text(p, f"*{title}*", base_size=base_size, base_bold=True, base_color=COLOR_PRIMARY)
+    if subtitle:
+        render_rich_text(p, f" {subtitle}", base_size=base_size * 0.95, base_italic=True)
+
+def add_solution_block(doc, solution_text, base_size=10):
+    """Trình bày Lời giải chi tiết theo đúng quy chuẩn không dùng Table."""
+    p_sol = doc.add_paragraph()
+    p_sol.paragraph_format.left_indent = Cm(0.6)
+    p_sol.paragraph_format.space_before = Pt(2)
+    p_sol.paragraph_format.space_after = Pt(3)
+    p_sol.paragraph_format.line_spacing = 1.15
+
+    r_lbl = p_sol.add_run("Lời giải chi tiết:\n")
+    set_run_style(r_lbl, font_size=base_size, bold=True, color=COLOR_SOLUTION)
+
+    lines = solution_text.split('\n')
+    for idx, line in enumerate(lines):
+        line_str = line.strip()
+        if not line_str:
+            continue
+        if idx > 0:
+            p_sol = doc.add_paragraph()
+            p_sol.paragraph_format.left_indent = Cm(0.6)
+            p_sol.paragraph_format.space_before = Pt(1)
+            p_sol.paragraph_format.space_after = Pt(2)
+            p_sol.paragraph_format.line_spacing = 1.15
+        render_rich_text(p_sol, line_str, base_size=base_size)
+
+def add_screen_teaching_space(doc, num_lines=3):
+    """Chừa khoảng trống rộng rãi cho bản Dạy Trên Màn Hình."""
+    p_box = doc.add_paragraph()
+    p_box.paragraph_format.left_indent = Cm(0.5)
+    p_box.paragraph_format.space_before = Pt(3)
+    p_box.paragraph_format.space_after = Pt(6)
+    
+    # Viền nét đứt màu xám nhẹ, viền trái nét liền tím
+    pPr = p_box._element.get_or_add_pPr()
+    xml = f'<w:pBdr {nsdecls("w")}><w:top w:val="dashed" w:sz="4" w:space="4" w:color="B0BEC5"/><w:bottom w:val="dashed" w:sz="4" w:space="4" w:color="B0BEC5"/><w:left w:val="single" w:sz="12" w:space="6" w:color="7E57C2"/></w:pBdr>'
+    pPr.append(parse_xml(xml))
+    
+    r_hint = p_box.add_run("✎ Ghi chú & Lời giải trực tiếp trên màn hình:\n")
+    set_run_style(r_hint, font_size=9.5, bold=True, color=COLOR_SCREEN_TITLE)
+    for _ in range(num_lines):
+        p_box.add_run("\n")
+
+def build_exam_docx(output_path, mode="student"):
+    """
+    Hàm chính tạo file Word đề kiểm tra
+    mode: 'student' | 'teacher' | 'screen'
+    """
+    is_teacher = (mode == "teacher")
+    is_screen = (mode == "screen")
+    base_size = 11.5 if is_screen else 10.5
+
     doc = docx.Document()
     setup_header_footer(doc)
+    build_title_block(doc, is_teacher=is_teacher, is_screen=is_screen, base_size=base_size)
 
-    build_title_block(
+    # -------------------------------------------------------------------------
+    # PHẦN I: 18 CÂU TRẮC NGHIỆM NHIỀU LỰA CHỌN (4,5 ĐIỂM)
+    # -------------------------------------------------------------------------
+    add_section_title(
         doc,
-        school_line="SỞ GIÁO DỤC VÀ ĐÀO TẠO THỪA THIÊN HUẾ",
-        exam_title="ĐỀ KIỂM TRA ĐỊNH KỲ CHƯƠNG 2 (NITROGEN – SULFUR)",
-        subject_line="MÔN: HOÁ HỌC - LỚP 11",
-        num_pages="04",
-        duration="45 phút",
-        exam_code="104",
-        atomic_masses="H = 1; C = 12; N = 14; O = 16; Na = 23; Mg = 24; Al = 27; S = 32; Cl = 35,5; Ar = 40; K = 39; Ca = 40; Fe = 56; Cu = 64; Zn = 65; Ba = 137",
-        is_teacher=is_teacher
+        "PHẦN I (4,5 ĐIỂM). Câu trắc nghiệm nhiều phương án lựa chọn.",
+        "Thí sinh trả lời từ câu 1 đến câu 18. Mỗi câu hỏi thí sinh chỉ chọn một phương án.",
+        base_size=base_size + 0.5
     )
 
-    # ==========================================
-    # PHẦN I
-    # ==========================================
-    add_section_header(
+    for q in PART_1_QUESTIONS:
+        qid = q["id"]
+        p_q = doc.add_paragraph()
+        p_q.paragraph_format.space_before = Pt(3)
+        p_q.paragraph_format.space_after = Pt(1)
+        p_q.paragraph_format.line_spacing = 1.15
+        render_rich_text(p_q, f"*Câu {qid}.* {q['content']}", base_size=base_size)
+
+        # Xử lý các phương án A, B, C, D bằng Tab Stops - KHÔNG DÙNG TABLE
+        opts = q["options"]
+        lens = [len(opt) for opt in opts]
+        max_len = max(lens)
+
+        if max_len <= 18:
+            # 4 phương án trên 1 dòng
+            p_opt = doc.add_paragraph()
+            p_opt.paragraph_format.space_before = Pt(1)
+            p_opt.paragraph_format.space_after = Pt(2)
+            p_opt.paragraph_format.tab_stops.clear_all()
+            p_opt.paragraph_format.tab_stops.add_tab_stop(Cm(0.5), WD_TAB_ALIGNMENT.LEFT)
+            p_opt.paragraph_format.tab_stops.add_tab_stop(Cm(4.8), WD_TAB_ALIGNMENT.LEFT)
+            p_opt.paragraph_format.tab_stops.add_tab_stop(Cm(9.2), WD_TAB_ALIGNMENT.LEFT)
+            p_opt.paragraph_format.tab_stops.add_tab_stop(Cm(13.6), WD_TAB_ALIGNMENT.LEFT)
+            
+            p_opt.add_run("\t")
+            for idx, opt_text in enumerate(opts):
+                opt_lbl = opt_text[:1]
+                is_correct_opt = (is_teacher and opt_lbl == q["correct"])
+                if is_correct_opt:
+                    render_rich_text(p_opt, f"*{opt_text}*", base_size=base_size, base_bold=True, base_color=COLOR_CORRECT)
+                else:
+                    render_rich_text(p_opt, opt_text, base_size=base_size)
+                if idx < 3:
+                    p_opt.add_run("\t")
+        elif max_len <= 38:
+            # 2 hàng, mỗi hàng 2 phương án
+            for row_idx in range(2):
+                p_opt = doc.add_paragraph()
+                p_opt.paragraph_format.space_before = Pt(1)
+                p_opt.paragraph_format.space_after = Pt(2)
+                p_opt.paragraph_format.tab_stops.clear_all()
+                p_opt.paragraph_format.tab_stops.add_tab_stop(Cm(0.5), WD_TAB_ALIGNMENT.LEFT)
+                p_opt.paragraph_format.tab_stops.add_tab_stop(Cm(9.2), WD_TAB_ALIGNMENT.LEFT)
+                
+                p_opt.add_run("\t")
+                opt_text1 = opts[row_idx * 2]
+                opt_lbl1 = opt_text1[:1]
+                is_c1 = (is_teacher and opt_lbl1 == q["correct"])
+                if is_c1:
+                    render_rich_text(p_opt, f"*{opt_text1}*", base_size=base_size, base_bold=True, base_color=COLOR_CORRECT)
+                else:
+                    render_rich_text(p_opt, opt_text1, base_size=base_size)
+                
+                p_opt.add_run("\t")
+                opt_text2 = opts[row_idx * 2 + 1]
+                opt_lbl2 = opt_text2[:1]
+                is_c2 = (is_teacher and opt_lbl2 == q["correct"])
+                if is_c2:
+                    render_rich_text(p_opt, f"*{opt_text2}*", base_size=base_size, base_bold=True, base_color=COLOR_CORRECT)
+                else:
+                    render_rich_text(p_opt, opt_text2, base_size=base_size)
+        else:
+            # 4 hàng riêng biệt
+            for opt_text in opts:
+                p_opt = doc.add_paragraph()
+                p_opt.paragraph_format.left_indent = Cm(0.5)
+                p_opt.paragraph_format.space_before = Pt(1)
+                p_opt.paragraph_format.space_after = Pt(1)
+                opt_lbl = opt_text[:1]
+                is_c = (is_teacher and opt_lbl == q["correct"])
+                if is_c:
+                    render_rich_text(p_opt, f"*{opt_text}*", base_size=base_size, base_bold=True, base_color=COLOR_CORRECT)
+                else:
+                    render_rich_text(p_opt, opt_text, base_size=base_size)
+
+        # Giáo viên: Lời giải chi tiết
+        if is_teacher:
+            add_solution_block(doc, f"Đáp án đúng: *{q['correct']}*\n" + q["explanation"], base_size=base_size - 0.5)
+        elif is_screen:
+            add_screen_teaching_space(doc, num_lines=3)
+
+    # -------------------------------------------------------------------------
+    # PHẦN II: 4 CÂU TRẮC NGHIỆM ĐÚNG / SAI (4,0 ĐIỂM)
+    # -------------------------------------------------------------------------
+    add_section_title(
         doc,
-        title="PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn.",
-        subtitle="Thí sinh trả lời từ câu 1 đến câu 18. Mỗi câu hỏi thí sinh chỉ chọn một phương án."
+        "PHẦN II (4,0 ĐIỂM). Câu trắc nghiệm đúng sai.",
+        "Thí sinh trả lời từ câu 1 đến câu 4. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.",
+        base_size=base_size + 0.5
     )
 
-    # Câu 1
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 1. Không khí sạch là không khí ít tạp chất chứa các thành phần cơ bản của không khí. Trường hợp nào sau đây được coi là không khí sạch?")
-    add_centered_picture(doc, os.path.join(IMG_DIR, "cau1_khong_khi_sach.png"), width_cm=6.5)
-    opts_c1 = [
-        "A. Không khí chứa 78% N~2~, 17% O~2~, 3% CO~2~, 1% CO, 1% SO~2~.",
-        "B. Không khí chứa 78% N~2~, 18% O~2~, 4% hỗn hợp CO~2~, SO~2~, HCl.",
-        "C. Không khí chứa 78% N~2~, 20% O~2~, 2% hỗn hợp CO~2~, CH~4~ và bụi.",
-        "*D. Không khí chứa 78% N~2~, 21% O~2~, 1% hỗn hợp CO~2~, H~2~O.*"
-    ]
-    render_options_no_table(doc, opts_c1, is_teacher=is_teacher)
-    if is_teacher:
-        add_solution_no_table(doc, "Thành phần tự nhiên của không khí sạch gồm khoảng 78% thể tích N~2~, 21% O~2~ và khoảng 1% các khí khác (CO~2~, hơi nước, khí hiếm). Các trường hợp có chứa khí độc như CO, SO~2~, HCl hay bụi mịn đều bị ô nhiễm.")
+    for q in PART_2_QUESTIONS:
+        qid = q["id"]
+        p_q = doc.add_paragraph()
+        p_q.paragraph_format.space_before = Pt(4)
+        p_q.paragraph_format.space_after = Pt(2)
+        p_q.paragraph_format.line_spacing = 1.15
+        render_rich_text(p_q, f"*Câu {qid}.* {q['content']}", base_size=base_size)
 
-    # Câu 2
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 2 [CTST - SGK]. Có các loại phân bón như NH~4~Cl, NH~4~NO~3~, (NH~4~)~2~SO~4~, các loại phân bón này không thích hợp bón cho đất nào sau đây?")
-    opts_c2 = [
-        "*A. Đất chua*",
-        "B. Đất phù sa",
-        "C. Đất bạc màu",
-        "D. Đất nghèo dinh dưỡng."
-    ]
-    render_options_no_table(doc, opts_c2, is_teacher=is_teacher)
-    if is_teacher:
-        add_solution_no_table(doc, "Các phân bón này chứa ion NH~4~^+ là acid cation theo thuyết Brønsted – Lowry, khi thuỷ phân tạo ra ion H^+ (hoặc H~3~O^+): NH~4~^+ + H~2~O ⇌ NH~3~ + H~3~O^+ làm tăng độ chua của đất, nên không bón cho đất chua.")
+        # Chèn hình ảnh minh họa nếu có (Câu 1: acid rain)
+        if "image" in q and q["image"]:
+            img_path = os.path.join(IMG_DIR, q["image"])
+            if os.path.exists(img_path):
+                p_img = doc.add_paragraph()
+                p_img.paragraph_format.space_before = Pt(2)
+                p_img.paragraph_format.space_after = Pt(3)
+                p_img.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                p_img.add_run().add_picture(img_path, width=Cm(6.5))
 
-    # Câu 3
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 3. Biện pháp nào sau đây không hạn chế tình trạng mưa acid?")
-    opts_c3 = [
-        "A. Cho lắp đặt các thiết bị khử sunphua tại những nhà máy nhiệt điện.",
-        "B. Loại bỏ nitrogen và sulfur trong dầu mỏ, than.",
-        "C. Sử dụng các loại năng lượng có khả năng tái tạo thân thiện với môi trường.",
-        "*D. Phát tán chất NO~2~ và SO~2~ vào bầu khí quyển.*"
-    ]
-    render_options_no_table(doc, opts_c3, is_teacher=is_teacher)
-    if is_teacher:
-        add_solution_no_table(doc, "NO~2~ và SO~2~ là hai nguyên nhân chính gây ra mưa acid, việc phát tán các khí này vào khí quyển làm gia tăng mưa acid.")
+        for st in q["statements"]:
+            sub_id = st["id"]
+            st_text = st["text"]
+            correct_val = "Đúng" if st["correct"] else "Sai"
 
-    # Câu 4
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 4 [KNTT - SBT]. Mưa acid là một thảm họa thiên nhiên toàn cầu, ảnh hưởng đến sự sống của các sinh vật. Mưa acid là hiện tượng mưa có pH")
-    opts_c4 = [
-        "*A. < 5,6.*",
-        "B. = 7",
-        "C. 6 – 7.",
-        "D. > 8."
-    ]
-    render_options_no_table(doc, opts_c4, is_teacher=is_teacher)
-    if is_teacher:
-        add_solution_no_table(doc, "Nước mưa thông thường hòa tan CO~2~ có pH khoảng 5,6. Hiện tượng mưa acid xảy ra khi nước mưa có pH < 5,6 do chứa acid sulfuric và acid nitric.")
+            p_st = doc.add_paragraph()
+            p_st.paragraph_format.left_indent = Cm(0.5)
+            p_st.paragraph_format.space_before = Pt(1)
+            p_st.paragraph_format.space_after = Pt(1)
+            p_st.paragraph_format.line_spacing = 1.15
 
-    # Câu 5
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 5 (SBT - KNTT). Hiện tượng phú dưỡng là một biểu hiện của môi trường ao, hồ bị ô nhiễm do dư thừa các chất dinh dưỡng. Sự dư thừa dinh dưỡng chủ yếu do hàm lượng các ion nào sau đây vượt quá mức cho phép?")
-    opts_c5 = [
-        "A. Sodium, potassium.",
-        "B. Calcium, magnesium.",
-        "*C. Nitrate, phosphate.*",
-        "D. Chloride, sulfate."
-    ]
-    render_options_no_table(doc, opts_c5, is_teacher=is_teacher)
-    if is_teacher:
-        add_solution_no_table(doc, "Hiện tượng phú dưỡng xảy ra do sự tích tụ quá mức của nguyên tố dinh dưỡng nitrogen (ở dạng ion nitrate NO~3~^-) và phosphorus (ở dạng ion phosphate PO~4~^3-^).")
+            if is_teacher:
+                r_tag = p_st.add_run(f"{sub_id}) ")
+                set_run_style(r_tag, font_size=base_size, bold=True)
+                
+                # Hiển thị nhãn [ĐÚNG] hoặc [SAI]
+                ans_color = COLOR_CORRECT if st["correct"] else RGBColor(0, 105, 92)
+                r_ans = p_st.add_run(f"[{correct_val.upper()}] ")
+                set_run_style(r_ans, font_size=base_size, bold=True, color=ans_color)
 
-    # Câu 6
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 6 (SBT - KNTT). Trong số các chất khí: SO~2~, CO~2~, O~2~, N~2~, khí tan tốt trong nước ở điều kiện thường là")
-    opts_c6 = [
-        "A. O~2~.",
-        "B. CO~2~.",
-        "*C. SO~2~.*",
-        "D. N~2~."
-    ]
-    render_options_no_table(doc, opts_c6, is_teacher=is_teacher)
-    if is_teacher:
-        add_solution_no_table(doc, "SO~2~ là phân tử phân cực mạnh và phản ứng thuận nghịch với nước tạo H~2~SO~3~, ở 20°C 1 lít nước hòa tan được khoảng 40 lít khí SO~2~. CO~2~ tan ít hơn nhiều, còn O~2~ và N~2~ rất ít tan.")
+                render_rich_text(p_st, st_text, base_size=base_size)
+            else:
+                r_tag = p_st.add_run(f"{sub_id}) ")
+                set_run_style(r_tag, font_size=base_size, bold=True)
+                render_rich_text(p_st, st_text, base_size=base_size)
 
-    # Câu 7
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 7 (SBT - CTST). Dung dịch sulfuric acid đặc khác dung dịch sulfuric acid loãng ở tính chất hoá học nào?")
-    opts_c7 = [
-        "A. Tính base mạnh.",
-        "*B. Tính oxi hóa mạnh.*",
-        "C. Tính acid mạnh.",
-        "D. Tính khử mạnh."
-    ]
-    render_options_no_table(doc, opts_c7, is_teacher=is_teacher)
-    if is_teacher:
-        add_solution_no_table(doc, "H~2~SO~4~ đặc có tính oxi hoá rất mạnh (do S ở mức oxi hoá cực đại +6), có khả năng oxi hoá hầu hết kim loại (trừ Au, Pt), nhiều phi kim (C, S, P) và nhiều hợp chất khử. H~2~SO~4~ loãng chỉ có tính oxi hóa của H^+.")
+        # Lời giải chi tiết Phần II
+        if is_teacher:
+            add_solution_block(doc, q["explanation"], base_size=base_size - 0.5)
+        elif is_screen:
+            add_screen_teaching_space(doc, num_lines=4)
 
-    # Câu 8
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 8 (SBT - KNTT). Bậc liên kết và năng lượng liên kết trong phân tử nitrogen tương ứng là")
-    opts_c8 = [
-        "A. 2 và 418 kJ/mol",
-        "B. 1 và 167 kJ/mol.",
-        "C. 1 và 386 kJ/mol.",
-        "*D. 3 và 945 kJ/mol*"
-    ]
-    render_options_no_table(doc, opts_c8, is_teacher=is_teacher)
-    if is_teacher:
-        add_solution_no_table(doc, "Phân tử nitrogen có liên kết ba N≡N rất bền vững với bậc liên kết là 3 và năng lượng liên kết rất lớn là 945 kJ/mol, do đó N~2~ trơ về mặt hoá học ở nhiệt độ thường.")
-
-    # Câu 9
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 9 (SBT - KNTT). Xét cân bằng hóa học: NH~3~ + H~2~O ⇌ NH~4~^+ + OH^-. Cân bằng sẽ chuyển dịch theo chiều thuận khi cho thêm vài giọt dung dịch nào sau đây?")
-    opts_c9 = [
-        "A. NH~4~Cl.",
-        "B. NaOH.",
-        "*C. HCl.*",
-        "D. NaCl."
-    ]
-    render_options_no_table(doc, opts_c9, is_teacher=is_teacher)
-    if is_teacher:
-        add_solution_no_table(doc, "Dung dịch HCl cung cấp ion H^+, H^+ tác dụng với OH^- tạo H~2~O làm giảm nồng độ OH^-. Theo nguyên lí Le Chatelier, cân bằng chuyển dịch theo chiều tạo thêm OH^- (chiều thuận).")
-
-    # Câu 10
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 10. Tính base của NH~3~ do nguyên nhân nào sau đây?")
-    opts_c10 = [
-        "*A. Trên N còn cặp electron tự do.*",
-        "B. Phân tử có 3 liên kết cộng hóa trị phân cực.",
-        "C. NH~3~ tan được nhiều trong nước.",
-        "D. NH~3~ tác dụng với nước tạo NH~4~OH."
-    ]
-    render_options_no_table(doc, opts_c10, is_teacher=is_teacher)
-    if is_teacher:
-        add_solution_no_table(doc, "Trên nguyên tử nitrogen của phân tử NH~3~ còn một cặp electron chưa liên kết (cặp electron tự do), có khả năng nhận proton H^+ tạo liên kết cho - nhận, thể hiện tính base theo thuyết Brønsted – Lowry.")
-
-    # Câu 11
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 11. HNO~3~ đặc thể hiện tính oxi hóa khi tác dụng với chất nào dưới đây?")
-    opts_c11 = [
-        "A. Fe~2~O~3~",
-        "*B. Fe(OH)~2~*",
-        "C. CuCl~2~",
-        "D. Al~2~O~3~"
-    ]
-    render_options_no_table(doc, opts_c11, is_teacher=is_teacher)
-    if is_teacher:
-        add_solution_no_table(doc, "Fe(OH)~2~ có nguyên tử Fe ở số oxi hoá +2 (chưa cực đại) nên bị HNO~3~ đặc oxi hoá lên mức +3: Fe(OH)~2~ + 4HNO~3~ ➔ Fe(NO~3~)~3~ + NO~2~ + 3H~2~O. Các chất Fe~2~O~3~ và Al~2~O~3~ đã đạt số oxi hoá cao nhất (+3) nên chỉ xảy ra phản ứng acid - base trao đổi thông thường.")
-
-    # Câu 12
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 12. Phát biểu nào sau đây sai về SO~2~?")
-    opts_c12 = [
-        "A. Chất chống nấm mốc lương thực, thực phẩm.",
-        "B. Sản xuất H~2~SO~4~ trong công nghiệp.",
-        "*C. Không gây ô nhiễm môi trường.*",
-        "D. Làm chất tẩy trắng giấy và bột giấy."
-    ]
-    render_options_no_table(doc, opts_c12, is_teacher=is_teacher)
-    if is_teacher:
-        add_solution_no_table(doc, "SO~2~ là chất khí độc gây ô nhiễm không khí nghiêm trọng và là tác nhân chủ yếu gây mưa acid.")
-
-    # Câu 13
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 13. Nhóm các chất nào sau đây đều tác dụng được với dung dịch H~2~SO~4~ loãng?")
-    opts_c13 = [
-        "A. Fe, CuO, Cu(OH)~2~, BaCl~2~, NaCl.",
-        "B. FeO, Cu, Cu(OH)~2~, BaCl~2~, Na~2~CO~3~.",
-        "*C. Fe~2~O~3~, Cu(OH)~2~, Zn, Na~2~SO~3~, Ba(NO~3~)~2~.*",
-        "D. Fe(OH)~3~, Ag, CuO, KHCO~3~, MgS."
-    ]
-    render_options_no_table(doc, opts_c13, is_teacher=is_teacher)
-    if is_teacher:
-        add_solution_no_table(doc, "Nhóm C gồm: Fe~2~O~3~ (basic oxide), Cu(OH)~2~ (base), Zn (kim loại đứng trước H), Na~2~SO~3~ (muối acid yếu giải phóng SO~2~), Ba(NO~3~)~2~ (tạo kết tủa BaSO~4~↓). Nhóm A có NaCl không phản ứng; nhóm B có Cu không phản ứng; nhóm D có Ag không phản ứng.")
-
-    # Câu 14
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 14. Phát biểu nào sau đây sai?")
-    opts_c14 = [
-        "A. SO~2~ dùng làm chất tẩy trắng giấy và bột giấy.",
-        "B. SO~2~ dùng làm chất chống mốc lương thực, thực phẩm.",
-        "*C. Trong phòng thí nghiệm, SO~2~ được điều chế bằng cách đốt quặng pyrit (pyrite).*",
-        "D. SO~3~ là chất trung gian để sản xuất sulfuric acid."
-    ]
-    render_options_no_table(doc, opts_c14, is_teacher=is_teacher)
-    if is_teacher:
-        add_solution_no_table(doc, "Đốt quặng pyrit (FeS~2~) là phương pháp sản xuất SO~2~ trong công nghiệp. Trong phòng thí nghiệm, SO~2~ được điều chế bằng cách cho muối sulfite tác dụng với acid mạnh: Na~2~SO~3~ + H~2~SO~4~ ➔ Na~2~SO~4~ + SO~2~↑ + H~2~O.")
-
-    # Câu 15
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 15. Hiện tượng phú dưỡng là gì?")
-    opts_c15 = [
-        "*A. Quá trình tích lũy quá mức các chất dinh dưỡng trong thủy vực, dẫn đến sự phát triển mạnh của thực vật thủy sinh, đặc biệt là tảo.*",
-        "B. Quá trình thiếu hụt các chất dinh dưỡng trong nước, làm giảm năng suất sinh học của hệ sinh thái.",
-        "C. Sự suy giảm chất lượng nước do sự gia tăng vi sinh vật gây bệnh.",
-        "D. Hiện tượng mưa acid làm giảm độ pH của nước hồ."
-    ]
-    render_options_no_table(doc, opts_c15, is_teacher=is_teacher)
-    if is_teacher:
-        add_solution_no_table(doc, "Theo định nghĩa chuẩn SGK Hóa học 11, hiện tượng phú dưỡng là hiện tượng ao, hồ bị tích tụ quá nhiều chất dinh dưỡng (nitrogen, phosphorus) dẫn đến sự bùng phát của tảo và các thực vật thủy sinh.")
-
-    # Câu 16
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 16. Mưa acid được hình thành khi nào?")
-    opts_c16 = [
-        "A. Khi có sự bốc hơi của nước từ sông hồ.",
-        "*B. Khi các khí như SO~2~ và NO~x~ phản ứng với nước trong khí quyển tạo thành sulfuric acid và nitric acid.*",
-        "C. Khi các hạt bụi trong không khí kết hợp với nước mưa.",
-        "D. Khi carbon dioxide (CO~2~) trong không khí phản ứng với nước tạo thành carbonic acid."
-    ]
-    render_options_no_table(doc, opts_c16, is_teacher=is_teacher)
-    if is_teacher:
-        add_solution_no_table(doc, "Mưa acid sinh ra khi khí quyển bị ô nhiễm bởi các oxide acid SO~2~ và NO~x~ từ khí thải nhà máy, phương tiện giao thông. Các khí này bị oxi hoá và hoà tan vào nước mưa tạo thành H~2~SO~4~ và HNO~3~.")
-
-    # Câu 17
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 17. Hậu quả chính của mưa acid đối với môi trường là gì?")
-    opts_c17 = [
-        "A. Làm tăng độ pH của nước sông, hồ, gây hại cho hệ sinh thái nước ngọt.",
-        "B. Làm tăng lượng chất dinh dưỡng trong đất, giúp cây cối phát triển.",
-        "*C. Làm giảm độ pH của đất và nước, gây thiệt hại cho cây cối, thủy sinh vật và các tòa nhà.*",
-        "D. Làm tăng sự phát triển của vi khuẩn trong môi trường đất."
-    ]
-    render_options_no_table(doc, opts_c17, is_teacher=is_teacher)
-    if is_teacher:
-        add_solution_no_table(doc, "Mưa acid làm giảm độ pH của đất (chua đất) và nước, phá hủy thảm thực vật rừng, giết chết sinh vật thủy sinh và hòa tan ăn mòn kim loại, đá vôi của các công trình xây dựng.")
-
-    # Câu 18
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 18. Cho các phát biểu sau:\n(1) Đối với môi trường, khí sulfur dioxide là nguyên nhân quan trọng gây mưa acid.\n(2) Chuyển hoá sulfur dioxide thành các chất ít gây ô nhiễm hơn bằng các hóa chất như vôi sống (thành phần chính là CaO), vôi tôi (thành phần chính là Ca(OH)~2~) hoặc đá vôi nghiền (thành phần chính là CaCO~3~).\n(3) Khí sulfur dioxide có màu vàng, ít tan trong nước, thể hiện cả tính oxi hoá và tính khử.\n(4) Đối với con người, khí sulfur dioxide gây ra cảm giác khó thở, bệnh viêm đường hô hấp, đau mắt.\n(5) Đơn chất N~2~ khó hóa lỏng và tan nhiều trong nước.\n(6) Tương tác van der Waals giữa các phân tử nitrogen yếu nên khó hóa lỏng.\nSố phát biểu đúng là")
-    opts_c18 = [
-        "A. 3.",
-        "*B. 4.*",
-        "C. 5.",
-        "D. 6."
-    ]
-    render_options_no_table(doc, opts_c18, is_teacher=is_teacher)
-    if is_teacher:
-        add_solution_no_table(doc, "Có 4 phát biểu đúng gồm: (1), (2), (4), (6).\n- (3) Sai vì SO~2~ là khí không màu, tan nhiều trong nước.\n- (5) Sai vì N~2~ rất ít tan trong nước (ở điều kiện thường 1 lít nước chỉ tan được khoảng 15 mL N~2~).")
-
-    # ==========================================
-    # PHẦN II
-    # ==========================================
-    add_section_header(
+    # -------------------------------------------------------------------------
+    # PHẦN III: 6 CÂU TRẮC NGHIỆM TRẢ LỜI NGẮN (1,5 ĐIỂM)
+    # -------------------------------------------------------------------------
+    add_section_title(
         doc,
-        title="PHẦN II. Câu trắc nghiệm đúng sai.",
-        subtitle="Thí sinh trả lời từ câu 1 đến câu 4. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai."
+        "PHẦN III (1,5 ĐIỂM). Câu trắc nghiệm trả lời ngắn.",
+        "Thí sinh trả lời từ câu 1 đến câu 6.",
+        base_size=base_size + 0.5
     )
 
-    # Câu 1
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 1. Trong phương trình hóa học của phản ứng giữa nitrogen và oxygen:")
-    stmts_p2_c1 = [
-        ("a) Phương trình hóa học: N~2~ + O~2~ ⇌ 2NO (ở 3000°C hoặc tia lửa điện).", "ĐÚNG"),
-        ("b) Oxygen giảm từ 0 xuống -1 ➔ oxygen đóng vai trò chất oxi hóa trong phản ứng này.", "SAI"),
-        ("c) Nitrogen tăng từ 0 lên +4 ➔ nitrogen đóng vai trò là chất khử trong phản ứng này.", "SAI"),
-        ("d) Phản ứng này xảy ra ở nhiệt độ cao trên 3000°C hoặc có tia lửa điện nhưng hiệu suất tạo NO rất thấp nên thực tế không dùng để tạo NO.", "ĐÚNG")
+    for q in PART_3_QUESTIONS:
+        qid = q["id"]
+        p_q = doc.add_paragraph()
+        p_q.paragraph_format.space_before = Pt(4)
+        p_q.paragraph_format.space_after = Pt(2)
+        p_q.paragraph_format.line_spacing = 1.15
+        render_rich_text(p_q, f"*Câu {qid}.* {q['content']}", base_size=base_size)
+
+        if is_teacher:
+            add_solution_block(doc, f"Đáp án: *{q['correct']}*\n" + q["explanation"], base_size=base_size - 0.5)
+        elif is_screen:
+            add_screen_teaching_space(doc, num_lines=4)
+        else:
+            # Học sinh: có dòng điền đáp án ngắn gọn
+            p_ans_box = doc.add_paragraph()
+            p_ans_box.paragraph_format.left_indent = Cm(0.5)
+            p_ans_box.paragraph_format.space_before = Pt(1)
+            p_ans_box.paragraph_format.space_after = Pt(3)
+            r_box = p_ans_box.add_run("Trả lời: .............................................................................................................................................")
+            set_run_style(r_box, font_size=10, italic=True, color=COLOR_GRAY)
+
+    # Kết thúc đề
+    p_end = doc.add_paragraph()
+    p_end.paragraph_format.space_before = Pt(8)
+    p_end.paragraph_format.space_after = Pt(4)
+    p_end.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    r_end = p_end.add_run("--- HẾT ---")
+    set_run_style(r_end, font_size=11, bold=True)
+
+    # -------------------------------------------------------------------------
+    # BẢNG TỔNG HỢP ĐÁP ÁN (DÀNH RIÊNG CHO BẢN GIÁO VIÊN)
+    # -------------------------------------------------------------------------
+    if is_teacher:
+        p_ans_head = doc.add_paragraph()
+        p_ans_head.paragraph_format.space_before = Pt(14)
+        p_ans_head.paragraph_format.space_after = Pt(4)
+        p_ans_head.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        r_ah = p_ans_head.add_run("BẢNG TỔNG HỢP ĐÁP ÁN NHANH (MÃ ĐỀ 104)")
+        set_run_style(r_ah, font_size=12, bold=True, color=COLOR_CORRECT)
+
+        # 1. Bảng Phần I: 18 câu (2 hàng x 9 cột hoặc 1 hàng x 18 cột)
+        p_t1 = doc.add_paragraph()
+        p_t1.paragraph_format.space_before = Pt(4)
+        p_t1.paragraph_format.space_after = Pt(2)
+        render_rich_text(p_t1, "*1. Đáp án Phần I (Trắc nghiệm nhiều lựa chọn - 18 câu):*", base_size=10.5, base_bold=True, base_color=COLOR_PRIMARY)
+        
+        # Tạo bảng 4 hàng x 9 cột (Hàng 0,1: Câu 1-9; Hàng 2,3: Câu 10-18)
+        tbl_p1 = doc.add_table(rows=4, cols=9)
+        tbl_p1.alignment = WD_TABLE_ALIGNMENT.CENTER
+        
+        # Hàng 1 & 2: Câu 1 đến 9
+        for i in range(9):
+            c0 = tbl_p1.cell(0, i); c1 = tbl_p1.cell(1, i)
+            c0.width = Cm(2.0); c1.width = Cm(2.0)
+            set_cell_margins(c0, top=40, bottom=40, left=40, right=40)
+            set_cell_margins(c1, top=40, bottom=40, left=40, right=40)
+            p0 = c0.paragraphs[0]; p0.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            r0 = p0.add_run(f"Câu {i+1}")
+            set_run_style(r0, font_size=9.5, bold=True)
+            p1 = c1.paragraphs[0]; p1.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            r1 = p1.add_run(PART_1_QUESTIONS[i]["correct"])
+            set_run_style(r1, font_size=10.5, bold=True, color=COLOR_CORRECT)
+
+        # Hàng 3 & 4: Câu 10 đến 18
+        for i in range(9):
+            c0 = tbl_p1.cell(2, i); c1 = tbl_p1.cell(3, i)
+            c0.width = Cm(2.0); c1.width = Cm(2.0)
+            set_cell_margins(c0, top=40, bottom=40, left=40, right=40)
+            set_cell_margins(c1, top=40, bottom=40, left=40, right=40)
+            p0 = c0.paragraphs[0]; p0.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            r0 = p0.add_run(f"Câu {i+10}")
+            set_run_style(r0, font_size=9.5, bold=True)
+            p1 = c1.paragraphs[0]; p1.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            r1 = p1.add_run(PART_1_QUESTIONS[i+9]["correct"])
+            set_run_style(r1, font_size=10.5, bold=True, color=COLOR_CORRECT)
+
+        # 2. Bảng Phần II: 4 câu Đúng/Sai
+        p_t2 = doc.add_paragraph()
+        p_t2.paragraph_format.space_before = Pt(6)
+        p_t2.paragraph_format.space_after = Pt(2)
+        render_rich_text(p_t2, "*2. Đáp án Phần II (Trắc nghiệm đúng/sai - 4 câu):*", base_size=10.5, base_bold=True, base_color=COLOR_PRIMARY)
+        
+        tbl_p2 = doc.add_table(rows=5, cols=5)
+        tbl_p2.alignment = WD_TABLE_ALIGNMENT.CENTER
+        headers_p2 = ["Câu hỏi", "Lệnh hỏi a", "Lệnh hỏi b", "Lệnh hỏi c", "Lệnh hỏi d"]
+        for j, h in enumerate(headers_p2):
+            cell = tbl_p2.cell(0, j)
+            cell.width = Cm(3.6)
+            set_cell_margins(cell, top=40, bottom=40, left=40, right=40)
+            p = cell.paragraphs[0]; p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            r = p.add_run(h)
+            set_run_style(r, font_size=9.5, bold=True)
+        
+        for q_idx, q in enumerate(PART_2_QUESTIONS):
+            row_idx = q_idx + 1
+            c_qid = tbl_p2.cell(row_idx, 0)
+            c_qid.width = Cm(3.6)
+            set_cell_margins(c_qid, top=40, bottom=40, left=40, right=40)
+            p = c_qid.paragraphs[0]; p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            r = p.add_run(f"Câu {q['id']}")
+            set_run_style(r, font_size=9.5, bold=True)
+            for st_idx, st in enumerate(q["statements"]):
+                c_st = tbl_p2.cell(row_idx, st_idx + 1)
+                c_st.width = Cm(3.6)
+                set_cell_margins(c_st, top=40, bottom=40, left=40, right=40)
+                p_st = c_st.paragraphs[0]; p_st.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                val_str = "Đ" if st["correct"] else "S"
+                r_st = p_st.add_run(val_str)
+                color_st = COLOR_CORRECT if st["correct"] else RGBColor(0, 105, 92)
+                set_run_style(r_st, font_size=10, bold=True, color=color_st)
+
+        # 3. Bảng Phần III: 6 câu trả lời ngắn
+        p_t3 = doc.add_paragraph()
+        p_t3.paragraph_format.space_before = Pt(6)
+        p_t3.paragraph_format.space_after = Pt(2)
+        render_rich_text(p_t3, "*3. Đáp án Phần III (Trả lời ngắn - 6 câu):*", base_size=10.5, base_bold=True, base_color=COLOR_PRIMARY)
+        
+        tbl_p3 = doc.add_table(rows=2, cols=6)
+        tbl_p3.alignment = WD_TABLE_ALIGNMENT.CENTER
+        for i in range(6):
+            c0 = tbl_p3.cell(0, i)
+            c1 = tbl_p3.cell(1, i)
+            c0.width = Cm(3.0)
+            c1.width = Cm(3.0)
+            set_cell_margins(c0, top=40, bottom=40, left=40, right=40)
+            set_cell_margins(c1, top=40, bottom=40, left=40, right=40)
+            
+            p0 = c0.paragraphs[0]; p0.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            r0 = p0.add_run(f"Câu {i+1}")
+            set_run_style(r0, font_size=9.5, bold=True)
+            
+            p1 = c1.paragraphs[0]; p1.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            r1 = p1.add_run(PART_3_QUESTIONS[i]["correct"])
+            set_run_style(r1, font_size=11, bold=True, color=COLOR_CORRECT)
+
+    # Lưu tài liệu
+    doc.save(output_path)
+    print(f"Created: {output_path}")
+
+def main():
+    files = [
+        ("De_Thi_Thu_Hoa_11_Giua_HK1_De04_HocSinh.docx", "student"),
+        ("De_Thi_Thu_Hoa_11_Giua_HK1_De04_GiaoVien.docx", "teacher"),
+        ("De_Thi_Thu_Hoa_11_Giua_HK1_De04_DayTrenManHinh.docx", "screen"),
     ]
-    for stmt, ans in stmts_p2_c1:
-        p_st = doc.add_paragraph()
-        p_st.paragraph_format.left_indent = Cm(0.5)
-        p_st.paragraph_format.space_before = Pt(1)
-        p_st.paragraph_format.space_after = Pt(1)
-        render_statement(p_st, stmt, ans=ans, is_teacher=is_teacher)
-    if is_teacher:
-        sol_p2_c1 = (
-            "a) Đúng, ở nhiệt độ cao khoảng 3000°C hoặc khi có tia lửa điện xảy ra phản ứng thuận nghịch giữa N~2~ và O~2~.\n"
-            "b) Sai vì số oxi hoá của oxygen giảm từ 0 xuống -2 trong hợp chất NO.\n"
-            "c) Sai vì số oxi hoá của nitrogen tăng từ 0 lên +2 trong hợp chất NO.\n"
-            "d) Đúng vì phản ứng thu nhiệt mạnh (Δ~r~H°~298~ = +180 kJ/mol) và có hằng số cân bằng rất nhỏ nên hiệu suất rất thấp."
-        )
-        add_solution_no_table(doc, sol_p2_c1)
-
-    # Câu 2
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 2. Mưa acid gây tác động xấu đến môi trường, con người và sinh vật:")
-    stmts_p2_c2 = [
-        ("a) Khi nước mưa có pH nhỏ hơn 5,6 thì gọi là hiện tượng mưa acid.", "ĐÚNG"),
-        ("b) Hai tác nhân chính gây mưa acid là Cl~2~, HCl.", "SAI"),
-        ("c) Mưa acid ăn mòn công trình xây dựng, kiến trúc bằng đá, cẩm thạch và kim loại.", "ĐÚNG"),
-        ("d) Mưa acid làm giảm độ pH của đất và nguồn nước sông hồ, ảnh hưởng nghiêm trọng đến đời sống thủy sinh.", "ĐÚNG")
-    ]
-    for stmt, ans in stmts_p2_c2:
-        p_st = doc.add_paragraph()
-        p_st.paragraph_format.left_indent = Cm(0.5)
-        p_st.paragraph_format.space_before = Pt(1)
-        p_st.paragraph_format.space_after = Pt(1)
-        render_statement(p_st, stmt, ans=ans, is_teacher=is_teacher)
-    if is_teacher:
-        sol_p2_c2 = (
-            "a) Đúng theo quy chuẩn phân loại hiện tượng mưa acid (pH < 5,6).\n"
-            "b) Sai vì hai tác nhân chính gây mưa acid là SO~2~ và các oxide của nitrogen (NO~x~).\n"
-            "c) Đúng vì H~2~SO~4~ và HNO~3~ trong mưa acid tác dụng với CaCO~3~ trong đá và các kết cấu kim loại.\n"
-            "d) Đúng vì acid hóa nguồn nước và đất canh tác là tác hại môi trường lớn nhất của mưa acid."
-        )
-        add_solution_no_table(doc, sol_p2_c2)
-
-    # Câu 3
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 3. Thành phần chính của khí thiên nhiên là các hydrocarbon như methane (khoảng 80 - 85%), ethane, propane, butane cùng lượng nhỏ các khí carbon dioxide, hydrogen sulfide, nitrogen. Thành phần chính của than là carbon, ngoài ra còn có một số hợp chất của các nguyên tố H, S, O, N,...")
-    stmts_p2_c3 = [
-        ("a) Khi sử dụng khí thiên nhiên hoặc than làm nhiên liệu đều thải vào không khí các chất khí gây ô nhiễm môi trường không khí.", "ĐÚNG"),
-        ("b) Khí thiên nhiên và than khi cháy sẽ toả rất nhiều nhiệt, tạo điều kiện cho các hợp chất như hydrogen sulfide và các hợp chất chứa S, N bị oxi hoá sinh ra các khí độc gây ô nhiễm như SO~2~, NO, NO~2~,...", "ĐÚNG"),
-        ("c) Các khí SO~2~, NO~2~ này là nguyên nhân chính gây ra hiệu ứng nhà kính.", "SAI"),
-        ("d) Khí thiên nhiên và than đá khi cháy sẽ tạo ra sản phẩm chính là khí CO~2~ gây mưa acid.", "SAI")
-    ]
-    for stmt, ans in stmts_p2_c3:
-        p_st = doc.add_paragraph()
-        p_st.paragraph_format.left_indent = Cm(0.5)
-        p_st.paragraph_format.space_before = Pt(1)
-        p_st.paragraph_format.space_after = Pt(1)
-        render_statement(p_st, stmt, ans=ans, is_teacher=is_teacher)
-    if is_teacher:
-        sol_p2_c3 = (
-            "a) Đúng vì quá trình cháy không bao giờ hoàn toàn và luôn tạo kèm các khí thải gây ô nhiễm.\n"
-            "b) Đúng, nhiệt lượng cao thúc đẩy sự tạo thành các oxide độc hại của lưu huỳnh và nitơ.\n"
-            "c) Sai vì SO~2~ và NO~2~ là tác nhân gây mưa acid, còn chất gây hiệu ứng nhà kính chủ yếu là CO~2~ và CH~4~.\n"
-            "d) Sai vì CO~2~ tạo acid H~2~CO~3~ rất yếu không được coi là nguyên nhân gây mưa acid mà là khí nhà kính chính."
-        )
-        add_solution_no_table(doc, sol_p2_c3)
-
-    # Câu 4
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 4. Khi pha loãng dung dịch H~2~SO~4~ đặc:")
-    stmts_p2_c4 = [
-        ("a) Sulfuric acid tan tốt trong nước, quá trình hoà tan toả ra một lượng nhiệt lớn.", "ĐÚNG"),
-        ("b) Sulfuric acid tan tốt trong nước, quá trình hoà tan thu một lượng nhiệt lớn.", "SAI"),
-        ("c) Để đảm bảo an toàn phải cho từ từ nước vào acid và khuấy đều.", "SAI"),
-        ("d) Để đảm bảo an toàn phải cho từ từ acid vào nước và khuấy đều.", "ĐÚNG")
-    ]
-    for stmt, ans in stmts_p2_c4:
-        p_st = doc.add_paragraph()
-        p_st.paragraph_format.left_indent = Cm(0.5)
-        p_st.paragraph_format.space_before = Pt(1)
-        p_st.paragraph_format.space_after = Pt(1)
-        render_statement(p_st, stmt, ans=ans, is_teacher=is_teacher)
-    if is_teacher:
-        sol_p2_c4 = (
-            "a) Đúng vì sự hydrate hóa phân tử H~2~SO~4~ giải phóng lượng nhiệt khổng lồ.\n"
-            "b) Sai vì quá trình hòa tan tỏa nhiệt cực mạnh chứ không thu nhiệt.\n"
-            "c) Sai vì rót nước vào acid đặc sẽ làm nước sôi đột ngột và bắn các giọt acid nóng ra ngoài gây bỏng nghiêm trọng.\n"
-            "d) Đúng, quy tắc vàng trong phòng thí nghiệm: rót từ từ acid đặc dọc theo đũa thủy tinh vào lượng nước lớn và khuấy nhẹ."
-        )
-        add_solution_no_table(doc, sol_p2_c4)
-
-    # ==========================================
-    # PHẦN III
-    # ==========================================
-    add_section_header(
-        doc,
-        title="PHẦN III. Câu trắc nghiệm yêu cầu trả lời ngắn.",
-        subtitle="Thí sinh trả lời từ câu 1 đến câu 6."
-    )
-
-    # Câu 1
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 1. Cho sơ đồ chuyển hóa nitrogen trong khí quyển thành phân đạm:\nN~2~ ➔(+O~2~) NO ➔(+O~2~) NO~2~ ➔(+O~2~ + H~2~O) HNO~3~ ➔ NO~3~^-\nSố phản ứng thuộc loại oxi hóa – khử trong sơ đồ là:")
-    if is_teacher:
-        p_ans = doc.add_paragraph()
-        p_ans.paragraph_format.left_indent = Cm(0.5)
-        render_rich_text(p_ans, "➔ *Đáp số:* *3*", base_size=10.5)
-        add_solution_no_table(doc, "Có 3 phản ứng oxi hoá – khử (có sự thay đổi số oxi hoá của N):\n(1) N~2~^0 + O~2~ ⇌ 2N^+2^O\n(2) 2N^+2^O + O~2~ ➔ 2N^+4^O~2~\n(3) 4N^+4^O~2~ + O~2~ + 2H~2~O ➔ 4HN^+5^O~3~\nGiai đoạn tạo muối nitrate: HNO~3~ ➔ H^+ + NO~3~^- không thay đổi số oxi hoá (N vẫn là +5).")
-    else:
-        add_student_writing_lines(doc, num_lines=2)
-
-    # Câu 2
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 2. Có bao nhiêu ý kiến sau đây về sulfur dioxide (SO~2~) là đúng?\n(1) Có độc tính đối với con người.\n(2) Phản ứng được với đá vôi.\n(3) Khí này được tạo thành từ hoạt động của núi lửa trong tự nhiên, từ quá trình đốt cháy nhiên liệu hóa thạch của con người,...\n(4) Là oxide lưỡng tính.")
-    if is_teacher:
-        p_ans = doc.add_paragraph()
-        p_ans.paragraph_format.left_indent = Cm(0.5)
-        render_rich_text(p_ans, "➔ *Đáp số:* *3*", base_size=10.5)
-        add_solution_no_table(doc, "Có 3 ý kiến đúng gồm: (1), (2), (3).\n- (1) Đúng, SO~2~ kích ứng mắt và đường hô hấp.\n- (2) Đúng, SO~2~ phản ứng với CaCO~3~ (đá vôi) trong công nghệ xử lý khí thải: SO~2~ + CaCO~3~ ➔ CaSO~3~ + CO~2~.\n- (3) Đúng về nguồn gốc tự nhiên và nhân tạo.\n- (4) Sai vì SO~2~ là acidic oxide (oxide acid), không phải oxide lưỡng tính.")
-    else:
-        add_student_writing_lines(doc, num_lines=2)
-
-    # Câu 3
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 3. Tính thể tích (mL) dung dịch H~2~SO~4~ 98% (khối lượng riêng D = 1,84 g/mL) cần dùng để pha chế thành 500 mL dung dịch H~2~SO~4~ 0,05 M (kết quả làm tròn đến hai chữ số phần thập phân).")
-    if is_teacher:
-        p_ans = doc.add_paragraph()
-        p_ans.paragraph_format.left_indent = Cm(0.5)
-        render_rich_text(p_ans, "➔ *Đáp số:* *1,36*", base_size=10.5)
-        add_solution_no_table(doc, "n(H~2~SO~4~) = 0,5 . 0,05 = 0,025 mol ➔ m(H~2~SO~4~) = 0,025 . 98 = 2,45 g.\nm(dd H~2~SO~4~ 98%) = 2,45 / 0,98 = 2,5 g.\nV(dd) = m / D = 2,5 / 1,84 ≈ 1,3587 mL ≈ 1,36 mL.")
-    else:
-        add_student_writing_lines(doc, num_lines=3)
-
-    # Câu 4
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 4 (SBT - KNTT). Tính phân tử khối trung bình của không khí, giả thiết thành phần không khí gồm: 78% nitrogen, 21% oxygen và 1% argon (làm tròn kết quả đến phần nguyên).")
-    if is_teacher:
-        p_ans = doc.add_paragraph()
-        p_ans.paragraph_format.left_indent = Cm(0.5)
-        render_rich_text(p_ans, "➔ *Đáp số:* *29*", base_size=10.5)
-        add_solution_no_table(doc, "M_kk = 28,014 . 0,78 + 31,998 . 0,21 + 39,948 . 0,01 = 21,85 + 6,72 + 0,40 = 28,97 ≈ 29 g/mol.")
-    else:
-        add_student_writing_lines(doc, num_lines=2)
-
-    # Câu 5
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 5. Hỗn hợp X gồm N~2~ và H~2~ có khối lượng mol trung bình M_X = 12,4 g/mol. Dẫn X đi qua bình đựng bột Fe rồi nung nóng (hiệu suất tổng hợp NH~3~ đạt 40%), thu được hỗn hợp Y. Giá trị khối lượng mol trung bình M_Y là bao nhiêu g/mol? (làm tròn kết quả đến hàng phần mười).")
-    if is_teacher:
-        p_ans = doc.add_paragraph()
-        p_ans.paragraph_format.left_indent = Cm(0.5)
-        render_rich_text(p_ans, "➔ *Đáp số:* *14,8*", base_size=10.5)
-        add_solution_no_table(doc, "Quy tắc đường chéo: n(N~2~) / n(H~2~) = (12,4 - 2) / (28 - 12,4) = 10,4 / 15,6 = 2 / 3.\nChọn n(N~2~) = 2 mol, n(H~2~) = 3 mol ➔ n_X = 5 mol, m_X = 2 . 28 + 3 . 2 = 62 g.\nVì n(H~2~)/3 = 1 < n(N~2~)/1 = 2 nên hiệu suất tính theo H~2~.\nH = 40% ➔ n(H~2~ pứ) = 3 . 0,40 = 1,2 mol ➔ n(N~2~ pứ) = 0,4 mol; n(NH~3~) = 0,8 mol.\nSố mol hỗn hợp Y: n_Y = (2 - 0,4) + (3 - 1,2) + 0,8 = 4,2 mol.\nBảo toàn khối lượng: m_Y = m_X = 62 g ➔ M_Y = 62 / 4,2 ≈ 14,76 ≈ 14,8 g/mol.")
-    else:
-        add_student_writing_lines(doc, num_lines=3)
-
-    # Câu 6
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 6. Một khu vực nông nghiệp gần hồ có diện tích 10 km^2^, hằng năm lượng nước chảy tràn từ mưa cuốn theo phân bón vào hồ chứa khoảng 5 mg/L nitrate (NO~3~^-). Nếu lượng nước chảy tràn chiếm 2% lượng mưa, và lượng mưa trung bình hàng năm là 800 mm, tính khối lượng nitrate (theo đơn vị kg) bị thải vào hồ mỗi năm.")
-    if is_teacher:
-        p_ans = doc.add_paragraph()
-        p_ans.paragraph_format.left_indent = Cm(0.5)
-        render_rich_text(p_ans, "➔ *Đáp số:* *800*", base_size=10.5)
-        add_solution_no_table(doc, "Diện tích: S = 10 km^2^ = 10^7^ m^2^.\nLượng nước mưa hàng năm: V_mưa = 800 . 10^-3^ m . 10^7^ m^2^ = 8.10^6^ m^3^ = 8.10^9^ L.\nLượng nước chảy tràn vào hồ: V_tràn = 0,02 . 8.10^9^ = 1,6.10^8^ L.\nKhối lượng nitrate thải vào hồ: m(NO~3~^-) = 5 mg/L . 1,6.10^8^ L = 8.10^8^ mg = 800 kg.")
-    else:
-        add_student_writing_lines(doc, num_lines=3)
-
-    # ==========================================
-    # PHẦN IV
-    # ==========================================
-    add_section_header(
-        doc,
-        title="PHẦN IV. Tự luận",
-        subtitle="Học sinh giải chi tiết các câu hỏi sau vào giấy làm bài."
-    )
-
-    # Câu 1
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 1. (SBT - CD) Trong quy trình sản xuất tơ, mỗi năm có hàng triệu tấn cyclohexanone (C~6~H~10~O) được cho phản ứng với HNO~3~ để tạo adipic acid (C~6~H~10~O~4~) theo phản ứng:\nC~6~H~10~O + HNO~3~ ➔ C~6~H~10~O~4~ + N~2~O + H~2~O\na) Cân bằng phương trình hoá học của phản ứng trên theo phương pháp thăng bằng electron.\nb) Cho biết vai trò của HNO~3~ trong phản ứng trên. Giải thích.")
-    if is_teacher:
-        sol_p4_c1 = (
-            "a) Cân bằng theo phương pháp thăng bằng electron:\n"
-            "   C~6~H~10~O (C có số oxi hóa trung bình -4/3) ➔ C~6~H~10~O~4~ (C có số oxi hóa trung bình -1/3):\n"
-            "   6C^-4/3^ ➔ 6C^-1/3^ + 6e  (hoặc C~6~H~10~O + 3H~2~O ➔ C~6~H~10~O~4~ + 6H^+ + 6e)   | x 4\n"
-            "   2N^+5^ + 8e ➔ 2N^+1^ (trong N~2~O)                                                 | x 3\n"
-            "   Phương trình hoàn chỉnh:\n"
-            "   4C~6~H~10~O + 6HNO~3~ ➔ 4C~6~H~10~O~4~ + 3N~2~O + 3H~2~O\n"
-            "b) Trong phản ứng trên, HNO~3~ đóng vai trò là chất oxi hóa vì số oxi hóa của nguyên tử nitrogen giảm từ +5 (trong HNO~3~) xuống +1 (trong N~2~O)."
-        )
-        add_solution_no_table(doc, sol_p4_c1)
-    else:
-        add_student_writing_lines(doc, num_lines=6)
-
-    # Câu 2
-    p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(3)
-    p.paragraph_format.space_after = Pt(2)
-    render_question_prompt(p, "Câu 2 (SBT - CTST). Muối NH~4~NO~3~ sẽ nhiệt phân theo phản ứng nào trong 2 phản ứng sau? Giải thích.\n(1) NH~4~NO~3~(s) ➔[t°] NH~3~(g) + HNO~3~(g)\n(2) NH~4~NO~3~(s) ➔[t°] N~2~O(g) + 2H~2~O(g)\nBiết enthalpy tạo thành chuẩn Δ~f~H°~298~ (kJ/mol) của các chất như sau:\n- NH~4~NO~3~(s): -365,61 kJ/mol\n- NH~3~(g): -45,90 kJ/mol\n- N~2~O(g): 82,05 kJ/mol\n- HNO~3~(g): -134,31 kJ/mol\n- H~2~O(g): -241,82 kJ/mol")
-    if is_teacher:
-        sol_p4_c2 = (
-            "Tính biến thiên enthalpy chuẩn của hai phản ứng:\n"
-            "- Phản ứng (1):\n"
-            "  Δ~r~H°~298~(1) = Δ~f~H°~298~(NH~3~) + Δ~f~H°~298~(HNO~3~) - Δ~f~H°~298~(NH~4~NO~3~)\n"
-            "  = (-45,90) + (-134,31) - (-365,61) = +185,40 kJ > 0 (phản ứng thu nhiệt).\n"
-            "- Phản ứng (2):\n"
-            "  Δ~r~H°~298~(2) = Δ~f~H°~298~(N~2~O) + 2.Δ~f~H°~298~(H~2~O) - Δ~f~H°~298~(NH~4~NO~3~)\n"
-            "  = 82,05 + 2.(-241,82) - (-365,61) = -35,97 kJ < 0 (phản ứng toả nhiệt).\n"
-            "Kết luận: Vì Δ~r~H°~298~(2) < 0 nên phản ứng (2) là phản ứng toả nhiệt, thuận lợi hơn nhiều về mặt năng lượng, do đó muối NH~4~NO~3~ sẽ nhiệt phân theo phản ứng (2) tạo khí cười N~2~O và hơi nước."
-        )
-        add_solution_no_table(doc, sol_p4_c2)
-    else:
-        add_student_writing_lines(doc, num_lines=7)
-
-    # Lưu file
-    filename = "De_Kiem_Tra_Hoa_11_De04_GiaoVien.docx" if is_teacher else "De_Kiem_Tra_Hoa_11_De04.docx"
-    filepath = os.path.join(OUT_DIR, filename)
-    doc.save(filepath)
-    print(f"Saved: {filepath}")
+    for filename, mode in files:
+        out_file = os.path.join(OUT_DIR, filename)
+        build_exam_docx(out_file, mode=mode)
+        
+        # Sao chép đồng thời sang thư mục OneDrive của Thầy để Thầy mở dùng ngay
+        if os.path.exists(ONEDRIVE_DIR):
+            try:
+                dest = os.path.join(ONEDRIVE_DIR, filename)
+                shutil.copy2(out_file, dest)
+                print(f"Copied to OneDrive successfully: {filename}")
+            except Exception as e:
+                print(f"Copy to OneDrive error: {e}")
 
 if __name__ == "__main__":
-    print("Generating De_Kiem_Tra_Hoa_11_De04.docx (Học Sinh)...")
-    build_exam_document(is_teacher=False)
-    print("Generating De_Kiem_Tra_Hoa_11_De04_GiaoVien.docx (Giáo Viên)...")
-    build_exam_document(is_teacher=True)
-    print("Done!")
+    main()

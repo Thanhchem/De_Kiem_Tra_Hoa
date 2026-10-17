@@ -56,6 +56,7 @@ Hệ thống tự động theo dõi, chuyển đổi và quản lý toàn bộ c
 | 44 | [`BO_18_DE_KT_THEO_CHUONG_HOA_11.pdf`](file:///c:/Antigravity_Thanh/PDF_Goc/BO_18_DE_KT_THEO_CHUONG_HOA_11.pdf)<br>*(Đề số 18: Hợp chất Carbonyl - Carboxylic acid -- HOÀN TẤT TRỌN BỘ 18 ĐỀ)* | • [PDF Học sinh (5 trang A4)](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_11_De18_HocSinh.pdf)<br>• [TeX Học sinh](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_11_De18_HocSinh.tex)<br>• [Word Học sinh](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_11_De18.docx) | • [PDF Giáo viên (6 trang chi tiết)](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_11_De18_GiaoVien.pdf)<br>• [TeX Giáo viên](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_11_De18_GiaoVien.tex)<br>• [Word Giáo viên](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_11_De18_GiaoVien.docx) | Hoàn thành (Chuẩn Form Đề Kiểm Tra) |
 | 45 | [`De_Cuong_KHTN7_GK1.pdf`](file:///c:/Antigravity_Thanh/PDF_Goc/De_Cuong_KHTN7_GK1.pdf)<br>*(Đề cương Ôn tập Giữa kì I Môn KHTN 7 -- 2026-2027)* | • [Word Học sinh](file:///c:/Antigravity_Thanh/San_Pham/De_Cuong_KHTN_7_Giua_HK1_HocSinh.docx)<br>• [PDF Học sinh (5 trang)](file:///c:/Antigravity_Thanh/San_Pham/De_Cuong_KHTN_7_Giua_HK1_HocSinh.pdf)<br>• [Word Dạy Trên Màn Hình](file:///c:/Antigravity_Thanh/San_Pham/De_Cuong_KHTN_7_Giua_HK1_DayTrenManHinh.docx)<br>• [PDF Dạy Trên Màn Hình](file:///c:/Antigravity_Thanh/San_Pham/De_Cuong_KHTN_7_Giua_HK1_DayTrenManHinh.pdf) | • [Word Giáo viên (Đầy đủ đáp án & Lời giải chi tiết)](file:///c:/Antigravity_Thanh/San_Pham/De_Cuong_KHTN_7_Giua_HK1_GiaoVien.docx)<br>• [PDF Giáo viên (7 trang chi tiết)](file:///c:/Antigravity_Thanh/San_Pham/De_Cuong_KHTN_7_Giua_HK1_GiaoVien.pdf) | Hoàn thành (Chuẩn Form Đề Kiểm Tra -- 3 phiên bản Word & PDF) |
 | 46 | [`DE-THEM-01.pdf`](file:///c:/Antigravity_Thanh/PDF_Goc/DE-THEM-01.pdf)<br>*(Đề kiểm tra Giữa HK1 Môn Hóa học 10 -- Mã đề 101 -- Đề Thêm 01)* | • [Word Học sinh](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_10_Giua_HK1_DeThem01_HocSinh.docx)<br>• [PDF Học sinh](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_10_Giua_HK1_DeThem01_HocSinh.pdf)<br>• [Word Dạy Trên Màn Hình](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_10_Giua_HK1_DeThem01_DayTrenManHinh.docx)<br>• [PDF Dạy Trên Màn Hình](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_10_Giua_HK1_DeThem01_DayTrenManHinh.pdf) | • [Word Giáo viên (Đầy đủ đáp án & Lời giải chi tiết)](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_10_Giua_HK1_DeThem01_GiaoVien.docx)<br>• [PDF Giáo viên (7 trang chi tiết)](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_Hoa_10_Giua_HK1_DeThem01_GiaoVien.pdf) | Hoàn thành (Chuẩn Form Đề Kiểm Tra -- 3 phiên bản Word & PDF) |
+| 47 | [`de-thi-thu-04.docx`](file:///c:/Antigravity_Thanh/PDF_Goc/De_Thi_Thu_Hoa_11_Giua_HK1_De04.docx)<br>*(Đề thi thử Giữa HK1 Môn Hóa học 11 -- Mã đề 104 -- Đề số 04)* | • [Word Học sinh](file:///c:/Antigravity_Thanh/San_Pham/De_Thi_Thu_Hoa_11_Giua_HK1_De04_HocSinh.docx)<br>• [PDF Học sinh (3 trang A4)](file:///c:/Antigravity_Thanh/San_Pham/De_Thi_Thu_Hoa_11_Giua_HK1_De04_HocSinh.pdf)<br>• [Word Dạy Trên Màn Hình](file:///c:/Antigravity_Thanh/San_Pham/De_Thi_Thu_Hoa_11_Giua_HK1_De04_DayTrenManHinh.docx)<br>• [PDF Dạy Trên Màn Hình (5 trang)](file:///c:/Antigravity_Thanh/San_Pham/De_Thi_Thu_Hoa_11_Giua_HK1_De04_DayTrenManHinh.pdf) | • [Word Giáo viên (Đầy đủ đáp án & Lời giải chi tiết)](file:///c:/Antigravity_Thanh/San_Pham/De_Thi_Thu_Hoa_11_Giua_HK1_De04_GiaoVien.docx)<br>• [PDF Giáo viên (7 trang chi tiết)](file:///c:/Antigravity_Thanh/San_Pham/De_Thi_Thu_Hoa_11_Giua_HK1_De04_GiaoVien.pdf) | Hoàn thành (Chuẩn Form Đề Kiểm Tra -- 3 phiên bản Word & PDF -- Đã sync OneDrive) |
 
 
 
@@ -91,3 +92,21 @@ Hệ thống tự động theo dõi, chuyển đổi và quản lý toàn bộ c
 - `San_Pham/`: Nơi lưu trữ toàn bộ sản phẩm hoàn thiện (PDF học sinh, PDF giáo viên, Word học sinh, Word giáo viên, mã nguồn TeX, hình ảnh crop).
 - `scripts/`: Thư mục chứa toàn bộ mã nguồn xử lý tự động, tạo PDF và tạo Word.
 - `quan_ly_tien_trinh.py`: File script tự động quét và kiểm tra xem có file PDF mới nào cần xử lý hay không.
+
+---
+
+## 4. CẬP NHẬT: ĐỀ CƯƠNG ÔN TẬP GIỮA KÌ I - KHTN 9 (TRƯỜNG THCS KIM LONG - NH 2026 - 2027)
+
+- **Ngày thực hiện:** 17/10/2026
+- **Nội dung:**
+  - Nhận diện toàn diện từ 5 trang ảnh chụp quét: Bài 1 (Dụng cụ, hóa chất, thuyết trình khoa học), Phân môn KHTN 1 - Hóa học (Bài 22 đến 27) và Phân môn KHTN 2 - Vật lí (Động năng, thế năng, cơ năng, công, công suất, năng lượng tái tạo).
+  - Chuẩn hóa đầy đủ các công thức hóa học (subscripts/superscripts), công thức vật lí nổi bật trong khung callout.
+  - Tuyệt đối không dùng Table cho các phương án lựa chọn A, B, C, D (dùng Tab stops).
+- **Sản phẩm xuất bản:**
+  1. `San_Pham/De_Cuong_KHTN_9_Giua_HK1_Kim_Long_HocSinh.docx`: Bản Học sinh sạch đẹp, có dòng kẻ chấm làm bài tự luận.
+  2. `San_Pham/De_Cuong_KHTN_9_Giua_HK1_Kim_Long_GiaoVien.docx`: Bản Giáo viên có đáp án in đậm màu đỏ, lời giải chi tiết và bảng tổng hợp đáp án cuối tài liệu.
+  3. `San_Pham/De_Cuong_KHTN_9_Giua_HK1_Kim_Long_DayTrenManHinh.docx`: Bản Dạy trên màn hình với cỡ chữ lớn, giãn dòng thoáng, có khung ghi chú bài dạy dành cho máy chiếu / màn hình tương tác.
+- **Tự động đồng bộ:**
+  - Lưu trữ tại `c:\Antigravity_Thanh\San_Pham\`
+  - Sao chép trực tiếp vào thư mục OneDrive của Thầy: `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\KHTN9-DEKIEMTRADINHKI` và `khtn9`.
+
