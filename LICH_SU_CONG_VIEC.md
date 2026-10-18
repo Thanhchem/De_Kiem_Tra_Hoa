@@ -135,3 +135,42 @@ Hệ thống tự động theo dõi, chuyển đổi và quản lý toàn bộ c
   - Sao chép trực tiếp vào thư mục OneDrive của Thầy: `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\KHTN9-DEKIEMTRADINHKI` và `khtn9`.
 
 
+
+---
+
+## 6. CẬP NHẬT: ĐỀ CƯƠNG ÔN TẬP KIỂM TRA GIỮA HỌC KÌ I - KHTN 7 (TRƯỜNG THCS NGUYỄN THỊ MINH KHAI - NĂM HỌC 2026 - 2027)
+
+- **Ngày thực hiện:** 18/10/2026
+- **Nguồn tài liệu:** File PDF 18 trang quét sắc nét `Khtn7-decuong-gk1-nguyenythiminhkhai-262.pdf` tại thư mục OneDrive: `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn7\KHTN7-IN-DEKIEMTRADINHKI\New folder\`.
+- **Nội dung số hóa & chuẩn hóa toàn diện:**
+  - **A. PHẦN TRẮC NGHIỆM KHÁCH QUAN:**
+    + **Phần I: 90 câu trắc nghiệm 4 lựa chọn (A, B, C, D)** bao quát trọn vẹn chương trình Giữa kì I KHTN 7:
+      * Phương pháp và kĩ năng tìm hiểu tự nhiên, cách viết báo cáo thực hành (Câu 1, 2, 11, 25, 31, 32, 41-44, 51, 52, 61-68).
+      * Phân môn Vật lí: Tốc độ chuyển động, đơn vị đo tốc độ, đổi đơn vị, công thức v = s / t, đồng hồ đo thời gian hiện số, cổng quang điện, thiết bị bắn tốc độ (Câu 3-10, 12-24, 26-30).
+      * Phân môn Hóa học: Cấu tạo nguyên tử Rutherford - Bohr, hạt nhân, lớp vỏ electron, khối lượng nguyên tử (amu), kí hiệu hóa học IUPAC, ứng dụng của Cu, Fe, S, Na, Al (Câu 33-40, 45-50, 53-60).
+      * Phân môn Sinh học: Trao đổi chất và chuyển hóa năng lượng, quang hợp ở thực vật, vai trò lá cây, thí nghiệm chứng minh tinh bột và thải O~2~, hô hấp tế bào, các yếu tố ảnh hưởng, thí nghiệm hô hấp ở hạt nảy mầm và thực tiễn ngập úng đất trồng (Câu 69-90).
+    + **Phần II: 2 câu trắc nghiệm Đúng - Sai (8 ý khẳng định)**:
+      * Câu 1: Thí nghiệm đo tốc độ ô tô đồ chơi trên dốc nghiêng bằng đồng hồ bấm giây và cổng quang điện.
+      * Câu 2: Mô hình nhà kính công nghệ cao trồng xà lách thủy canh (đèn LED, phun sương, quạt thông gió).
+    + **Phần III: 38 câu trắc nghiệm trả lời ngắn**:
+      * Câu 1 - 12: Kĩ năng đo, ĐCNN đồng hồ hiện số, bài toán tính tốc độ bi sắt, xe đạp, tàu hỏa, xe đồ chơi, xe máy bắn tốc độ.
+      * Câu 13 - 19: Sắp xếp tiến trình nghiên cứu khoa học, sắp xếp kí hiệu nguyên tố hóa học, quy tắc cấu trúc bản báo cáo thực hành.
+      * Câu 20 - 25: Phân biệt hiện tượng trao đổi chất và chuyển hóa năng lượng, vai trò và biểu hiện ở cơ thể sinh vật.
+      * Câu 26 - 38: Quy trình chuẩn, giải thích hiện tượng và lưu ý kĩ thuật của thí nghiệm quang hợp (tinh bột, giải phóng O~2~) và thí nghiệm hô hấp tế bào (thải CO~2~, tiêu thụ O~2~, tỏa nhiệt).
+  - **B. PHẦN TỰ LUẬN (18 câu hỏi)**:
+    + Câu 1 - 2: Ý nghĩa vật lí, công thức tính tốc độ, đơn vị chuẩn, cách đổi đơn vị giữa m/s và km/h.
+    + Câu 3 - 9: Các bài toán tính tốc độ thực tế (xe đạp bạn An đến trường, ô tô bị bắn tốc độ trên đường, vận động viên chạy 2 chặng, xe đồ chơi trượt máng dốc, ô tô trên đường cao tốc, hội khỏe Phù Đổng).
+    + Câu 10 - 14: Cấu tạo nguyên tử theo mô hình Rutherford - Bohr, xác định số p, e, số lớp electron và số e lớp ngoài cùng của Nitrogen, Sodium, Carbon, nguyên tử X (Na).
+    + Câu 15 - 18: Bản chất hô hấp tế bào, phương trình chữ 2 chiều tổng hợp - phân giải, các yếu tố môi trường ảnh hưởng, giải thích hiện tượng nông nghiệp (phơi sấy hạt giống, thí nghiệm tỏa nhiệt ở hạt nảy mầm) và tình huống thực tế bão lũ ngập úng khiến vườn thanh trà Thủy Biều (Huế) bị chết rễ.
+- **Quy cách kỹ thuật:**
+  - Chuẩn mực theo **FORM ĐỀ KIỂM TRA** (`GEMINI.md`): Header & Footer màu Đỏ san hô Coral Red (`#D32F2F`) & Xanh Sage Green (`#8BC390`), thông tin Thầy TRẦN VĂN THẠNH - 0777.470.803, 2 cơ sở tại Huế, số trang tự động `PAGE`.
+  - **Tuyệt đối không dùng bảng (Table) trong nội dung đề thi**: Các phương án A, B, C, D dùng Tab stops chuẩn Word (0.5cm, 4.8cm, 9.2cm, 13.6cm); Lời giải chi tiết thụt lề 0.6cm với tiêu đề in đậm màu xanh `#1565C0`.
+  - Xử lý triệt để chỉ số dưới và chỉ số trên cho toàn bộ công thức hóa học: CO~2~, H~2~O, CaCO~3~, H~2~SO~4~, O~2~.
+- **Sản phẩm xuất bản:**
+  1. `San_Pham/De_Cuong_KHTN_7_Giua_HK1_MinhKhai_HocSinh.docx`: Bản Học sinh sạch đẹp, có dòng kẻ làm bài cho phần trả lời ngắn và tự luận.
+  2. `San_Pham/De_Cuong_KHTN_7_Giua_HK1_MinhKhai_GiaoVien.docx`: Bản Giáo viên có đáp án in đậm màu đỏ, lời giải chi tiết sư phạm từng câu, bảng tổng hợp đáp án ở cuối tài liệu.
+  3. `San_Pham/De_Cuong_KHTN_7_Giua_HK1_MinhKhai_DayTrenManHinh.docx`: Bản Dạy trên màn hình với cỡ chữ lớn (11.5pt), giãn dòng thoáng, có khung chừa chỗ trống tương tác màu tím phục vụ giảng dạy máy chiếu / màn hình cảm ứng.
+- **Đồng bộ tự động:**
+  - Lưu trữ tại `c:\Antigravity_Thanh\San_Pham\`
+  - Sao chép trực tiếp vào thư mục OneDrive của Thầy: `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn7\KHTN7-IN-DEKIEMTRADINHKI\New folder\` và `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn7\KHTN7-IN-DEKIEMTRADINHKI\`
+  - Lưu file gốc vào `PDF_Goc/De_Cuong_KHTN7_GK1_MinhKhai.pdf`
