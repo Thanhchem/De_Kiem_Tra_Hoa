@@ -59,6 +59,7 @@ Hệ thống tự động theo dõi, chuyển đổi và quản lý toàn bộ c
 | 47 | [`de-thi-thu-04.docx`](file:///c:/Antigravity_Thanh/PDF_Goc/De_Thi_Thu_Hoa_11_Giua_HK1_De04.docx)<br>*(Đề thi thử Giữa HK1 Môn Hóa học 11 -- Mã đề 104 -- Đề số 04)* | • [Word Học sinh](file:///c:/Antigravity_Thanh/San_Pham/De_Thi_Thu_Hoa_11_Giua_HK1_De04_HocSinh.docx)<br>• [PDF Học sinh (3 trang A4)](file:///c:/Antigravity_Thanh/San_Pham/De_Thi_Thu_Hoa_11_Giua_HK1_De04_HocSinh.pdf)<br>• [Word Dạy Trên Màn Hình](file:///c:/Antigravity_Thanh/San_Pham/De_Thi_Thu_Hoa_11_Giua_HK1_De04_DayTrenManHinh.docx)<br>• [PDF Dạy Trên Màn Hình (5 trang)](file:///c:/Antigravity_Thanh/San_Pham/De_Thi_Thu_Hoa_11_Giua_HK1_De04_DayTrenManHinh.pdf) | • [Word Giáo viên (Đầy đủ đáp án & Lời giải chi tiết)](file:///c:/Antigravity_Thanh/San_Pham/De_Thi_Thu_Hoa_11_Giua_HK1_De04_GiaoVien.docx)<br>• [PDF Giáo viên (7 trang chi tiết)](file:///c:/Antigravity_Thanh/San_Pham/De_Thi_Thu_Hoa_11_Giua_HK1_De04_GiaoVien.pdf) | Hoàn thành (Chuẩn Form Đề Kiểm Tra -- 3 phiên bản Word & PDF -- Đã sync OneDrive) |
 | 48 | *5 ảnh chụp đề cương KHTN 9 (Phân môn Vật lí & Sinh học)* | • [Word Học sinh](file:///c:/Antigravity_Thanh/San_Pham/De_Cuong_KHTN_9_VatLi_SinhHoc_HocSinh.docx)<br>• [Word Dạy Trên Màn Hình](file:///c:/Antigravity_Thanh/San_Pham/De_Cuong_KHTN_9_VatLi_SinhHoc_DayTrenManHinh.docx) | • [Word Giáo viên (Có đáp án & Lời giải chi tiết)](file:///c:/Antigravity_Thanh/San_Pham/De_Cuong_KHTN_9_VatLi_SinhHoc_GiaoVien.docx) | Hoàn thành (Chuẩn Form Đề Kiểm Tra -- 3 phiên bản Word -- Đã sync OneDrive) |
 | 49 | *Trọn bộ Đề cương Ôn tập Giữa Kì I KHTN 9 Kim Long (Hóa - Lí - Sinh)* | • [Word Học sinh Trọn Bộ](file:///c:/Antigravity_Thanh/San_Pham/De_Cuong_KHTN_9_Giua_HK1_Kim_Long_TronBo_HocSinh.docx)<br>• [Word Dạy Trên Màn Hình Trọn Bộ](file:///c:/Antigravity_Thanh/San_Pham/De_Cuong_KHTN_9_Giua_HK1_Kim_Long_TronBo_DayTrenManHinh.docx) | • [Word Giáo viên Trọn Bộ (Đầy đủ đáp án & Lời giải chi tiết)](file:///c:/Antigravity_Thanh/San_Pham/De_Cuong_KHTN_9_Giua_HK1_Kim_Long_TronBo_GiaoVien.docx) | Hoàn thành (Chuẩn Form Đề Kiểm Tra -- 3 phiên bản Word Trọn Bộ -- Đã sync OneDrive) |
+| 50 | *2 ảnh chụp đề thi/đề cương KHTN 9 (Sinh học - Mendel, DNA, RNA - Đúng/Sai, Trả lời ngắn, Tự luận)* | • [Word Học sinh](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_KHTN_9_SinhHoc_HocSinh.docx)<br>• [Word Dạy Trên Màn Hình](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_KHTN_9_SinhHoc_DayTrenManHinh.docx) | • [Word Giáo viên (Đầy đủ đáp án & Lời giải chi tiết)](file:///c:/Antigravity_Thanh/San_Pham/De_Kiem_Tra_KHTN_9_SinhHoc_GiaoVien.docx) | Hoàn thành (Chuẩn Form Đề Kiểm Tra -- 3 phiên bản Word -- Đã sync OneDrive) |
 
 
 
@@ -111,4 +112,26 @@ Hệ thống tự động theo dõi, chuyển đổi và quản lý toàn bộ c
 - **Tự động đồng bộ:**
   - Lưu trữ tại `c:\Antigravity_Thanh\San_Pham\`
   - Sao chép trực tiếp vào thư mục OneDrive của Thầy: `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\KHTN9-DEKIEMTRADINHKI` và `khtn9`.
+
+---
+
+## 5. CẬP NHẬT: ĐỀ KIỂM TRA / ÔN TẬP KHTN 9 - PHÂN MÔN SINH HỌC (2 ẢNH CHỤP MỚI)
+
+- **Ngày thực hiện:** 18/10/2026
+- **Nội dung:**
+  - Nhận diện toàn diện từ 2 trang ảnh chụp quét:
+    + Phần I: Trắc nghiệm Đúng / Sai (5 câu - 20 ý: Di truyền Mendel, Lai phân tích, Cấu tạo hóa học DNA, RNA).
+    + Phần II: Câu hỏi trả lời ngắn (15 câu chia thành 3 phần: A. Quy luật di truyền của Menđen [7 câu], B. DNA [6 câu], C. RNA và gene [2 câu]).
+    + Phần III: Tự luận (4 câu: Câu 1 [Lai 1 cặp tính trạng ở bí], Câu 2 [Lai 2 cặp tính trạng phân li độc lập ở bí], Câu 3 [Cấu trúc xoắn kép phân tử DNA có hình vẽ HD Hình 38.1 SGK], Câu 4 [Xác định mạch bổ sung DNA]).
+  - Trích xuất và làm sạch độ nét cao hình vẽ vector/HD: `Hình 38.1. Mô hình cấu trúc một đoạn phân tử DNA` chèn vào câu tự luận.
+  - Tuyệt đối không dùng Table cho nội dung câu hỏi và lời giải chi tiết (chuẩn FORM ĐỀ KIỂM TRA).
+- **Sản phẩm xuất bản:**
+  1. `San_Pham/De_Kiem_Tra_KHTN_9_SinhHoc_HocSinh.docx`: Bản Học sinh sạch đẹp, có dòng chấm trả lời ngắn và kẻ chấm làm bài tự luận.
+  2. `San_Pham/De_Kiem_Tra_KHTN_9_SinhHoc_GiaoVien.docx`: Bản Giáo viên có đáp án in đậm màu đỏ, lời giải chi tiết từng bước, sơ đồ lai hoàn chỉnh và bảng tổng hợp đáp án cuối tài liệu.
+  3. `San_Pham/De_Kiem_Tra_KHTN_9_SinhHoc_DayTrenManHinh.docx`: Bản Dạy trên màn hình với cỡ chữ lớn (11.5pt - 12pt), giãn dòng 1.25, có khung ghi chú callout tím phục vụ giảng dạy máy chiếu / màn hình tương tác.
+  - Đồng thời cập nhật hoàn thiện bộ `De_Cuong_KHTN_9_VatLi_SinhHoc` và `De_Cuong_KHTN_9_Giua_HK1_Kim_Long_TronBo`.
+- **Tự động đồng bộ:**
+  - Lưu trữ tại `c:\Antigravity_Thanh\San_Pham\`
+  - Sao chép trực tiếp vào thư mục OneDrive của Thầy: `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\KHTN9-DEKIEMTRADINHKI` và `khtn9`.
+
 

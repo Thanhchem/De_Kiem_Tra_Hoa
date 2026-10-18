@@ -681,68 +681,13 @@ BIOLOGY_CHOICE_QUESTIONS = [
     }
 ]
 
-# Trắc nghiệm Sinh học đúng sai (2 câu)
-BIOLOGY_TF_QUESTIONS = [
-    {
-        "id": 1,
-        "content": "Khi tìm hiểu các thuật ngữ cơ bản trong di truyền học, hãy xác định mỗi nhận định sau là đúng hay sai.",
-        "statements": [
-            {
-                "id": "a",
-                "text": "Tính trạng là những đặc điểm về hình thái, cấu tạo và sinh lí của cơ thể.",
-                "correct": True,
-                "explain": "Đúng. Đây là định nghĩa chuẩn của tính trạng trong di truyền học."
-            },
-            {
-                "id": "b",
-                "text": "Tính trạng tương phản là hai trạng thái biểu hiện giống nhau của cùng một loại tính trạng.",
-                "correct": False,
-                "explain": "Sai. Tính trạng tương phản là hai trạng thái biểu hiện trái ngược nhau (đối lập) của cùng một loại tính trạng."
-            },
-            {
-                "id": "c",
-                "text": "Kiểu hình là tổ hợp toàn bộ các tính trạng của cơ thể sinh vật.",
-                "correct": True,
-                "explain": "Đúng. Kiểu hình là tổ hợp toàn bộ các tính trạng bên ngoài và bên trong của cơ thể."
-            },
-            {
-                "id": "d",
-                "text": "Allele là các trạng thái biểu hiện khác nhau của cùng một gene.",
-                "correct": True,
-                "explain": "Đúng. Mỗi gene có thể tồn tại ở các trạng thái khác nhau gọi là các allele (ví dụ A và a)."
-            }
-        ],
-        "explanation": "• Ý a ĐÚNG: Tính trạng phản ánh các đặc điểm cấu tạo, hình thái và chức năng sinh lí của sinh vật.\n• Ý b SAI: Phải là hai trạng thái biểu hiện trái ngược nhau.\n• Ý c ĐÚNG: Định nghĩa chuẩn về kiểu hình trong SGK KHTN 9.\n• Ý d ĐÚNG: Allele là các dạng biến dị trạng thái khác nhau của cùng một gene xác định."
-    },
-    {
-        "id": 2,
-        "content": "Ở đậu Hà Lan, Menđen tiến hành lai cây hoa tím thuần chủng với cây hoa trắng thuần chủng. Biết hoa tím trội hoàn toàn so với hoa trắng. Hãy xác định các nhận định sau là đúng hay sai.",
-        "statements": [
-            {
-                "id": "a",
-                "text": "Cây hoa tím thuần chủng có kiểu gene đồng hợp về gene quy định màu hoa.",
-                "correct": True,
-                "explain": "Đúng. Cây hoa tím thuần chủng có kiểu gene đồng hợp trội AA."
-            },
-            {
-                "id": "b",
-                "text": "F~1~ có 100% cây hoa tím.",
-                "correct": True,
-                "explain": "Đúng. Phép lai AA × aa cho 100% Aa, biểu hiện kiểu hình hoa tím."
-            },
-            {
-                "id": "c",
-                "text": "Khi cho F~1~ tự thụ phấn, đời F~2~ thu được tỉ lệ kiểu hình xấp xỉ 3 hoa tím : 1 hoa trắng.",
-                "correct": True,
-                "explain": "Đúng. Phép lai F~1~ (Aa × Aa) cho tỉ lệ kiểu hình F~2~ là 3 trội : 1 lặn (3 tím : 1 trắng)."
-            },
-            {
-                "id": "d",
-                "text": "Cây hoa trắng xuất hiện ở F~2~ có kiểu gene dị hợp tử.",
-                "correct": False,
-                "explain": "Sai. Hoa trắng mang tính trạng lặn nên bắt buộc phải có kiểu gene đồng hợp lặn aa."
-            }
-        ],
-        "explanation": "• Ý a ĐÚNG: Dòng thuần chủng mang cặp gene đồng hợp AA.\n• Ý b ĐÚNG: F~1~ mang kiểu gene Aa và 100% biểu hiện kiểu hình hoa tím.\n• Ý c ĐÚNG: Đời con F~2~ có tỉ lệ 3 cây hoa tím : 1 cây hoa trắng.\n• Ý d SAI: Tính trạng lặn chỉ biểu hiện khi ở trạng thái đồng hợp lặn aa."
-    }
-]
+from khtn9_sinhhoc_ontap_data import (
+    TF_QUESTIONS as BIOLOGY_TF_QUESTIONS,
+    SHORT_QUESTIONS_A as BIOLOGY_SHORT_QUESTIONS_A,
+    SHORT_QUESTIONS_B as BIOLOGY_SHORT_QUESTIONS_B,
+    SHORT_QUESTIONS_C as BIOLOGY_SHORT_QUESTIONS_C,
+    ESSAY_QUESTIONS as BIOLOGY_ESSAY_QUESTIONS
+)
+
+BIOLOGY_SHORT_QUESTIONS = BIOLOGY_SHORT_QUESTIONS_A + BIOLOGY_SHORT_QUESTIONS_B + BIOLOGY_SHORT_QUESTIONS_C
+

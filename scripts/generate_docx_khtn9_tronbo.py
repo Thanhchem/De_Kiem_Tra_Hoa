@@ -33,7 +33,8 @@ from khtn9_kimlong_data import (
 from khtn9_vatli_sinhhoc_data import (
     PHYSICS_CHOICE_QUESTIONS, PHYSICS_TF_QUESTIONS,
     PHYSICS_SHORT_QUESTIONS, PHYSICS_ESSAY_QUESTIONS,
-    BIOLOGY_THEORY, BIOLOGY_CHOICE_QUESTIONS, BIOLOGY_TF_QUESTIONS
+    BIOLOGY_THEORY, BIOLOGY_CHOICE_QUESTIONS, BIOLOGY_TF_QUESTIONS,
+    BIOLOGY_SHORT_QUESTIONS, BIOLOGY_ESSAY_QUESTIONS
 )
 
 ROOT_DIR = r"c:\Antigravity_Thanh"
@@ -479,6 +480,21 @@ def render_essay_questions(doc, questions, is_teacher=False, is_screen=False, ba
         p_q.paragraph_format.keep_with_next = True
         render_rich_text(p_q, f"*Câu {qid}.* {q['content']}", base_size=base_size)
 
+        if q.get("has_image") and os.path.exists(q.get("image_path", "")):
+            p_img = doc.add_paragraph()
+            p_img.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            p_img.paragraph_format.space_before = Pt(3)
+            p_img.paragraph_format.space_after = Pt(1)
+            run_img = p_img.add_run()
+            run_img.add_picture(q["image_path"], width=Cm(6.5))
+            if q.get("image_caption"):
+                p_cap = doc.add_paragraph()
+                p_cap.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                p_cap.paragraph_format.space_before = Pt(0)
+                p_cap.paragraph_format.space_after = Pt(3)
+                r_cap = p_cap.add_run(q["image_caption"])
+                set_run_style(r_cap, font_size=9, italic=True, color=COLOR_GRAY)
+
         if is_teacher:
             add_solution_block(doc, q["solution"], base_size=base_size - 0.5)
         elif is_screen:
@@ -580,8 +596,14 @@ def build_tronbo_docx(output_path, mode="student"):
     add_section_title(doc, "II. Trắc nghiệm Sinh học - Phần 1: Câu hỏi nhiều lựa chọn (19 câu)", base_size=base_size + 0.3)
     render_mc_questions(doc, BIOLOGY_CHOICE_QUESTIONS, is_teacher=is_teacher, is_screen=is_screen, base_size=base_size)
 
-    add_section_title(doc, "II. Trắc nghiệm Sinh học - Phần 2: Trắc nghiệm đúng sai (2 câu)", base_size=base_size + 0.3)
+    add_section_title(doc, "II. Trắc nghiệm Sinh học - Phần 2: Trắc nghiệm đúng sai (5 câu)", base_size=base_size + 0.3)
     render_tf_questions(doc, BIOLOGY_TF_QUESTIONS, is_teacher=is_teacher, is_screen=is_screen, base_size=base_size)
+
+    add_section_title(doc, "II. Trắc nghiệm Sinh học - Phần 3: Câu hỏi trả lời ngắn (15 câu)", base_size=base_size + 0.3)
+    render_short_questions(doc, BIOLOGY_SHORT_QUESTIONS, is_teacher=is_teacher, is_screen=is_screen, base_size=base_size)
+
+    add_section_title(doc, "III. Tự luận Sinh học: Sơ đồ lai & Cấu trúc phân tử DNA (4 câu)", base_size=base_size + 0.3)
+    render_essay_questions(doc, BIOLOGY_ESSAY_QUESTIONS, is_teacher=is_teacher, is_screen=is_screen, base_size=base_size)
 
     # Kết thúc
     p_end = doc.add_paragraph()

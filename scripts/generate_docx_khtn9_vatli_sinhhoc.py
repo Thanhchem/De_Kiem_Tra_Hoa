@@ -28,7 +28,8 @@ from khtn9_vatli_sinhhoc_data import (
     INFO,
     PHYSICS_CHOICE_QUESTIONS, PHYSICS_TF_QUESTIONS,
     PHYSICS_SHORT_QUESTIONS, PHYSICS_ESSAY_QUESTIONS,
-    BIOLOGY_THEORY, BIOLOGY_CHOICE_QUESTIONS, BIOLOGY_TF_QUESTIONS
+    BIOLOGY_THEORY, BIOLOGY_CHOICE_QUESTIONS, BIOLOGY_TF_QUESTIONS,
+    BIOLOGY_SHORT_QUESTIONS, BIOLOGY_ESSAY_QUESTIONS
 )
 
 ROOT_DIR = r"c:\Antigravity_Thanh"
@@ -549,6 +550,21 @@ def render_essay_questions(doc, questions, is_teacher=False, is_screen=False, ba
         p_q.paragraph_format.keep_with_next = True
         render_rich_text(p_q, f"*Câu {qid}.* {q['content']}", base_size=base_size)
 
+        if q.get("has_image") and os.path.exists(q.get("image_path", "")):
+            p_img = doc.add_paragraph()
+            p_img.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            p_img.paragraph_format.space_before = Pt(3)
+            p_img.paragraph_format.space_after = Pt(1)
+            run_img = p_img.add_run()
+            run_img.add_picture(q["image_path"], width=Cm(6.5))
+            if q.get("image_caption"):
+                p_cap = doc.add_paragraph()
+                p_cap.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                p_cap.paragraph_format.space_before = Pt(0)
+                p_cap.paragraph_format.space_after = Pt(3)
+                r_cap = p_cap.add_run(q["image_caption"])
+                set_run_style(r_cap, font_size=9, italic=True, color=COLOR_GRAY)
+
         if is_teacher:
             add_solution_block(doc, q["solution"], base_size=base_size - 0.5)
         elif is_screen:
@@ -669,8 +685,22 @@ def build_exam_docx(output_path, mode="student"):
     p_p2 = doc.add_paragraph()
     p_p2.paragraph_format.space_before = Pt(5)
     p_p2.paragraph_format.space_after = Pt(2)
-    render_rich_text(p_p2, "*Phần 2: Trắc nghiệm đúng sai (Câu 1 và Câu 2):*", base_size=base_size, base_bold=True, base_color=COLOR_PRIMARY)
+    render_rich_text(p_p2, "*Phần 2: Trắc nghiệm đúng sai (Câu 1 đến Câu 5):*", base_size=base_size, base_bold=True, base_color=COLOR_PRIMARY)
     render_tf_questions(doc, BIOLOGY_TF_QUESTIONS, is_teacher=is_teacher, is_screen=is_screen, base_size=base_size)
+
+    # Phần 3: Câu hỏi trả lời ngắn (15 câu)
+    p_p3 = doc.add_paragraph()
+    p_p3.paragraph_format.space_before = Pt(6)
+    p_p3.paragraph_format.space_after = Pt(2)
+    render_rich_text(p_p3, "*Phần 3: Câu hỏi trả lời ngắn (Câu 1 đến Câu 15):*", base_size=base_size, base_bold=True, base_color=COLOR_PRIMARY)
+    render_short_questions(doc, BIOLOGY_SHORT_QUESTIONS, is_teacher=is_teacher, is_screen=is_screen, base_size=base_size)
+
+    # Phần 4: Tự luận (4 câu)
+    p_p4 = doc.add_paragraph()
+    p_p4.paragraph_format.space_before = Pt(6)
+    p_p4.paragraph_format.space_after = Pt(2)
+    render_rich_text(p_p4, "*Phần 4: Tự luận (Câu 1 đến Câu 4):*", base_size=base_size, base_bold=True, base_color=COLOR_PRIMARY)
+    render_essay_questions(doc, BIOLOGY_ESSAY_QUESTIONS, is_teacher=is_teacher, is_screen=is_screen, base_size=base_size)
 
     # Kết thúc
     p_end = doc.add_paragraph()
@@ -814,12 +844,13 @@ def build_exam_docx(output_path, mode="student"):
         c1.paragraphs[0].alignment = WD_ALIGN_PARAGRAPH.CENTER
 
         # 5. Bảng Trắc nghiệm Sinh học Đúng/Sai (2 câu)
+        # 5. Bảng Trắc nghiệm Sinh học Đúng/Sai (5 câu)
         p_t5 = doc.add_paragraph()
         p_t5.paragraph_format.space_before = Pt(6)
         p_t5.paragraph_format.space_after = Pt(2)
-        render_rich_text(p_t5, "*5. Đáp án Phân môn Sinh học - Phần 2 (Trắc nghiệm đúng/sai - 2 câu):*", base_size=10, base_bold=True, base_color=COLOR_PRIMARY)
+        render_rich_text(p_t5, "*5. Đáp án Phân môn Sinh học - Phần 2 (Trắc nghiệm đúng/sai - 5 câu):*", base_size=10, base_bold=True, base_color=COLOR_PRIMARY)
         
-        tbl_sh2 = doc.add_table(rows=3, cols=5)
+        tbl_sh2 = doc.add_table(rows=len(BIOLOGY_TF_QUESTIONS) + 1, cols=5)
         tbl_sh2.alignment = WD_TABLE_ALIGNMENT.CENTER
         set_table_borders(tbl_sh2, color="B0BEC5", sz="4")
         for j, h in enumerate(headers_p2):
@@ -848,6 +879,36 @@ def build_exam_docx(output_path, mode="student"):
                 r_st = p_st.add_run(val_str)
                 color_st = COLOR_CORRECT if st["correct"] else RGBColor(0, 105, 92)
                 set_run_style(r_st, font_size=10, bold=True, color=color_st)
+
+        # 6. Bảng Sinh học Trả lời ngắn (15 câu)
+        p_t6 = doc.add_paragraph()
+        p_t6.paragraph_format.space_before = Pt(6)
+        p_t6.paragraph_format.space_after = Pt(2)
+        render_rich_text(p_t6, "*6. Đáp án Phân môn Sinh học - Phần 3 (Trả lời ngắn - 15 câu):*", base_size=10, base_bold=True, base_color=COLOR_PRIMARY)
+        
+        tbl_sh3 = doc.add_table(rows=4, cols=8)
+        tbl_sh3.alignment = WD_TABLE_ALIGNMENT.CENTER
+        set_table_borders(tbl_sh3, color="B0BEC5", sz="4")
+        for i in range(8):
+            c0 = tbl_sh3.cell(0, i); c1 = tbl_sh3.cell(1, i)
+            set_cell_margins(c0, 30, 30, 20, 20); set_cell_margins(c1, 30, 30, 20, 20)
+            set_cell_shading(c0, "E8F5E9")
+            p0 = c0.paragraphs[0]; p0.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            r0 = p0.add_run(f"C{i+1}")
+            set_run_style(r0, font_size=9, bold=True)
+            p1 = c1.paragraphs[0]; p1.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            r1 = p1.add_run(BIOLOGY_SHORT_QUESTIONS[i]["correct"])
+            set_run_style(r1, font_size=9.5, bold=True, color=COLOR_CORRECT)
+        for i in range(7):
+            c0 = tbl_sh3.cell(2, i); c1 = tbl_sh3.cell(3, i)
+            set_cell_margins(c0, 30, 30, 20, 20); set_cell_margins(c1, 30, 30, 20, 20)
+            set_cell_shading(c0, "E8F5E9")
+            p0 = c0.paragraphs[0]; p0.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            r0 = p0.add_run(f"C{i+9}")
+            set_run_style(r0, font_size=9, bold=True)
+            p1 = c1.paragraphs[0]; p1.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            r1 = p1.add_run(BIOLOGY_SHORT_QUESTIONS[i+8]["correct"])
+            set_run_style(r1, font_size=9.5, bold=True, color=COLOR_CORRECT)
 
     # Lưu tài liệu
     doc.save(output_path)
