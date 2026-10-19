@@ -312,3 +312,45 @@ Hệ thống tự động theo dõi, chuyển đổi và quản lý toàn bộ c
   - Lưu trữ tại `c:\Antigravity_Thanh\San_Pham\`
   - Sao chép trực tiếp vào thư mục OneDrive của Thầy: `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn6\KHTN6-DEKIEMTRADINHKI\New folder\`, `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn6\KHTN6-DEKIEMTRADINHKI\` và `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn6\`
 
+---
+
+### Đợt 51: Hoàn thành Chuyển đổi và Số hóa Đề Cương Ôn Tập Giữa Học Kì I - Phân Môn Hóa Học KHTN 9 (2026 - 2027) thành 3 Bản Word Chuẩn FORM ĐỀ KIỂM TRA
+
+- **Thời gian thực hiện:** 19/10/2026
+- **Tài liệu nguồn:** Đề cương ôn tập Giữa học kì 1 Phân môn Hóa học - KHTN 9 (Năm học 2026 - 2027) - Chủ đề Hợp chất hữu cơ & Alkane.
+- **Phạm vi kiến thức:**
+  - **A. LÝ THUYẾT TRỌNG TÂM:**
+    * **Bài 22. Giới thiệu về hợp chất hữu cơ:** Khái niệm hợp chất hữu cơ, hóa học hữu cơ; phân loại hydrocarbon và dẫn xuất của hydrocarbon; đặc điểm cấu tạo phân tử (hóa trị Carbon IV, Hydrogen I, Oxygen II, Halogen I; các dạng mạch carbon thẳng, nhánh, vòng; trật tự liên kết); công thức phân tử và công thức cấu tạo (khai triển và thu gọn).
+    * **Bài 23. Alkane:** Khái niệm và công thức chung $C_nH_{2n+2}$ ($n \ge 1$); tính chất vật lý (trạng thái C1-C4 khí, C5-C17 lỏng, C18+ rắn, nhẹ hơn nước, không tan trong nước); tính chất hóa học (phản ứng cháy tỏa nhiệt lớn $n_{\text{H}_2\text{O}} > n_{\text{CO}_2}$, phản ứng thế halogen đặc trưng cho liên kết đơn); ứng dụng làm nhiên liệu (khí gas LPG, xăng dầu) và nguyên liệu công nghiệp (bột than, hydrogen, paraffin, dung môi).
+  - **B. MỘT SỐ DẠNG BÀI TẬP TỰ LUẬN THAM KHẢO (5 câu hỏi):**
+    * **Câu 1:** Phân loại 8 chất vào bảng: Hydrocarbon ($C_6H_6, C_4H_{10}$), Dẫn xuất của hydrocarbon ($C_2H_6O, CH_3NO_2, C_2H_3O_2Na$), Hợp chất vô cơ ($CaCO_3, NaNO_3, NaHCO_3$).
+    * **Câu 2:** Viết công thức cấu tạo đầy đủ và thu gọn của $C_2H_5Br$ (bromoethane), $C_4H_{10}$ (2 đồng phân: butane và isobutane), $C_3H_6$ (2 đồng phân: propene và cyclopropane), $C_3H_8O$ (3 đồng phân: propan-1-ol, propan-2-ol, ethyl methyl ether).
+    * **Câu 3:** Khí gas đun nấu chứa alkane chủ yếu nào? (Propane $C_3H_8$ và butane $C_4H_{10}$). Viết 2 PTHH phản ứng cháy.
+    * **Câu 4:** Định nghĩa alkane, công thức chung $C_nH_{2n+2}$ ($n \ge 1$), ứng dụng làm nhiên liệu và nguyên liệu tổng hợp.
+    * **Câu 5:** Xác định CTPT của alkane X có $M = 44\text{ amu} \to 14n + 2 = 44 \Rightarrow n = 3 \Rightarrow C_3H_8$ (propane), viết CTCT $CH_3-CH_2-CH_3$. Đốt cháy và dẫn qua nước vôi trong dư: hiện tượng vẩn đục kết tủa trắng $CaCO_3$ kèm 2 PTHH.
+  - **C. MỘT SỐ CÂU HỎI TRẮC NGHIỆM THAM KHẢO:**
+    * **I. Trắc nghiệm nhiều lựa chọn (5 câu):**
+      + Câu 1: Chất không thuộc loại hợp chất hữu cơ: $CO_2$.
+      + Câu 2: Nhận diện CTPT từ CTCT khai triển: $C_4H_{10}$ (kèm hình ảnh vector 400 DPI siêu nét).
+      + Câu 3: Alkane ở thể khí ở điều kiện thường: Methane ($CH_4$).
+      + Câu 4: Đốt cháy 1 gam alkane nào tỏa nhiều nhiệt lượng nhất: Ethane ($52,33\text{ kJ/g} > 50,45 > 49,57 > 49,11$).
+      + Câu 5: Đếm số phát biểu đúng về CTPT và CTCT: 2 phát biểu đúng (1 và 2).
+    * **II. Trắc nghiệm Đúng - Sai (1 bài 4 lệnh hỏi):**
+      + Ngữ cảnh về ý nghĩa của công thức phân tử và công thức cấu tạo:
+        - a) CTPT của ethane là $CH_4$ $\to$ [SAI (S)].
+        - b) CTPT cho biết cách các nguyên tử liên kết với nhau $\to$ [SAI (S)].
+        - c) CTCT biểu diễn liên kết giữa các nguyên tử $\to$ [ĐÚNG (Đ)].
+        - d) Kết hợp cả CTPT và CTCT để hiểu rõ cấu trúc $\to$ [ĐÚNG (Đ)].
+- **Quy cách kỹ thuật:**
+  - Chuẩn mực tuyệt đối theo **FORM ĐỀ KIỂM TRA** (`GEMINI.md`): Khổ A4, lề 1.5 cm; Header & Footer màu đỏ san hô Coral Red (`#D32F2F`) & viền Xanh Sage Green (`#8BC390`), định danh Thầy TRẦN VĂN THẠNH - 0777.470.803, 2 cơ sở tại Huế, số trang tự động `PAGE`.
+  - **Tuyệt đối không dùng bảng (Table) trong nội dung đề thi**: Sử dụng Tab stops chuẩn Word; Lời giải chi tiết thụt lề 0.6cm với tiêu đề in đậm màu xanh lam `#1565C0`.
+  - Hình ảnh công thức cấu tạo butane được dựng bằng LaTeX TikZ vector độ phân giải cao 400 DPI (`khtn9_butane_structure.png`) chèn trang trọng, sắc nét.
+- **Sản phẩm xuất bản:**
+  1. `San_Pham/De_Cuong_KHTN_9_Hoa_Hoc_GK1_HocSinh.docx`: Bản Học sinh chuẩn mực, có bảng phân loại và dòng kẻ chấm làm bài tự luận.
+  2. `San_Pham/De_Cuong_KHTN_9_Hoa_Hoc_GK1_GiaoVien.docx`: Bản Giáo viên đầy đủ đáp án in đậm màu đỏ, lời giải chi tiết sư phạm từng câu hỏi.
+  3. `San_Pham/De_Cuong_KHTN_9_Hoa_Hoc_GK1_DayTrenManHinh.docx`: Bản Dạy trên màn hình cỡ chữ lớn (11.5pt), giãn dòng thoáng, có khung chừa chỗ trống tương tác màu tím nổi bật phục vụ giảng dạy máy chiếu / màn hình cảm ứng / tivi thông minh.
+- **Đồng bộ tự động:**
+  - Lưu trữ tại `c:\Antigravity_Thanh\San_Pham\`
+  - Sao chép trực tiếp vào thư mục OneDrive của Thầy: `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\KHTN9-PP-HOAHOC\` và `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\`
+
+
