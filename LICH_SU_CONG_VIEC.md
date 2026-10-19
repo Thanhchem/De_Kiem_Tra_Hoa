@@ -261,3 +261,54 @@ Hệ thống tự động theo dõi, chuyển đổi và quản lý toàn bộ c
   - Lưu trữ tại `c:\Antigravity_Thanh\San_Pham\`
   - Sao chép trực tiếp vào thư mục OneDrive của Thầy: `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn7\KHTN7-IN-DEKIEMTRADINHKI\New folder (2)\`, `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn7\KHTN7-IN-DEKIEMTRADINHKI\` và `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn7\`
   - Lưu file gốc vào `PDF_Goc/Khtn7-decuong-gk1-kimlong-2627.pdf`
+
+---
+
+### Đợt 50: Hoàn thành Chuyển đổi và Số hóa Đề Cương Ôn Tập Kiểm Tra Giữa Kì I - KHTN 6 (2026 - 2027) thành 3 Bản Word Chuẩn FORM ĐỀ KIỂM TRA
+
+- **Thời gian thực hiện:** 19/10/2026
+- **Tài liệu nguồn:** 6 trang tài liệu scan đề cương ôn tập KHTN 6 Giữa kì I năm học 2026 - 2027.
+- **Phạm vi kiến thức:**
+  - **1. PHÂN MÔN VẬT LÝ:**
+    * **I. Lý thuyết:**
+      + Câu 1: Đo chiều dài (đơn vị m, km, dm, cm, mm; dụng cụ; GHĐ và ĐCNN; 5 bước đo chiều dài).
+      + Câu 2: Đo khối lượng (khái niệm; đơn vị kg, tấn, tạ, yến, hg, dag, g, mg; quy đổi chuẩn 1 tấn = 1000 kg, 1 lạng = 1 hg = 100 g, 1 g = 1000 mg, 1 kg = 1000 g; các loại cân thông dụng).
+      + Câu 3: Đo thời gian (đơn vị s, min, h, ngày, ms; dụng cụ đo đồng hồ).
+    * **II. Trắc nghiệm nhiều lựa chọn (11 câu hỏi):**
+      + Câu 1 - Câu 11: Đơn vị đo độ dài SI, GHĐ của thước, phân biệt dụng cụ đo, bước đầu tiên khi đo độ dài (ước lượng), ĐCNN của thước, đơn vị khối lượng SI, dụng cụ đo khối lượng, bước đầu tiên khi dùng cân đồng hồ, đơn vị thời gian SI, dụng cụ đo thời gian, đồng hồ bấm giây trong thi đấu thể thao.
+    * **III. Trắc nghiệm trả lời ngắn (2 bài tập lớn gồm 8 lệnh hỏi):**
+      + Câu 1 (4 ý a, b, c, d): Thước thẳng 0 - 30 cm chia 5 khoảng/cm $\to$ ĐCNN = 2 mm; GHĐ = 0,3 m; quy tắc ghi kết quả đo bút bi 22,2 cm; chiều dài sách KHTN 6 vạch số 3 sau 22 cm = 22,6 cm.
+      + Câu 2 (4 ý a, b, c, d): Cân đồng hồ 2 kg chia 10 khoảng/100 g $\to$ ĐCNN = 0,01 kg (10 g); GHĐ = 2 kg; kết quả ghi sai quy tắc đo cam 855 g; khối lượng gói bánh vạch 7 sau 1,3 kg = 1,37 kg.
+    * **IV. Trắc nghiệm Đúng - Sai (2 bài tập ngữ cảnh gồm 8 lệnh hỏi):**
+      + Câu 1 (4 ý a, b, c, d): Đánh giá việc dùng thước thẳng 1m ĐCNN 1mm đo chiều dài bàn học 115,5 cm (phù hợp dụng cụ, quy tắc đọc, giải pháp thay thế thước cuộn, độ chính xác mi-li-mét).
+      + Câu 2 (4 ý a, b, c, d): Đánh giá việc dùng cân đồng hồ GHĐ 2kg ĐCNN 10g cân hộp bánh khối lượng tịnh 750g kim chỉ 760g (tính phù hợp, phân biệt khối lượng tịnh và khối lượng cả vỏ, sai số phép đo, quá tải bao gạo 2,5kg).
+    * **V. Tự luận (2 bài toán thực tế):**
+      + Câu 1: Ý nghĩa con số "500g" khối lượng tịnh trên gói bánh COSY; tính năng lượng nạp vào cơ thể khi ăn hết 500g (5000 cal hay 5 kcal).
+      + Câu 2: Ý nghĩa con số "100g" khối lượng tịnh gói bánh COSY; tính tổng khối lượng của thùng bánh gồm 20 gói và thùng giấy 200g ($m_{\text{tổng}} = 2,2\text{ kg}$).
+  - **2. PHÂN MÔN HOÁ HỌC:**
+    * Câu 1: Chất tạo nên vật thể, ở đâu có vật thể là ở đó có chất; phân loại vật sống - vật không sống, vật thể tự nhiên - vật thể nhân tạo kèm ví dụ thực tế.
+    * Câu 2: Tính chất vật lí và tính chất hóa học đặc trưng của chất kèm ví dụ minh họa (sự bay hơi của nước, đường cháy thành than).
+    * Câu 3: Đặc điểm (tính chất) cơ bản của 3 thể của chất (rắn, lỏng, khí) thông qua quan sát (hình dạng, thể tích, tính chảy, khả năng nén).
+    * Câu 4: Các khái niệm về sự chuyển thể của chất: sự nóng chảy, sự đông đặc, sự hóa hơi (bay hơi và sôi), sự ngưng tụ.
+    * Câu 5: Tính chất vật lí và vai trò của Oxygen (duy trì sự sống và sự cháy, trạng thái lỏng -183°C, rắn -218°C màu xanh nhạt).
+  - **3. PHÂN MÔN SINH HỌC:**
+    * **Chương I: Mở đầu:**
+      + Lý thuyết: Cách sử dụng, bảo quản dụng cụ học tập KHTN (kính lúp, kính hiển vi).
+      + Bài tập minh họa (BT1 - BT4): Bộ phận chỉnh ảnh rõ nét (ốc vi cấp); 2 bộ phận phóng đại chính (thị kính và vật kính); sử dụng và bảo quản kính lúp đúng cách; bộ phận đặt mắt nhìn mẫu vật (thị kính).
+    * **Chương V: Tế bào – Đơn vị cơ sở của sự sống:**
+      + Lý thuyết: Khái niệm, chức năng tế bào, cấu tạo 3 thành phần chính (màng tế bào, chất tế bào, nhân), phân biệt tế bào động vật - thực vật, nhân sơ - nhân thực, sự lớn lên và phân chia tế bào ($1 \to 2 \to 4 \to \dots \to 2^n$).
+      + Bài tập minh họa (BT1 - BT4): Giải thích hình dạng đa giác cố định của tế bào vảy hành (có thành cellulose) so với hình cầu tách rời của tế bào trứng cá (không có thành tế bào); sự đa dạng kích thước tế bào và dụng cụ quan sát (kính hiển vi, kính lúp); hình dạng tế bào thích nghi với chức năng kèm 2 ví dụ (hồng cầu, nơ-ron); kể tên các dạng tế bào.
+    * **Chương VI: Từ tế bào đến cơ thể:**
+      + Lý thuyết: Khái niệm cơ thể đơn bào và cơ thể đa bào, ví dụ minh họa; quan sát và vẽ hình cơ thể đơn bào.
+      + Bài tập minh họa (BT1 - BT2): Phân loại E.coli (nhân sơ), vảy hành (nhân thực), trứng cá (nhân thực); chỉ ra các thành phần cấu tạo cơ thể trùng roi xanh (màng tế bào, chất tế bào, nhân, hạt diệp lục, điểm mắt, roi bơi, không bào co bóp).
+- **Quy cách kỹ thuật:**
+  - Chuẩn mực tuyệt đối theo **FORM ĐỀ KIỂM TRA** (`GEMINI.md`): Khổ A4, lề 1.5 cm; Header & Footer màu đỏ san hô Coral Red (`#D32F2F`) & viền Xanh Sage Green (`#8BC390`), định danh Thầy TRẦN VĂN THẠNH - 0777.470.803, 2 cơ sở tại Huế, số trang tự động `PAGE`.
+  - **Tuyệt đối không dùng bảng (Table) trong nội dung đề thi**: Sử dụng Tab stops chuẩn Word; Lời giải chi tiết thụt lề 0.6cm với tiêu đề in đậm màu xanh lam `#1565C0`.
+- **Sản phẩm xuất bản:**
+  1. `San_Pham/De_Cuong_KHTN_6_On_Tap_GK1_HocSinh.docx`: Bản Học sinh chuẩn mực, có dòng kẻ chấm làm bài cho phần tự luận và điền đáp án ngắn.
+  2. `San_Pham/De_Cuong_KHTN_6_On_Tap_GK1_GiaoVien.docx`: Bản Giáo viên đầy đủ đáp án in đậm màu đỏ, lời giải chi tiết sư phạm từng câu hỏi.
+  3. `San_Pham/De_Cuong_KHTN_6_On_Tap_GK1_DayTrenManHinh.docx`: Bản Dạy trên màn hình cỡ chữ lớn (11.5pt), giãn dòng thoáng, có khung chừa chỗ trống tương tác màu tím nổi bật phục vụ giảng dạy máy chiếu / màn hình cảm ứng / tivi thông minh.
+- **Đồng bộ tự động:**
+  - Lưu trữ tại `c:\Antigravity_Thanh\San_Pham\`
+  - Sao chép trực tiếp vào thư mục OneDrive của Thầy: `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn6\KHTN6-DEKIEMTRADINHKI\New folder\`, `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn6\KHTN6-DEKIEMTRADINHKI\` và `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn6\`
+
