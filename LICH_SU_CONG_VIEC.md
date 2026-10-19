@@ -174,3 +174,42 @@ Hệ thống tự động theo dõi, chuyển đổi và quản lý toàn bộ c
   - Lưu trữ tại `c:\Antigravity_Thanh\San_Pham\`
   - Sao chép trực tiếp vào thư mục OneDrive của Thầy: `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn7\KHTN7-IN-DEKIEMTRADINHKI\New folder\` và `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn7\KHTN7-IN-DEKIEMTRADINHKI\`
   - Lưu file gốc vào `PDF_Goc/De_Cuong_KHTN7_GK1_MinhKhai.pdf`
+
+---
+
+### Đợt 48: Hoàn thành Chuyển đổi và Soạn thảo Trọn bộ Đề Cương Ôn Tập Giữa Kì I - KHTN 6 Trường THCS Kim Long (2026 - 2027)
+
+- **Thời gian thực hiện:** 19/10/2026
+- **Tài liệu nguồn:** `Khtn6-decuong-gk1-kimlong-2627.pdf` (14 trang đề cương ảnh scan trường THCS Kim Long).
+- **Phạm vi kiến thức:**
+  - **A. PHẦN CHUNG:**
+    * I. Lí thuyết & II. Bài tập: Từ Bài 1 (Giới thiệu về KHTN) đến Bài 8 (Đo nhiệt độ).
+    * III. Bài tập thêm:
+      + 1. Trắc nghiệm nhiều lựa chọn (28 câu hỏi): Dụng cụ, an toàn phòng thực hành, kính lúp, kính hiển vi, phép đo chiều dài, khối lượng, thời gian, nhiệt độ.
+      + 2. Câu trả lời đúng - sai (8 câu hỏi, mỗi câu 4 ý a, b, c, d = 32 lệnh hỏi): Quy định an toàn phòng thực hành, lựa chọn dụng cụ đo độ dài, khối lượng, thời gian, nhiệt độ.
+      + 3. Câu trả lời ngắn (9 câu hỏi): Đọc độ dài bút chì trên thước, đổi đơn vị dặm sang km, quy đổi lạng sang gam, đếm nhận định đúng, thân nhiệt, kích thước màn hình tivi 50 inch, ĐCNN đòn cân phụ Roberval, tính tổng khối lượng hoa quả, đóng gói bánh kẹo.
+      + 4. Tự luận (11 bài toán định lượng và giải thích thực tế): Đổi đơn vị độ dài, khối lượng, thời gian, so sánh chiều cao học sinh, tính đường kính sợi chỉ quấn bút chì, chọn đồng hồ đo thời gian, bài toán cân đĩa thăng bằng, tính thời gian ô tô đi đường và xe ngoại khóa Củ Chi, giải thích giới hạn đo nhiệt kế y tế 34°C - 42°C.
+  - **B. PHẦN RIÊNG:**
+    * **I. PHÂN MÔN VẬT LÍ:**
+      + I. Lí thuyết & II. Bài tập: Bài 40 (Lực là gì?) đến Bài 41 (Biểu diễn lực).
+      + III. Bài tập thêm: 16 câu trắc nghiệm nhiều lựa chọn, 3 câu trắc nghiệm đúng - sai, 1 bài điền từ vào chỗ trống (lực nén, lực kéo, lực đẩy), 1 câu tự luận về tác dụng làm biến dạng của lực.
+    * **II. PHÂN MÔN HOÁ HỌC:**
+      + 1. Nội dung ôn tập: Bài 9 (Sự đa dạng của chất), Bài 10 (Các thể của chất và sự chuyển thể).
+      + 2. Trắc nghiệm: 24 câu trắc nghiệm nhiều lựa chọn, 6 câu trắc nghiệm đúng - sai, 4 câu trả lời ngắn.
+      + III. Tự luận: 4 bài tập phân loại chất và vật thể, điền từ về sự nóng chảy/đông đặc, giải thích và rút ra kết luận về nhiệt độ nóng chảy của nhựa đường từ hiện tượng mặt đường ở Ấn Độ mùa hè > 50°C.
+    * **III. PHÂN MÔN SINH HỌC:**
+      + Phạm vi kiến thức: Bài 18 (Tế bào - Đơn vị cơ bản của sự sống), Bài 19 (Cấu tạo và chức năng các thành phần của tế bào), Bài 20 (Sự lớn lên và sinh sản của tế bào).
+      + A. Trắc nghiệm khách quan: 20 câu trắc nghiệm nhiều lựa chọn, 6 câu trắc nghiệm đúng - sai, 15 câu trả lời ngắn.
+      + B. Câu hỏi tự luận: 6 câu tự luận chuyên sâu về cấu tạo, chức năng, phân biệt tế bào nhân sơ - nhân thực, tế bào thực vật - động vật, quá trình lớn lên và phân chia tế bào, tính số lượng tế bào sau nhiều lần phân chia (N = a × 2^n).
+- **Quy cách kỹ thuật:**
+  - Chuẩn mực tuyệt đối theo **FORM ĐỀ KIỂM TRA** (`GEMINI.md`): Khổ A4, lề 1.5 cm; Header & Footer màu Đỏ san hô Coral Red (`#D32F2F`) & viền Xanh Sage Green (`#8BC390`), định danh Thầy TRẦN VĂN THẠNH - 0777.470.803, 2 cơ sở tại Huế, số trang tự động `PAGE`.
+  - **Tuyệt đối không dùng bảng (Table) trong nội dung đề thi**: Sử dụng Tab stops chuẩn Word; Lời giải chi tiết thụt lề 0.6cm với tiêu đề in đậm màu xanh lam `#1565C0`.
+  - Hình ảnh thí nghiệm, dụng cụ đo được cắt trích xuất độ phân giải cao và chèn trực quan, cân đối: Thước đo (Câu 15), Bút chì (Câu 1), Đòn cân phụ Roberval (Câu 7), Nhựa đường nóng chảy ở Ấn Độ (Câu 4 Hóa học).
+- **Sản phẩm xuất bản:**
+  1. `San_Pham/De_Cuong_KHTN_6_Giua_HK1_Kim_Long_HocSinh.docx`: Bản Học sinh chuẩn mực, có dòng kẻ chấm làm bài cho phần tự luận và điền đáp án ngắn.
+  2. `San_Pham/De_Cuong_KHTN_6_Giua_HK1_Kim_Long_GiaoVien.docx`: Bản Giáo viên đầy đủ đáp án in đậm màu đỏ, lời giải chi tiết sư phạm từng câu hỏi.
+  3. `San_Pham/De_Cuong_KHTN_6_Giua_HK1_Kim_Long_DayTrenManHinh.docx`: Bản Dạy trên màn hình có khung chừa chỗ trống tương tác màu tím nổi bật phục vụ giảng dạy máy chiếu / màn hình cảm ứng / tivi thông minh.
+- **Đồng bộ tự động:**
+  - Lưu trữ tại `c:\Antigravity_Thanh\San_Pham\`
+  - Sao chép trực tiếp vào thư mục OneDrive của Thầy: `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn6\KHTN6-DEKIEMTRADINHKI\New folder\` và `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn6\`
+  - Lưu file gốc vào `PDF_Goc/Khtn6-decuong-gk1-kimlong-2627.pdf`
