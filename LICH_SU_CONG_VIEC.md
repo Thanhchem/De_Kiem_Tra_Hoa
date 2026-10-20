@@ -480,3 +480,25 @@ Hệ thống tự động theo dõi, chuyển đổi và quản lý toàn bộ c
   2. `San_Pham/De_Cuong_KHTN_8_Giua_HK1_AnNhien_GiaoVien.docx` & `.pdf`: Bản Giáo viên đầy đủ đáp án & giải chi tiết, có bảng tổng hợp đáp án trắc nghiệm ở cuối.
   3. `San_Pham/De_Cuong_KHTN_8_Giua_HK1_AnNhien_DayTrenManHinh.docx` & `.pdf`: Bản Dạy Trên Màn Hình có khung chừa chỗ trống tương tác viền tím.
   - Tự động sao lưu vào OneDrive: `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn8\KHTN8-IN-DEKIEMTRADINHKI` và `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn8`.
+
+
+---
+
+### Đợt 55: Hoàn thành Bản Mẫu 1 File PDF Khổ A5 Nằm Ngang Trình Chiếu Tivi 65 Inch -- ĐỀ ÔN TẬP SỐ 01 (Hóa học 12: Chương 1, 2, 3)
+
+- **Thời gian thực hiện:** 21/10/2026
+- **Tài liệu nguồn:** `10-de-on-tap-C123.pdf` (ĐỀ ÔN TẬP CHƯƠNG 1, 2, 3 - NĂM HỌC 2026 - 2027) - Biên soạn mẫu hoàn chỉnh cho **ĐỀ SỐ 01**.
+- **Yêu cầu kỹ thuật theo chỉ đạo của Thầy Thạnh:**
+  - **Duy nhất 1 file PDF:** Không tạo nhiều file con, không tạo Word, chỉ xuất đúng 1 file PDF chuyên dụng.
+  - **Khổ A5 NẰM NGANG (Landscape: $210\text{ mm} \times 148\text{ mm}$):** Tối ưu 100% tỉ lệ khung hình màn hình Tivi lớn (như Tivi 65 inch trong lớp học).
+  - **Cỡ chữ lớn 14 pt (`extarticle`):** Chữ to, đậm, rõ nét, học sinh ngồi xa 6 - 8 m vẫn đọc rõ từng công thức hóa học ($\text{C}_{17}\text{H}_{33}\text{COOK}, \text{CH}_3\text{COOCH}=\text{CH}_2, \beta\text{-1,4-glycoside}$).
+  - **Quy tắc phân bố slide thông minh:**
+    + Trắc nghiệm ngắn Phần I: Ghép chuẩn 2 câu / slide trong các hộp màu xanh viền bo góc hiện đại.
+    + Trắc nghiệm Đúng/Sai Phần II: Trình bày trọn vẹn 1 câu / slide (gồm 4 ý a, b, c, d có ô vuông $\square$ để tương tác).
+    + Trắc nghiệm Trả lời ngắn Phần III: 2 câu / slide, có dòng chấm chấm điền đáp số.
+    + **Tuyệt đối KHÔNG Header, KHÔNG Footer:** Dành toàn bộ không gian cho nội dung câu hỏi.
+  - **Chế độ hiển thị:** Các slide câu hỏi chỉ chiếu đề bài (không hiện trước đáp án để học sinh cùng suy nghĩ, tương tác làm bài).
+  - **Slide BẢNG ĐÁP ÁN ở cuối:** Slide số 18 tổng hợp trọn vẹn bảng đáp án Phần I (18 câu), Phần II (Câu 1-4) và Phần III (Câu 1-6).
+- **Sản phẩm xuất bản & lưu trữ:**
+  - `San_Pham/De_On_Tap_Hoa_12_De01_A5_NAM_NGANG_TrinhChieu_Tivi.pdf`
+  - Đồng bộ tự động sang OneDrive: `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\12\De_On_Tap_Hoa_12_De01_A5_NAM_NGANG_TrinhChieu_Tivi.pdf`
