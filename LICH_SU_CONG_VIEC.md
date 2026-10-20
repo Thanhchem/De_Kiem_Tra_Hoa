@@ -402,3 +402,43 @@ Hệ thống tự động theo dõi, chuyển đổi và quản lý toàn bộ c
 - **Đồng bộ tự động:**
   - Lưu trữ tại `c:\Antigravity_Thanh\San_Pham\`
   - Sao chép trực tiếp vào thư mục OneDrive của Thầy: `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\GK1\12-gk1\` và `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\12\`
+
+
+---
+
+### Đợt 53: Hoàn thành Số hóa và Chuyển đổi Hướng dẫn Ôn tập Giữa kì I - Môn KHTN 8 (Trường THCS Kim Long - UBND Phường Kim Long) thành Trọn bộ 3 Bản Word & 3 Bản PDF Chuẩn FORM ĐỀ KIỂM TRA
+
+- **Thời gian thực hiện:** 20/10/2026
+- **Tài liệu nguồn:** HƯỚNG DẪN ÔN TẬP GIỮA KÌ I - MÔN: KHOA HỌC TỰ NHIÊN 8 - TRƯỜNG THCS KIM LONG (UBND PHƯỜNG KIM LONG) - Toàn bộ 8 trang scan chất lượng cao.
+- **Nội dung & Phân môn bao quát toàn diện:**
+  - **PHÂN MÔN KHTN 1 (Hóa học):**
+    * *A/ Lý thuyết trọng tâm:* Bài 2 (Phản ứng hoá học, dấu hiệu, phản ứng tỏa nhiệt / thu nhiệt); Bài 3 (Mol, khối lượng mol M, thể tích mol chất khí 24,79 L, tỉ khối chất khí); Bài 4 (Dung dịch, nồng độ phần trăm C%, nồng độ mol C~M~); Bài 5 (Định luật bảo toàn khối lượng, các bước lập và ý nghĩa của PTHH).
+    * *B/ Bài tập ôn tập:*
+      - I/ Trắc nghiệm nhiều lựa chọn: 15 câu chuẩn kiến thức.
+      - II/ Trắc nghiệm đúng - sai: 3 chùm câu hỏi (12 ý đánh giá định tính & định lượng bảo toàn khối lượng, số nguyên tử).
+      - III/ Trắc nghiệm trả lời ngắn: 4 câu (quá trình biến đổi hóa học paraffin, đếm số hiện tượng hóa học, tính khối lượng theo ĐLBTKL, tính số mol nước kết tinh tách ra).
+      - IV/ Phần tự luận: 5 câu (tính số hạt vi mô theo số Avogadro, so sánh tỉ khối của các khí với không khí, tính C% và C~M~, lập PTHH và chỉ rõ chất tham gia/sản phẩm, cân bằng PTHH và nêu ý nghĩa tỉ lệ nguyên tử/phân tử).
+  - **PHÂN MÔN KHTN 2 (Vật lí):**
+    * *A. Lý thuyết trọng tâm:* Sử dụng dụng cụ đo (thể tích, khối lượng, nhiệt độ, thời gian, chiều dài); Khối lượng riêng (*D = m / V*); Áp suất (*p = F / S*), cách tăng giảm áp suất; Áp suất chất lỏng (*p = d × h*) và áp suất khí quyển; Lực đẩy Archimedes (*F~A~ = d × V*), điều kiện chìm nổi (*P > F~A~, P = F~A~, P < F~A~*).
+    * *B. Bài tập:*
+      - I. Trắc nghiệm nhiều lựa chọn: 15 câu bao quát toàn bộ lý thuyết và bài tập áp suất, lực đẩy Archimedes, đo thể tích bằng bình tràn.
+      - II. Trắc nghiệm đúng - sai: 3 chùm câu hỏi (12 ý về đo lường, khối lượng riêng, đặc điểm lực đẩy Archimedes và áp suất chất lỏng).
+      - III. Trắc nghiệm trả lời ngắn: 3 câu (tính khối lượng riêng của đá, áp suất của xe tăng lên mặt đất, lực đẩy Archimedes tác dụng lên quả cầu).
+      - IV. Phần tự luận: 4 câu (tính m và V của nhôm; giải thích hiện tượng áp suất thực tế: móng nhà rộng bản, đầu kim khâu nhọn / dao mài sắc, bộ đồ lặn chuyên dụng chịu áp suất cao; tính V và F~A~ của khối nhôm chìm trong nước; tính F~A~ và thể tích chiếm chỗ từ số chỉ lực kế).
+  - **PHÂN MÔN KHTN 3 (Sinh học):**
+    * *Phần I. Trắc nghiệm nhiều phương án lựa chọn:* 10 câu (sự phối hợp các hệ cơ quan khi chạy bộ, chức năng hệ thần kinh, cơ thể người là khối thống nhất, thành phần hệ vận động, chức năng xương, khớp, quá trình dinh dưỡng, chức năng hệ tiêu hóa, tiêu hóa bằng dịch vị dạ dày, chức năng ruột già).
+    * *Phần II. Trắc nghiệm đúng sai:* 3 câu đánh giá vai trò xương, cơ, khớp.
+    * *Phần III. Trắc nghiệm trả lời ngắn:* 9 câu chuẩn kiến thức (các thành phần hệ vận động, chức năng của xương, khớp, cơ, số lượng xương ở người, lợi ích của TDTT, lí do cố định xương gãy, vai trò của ruột non, vai trò của nước trong dinh dưỡng).
+    * *Phần IV. Tự luận:* 4 câu sư phạm chất lượng cao (giải thích tầm quan trọng của ăn uống đủ chất và cân đối các nhóm dinh dưỡng; mô tả chi tiết quá trình tiêu hóa thức ăn từ khoang miệng đến ruột non; hậu quả của rối loạn tiêu hóa tại ruột non đối với toàn cơ thể; vai trò thiết yếu của việc uống đủ nước hàng ngày).
+- **Quy cách kỹ thuật theo FORM ĐỀ KIỂM TRA:**
+  - Khổ giấy A4, Margins: Top = Bottom = Left = Right = 1.5 cm; Header & Footer cách mép 0.6 cm.
+  - Header & Footer chuẩn: Màu đỏ san hô Coral Red (`#D32F2F`), đường viền Sage Green (`#8BC390`), tên `Thầy TRẦN VĂN THẠNH - 0777.470.803`, số trang tự động `PAGE`.
+  - **Tuyệt đối không dùng Table trong nội dung đề thi**: Các phương án A, B, C, D được định dạng bằng Tab stops chuẩn; Lời giải chi tiết thụt lề 0.6 cm có tiêu đề in đậm màu xanh `#1565C0`.
+  - Định dạng triệt để chỉ số dưới (Subscript: H~2~O, CO~2~, Fe~2~O~3~...) và chỉ số trên (Superscript: 10^23^, m^2^, m^3^...).
+- **Bộ sản phẩm hoàn chỉnh bàn giao:**
+  1. `San_Pham/De_Cuong_KHTN_8_Giua_HK1_Kim_Long_HocSinh.docx` & `.pdf`: Bản Học sinh chuẩn đề cương, bố cục thoáng, có dòng kẻ chấm làm bài.
+  2. `San_Pham/De_Cuong_KHTN_8_Giua_HK1_Kim_Long_GiaoVien.docx` & `.pdf`: Bản Giáo viên có đáp án nổi bật màu đỏ, lời giải chi tiết sư phạm cho từng câu và Bảng tổng hợp đáp án trắc nghiệm nhanh ở cuối.
+  3. `San_Pham/De_Cuong_KHTN_8_Giua_HK1_Kim_Long_DayTrenManHinh.docx` & `.pdf`: Bản Dạy Trên Màn Hình có khung chừa chỗ trống tương tác viền nét đứt và viền tím nổi bật, tối ưu cho việc trình chiếu trên Tivi cảm ứng / máy chiếu / viết trực tiếp khi giảng bài.
+- **Sao lưu tự động vào OneDrive:**
+  - `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn8\KHTN8-IN-DEKIEMTRADINHKI\`
+  - `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn8\`
