@@ -442,3 +442,41 @@ Hệ thống tự động theo dõi, chuyển đổi và quản lý toàn bộ c
 - **Sao lưu tự động vào OneDrive:**
   - `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn8\KHTN8-IN-DEKIEMTRADINHKI\`
   - `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn8\`
+
+
+---
+
+### Đợt 54: Hoàn thành Số hóa và Chuyển đổi Hướng dẫn Ôn tập Giữa học kì 1 - Môn KHTN 8 (Lớp 8/9 - An Nhiên) thành Trọn bộ 3 Bản Word & 3 Bản PDF Chuẩn FORM ĐỀ KIỂM TRA
+
+- **Thời gian thực hiện:** 20/10/2026
+- **Tài liệu nguồn:** HƯỚNG DẪN ÔN TẬP GIỮA HỌC KÌ 1 NĂM HỌC 2026 - 2027 - MÔN: KHOA HỌC TỰ NHIÊN - LỚP 8 (Lớp 8/9 - An Nhiên) - 6 trang tài liệu.
+- **Nội dung & Phân môn bao quát toàn diện:**
+  - **A. PHẦN MỞ ĐẦU:** Sử dụng hoá chất, thiết bị cơ bản trong phòng thí nghiệm; Quy tắc sử dụng an toàn hoá chất; Giới thiệu dụng cụ và thiết bị đo.
+  - **B. PHÂN MÔN KHTN 1 (HOÁ HỌC):**
+    * *Lý thuyết:* Chuyển đổi số mol - khối lượng ($m = n \times M$); Chuyển đổi số mol - thể tích khí ở điều kiện chuẩn ($25^\circ\text{C}, 1\text{ bar}$: $V = n \times 24,79$); Tỉ khối chất khí ($d_{A/B}, d_{A/\text{kk}}$); Độ tan $S$; Nồng độ phần trăm $C\%$; Nồng độ mol $C_M$.
+    * *Bài tập:*
+      - 1) Trắc nghiệm khách quan nhiều lựa chọn: 10 câu (Câu 1 đến Câu 10).
+      - 2) Trắc nghiệm khách quan đúng – sai: 2 chùm câu (8 ý đánh giá quá trình biến đổi nước, đốt Mg, thể tích mol chất khí ở đkc).
+      - 3) Trắc nghiệm khách quan trả lời ngắn: 4 câu (tính $m_{\text{CO}_2}$, tính thể tích $\text{N}_2$ đkc, tính số mol $\text{O}_2$ trong bình kín, tính thể tích đkc hỗn hợp khí $\text{CO}_2 + \text{O}_2$).
+      - 4) Câu hỏi tự luận: 6 câu (tính khối lượng hỗn hợp $\text{NaCl} + \text{CuSO}_4$, thể tích khí $\text{CH}_4$ và hỗn hợp $\text{CO} + \text{CO}_2$ ở đkc; tính số mol từ hạt vi mô K, $\text{SO}_2$; trình bày cách pha chế 250 g dung dịch $\text{NaCl } 20\%$; tính $C\%$ của $\text{KCl}$; tính độ tan $S$ của muối X; tính $C_M$ của $\text{Na}_2\text{CO}_3$).
+  - **C. PHÂN MÔN KHTN 2 (VẬT LÍ):**
+    * *Lý thuyết:* Khối lượng riêng $D = m / V$; Các bước xác định $D$ của vật hình hộp chữ nhật, lượng chất lỏng, vật rắn hình dạng bất kì không thấm nước (sỏi); Áp lực, áp suất $p = F / S$; Cách tăng và giảm áp suất.
+    * *Bài tập:*
+      - 1) Trắc nghiệm nhiều lựa chọn: 5 câu (đơn vị khối lượng riêng, định nghĩa áp lực, cách tăng giảm áp suất không đúng, thứ tự thí nghiệm đo $D$ của nước, ứng dụng giảm áp suất cột đình làng).
+      - 2) Trả lời ngắn: 1 câu (sắp xếp đúng thứ tự các bước đo $D$ vật hình hộp chữ nhật: d - a - b - c).
+      - 3) Tự luận: 3 câu lớn (tính khối lượng nước trong bể $80 \times 20 \times 25\text{ cm}$; tính khối lượng riêng sữa Ông Thọ theo $\text{kg/m}^3$; tính khối lượng khối đá $500\text{ dm}^3$; định nghĩa áp suất; đề xuất và giải thích phương án vót nhọn cọc đóng xuống đất; giải thích hiện tượng nằm nệm êm ái hơn nằm phản gỗ).
+  - **D. PHÂN MÔN KHTN 3 (SINH HỌC):**
+    * *Lý thuyết:* Khái quát cơ thể người; Hệ vận động; Dinh dưỡng và tiêu hoá; An toàn vệ sinh thực phẩm; Máu và hệ tuần hoàn (hệ nhóm máu ABO, nguyên tắc truyền máu, kèm hình ảnh minh hoạ sơ đồ truyền máu chuẩn vector độ nét cao `so_do_truyen_mau.png`); Hệ hô hấp ở người.
+    * *Bài tập:*
+      - 1) Trắc nghiệm nhiều lựa chọn: 8 câu (hệ bài tiết, cơ quan hệ thần kinh, ống tiêu hoá, cấu tạo hệ tuần hoàn, vai trò điều khiển của hệ thần kinh, bảo vệ đường hô hấp khi nhiều khói bụi, nơi diễn ra trao đổi khí hai lá phổi, cơ quan đường dẫn khí).
+      - 2) Trắc nghiệm khách quan đúng – sai: 1 chùm câu 5 ý (máu, bạch cầu, huyết tương và tiểu cầu, quy tắc truyền máu nhóm AB, ý nghĩa hiến máu nhân đạo).
+      - 3) Trả lời câu hỏi (Tự luận ngắn): 4 câu (2 biện pháp ăn uống giảm đau dạ dày do ăn nhanh và đồ chua cay; 2 biện pháp phòng sâu răng; 2 thói quen xấu gây cong vẹo cột sống học sinh; biện pháp lựa chọn, bảo quản, chế biến, chế độ ăn uống an toàn).
+- **Quy cách kỹ thuật theo FORM ĐỀ KIỂM TRA:**
+  - Khổ A4, lề 1.5 cm; Header & Footer chuẩn màu đỏ san hô Coral Red (`#D32F2F`) - viền Sage Green (`#8BC390`), tên Thầy `TRẦN VĂN THẠNH - 0777.470.803`, số trang tự động `PAGE`.
+  - Không dùng bảng (Table) trong phương án trắc nghiệm; định dạng Tab stops chuẩn; lời giải chi tiết thụt lề 0.6 cm.
+  - Tự động vẽ và chèn hình ảnh độ nét cao sơ đồ truyền máu ở người vào tài liệu.
+- **Sản phẩm xuất bản & sao lưu:**
+  1. `San_Pham/De_Cuong_KHTN_8_Giua_HK1_AnNhien_HocSinh.docx` & `.pdf`: Bản Học sinh.
+  2. `San_Pham/De_Cuong_KHTN_8_Giua_HK1_AnNhien_GiaoVien.docx` & `.pdf`: Bản Giáo viên đầy đủ đáp án & giải chi tiết, có bảng tổng hợp đáp án trắc nghiệm ở cuối.
+  3. `San_Pham/De_Cuong_KHTN_8_Giua_HK1_AnNhien_DayTrenManHinh.docx` & `.pdf`: Bản Dạy Trên Màn Hình có khung chừa chỗ trống tương tác viền tím.
+  - Tự động sao lưu vào OneDrive: `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn8\KHTN8-IN-DEKIEMTRADINHKI` và `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn8`.
