@@ -128,4 +128,39 @@ Khi xử lý đề thi hoặc câu hỏi có liên quan đến các cấu trúc 
   - Ảnh tài nguyên chung: `San_Pham/images_khtn8/khtn8_wrenches.png`
 - **Mã nguồn vẽ (TikZ):** Xem tại `San_Pham/Thi_Nghiem_Co_Le_Bu_Long/thi_nghiem_co_le_bu_long.tex`.
 
+---
+
+## 5. QUY CHUẨN FILE PDF TRÌNH CHIẾU TIVI 65 INCH (FORM CHIẾU TIVI 16:9)
+
+Khi người dùng yêu cầu file PDF **trình chiếu Tivi**, AI bắt buộc áp dụng chính xác bộ quy chuẩn này:
+
+### 5.1. Kích thước & Tỉ lệ (Khắc phục triệt để viền đen)
+- **Tỉ lệ 16:9 Widescreen:** `paperwidth=29.7cm, paperheight=16.706cm`.
+- **Căn lề:** `top=1.0cm, bottom=1.0cm, left=1.2cm, right=1.2cm`.
+- **Loại bỏ Header/Footer:** `headheight=0pt, headsep=0pt, footskip=0pt`, `\pagestyle{empty}`.
+- **Hiển thị:** Mở toàn màn hình (`Ctrl+L`) trên Tivi 65 inch ($1920\times 1080$) tràn viền $100\%$, không có bất kỳ dải viền đen nào.
+
+### 5.2. Phong cách thiết kế
+- **Tuyệt đối KHÔNG DÙNG KHUNG (No boxes / No borders / No tcolorbox).**
+- **Nền trắng tinh (#FFFFFF), chữ đen tuyền (#000000), font Times New Roman.**
+- **Không chèn tiêu đề rườm rà trên slide câu hỏi:** Để dành toàn bộ chiều cao cho câu hỏi và khoảng trống giảng bài.
+- Nhãn câu hỏi in đậm: `\textbf{Câu X.}`.
+
+### 5.3. Phân bổ slide & Cỡ chữ chuẩn
+- **Phần I (Trắc nghiệm nhiều lựa chọn):**
+  - **2 câu / 1 slide.**
+  - Cỡ chữ: **25.5pt - 26pt** (`\fontsize{25.5}{33.5}\selectfont`).
+  - Dãn cách giữa 2 câu bằng `\vspace*{\fill}` để dàn đều toàn bộ chiều cao màn hình.
+  - 4 phương án xếp 2 cột bằng `tabularx`, nhãn in đậm `\textbf{A.}`, khoảng cách hàng `\\[8pt]`.
+- **Phần II (Trắc nghiệm Đúng / Sai):**
+  - **1 câu / 1 slide.**
+  - Cỡ chữ: **25.5pt**. 4 ý a), b), c), d) rõ ràng kèm ô trống `[\quad]` bên phải.
+- **Phần III (Trắc nghiệm Trả lời ngắn):**
+  - **1 câu / 1 slide.**
+  - Cỡ chữ: **32pt** (`\fontsize{32}{42}\selectfont`).
+  - Dòng trả lời: `\textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$`.
+  - Phía dưới để trống $50\% - 60\%$ màn hình cho giáo viên tương tác/chữa bài trên Tivi.
+- **Slide Bảng đáp án:** Đặt ở cuối mỗi đề thi, trình bày bảng đáp án chuẩn rõ ràng.
+
+
 
