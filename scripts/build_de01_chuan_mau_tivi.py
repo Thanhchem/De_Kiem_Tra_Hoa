@@ -58,7 +58,7 @@ latex_content = r"""\documentclass{article}
 \definecolor{ansRed}{RGB}{198, 40, 40}
 
 \begin{document}
-\fontsize{25.5}{33.5}\selectfont
+\fontsize{30}{39}\selectfont
 
 % ==============================================================================
 % SLIDE 1: CÂU 1 & CÂU 2
@@ -270,6 +270,7 @@ latex_content = r"""\documentclass{article}
 % ==============================================================================
 % SLIDE 10: PHẦN II - CÂU 1
 % ==============================================================================
+\fontsize{26}{34}\selectfont
 \textbf{Câu 1 (Đúng/Sai).} Về cấu tạo và tính chất của chất béo Trilinolein $(\text{C}_{17}\text{H}_{31}\text{COO})_3\text{C}_3\text{H}_5$:
 \vspace{14pt}
 

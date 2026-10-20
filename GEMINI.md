@@ -149,12 +149,12 @@ Khi người dùng yêu cầu file PDF **trình chiếu Tivi**, AI bắt buộc 
 ### 5.3. Phân bổ slide & Cỡ chữ chuẩn
 - **Phần I (Trắc nghiệm nhiều lựa chọn):**
   - **2 câu / 1 slide.**
-  - Cỡ chữ: **25.5pt - 26pt** (`\fontsize{25.5}{33.5}\selectfont`).
+  - Cỡ chữ: **30pt** (`\fontsize{30}{39}\selectfont`).
   - Dãn cách giữa 2 câu bằng `\vspace*{\fill}` để dàn đều toàn bộ chiều cao màn hình.
   - 4 phương án xếp 2 cột bằng `tabularx`, nhãn in đậm `\textbf{A.}`, khoảng cách hàng `\\[8pt]`.
 - **Phần II (Trắc nghiệm Đúng / Sai):**
   - **1 câu / 1 slide.**
-  - Cỡ chữ: **25.5pt**. 4 ý a), b), c), d) rõ ràng kèm ô trống `[\quad]` bên phải.
+  - Cỡ chữ: **26pt** (`\fontsize{26}{34}\selectfont`). 4 ý a), b), c), d) rõ ràng kèm ô trống `[\quad]` bên phải.
 - **Phần III (Trắc nghiệm Trả lời ngắn):**
   - **1 câu / 1 slide.**
   - Cỡ chữ: **32pt** (`\fontsize{32}{42}\selectfont`).
