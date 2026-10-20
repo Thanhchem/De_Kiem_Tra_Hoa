@@ -353,4 +353,52 @@ Hệ thống tự động theo dõi, chuyển đổi và quản lý toàn bộ c
   - Lưu trữ tại `c:\Antigravity_Thanh\San_Pham\`
   - Sao chép trực tiếp vào thư mục OneDrive của Thầy: `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\KHTN9-PP-HOAHOC\` và `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\`
 
+---
 
+### Đợt 52: Hoàn thành Chuyển đổi và Số hóa Đề Kiểm Tra Định Kỳ Giữa Học Kỳ I - Hoá Học 12 (Năm học 2025 - 2026 - Mã Đề: 638) thành Trọn Bộ 3 Bản Word & 3 Bản PDF Chuẩn FORM ĐỀ KIỂM TRA
+
+- **Thời gian thực hiện:** 20/10/2026
+- **Tài liệu nguồn:** Đề kiểm tra định kỳ Giữa học kỳ I - Môn Hoá học; Khối: 12 - Mã đề: 638 (Năm học 2025 - 2026).
+- **Phạm vi kiến thức & Cấu trúc chuẩn Đề thi Tốt nghiệp THPT / GDPT 2018:**
+  - **PHẦN I: Trắc nghiệm nhiều lựa chọn (18 câu hỏi = 4,5 điểm):**
+    * Câu 1: Phổ khối lượng (MS) peak ion phân tử $m/z = 60 \to$ Methyl formate ($HCOOCH_3$).
+    * Câu 2: Phân loại amine bậc hai: $CH_3NHCH_2CH_3$.
+    * Câu 3: Nhận biết hồ tinh bột bằng dung dịch iodine $\to$ màu xanh tím.
+    * Câu 4: Phản ứng amine tác dụng $HNO_2$ sinh ra ethanol $\to$ $CH_3CH_2NH_2$.
+    * Câu 5: Công thức sodium stearate: $C_{17}H_{35}COONa$.
+    * Câu 6: Phản ứng ester hoá điều chế ethyl acetate từ acetic acid và ethyl alcohol.
+    * Câu 7: Hydrogen hoá glucose tạo sorbitol (chất tạo ngọt, giữ ẩm, nhuận tràng).
+    * Câu 8: Phân loại disaccharide: Maltose.
+    * Câu 9: Khử acetaldehyde ($CH_3CHO$) bằng $LiAlH_4 \to$ ethanol ($CH_3CH_2OH$).
+    * Câu 10: Amino acid làm quỳ tím chuyển xanh: Lysine (2 nhóm $-NH_2$, 1 nhóm $-COOH$).
+    * Câu 11: Thành phần chính của giấm ăn (4-5%): $CH_3COOH$.
+    * Câu 12: Phản ứng đặc trưng của ester: Phản ứng thuỷ phân.
+    * Câu 13: Cấu tạo Haworth đúng của $\alpha$-glucose: Cấu trúc (II) có nhóm $-OH$ hemiacetal tại C1 hướng xuống.
+    * Câu 14: Chất là ester: $CH_3COOCH_3$.
+    * Câu 15: Thuốc thử Tollens nhận biết nhóm chức aldehyde ($-CHO$).
+    * Câu 16: Bơ nhân tạo: (1)-triglyceride no, (2)-hydrogen hoá chất béo lỏng.
+    * Câu 17: Công thức của glycerol: $C_3H_5(OH)_3$.
+    * Câu 18: Cơ chế giặt rửa: (1)-gốc hydrocarbon kị nước, (2)-phân tán vào nước.
+  - **PHẦN II: Trắc nghiệm Đúng - Sai (4 câu = 16 ý lệnh hỏi = 4,0 điểm):**
+    * Câu 1 (Fructose): a) Đúng; b) Đúng (đều có 5 nhóm -OH); c) Đúng (vòng furanose 5 cạnh); d) Sai (cân bằng chuyển dịch tạo dạng mạch hở).
+    * Câu 2 (Sơ đồ điều chế diethylamine): a) Sai (phản ứng 2 và 3 không phải oxi hoá - khử); b) Sai (phải dùng dư $NH_3$); c) Đúng (tỉ lệ 1:2 tạo sản phẩm phụ $NH_4Cl$); d) Đúng (thay thế H trên N bằng gốc ethyl).
+    * Câu 3 (Ester hoá ethyl acetate): a) Đúng; b) Sai (nguyên tử O trong $H_2O$ tách từ carboxylic acid); c) Sai (dùng giấm và rượu loãng hiệu suất rất thấp); d) Sai (phenyl acetate, vinyl acetate không điều chế trực tiếp từ acid + alcohol).
+    * Câu 4 (Tính chất amine trong nước): a) Đúng (đều là amine bậc một); b) Sai (amine thơm như aniline ít tan); c) Đúng (cặp electron tự do trên N); d) Đúng (methylamine có lực base mạnh hơn aniline).
+  - **PHẦN III: Trắc nghiệm trả lời ngắn (6 câu hỏi định lượng & tổng hợp = 1,5 điểm):**
+    * Câu 1: Chỉ số xà phòng hoá (SAP = 255) của 200 g dầu dừa $\to m_{NaOH} = \frac{51}{56} \times 40 \approx 36,428... \to$ **36,4**.
+    * Câu 2: Điện di 6 amino acid ở pH = 4,5: Những chất có $\text{pH} > \text{pI}$ (mang điện tích âm) điện di về cực dương $\to$ Glu (pI=3,22) và Asp (pI=2,77) $\to$ **2**.
+    * Câu 3: Chuẩn độ $CH_3NH_2$ bằng $H_2SO_4$: $2CH_3NH_2 + H_2SO_4 \to (CH_3NH_3)_2SO_4 \Rightarrow a = \frac{2 \times 0,00125}{0,010} \to$ **0,25**.
+    * Câu 4: Tên thay thế: (a) Propan-2-amine (6), (b) 2-aminopropanoic acid (2), (c) Ethanoic acid (3) $\to$ bộ ba số **623**.
+    * Câu 5: Sản xuất xăng E5 từ 1,0 tấn bã mía (46% cellulose, $H_1=69\%, H_2=55\%, D=0,79\text{ kg/L}$) $\to V = 2,5098... \to$ **2,51** $\text{m}^3$.
+    * Câu 6: Số công thức cấu tạo amino acid $C_4H_9O_2N$: 3 đồng phân mạch thẳng + 2 đồng phân mạch nhánh $\to$ **5**.
+- **Quy cách kỹ thuật:**
+  - Chuẩn mực tuyệt đối theo **FORM ĐỀ KIỂM TRA** (`GEMINI.md`): Khổ A4, lề 1.5 cm; Header & Footer màu đỏ san hô Coral Red (`#D32F2F`) & viền Xanh Sage Green (`#8BC390`), định danh Thầy TRẦN VĂN THẠNH - 0777.470.803, 2 cơ sở tại Huế, số trang tự động `PAGE`.
+  - **Tuyệt đối không dùng bảng (Table) trong nội dung câu hỏi/lời giải**: Sử dụng Tab stops chuẩn Word; Lời giải chi tiết thụt lề 0.6cm với tiêu đề in đậm màu xanh lam `#1565C0`.
+  - Toàn bộ 4 hình ảnh thí nghiệm và sơ đồ hoá học được trích xuất trực tiếp chất lượng gốc không vỡ nét (`image1.png`, `image2.png`, `image3.png`, `image4.png`).
+- **Sản phẩm xuất bản:**
+  1. `San_Pham/De_Kiem_Tra_Hoa_12_Ma638_HocSinh.docx` & `.pdf`: Bản Học sinh chuẩn mực, bố cục thoáng đẹp, có dòng kẻ chấm làm bài.
+  2. `San_Pham/De_Kiem_Tra_Hoa_12_Ma638_GiaoVien.docx` & `.pdf`: Bản Giáo viên đầy đủ đáp án in đậm màu đỏ, lời giải chi tiết sư phạm từng câu hỏi.
+  3. `San_Pham/De_Kiem_Tra_Hoa_12_Ma638_DayTrenManHinh.docx` & `.pdf`: Bản Dạy trên màn hình cỡ chữ lớn (11.5pt), giãn dòng thoáng, có khung chừa chỗ trống tương tác màu tím nổi bật phục vụ giảng dạy máy chiếu / màn hình cảm ứng / tivi thông minh.
+- **Đồng bộ tự động:**
+  - Lưu trữ tại `c:\Antigravity_Thanh\San_Pham\`
+  - Sao chép trực tiếp vào thư mục OneDrive của Thầy: `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\GK1\12-gk1\` và `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\12\`
