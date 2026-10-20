@@ -328,11 +328,13 @@ latex_content = r"""\documentclass{article}
 \newpage
 
 % ==============================================================================
-% PHẦN III - CÂU TRẮC NGHIỆM TRẢ LỜI NGẮN (MỖI CÂU 1 SLIDE)
+% PHẦN III - CÂU TRẮC NGHIỆM TRẢ LỜI NGẮN (CỠ CHỮ 32, MỖI CÂU 1 SLIDE)
 % ==============================================================================
+\fontsize{32}{42}\selectfont
+
 % SLIDE 14: CÂU 1
 \textbf{Câu 1 (Trả lời ngắn).} Thứ tự đúng các bước thí nghiệm điều chế xà phòng: (1) Thêm $\text{NaCl}$ bão hòa nóng; (2) Cho dầu ăn + $\text{NaOH}$ vào bát sứ; (3) Đun sôi nhẹ và khuấy đều; (4) Thêm nước cất giữ thể tích không đổi.
-\vspace{18pt}
+\vspace{22pt}
 
 \textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$
 
@@ -340,7 +342,7 @@ latex_content = r"""\documentclass{article}
 
 % SLIDE 15: CÂU 2
 \textbf{Câu 2 (Trả lời ngắn).} Tính thu nhập từ nấu rượu gạo: 320 kg gạo (chứa 80\% tinh bột) lên men thu rượu 40$^\circ$ với hiệu suất 70\%, $D = 0,8\text{ g/mL}$, giá 50.000 đ/lít. Doanh thu thu được là bao nhiêu triệu đồng? \textit{(làm tròn đến hàng phần mười)}
-\vspace{18pt}
+\vspace{22pt}
 
 \textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$
 
@@ -348,7 +350,7 @@ latex_content = r"""\documentclass{article}
 
 % SLIDE 16: CÂU 3
 \textbf{Câu 3 (Trả lời ngắn).} Có bao nhiêu chất trong dãy tác dụng được với dung dịch $\text{NaOH}$ nóng: lysine, aniline, methyl acrylate, ethyl formate, maltose, tripalmitin?
-\vspace{18pt}
+\vspace{22pt}
 
 \textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$
 
@@ -356,7 +358,7 @@ latex_content = r"""\documentclass{article}
 
 % SLIDE 17: CÂU 4
 \textbf{Câu 4 (Trả lời ngắn).} Số nguyên tử oxygen trong phân tử tripeptide Gly-Ala-Ala là bao nhiêu?
-\vspace{18pt}
+\vspace{22pt}
 
 \textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$
 
@@ -364,7 +366,7 @@ latex_content = r"""\documentclass{article}
 
 % SLIDE 18: CÂU 5
 \textbf{Câu 5 (Trả lời ngắn).} Thủy phân hoàn toàn 0,1 mol phenyl acetate $\text{CH}_3\text{COOC}_6\text{H}_5$ trong dung dịch $\text{NaOH}$ dư. Khối lượng muối thu được là bao nhiêu gam?
-\vspace{18pt}
+\vspace{22pt}
 
 \textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$
 
@@ -372,7 +374,7 @@ latex_content = r"""\documentclass{article}
 
 % SLIDE 19: CÂU 6
 \textbf{Câu 6 (Trả lời ngắn).} Để sản xuất 1 tấn glucose với hiệu suất 80\%, khối lượng tinh bột cần dùng là bao nhiêu tấn? \textit{(làm tròn đến hàng phần trăm)}
-\vspace{18pt}
+\vspace{22pt}
 
 \textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$
 
