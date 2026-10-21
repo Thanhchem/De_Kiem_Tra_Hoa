@@ -121,10 +121,51 @@ Xem chi tiết mã nguồn đầy đủ tại: `San_Pham/Thi_Nghiem_Co_Le_Bu_Lon
 
 ---
 
-## 5. CÁC SCRIPTS TỰ ĐỘNG SINH HÌNH ẢNH
+## 5. BỘ CÔNG THỨC LEWIS CỦA AMMONIA ($\text{NH}_3$) VÀ CÁC PHƯƠNG ÁN LỰA CHỌN
+
+- **Ý nghĩa Hóa học:** Phân biệt công thức electron, công thức Lewis và công thức cấu tạo của ammonia ($\text{NH}_3$):
+  - **A (Công thức electron):** Biểu diễn tất cả các cặp electron liên kết và không liên kết bằng các cặp chấm electron.
+  - **B (Dạng gài bẫy sai):** Liên kết ba giữa H và N ($\text{H}\equiv\text{N}$) kèm 2 liên kết đơn.
+  - **C (Công thức Lewis chuẩn của $\text{NH}_3$):** Nguyên tử N ở đỉnh chóp tam giác với 1 cặp electron tự do trên đầu ($\ddot{\text{N}}$) và 3 liên kết đơn $\text{N}-\text{H}$ tỏa xuống.
+  - **D (Công thức cấu tạo):** Chỉ biểu diễn các gạch liên kết đơn, không có cặp electron tự do trên nguyên tử N.
+
+### 5.1. Hình ảnh tổng hợp cả câu hỏi 4 phương án
+- **Bản tiêu chuẩn (300 DPI, nền trắng):** `San_Pham/Cong_Thuc_NH3/cong_thuc_lewis_nh3.png`
+- **Bản trong suốt (Transparent):** `San_Pham/Cong_Thuc_NH3/cong_thuc_lewis_nh3_transparent.png`
+- **Bản Ultra HD (600 DPI in ấn):** `San_Pham/Cong_Thuc_NH3/cong_thuc_lewis_nh3_hd.png`
+- **Bản Vector PDF (dùng chèn LaTeX):** `San_Pham/Cong_Thuc_NH3/cong_thuc_lewis_nh3_refined.pdf`
+- **Ảnh tài nguyên chung:** `San_Pham/images_crop/de104_cau12_lewis.png`
+
+### 5.2. Hình ảnh từng công thức đơn lẻ
+- **Phương án A:** `San_Pham/Cong_Thuc_NH3/ct_A.png` | `ct_A_transparent.png` | `ct_A.pdf`
+- **Phương án B:** `San_Pham/Cong_Thuc_NH3/ct_B.png` | `ct_B_transparent.png` | `ct_B.pdf`
+- **Phương án C (Chuẩn):** `San_Pham/Cong_Thuc_NH3/ct_C.png` | `ct_C_transparent.png` | `ct_C.pdf`
+- **Phương án D:** `San_Pham/Cong_Thuc_NH3/ct_D.png` | `ct_D_transparent.png` | `ct_D.pdf`
+
+### 5.3. Mã nguồn LaTeX TikZ
+```latex
+\begin{tikzpicture}[font=\bfseries\Large, line width=1.15pt, xscale=1.2, yscale=1.2]
+% OPTION C (Lewis chuẩn của NH3)
+\node[inner sep=2pt] (Nc) at (0, 0.1) {N};
+\node[inner sep=2pt] (H1c) at (-1.1, -0.55) {H};
+\node[inner sep=2pt] (H2c) at (-0.22, -1.05) {H};
+\node[inner sep=2pt] (H3c) at (1.1, -0.55) {H};
+\fill (-0.11, 0.48) circle (1.5pt);
+\fill ( 0.11, 0.48) circle (1.5pt);
+\draw (Nc.south west) -- (H1c.north east);
+\draw (Nc.south) -- (H2c.north);
+\draw (Nc.south east) -- (H3c.north west);
+\end{tikzpicture}
+```
+
+---
+
+## 6. CÁC SCRIPTS TỰ ĐỘNG SINH HÌNH ẢNH
 - `scripts/ve_cong_thuc_alanine.py`: Tự động biên dịch và trích xuất ảnh PNG/PDF cho các công thức amino acid.
 - `scripts/ve_so_do_aniline.py`: Tự động biên dịch và trích xuất sơ đồ phản ứng điều chế aniline.
 - `San_Pham/Thi_Nghiem_Binh_Tam_Giac_Bong_Bay/thi_nghiem_binh_tam_giac_bong_bay.tex`: Mã nguồn TikZ vẽ thí nghiệm bình tam giác gắn bóng bay.
 - `San_Pham/Thi_Nghiem_Co_Le_Bu_Long/thi_nghiem_co_le_bu_long.tex`: Mã nguồn TikZ vẽ 3 cờ lê và bu lông minh họa mômen lực.
+- `San_Pham/Cong_Thuc_NH3/cong_thuc_lewis_nh3_refined.tex`: Mã nguồn TikZ vẽ bộ 4 công thức Lewis của NH3.
+
 
 

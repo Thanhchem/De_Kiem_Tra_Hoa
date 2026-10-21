@@ -1,0 +1,14 @@
+\documentclass[border=2mm]{standalone}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usepackage{newtxtext,newtxmath}
+\begin{document}
+\begin{tikzpicture}[font=\bfseries\Large, line width=1.15pt, xscale=1.2, yscale=1.2]
+    \node[inner sep=2pt] (Nd) at (0, 0.1) {N};
+    \node[inner sep=2pt] (H1d) at (-1.1, -0.55) {H};
+    \node[inner sep=2pt] (H2d) at (-0.22, -1.05) {H};
+    \node[inner sep=2pt] (H3d) at (1.1, -0.55) {H};
+    \draw (Nd.south west) -- (H1d.north east);
+    \draw (Nd.south) -- (H2d.north);
+    \draw (Nd.south east) -- (H3d.north west);
+\end{tikzpicture}\end{document}

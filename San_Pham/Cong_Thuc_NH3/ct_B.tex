@@ -1,0 +1,18 @@
+\documentclass[border=2mm]{standalone}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usepackage{newtxtext,newtxmath}
+\begin{document}
+\begin{tikzpicture}[font=\bfseries\Large, line width=1.15pt, xscale=1.2, yscale=1.2]
+    \node[inner sep=2pt] (Nb) at (0, 0.1) {N};
+    \node[inner sep=2pt] (H1b) at (-1.1, -0.55) {H};
+    \node[inner sep=2pt] (H2b) at (-0.22, -1.05) {H};
+    \node[inner sep=2pt] (H3b) at (1.1, -0.55) {H};
+    \fill (-0.11, 0.48) circle (1.5pt);
+    \fill ( 0.11, 0.48) circle (1.5pt);
+    \draw ([shift={( 0.055, 0.09)}]Nb.south west) -- ([shift={( 0.055, 0.09)}]H1b.north east);
+    \draw (Nb.south west) -- (H1b.north east);
+    \draw ([shift={(-0.055,-0.09)}]Nb.south west) -- ([shift={(-0.055,-0.09)}]H1b.north east);
+    \draw (Nb.south) -- (H2b.north);
+    \draw (Nb.south east) -- (H3b.north west);
+\end{tikzpicture}\end{document}
