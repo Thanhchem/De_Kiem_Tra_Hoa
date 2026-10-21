@@ -1,0 +1,42 @@
+\documentclass[border=4pt,tikz]{standalone}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese,english]{babel}
+\usepackage{tikz}
+\usetikzlibrary{patterns,arrows.meta}
+\begin{document}
+\selectlanguage{vietnamese}
+\begin{tikzpicture}[scale=1.2, >=Stealth]
+  % Gia treo
+  \fill[pattern=north east lines, draw=none] (-1.2, 0) rectangle (1.2, 0.25);
+  \draw[thick] (-1.2, 0) -- (1.2, 0);
+  
+  % Diem treo
+  \coordinate (Pivot) at (0, 0);
+  \fill (Pivot) circle (1.5pt);
+  
+  % Chieu dai day L = 3.6cm, goc = 38 do
+  \def\L{3.6}
+  \def\ang{38}
+  
+  \coordinate (O) at (0, -\L);
+  \coordinate (A) at ({-\L*sin(\ang)}, {-\L*cos(\ang)});
+  
+  % Day treo
+  \draw[thick] (Pivot) -- (O);
+  \draw[thick] (Pivot) -- (A);
+  
+  % Vat nang tai O va A
+  \filldraw[fill=gray!40, draw=black, thick] (O) circle (0.22cm) node[below=6pt] {\textbf{O}};
+  \filldraw[fill=gray!80, draw=black, thick] (A) circle (0.22cm) node[above left=2pt] {\textbf{A}};
+  
+  % Duong net dut
+  \draw[dashed, thin, gray!80] (-2.5, {-\L*cos(\ang)}) -- (0.5, {-\L*cos(\ang)});
+  \draw[dashed, thin, gray!80] (-2.5, -\L) -- (0.5, -\L);
+  
+  % Mui ten chi do cao 0,5 m
+  \draw[<->, thick] (-2.1, -\L) -- (-2.1, {-\L*cos(\ang)}) node[midway, left=2pt] {\textbf{0,5 m}};
+  
+  % Chu thich duoi
+  \node at (-0.3, -\L - 0.75) {\large\textbf{Chuyển động của một con lắc}};
+\end{tikzpicture}
+\end{document}
