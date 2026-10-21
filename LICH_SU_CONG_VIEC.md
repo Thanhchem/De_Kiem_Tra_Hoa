@@ -502,3 +502,45 @@ Hệ thống tự động theo dõi, chuyển đổi và quản lý toàn bộ c
 - **Sản phẩm xuất bản & lưu trữ:**
   - `San_Pham/De_On_Tap_Hoa_12_De01_A5_NAM_NGANG_TrinhChieu_Tivi.pdf`
   - Đồng bộ tự động sang OneDrive: `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\12\De_On_Tap_Hoa_12_De01_A5_NAM_NGANG_TrinhChieu_Tivi.pdf`
+
+
+---
+
+### Đợt 56: Hoàn thành Số hóa và Chuyển đổi Hướng dẫn Ôn tập Giữa học kỳ I - Môn KHTN 9 (Trường THCS Thống Nhất) thành Trọn bộ 3 Bản Word & 4 Bản PDF Chuẩn FORM ĐỀ KIỂM TRA & Chiếu Tivi 16:9
+
+- **Thời gian thực hiện:** 21/10/2026
+- **Tài liệu nguồn:** Đề cương Hướng dẫn ôn tập Giữa học kỳ I - Môn KHTN 9 (Năm học 2026 - 2027) - Trường THCS Thống Nhất (Tổ Khoa học Tự nhiên) - 11 trang tài liệu scanned.
+- **Nội dung bao quát toàn diện cả 3 phân môn:**
+  - **1. Phân môn Chất và sự biến đổi chất (Hóa học):**
+    * *Kiến thức trọng tâm:* Bài 1 (dụng cụ, hóa chất, báo cáo khoa học), Bài 18 (tính chất chung của kim loại), Bài 19 (dãy hoạt động hóa học), Bài 20 (tách kim loại, hợp kim gang thép, duralumin), Bài 21 (so sánh kim loại và phi kim); Tích hợp BĐKH và ứng phó PCTT.
+    * *Bài tập tham khảo:*
+      - Trắc nghiệm 1 lựa chọn: 15 câu chuẩn xác (Câu 1 - 15).
+      - Trắc nghiệm Đúng / Sai: Câu 16 gồm 10 nhận định thực tiễn (a đến j).
+      - Trắc nghiệm Trả lời ngắn: 3 câu tính toán hóa học (Câu 17: số kim loại nhiệt luyện; Câu 18: tính khối lượng muối FeCl3; Câu 19: tính m Cu không tan trong hỗn hợp Fe + Cu).
+      - Tự luận: 7 bài tập lớn (Câu 1, 2, 3, 5, 6, 7, 8) với lời giải sư phạm chi tiết và 8 phương trình hóa học.
+  - **2. Phân môn Năng lượng và sự biến đổi (Vật lí):**
+    * *Kiến thức trọng tâm:* Động năng, Thế năng trọng trường, Cơ năng, Định luật bảo toàn cơ năng, đơn vị công và công suất.
+    * *Bài tập tham khảo:*
+      - Trắc nghiệm nhiều lựa chọn: 9 câu (Câu 1 - 9).
+      - Trắc nghiệm trả lời ngắn / điền đáp số: 6 câu (Câu 10 - 15: tốc độ ô tô, khối lượng khối gỗ, độ cao bạn Linh leo núi, đổi đơn vị HP, BTU, BTU/h).
+      - Tự luận: 11 câu bài tập từ cơ bản đến nâng cao (Câu 1 - 11: tính cơ năng, vận tốc, độ cao, phân tích bảo toàn và không bảo toàn cơ năng).
+  - **3. Phân môn Vật sống (Sinh học):**
+    * *Kiến thức trọng tâm:* Bài 36 (khái quát di truyền học, thuật ngữ di truyền), Bài 37 (quy luật phân li, phân li độc lập Mendel, lai phân tích), Bài 38 (cấu trúc hóa học và không gian của DNA theo Watson - Crick, chức năng gene, tính đa dạng và đặc thù).
+    * *Bài tập tham khảo:*
+      - Trắc nghiệm nhiều lựa chọn: 10 câu (Câu 1 - 10).
+      - Trắc nghiệm Đúng / Sai: Câu 11 gồm 13 phát biểu (a đến n).
+      - Trắc nghiệm trả lời ngắn: 4 câu (Câu 12: số giao tử AaBbDD; Câu 13: số tổ hợp F2 AaBb; Câu 14: % hoa tím dị hợp; Câu 15: % hạt trơn phép lai phân tích).
+      - Tự luận: 5 câu tự luận (Câu 1: lai ruồi giấm thân xám cánh dài x thân đen cánh cụt; Câu 2: xác định mạch bổ sung DNA và ứng dụng DNA hình sự/huyết thống; Câu 3: khái niệm nucleic acid và xét 5 đối tượng da, tóc, tiểu cầu, ti thể, HIV; Câu 4: tính số nu gene; Câu 5: công thức tính số nu, liên kết H và liên kết cộng hóa trị).
+- **Quy cách kỹ thuật theo FORM ĐỀ KIỂM TRA:**
+  - Khổ giấy A4, Căn lề chuẩn: Top = Bottom = Left = Right = 1.5 cm; Header & Footer cách mép 0.6 cm.
+  - Header & Footer chuẩn: Coral Red (`#D32F2F`) - Sage Green (`#8BC390`), tên `Thầy TRẦN VĂN THẠNH - 0777.470.803`, số trang tự động `PAGE`.
+  - **Tuyệt đối không dùng Table trong nội dung đề thi**: Bố trí A, B, C, D bằng Tab stops; Lời giải chi tiết thụt lề 0.6 cm có tiêu đề in đậm màu xanh `#1565C0`.
+  - Định dạng Subscript ($H_2O, CO_2, Fe_2O_3, Al_2O_3, W_đ, W_t, W_c\dots$) và Superscript ($v^2, 2^n\dots$) triệt để.
+- **Trọn bộ sản phẩm hoàn thành:**
+  1. `San_Pham/De_Cuong_KHTN_9_Giua_HK1_ThongNhat_HocSinh.docx` & `.pdf`: Bản Học sinh.
+  2. `San_Pham/De_Cuong_KHTN_9_Giua_HK1_ThongNhat_GiaoVien.docx` & `.pdf`: Bản Giáo viên (đầy đủ đáp án, lời giải chi tiết và bảng tổng hợp đáp án ở cuối).
+  3. `San_Pham/De_Cuong_KHTN_9_Giua_HK1_ThongNhat_DayTrenManHinh.docx` & `.pdf`: Bản Dạy trên màn hình tương tác.
+  4. `San_Pham/De_Cuong_KHTN_9_Giua_HK1_ThongNhat_TrinhChieu_Tivi_16x9.pdf`: Bản Trình chiếu Tivi 65 inch Widescreen 16:9 không viền đen, cỡ chữ 24pt - 30pt.
+- **Sao lưu tự động vào OneDrive:**
+  - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\KHTN9-DEKIEMTRADINHKI\`
+  - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\`

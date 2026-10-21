@@ -1,0 +1,849 @@
+# -*- coding: utf-8 -*-
+r"""
+Script biên dịch file PDF TRÌNH CHIẾU TIVI 65 INCH (16:9 Widescreen)
+HƯỚNG DẪN ÔN TẬP GIỮA HỌC KỲ I - MÔN KHTN 9 (2026 - 2027)
+TRƯỜNG THCS THỐNG NHẤT - HUẾ
+Thầy TRẦN VĂN THẠNH - 0777.470.803
+
+Đúng 100% QUY CHUẨN MỤC 5 TRONG GEMINI.MD:
+- paperwidth=29.7cm, paperheight=16.706cm (16:9 widescreen không viền đen)
+- Căn lề: top=1.0cm, bottom=1.0cm, left=1.2cm, right=1.2cm
+- Không Header/Footer: headheight=0pt, headsep=0pt, footskip=0pt, \pagestyle{empty}
+- Nền trắng tinh (#FFFFFF), chữ đen tuyền (#000000), font Times New Roman, KHÔNG DÙNG KHUNG (no tcolorbox)
+- Nhãn câu in đậm \textbf{Câu X.}
+- Cỡ chữ cực lớn 24pt - 30pt
+- Slide bảng đáp án ở cuối
+"""
+
+import os
+import sys
+import subprocess
+import shutil
+
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
+
+ROOT_DIR = r"c:\Antigravity_Thanh"
+OUT_DIR = os.path.join(ROOT_DIR, "San_Pham")
+TEX_PATH = os.path.join(OUT_DIR, "De_Cuong_KHTN_9_Giua_HK1_ThongNhat_TrinhChieu_Tivi_16x9.tex")
+PDF_PATH = os.path.join(OUT_DIR, "De_Cuong_KHTN_9_Giua_HK1_ThongNhat_TrinhChieu_Tivi_16x9.pdf")
+
+latex_code = r"""\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese,english]{babel}
+\usepackage{times}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[
+  paperwidth=29.7cm,
+  paperheight=16.706cm,
+  top=1.0cm,
+  bottom=1.0cm,
+  left=1.2cm,
+  right=1.2cm,
+  footskip=0pt,
+  headheight=0pt,
+  headsep=0pt
+]{geometry}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Định nghĩa màu sắc thương hiệu
+\definecolor{brandGreen}{RGB}{46, 125, 50}
+\definecolor{brandRed}{RGB}{211, 47, 47}
+\definecolor{brandBlue}{RGB}{21, 101, 192}
+
+\begin{document}
+\selectlanguage{vietnamese}
+
+% ==============================================================================
+% SLIDE 1: TRANG TIÊU ĐỀ
+% ==============================================================================
+\begin{center}
+\vspace*{0.6cm}
+{\fontsize{24}{30}\selectfont \textbf{TRƯỜNG THCS THỐNG NHẤT -- TỔ KHOA HỌC TỰ NHIÊN}}\\[0.6cm]
+{\fontsize{34}{42}\selectfont \textbf{\color{brandGreen}HƯỚNG DẪN ÔN TẬP GIỮA HỌC KỲ I}}\\[0.4cm]
+{\fontsize{28}{36}\selectfont \textbf{MÔN: KHOA HỌC TỰ NHIÊN 9 -- NĂM HỌC 2026 - 2027}}\\[1.0cm]
+{\fontsize{24}{32}\selectfont \textit{Phân môn: Chất và sự biến đổi chất (Hóa) -- Năng lượng (Vật lí) -- Vật sống (Sinh học)}}\\[1.2cm]
+{\fontsize{24}{30}\selectfont \textbf{\color{brandRed}Thầy TRẦN VĂN THẠNH -- 0777.470.803}}\\[0.3cm]
+{\fontsize{20}{26}\selectfont CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad | \quad CS2: 24 Đặng Thái Thân, TP Huế}
+\end{center}
+\newpage
+
+% ==============================================================================
+% PHẦN 1: HÓA HỌC - TRẮC NGHIỆM 1 ĐÁP ÁN (CÂU 1 - 15)
+% ==============================================================================
+
+% SLIDE 2: HÓA CÂU 1 & CÂU 2
+\fontsize{26}{34}\selectfont
+\textbf{Câu 1.} Tiêu đề của một bài báo cáo khoa học cần đáp ứng những yêu cầu sau:
+\vspace{6pt}
+
+\begin{tabularx}{\linewidth}{@{}X X@{}}
+\textbf{A.} Chính xác và mô tả rõ ràng nội dung của báo cáo. & \textbf{B.} Tóm tắt những phát hiện chính và đề xuất nghiên cứu.\\[8pt]
+\textbf{C.} Giới thiệu lý do và mục tiêu của nghiên cứu. & \textbf{D.} Nêu ngắn gọn phương pháp và kết quả nghiên cứu.
+\end{tabularx}
+
+\vspace*{\fill}
+
+\textbf{Câu 2.} Phần cuối cùng của bài báo cáo một vấn đề khoa học là:
+\vspace{6pt}
+
+\begin{tabularx}{\linewidth}{@{}X X X X@{}}
+\textbf{A.} Kết quả. & \textbf{B.} Kết luận. & \textbf{C.} Thảo luận. & \textbf{D.} Tài liệu tham khảo.
+\end{tabularx}
+\vspace*{\fill}
+\newpage
+
+% SLIDE 3: HÓA CÂU 3 & CÂU 4
+\fontsize{25}{33}\selectfont
+\textbf{Câu 3.} Mục đích của mục giới thiệu trong bài báo cáo một vấn đề khoa học là gì?
+\vspace{6pt}
+
+\textbf{A.} Tổng hợp nội dung chính của bài báo cáo.\\
+\textbf{B.} Mô tả vấn đề nghiên cứu và tầm quan trọng của vấn đề; mục tiêu của nghiên cứu.\\
+\textbf{C.} Trình bày dữ liệu thu được một cách rõ ràng, sử dụng biểu đồ, hình ảnh hoặc bảng.\\
+\textbf{D.} Phân tích và giải thích ý nghĩa của kết quả; so sánh với các nghiên cứu khác (nếu có).
+
+\vspace*{\fill}
+
+\textbf{Câu 4.} Tiêu bản nhiễm sắc thể người được sử dụng thực hành cho chủ đề:
+\vspace{6pt}
+
+\begin{tabularx}{\linewidth}{@{}X X@{}}
+\textbf{A.} Năng lượng và sự biến đổi. & \textbf{B.} Trái đất và bầu trời.\\[8pt]
+\textbf{C.} Chất và sự biến đổi của chất. & \textbf{D.} Vật sống.
+\end{tabularx}
+\vspace*{\fill}
+\newpage
+
+% SLIDE 4: HÓA CÂU 5 & CÂU 6
+\fontsize{26}{34}\selectfont
+\textbf{Câu 5.} Kim loại có những tính chất vật lí chung nào sau đây?
+\vspace{6pt}
+
+\textbf{A.} Tính dẻo, tính dẫn điện, nhiệt độ nóng chảy cao.\\
+\textbf{B.} Tính dẻo, tính dẫn nhiệt, rất cứng.\\
+\textbf{C.} Tính dẻo, tính dẫn điện, tính dẫn nhiệt và tính ánh kim.\\
+\textbf{D.} Tính dẻo, có ánh kim, khối lượng riêng lớn.
+
+\vspace*{\fill}
+
+\textbf{Câu 6.} Kim loại nào sau đây có độ cứng cao nhất (khoảng 8.5 theo thang Mohs) thường dùng chế tạo thép không gỉ và có độ bền cơ học cao?
+\vspace{6pt}
+
+\begin{tabularx}{\linewidth}{@{}X X X X@{}}
+\textbf{A.} Copper. & \textbf{B.} Aluminium. & \textbf{C.} Zinc. & \textbf{D.} Chromium.
+\end{tabularx}
+\vspace*{\fill}
+\newpage
+
+% SLIDE 5: HÓA CÂU 7 & CÂU 8
+\fontsize{26}{34}\selectfont
+\textbf{Câu 7.} Nhờ có tính dẫn điện mà kim loại được sử dụng làm dây dẫn. Kim loại nào sau đây có tính dẫn điện tốt nhất?
+\vspace{6pt}
+
+\begin{tabularx}{\linewidth}{@{}X X X X@{}}
+\textbf{A.} Copper. & \textbf{B.} Silver. & \textbf{C.} Gold. & \textbf{D.} Aluminium.
+\end{tabularx}
+
+\vspace*{\fill}
+
+\textbf{Câu 8.} Kim loại nào sau đây được điều chế bằng phương pháp điện phân nóng chảy?
+\vspace{6pt}
+
+\begin{tabularx}{\linewidth}{@{}X X X X@{}}
+\textbf{A.} $\text{Cu}$ và $\text{Fe}$. & \textbf{B.} $\text{Ag}$ và $\text{Hg}$. & \textbf{C.} $\text{Na}$ và $\text{Al}$. & \textbf{D.} $\text{Fe}$ và $\text{K}$.
+\end{tabularx}
+\vspace*{\fill}
+\newpage
+
+% SLIDE 6: HÓA CÂU 9 & CÂU 10
+\fontsize{26}{34}\selectfont
+\textbf{Câu 9.} Dãy gồm các kim loại phản ứng được với dung dịch acid sulfuric loãng là
+\vspace{6pt}
+
+\begin{tabularx}{\linewidth}{@{}X X X X@{}}
+\textbf{A.} $\text{Fe, Al, Zn}$. & \textbf{B.} $\text{Mg, Al, Hg}$. & \textbf{C.} $\text{K, Mg, Cu}$. & \textbf{D.} $\text{Ba, Cu, Au}$.
+\end{tabularx}
+
+\vspace*{\fill}
+
+\textbf{Câu 10.} Cho các kim loại $\text{Zn, Cu, Ag}$ lần lượt phản ứng với dung dịch muối $\text{Copper(II) sulfate}$ và $\text{Silver nitrate}$. Số cặp chất có xảy ra phản ứng là
+\vspace{6pt}
+
+\begin{tabularx}{\linewidth}{@{}X X X X@{}}
+\textbf{A.} $2$. & \textbf{B.} $3$. & \textbf{C.} $4$. & \textbf{D.} $5$.
+\end{tabularx}
+\vspace*{\fill}
+\newpage
+
+% SLIDE 7: HÓA CÂU 11 & CÂU 12
+\fontsize{26}{34}\selectfont
+\textbf{Câu 11.} Nhóm kim loại nào có thể tác dụng với nước ở nhiệt độ thường?
+\vspace{6pt}
+
+\begin{tabularx}{\linewidth}{@{}X X@{}}
+\textbf{A.} Zinc, Potassium. & \textbf{B.} Sodium, Lithium.\\[8pt]
+\textbf{C.} Calcium, Magnesium. & \textbf{D.} Iron, Zinc.
+\end{tabularx}
+
+\vspace*{\fill}
+
+\textbf{Câu 12.} Dãy kim loại nào sau đây được sắp xếp theo chiều hoạt động hóa học tăng dần?
+\vspace{6pt}
+
+\begin{tabularx}{\linewidth}{@{}X X@{}}
+\textbf{A.} $\text{K, Mg, Cu, Al, Zn}$. & \textbf{B.} $\text{Fe, Cu, K, Mg, Al}$.\\[8pt]
+\textbf{C.} $\text{Ag, Cu, Fe, Al, K}$. & \textbf{D.} $\text{Fe, K, Mg, Cu, Na}$.
+\end{tabularx}
+\vspace*{\fill}
+\newpage
+
+% SLIDE 8: HÓA CÂU 13
+\fontsize{26}{34}\selectfont
+\textbf{Câu 13.} Gang và thép là hai hợp kim quan trọng nhất của sắt. Để sản xuất gang, người ta khử oxide của sắt trong quặng sắt bằng khí $\text{CO}$ ở nhiệt độ cao trong lò cao. Sắt được tạo ra trong quá trình sản xuất gang bằng phương pháp nào?
+\vspace{16pt}
+
+\begin{tabularx}{\linewidth}{@{}X X@{}}
+\textbf{A.} Điện phân nóng chảy. & \textbf{B.} Nhiệt luyện.\\[12pt]
+\textbf{C.} Thủy luyện. & \textbf{D.} Điện phân dung dịch.
+\end{tabularx}
+
+\vspace*{\fill}
+\newpage
+
+% SLIDE 9: HÓA CÂU 14
+\fontsize{24}{32}\selectfont
+\textbf{Câu 14.} Các nhận định chính về ưu điểm của một số hợp kim:\\
+(1) Tất cả các hợp kim đều không bị ăn mòn và có thể chống lại mọi tác động của thiên tai.\\
+(2) Độ cứng của hợp kim thường cao hơn kim loại nguyên chất.\\
+(3) Nhôm nguyên chất mềm, nhẹ nhưng không đủ bền làm vỏ máy bay. Do đó người ta dùng hợp kim nhôm (Duralumin) để tăng độ bền.\\
+(4) Thép có nhiều ưu điểm hơn sắt về độ cứng, độ đàn hồi, khả năng chịu lực nên được dùng rộng rãi trong công trình xây dựng, giao thông.\\
+Số nhận định \textbf{Đúng} là:
+\vspace{12pt}
+
+\begin{tabularx}{\linewidth}{@{}X X X X@{}}
+\textbf{A.} $1$. & \textbf{B.} $2$. & \textbf{C.} $3$. & \textbf{D.} $4$.
+\end{tabularx}
+\vspace*{\fill}
+\newpage
+
+% SLIDE 10: HÓA CÂU 15
+\fontsize{24}{32}\selectfont
+\textbf{Câu 15.} Nhận định về ý nghĩa của giải pháp tái chế kim loại:\\
+(1) Tái chế kim loại giảm nhu cầu khai thác quặng và giúp tiết kiệm năng lượng.\\
+(2) Giảm phát thải khí nhà kính so với quá trình sản xuất kim loại từ quặng.\\
+(3) Tiết kiệm chi phí khai thác quặng và tinh chế kim loại từ quặng.\\
+(4) Tái chế kim loại không làm giảm chi phí và mức độ ô nhiễm môi trường.\\
+(5) Việc sử dụng nhôm tái chế giúp tiết kiệm tài nguyên, giảm thiểu chất thải, góp phần phát triển bền vững.\\
+Số nhận định \textbf{đúng} về ý nghĩa của giải pháp tái chế kim loại là:
+\vspace{12pt}
+
+\begin{tabularx}{\linewidth}{@{}X X X X@{}}
+\textbf{A.} $2$. & \textbf{B.} $3$. & \textbf{C.} $4$. & \textbf{D.} $5$.
+\end{tabularx}
+\vspace*{\fill}
+\newpage
+
+% SLIDE 11: HÓA ĐÚNG/SAI CÂU 16 (Ý a - e)
+\fontsize{24}{32}\selectfont
+\textbf{Câu 16 (Phần 1).} Xác định các nhận định sau là Đúng (Đ) hay Sai (S):
+\vspace{12pt}
+
+a) Kim loại nhôm ($\text{Al}$) bền trong không khí hơn kim loại sắt ($\text{Fe}$) do nhôm không phản ứng với oxygen trong không khí. \hfill $[\quad]$\\[10pt]
+b) Kim cương dùng làm mũi khoan, dao cắt thủy tinh vì có độ cứng rất lớn (đạt $10/10$ Mohs). \hfill $[\quad]$\\[10pt]
+c) Trong dãy hoạt động hóa học, kim loại trước đẩy kim loại sau ra khỏi muối để điều chế kim loại yếu hơn. \hfill $[\quad]$\\[10pt]
+d) Carbon hoạt tính dùng trong mặt nạ phòng độc, công nghiệp hóa chất và y học nhờ tính hấp phụ cao. \hfill $[\quad]$\\[10pt]
+e) Chlorine dùng để khử trùng nước sinh hoạt, xử lý nước hồ bơi, nước thải công nghiệp. \hfill $[\quad]$
+\vspace*{\fill}
+\newpage
+
+% SLIDE 12: HÓA ĐÚNG/SAI CÂU 16 (Ý f - j)
+\fontsize{24}{32}\selectfont
+\textbf{Câu 16 (Phần 2).} Xác định các nhận định sau là Đúng (Đ) hay Sai (S):
+\vspace{12pt}
+
+f) Các phi kim thường dẫn điện, dẫn nhiệt tốt hơn kim loại. \hfill $[\quad]$\\[10pt]
+g) Gang và thép là hợp kim chủ yếu của sắt và carbon. \hfill $[\quad]$\\[10pt]
+h) Gang có nhiều ứng dụng hơn thép. \hfill $[\quad]$\\[10pt]
+i) Để sản xuất thép người ta dùng than cốc để tạo chất khử. \hfill $[\quad]$\\[10pt]
+j) Quá trình sản xuất gang thép tạo ra khí $\text{CO}_2$ gây ô nhiễm môi trường. \hfill $[\quad]$
+\vspace*{\fill}
+\newpage
+
+% SLIDE 13: HÓA TRẢ LỜI NGẮN CÂU 17 & 18
+\fontsize{26}{34}\selectfont
+\textbf{Câu 17.} Cho dãy gồm các kim loại sau: $\text{Cu, Zn, K, Na, Al, Fe, Ba}$. Dựa vào mức độ hoạt động hóa học của kim loại, có bao nhiêu kim loại được điều chế bằng phương pháp nhiệt luyện?\\
+\textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$
+
+\vspace*{\fill}
+
+\textbf{Câu 18.} Cho $11,2\text{ gam}$ Iron tác dụng hết với khí Chlorine. Giá trị khối lượng của muối thu được là bao nhiêu gam?\\
+\textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$
+\vspace*{\fill}
+\newpage
+
+% SLIDE 14: HÓA TRẢ LỜI NGẮN CÂU 19
+\fontsize{26}{34}\selectfont
+\textbf{Câu 19.} Cho $13,6\text{ gam}$ hỗn hợp gồm $\text{Fe}$ và $\text{Cu}$ vào dung dịch $\text{H}_2\text{SO}_4$ loãng dư, thu được $4,958\text{ lít}$ khí $\text{H}_2$ (đkc); $m\text{ (gam)}$ chất rắn không tan X và dung dịch chứa Y. Giá trị của $m$ là bao nhiêu gam?
+\vspace{16pt}
+
+\textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$
+
+\vspace*{\fill}
+\newpage
+
+% SLIDE 15: HÓA TỰ LUẬN CÂU 1
+\fontsize{26}{34}\selectfont
+\textbf{Câu 1 (Tự luận Hóa).} Trình bày tính chất hoá học chung của kim loại. Viết phương trình phản ứng minh hoạ cho mỗi tính chất.
+\vspace*{\fill}
+\newpage
+
+% SLIDE 16: HÓA TỰ LUẬN CÂU 2
+\fontsize{26}{34}\selectfont
+\textbf{Câu 2 (Tự luận Hóa).} Viết dãy hoạt động hoá học của kim loại. Nêu các ý nghĩa quan trọng của dãy hoạt động hoá học.
+\vspace*{\fill}
+\newpage
+
+% SLIDE 17: HÓA TỰ LUẬN CÂU 3
+\fontsize{26}{34}\selectfont
+\textbf{Câu 3 (Tự luận Hóa).} Dựa vào mức độ hoạt động hóa học của kim loại, trình bày các phương pháp tách kim loại cơ bản từ các hợp chất của chúng (nêu rõ phạm vi áp dụng và ví dụ minh họa).
+\vspace*{\fill}
+\newpage
+
+% SLIDE 18: HÓA TỰ LUẬN CÂU 5
+\fontsize{25}{33}\selectfont
+\textbf{Câu 5 (Tự luận Hóa).} Nêu thành phần của Gang, Thép. Trình bày nguyên liệu, các công đoạn và các PTHH xảy ra trong quá trình sản xuất gang, thép.
+\vspace*{\fill}
+\newpage
+
+% SLIDE 19: HÓA TỰ LUẬN CÂU 6
+\fontsize{25}{33}\selectfont
+\textbf{Câu 6 (Tự luận Hóa).} Viết phương trình hoá học các phản ứng sau (ghi rõ điều kiện nếu có):\\
+\begin{tabularx}{\linewidth}{@{}X X@{}}
+a) $\text{Iron} \to \text{Iron(II) chloride}$ & b) $\text{Iron} \to \text{Iron(III) chloride}$\\[8pt]
+c) $\text{Copper} \to \text{Silver}$ & d) $\text{Aluminium} \to \text{Aluminium sulfide}$\\[8pt]
+e) $\text{Sodium} + \text{H}_2\text{O}$ & f) $\text{CO} + \text{Iron(II, III) oxide}$\\[8pt]
+g) Điện phân nóng chảy $\text{Al}_2\text{O}_3$ & h) Điện phân nóng chảy $\text{CaCl}_2$
+\end{tabularx}
+\vspace*{\fill}
+\newpage
+
+% SLIDE 20: HÓA TỰ LUẬN CÂU 7
+\fontsize{25}{33}\selectfont
+\textbf{Câu 7 (Tự luận Hóa).} Quặng Hematite thường dùng để sản xuất gang.\\
+a. Em hãy cho biết để tách kim loại ra khỏi quặng trên ta cần dùng phương pháp gì?\\
+b. Tính khối lượng quặng hematite (chứa $70\% \text{ Fe}_2\text{O}_3$) cần dùng để sản xuất ra $1\text{ tấn}$ gang chứa $95\%\text{ Fe}$, biết hiệu suất của toàn bộ quá trình là $80\%$.
+\vspace*{\fill}
+\newpage
+
+% SLIDE 21: HÓA TỰ LUẬN CÂU 8
+\fontsize{25}{33}\selectfont
+\textbf{Câu 8 (Tự luận Hóa).} Người ta sản xuất nhôm từ $2\text{ tấn}$ quặng bauxite (có $60\% \text{ Al}_2\text{O}_3$) bằng phương pháp điện phân nóng chảy.\\
+a. Viết PTHH xảy ra.\\
+b. Tính khối lượng Aluminium thu được từ quá trình sản xuất trên. Biết hiệu suất phản ứng chỉ đạt $70\%$.
+\vspace*{\fill}
+\newpage
+
+% ==============================================================================
+% PHẦN 2: VẬT LÍ - ĐỘNG NĂNG, THẾ NĂNG, CÔNG VÀ CÔNG SUẤT
+% ==============================================================================
+
+% SLIDE 22: VẬT LÍ CÂU 1 & CÂU 2
+\fontsize{25}{33}\selectfont
+\textbf{Câu 1.} Một quả bưởi có khối lượng $1,5\text{ kg}$ đang ở trên cây. Hỏi độ cao $h$ của quả bưởi so với mặt đất là bao nhiêu? Chọn gốc thế năng ở mặt đất, thế năng của quả bưởi là $45\text{ J}$.
+\vspace{6pt}
+
+\begin{tabularx}{\linewidth}{@{}X X X X@{}}
+\textbf{A.} $h = 2\text{ m}$. & \textbf{B.} $h = 2,5\text{ m}$. & \textbf{C.} $h = 3\text{ m}$. & \textbf{D.} $h = 4\text{ m}$.
+\end{tabularx}
+
+\vspace*{\fill}
+
+\textbf{Câu 2.} Quả bóng được đá ra với tốc độ $v = 90\text{ km/h}$. Tính khối lượng $m$ của quả bóng, biết quả bóng có động năng là $125\text{ J}$.
+\vspace{6pt}
+
+\begin{tabularx}{\linewidth}{@{}X X X X@{}}
+\textbf{A.} $m = 0,5\text{ kg}$. & \textbf{B.} $m = 0,4\text{ kg}$. & \textbf{C.} $m = 4\text{ kg}$. & \textbf{D.} $m = 2\text{ kg}$.
+\end{tabularx}
+\vspace*{\fill}
+\newpage
+
+% SLIDE 23: VẬT LÍ CÂU 3 & CÂU 4
+\fontsize{25}{33}\selectfont
+\textbf{Câu 3.} Quả cầu bị mắc trên cành cây có thế năng là $7\text{ J}$, gốc thế năng ở mặt đất, độ cao của quả cầu là $7\text{ m}$. Hỏi khối lượng của quả cầu là bao nhiêu?
+\vspace{6pt}
+
+\begin{tabularx}{\linewidth}{@{}X X X X@{}}
+\textbf{A.} $m = 10\text{ kg}$. & \textbf{B.} $m = 1\text{ kg}$. & \textbf{C.} $m = 0,1\text{ kg}$. & \textbf{D.} $m = 0,01\text{ kg}$.
+\end{tabularx}
+
+\vspace*{\fill}
+
+\textbf{Câu 4.} Cơ năng của một vật được xác định bởi
+\vspace{6pt}
+
+\textbf{A.} tổng nhiệt năng và động năng.\\
+\textbf{B.} tổng thế năng và nhiệt năng.\\
+\textbf{C.} tổng hóa năng và động năng.\\
+\textbf{D.} tổng động năng và thế năng.
+\vspace*{\fill}
+\newpage
+
+% SLIDE 24: VẬT LÍ CÂU 5 & CÂU 6
+\fontsize{26}{34}\selectfont
+\textbf{Câu 5.} Biểu thức nào sau đây mô tả đúng mối quan hệ giữa cơ năng ($W_c$), động năng ($W_đ$) và thế năng ($W_t$)?
+\vspace{6pt}
+
+\begin{tabularx}{\linewidth}{@{}X X X X@{}}
+\textbf{A.} $W_c = W_đ + W_t$. & \textbf{B.} $W_c = W_đ - W_t$. & \textbf{C.} $W_c = W_đ \times W_t$. & \textbf{D.} $W_c = W_đ = W_t$.
+\end{tabularx}
+
+\vspace*{\fill}
+
+\textbf{Câu 6.} Một vật có thế năng $W_t = 42\text{ J}$, động năng $W_đ = 14\text{ J}$. Thì cơ năng $W_c$ của nó bằng bao nhiêu? Coi cơ năng của nó được bảo toàn.
+\vspace{6pt}
+
+\begin{tabularx}{\linewidth}{@{}X X X X@{}}
+\textbf{A.} $W_c = 28\text{ J}$. & \textbf{B.} $W_c = 3\text{ J}$. & \textbf{C.} $W_c = 56\text{ J}$. & \textbf{D.} $W_c = 588\text{ J}$.
+\end{tabularx}
+\vspace*{\fill}
+\newpage
+
+% SLIDE 25: VẬT LÍ CÂU 7 & CÂU 8
+\fontsize{26}{34}\selectfont
+\textbf{Câu 7.} Các đơn vị nào sau đây là đơn vị của \textbf{Công} mà em đã được học?
+\vspace{6pt}
+
+\begin{tabularx}{\linewidth}{@{}X X@{}}
+\textbf{A.} $\text{MJ, BTU, cal, HP}$. & \textbf{B.} $\text{kJ, BTU, cal, J}$.\\[8pt]
+\textbf{C.} $\text{MJ, BTU/h, cal, J}$. & \textbf{D.} $\text{HP, MJ, W, BTU/h}$.
+\end{tabularx}
+
+\vspace*{\fill}
+
+\textbf{Câu 8.} Các đơn vị nào sau đây là đơn vị của \textbf{Công suất} mà em đã được học?
+\vspace{6pt}
+
+\begin{tabularx}{\linewidth}{@{}X X@{}}
+\textbf{A.} $\text{MJ, BTU, cal, HP}$. & \textbf{B.} $\text{kJ, BTU, cal, J}$.\\[8pt]
+\textbf{C.} $\text{MJ, BTU/h, cal, J}$. & \textbf{D.} $\text{HP, J/s, W, BTU/h}$.
+\end{tabularx}
+\vspace*{\fill}
+\newpage
+
+% SLIDE 26: VẬT LÍ CÂU 9
+\fontsize{28}{36}\selectfont
+\textbf{Câu 9.} Trong các đơn vị của công có một đơn vị mà ta thường hay gặp trong đời sống đó là calo ($\text{cal}$). Vậy $1\text{ calo}$ bằng bao nhiêu Jun?
+\vspace{16pt}
+
+\begin{tabularx}{\linewidth}{@{}X X X X@{}}
+\textbf{A.} $1,486\text{ J}$. & \textbf{B.} $4,186\text{ J}$. & \textbf{C.} $4186\text{ J}$. & \textbf{D.} $1486\text{ J}$.
+\end{tabularx}
+\vspace*{\fill}
+\newpage
+
+% SLIDE 27: VẬT LÍ TRẢ LỜI NGẮN CÂU 10 & 11
+\fontsize{25}{33}\selectfont
+\textbf{Câu 10.} Bác Thường đang lái ô tô trên đường có động năng bằng $50\text{ kJ}$. Khối lượng ô tô và người là $1000\text{ kg}$. Bác Thường lái xe với tốc độ bằng bao nhiêu $\text{m/s}$?\\
+\textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$
+
+\vspace*{\fill}
+
+\textbf{Câu 11.} Thầy Minh cầm khối gỗ trên tay ở độ cao $h = 1,2\text{ m}$. Biết thế năng của khối gỗ là $2,4\text{ J}$ (gốc thế năng ở mặt đất, lấy $g = 10\text{ m/s}^2$). Khối gỗ nặng bao nhiêu $\text{kg}$?\\
+\textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$
+\vspace*{\fill}
+\newpage
+
+% SLIDE 28: VẬT LÍ TRẢ LỜI NGẮN CÂU 12 & 13
+\fontsize{25}{33}\selectfont
+\textbf{Câu 12.} Bạn Linh đi leo núi, dừng lại nghỉ ngơi có thế năng là $250\text{ kJ}$. Hỏi Linh đang ở độ cao bao nhiêu mét? Biết khối lượng của Linh là $50\text{ kg}$ (lấy $g = 10\text{ m/s}^2$).\\
+\textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$
+
+\vspace*{\fill}
+
+\textbf{Câu 13.} Một máy điều hòa nhiệt độ có công suất $2\text{ HP}$ (Mã lực). Hỏi công suất này đổi ra đơn vị oát ($\text{W}$) là bao nhiêu? (Biết $1\text{ HP} \approx 746\text{ W}$).\\
+\textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$
+\vspace*{\fill}
+\newpage
+
+% SLIDE 29: VẬT LÍ TRẢ LỜI NGẮN CÂU 14 & 15
+\fontsize{25}{33}\selectfont
+\textbf{Câu 14.} Bạn Nam khi đẩy xe hàng đã thực hiện công là $3\text{ BTU}$. Vậy công của bạn Nam đổi ra đơn vị $\text{J}$ là bao nhiêu? (Biết $1\text{ BTU} \approx 1055\text{ J}$).\\
+\textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$
+
+\vspace*{\fill}
+
+\textbf{Câu 15.} Một máy sưởi ấm có công suất là $2051\text{ W}$, em hãy đổi ra đơn vị $\text{BTU/h}$ là bao nhiêu?\\
+\textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$
+\vspace*{\fill}
+\newpage
+
+% SLIDE 30: VẬT LÍ TỰ LUẬN CÂU 1 & 2
+\fontsize{24}{32}\selectfont
+\textbf{Câu 1.} Một vật đang chuyển động có động năng $120\text{ J}$ và thế năng $80\text{ J}$ so với mặt đất. Tính cơ năng của vật.
+
+\vspace*{\fill}
+
+\textbf{Câu 2.} Một quả bóng có khối lượng $2\text{ kg}$ đang chuyển động với tốc độ $6\text{ m/s}$ ở độ cao $5\text{ m}$ so với mặt đất. Trọng lượng của quả bóng là $20\text{ N}$. Chọn mốc tính thế năng ở mặt đất. Tính cơ năng của quả bóng tại độ cao $5\text{ m}$.
+\vspace*{\fill}
+\newpage
+
+% SLIDE 31: VẬT LÍ TỰ LUẬN CÂU 3 & 4
+\fontsize{24}{32}\selectfont
+\textbf{Câu 3.} Vật có khối lượng $4\text{ kg}$ chuyển động ở độ cao $3\text{ m}$ so với mặt đất, cơ năng là $180\text{ J}$, trọng lượng là $40\text{ N}$. Tính tốc độ chuyển động của vật tại độ cao $3\text{ m}$.
+
+\vspace*{\fill}
+
+\textbf{Câu 4.} Thùng hàng thả rơi từ độ cao $h = 1,5\text{ m}$ xuống mặt đất. Khối lượng thùng hàng là $3,5\text{ kg}$. Tính cơ năng của vật? Biết cơ năng được bảo toàn (lấy $g = 10\text{ m/s}^2$).
+\vspace*{\fill}
+\newpage
+
+% SLIDE 32: VẬT LÍ TỰ LUẬN CÂU 5 & 6
+\fontsize{24}{32}\selectfont
+\textbf{Câu 5.} Quả bóng rổ khối lượng $600\text{ g}$ ném từ mặt đất lên cao với tốc độ $18\text{ m/s}$. Tính cơ năng của vật? Biết cơ năng được bảo toàn.
+
+\vspace*{\fill}
+
+\textbf{Câu 6.} Vật có trọng lượng $30\text{ N}$ chuyển động với tốc độ $4\text{ m/s}$ ở độ cao $h$. Khối lượng vật là $3\text{ kg}$ và cơ năng tại độ cao $h$ là $144\text{ J}$. Tính độ cao $h$ của vật so với mặt đất.
+\vspace*{\fill}
+\newpage
+
+% SLIDE 33: VẬT LÍ TỰ LUẬN CÂU 7
+\fontsize{25}{33}\selectfont
+\textbf{Câu 7.} Quả bóng trọng lượng $10\text{ N}$ thả rơi từ độ cao $12\text{ m}$. Bỏ qua sức cản không khí, gốc thế năng ở mặt đất.\\
+a) Tính cơ năng của quả bóng lúc bắt đầu thả. Biết cơ năng được bảo toàn.\\
+b) Khi quả bóng ở độ cao $5\text{ m}$, tính thế năng và động năng của quả bóng.\\
+c) Khi quả bóng ở ngay sát mặt đất, động năng của quả bóng bằng bao nhiêu?
+\vspace*{\fill}
+\newpage
+
+% SLIDE 34: VẬT LÍ TỰ LUẬN CÂU 8 & 9
+\fontsize{26}{34}\selectfont
+\textbf{Câu 8.} Khi nào thì cơ năng của vật được bảo toàn?
+
+\vspace*{\fill}
+
+\textbf{Câu 9.} Khi nào thì cơ năng của vật KHÔNG được bảo toàn?
+\vspace*{\fill}
+\newpage
+
+% SLIDE 35: VẬT LÍ TỰ LUẬN CÂU 10
+\fontsize{25}{33}\selectfont
+\textbf{Câu 10.} Quả bóng khối lượng $0,5\text{ kg}$ ném thẳng đứng lên cao. Lên đến vị trí cao nhất ở độ cao $10\text{ m}$ so với mặt đất, tốc độ bằng $0$. Trọng lượng quả bóng là $5\text{ N}$. Gốc thế năng ở mặt đất.\\
+a) Tính động năng của quả bóng ở vị trí cao nhất.\\
+b) Tính thế năng và cơ năng của quả bóng ở vị trí đó.
+\vspace*{\fill}
+\newpage
+
+% SLIDE 36: VẬT LÍ TỰ LUẬN CÂU 11
+\fontsize{25}{33}\selectfont
+\textbf{Câu 11.} Vật có khối lượng $2\text{ kg}$ rơi từ độ cao $15\text{ m}$ xuống độ cao $5\text{ m}$. Tại vị trí $15\text{ m}$, vật có tốc độ $4\text{ m/s}$. Trọng lượng vật là $20\text{ N}$, bỏ qua sức cản không khí. Biết cơ năng được bảo toàn.\\
+a) Tính cơ năng của vật tại độ cao $15\text{ m}$.\\
+b) Tính tốc độ của vật tại độ cao $5\text{ m}$.
+\vspace*{\fill}
+\newpage
+
+% ==============================================================================
+% PHẦN 3: VẬT SỐNG (SINH HỌC)
+% ==============================================================================
+
+% SLIDE 37: SINH CÂU 1 & CÂU 2
+\fontsize{26}{34}\selectfont
+\textbf{Câu 1.} Tập hợp tất cả các tính trạng của cơ thể sinh vật được gọi là
+\vspace{6pt}
+
+\begin{tabularx}{\linewidth}{@{}X X X X@{}}
+\textbf{A.} kiểu gene. & \textbf{B.} dòng thuần. & \textbf{C.} kiểu hình. & \textbf{D.} allele.
+\end{tabularx}
+
+\vspace*{\fill}
+
+\textbf{Câu 2.} Ai là người đặt nền móng cho di truyền học?
+\vspace{6pt}
+
+\begin{tabularx}{\linewidth}{@{}X X@{}}
+\textbf{A.} Charles Darwin. & \textbf{B.} Barbara McClintock.\\[8pt]
+\textbf{C.} Wilmut và Campbell. & \textbf{D.} Gregor Johann Mendel.
+\end{tabularx}
+\vspace*{\fill}
+\newpage
+
+% SLIDE 38: SINH CÂU 3 & CÂU 4
+\fontsize{26}{34}\selectfont
+\textbf{Câu 3.} Tính trạng trội biểu hiện ra kiểu hình khi
+\vspace{6pt}
+
+\begin{tabularx}{\linewidth}{@{}X X@{}}
+\textbf{A.} có kiểu gene đồng hợp lặn hoặc dị hợp. & \textbf{B.} có kiểu gene đồng hợp trội hoặc dị hợp.\\[8pt]
+\textbf{C.} có kiểu gene đồng hợp trội. & \textbf{D.} có kiểu gene đồng hợp lặn.
+\end{tabularx}
+
+\vspace*{\fill}
+
+\textbf{Câu 4.} Kiểu hình là
+\vspace{6pt}
+
+\begin{tabularx}{\linewidth}{@{}X X@{}}
+\textbf{A.} tổ hợp toàn bộ tính trạng của cơ thể. & \textbf{B.} tổ hợp một số tính trạng của cơ thể.\\[8pt]
+\textbf{C.} tổ hợp các tính trạng lặn của cơ thể. & \textbf{D.} tổ hợp tính trạng tương phản của cơ thể.
+\end{tabularx}
+\vspace*{\fill}
+\newpage
+
+% SLIDE 39: SINH CÂU 5 & CÂU 6
+\fontsize{25}{33}\selectfont
+\textbf{Câu 5.} Đem lai các cá thể thuần chủng khác nhau về một cặp tính trạng tương phản. Mendel phát hiện ở thế hệ $\text{F}_1$
+\vspace{6pt}
+
+\textbf{A.} luôn luôn biểu hiện kiểu hình giống mẹ.\\
+\textbf{B.} luôn luôn biểu hiện kiểu hình giống bố.\\
+\textbf{C.} chỉ biểu hiện 1 trong 2 kiểu hình của bố hoặc mẹ.\\
+\textbf{D.} biểu hiện tính trạng trung gian giữa bố và mẹ.
+
+\vspace*{\fill}
+
+\textbf{Câu 6.} Tính trạng tương phản là
+\vspace{6pt}
+
+\textbf{A.} các đặc điểm chỉ có ở cơ thể đực mà không có ở cơ thể cái.\\
+\textbf{B.} các đặc điểm bị biến đổi do ảnh hưởng của môi trường.\\
+\textbf{C.} hai trạng thái biểu hiện trái ngược nhau của cùng một loại tính trạng.\\
+\textbf{D.} hai trạng thái biểu hiện khác nhau của hai loại tính trạng hoàn toàn riêng biệt.
+\vspace*{\fill}
+\newpage
+
+% SLIDE 40: SINH CÂU 7 & CÂU 8
+\fontsize{26}{34}\selectfont
+\textbf{Câu 7.} Theo Mendel, mỗi tính trạng của cơ thể sinh vật do
+\vspace{6pt}
+
+\begin{tabularx}{\linewidth}{@{}X X@{}}
+\textbf{A.} một nhân tố di truyền quy định. & \textbf{B.} một cặp nhân tố di truyền quy định.\\[8pt]
+\textbf{C.} hai nhân tố di truyền quy định. & \textbf{D.} hai cặp nhân tố di truyền quy định.
+\end{tabularx}
+
+\vspace*{\fill}
+
+\textbf{Câu 8.} Hiện tượng truyền đạt các đặc điểm của bố mẹ, tổ tiên cho các thế hệ con cháu gọi là
+\vspace{6pt}
+
+\begin{tabularx}{\linewidth}{@{}X X X X@{}}
+\textbf{A.} biến dị. & \textbf{B.} nguyên phân. & \textbf{C.} thụ tinh. & \textbf{D.} di truyền.
+\end{tabularx}
+\vspace*{\fill}
+\newpage
+
+% SLIDE 41: SINH CÂU 9 & CÂU 10
+\fontsize{25}{33}\selectfont
+\textbf{Câu 9.} Trong tế bào, DNA đảm nhận các chức năng nào sau đây?
+\vspace{6pt}
+
+\begin{tabularx}{\linewidth}{@{}X X@{}}
+\textbf{A.} Truyền đạt thông tin di truyền. & \textbf{B.} Cấu trúc nên nhân tế bào.\\[8pt]
+\textbf{C.} Xúc tác các phản ứng sinh hóa. & \textbf{D.} Lưu trữ, truyền đạt thông tin di truyền.
+\end{tabularx}
+
+\vspace*{\fill}
+
+\textbf{Câu 10.} Khi nói về cấu trúc không gian của DNA, phát biểu nào dưới đây \textbf{không đúng}?
+\vspace{6pt}
+
+\textbf{A.} Trong mỗi mạch DNA, các đơn phân liên kết bằng liên kết cộng hóa trị.\\
+\textbf{B.} DNA có cấu trúc xoắn kép gồm 2 mạch song song ngược chiều, xoắn từ phải sang trái.\\
+\textbf{C.} Giữa hai mạch DNA, các đơn phân liên kết hydrogen theo NTBS.\\
+\textbf{D.} Đơn phân cấu tạo nên phân tử DNA gồm A, T, C, G.
+\vspace*{\fill}
+\newpage
+
+% SLIDE 42: SINH ĐÚNG/SAI CÂU 11 (Ý a - d)
+\fontsize{24}{32}\selectfont
+\textbf{Câu 11 (Phần 1).} Cho các phát biểu sau, nhận định phát biểu nào đúng (Đ), phát biểu nào sai (S):
+\vspace{12pt}
+
+a) Dòng thuần là các cơ thể đồng hợp về tất cả các cặp gene, có đặc tính di truyền đồng nhất và ổn định. \hfill $[\quad]$\\[10pt]
+b) Allele là các trạng thái biểu hiện giống nhau của cùng một gene. \hfill $[\quad]$\\[10pt]
+c) Nội dung quy luật phân li: Mỗi tính trạng do 1 cặp allele quy định. Khi giảm phân tạo giao tử, các allele trong cặp phân li đồng đều về các giao tử. \hfill $[\quad]$\\[10pt]
+d) Kết quả thí nghiệm lai một tính trạng được Mendel giải thích bằng sự phân li của cặp nhân tố di truyền. \hfill $[\quad]$
+\vspace*{\fill}
+\newpage
+
+% SLIDE 43: SINH ĐÚNG/SAI CÂU 11 (Ý e - h)
+\fontsize{24}{32}\selectfont
+\textbf{Câu 11 (Phần 2).} Cho các phát biểu sau, nhận định phát biểu nào đúng (Đ), phát biểu nào sai (S):
+\vspace{12pt}
+
+e) Cho cây hoa đỏ (P) tự thụ phấn, $\text{F}_1$ thu được cả hoa đỏ và hoa trắng với tỉ lệ kiểu gene là $1\text{Aa} : 1\text{aa}$. \hfill $[\quad]$\\[10pt]
+f) Phép lai $\text{Aa} \times \text{Aa}$ cho tỉ lệ kiểu hình ở thế hệ con là $1 : 1$. \hfill $[\quad]$\\[10pt]
+g) Muốn xác định cây thân cao có thuần chủng hay không, ta có thể cho cây thân cao thực hiện phép lai phân tích. \hfill $[\quad]$\\[10pt]
+h) Kiểu gene cơ thể mang tính trạng trội của một cặp tính trạng là $\text{AA}$ hoặc $\text{Aa}$. \hfill $[\quad]$
+\vspace*{\fill}
+\newpage
+
+% SLIDE 44: SINH ĐÚNG/SAI CÂU 11 (Ý i - n)
+\fontsize{24}{32}\selectfont
+\textbf{Câu 11 (Phần 3).} Cho các phát biểu sau, nhận định phát biểu nào đúng (Đ), phát biểu nào sai (S):
+\vspace{10pt}
+
+i) Lai phân tích nhằm xác định kiểu hình của cơ thể mang tính trạng trội. \hfill $[\quad]$\\[8pt]
+k) Các kiểu gene sau thuộc kiểu gene đồng hợp: $\text{AABB, AAbb, AaBB, aaBB}$. \hfill $[\quad]$\\[8pt]
+l) DNA có chức năng truyền đạt thông tin di truyền qua các thế hệ tế bào và cơ thể. \hfill $[\quad]$\\[8pt]
+m) Trên mỗi mạch DNA, các nucleotide liên kết với nhau bằng liên kết hydrogen theo NTBS. \hfill $[\quad]$\\[8pt]
+n) DNA cấu tạo từ 4 loại nucleotide ($\text{A, T, G, C}$); sự khác nhau về số lượng, thành phần và thứ tự sắp xếp tạo nên tính đa dạng và đặc thù của DNA. \hfill $[\quad]$
+\vspace*{\fill}
+\newpage
+
+% SLIDE 45: SINH TRẢ LỜI NGẮN CÂU 12 & 13
+\fontsize{26}{34}\selectfont
+\textbf{Câu 12.} Số loại giao tử có thể được tạo ra từ cơ thể có kiểu gene $\text{AaBbDD}$ là bao nhiêu?\\
+\textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$
+
+\vspace*{\fill}
+
+\textbf{Câu 13.} $\text{F}_1$ có kiểu gene $\text{AaBb}$ tiến hành tự thụ phấn thì số tổ hợp giao tử thu được ở $\text{F}_2$ là bao nhiêu?\\
+\textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$
+\vspace*{\fill}
+\newpage
+
+% SLIDE 46: SINH TRẢ LỜI NGẮN CÂU 14 & 15
+\fontsize{25}{33}\selectfont
+\textbf{Câu 14.} Ở đậu hà lan, allele A quy định hoa tím trội hoàn toàn so với a quy định hoa trắng. Cho cây hoa tím dị hợp $\text{Aa}$ tự thụ phấn. Tính theo lí thuyết, tỉ lệ phần trăm số cây hoa tím dị hợp thu được ở đời con là bao nhiêu \%?\\
+\textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$
+
+\vspace*{\fill}
+
+\textbf{Câu 15.} Ở đậu hà lan, gene A quy định hạt trơn, allele a quy định hạt nhăn. Cho cây hạt trơn không thuần chủng lai với cây hạt nhăn thì ở $\text{F}_1$ kiểu hình hạt trơn chiếm tỉ lệ bao nhiêu \%?\\
+\textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$
+\vspace*{\fill}
+\newpage
+
+% SLIDE 47: SINH TỰ LUẬN CÂU 1
+\fontsize{25}{33}\selectfont
+\textbf{Câu 1 (Tự luận Sinh).} Ở loài ruồi giấm, thân xám, cánh dài là trội hoàn toàn so với thân đen, cánh cụt (phân li độc lập). Cho P thuần chủng: thân xám, cánh cụt $\times$ thân đen, cánh dài. Hãy xác định kết quả của phép lai trên ($\text{F}_1$ và $\text{F}_2$).
+\vspace*{\fill}
+\newpage
+
+% SLIDE 48: SINH TỰ LUẬN CÂU 2
+\fontsize{24}{32}\selectfont
+\textbf{Câu 2 (Tự luận Sinh).}\\
+a. Trình tự các nucleotide trên một đoạn của DNA như sau:\\
+\centerline{$3' \dots \text{T-T-G-C-T-C-A-T-C-A-C-G-T} \dots 5'$}\\
+Xác định trình tự các nucleotide trên mạch bổ sung với mạch đó.\\
+b. Nêu một số ứng dụng của phân tích DNA trong truy tìm tội phạm, xác định huyết thống.
+\vspace*{\fill}
+\newpage
+
+% SLIDE 49: SINH TỰ LUẬN CÂU 3
+\fontsize{24}{32}\selectfont
+\textbf{Câu 3 (Tự luận Sinh).}\\
+a. Nêu khái niệm nucleic acid? Nucleic acid được cấu tạo như thế nào? Gồm những loại nào?\\
+b. Cho các đối tượng sau: \textit{Da, tóc, tiểu cầu, ti thể, virus HIV}. Đối tượng nào có chứa nucleic acid?
+\vspace*{\fill}
+\newpage
+
+% SLIDE 50: SINH TỰ LUẬN CÂU 4
+\fontsize{26}{34}\selectfont
+\textbf{Câu 4 (Tự luận Sinh).} Một gene có $480\text{ adenine}$ ($\text{A}$) và $3120$ liên kết hydrogen. Tính số lượng nucleotide của đoạn gene trên.
+\vspace*{\fill}
+\newpage
+
+% SLIDE 51: SINH TỰ LUẬN CÂU 5
+\fontsize{25}{33}\selectfont
+\textbf{Câu 5 (Tự luận Sinh).} Trình bày phương pháp và các công thức tính số lượng các loại nucleotide ($N$), số liên kết hydrogen ($H$) và số liên kết cộng hóa trị ($H_{ht}$) của phân tử DNA.
+\vspace*{\fill}
+\newpage
+
+% ==============================================================================
+% SLIDE 52: BẢNG TỔNG HỢP ĐÁP ÁN TOÀN BỘ ĐỀ CƯƠNG
+% ==============================================================================
+\begin{center}
+{\fontsize{24}{30}\selectfont \textbf{\color{brandGreen}BẢNG TỔNG HỢP ĐÁP ÁN ĐỀ CƯƠNG ÔN TẬP KHTN 9}}\\[0.4cm]
+\end{center}
+
+\fontsize{18}{24}\selectfont
+\textbf{1. Trắc nghiệm Hóa học (Câu 1 -- 15):}\\
+\begin{tabularx}{\linewidth}{|*{15}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} & \textbf{13} & \textbf{14} & \textbf{15}\\
+\hline
+\textbf{\color{brandRed}A} & \textbf{\color{brandRed}D} & \textbf{\color{brandRed}B} & \textbf{\color{brandRed}D} & \textbf{\color{brandRed}C} & \textbf{\color{brandRed}D} & \textbf{\color{brandRed}B} & \textbf{\color{brandRed}C} & \textbf{\color{brandRed}A} & \textbf{\color{brandRed}B} & \textbf{\color{brandRed}B} & \textbf{\color{brandRed}C} & \textbf{\color{brandRed}B} & \textbf{\color{brandRed}C} & \textbf{\color{brandRed}C}\\
+\hline
+\end{tabularx}
+\vspace{6pt}
+
+\textbf{2. Trắc nghiệm Vật lí (Câu 1 -- 9):}\\
+\begin{tabularx}{\linewidth}{|*{9}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9}\\
+\hline
+\textbf{\color{brandRed}C} & \textbf{\color{brandRed}B} & \textbf{\color{brandRed}C} & \textbf{\color{brandRed}D} & \textbf{\color{brandRed}A} & \textbf{\color{brandRed}C} & \textbf{\color{brandRed}B} & \textbf{\color{brandRed}D} & \textbf{\color{brandRed}B}\\
+\hline
+\end{tabularx}
+\vspace{6pt}
+
+\textbf{3. Trắc nghiệm Sinh học (Câu 1 -- 10):}\\
+\begin{tabularx}{\linewidth}{|*{10}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10}\\
+\hline
+\textbf{\color{brandRed}C} & \textbf{\color{brandRed}D} & \textbf{\color{brandRed}B} & \textbf{\color{brandRed}A} & \textbf{\color{brandRed}C} & \textbf{\color{brandRed}C} & \textbf{\color{brandRed}B} & \textbf{\color{brandRed}D} & \textbf{\color{brandRed}D} & \textbf{\color{brandRed}B}\\
+\hline
+\end{tabularx}
+\vspace{6pt}
+
+\textbf{4. Trắc nghiệm Đúng / Sai:}\\
+$\bullet$ \textbf{Hóa học (Câu 16):} a-S, b-Đ, c-Đ, d-Đ, e-Đ, f-S, g-Đ, h-S, i-S, j-Đ.\\
+$\bullet$ \textbf{Sinh học (Câu 11):} a-Đ, b-S, c-Đ, d-Đ, e-S, f-S, g-Đ, h-Đ, i-S, k-S, l-Đ, m-S, n-Đ.
+\vspace{4pt}
+
+\textbf{5. Trắc nghiệm Trả lời ngắn:}\\
+$\bullet$ \textbf{Hóa học:} C17: \textbf{3} | C18: \textbf{32,5 gam} | C19: \textbf{2,4 gam}.\\
+$\bullet$ \textbf{Vật lí:} C10: \textbf{10 m/s} | C11: \textbf{0,2 kg} | C12: \textbf{500 m} | C13: \textbf{1492 W} | C14: \textbf{3165 J} | C15: \textbf{7000 BTU/h}.\\
+$\bullet$ \textbf{Sinh học:} C12: \textbf{4} | C13: \textbf{16} | C14: \textbf{50\%} | C15: \textbf{50\%}.
+
+\end{document}
+"""
+
+with open(TEX_PATH, "w", encoding="utf-8") as f:
+    f.write(latex_code)
+
+print(f"--> Đã tạo file LaTeX: {TEX_PATH}")
+
+# Biên dịch pdflatex
+cmd = ["pdflatex", "-interaction=nonstopmode", os.path.basename(TEX_PATH)]
+print(f"--> Đang biên dịch PDF trình chiếu 16:9 bằng pdflatex...")
+res = subprocess.run(cmd, cwd=OUT_DIR, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+
+if os.path.exists(PDF_PATH):
+    print(f"    [Xong] File PDF 16:9 đã tạo: {PDF_PATH} ({os.path.getsize(PDF_PATH):,} bytes)")
+    
+    # Dọn dẹp file rác
+    base_name = os.path.splitext(os.path.basename(TEX_PATH))[0]
+    for ext in [".aux", ".log", ".out"]:
+        junk = os.path.join(OUT_DIR, base_name + ext)
+        if os.path.exists(junk):
+            os.remove(junk)
+            
+    # Sao lưu sang OneDrive
+    ONEDRIVE_DIRS = [
+        r"c:\Users\Admin\OneDrive\Tập đính kèm\2026-2027\khtn9\KHTN9-DEKIEMTRADINHKI",
+        r"c:\Users\Admin\OneDrive\Tập đính kèm\2026-2027\khtn9"
+    ]
+    for od in ONEDRIVE_DIRS:
+        if os.path.exists(od):
+            try:
+                dst = os.path.join(od, os.path.basename(PDF_PATH))
+                shutil.copy2(PDF_PATH, dst)
+                print(f"    -> Đã sao lưu sang OneDrive: {dst}")
+            except Exception as e:
+                print(f"    [!] Lỗi sao lưu OneDrive: {e}")
+else:
+    print("[!] Lỗi biên dịch PDF:")
+    print(res.stdout[-1000:])
