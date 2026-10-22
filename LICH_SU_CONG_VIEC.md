@@ -615,3 +615,78 @@ Hệ thống tự động theo dõi, chuyển đổi và quản lý toàn bộ c
 - **Sao lưu tự động vào OneDrive:**
   - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\`
   - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\KHTN9-DEKIEMTRADINHKI\`
+
+---
+
+### Đợt 59: Hoàn thành Số hóa và Chuyển đổi Toàn diện Chuyên đề TỜ SỐ 36 - CHƯƠNG 5: PIN ĐIỆN VÀ ĐIỆN PHÂN (HÓA HỌC 12 - 23 Trang Gốc) thành Trọn bộ 3 Bản Word & 4 Bản PDF Chuẩn FORM ĐỀ KIỂM TRA & Chiếu Tivi 16:9
+
+- **Thời gian thực hiện:** 22/10/2026
+- **Tài liệu nguồn:** `Tờ 36-Điện phân (phân dạng)-1-23.pdf` (23 trang tài liệu chuyên sâu của Lớp Hóa Anh Nhân).
+- **Nội dung bao quát toàn diện cả 6 phần lớn (Tổng cộng 105 câu hỏi và bài tập định lượng cao cấp):**
+  - **1. Dạng 1: Mạ kim loại (Trang 1 - 2):**
+    * *Lí thuyết trọng tâm:* Mục đích (chống ăn mòn, thẩm mỹ, độ bền); Cấu tạo hệ điện phân (Anode kim loại mạ, Cathode vật cần mạ, dung dịch muối cation); Bán phản ứng tại các điện cực; Lưu ý công nghệ (làm sạch bề mặt, dòng điện vừa đủ, anode tan, nhiệt độ và khuấy trộn); Ví dụ thực tế mạ Cu, Ag, Ni.
+    * *9 bài tập tính toán định lượng:* Câu 1 (mạ 5g Ag lên đĩa sắt, H=100% $\to$ 49,6 phút, H=80% $\to$ 62,0 phút); Câu 2 (mạ Ag đĩa tròn $r=12\text{ cm}$, dày $0,01\text{ mm}$, $I=2\text{ A}$, H=100% $\to$ 0,59 giờ, H=90% $\to$ 0,65 giờ); Câu 3 (mạ Ni $S=100\text{ cm}^2$, dày $31,1\text{ }\mu\text{m}$); Câu 4 (mạ Au huy chương $d=70\text{ mm}$, dày $0,05\text{ mm}$, $t=1185\text{ s}$); Câu 5 (mạ Zn khối lập phương cạnh $12\text{ cm}$, dày $0,9\text{ mm}$); Câu 6 (mạ Zn quả cân hình cầu $R=5\text{ cm}$, dày $1\text{ mm}$, $t=11,5\text{ giờ}$); Câu 7 (mạ Ni chi tiết máy hình trụ $d=7\text{ cm}, L=15\text{ cm}$, $t=49,7\text{ phút}$); Câu 8 (mạ Cu hình trụ $R=4,25\text{ cm}, h=25\text{ cm}$, $t=19,5\text{ giờ}$); Câu 9 (mạ Au huy chương tròn $R=4\text{ cm}, h=0,5\text{ cm}$, $t=0,7\text{ giờ}$).
+  - **2. Dạng 2: Quá trình Anode hóa nhôm (Anodizing) (Trang 2 - 3):**
+    * *Lí thuyết trọng tâm:* Mục tiêu (tăng độ dày lớp $Al_2O_3$ bảo vệ, chống mài mòn, nhuộm màu); Nguyên lý (Al làm anode trong $H_2SO_4$ loãng); Cấu tạo & phản ứng ($2Al + 3H_2O \to Al_2O_3 + 6H^+ + 6e$ tại anode; $2H^+ + 2e \to H_2$ tại cathode); Lưu ý kỹ thuật (nhiệt độ thấp 0-10°C, điện áp vừa đủ, dung dịch phù hợp, bịt lỗ nhuộm màu sealing); Đặc tính sản phẩm và ứng dụng điện tử (vỏ MacBook, điện thoại), xây dựng (nhôm kính), hàng không, gia dụng.
+    * *3 bài tập tính toán:* Câu 1 ($S=1\text{ m}^2$, dày $3\text{ }\mu\text{m}$, $I=2,68\text{ A}$, $H=95\% \to t=7,34\text{ giờ}$); Câu 2 ($t=7,34\text{ giờ}$); Câu 3 ($S=2\text{ m}^2$, dày $2\text{ }\mu\text{m}$, $I=2,68\text{ A}$, $H=90\% \to t=10,33\text{ giờ}$).
+  - **3. Dạng 3: Điện phân nóng chảy $Al_2O_3$ (Quy trình Hall - Héroult) (Trang 3 - 6):**
+    * *Lí thuyết trọng tâm:* Mục đích (tách Al từ quặng bauxite sau tinh chế Bayer); Cấu tạo bể điện phân (cathode than chì ở đáy bể, anode than chì thả từ trên xuống); Chất điện li $Al_2O_3$ trong cryolite $Na_3AlF_6$ nóng chảy ở ~950°C; 3 vai trò của cryolite (giảm nhiệt độ nc, tăng độ dẫn điện, nhẹ hơn Al lỏng nổi lên bảo vệ); Phản ứng điện cực; Lưu ý công nghệ (tiêu hao anode than chì thành $CO, CO_2$, tháo Al lỏng định kỳ, điện áp thấp 4-5V nhưng dòng điện lớn 100-300kA).
+    * *11 bài tập và câu hỏi trắc nghiệm:* Câu 1 (vai trò cryolite - A); Câu 2 (11 nhận định đúng/sai a-k); Câu 3 (Đ/S Hall-Héroult); Câu 4 (tính toán bauxite 100 tấn chứa 51% $Al_2O_3$); Câu 5 (khí anode $CO_2/CO = 4:1$); Câu 6 (sơ đồ bồn điện phân); Câu 7 (Đ/S quy trình); Câu 8 (khí thoát ra); Câu 9 (tính m Al từ 1 tấn bauxite 60% $Al_2O_3.2H_2O \to 188\text{ kg}$); Câu 10 (thu 5,4 tấn Al, tính m carbon bị oxi hóa $\to 2,0\text{ tấn}$); Câu 11 (thu 99,16 m3 khí X ở anode, $d=16,7$, tính m Al $\to 104\text{ kg}$).
+  - **4. Dạng 4: Tinh chế kim loại (đồng) (Trang 6 - 8):**
+    * *Lí thuyết trọng tâm:* Mục đích (thu Cu 99,99%); Cấu tạo hệ thống (Anode đồng thô, Cathode đồng tinh khiết, dung dịch $CuSO_4 + H_2SO_4$ loãng); Phản ứng xảy ra ($Cu, Zn, Fe$ tan ở anode; $Ag, Au, Pt$ rơi xuống đáy tạo bùn anode; ở cathode chỉ có $Cu^{2+}$ bị khử); Lưu ý kiểm soát hiệu điện thế.
+    * *8 bài tập:* Câu 1 (Đ/S dương cực tan); Câu 2 (Đ/S tinh chế Cu); Câu 3 (thí nghiệm thanh đồng không tinh khiết 3,30g); Câu 4 (thí nghiệm đồng xu Cu-Zn 95% Cu); Câu 5 (tính thời gian điện phân đồng xu $\to 425\text{ s}$); Câu 6 (Đ/S thanh hợp kim Zn-Cu 96%); Câu 7 (xác định hàm lượng Cu trong Cu-Zn); Câu 8 (tinh chế Cu lẫn Ag, Zn, Ni, tính tỉ lệ dòng điện hao phí $\to 5,76\%$).
+  - **5. Bài tập tổng hợp (Trang 9 - 17: Câu 1 đến Câu 36):**
+    * Bao quát 36 câu trắc nghiệm nhiều lựa chọn và trắc nghiệm Đúng / Sai: Đồ thị điện phân Cu (D), tính toán carbon tiêu hao Hall-Héroult (B), điện phân NaCl có màng ngăn, mạ thìa đồng, bình điện phân Hofmann $H_2SO_4$ và NaOH, cánh hoa hồng mất màu trong dung dịch điện phân NaCl, phân tích hợp kim Cu-Zn, bể điện phân công nghiệp, điện phân dung dịch $Cu(NO_3)_2, CuCl_2$, pin điện hóa Zn-Cu, mạ vàng trang sức, vàng hồng 10K loại đồng, kiểm tra hàm lượng vàng trong vàng tây 18K.
+  - **6. Phần III: Câu hỏi trả lời ngắn và tính toán thực tiễn (Trang 18 - 23: Câu 37 đến Câu 74):**
+    * Gồm 38 câu hỏi định lượng tính toán chi tiết:
+      - Câu 37: Mạ bạc muỗng đồng ($I=2\text{ A}, t=9\text{ phút}, H=90\% \to 1,09\text{ gam}$).
+      - Câu 38: Khối Mg 293g bảo vệ đường ống thép ($I=0,025\text{ A} \to 1056\text{ ngày}$).
+      - Câu 39: Mạ Zn tấm thép $2\text{ m}^2$, dày $6,5\text{ }\mu\text{m} \to 0,19\text{ giờ}$.
+      - Câu 40: Hệ 2 bình nối tiếp $CuSO_4$ và $AgNO_3 \to 3,2\text{ gam Cu}$.
+      - Câu 41: Bề dày mạ Cu chìa khóa thép không gỉ $\to 0,01\text{ cm}$.
+      - Câu 42: Mạ Au khuyên tai đĩa tròn $d=5\text{ cm} \to 6,31\text{ giờ}$.
+      - Câu 43: Bảo vệ vỏ tàu thép bằng khối Zn trong 1 năm $\to 33,4\text{ kg Zn}$.
+      - Câu 44: Anode hóa nhôm $S=120\text{ cm}^2$, dày $0,01\text{ mm} \to 80\text{ phút}$.
+      - Câu 45: Mạ Cu huy chương $R=2,5\text{ cm}, h=0,3\text{ cm} \to 615\text{ giây}$.
+      - Câu 46: Mạ Ag đĩa tròn $r=12\text{ cm} \to 0,59\text{ giờ}$.
+      - Câu 47: Bình điện phân nước NaOH Hofmann $\to 14$.
+      - Câu 48: Mạ Cu vật dụng $S=10\text{ cm}^2 \to 25\text{ phút}$.
+      - Câu 49: Mạ Zn tấm thép $2\text{ m}^2 \to 0,19\text{ giờ}$.
+      - Câu 50: Mạ Ni ($I=1,5\text{ A}, t=2\text{ giờ} \to 3,3\text{ gam}$).
+      - Câu 51: Điện phân Downs điều chế 1 kg Na, $U=25\text{ V}, H=80\% \to 36,4\text{ kWh}$.
+      - Câu 52: Tỉ lệ hao hụt Al quy trình Bayer $\to 1,36\%$.
+      - Câu 53: Diện tích mạ đồng tấm sắt $x \to 200\text{ cm}^2$.
+      - Câu 54: Mạ Ag đĩa tròn $r=20\text{ cm} \to 1,64\text{ giờ}$.
+      - Câu 55: Anode hóa nhôm $S=120\text{ cm}^2 \to 78\text{ phút}$.
+      - Câu 56: Mạ Cu vật dụng $\to 28,1\text{ phút}$.
+      - Câu 57: Khối lượng quặng bauxite điều chế khi thu 99,16 m3 khí anode $\to 345\text{ kg}$.
+      - Câu 58: Đúc $k$ thanh nhôm hộp $110\times 20\times 10\text{ cm} \to 71\text{ thanh}$.
+      - Câu 59: Độ tinh khiết Cu trong mẫu Cu-Zn $10,4\text{ g} \to 92\%$.
+      - Câu 60: Điện phân Al thu 2,7 tấn, carbon tiêu hao $\to 1\text{ tấn}$.
+      - Câu 61: Thu 5,4 kg Al, khí CO chiếm 70%, than chì anode giảm $\to 2,77\text{ kg}$.
+      - Câu 62: Khối Mg 6 kg bảo vệ đường ống chôn dưới đất $\to 50,4\text{ năm}$.
+      - Câu 63: Thí nghiệm điện phân ruột bút chì than (Đ/S).
+      - Câu 64: Mạ Cu huy chương hình trụ (Đ/S).
+      - Câu 65: Mạ Cu chìa khóa từ đồng xu Cu-Zn (Đ/S).
+      - Câu 66: Điện phân $CuSO_4$ điện cực graphite $\to 134$.
+      - Câu 67: Ảnh hưởng của hiệu điện thế (Đ/S).
+      - Câu 68: Sản xuất 5,4 kg Al, than chì anode giảm $\to 2,77\text{ kg}$.
+      - Câu 69: Bổ sung 1 tấn NaOH hao hụt trong Bayer $\to 25,5\text{ tấn } Al_2O_3$.
+      - Câu 70: Tinh chế đồng không tinh khiết (Đ/S).
+      - Câu 71: Máy tạo oxygen y tế (Đ/S).
+      - Câu 72: Độ tinh khiết Cu-Zn $\to 92\%$.
+      - Câu 73: Bể điện phân Downs sản xuất Na trong 24 giờ $\to 741\text{ kg Na}$.
+      - Câu 74: Quy trình Hall-Héroult, năng lượng điện tiêu thụ kWh (Đ/S).
+- **Quy cách kỹ thuật theo FORM ĐỀ KIỂM TRA:**
+  - Khổ giấy A4, Căn lề chuẩn: Top = Bottom = Left = Right = 1.5 cm; Header & Footer cách mép 0.6 cm.
+  - Header & Footer chuẩn: Coral Red (`#D32F2F`) - Sage Green (`#8BC390`), tên `Thầy TRẦN VĂN THẠNH - 0777.470.803`, số trang tự động `PAGE`.
+  - **Tuyệt đối không dùng Table trong nội dung đề thi trắc nghiệm & câu hỏi**: Bố trí A, B, C, D bằng Tab stops; Lời giải chi tiết thụt lề 0.6 cm có tiêu đề in đậm màu xanh `#1565C0`.
+  - Nhúng đầy đủ 31 hình vẽ thí nghiệm và sơ đồ kỹ thuật vào đúng từng câu hỏi.
+- **Trọn bộ sản phẩm hoàn thành:**
+  1. `San_Pham/De_To36_Hoa12_PinDien_DienPhan_HocSinh.docx` & `.pdf`: Bản Học sinh (37 trang A4).
+  2. `San_Pham/De_To36_Hoa12_PinDien_DienPhan_GiaoVien.docx` & `.pdf`: Bản Giáo viên (48 trang A4, đầy đủ đáp án nổi bật màu đỏ, lời giải chi tiết và bảng tổng hợp đáp án ở cuối).
+  3. `San_Pham/De_To36_Hoa12_PinDien_DienPhan_DayTrenManHinh.docx` & `.pdf`: Bản Dạy trên màn hình tương tác (40 trang A4, có không gian tương tác kẻ mờ rộng rãi).
+  4. `San_Pham/De_To36_Hoa12_PinDien_DienPhan_TrinhChieu_Tivi_16x9.pdf`: Bản Trình chiếu Tivi 65 inch Widescreen 16:9 không viền đen, 114 slide trình chiếu, cỡ chữ 24pt - 30pt.
+- **Sao lưu tự động vào OneDrive:**
+  - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\12\`
+  - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\12\kiem-tra-dinh-ky\`
