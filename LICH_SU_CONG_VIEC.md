@@ -544,3 +544,39 @@ Hệ thống tự động theo dõi, chuyển đổi và quản lý toàn bộ c
 - **Sao lưu tự động vào OneDrive:**
   - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\KHTN9-DEKIEMTRADINHKI\`
   - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\`
+
+
+---
+
+### Đợt 57: Hoàn thành Số hóa và Chuyển đổi Đề cương Ôn tập Giữa học kỳ I - Môn KHTN 8 (Năm học 2026 - 2027) thành Trọn bộ 3 Bản Word & 4 Bản PDF Chuẩn FORM ĐỀ KIỂM TRA & Chiếu Tivi 16:9
+
+- **Thời gian thực hiện:** 22/10/2026
+- **Tài liệu nguồn:** Đề cương ÔN TẬP GIỮA KÌ I MÔN KHOA HỌC TỰ NHIÊN 8 (NĂM HỌC 2026 – 2027) gồm 3 phân môn Hóa học, Sinh học và Vật lí.
+- **Nội dung bao quát toàn diện cả 3 phân môn:**
+  - **1. Phân môn Hóa học (Chất và sự biến đổi chất):**
+    * *Lí thuyết trọng tâm:* Bài 1 (Sử dụng hoá chất, thiết bị cơ bản phòng thí nghiệm, an toàn điện); Bài 2 (Phản ứng hoá học, biến đổi vật lí/hoá học, phản ứng toả nhiệt/thu nhiệt); Bài 3 (Mol, thể tích khí đkc 24,79L, tỉ khối chất khí); Bài 4 (Dung dịch, độ tan S, nồng độ C%, CM, pha chế dung dịch); Bài 5 (Định luật bảo toàn khối lượng, lập PTHH và ý nghĩa).
+    * *Bài tập tham khảo:*
+      - Trắc nghiệm nhiều lựa chọn: 5 câu (Câu 1 - 5).
+      - Trắc nghiệm Đúng / Sai: 5 nhận định về mol, khối lượng mol, thể tích khí, định luật Avogadro (a - e).
+      - Trắc nghiệm trả lời ngắn: 3 câu vận dụng định luật bảo toàn khối lượng (a, b, c).
+      - Tự luận: 8 bài tập tự luận kinh điển (Câu 1: độ tan Na2CO3; Câu 2: bài toán pha loãng và cô cạn dung dịch đường; Câu 3: tính số mol và khối lượng CaCl2; Câu 4: nồng độ mol NaOH và pha loãng; Câu 5: hoàn thành 6 PTHH tổng quát FexOy, CnH2n+2, CuxOy...; Câu 6: tính số mol và khối lượng KCl; Câu 7: nồng độ mol CuSO4 và pha thêm nước; Câu 8: tính toán và tiến hành pha chế 50g dung dịch NaCl 2%).
+  - **2. Phân môn Sinh học (Vật sống):**
+    * *Lí thuyết trọng tâm:* Bài 30 (Khái quát cơ thể người, vai trò các hệ cơ quan); Bài 31 (Hệ vận động, cấu tạo và chức năng bộ xương & cơ, tật cong vẹo cột sống, loãng xương, ý nghĩa TDTT, thực hành sơ cứu gãy xương); Bài 32 (Dinh dưỡng và tiêu hóa ở người, tiêu hóa ở khoang miệng, dạ dày, ruột non, ruột già & trực tràng, bệnh sâu răng, viêm loét dạ dày - tá tràng, nguyên tắc xây dựng khẩu phần ăn).
+  - **3. Phân môn Vật lí (Năng lượng và sự biến đổi):**
+    * *Lí thuyết trọng tâm:* Chương III (Khối lượng riêng, phương pháp đo khối lượng riêng; Áp lực, áp suất, cách tăng giảm áp suất trong đời sống).
+    * *Bài tập tham khảo:*
+      - Trắc nghiệm nhiều lựa chọn: 8 câu chuẩn mực (Câu 1 - 8).
+      - Bài tập tự luận & tính toán: 6 bài toán từ cơ bản đến nâng cao (Câu 9: áp suất bao gạo và ghế 4 chân lên sàn; Câu 10: tìm cạnh khối lập phương từ áp suất p = 3600 N/m2; Câu 11: tính m và P của dầm sắt 60 dm3; Câu 12: tính thể tích đồng xu 0,9g; Câu 13: tính trọng lượng và khối lượng riêng khối sắt 4x5x7 cm; Câu 14: tính trọng lượng 2 lít dầu ăn).
+- **Quy cách kỹ thuật theo FORM ĐỀ KIỂM TRA:**
+  - Khổ giấy A4, Căn lề chuẩn: Top = Bottom = Left = Right = 1.5 cm; Header & Footer cách mép 0.6 cm.
+  - Header & Footer chuẩn: Coral Red (`#D32F2F`) - Sage Green (`#8BC390`), tên `Thầy TRẦN VĂN THẠNH - 0777.470.803`, số trang tự động `PAGE`.
+  - **Tuyệt đối không dùng Table trong nội dung đề thi**: Bố trí A, B, C, D bằng Tab stops; Lời giải chi tiết thụt lề 0.6 cm có tiêu đề in đậm màu xanh `#1565C0`.
+  - Định dạng Subscript ($Na_2CO_3, CaCl_2, NaOH, CuSO_4, P_2O_5, Fe_xO_y, C_nH_{2n+2}\dots$) và Superscript triệt để.
+- **Trọn bộ sản phẩm hoàn thành:**
+  1. `San_Pham/De_Cuong_KHTN_8_Giua_HK1_HocSinh.docx` & `.pdf`: Bản Học sinh.
+  2. `San_Pham/De_Cuong_KHTN_8_Giua_HK1_GiaoVien.docx` & `.pdf`: Bản Giáo viên (đầy đủ đáp án, lời giải chi tiết và bảng tổng hợp đáp án ở cuối).
+  3. `San_Pham/De_Cuong_KHTN_8_Giua_HK1_DayTrenManHinh.docx` & `.pdf`: Bản Dạy trên màn hình tương tác.
+  4. `San_Pham/De_Cuong_KHTN_8_Giua_HK1_TrinhChieu_Tivi_16x9.pdf`: Bản Trình chiếu Tivi 65 inch Widescreen 16:9 không viền đen, cỡ chữ 24pt - 30pt.
+- **Sao lưu tự động vào OneDrive:**
+  - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn8\`
+  - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn8\KHTN8-IN-DEKIEMTRADINHKI\`
