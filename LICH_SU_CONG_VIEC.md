@@ -580,3 +580,38 @@ Hệ thống tự động theo dõi, chuyển đổi và quản lý toàn bộ c
 - **Sao lưu tự động vào OneDrive:**
   - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn8\`
   - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn8\KHTN8-IN-DEKIEMTRADINHKI\`
+
+
+---
+
+### Đợt 58: Hoàn thành Số hóa và Chuyển đổi Đề cương Ôn tập Giữa học kỳ I - Môn KHTN 9 (Hóa học & Vật lí) (Năm học 2026 - 2027) thành Trọn bộ 3 Bản Word & 4 Bản PDF Chuẩn FORM ĐỀ KIỂM TRA & Chiếu Tivi 16:9
+
+- **Thời gian thực hiện:** 22/10/2026
+- **Tài liệu nguồn:** ĐỀ CƯƠNG ÔN TẬP GIỮA HỌC KÌ 1 PHÂN MÔN HÓA HỌC - KHTN 9 & ÔN TẬP GIỮA KÌ I - MÔN: KHTN 9 (LÝ) - NĂM HỌC 2026 – 2027.
+- **Nội dung bao quát toàn diện cả 2 phân môn:**
+  - **1. Phân môn Hóa học:**
+    * *Lí thuyết trọng tâm:* Bài 22 (Giới thiệu hợp chất hữu cơ, phân loại hydrocarbon & dẫn xuất, cấu tạo phân tử, CTPT và CTCT); Bài 23 (Alkane: khái niệm, CTTQ $C_nH_{2n+2}$, tính chất vật lí, phản ứng cháy tỏa nhiệt, phản ứng thế halogen, ứng dụng làm nhiên liệu khí gas LPG và nguyên liệu hóa chất).
+    * *Bài tập tự luận:* 5 bài tập tự luận (Câu 1: bảng phân loại 8 chất Hydrocarbon / Dẫn xuất / Vô cơ; Câu 2: viết CTCT đầy đủ và thu gọn của $C_2H_5Br, C_4H_{10}, C_3H_6, C_3H_8O$; Câu 3: thành phần khí gas LPG propane & butane kèm 2 PTHH cháy; Câu 4: khái niệm, CTTQ và ứng dụng của alkane; Câu 5: tìm alkane X có $M = 44\text{ amu} \implies C_3H_8$, CTCT, hiện tượng vẩn đục nước vôi trong và 2 PTHH).
+    * *Bài tập trắc nghiệm:*
+      - Trắc nghiệm nhiều lựa chọn: Câu 1 ($CO_2$ không phải chất hữu cơ), Câu 2 (nhận diện CTCT butane $C_4H_{10}$ kèm hình vẽ vector độ nét cao), Câu 4 (so sánh nhiệt lượng tỏa ra khi đốt 1 gam alkane $\implies$ ethane lớn nhất: $52,33\text{ kJ/g}$), Câu 5 (2 phát biểu đúng).
+      - Trắc nghiệm Đúng / Sai: 4 phát biểu chuẩn mực về CTPT và CTCT (a-S, b-S, c-Đ, d-Đ).
+  - **2. Phân môn Vật lí:**
+    * *Lí thuyết trọng tâm:* Chủ đề 1 (Năng lượng hóa thạch, năng lượng tái tạo; Động năng, Thế năng trọng trường; Cơ năng & bảo toàn cơ năng; Công, Công suất, thiết lập $P = F.v$; Sự chuyển hóa năng lượng khi rơi tự do và con lắc); Chủ đề 2 (Khúc xạ ánh sáng, định luật khúc xạ $n_1 \sin i = n_2 \sin r$, chiết suất tuyệt đối $n = c/v$, chiết suất tỉ đối).
+    * *Bài tập trắc nghiệm & tự luận:*
+      - Trắc nghiệm nhiều lựa chọn: 4 câu (Câu 1: năng lượng gió tái tạo; Câu 2: định luật khúc xạ ánh sáng; Câu 3: máy nâng hàng $P = 400\text{ W}, A = 72000\text{ J} \implies t = 180\text{ s}$; Câu 4: công lực kéo $F = 80\text{ N}, s = 15\text{ m} \implies A = 1200\text{ J}$).
+      - Trắc nghiệm Đúng / Sai: 2 chùm câu hỏi lớn (Câu 5: bóng rơi từ $5\text{ m}$; Câu 6: khúc xạ ánh sáng vào thủy tinh $n = 1,5, i = 30^\circ$).
+      - Trắc nghiệm trả lời ngắn: Câu 7 gồm 4 ý chuẩn mực (a: Jun (J); b: động năng; c: thế năng tại B $60\text{ J}$; d: động năng tại B $40\text{ J}$).
+      - Bài tập tự luận: 2 bài toán vận dụng cao (Câu 8: chuyển động xe điện lực kéo $600\text{ N}$, tính $s_1, A_1$, tăng tốc $v = 5\text{ m/s}$ tính $s_2, A_2, P_2 = 3000\text{ W}$, so sánh công suất tăng $1200\text{ W}$; Câu 9: tia sáng tới $i = 45^\circ$, tính $r \approx 28,13^\circ$ và tốc độ ánh sáng trong thủy tinh $v = 2.10^8\text{ m/s}$).
+- **Quy cách kỹ thuật theo FORM ĐỀ KIỂM TRA:**
+  - Khổ giấy A4, Căn lề chuẩn: Top = Bottom = Left = Right = 1.5 cm; Header & Footer cách mép 0.6 cm.
+  - Header & Footer chuẩn: Coral Red (`#D32F2F`) - Sage Green (`#8BC390`), tên `Thầy TRẦN VĂN THẠNH - 0777.470.803`, số trang tự động `PAGE`.
+  - **Tuyệt đối không dùng Table trong nội dung đề thi trắc nghiệm**: Bố trí A, B, C, D bằng Tab stops; Lời giải chi tiết thụt lề 0.6 cm có tiêu đề in đậm màu xanh `#1565C0`.
+  - Chèn hình cấu tạo phân tử Butane độ phân giải cao vào Câu 2 Hóa học.
+- **Trọn bộ sản phẩm hoàn thành:**
+  1. `San_Pham/De_Cuong_KHTN_9_Giua_HK1_Hoa_Ly_HocSinh.docx` & `.pdf`: Bản Học sinh.
+  2. `San_Pham/De_Cuong_KHTN_9_Giua_HK1_Hoa_Ly_GiaoVien.docx` & `.pdf`: Bản Giáo viên (đầy đủ đáp án, lời giải chi tiết và bảng tổng hợp đáp án ở cuối).
+  3. `San_Pham/De_Cuong_KHTN_9_Giua_HK1_Hoa_Ly_DayTrenManHinh.docx` & `.pdf`: Bản Dạy trên màn hình tương tác.
+  4. `San_Pham/De_Cuong_KHTN_9_Giua_HK1_Hoa_Ly_TrinhChieu_Tivi_16x9.pdf`: Bản Trình chiếu Tivi 65 inch Widescreen 16:9 không viền đen, cỡ chữ 24pt - 30pt.
+- **Sao lưu tự động vào OneDrive:**
+  - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\`
+  - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\KHTN9-DEKIEMTRADINHKI\`

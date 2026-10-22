@@ -1,0 +1,369 @@
+# -*- coding: utf-8 -*-
+r"""
+Script biên dịch file PDF TRÌNH CHIẾU TIVI 65 INCH (16:9 Widescreen)
+ĐỀ CƯƠNG ÔN TẬP GIỮA HỌC KỲ I - MÔN KHTN 9 (HÓA HỌC & VẬT LÍ)
+NĂM HỌC 2026 - 2027
+Thầy TRẦN VĂN THẠNH - 0777.470.803
+
+Đúng 100% QUY CHUẨN MỤC 5 TRONG GEMINI.MD:
+- paperwidth=29.7cm, paperheight=16.706cm (16:9 widescreen không viền đen)
+- Căn lề: top=1.0cm, bottom=1.0cm, left=1.2cm, right=1.2cm
+- Không Header/Footer: headheight=0pt, headsep=0pt, footskip=0pt, \pagestyle{empty}
+- Nền trắng tinh (#FFFFFF), chữ đen tuyền (#000000), font Times New Roman, KHÔNG DÙNG KHUNG (no tcolorbox)
+- Nhãn câu in đậm \textbf{Câu X.}
+- Cỡ chữ cực lớn 24pt - 30pt
+- Slide bảng đáp án ở cuối
+"""
+
+import os
+import sys
+import subprocess
+import shutil
+
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
+
+ROOT_DIR = r"c:\Antigravity_Thanh"
+OUT_DIR = os.path.join(ROOT_DIR, "San_Pham")
+IMG_BUTANE = os.path.join(OUT_DIR, "images_khtn9", "khtn9_butane_structure.png").replace("\\", "/")
+
+TEX_PATH = os.path.join(OUT_DIR, "De_Cuong_KHTN_9_Giua_HK1_Hoa_Ly_TrinhChieu_Tivi_16x9.tex")
+PDF_PATH = os.path.join(OUT_DIR, "De_Cuong_KHTN_9_Giua_HK1_Hoa_Ly_TrinhChieu_Tivi_16x9.pdf")
+
+latex_code = r"""\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese,english]{babel}
+\usepackage{times}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[
+  paperwidth=29.7cm,
+  paperheight=16.706cm,
+  top=1.0cm,
+  bottom=1.0cm,
+  left=1.2cm,
+  right=1.2cm,
+  footskip=0pt,
+  headheight=0pt,
+  headsep=0pt
+]{geometry}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Định nghĩa màu sắc thương hiệu
+\definecolor{brandGreen}{RGB}{46, 125, 50}
+\definecolor{brandRed}{RGB}{211, 47, 47}
+\definecolor{brandBlue}{RGB}{21, 101, 192}
+
+\begin{document}
+\selectlanguage{vietnamese}
+
+% ==============================================================================
+% SLIDE 1: TRANG TIÊU ĐỀ
+% ==============================================================================
+\begin{center}
+\vspace*{0.6cm}
+{\fontsize{24}{30}\selectfont \textbf{TỔ KHOA HỌC TỰ NHIÊN}}\\[0.6cm]
+{\fontsize{34}{42}\selectfont \textbf{\color{brandGreen}HƯỚNG DẪN ÔN TẬP GIỮA HỌC KỲ I}}\\[0.4cm]
+{\fontsize{28}{36}\selectfont \textbf{MÔN: KHOA HỌC TỰ NHIÊN 9 (HÓA HỌC \& VẬT LÍ)}}\\[0.4cm]
+{\fontsize{22}{28}\selectfont \textbf{NĂM HỌC: 2026 - 2027}}\\[0.8cm]
+{\fontsize{24}{32}\selectfont \textit{Phân môn: Hóa học (Hợp chất hữu cơ \& Alkane) -- Vật lí (Năng lượng \& Khúc xạ ánh sáng)}}\\[1.0cm]
+{\fontsize{24}{30}\selectfont \textbf{\color{brandRed}Thầy TRẦN VĂN THẠNH -- 0777.470.803}}\\[0.3cm]
+{\fontsize{20}{26}\selectfont CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad | \quad CS2: 24 Đặng Thái Thân, TP Huế}
+\end{center}
+\newpage
+
+% ==============================================================================
+% PHẦN I: HÓA HỌC - TỰ LUẬN
+% ==============================================================================
+
+% SLIDE 2: HÓA TỰ LUẬN CÂU 1
+\fontsize{24}{32}\selectfont
+\textbf{Câu 1 (Hóa học).} Hãy sắp xếp các chất sau vào các cột thích hợp trong bảng:\\
+\centerline{$\text{C}_6\text{H}_6,\ \text{CaCO}_3,\ \text{C}_4\text{H}_{10},\ \text{C}_2\text{H}_6\text{O},\ \text{NaNO}_3,\ \text{CH}_3\text{NO}_2,\ \text{NaHCO}_3,\ \text{C}_2\text{H}_3\text{O}_2\text{Na}$}
+\vspace{12pt}
+
+\begin{center}
+\begin{tabular}{|>{\centering\arraybackslash}p{8.5cm}|>{\centering\arraybackslash}p{9.0cm}|>{\centering\arraybackslash}p{8.5cm}|}
+\hline
+\multicolumn{2}{|c|}{\textbf{HỢP CHẤT HỮU CƠ}} & \textbf{HỢP CHẤT VÔ CƠ}\\[4pt]
+\hline
+\textbf{Hydrocarbon} & \textbf{Dẫn xuất của Hydrocarbon} & \textbf{Hợp chất vô cơ}\\[4pt]
+\hline
+\vspace{35pt} & \vspace{35pt} & \vspace{35pt}\\
+\hline
+\end{tabular}
+\end{center}
+\vspace*{\fill}
+\newpage
+
+% SLIDE 3: HÓA TỰ LUẬN CÂU 2
+\fontsize{25}{33}\selectfont
+\textbf{Câu 2 (Hóa học).} Hãy viết công thức cấu tạo đầy đủ và thu gọn có thể có của các chất có công thức phân tử sau:
+\vspace{16pt}
+
+\begin{tabularx}{\linewidth}{@{}X X@{}}
+a) $\text{C}_2\text{H}_5\text{Br}$ & b) $\text{C}_4\text{H}_{10}$\\[16pt]
+c) $\text{C}_3\text{H}_6$ & d) $\text{C}_3\text{H}_8\text{O}$
+\end{tabularx}
+\vspace*{\fill}
+\newpage
+
+% SLIDE 4: HÓA TỰ LUẬN CÂU 3
+\fontsize{26}{34}\selectfont
+\textbf{Câu 3 (Hóa học).} Gas dùng đun nấu có chứa alkane chủ yếu nào? Viết phương trình hoá học biểu diễn phản ứng cháy của chúng.
+\vspace*{\fill}
+\newpage
+
+% SLIDE 5: HÓA TỰ LUẬN CÂU 4
+\fontsize{26}{34}\selectfont
+\textbf{Câu 4 (Hóa học).} Alkane là gì? Viết công thức chung của alkane. Nêu các ứng dụng quan trọng của alkane trong đời sống và sản xuất.
+\vspace*{\fill}
+\newpage
+
+% SLIDE 6: HÓA TỰ LUẬN CÂU 5
+\fontsize{25}{33}\selectfont
+\textbf{Câu 5 (Hóa học).} Alkane X có khối lượng phân tử $44\text{ amu}$.\\
+a. Xác định công thức phân tử của X và viết công thức cấu tạo có thể có ứng với CTPT vừa tìm được.\\
+b. Đốt cháy hoàn toàn X trong không khí rồi dẫn sản phẩm cháy qua nước vôi trong dư. Nêu hiện tượng và viết PTHH xảy ra.
+\vspace*{\fill}
+\newpage
+
+% ==============================================================================
+% PHẦN I: HÓA HỌC - TRẮC NGHIỆM
+% ==============================================================================
+
+% SLIDE 7: HÓA TRẮC NGHIỆM CÂU 1 & CÂU 2
+\fontsize{24}{31}\selectfont
+\textbf{Câu 1.} Chất nào sau đây không thuộc loại chất hữu cơ?
+\vspace{4pt}
+
+\begin{tabularx}{\linewidth}{@{}X X X X@{}}
+\textbf{A.} $\text{CH}_4$. & \textbf{B.} $\text{CH}_3\text{Cl}$. & \textbf{C.} $\text{CH}_3\text{COONa}$. & \textbf{D.} $\text{CO}_2$.
+\end{tabularx}
+
+\vspace{10pt}
+
+\textbf{Câu 2.} Cho biết công thức cấu tạo dưới đây là của hợp chất có CTPT nào?
+\vspace{2pt}
+
+\begin{center}
+\includegraphics[width=6.0cm]{""" + IMG_BUTANE + r"""}
+\end{center}
+\vspace{2pt}
+
+\begin{tabularx}{\linewidth}{@{}X X X X@{}}
+\textbf{A.} $\text{C}_4\text{H}_8$. & \textbf{B.} $\text{C}_5\text{H}_{10}$. & \textbf{C.} $\text{C}_4\text{H}_{10}$. & \textbf{D.} $\text{C}_6\text{H}_{10}$.
+\end{tabularx}
+\vspace*{\fill}
+\newpage
+
+% SLIDE 8: HÓA TRẮC NGHIỆM CÂU 4
+\fontsize{25}{33}\selectfont
+\textbf{Câu 4.} Cho nhiệt lượng tỏa ra khi đốt cháy hoàn toàn $1\text{ mol}$ các chất ethane, propane, butane và pentane ($\text{C}_5\text{H}_{12}$) lần lượt là $1570\text{ kJ/mol}$; $2220\text{ kJ/mol}$; $2875\text{ kJ/mol}$ và $3536\text{ kJ/mol}$. Khi đốt cháy hoàn toàn $1\text{ gam}$ chất nào sẽ thu được nhiệt lượng lớn nhất?
+\vspace{16pt}
+
+\begin{tabularx}{\linewidth}{@{}X X X X@{}}
+\textbf{A.} Ethane. & \textbf{B.} Propane. & \textbf{C.} Pentane. & \textbf{D.} Butane.
+\end{tabularx}
+\vspace*{\fill}
+\newpage
+
+% SLIDE 9: HÓA TRẮC NGHIỆM CÂU 5
+\fontsize{24}{32}\selectfont
+\textbf{Câu 5.} Trong số các câu phát biểu sau đây, số câu đúng là:\\
+(1) Mỗi CTPT có thể biểu diễn cho nhiều chất hữu cơ.\\
+(2) Hydrocarbon là hợp chất mà thành phần phân tử chỉ chứa các nguyên tố carbon, hydrogen.\\
+(3) Mỗi hợp chất hữu cơ có thể có nhiều CTPT.\\
+(4) Mỗi hợp chất hữu cơ có thể có nhiều CTCT.
+\vspace{14pt}
+
+\begin{tabularx}{\linewidth}{@{}X X X X@{}}
+\textbf{A.} $2$. & \textbf{B.} $3$. & \textbf{C.} $4$. & \textbf{D.} $1$.
+\end{tabularx}
+\vspace*{\fill}
+\newpage
+
+% SLIDE 10: HÓA ĐÚNG/SAI
+\fontsize{24}{32}\selectfont
+\textbf{Phần Trắc nghiệm Đúng -- Sai (Hóa học).} Công thức phân tử cho biết thành phần nguyên tố và số lượng nguyên tử của mỗi nguyên tố trong hợp chất hữu cơ:
+\vspace{12pt}
+
+a) Công thức phân tử của ethane là $\text{CH}_4$. \hfill $[\quad]$\\[10pt]
+b) Công thức phân tử cho biết cách các nguyên tử liên kết với nhau trong phân tử. \hfill $[\quad]$\\[10pt]
+c) Công thức cấu tạo biểu diễn liên kết giữa các nguyên tử trong phân tử. \hfill $[\quad]$\\[10pt]
+d) Để hiểu rõ cấu trúc của một hợp chất hữu cơ, cần kết hợp cả công thức phân tử và công thức cấu tạo. \hfill $[\quad]$
+\vspace*{\fill}
+\newpage
+
+% ==============================================================================
+% PHẦN II: VẬT LÍ - TRẮC NGHIỆM & BÀI TẬP
+% ==============================================================================
+
+% SLIDE 11: VẬT LÍ CÂU 1 & CÂU 2
+\fontsize{25}{33}\selectfont
+\textbf{Câu 1.} Trong các nguồn năng lượng dưới đây, nguồn năng lượng nào là năng lượng tái tạo?
+\vspace{6pt}
+
+\begin{tabularx}{\linewidth}{@{}X X X X@{}}
+\textbf{A.} Than đá. & \textbf{B.} Khí tự nhiên. & \textbf{C.} Dầu mỏ. & \textbf{D.} Năng lượng gió.
+\end{tabularx}
+
+\vspace*{\fill}
+
+\textbf{Câu 2.} Khi một tia sáng truyền từ không khí vào nước, phát biểu nào sau đây đúng theo định luật khúc xạ ánh sáng?
+\vspace{6pt}
+
+\textbf{A.} Tia khúc xạ luôn vuông góc với mặt phân cách.\\
+\textbf{B.} Tia tới, tia khúc xạ và pháp tuyến tại điểm tới cùng nằm trong một mặt phẳng.\\
+\textbf{C.} Góc khúc xạ luôn bằng góc tới.\\
+\textbf{D.} Tia sáng luôn bị phản xạ hoàn toàn.
+\vspace*{\fill}
+\newpage
+
+% SLIDE 12: VẬT LÍ CÂU 3 & CÂU 4
+\fontsize{25}{33}\selectfont
+\textbf{Câu 3.} Một máy nâng hàng có công suất $400\text{ W}$, thực hiện công $72\,000\text{ J}$ để nâng các kiện hàng lên cao. Thời gian máy thực hiện công là
+\vspace{6pt}
+
+\begin{tabularx}{\linewidth}{@{}X X X X@{}}
+\textbf{A.} $120\text{ s}$. & \textbf{B.} $160\text{ s}$. & \textbf{C.} $180\text{ s}$. & \textbf{D.} $240\text{ s}$.
+\end{tabularx}
+
+\vspace*{\fill}
+
+\textbf{Câu 4.} Trong buổi lao động, một học sinh tác dụng lực kéo $80\text{ N}$ theo phương chuyển động để kéo xe chở dụng cụ đi được quãng đường $15\text{ m}$. Công của lực kéo là
+\vspace{6pt}
+
+\begin{tabularx}{\linewidth}{@{}X X X X@{}}
+\textbf{A.} $1\,200\text{ J}$. & \textbf{B.} $1\,200\text{ W}$. & \textbf{C.} $95\text{ J}$. & \textbf{D.} $5,3\text{ J}$.
+\end{tabularx}
+\vspace*{\fill}
+\newpage
+
+% SLIDE 13: VẬT LÍ ĐÚNG/SAI CÂU 5
+\fontsize{24}{32}\selectfont
+\textbf{Câu 5.} Nhóm học sinh khảo sát chuyển động của quả bóng khối lượng $0,4\text{ kg}$ thả rơi từ độ cao $5\text{ m}$. Bỏ qua sức cản không khí, gốc thế năng ở mặt đất:
+\vspace{12pt}
+
+a) Thế năng trọng trường của bóng phụ thuộc vào khối lượng và độ cao của bóng so với mốc thế năng. \hfill $[\quad]$\\[10pt]
+b) Cơ năng của quả bóng bằng tổng động năng và thế năng trọng trường của nó. \hfill $[\quad]$\\[10pt]
+c) Khi quả bóng ở độ cao $2\text{ m}$ so với mặt đất, thế năng trọng trường của bóng là $8\text{ J}$. \hfill $[\quad]$\\[10pt]
+d) Khi quả bóng ở độ cao $2\text{ m}$, động năng của bóng bằng $8\text{ J}$. \hfill $[\quad]$
+\vspace*{\fill}
+\newpage
+
+% SLIDE 14: VẬT LÍ ĐÚNG/SAI CÂU 6
+\fontsize{24}{32}\selectfont
+\textbf{Câu 6.} Chiếu một tia sáng từ không khí vào khối thủy tinh có chiết suất $1,5$ (chiết suất không khí xấp xỉ 1), góc tới $i = 30^\circ$:
+\vspace{12pt}
+
+a) Góc tới là góc hợp bởi tia tới và pháp tuyến tại điểm tới. \hfill $[\quad]$\\[10pt]
+b) Chiết suất tuyệt đối của thủy tinh là chiết suất tỉ đối của thủy tinh đối với chân không. \hfill $[\quad]$\\[10pt]
+c) Giá trị của $\sin r$ khi tia sáng truyền vào thủy tinh bằng khoảng $0,33$. \hfill $[\quad]$\\[10pt]
+d) Nếu tăng góc tới lên $45^\circ$ thì góc khúc xạ trong thủy tinh cũng bằng $45^\circ$. \hfill $[\quad]$
+\vspace*{\fill}
+\newpage
+
+% SLIDE 15: VẬT LÍ TRẢ LỜI NGẮN CÂU 7
+\fontsize{24}{32}\selectfont
+\textbf{Câu 7.} Một vật khối lượng $2\text{ kg}$ thả nhẹ từ vị trí A cao $5\text{ m}$ so với mặt đất. Xét vị trí B cao $3\text{ m}$. Bỏ qua sức cản không khí, chọn mốc thế năng ở mặt đất:
+\vspace{10pt}
+
+a) Đơn vị của thế năng trong hệ SI là gì? \hfill $\dots\dots\dots\dots\dots\dots$\\[8pt]
+b) Khi vật rơi xuống, thế năng trọng trường chuyển hóa thành dạng năng lượng nào? \hfill $\dots\dots\dots\dots\dots\dots$\\[8pt]
+c) Thế năng trọng trường của vật tại vị trí B bằng bao nhiêu jun? \hfill $\dots\dots\dots\dots\dots\dots$\\[8pt]
+d) Động năng của vật tại vị trí B bằng bao nhiêu jun? \hfill $\dots\dots\dots\dots\dots\dots$
+\vspace*{\fill}
+\newpage
+
+% SLIDE 16: VẬT LÍ TỰ LUẬN CÂU 8
+\fontsize{24}{32}\selectfont
+\textbf{Câu 8.} Xe điện vận chuyển hàng hóa chịu lực kéo $600\text{ N}$ cùng hướng chuyển động. Ban đầu chuyển động với vận tốc $3\text{ m/s}$ trong $4\text{ phút}$.\\
+a. Tính quãng đường xe đi được và công của lực kéo thực hiện.\\
+b. Người điều khiển tăng vận tốc lên $5\text{ m/s}$ trong khi vẫn giữ nguyên lực kéo. Trong cùng khoảng thời gian $4\text{ phút}$, tính công của lực kéo và công suất của xe. So sánh công suất trước và sau khi tăng vận tốc.
+\vspace*{\fill}
+\newpage
+
+% SLIDE 17: VẬT LÍ TỰ LUẬN CÂU 9
+\fontsize{25}{33}\selectfont
+\textbf{Câu 9.} Chiếu tia sáng từ không khí vào một khối thủy tinh trong suốt có chiết suất $1,5$ (chiết suất không khí xấp xỉ 1). Góc tới ban đầu bằng $45^\circ$.\\
+a. Áp dụng định luật khúc xạ ánh sáng, tính góc khúc xạ trong thủy tinh.\\
+b. Tính tốc độ ánh sáng đi trong môi trường thủy tinh (biết $c = 3.10^8\text{ m/s}$).
+\vspace*{\fill}
+\newpage
+
+% ==============================================================================
+% SLIDE 18: BẢNG TỔNG HỢP ĐÁP ÁN TOÀN BỘ ĐỀ CƯƠNG
+% ==============================================================================
+\begin{center}
+{\fontsize{24}{30}\selectfont \textbf{\color{brandGreen}BẢNG TỔNG HỢP ĐÁP ÁN ĐỀ CƯƠNG ÔN TẬP KHTN 9}}\\[0.4cm]
+\end{center}
+
+\fontsize{18}{24}\selectfont
+\textbf{1. Trắc nghiệm nhiều lựa chọn:}\\
+\begin{tabularx}{\linewidth}{|c|*{4}{>{\centering\arraybackslash}X|}|c|*{4}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Hóa} & \textbf{1} & \textbf{2} & \textbf{4} & \textbf{5} & \textbf{Lí} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4}\\
+\hline
+\textbf{Đ/A} & \textbf{\color{brandRed}D} & \textbf{\color{brandRed}C} & \textbf{\color{brandRed}A} & \textbf{\color{brandRed}A} & \textbf{Đ/A} & \textbf{\color{brandRed}D} & \textbf{\color{brandRed}B} & \textbf{\color{brandRed}C} & \textbf{\color{brandRed}A}\\
+\hline
+\end{tabularx}
+\vspace{8pt}
+
+\textbf{2. Trắc nghiệm Đúng / Sai:}\\
+$\bullet$ \textbf{Hóa học:} a - \textbf{Sai}, b - \textbf{Sai}, c - \textbf{Đúng}, d - \textbf{Đúng}.\\
+$\bullet$ \textbf{Vật lí (Câu 5):} a - \textbf{Đúng}, b - \textbf{Đúng}, c - \textbf{Đúng}, d - \textbf{Sai}.\\
+$\bullet$ \textbf{Vật lí (Câu 6):} a - \textbf{Đúng}, b - \textbf{Đúng}, c - \textbf{Đúng}, d - \textbf{Sai}.
+\vspace{6pt}
+
+\textbf{3. Trắc nghiệm Trả lời ngắn \& Bài toán Vật lí:}\\
+$\bullet$ \textbf{Câu 7:} a) \textbf{Jun (J)} \quad | \quad b) \textbf{Động năng} \quad | \quad c) \textbf{60 J} \quad | \quad d) \textbf{40 J}.\\
+$\bullet$ \textbf{Câu 8:} a) $s = \mathbf{720\text{ m}},\ A = \mathbf{432\text{ kJ}}$ \quad | \quad b) $s = \mathbf{1200\text{ m}},\ A = \mathbf{720\text{ kJ}},\ \mathcal{P}_2 = \mathbf{3000\text{ W}}$ (tăng $1200\text{ W}$, gấp $1,67$ lần).\\
+$\bullet$ \textbf{Câu 9:} a) $r \approx \mathbf{28,13^\circ}$ \quad | \quad b) $v = \mathbf{2.10^8\text{ m/s}}$.
+
+\end{document}
+"""
+
+with open(TEX_PATH, "w", encoding="utf-8") as f:
+    f.write(latex_code)
+
+print(f"--> Đã tạo file LaTeX: {TEX_PATH}")
+
+# Biên dịch pdflatex
+cmd = ["pdflatex", "-interaction=nonstopmode", os.path.basename(TEX_PATH)]
+print(f"--> Đang biên dịch PDF trình chiếu 16:9 bằng pdflatex...")
+res = subprocess.run(cmd, cwd=OUT_DIR, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+
+if os.path.exists(PDF_PATH):
+    print(f"    [Xong] File PDF 16:9 đã tạo: {PDF_PATH} ({os.path.getsize(PDF_PATH):,} bytes)")
+    
+    # Dọn dẹp file rác
+    base_name = os.path.splitext(os.path.basename(TEX_PATH))[0]
+    for ext in [".aux", ".log", ".out"]:
+        junk = os.path.join(OUT_DIR, base_name + ext)
+        if os.path.exists(junk):
+            os.remove(junk)
+            
+    # Sao lưu sang OneDrive
+    ONEDRIVE_DIRS = [
+        r"c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9",
+        r"c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\KHTN9-DEKIEMTRADINHKI"
+    ]
+    for od in ONEDRIVE_DIRS:
+        if os.path.exists(od):
+            try:
+                dst = os.path.join(od, os.path.basename(PDF_PATH))
+                shutil.copy2(PDF_PATH, dst)
+                print(f"    -> Đã sao lưu sang OneDrive: {dst}")
+            except Exception as e:
+                print(f"    [!] Lỗi sao lưu OneDrive: {e}")
+else:
+    print("[!] Lỗi biên dịch PDF:")
+    print(res.stdout[-1000:])
