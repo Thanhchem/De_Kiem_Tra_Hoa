@@ -33458,7 +33458,7 @@
       "Pin điện",
       "Điện phân"
     ],
-    "total_questions": 173,
+    "total_questions": 343,
     "questions": [
       {
         "seq_num": 1,
@@ -39138,6 +39138,4445 @@
         "answer": "3,5",
         "id": "C5-P3-VD-173",
         "solution": "Đáp số 3,5.\nKhối lượng P trong 100L nước ao:\nmP = 24.10-6.100 = 2,4.10-3g\nSố mol P cần kết tủa = 7,7419.10-5 mol\nTheo đề: nMg2+ = nP = 7,7419.10-5: 85% = 9,1081.10-5 mol\nTheo Faraday: ne = 2nMg2+ = 1,8216.10-4 mol\nSuy ra: t ="
+      },
+      {
+        "q_num": 174,
+        "id": "C5-P1-NB-174",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Mối liên hệ giữa dạng oxi hóa và dạng khử của kim loại M được biểu diễn ở dạng quá trình khử là"
+        ],
+        "opt_lines": [
+          "A. M  Mn+ + ne.\tB. Mn+ + ne  M.\tC. Mn−  M + ne.\tD. M + ne  Mn−."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q174_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q174_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q174_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q174_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 175,
+        "id": "C5-P1-NB-175",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Kí hiệu cặp oxi hóa − khử ứng với quá trình khử: Fe3+ + 1e  Fe2+ là"
+        ],
+        "opt_lines": [
+          "A. Fe3+/Fe2+.\tB. Fe2+/Fe.\tC. Fe3+/Fe.\tD. Fe2+/Fe3+."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q175_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 176,
+        "id": "C5-P1-NB-176",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Điều kiện chuẩn của một điện cực kim loại là điều kiện ứng với nồng độ ion kim loại là 1 M và nhiệt độ thường được chọn là"
+        ],
+        "opt_lines": [
+          "A. 298 K (25 oC).\tB. 273 K (0 oC).\tC. 0 K (–273 oC).\tD. 373 K (100 oC)."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 177,
+        "id": "C5-P1-NB-177",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Đối với điện cực hydrogen chuẩn, áp suất khí hydrogen được hấp phụ trên lá Pt và nồng độ ion H+ trong dung dịch chất điện li lần lượt là"
+        ],
+        "opt_lines": [
+          "A. 1 atm và 1 M.\tB. 1 mmHg và 0,1 M.\tC. 1 N/m2 và 0,1 M.\tD. 1 bar và 1 M."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 178,
+        "id": "C5-P1-NB-178",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Đối với điện cực hydrogen chuẩn, tại ranh giới giữa bề mặt Pt với dung dịch chất điện li tồn tại cân bằng"
+        ],
+        "opt_lines": [
+          "A. 2H2O + 2e  H2 + 2OH−.\tB. H+ + 1e  H.",
+          "C. 2H+ + 2e  H2.\t\tD. H  H+ + 1e."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q178_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q178_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q178_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q178_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 179,
+        "id": "C5-P1-NB-179",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Giá trị thế điện cực chuẩn của cặp oxi hóa − khử nào được quy ước bằng 0 V?"
+        ],
+        "opt_lines": [
+          "A. Na+/Na.\tB. 2H+/H2.\tC. Al3+/Al.\tD. Cl2/2Cl−."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 180,
+        "id": "C5-P1-NB-180",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho thứ tự sắp xếp các cặp oxi hóa − khử trong dãy điện hóa: Mg2+/Mg; H2O/H2,OH–; 2H+/H2; Ag+/Ag. Cặp oxi hóa − khử có giá trị thế điện cực chuẩn lớn nhất trong dãy là"
+        ],
+        "opt_lines": [
+          "A. 2H+/H2.\tB. Ag+/Ag.\tC. H2O/H2, OH−.\tD. Mg2+/Mg."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 181,
+        "id": "C5-P1-TH-181",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho phản ứng hóa học: Cu + 2Ag+Cu2+ + 2Ag. Phát biểu nào sau đây về phản ứng trên là đúng?"
+        ],
+        "opt_lines": [
+          "A. Ag+ khử Cu thành Cu2+.\tB. Cu2+ có tính oxi hóa mạnh hơn Ag+.",
+          "C. Cu có tính khử yếu hơn Ag.\tD. Cu là chất khử, Ag+ là chất oxi hóa."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q181_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 182,
+        "id": "C5-P1-NB-182",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong dãy điện hóa của kim loại, khi đi từ trái sang phải, tính oxi hóa của các ion kim loại biến đổi như thế nào?"
+        ],
+        "opt_lines": [
+          "A. Không đổi.\tB. Tuần hoàn.\tC. Giảm dần.\tD. Tăng dần."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 183,
+        "id": "C5-P1-NB-183",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Xét phản ứng hóa học giữa hai cặp oxi hóa – khử của kim loại:",
+          "R + 2M+R2+ + 2M",
+          "Biết giá trị thế điện cực chuẩn các cặp oxi hóa – khử M⁺/M và R2+/R lần lượt là x (V) và y (V). Nhận xét nào sau đây đúng?"
+        ],
+        "opt_lines": [
+          "A. x < y.\tB. x > y.\tC. x = y.\tD. 2x = y."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q183_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 184,
+        "id": "C5-P1-NB-184",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Kim loại nào sau đây có tính khử yếu hơn kim loại Cu?"
+        ],
+        "opt_lines": [
+          "A. Zn.\tB. Ag.\tC. Mg.\tD. Fe."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 185,
+        "id": "C5-P1-NB-185",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Kim loại nào sau đây có tính khử mạnh nhất?"
+        ],
+        "opt_lines": [
+          "A. Fe.\tB. K.\tC. Mg.\tD. Al."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 186,
+        "id": "C5-P1-NB-186",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ion kim loại nào sau đây có tính oxi hóa mạnh nhất"
+        ],
+        "opt_lines": [
+          "A. Mg2+.\tB. Zn2+.\tC. Al3+.\tD. Cu2+."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 187,
+        "id": "C5-P1-NB-187",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Dãy các ion được sắp xếp theo chiều tính oxi hóa giảm dần là"
+        ],
+        "opt_lines": [
+          "A. K+ > Mg2+ > Al3+ > Fe2+ > Cu2+.\tB. Fe2+ > Cu2+ > K+ > Mg2+ > Al3+.",
+          "C. Cu2+ > Fe2+ > K+ > Mg2+ > Al3+.\tD. Cu2+ > Fe2+ > Al3+ > Mg2+ > K+."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 188,
+        "id": "C5-P1-NB-188",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ở điều kiện chuẩn, Fe khử được ion kim loại nào sau đây trong dung dịch?"
+        ],
+        "opt_lines": [
+          "A. Mg2+.\tB. Al3+.\tC. Na+.\tD. Ag+."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 189,
+        "id": "C5-P1-NB-189",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ở điều kiện chuẩn, kim loại nào sau đây khử được ion H+ thành H2?"
+        ],
+        "opt_lines": [
+          "A. Mg.\tB. Cu.\tC. Hg.\tD. Au."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 190,
+        "id": "C5-P1-NB-190",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Kim loại Fe không phản ứng với chất nào sau đây trong dung dịch?"
+        ],
+        "opt_lines": [
+          "A. CuSO4.\tB. MgCl2.\tC. HCl.\tD. AgNO3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 191,
+        "id": "C5-P1-NB-191",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho thứ tự sắp xếp một số cặp oxi hóa – khử trong dãy điện hóa: Al3+/Al, Fe2+/Fe, Sn2+/Sn, Cu2+/Cu. Kim loại nào sau đây có phản ứng với dung dịch muối tương ứng?"
+        ],
+        "opt_lines": [
+          "A. Fe và CuSO4.\tB. Fe và Al2(SO4)3.\tC. Sn và FeSO4.\tD. Cu và SnSO4."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 192,
+        "id": "C5-P1-NB-192",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho thế điện cực chuẩn của các cặp oxi hóa − khử: Fe2+/Fe, Na+/Na, Ag+/Ag, Mg2+/Mg, Cu2+/Cu lần lượt là –0,44 V, –2,713 V, +0,799 V, –2,353 V, +0,340 V. Ở điều kiện chuẩn, kim loại Cu khử được ion kim loại nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. Na+.\tB. Mg2+.\tC. Ag+.\tD. Fe2+."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 193,
+        "id": "C5-P1-NB-193",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho biết: . Phản ứng hóa học nào sau đây xảy ra được?"
+        ],
+        "opt_lines": [
+          "A. Hg + AgHg2+ + Ag.\tB. Hg2+ + AgHg + Ag+.",
+          "C. Hg2+ + Ag+Hg + Ag.\tD. Hg + AgHg2+ + Ag+."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q193_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q193_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q193_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q193_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q193_img5.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 194,
+        "id": "C5-P1-NB-194",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các thông tin sau:",
+          "X(s) + YSO4(aq)  không có phản ứng",
+          "Z(s) + YSO4(aq)  Y(s) + ZSO4(aq)",
+          "Trong đó, X, Y, Z là các kim loại. Dãy nào sau đây sắp xếp theo thứ tự giảm dần mức độ hoạt động của các kim loại?"
+        ],
+        "opt_lines": [
+          "A. Z > Y > X.\tB. X > Y > Z.\tC. Y > X > Z.\tD. Y > Z > X."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q194_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q194_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 195,
+        "id": "C5-P1-NB-195",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một học sinh thực hiện ba thí nghiệm ở điều kiện chuẩn và quan sát được các hiện tượng sau:",
+          "(a) Copper (Cu) kim loại không phản ứng với dung dịch Pb(NO3)2 1 M.",
+          "(b) Lead (Pb) kim loại tan trong dung dịch AgNO3 1 M và xuất hiện tinh thể Ag.",
+          "(c) Silver (Ag) kim loại không phản ứng với dung dịch Cu(NO3)2 1 M.",
+          "Trật tự nào sau đây thể hiện đúng mức độ khử của ba kim loại?"
+        ],
+        "opt_lines": [
+          "A. Cu > Pb > Ag.\tB. Pb > Cu > Ag.\tC. Cu > Ap > Pb.\tD. Pb > Ag > Cu."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 196,
+        "id": "C5-P2-TH-196",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Nhúng thanh kim loại X và thanh kim loại Y (cùng hóa trị II) vào các dung dịch muối sulfate nồng độ 1 M của chúng ở 25 °C. Quá trình thí nghiệm được mô tả như hình dưới:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Bề mặt thanh kim loại X mang điện tích âm và bề mặt thanh kim loại Y mang điện tích dương.",
+          "b": "Giữa bề mặt thanh kim loại và dung dịch muối tồn tại cân bằng giữa dạng oxi hóa và dạng khử.",
+          "c": "Tính khử của kim loại Y mạnh hơn tính khử của kim loại X.",
+          "d": "Khi nối hai thanh kim loại với nhau bằng dây dẫn và nối hai dung dịch muối với nhau bằng cầu muối, sẽ xuất hiện một dòng điện trên dây dẫn."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:Đ - c:S - d:Đ",
+        "solution": "a) Đúng. Tại điện cực X (anode), kim loại bị oxi hóa hòa tan vào dung dịch để lại các electron khiến bề mặt mang điện tích âm. Tại điện cực Y (cathode), cation kim loại nhận electron để bám vào điện cực làm bề mặt mang điện tích dương.\nb) Đúng. Tại mỗi điện cực luôn tồn tại một quá trình thuận nghịch (cân bằng động) giữa kim loại và ion kim loại: M   + 2e.\nc) Sai. Dòng electron di chuyển từ cực X sang cực Y, chứng tỏ nguyên tử X dễ nhường electron hơn nguyên tử Y. Do đó, X là chất khử mạnh hơn Y.\nd) Đúng. Nối mạch kín bằng dây dẫn sẽ tạo điều kiện cho các electron dư thừa ở điện cực X di chuyển thẳng sang điện cực Y.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q196_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 197,
+        "id": "C5-P2-TH-197",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho thế điện cực chuẩn của các cặp oxi hóa – khử sau:",
+          "Fe(s) + Zn2+(aq)  Fe2+(aq) + Zn(s)"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Tính oxi hóa của ion Zn2+ có tính oxi hóa mạnh hơn ion Fe2+.",
+          "b": "Tính khử của kim loại Zn có tính khử mạnh hơn kim loại Fe.",
+          "c": "Khi cho Fe vào dung dịch ZnSO4, phản ứng xảy ra ở điều kiện chuẩn là:",
+          "d": "Zn có khả năng khử ion Fe2+ trong dung dịch thành kim loại Fe."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:S - b:Đ - c:S - d:Đ",
+        "solution": "<  tính khử: Zn > Fe và tính oxi hóa: Zn2+ < Fe2+.\nPhản ứng tự xảy ra là: Zn + Fe2+  Zn2+ + Fe\na) Sai. Do  nên tính oxi hóa của ion  yếu hơn ion .\nb) Đúng. Thế điện cực chuẩn của kẽm nhỏ hơn của sắt, chứng tỏ nguyên tử Zn dễ nhường electron hơn, có tính khử mạnh hơn Fe.\nc) Sai. Kim loại Fe có tính khử yếu hơn Zn nên hoàn toàn không thể đẩy được ion  ra khỏi dung dịch muối của nó.\nd) Đúng. Theo quy tắc alpha, chất khử mạnh (Zn) sẽ phản ứng với chất oxi hóa mạnh () để sinh ra chất khử yếu hơn (Fe).",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q197_img1.png"
+        ],
+        "tables": [
+          [
+            [
+              "Cặp oxi hóa – khử",
+              "Zn2+/Zn",
+              "Fe2+/Fe"
+            ],
+            [
+              "Thế điện cực chuẩn, V",
+              "–0,762",
+              "–0,44"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 198,
+        "id": "C5-P2-TH-198",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho phản ứng oxi hóa – khử: Ag+(aq) + Fe2+(aq)  Ag(s) + Fe3+(aq)."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Thế điện cực chuẩn tương ứng của cặp Fe3+/Fe2+ nhỏ hơn cặp Ag+/Ag.",
+          "b": "Tính oxi hóa tương ứng của Ag+ mạnh hơn Fe3+.",
+          "c": "Tính khử tương ứng của Fe2+ mạnh hơn Ag.",
+          "d": "Trong thực tế, Ag được điều chế chủ yếu theo phản ứng trên."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:Đ - c:Đ - d:S",
+        "solution": "a) Đúng. Cặp  (+0,771 V) có thế điện cực chuẩn nhỏ hơn cặp  (+0,799 V), cho phép phản ứng tự diễn biến theo quy tắc alpha.\nb) Đúng. Do  nên tính oxi hóa của cation bạc () mạnh hơn cation sắt(III) ().\nc) Đúng. Theo quy tắc alpha, chất khử nằm ở cặp có thế điện cực nhỏ hơn () sẽ mạnh hơn chất khử nằm ở cặp có thế điện cực lớn hơn (Ag).\nd) Sai. Trong công nghiệp, Ag thường được điều chế bằng phương pháp điện phân hoặc dùng kim loại mạnh hơn (như Zn, Cu) để đẩy ra khỏi dung dịch phức chất, không dùng .",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q198_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 199,
+        "id": "C5-P2-TH-199",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho phản ứng oxi hóa – khử sau: X(s) + Y2+(aq)  X2+(aq) + Y(s)."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Chất X có tính khử mạnh hơn chất Y.",
+          "b": "Ion Y2+ có tính khử mạnh hơn ion X2+.",
+          "c": "Chất X có tính oxi hóa mạnh hơn chất Y.",
+          "d": "Ion X2+ có tính oxi hóa mạnh hơn ion Y2+."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:S - c:S - d:S",
+        "solution": "X(s) + Y2+(aq)  X2+(aq) + Y(s).\nPhản ứng xảy ra chứng tỏ:\nX bị oxi hóa thành X²⁺ ⇒ X là chất khử.\nY²⁺ bị khử thành Y ⇒ Y²⁺ là chất oxi hóa.\n→ Do đó, X là chất khử mạnh hơn Y; Y²⁺ là chất oxi hóa mạnh hơn X²⁺.\na) Đúng. Phản ứng tự diễn biến cho thấy kim loại X đẩy được Y ra khỏi dung dịch, chứng tỏ X là chất khử mạnh hơn Y.\nb) Sai. Ion kim loại (, ) luôn đóng vai trò là chất oxi hóa, không đóng vai trò chất khử trong trường hợp này.\nc) Sai. Kim loại X chỉ có khả năng nhường electron, do đó nó mang tính khử chứ không mang tính oxi hóa.\nd) Sai. Từ chiều phản ứng suy ra , do đó tính oxi hóa của  yếu hơn .",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q199_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 200,
+        "id": "C5-P2-TH-200",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong phòng thí nghiệm, một bạn học sinh khi nhỏ từ từ dung dịch thuốc tím vào dung dịch Fe2+ trong môi trường acid đã quan sát thấy thuốc tím mất màu và dung dịch dần chuyển dần từ không màu sang màu vàng nhạt. Phản ứng được thực hiện ở điều kiện chuẩn."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Các cặp oxi hóa – khử của hai nguyên tố Mn và Fe liên quan đến phản ứng trong quá trình trên là /Mn2+; Fe3+/Fe2+.",
+          "b": "Phương trình hóa học xảy ra trong thí nghiệm trên là 5Fe2+(aq) + (aq) + 8H+(aq)  Mn2+(aq) + 5Fe3+ (aq) + 4H2O(l)",
+          "c": "Trong thí nghiệm trên ion  có màu tím khử Fe2+ thành Fe3+ có màu vàng và nó bị oxi hóa thành ion Mn2+ (aq) không màu.",
+          "d": "Nếu 10 mL dung dịch FeSO4 phản ứng vừa hết với 8 mL dung dịch KMnO4 0,125 M trong môi trường acid thì nồng độ dung dịch FeSO4 là 0,1 M."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "VD"
+        },
+        "answer": "a:Đ - b:Đ - c:S - d:S",
+        "solution": "a) Đúng. Fe3+ (aq) + e  Fe2+ (aq)\nb) Đúng.\n(aq) + 8H+ (aq) + 5e  Mn2+ (aq) + 4H2O (l)\n5Fe2+ (aq) +  (aq) + 8H+ (aq)  Mn2+ (aq) + 5Fe3+ (aq) + 4H2O (l)\nc) Sai. Ion  (có màu tím) oxi hóa Fe2+\nd) Sai.\n= 8×10–3 × 0,125 = 0,001 mol\n5Fe2+(aq) + (aq) + 8H+(aq)  Mn2+(aq) + 5Fe3+ (aq) + 4H2O (l)\n0,005    ←    0,001\n= 0,005/0,01 = 0,5M.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q200_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q200_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q200_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q200_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 201,
+        "id": "C5-P3-NB-201",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Thế điện cực chuẩn là thế điện cực được đo trong điều kiện chuẩn (1 bar, 25 oC) với nồng độ của dung dịch ở các điện cực là bao nhiêu mol/L?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "1",
+        "solution": "Đáp án: 1.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 202,
+        "id": "C5-P3-NB-202",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Có bao nhiêu cặp oxi hóa – khử kim loại có thể tạo thành từ các chất sau: Al, Fe, Al³⁺, Fe²⁺?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án: 2. Al³⁺/Al, Fe²⁺/Fe",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 203,
+        "id": "C5-P3-NB-203",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho dãy các kim loại và ion sau: Mg, Fe, Mg2+, Fe2+, Fe3+. Có bao nhiêu cặp oxi hóa – khử có thể tạo từ các kim loại và ion đó?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án: 4. Mg2+/Mg, Fe2+/Fe, Fe3+/Fe2+, Fe3+/Fe.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 204,
+        "id": "C5-P3-NB-204",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các cặp oxi hóa – khử của các kim loại và thế điện cực chuẩn tương ứng:",
+          "Trong số các kim loại trên, kim loại có tính khử mạnh nhất ứng với thế điện cực chuẩn là bao nhiêu V (làm tròn kết quả đến hàng phần mười)?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "-0,8",
+        "solution": "Đáp án: –0,8.",
+        "image_paths": [],
+        "tables": [
+          [
+            [
+              "Cặp oxi hóa – khử",
+              "Cu2+/Cu",
+              "Pb2+/Pb",
+              "Zn2+/Zn",
+              "Ag+/Ag"
+            ],
+            [
+              "Thế điện cực chuẩn (V)",
+              "0,340",
+              "–0,126",
+              "–0,762",
+              "0,799"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 205,
+        "id": "C5-P3-NB-205",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các cặp oxi hóa – khử và thế điện cực chuẩn tương ứng:",
+          "Dãy sắp xếp các ion (1) H+, (2) Al3+, (3) Ni2+, (4) Au3+ theo thứ tự giảm dần tính oxi hóa thành một dãy bốn chữ số."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4132",
+        "solution": "Đáp án: 4132.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q205_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q205_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q205_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q205_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q205_img5.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q205_img6.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 206,
+        "id": "C5-P3-NB-206",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các cặp oxi hóa – khử của kim loại và thế điện cực chuẩn tương ứng:",
+          "Sắp xếp các ion Al³⁺, Cu²⁺, Zn²⁺, Fe²⁺, Ag⁺ theo thứ tự tăng dần tính oxi hóa. Vị trí của ion Fe²⁺ trong dãy là số mấy?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3. Al³⁺/Al = –1,66, Zn²⁺/Zn = –0,76, =, Cu²⁺/Cu = +0,34, Ag⁺/Ag = +0,80",
+        "image_paths": [],
+        "tables": [
+          [
+            [
+              "Cặp oxi hóa – khử",
+              "Cu2+/Cu",
+              "Al³⁺/Al",
+              "Ag+/Ag",
+              "Fe²⁺/Fe",
+              "Zn2+/Zn"
+            ],
+            [
+              "Thế điện cực chuẩn (V)",
+              "+0,340",
+              "–1,66",
+              "+0,799",
+              "–0,44",
+              "–0,762"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 207,
+        "id": "C5-P3-NB-207",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Có 3 kim loại X, Y, Z và a, b, c lần lượt là hoá trị của các kim loại đó (biết rằng mỗi kim loại chỉ có một hoá trị duy nhất). Cho sức điện động chuẩn của các pin điện hoá của các cặp oxid hoá-khử của các kim loại X, Y, Z, Ag như sau:",
+          "Biết thế điện cực của Ag+/Ag là +0,80 V. Các kim loại X, Y, Z đánh số thứ tự là (1), (2), (3). Hãy sắp xếp các kim loại này theo chiều tăng dần tính khử. (ghi theo đúng thứ tự tăng dần)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "321",
+        "solution": "Đáp án: 321.\nHướng dẫn giải\nBước 1. Xếp các cặp oxi hóa-khử theo thứ tự tăng dần thế điện cực.\nTa có:\nThứ tự các cặp :\nBước 2. Xác định thứ tự\nTheo nguyên tắc dãy điện hóa thì theo chiều tăng thế điện cực: tính khử kim loại giảm dần\nNên thứ tự tăng dần tính kim loại là : Z < Y < X  (3 < 2 < 1).",
+        "image_paths": [],
+        "tables": [
+          [
+            [
+              "Pin",
+              "X-Ag",
+              "Y-Ag",
+              "Z-Ag"
+            ],
+            [
+              "Suất điện động (E",
+              "1,56",
+              "1,05",
+              "0,94"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 208,
+        "id": "C5-P3-NB-208",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các cặp oxi hóa – khử của kim loại và thế điện cực chuẩn tương ứng:",
+          "Trong các kim loại: Na, Ca, Ni, Au. Có bao nhiêu kim loại có tính khử mạnh hơn kim loại Mg?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án: 2. Na, Ca.",
+        "image_paths": [],
+        "tables": [
+          [
+            [
+              "Cặp oxi hóa – khử",
+              "Na+/Na",
+              "Ca2+/Ca",
+              "Ni2+/Ni",
+              "Au3+/Au",
+              "Zn2+/Zn"
+            ],
+            [
+              "Thế điện cực chuẩn (V)",
+              "–2,713",
+              "–2,84",
+              "–0,257",
+              "+1,52",
+              "–0,762"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 209,
+        "id": "C5-P3-NB-209",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho giá trị thế điện cực chuẩn của một số cặp oxi hóa – khử:",
+          "Cho các ion sau: Sn2+, Cr2+, Zn2+, Ag+. Có bao nhiêu ion có tính oxi hóa yếu hơn ion Cu2+?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3. Sn2+, Cr2+, Zn2+",
+        "image_paths": [],
+        "tables": [
+          [
+            [
+              "Cặp oxi hóa – khử",
+              "Sn2+/Sn",
+              "Cr2+/Cr",
+              "Cu2+/Cu",
+              "Ag+/Ag",
+              "Zn2+/Zn"
+            ],
+            [
+              "Thế điện cực chuẩn (V)",
+              "–0,137",
+              "–0,91",
+              "+0,340",
+              "+0,799",
+              "–0,762"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 210,
+        "id": "C5-P3-NB-210",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các cặp oxi hóa – khử sau: Mg²⁺/Mg (–2,37 V), Fe²⁺/Fe (–0,44 V), Cu²⁺/Cu (+0,34 V), Ag⁺/Ag (+0,80 V). Có bao nhiêu phản ứng xảy ra khi cho kim loại Fe phản ứng với ion của các cặp oxi hóa – khử còn lại?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án: 2. Cu²⁺/Cu (+0,34 V), Ag⁺/Ag (+0,80 V).",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 211,
+        "id": "C5-P3-NB-211",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho biết giá trị thể điện cực chuẩn của các cặp oxi hóa – khử sau:",
+          "Cho các phản ứng sau:",
+          ";",
+          ";",
+          "Ở điều kiện chuẩn, có bao nhiêu phản ứng hóa học xảy ra theo chiều thuận?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án: 4.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q211_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q211_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q211_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q211_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q211_img5.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q211_img6.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q211_img7.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q211_img8.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q211_img9.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q211_img10.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q211_img11.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q211_img12.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q211_img13.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 212,
+        "id": "C5-P3-NB-212",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho giá trị thế điện cực chuẩn của một số cặp oxi hóa – khử:",
+          "Trong các kim loại: Cu, Ag, Fe và Ni. Trong các kim loại trên, số kim loại tác dụng được với dung dịch HCl ở điều kiện chuẩn, giải phóng khí H2 là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án: 2. Fe và Ni",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q212_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 213,
+        "id": "C5-P3-NB-213",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho giá trị thế điện cực chuẩn của một số cặp oxi hóa – khử:",
+          "Cho các ion sau: Fe2+, Zn2+, Cu2+ và Ag+. Có bao nhiêu ion có thể oxi hóa được kim loại Fe?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án: 2. Cu2+ và Ag+.",
+        "image_paths": [],
+        "tables": [
+          [
+            [
+              "Cặp oxi hóa – khử",
+              "Cu2+/Cu",
+              "Ag+/Ag",
+              "Fe2+/Fe",
+              "Zn2+/Zn"
+            ],
+            [
+              "Thế điện cực chuẩn, V",
+              "+0,340",
+              "+0,799",
+              "–0,44",
+              "–0,76"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 214,
+        "id": "C5-P3-NB-214",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho biết các giá trị thế điện cực chuẩn của các cặp oxi hóa – khử sau:",
+          "Trong các kim loại Li, Na, Mg, Fe, Ni, có bao nhiêu kim loại có tính khử mạnh hơn kẽm (Zn)?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q214_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q214_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q214_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q214_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q214_img5.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q214_img6.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q214_img7.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q214_img8.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q214_img9.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q214_img10.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q214_img11.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q214_img12.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q214_img13.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 215,
+        "id": "C5-P3-NB-215",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho thứ tự sắp xếp các cặp oxi hóa – khử trong dãy điện hóa: Mg2+/Mg; H2O/H2, OH–; 2H+/H2; Ag+/Ag. Tiến hành các thí nghiệm sau ở điều kiện chuẩn:",
+          "(a) Cho sợi phôi bào Mg vào nước.",
+          "(b) Cho lá Ag vào dung dịch H2SO4.",
+          "(c) Cho lá Mg vào dung dịch HCl.",
+          "(d) Cho sợi Mg vào dung dịch AgNO3.",
+          "Số thí nghiệm không xảy ra phản ứng ở điều kiện chuẩn là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "1",
+        "solution": "Đáp án: 1: (b).",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 216,
+        "id": "C5-P3-NB-216",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các cặp oxi hóa – khử và giá trị thế điện cực chuẩn tương ứng:",
+          "Cho các phát biểu sau:",
+          "(1) Ion Cu2+ có tính oxi hóa mạnh hơn ion Fe3+.",
+          "(2) Dãy sắp xếp theo chiều tăng dần tính khử: Ag, Cu, Fe2+.",
+          "(3) lon Fe2+ khử được ion Ag+ thành Ag kim loại.",
+          "(4) lon Fe3+ và ion Ag+ đều oxi hóa được Cu thành ion Cu2+.",
+          "Viết số thứ tự của các phát biểu đúng theo thứ tự tăng dần từ trái sang phải (ví dụ: 12 hoặc 123 hoặc 23...)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "34",
+        "solution": "Đáp án: 34\n(1) Sai vì Fe3+ có tính oxi háo mạnh hơn Cu2+.\n(2) Sai vì tính khử tăng dần theo thứ tự: Ag, Fe2+, Cu.",
+        "image_paths": [],
+        "tables": [
+          [
+            [
+              "Cặp oxi hóa – khử",
+              "Cu²⁺/Cu",
+              "Fe³⁺/Fe²⁺",
+              "Ag⁺/Ag"
+            ],
+            [
+              "Thế điện cực chuẩn (V)",
+              "+0,34",
+              "+0,771",
+              "+0,799"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 217,
+        "id": "C5-P1-NB-217",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Theo quy ước, kí hiệu pin điện hóa với điện cực âm hay còn gọi là...(1)... đặt ở bên trái và điện cực dương hay còn gọi là...(2)... đặt ở bên phải. Thông tin phù hợp điền vào (1) và (2) là"
+        ],
+        "opt_lines": [
+          "A. anode và cathode. \tB. cathode và anode. \tC. anion và cation. \tD. cation và anion."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 218,
+        "id": "C5-P1-NB-218",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Các chất phản ứng trong pin điện hóa Al – Cu là"
+        ],
+        "opt_lines": [
+          "A. Al3+.\tB. Al3+ và Cu.\tC. Cu2+ và Al.\tD. Al và Cu."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 219,
+        "id": "C5-P1-NB-219",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong cầu muối của pin điện hóa khi hoạt động, xảy ra sự di chuyển của các"
+        ],
+        "opt_lines": [
+          "A. ion.\tB. electron.\tC. nguyên tử kim loại.\tD. phân tử nước."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 220,
+        "id": "C5-P1-NB-220",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong quá trình hoạt động của pin điện hóa Zn − Cu, nhận định nào sau đây không đúng về vai trò của cầu muối?"
+        ],
+        "opt_lines": [
+          "A. Ngăn cách hai dung dịch chất điện li.\tB. Cho dòng electron chạy qua.",
+          "C. Trung hoà điện ở mỗi dung dịch điện li.\tD. Đóng kín mạch điện."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 221,
+        "id": "C5-P1-NB-221",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong pin điện hóa, quá trình khử"
+        ],
+        "opt_lines": [
+          "A. xảy ra ở cực âm.\t\tB. xảy ra ở cực dương.",
+          "C. xảy ra ở cực âm và cực dương.\tD. không xảy ra ở cả cực âm và cực dương."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 222,
+        "id": "C5-P1-TH-222",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phát biểu nào sau đây là đúng khi nói về pin Galvani?"
+        ],
+        "opt_lines": [
+          "A. Anode là điện cực dương.",
+          "B. Cathode là điện cực âm.",
+          "C. Ở điện cực âm xảy ra quá trình oxi hóa.",
+          "D. Dòng electron di chuyển từ cathode sang anode."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 223,
+        "id": "C5-P1-TH-223",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phát biểu nào sau đây không đúng về pin Galvani?"
+        ],
+        "opt_lines": [
+          "A. Ở điện cực dương xảy ra quá trình oxi hóa.",
+          "B. Cathode là kim loại yếu hơn, đóng vai trò điện cực dương của pin.",
+          "C. Anode là kim loại mạnh hơn, đóng vai trò điện cực âm của pin.",
+          "D. Phản ứng hóa học diễn ra trong pin kèm theo sự giải phóng điện năng."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 224,
+        "id": "C5-P1-NB-224",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong pin điện hóa Zn − Cu, phản ứng hóa học xảy ra giữa hai dạng nào của các cặp oxi hóa − khử tương ứng?"
+        ],
+        "opt_lines": [
+          "A. Zn và Cu2+.\tB. Zn và Cu.\tC. Zn2+ và Cu2+.\tD. Zn và Cu2+."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 225,
+        "id": "C5-P1-NB-225",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong quá trình hoạt động của pin điện Zn − Cu, dòng electron di chuyển từ"
+        ],
+        "opt_lines": [
+          "A. cực Zn sang cực Cu.\t\tB. cực bên phải sang cực bên trái.",
+          "C. cathode sang anode.\t\tD. cực dương sang cực âm."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 226,
+        "id": "C5-P1-NB-226",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong pin điện hóa Zn – Cu, phản ứng hóa học nào xảy ra ở điện cực âm?"
+        ],
+        "opt_lines": [
+          "A. Cu Cu2+ + 2e.\t\tB. Cu2+ + 2eCu.",
+          "C. Zn2+ + 2e Zn.\t\tD. ZnZn2+ + 2e."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q226_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q226_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q226_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q226_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 227,
+        "id": "C5-P1-NB-227",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong quá trình hoạt động của pin điện Ni − Cu, quá trình xảy ra ở anode là"
+        ],
+        "opt_lines": [
+          "A. NiNi2+ + 2e.\t\tB. CuCu2+ + 2e.",
+          "C. Cu2+ + 2eCu.\t\tD. Ni2+ + 2eNi."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q227_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q227_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q227_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q227_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 228,
+        "id": "C5-P1-NB-228",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong quá trình hoạt động của pin điện Cu − Ag, điện cực Cu là"
+        ],
+        "opt_lines": [
+          "A. điện cực dương.\t\tB. cathode.",
+          "C. điện cực bị giảm dần khối lượng.\tD. nơi xảy ra quá trình khử."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 229,
+        "id": "C5-P1-NB-229",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho pin điện hóa Zn – Fe. Xác định các chất, ion đóng vai trò là chất khử, chất oxi hóa trong pin?"
+        ],
+        "opt_lines": [
+          "A. Zn là chất khử, Fe2+ là chất oxi hóa.\tB. Zn là chất oxi hóa, Fe2+ là chất khử.",
+          "C. Zn2+ là chất khử, Fe là chất oxi hóa.\tD. Zn2+ là chất oxi hóa, Fe là chất khử."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 230,
+        "id": "C5-P1-NB-230",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho pin điện hóa Al – Pb. Quá trình xảy ra ở cực âm của pin là"
+        ],
+        "opt_lines": [
+          "A. Al3+ + 3eAl.\t\tB. Pb2+ + 2e Pb.",
+          "C. AlAl3+ + 3e.\t\tD. PbPb2+ + 2e."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q230_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q230_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q230_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q230_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 231,
+        "id": "C5-P1-NB-231",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một pin Galvani được cấu tạo bởi hai cặp oxi hóa – khử sau:",
+          "(1) Ag+ + e  Ag",
+          "(2) Ni2+ + 2e  Ni",
+          "Khi pin làm việc ở điều kiện chuẩn, nhận định nào sau đây là đúng?"
+        ],
+        "opt_lines": [
+          "A. Ag được tạo ra ở cực dương, Ni được tạo ra ở cực âm.",
+          "B. Ag được tạo ra ở cực dương, Ni2+ được tạo ra ở cực âm.",
+          "C. Ag+ được tạo ra ở cực âm và Ni được tạo ra ở cực dương.",
+          "D. Ag+ được tạo ra ở cực âm và Ni2+ được tạo ra ở cực dương."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q231_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q231_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q231_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q231_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 232,
+        "id": "C5-P1-NB-232",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong quá trình hoạt động của pin điện hóa Cu – Ag, nồng độ của các ion trong dung dịch biến đổi như thế nào?"
+        ],
+        "opt_lines": [
+          "A. Nồng độ của ion Ag+ tăng dần và nồng độ của ion Cu2+ tăng dần.",
+          "B. Nồng độ của ion Ag+ giảm dần và nồng độ của ion Cu2+ giảm dần.",
+          "C. Nồng độ của ion Ag+ giảm dần và nồng độ của ion Cu2+ tăng dần.",
+          "D. Nồng độ của ion Ag+ tăng dần và nồng độ của ion Cu2+ giảm dần."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 233,
+        "id": "C5-P1-TH-233",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Sơ đồ pin Galvani tổng quát được kí hiệu như sau: (anode) X | Xx+ || Yy+| Y (cathode) hay đơn giản là pin Galvani X – Y. Cho biết sức điện động chuẩn của các pin sau:",
+          "Sự sắp xếp nào sau đây đúng với tính khử của các kim loại?"
+        ],
+        "opt_lines": [
+          "A. Y < X < Z < M.\tB. X < Y < M < Z.\tC. M < Z < Y < X.\tD. X < Y < Z < M."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": [
+          [
+            [
+              "Pin điện hóa",
+              "X – Y",
+              "M – Y",
+              "M – Z"
+            ],
+            [
+              "Sức điện động chuẩn (V)",
+              "0,20",
+              "0,60",
+              "0,30"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 234,
+        "id": "C5-P1-NB-234",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các phát biểu sau:",
+          "(a) Một ưu điểm của acquy là tái sử dụng được nhiều lần.",
+          "(b) Phản ứng xảy ra trong acquy cũng giống như phản ứng xảy ra trong pin Galvani nhưng có thể đảo ngược.",
+          "(c) Acquy không gây ô nhiễm môi trường.",
+          "(d) Acquy là nguồn điện hóa học có thể hoạt động liên tục.",
+          "Số phát biểu không đúng là"
+        ],
+        "opt_lines": [
+          "A. 2.\tB. 3.\tC. 4.\tD. 1."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "(a) Đúng – Vì acquy có thể sạc lại → sử dụng nhiều lần.\n(b) Đúng – Bản chất phản ứng điện hóa tương tự pin Galvani, nhưng acquy có thể sạc lại nên phản ứng là thuận – nghịch.\n(c) Sai – Acquy có chứa chì, sulfuric acid,... nếu không xử lý đúng có thể gây ô nhiễm nghiêm trọng.\n(d) Sai – Acquy có giới hạn năng lượng và cần được sạc lại sau một thời gian sử dụng.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 235,
+        "id": "C5-P1-VD-235",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các phát biểu sau:",
+          "(a) Khác với acquy, chất phản ứng của pin nhiên liệu phải được cung cấp liên tục từ nguồn bên ngoài.",
+          "(b) Pin nhiên liệu tạo ra điện năng nhờ năng lượng mặt trời.",
+          "(c) Pin nhiên liệu biến đổi trực tiếp năng lượng hóa học thành điện năng.",
+          "(d) Một trong những hạn chế của pin nhiên liệu là sự lưu trữ nhiên liệu.",
+          "(e) Khi sử dụng, pin nhiên liệu hydrogen không gây ô nhiễm môi trường.",
+          "Số phát biểu đúng là"
+        ],
+        "opt_lines": [
+          "A. 2.\tB. 3.\tC. 4.\tD. 5."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "(a) Đúng – Pin nhiên liệu không tích trữ sẵn nhiên liệu như acquy, mà phải được cấp liên tục (ví dụ: H₂ và O₂).\n(b) Sai – Đây là đặc điểm của pin mặt trời, không phải pin nhiên liệu.\n(c) Đúng – Tương tự như pin Galvani, pin nhiên liệu cũng là pin điện hóa, chuyển hóa năng lượng hóa học → điện năng.\n(d) Đúng – Nhiên liệu (như H₂) khó lưu trữ an toàn và ổn định.\n(e) Đúng – Sản phẩm của pin nhiên liệu (H₂/O₂) là nước, không tạo ra khí độc → thân thiện môi trường.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 236,
+        "id": "C5-P1-NB-236",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Pin quả chanh được thiếp lập gồm một dây Cu và dây Zn ghim vào một quả chanh và nối với bóng điện như hình bên.",
+          "Bóng điện sáng đồng nghĩa với sự xuất hiện dòng điện. Bán phản ứng nào sau đây xảy ra ở anode?"
+        ],
+        "opt_lines": [
+          "A. Cu2+(aq) + 2e  Cu(s). \tB. Zn(s) Zn2+(aq) + 2e.",
+          "C. Zn2+(aq) + 2e  Zn(s). \tD. Cu(s)  Cu2+(aq) + 2e."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q236_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q236_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q236_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q236_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q236_img5.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 237,
+        "id": "C5-P1-VD-237",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các phát biểu sau:",
+          "(a) Phản ứng xảy ra trong pin Galvani luôn là phản ứng oxi hóa - khử tự diễn biến.",
+          "(b) Acquy chì có thể được tái nạp điện do phản ứng phóng điện của nó là phản ứng không thuận nghịch.",
+          "(c) Pin Galvani có thể hoạt động liên tục nếu các chất phản ứng được bổ sung liên tục.",
+          "(d) Trong quá trình phóng điện của acquy, hóa năng được chuyển hóa thành điện năng.",
+          "Số phát biểu đúng là"
+        ],
+        "opt_lines": [
+          "A. 4.\tB. 3.\tC. 2.\tD. 1."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "(a) Đúng. Pin Galvani là nguồn điện hóa học chuyển hóa hóa năng thành điện năng dựa trên phản ứng oxi hóa - khử tự diễn biến.\n(b) Sai. Acquy chì tái nạp điện được là do phản ứng phóng điện của nó là phản ứng thuận nghịch. Khi sạc, ta thực hiện quá trình theo chiều ngược lại để tái tạo lại các chất phản ứng ban đầu.\n(c) Đúng. Pin nhiên liệu là một dạng đặc biệt của pin Galvani. Điểm khác biệt lớn nhất là các chất phản ứng (H2​ và O2​) được cung cấp liên tục từ bên ngoài, cho phép pin hoạt động liên tục mà không bị hết.\n(d) Đúng. Khi acquy phóng điện (sử dụng), nó hoạt động như một pin Galvani, chuyển hóa năng lượng hóa học tích trữ thành năng lượng điện.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 238,
+        "id": "C5-P1-VD-238",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Pin nhiên liệu đang được đặc biệt quan tâm nghiên cứu vì tiềm năng sử dụng trong tương lai do có nhiều ưu điểm so với pin Galvani hiện nay. Dòng điện tạo ra trong pin do phản ứng oxi hóa nhiên liệu (H2, CH3OH, CH4,...) bằng O2 của không khí. Ưu điểm của pin là sản sinh dòng điện với hiệu suất cao. Cấu tạo và cơ chế hoạt động của pin nhiên liệu hydrogen như sau:",
+          "Phản ứng chung trong pin nhiên liệu hydrogen là"
+        ],
+        "opt_lines": [
+          "A. 2H2(g) + O2(g) 2H2O(l).\tB. 2H2(g) + 2O2(g)  2H2O2(l).",
+          "C. 2H2(g) + O2(g)  2H+(aq) + 2OH ̄(aq).\tD. 2H2(g) + O2(g)  2H2O(g)."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q238_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q238_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q238_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q238_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q238_img5.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 239,
+        "id": "C5-P2-TH-239",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Biết thế điện cực chuẩn E° của cặp oxi hóa khử Zn2+/Zn và Cu2+/Cu lần lượt là -0,76V và 0,34V. Quan sát hình vẽ mô tả cấu tạo pin Galavine Zn-Cu như hình dưới:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Pin Galvani tạo ra dòng điện từ quá trình vật lí.",
+          "b": "Trong pin Galvani, điện cực âm là nơi xảy ra quá trình khử.",
+          "c": "Sức điện động của pin Galvani là hiệu điện thế giữa hai điện cực.",
+          "d": "Phản ứng hóa học xảy ra trong pin Galvani là phản ứng tự diễn biến."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:S - b:S - c:Đ - d:Đ",
+        "solution": "a) Sai. Pin Galvani là thiết bị chuyển hóa năng lượng hóa học thành điện năng, do đó dòng điện được tạo ra từ quá trình hóa học.\nb) Sai. Trong pin Galvani, điện cực âm (anode) luôn luôn là nơi xảy ra quá trình oxi hóa (kim loại nhường electron: Zn   + 2e).\nc) Đúng. Khi coi vôn kế có điện trở vô cùng lớn (dòng điện mạch ngoài xấp xỉ 0 A), số chỉ của vôn kế chính là sức điện động (hiệu điện thế cực đại) của pin.\nd) Đúng. Phản ứng oxi hóa - khử tự diễn biến: Zn +    + Cu cung cấp năng lượng để phát sinh dòng điện ở mạch ngoài.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q239_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 240,
+        "id": "C5-P2-TH-240",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Hai kim loại Cu, Fe có = 0,34 V, = –0,76 V và một pin Galvani Zn–Cu được thiết lập như hình vẽ ở 25 oC."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Nồng độ Zn2+ trong dung dịch sẽ tăng lên, còn nồng độ Cu2+ trong dung dịch CuSO4 sẽ giảm xuống.",
+          "b": "Dòng điện đi qua vôn kế là dòng electron đi chuyển từ cực (+) là thanh Cu sang cực âm là thanh Zn.",
+          "c": "Trong cầu muối ion K+ sẽ di chuyển vào dung dịch CuSO4 còn ion  sẽ di chuyển vào dung dịch ZnSO4.",
+          "d": "Nếu điện trở của dây dẫn không đáng kể thì khi pin mới hoạt động, kim vôn kế chỉ 1,1 V."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:S - c:Đ - d:Đ",
+        "solution": "a) Đúng. Cực âm Zn bị oxi hóa tan ra thành , cực dương  bị khử thành kim loại Cu làm sụt giảm nồng độ. Phản ứng trong pin:\nb) Sai. Dòng electron di chuyển từ cực âm (anode - Zn) sang cực dương (cathode - Cu) thông qua dây dẫn kim loại.\nc) Đúng. Ion  di chuyển về cathode để bù đắp điện tích dương bị mất đi, ion  di chuyển về anode để trung hòa điện tích dương của  vừa sinh ra.\nd) Đúng. Sức điện động chuẩn lý thuyết của pin là 1,10 V.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q240_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q240_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q240_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q240_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 241,
+        "id": "C5-P2-TH-241",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Acquy chì có cấu tạo như hình vẽ dưới đây:",
+          "Cực dương là thanh than chì (C) được phủ PbO2 và cực âm là tấm chì (Pb), cùng nhúng vào dung dịch H2SO4 nồng độ 28%. Phản ứng xảy ra khi acquy xả điện là:",
+          "Pb(s) + PbO2(s) + 2H2SO4(aq)  2PbSO4(s) + 2H2O(l)",
+          "Biết rằng PbSO4 sinh ra từ điện cực nào đều bám hết vào điện cực đó."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Tại anode, Pb bị khử và tạo thành PbSO4.",
+          "b": "Tại cathode, PbO2 bị oxi hóa và tạo thành PbSO4.",
+          "c": "Khi acquy xả điện, khối lượng các điện cực tăng lên.",
+          "d": "Nồng độ H2SO4 trong acquy quy chì giảm xuống khi acquy xả điện."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:S - b:S - c:Đ - d:Đ",
+        "solution": "Anode (cực âm; Pb): Pb +   PbSO4 + 2e\nCathode (cực dương: C/PbO2): PbO2 + 2e + 4H+ +  PbSO4 + 2H2O\na) Sai. Tại cực âm (anode), kim loại Pb đóng vai trò chất khử nên nó bị oxi hóa (nhường electron) tạo thành kết tủa .\nb) Sai. Tại cực dương (cathode), hợp chất  đóng vai trò chất oxi hóa nên nó bị khử (nhận electron) tạo thành .\nc) Đúng. Ở cả hai điện cực đều sinh ra kết tủa rắn  bám dính vào làm khối lượng điện cực tăng lên đáng kể so với ban đầu.\nd) Đúng. Hóa chất  liên tục bị tiêu hao để tạo muối sulfate và nước, khiến nồng độ acid sụt giảm mạnh.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q241_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q241_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 242,
+        "id": "C5-P2-VD-242",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một nhóm học sinh làm thí nghiệm để nghiên cứu sự phụ thuộc của sức điện động vào nồng độ của ion kim loại. Giả thuyết mà nhóm học sinh này đặt ra là: \"Khi giảm nồng độ ion kim loại trong dung dịch thì sức điện động của pin cũng giảm\". Để kiểm chứng giả thuyết trên, nhóm học sinh tiến hành thí nghiệm như sau:",
+          "- Bước 1: chuẩn bị 5 cốc chứa dung dịch CuSO4 1 M; 5 cốc chứa dung dịch ZnSO4 có nồng độ lần lượt là 1 M; 0,5 M; 0,1 M; 0,05 M; 0,01 M; Các thanh điện cực Zn và Cu có kích thước như nhau; cầu muối; điện kế để đo sức điện động.",
+          "- Bước 2: Tiến hành lắp các dụng cụ theo sơ đồ như hình vẽ bên dưới.",
+          "- Bước 3: Lần lượt thay các cốc chứa ZnSO4 có nồng độ khác nhau, tiến hành đo sức điện động của pin. Kết quả thí nghiệm được học sinh thu thập được theo bảng sau:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Khi nồng độ ZnSO4 là 0,05 M thì sức điện động chuẩn của pin là 1,138 V.",
+          "b": "Trong thí nghiệm trên, Cu là anode và Zn là cathode.",
+          "c": "Trong quá trình hoạt động của pin, nồng độ của ion Cu2+ giảm dần.",
+          "d": "Dựa vào kết quả thí nghiệm, giả thiết của học sinh đưa ra là không hợp lý."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:S - b:S - c:Đ - d:Đ",
+        "solution": "a) Sai. Khái niệm \"sức điện động chuẩn\" chỉ được phép dùng khi nồng độ tất cả các ion đều đạt đúng 1,0 M.\nb) Sai. Kẽm (Zn) có tính khử mạnh hơn đồng (Cu) nên Zn bắt buộc phải đóng vai trò là cực âm (anode).\nc) Đúng. Tại cathode, ion  liên tục nhận electron bị khử thành Cu, làm nồng độ của nó bị hao hụt theo thời gian.\nd) Đúng. Bảng số liệu cho thấy khi giảm nồng độ  thì sức điện động lại có xu hướng tăng lên, đi ngược hoàn toàn với giả thuyết ban đầu.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q242_img1.png"
+        ],
+        "tables": [
+          [
+            [
+              "Nồng độ ZnSO4 (mol/L)",
+              "1",
+              "0,5",
+              "0,1",
+              "0,05",
+              "0,01"
+            ],
+            [
+              "Sức điện động của pin (V)",
+              "1,102",
+              "1,109",
+              "1,130",
+              "1,138",
+              "1,159"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 243,
+        "id": "C5-P2-TH-243",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Pin nhiên liệu cung cấp năng lượng điện và nhiệt giải phóng khỉ pin hoạt động. Ngoài ra, việc vận hành pin nhiên liệu không phát sinh tiếng ồn và giải phóng nước, không làm ô nhiễm môi trường như nhiên liệu hóa thạch.",
+          "Nhiều hãng sản xuất xe đã nghiên cứu xe sử dụng năng lượng tái tạo là hydrogen, sử dụng tế bào nhiên liệu để chuyển hóa năng lượng và dùng động cơ điện để vận hành.",
+          "Anode (–): 2H2 + 4OH–  4H2O + 4e \tE°anode = –0,40V",
+          "Cathode (+): O2 + 4e + 2H2O  4OH–\tE°cathode = +0,83V",
+          "Phương trình hóa học của phản ứng xảy ra: 2H2 + O2  H2O."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Sức điện động của pin nhiên liệu trên là 0,43 V.",
+          "b": "Pin nhiên liệu có ưu điểm là không phát thải khí gây ô nhiễm môi trường do chỉ thải ra hơi nước.",
+          "c": "Về phương diện hóa học, pin nhiên liệu có phản ứng hóa học ngược lại của sự điện phân.",
+          "d": "Pin nhiên liệu có thể bị rò rỉ hydrogen, gây nguy hiểm nếu không được bảo quản đúng cách."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:S - b:Đ - c:Đ - d:Đ",
+        "solution": "a) Sai. Sức điện động chuẩn lý thuyết của pin này được tính bằng hiệu số:  V.\nb) Đúng. Sản phẩm duy nhất của chu trình phản ứng là phân tử nước, hoàn toàn không sinh ra khí nhà kính hay khói bụi.\nc) Đúng. Điện phân nước tiêu tốn năng lượng điện để tách nước thành hydro và oxygen. Pin nhiên liệu kết hợp hydro và oxygen tạo ra nước và phát sinh ra điện năng.\nd) Đúng. Khí hydrogen rất dễ cháy nổ, do đó hệ thống lưu trữ phải chịu được áp suất cao và trang bị cảm biến rò rỉ nghiêm ngặt.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q243_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q243_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q243_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q243_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 244,
+        "id": "C5-P2-VD-244",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Pin nhiên liệu sử dụng ethanol được đặc biệt quan tâm do có nguồn nhiên liệu sinh học dồi dào. Phản ứng xảy ra khi một pin ethanol – oxygen phóng điện ở 25 oC trong dung dịch chất điện li là potassium hydroxide như sau:",
+          "Một pin ethanol – oxygen được dùng để thắp sáng bóng đèn LED có công suất 3 W liên tục trong t giờ, tiêu thụ hết 23 gam ethanol với hiệu suất quá trình oxi hóa ethanol ở anode là .",
+          "Cho biết:",
+          "– Công cực đại của pin  Công của dòng điện .",
+          "– Nhiệt tạo thành chuẩn của các chất:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Ở anode xảy ra quá trình oxi hóa ethanol.",
+          "b": "Quá trình khử ở cathode: .",
+          "c": "Biến thiên enthalpy chuẩn của phản ứng oxi hóa ethanol là .",
+          "d": "Giá trị của t khi làm tròn đến số nguyên là 25."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "VD"
+        },
+        "answer": "a:Đ - b:Đ - c:S - d:Đ",
+        "solution": "a) Đúng. Ethanol là chất khử (nhiên liệu), luôn được bơm vào anode để tham gia quá trình oxi hóa nhường electron.\nb) Đúng. Khí oxygen đóng vai trò chất oxi hóa, bị khử tại cathode.\nc) Sai.  kJ.\nd) Đúng. Số mol ethanol tiêu thụ: n .\n(giây)  giờ.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q244_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q244_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q244_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q244_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q244_img5.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q244_img6.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q244_img7.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q244_img8.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q244_img9.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q244_img10.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q244_img11.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q244_img12.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q244_img13.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q244_img14.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q244_img15.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 245,
+        "id": "C5-P3-NB-245",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho 4 kim loại U, V, W, Z được đánh số từ 1 đến 4. Các pin điện hóa sau có suất điện động chuẩn như sau:",
+          "Sắp xếp các kim loại theo chiều giảm dần tính khử từ trái sang phải thành bộ 4 số (ví dụ: 1234, 4312,…)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4312",
+        "solution": "Đáp án: 4312. Tính khử: Z > W > U > V",
+        "image_paths": [],
+        "tables": [
+          [
+            [
+              "Pin điện hóa",
+              "U – V",
+              "W – U",
+              "Z – U"
+            ],
+            [
+              "Eo (V)",
+              "0,28",
+              "0,84",
+              "1,08"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 246,
+        "id": "C5-P3-NB-246",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Các kim loại A, B, C, D được đánh số từ 1 đến 4. Khi ghép các điện cực tạo thành pin điện hóa, đo được các suất điện động chuẩn như sau:",
+          "Sắp xếp các kim loại theo chiều giảm dần tính khử từ trái sang phải thành bộ 4 số (ví dụ: 1234, 4312,…)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3412",
+        "solution": "Đáp án: 3412. Tính khử: C > D > A > B.",
+        "image_paths": [],
+        "tables": [
+          [
+            [
+              "Pin điện hóa",
+              "A – B",
+              "D – A",
+              "C – A"
+            ],
+            [
+              "Eo (V)",
+              "0,40",
+              "0,65",
+              "1,05"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 247,
+        "id": "C5-P3-NB-247",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Xét pin Galvani hoạt động với phương trình tương ứng:",
+          "Cho các phát biểu:",
+          "(1) Điện cực đồng giảm khối lượng và điện cực đồng là cực âm.",
+          "(2) Điện cực đồng tăng khối lượng và điện cực đồng là cực dương.",
+          "(3) Điện cực kẽm giảm khối lượng và điện cực kẽm là cực âm.",
+          "(4) Điện cực kẽm tăng khối lượng và điện cực kẽm là cực dương.",
+          "Sắp xếp các phát biểu đúng theo số thứ tự tăng dần (ví dụ 12, 134, …)"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "23",
+        "solution": "Đáp án: 23.\n📝 Hướng dẫn giải:\n(1) Sai vì điện cực Cu là cực dương và khối lượng sẽ tăng sau khi phản ứng\n(4) Sai vì kẽm sẽ bị oxi hóa, là cực âm và tan dần sau khi phản ứng.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q247_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 248,
+        "id": "C5-P3-NB-248",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Xét pin điện hóa hoạt động theo phương trình:",
+          "Cho các phát biểu:",
+          "(1) Điện cực sắt bị ăn mòn, giảm khối lượng và là cực âm.",
+          "(2) Đồng bị khử và bám lên điện cực đồng làm tăng khối lượng.",
+          "(3) Điện tử chuyển từ cực Cu sang cực Fe qua dây dẫn ngoài.",
+          "(4) Dung dịch sau phản ứng luôn có chứa ion Fe²⁺ và Cu²⁺.",
+          "Sắp xếp các phát biểu đúng theo số thứ tự tăng dần (ví dụ 12, 134, …)"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "12",
+        "solution": "Đáp án: 12\n📝 Hướng dẫn giải:\n(3) Sai. Electron luôn đi từ cực âm (Fe) sang cực dương (Cu)\n(4) Sai. Cu²⁺ đã bị khử → không còn trong dung dịch sau phản ứng",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q248_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 249,
+        "id": "C5-P3-NB-249",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Thiết lập một pin Galvani ở điều kiện chuẩn (25°C) gồm điện cực iron (Fe) và điện cực silver (Ag). Dựa vào bảng thế điện cực chuẩn, cho biết  V và  V. Sức điện động chuẩn của pin điện hóa trên bằng bao nhiêu vôn (V)? (Không làm tròn kết quả các phép tính trung gian, chỉ làm tròn kết quả cuối cùng đến hàng phần trăm)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "1,24",
+        "solution": "Đáp án đúng: 1,24\n📝 Hướng dẫn giải:\nTrong pin điện hóa, cực dương (cathode) là điện cực có thế điện cực chuẩn lớn hơn (), cực âm (anode) là điện cực có thế điện cực chuẩn nhỏ hơn (). Sức điện động chuẩn của pin được tính bằng công thức:  V.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q249_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q249_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 250,
+        "id": "C5-P3-NB-250",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Thế điện cực chuẩn của các cặp oxi hoá – khử  và  lần lượt là  V và  V. Tính sức điện động chuẩn (theo V) của pin Galvani tạo bởi hai cặp oxi hoá – khử trên. (Không làm tròn kết quả các phép tính trung gian, chỉ làm tròn kết quả cuối cùng đến hàng phần trăm)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "0,64",
+        "solution": "Đáp án: 0,64\n📝 Hướng dẫn giải:",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q250_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q250_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q250_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q250_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 251,
+        "id": "C5-P3-NB-251",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Pin X–Y có suất điện động chuẩn là 1,10 V với hai cặp oxi hóa – khử là X²⁺/X và Y²⁺/Y. Pin Y–Z có suất điện động chuẩn là 0,82 V với hai cặp oxi hóa – khử là Y²⁺/Y và Z²⁺/Z. Pin X–Z (với hai cặp oxi hóa – khử là X²⁺/X và Z²⁺/Z) có suất điện động chuẩn là bao nhiêu volt (Kết quả làm tròn đến hàng phần trăm)?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "1,92",
+        "solution": "Đáp án: 1,92\n📝 Hướng dẫn giải:\nPin X-Y có .\nPin Y-Z có .\nCộng hai vế để triệt tiêu : .",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 252,
+        "id": "C5-P3-NB-252",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Pin A–B có suất điện động chuẩn là 0,76 V, gồm hai cặp oxi hóa – khử: A²⁺/A và B²⁺/B. Pin B–C có suất điện động chuẩn là 0,44 V, gồm hai cặp oxi hóa – khử: B²⁺/B và C²⁺/C. Tính suất điện động chuẩn của pin A–C (Kết quả làm tròn đến hàng phần mười). Biết chiều electron đi từ A → C trong mạch ngoài."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "1,2",
+        "solution": "Đáp án: 1,2\n📝 Hướng dẫn giải:\nChiều electron đi từ A  C nghĩa là A là cực âm, C là cực dương. Ta cần tính .\nTương tự câu trên, ghép nối: .",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 253,
+        "id": "C5-P3-NB-253",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một pin Galvani hoạt động giữa hai điện cực iron và silver. Dòng điện qua mạch là 0,03 A, và điện cực iron hao mòn 0,05 mol. Tính thời gian (giờ) tối đa hoạt động của pin. (Không làm tròn kết quả các phép tính trung gian, chỉ làm tròn kết quả cuối cùng đến hàng đơn vị). Biết rằng phản ứng oxi hóa tại cực âm xảy ra như sau:"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "89",
+        "solution": "Đáp án: 89\n📝 Hướng dẫn giải:\nCách 1 (Tư duy từng bước):\nTại cực âm: . Số mol electron trao đổi: .\nThời gian tính bằng giây: .\nĐổi sang giờ:  (làm tròn 89).\nCách 2 (Bấm máy tính): Gộp bước đổi giờ vào biểu thức: giờ.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q253_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 254,
+        "id": "C5-P3-NB-254",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho một pin Galvani với điện cực Zn và Cu có sức điện động chuẩn là 1,34 V. Sử dụng pin này để thắp sáng một bóng đèn nhỏ với cường độ dòng điện chạy qua là I = 0,02A. Cho biết các công thức: Q = nF = It ; trong đó: Q là điện lượng (C), n là số mol electron đi qua dây dẫn, I là cường độ dòng điện (A), t là thời gian (giây), F là hằng số Faraday (96 500 C.mol–1). Nếu điện cực kẽm hao mòn 0,1 mol do pin phóng điện thì thời gian tối đa mà pin thắp sáng được bóng đèn là bao nhiêu giờ? (Không làm tròn kết quả các phép tính trung gian, chỉ làm tròn kết quả cuối cùng đến hàng đơn vị)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "268",
+        "solution": "Đáp án: 268\n📝 Hướng dẫn giải:\nCách 1 (Tư duy từng bước):\nKẽm mòn 0,1 mol .\nTính thời gian: .\nĐổi sang giờ: giờ.\nCách 2 (Bấm máy tính):  giờ.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 255,
+        "id": "C5-P1-NB-255",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Bình điện phân là công cụ để chuyển...(1)... thành hóa năng (năng lượng phản ứng hóa học). Thông tin phù hợp điền vào (1) là"
+        ],
+        "opt_lines": [
+          "A. điện năng. \tB. quang năng.\tC. động năng. \tD. thế năng."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 256,
+        "id": "C5-P1-NB-256",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Quá trình điện phân xảy ra khi"
+        ],
+        "opt_lines": [
+          "A. dòng điện xoay chiều đi qua chất điện li.",
+          "B. dòng điện một chiều đi qua chất rắn khan hoặc dung dịch chất chất điện li.",
+          "C. dòng điện một chiều đi qua chất điện li nóng chảy hoặc dung dịch chất điện li.",
+          "D. dòng điện xoay chiều đi qua dung dịch acide, base, muối hoặc chất rắn khan."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 257,
+        "id": "C5-P1-NB-257",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phản ứng oxi hóa – khử xảy ra trong quá trình điện phân là"
+        ],
+        "opt_lines": [
+          "A. phản ứng không tự diễn biến mà phải nhờ tác động của nhiệt năng.",
+          "B. phản ứng tự diễn biến.",
+          "C. phản ứng không tự diễn biến mà phải nhờ tác động của quang năng.",
+          "D. phản ứng không tự diễn biến mà phải nhờ tác động của điện năng."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 258,
+        "id": "C5-P1-NB-258",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Bình điện phân được cấu tạo bởi hai điện cực nối với nguồn điện một chiều và cùng nhúng vào dung dịch chất điện li. Trong đó: điện cực nối với cực dương của dòng điện một chiều là...(1)... và dòng điện sẽ oxi hóa chất điện phân tại bề mặt điện cực; điện cực nối với cực âm của dòng điện một chiều là...(2)... và dòng điện sẽ khử chất điện phân tại bề mặt điện cực. Thông tin phù hợp điền vào (1) và (2) là"
+        ],
+        "opt_lines": [
+          "A. (1): anode và (2): cathode. \tB. (1): cathode và (2): anode.",
+          "C. (1): anode và (2): anode. \tD. (1): cathode và (2): cathode."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 259,
+        "id": "C5-P1-NB-259",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong quá trình điện phân, những ion âm (anion) di chuyển về"
+        ],
+        "opt_lines": [
+          "A. anode, ở đây chúng bị khử.\tB. anode, ở đây chúng bị oxi hóa.",
+          "C. cathode, ở đây chúng bị khử.\tD. cathode, ở đây chúng bị oxi hóa."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 260,
+        "id": "C5-P1-TH-260",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phát biểu nào sau đây về thứ tự điện phân trong dung dịch của các ion kim loại ở điện cực là đúng?"
+        ],
+        "opt_lines": [
+          "A. Ion kim loại ứng với thế điện cực chuẩn dương hơn sẽ được điện phân trước ở cực âm.",
+          "B. Ion kim loại ứng với thế điện cực chuẩn âm hơn sẽ được điện phân trước ở cực âm.",
+          "C. Ion kim loại ứng với thế điện cực chuẩn dương hơn sẽ được điện phân trước ở cực dương.",
+          "D. Ion kim loại ứng với thế điện cực chuẩn âm hơn sẽ được điện phân trước ở cực dương."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 261,
+        "id": "C5-P1-NB-261",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Nhận xét nào sau đây đúng về quá trình điện phân ở hai điện cực?"
+        ],
+        "opt_lines": [
+          "A. Cation nhường electron ở cathode.\tB. Anion nhận electron ở anode.",
+          "C. Sự oxi hóa xảy ra ở anode.\tD. Sự oxi hóa xảy ra ở cathode."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 262,
+        "id": "C5-P1-NB-262",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ion kim loại nào sau đây bị điện phân trong dung dịch (với điện cực graphite)?"
+        ],
+        "opt_lines": [
+          "A. Na+.\tB. Cu2+.\tC. Ca2+.\tD. K+."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 263,
+        "id": "C5-P1-NB-263",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ion halide hầu như không bị điện phân trong dung dịch là"
+        ],
+        "opt_lines": [
+          "A. Br–.\tB. F–.\tC. Cl–.\tD. Ι–."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 264,
+        "id": "C5-P1-NB-264",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Khi điện phân dung dịch nào sau đây, tại anode xảy ra quá trình oxi hóa nước?"
+        ],
+        "opt_lines": [
+          "A. Dung dịch ZnCl2.\tB. Dung dịch CuCl2.\tC. Dung dịch AgNO3.\tD. Dung dịch MgCl2."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 265,
+        "id": "C5-P1-NB-265",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phản ứng hóa học chính xảy ra trong quá trình điện phân nóng chảy Al2O3 trong 3NaF.AlF3 là"
+        ],
+        "opt_lines": [
+          "A. 2AlF3  2Al + 3F2\t\tB. 2NaF  Na + F2.",
+          "C. 2H2O  2H2 + O2\t\tD. 2Al2O3  4Al + 3O2."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q265_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q265_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q265_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q265_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 266,
+        "id": "C5-P1-NB-266",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Việc duy trì điện áp thấp (~ 5 V) trong quá trình điện phân nóng chảy Al2O3 trong 3NaF.AlF3 nhằm ngăn cản quá trình nào sau đây xảy ra ở cathode?"
+        ],
+        "opt_lines": [
+          "A. Al3+ + 3e  Al.\t\tB. Na+ + le  Na.",
+          "C. F2 + 2e  2F–.\t\tD. O2 + 4e  2O2–."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q266_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q266_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q266_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q266_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 267,
+        "id": "C5-P1-NB-267",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong quá trình điện phân KBr nóng chảy, phản ứng nào xảy ra ở điện cực dương (anode)?"
+        ],
+        "opt_lines": [
+          "A. Ion Br– bị khử.\tB. Ion Br– bị oxi hóa.\tC. Ion K+ bị oxi hóa.\tD. lon K+ bị khử."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 268,
+        "id": "C5-P1-NB-268",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Điện phân CaCl2 nóng chảy, ở cathode xảy ra quá trình nào?"
+        ],
+        "opt_lines": [
+          "A. Oxi hóa ion Ca2+.\tB. Khử ion Ca2+.\tC. Oxi hóa ion Cl–.\tD. Khử ion Cl–."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 269,
+        "id": "C5-P1-NB-269",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Khi điện phân NaCl nóng chảy (điện cực trơ), ở cathode xảy ra"
+        ],
+        "opt_lines": [
+          "A. sự khử ion Cl–.\tB. sự oxi hóa ion Cl–.\tC. sự oxi hóa ion Na+.\tD. sự khử ion Na+."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 270,
+        "id": "C5-P1-NB-270",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Điện phân nóng chảy NaCl (điện cực trơ), ở cathode thu được chất nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. HCl.\tB. Cl2.\tC. Na.\tD. NaOH."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 271,
+        "id": "C5-P1-NB-271",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Điện phân dung dịch nào sau đây sẽ có khí thoát ra ở cả 2 điện cực (ngay lúc mới đầu bắt đầu điện phân)?"
+        ],
+        "opt_lines": [
+          "A. Cu(NO3)2\tB. FeCl2.\tC. K2SO4.\tD. FeSO4."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 272,
+        "id": "C5-P1-NB-272",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phương trình hóa học nào sau đây biểu diễn quá trình điều chế kim loại bằng phương pháp điện phân nóng chảy?"
+        ],
+        "opt_lines": [
+          "A. CaCl2  Ca + Cl2.\t\tB. Fe2O3 + 3CO2  Fe + 3CO2.",
+          "C. Mg + CuSO4  MgSO4 + Cu.\tD. 2NaCl + 2H2O  2NaOH + H2 + Cl2."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q272_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q272_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q272_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q272_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 273,
+        "id": "C5-P1-NB-273",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong quá trình điện phân dung dịch AgNO3 (các điện cực trơ), ở cực âm xảy ra phản ứng nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. Ag  Ag + le.\t\tB. Ag+ + le  Ag.",
+          "C. 2H2O  4H+ + O2 + 4e.\tD. 2H2O + 2e  H2 + 2OH–."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q273_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q273_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q273_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q273_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 274,
+        "id": "C5-P1-NB-274",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Khi điện phân dung dịch CuSO4, ion nào sẽ điện phân đầu tiên ở cathode?"
+        ],
+        "opt_lines": [
+          "A. Cu2+.\tB. H+ (của nước).\tC. .\tD. OH– (của nước)."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q274_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 275,
+        "id": "C5-P1-NB-275",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong quá trình điện phân dung dịch CuSO4 (các điện cực trơ), ở anode xảy ra phản ứng"
+        ],
+        "opt_lines": [
+          "A. oxi hóa ion .\t\tB. khử ion .",
+          "C. khử phân tử H2O.\t\tD. oxi hóa phân tử H2O."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q275_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q275_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 276,
+        "id": "C5-P1-NB-276",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Khi điện phân dung dịch CuSO4 bằng dòng điện một chiều (với điện cực anode bằng Cu) thì ở anode xảy ra quá trình"
+        ],
+        "opt_lines": [
+          "A. oxi hóa H2O thành H⁺ và O2.\tB. khử Cu2+ thành Cu.",
+          "C. oxi hóa Cu thành Cu2+.\t\tD. khử H2O thành H2 và OH–."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 277,
+        "id": "C5-P1-NB-277",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Khi điện phân dung dịch gồm Cu(NO3)2 0,1 M và AgNO3 0,1 M, quá trình khử đầu tiên xảy ra ở cathode là"
+        ],
+        "opt_lines": [
+          "A. Ag+ + 1e Ag.\t\tB. Cu2+ + 2e  Cu.",
+          "C. 2H2O + 2e  H2 + 2OH–.\tD. 2H+ + 2e  H2."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q277_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q277_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q277_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q277_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 278,
+        "id": "C5-P1-NB-278",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Điện phân dung dịch CuSO4 với hai điện cực trơ. Sau một thời gian, màu xanh của dung dịch nhạt dần do"
+        ],
+        "opt_lines": [
+          "A. khí H2 sinh ra đã khử màu của dung dịch.",
+          "B. dung dịch bị pha loãng dần nên màu xanh nhạt dần.",
+          "C. ion Cu2+ bị khử dần thành Cu kim loại.",
+          "D. ion Cu2+ được tạo thêm."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 279,
+        "id": "C5-P1-NB-279",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Điện phân dung dịch CuSO4 với anode bằng đồng (anode tan) và điện phân dung dịch CuSO4 với anode bằng graphite (điện cực trơ) đều có đặc điểm chung là"
+        ],
+        "opt_lines": [
+          "A. ở cathode xảy ra sự oxi hóa: 2H2O + 2e  2OH– + H2.",
+          "B. ở anode xảy ra sự khử: 2H2O  O2 + 4H+ + 4e",
+          "C. ở anode xảy ra sự oxi hóa: Cu  Cu2+ + 2e.",
+          "D. ở cathode xảy ra sự khử: Cu2+ + 2e  Cu"
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q279_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q279_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q279_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q279_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 280,
+        "id": "C5-P1-NB-280",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Khi điện phân dung địch NaCl có màng ngăn, các chất được tạo ra ở anode (cực dương) và cathode (cực âm) lần lượt là"
+        ],
+        "opt_lines": [
+          "A. Cl2 và NaOH, H2.\tB. Na và Cl2.\tC. Cl2 và Na.\tD. NaOH và H2."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 281,
+        "id": "C5-P1-NB-281",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong quá trình điện phân dung dịch NaCl (điện cực trơ), ở cathode xảy ra sự"
+        ],
+        "opt_lines": [
+          "A. oxi hóa cation Na+.\t\tC. khử phân tử H2O.",
+          "B. oxi hóa phân tử H2O.\t\tD. khử cation Na+."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 282,
+        "id": "C5-P1-NB-282",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Sản phẩm thu được khi điện phân dung dịch KCl (điện cực trơ, có màng ngăn) gồm"
+        ],
+        "opt_lines": [
+          "A. K và Cl2.\tB. KOH, H2 và Cl2.\tC. K, H2 và Cl2.\tD. KOH, O2 và HCl."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 283,
+        "id": "C5-P1-NB-283",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong công nghiệp, quá trình điện phân dung dịch NaCl bão hoà (điện cực trơ, có màng ngăn xốp) tạo ra khí nào sau đây ở cathode?"
+        ],
+        "opt_lines": [
+          "A. Hydrogen.\t\tB. Chlorine.",
+          "C. Oxygen.\t\tD. Hydrogen chloride."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 284,
+        "id": "C5-P1-NB-284",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Quá trình điện phân dung dịch NaCl (điện cực trơ, có màng ngăn) và điện phân NaCl nóng chảy (điện cực trơ) có điểm giống nhau là"
+        ],
+        "opt_lines": [
+          "A. tại cathode xảy ra sự khử ion Na+.\tB. tại cathode xảy ra sự khử phân tử H2O",
+          "C. tại anode xảy ra sự oxi hóa ion Cl–.\tD. tại anode xảy ra sự oxi hóa phân tử H2O."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 285,
+        "id": "C5-P1-NB-285",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Xét quá trình điện phân dung dịch NaCl 20% bằng dòng điện một chiều (với điện cực trơ, có màng ngăn xốp). Quá trình khử xảy ra ở cathode là"
+        ],
+        "opt_lines": [
+          "A. 2H2O + 2e  H2 + 2OH–.\tB. Cl2 + 2e  2Сl–.",
+          "C. 2Cl–  Cl2 + 2e.\t\tD. H2O  2H+ + ½O2 + 2e."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q285_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q285_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q285_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q285_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 286,
+        "id": "C5-P1-NB-286",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các cặp oxi hóa – khử và thế điện cực chuẩn tương ứng:",
+          "Khi điện phân dung dịch chứa đồng thời bốn loại ion halide ở trên với nồng độ mol bằng nhau, ion halide bị điện phân đầu tiên ở anode là"
+        ],
+        "opt_lines": [
+          "A. Cl–.\tB. Br–.\tC. F–.\tD. I–."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": [
+          [
+            [
+              "Cặp oxi hóa – khử",
+              "F2/2F–",
+              "Cl2/2Cl–",
+              "Br2/2Br–",
+              "I2/2I–"
+            ],
+            [
+              "Thế điện cực chuẩn (V)",
+              "+2,87",
+              "+1,358",
+              "+1,087",
+              "+0,621"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 287,
+        "id": "C5-P1-NB-287",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các cặp oxi hóa – khử và thế điện cực chuẩn tương ứng:",
+          "Ion kim loại nào sau đây bị khử tại cathode khi điện phân (với điện graphite) dung dịch muối sulfate tương ứng?"
+        ],
+        "opt_lines": [
+          "A. Mg2+.\tB. Na+.\tC. Cu2+.\tD. Al3+."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": [
+          [
+            [
+              "Cặp oxi hóa – khử",
+              "Na+/Na",
+              "Mg2+/Mg",
+              "Al3+/Al",
+              "Cu2+/Cu"
+            ],
+            [
+              "Thế điện cực chuẩn (V)",
+              "–2,713",
+              "–2,356",
+              "–1,676",
+              "+0,34"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 288,
+        "id": "C5-P1-NB-288",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Điện phân dung dịch hỗn hợp gồm HCl và CuSO4 có cùng nồng độ. Các chất được tạo ra đầu tiên ở anode (cực dương) và ở cathode (cực âm) lần lượt là"
+        ],
+        "opt_lines": [
+          "A. Cl2 và H2.\tB. Cl2 và Cu.\tC. O2 và Cu.\tD. O2 và H2."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 289,
+        "id": "C5-P1-NB-289",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Dung dịch X chứa hỗn hợp các muối: NaCl, CuCl2, FeCl2 và ZnCl2. Kim loại tách ra đầu tiên ở cathode khi điện phân dung dịch là"
+        ],
+        "opt_lines": [
+          "A. Fe.\tB. Cu.\tC. Zn.\tD. Na."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 290,
+        "id": "C5-P1-NB-290",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Quá trình điện phân dung dịch CuSO4 (điện cực trơ) tạo ra khí nào sau đây ở anode?"
+        ],
+        "opt_lines": [
+          "A. Hydrogen.\tB. Sulfur dioxide.\tC. Oxygen.\tD. Hydrogen sulfide."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 291,
+        "id": "C5-P1-NB-291",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Điện phân dung dịch chất nào sau đây (dùng điện cực trơ), thu được dung dịch có khả năng làm quỳ tím chuyển sang màu đỏ?"
+        ],
+        "opt_lines": [
+          "A. NaBr.\tB. NaCl.\tC. CuSO4.\tD. CuCl2."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 292,
+        "id": "C5-P1-NB-292",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Điện phân dung dịch chất nào sau đây (với điện cực trơ, không có màng ngăn điện cực), thu được dung dịch có khả năng tẩy màu?"
+        ],
+        "opt_lines": [
+          "A. CuSO4.\tB. NaCl.\tC. K2SO4.\tD. AgNO3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 293,
+        "id": "C5-P1-NB-293",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong quá trình mạ bạc cho một chiếc vòng bằng thép thì ở anode xảy ra quá trình"
+        ],
+        "opt_lines": [
+          "A. Ag  Ag+ + le.\t\tB. Fe  Fe2+ + 2e.",
+          "C. 2H2O  4H+ + O2 + 4e.\tD. C  C4+ + 4e."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q293_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q293_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q293_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q293_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 294,
+        "id": "C5-P1-NB-294",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phương pháp mạ kẽm (Zn) được sử dụng để bảo vệ các tấm thép. Khi đó, các tấm thép cần mạ kẽm đóng vai trò là...(1)...; dung dịch mạ chứa phức chất [Zn(OH)4]2− và các tấm kẽm nguyên chất đóng vai trò là...(2)... Thông tin phù hợp điền vào (1) và (2) là"
+        ],
+        "opt_lines": [
+          "A. (1) và (2): cathode.\t\tB. (1): anode; (2): cathode.",
+          "C. (1) và (2): anode.\t\tD. (1): cathode; (2): anode."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 295,
+        "id": "C5-P1-NB-295",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong công nghiệp, việc tinh chế đồng từ đồng thô được thực hiện bằng phương pháp điện phân dung dịch với anode làm bằng"
+        ],
+        "opt_lines": [
+          "A. graphite.\tB. platinum.\tC. thép.\tD. đồng thô."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 296,
+        "id": "C5-P1-NB-296",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Để mạ đồng (Cu) cho một vật, người ta điện phân dung dịch chứa CuSO4 và H2SO4 với một điện cực là vật cần mạ. Khi đó ngoài kim loại đồng sinh ra và được phủ ở bề mặt vật cần mạ còn thu được các khí H2 và O2. Trong các sản phẩm Cu, H2 và O2, sản phẩm nào thu được tại anode?"
+        ],
+        "opt_lines": [
+          "A. Cu và H2. \tB. Chỉ có Cu. \tC. Chỉ có O2. \tD. H2 và O2."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 297,
+        "id": "C5-P1-NB-297",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Để tinh chế đồng (Cu), người ta gắn khối đồng cần tinh chế với cực dương của dòng điện một chiều và thanh đồng nguyên chất với cực âm của dòng điện một chiều; dung dịch điện phân là dung dịch CuSO4. Trong quá trình điện phân, lượng Cu tại cực dương giảm dần và lượng Cu ở cực âm tăng dần. Quá trình chủ yếu xảy ra tại anode là"
+        ],
+        "opt_lines": [
+          "A. Cu(s) Cu2+(aq) + 2e. \tB. Cu2+(aq) + 2e  Cu(s).",
+          "C. 2H2O(l)  O2(g) + 4H+(aq) + 4e. \tD. 2H+(aq) + 2e  H2(g)."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q297_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q297_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q297_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q297_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 298,
+        "id": "C5-P1-NB-298",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong quá trình điện phân để mạ đồng lên một chiếc chìa khóa được mô tả ở hình bên. Nhận định nào sau đây là không đúng?"
+        ],
+        "opt_lines": [
+          "A. Trong quá trình trình điện phân, thanh kim loại đóng vai trò là anode.",
+          "B. Trong quá trình điện phân, chiếc chìa khóa đóng vai trò là cathode.",
+          "C. Dung dịch điện phân trong cốc trên là dung dịch chứa ion Cu2+.",
+          "D. Độ dày của lớp mạ tỉ lệ nghịch với cường độ dòng điện chạy qua dung dịch điện phân và thời gian mạ."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q298_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 299,
+        "id": "C5-P2-TH-299",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tiến hành điện phân NaCl nóng chảy với anode bằng than chì và cathode bằng Fe được mô tả qua hình dưới đây:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Tại anode xảy ra quá trình oxi hóa ion Cl– thành khí Cl2.",
+          "b": "Tại cathode xảy ra quá trình khử ion Na+ thành kim loại Na.",
+          "c": "Sodium có khối lượng riêng nhỏ hơn khối hượng riêng của sodium chloride.",
+          "d": "Phản ứng điện phân sodium chloride để điều chế kim loại Na xảy ra ở nhiệt độ thường."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:Đ - c:Đ - d:S",
+        "solution": "Cathode (cực âm): Na+ + 1e  Na (quá trình khử)\nAnode (cực dương): 2Cl–  Cl2 + 2e (quá trình oxi hóa)\na) Đúng. Tại cực dương (anode), anion  nhường electron tham gia quá trình oxi hóa tạo ra khí chlorine ().\nb) Đúng. Tại cực âm (cathode), cation  nhận electron tham gia quá trình khử tạo thành kim loại sodium (Na).\nc) Đúng. Sodium là kim loại kiềm rất nhẹ, khối lượng riêng nhỏ hơn muối  lỏng nên nó sẽ nổi lên trên bề mặt, giúp dễ dàng thu hồi sang bình chứa.\nd) Sai. Tinh thể  cần được đun nóng đến khoảng 801 °C để chuyển sang trạng thái nóng chảy thì quá trình điện phân mới có thể diễn ra.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q299_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 300,
+        "id": "C5-P2-TH-300",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Điện phân dung dịch CuSO4 với các điện cực đều làm bằng Cu được mô tả ở hình dưới đây:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Tại anode xảy ra quá trình oxi hóa Cu thành ion Cu2+ khuếch tán vào dung dịch.",
+          "b": "Tại cathode xảy ra quá trình khử ion Cu2+ thành Cu và bám vào điện cực.",
+          "c": "Phản ứng chung trong bình điện phân: 2Cu2+(aq) + 2H2O(l) 2Cu(s) + O2(g) + 4H+(aq).",
+          "d": "Nồng độ ion Cu2+ trong dung dịch không đổi trong quá trình điện phân."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:Đ - c:S - d:Đ",
+        "solution": "Cathode (cực âm): Cu2+ + 2e  Cu (quá trình khử)\nAnode (cực dương): Cu  Cu2+ + 2e (quá trình oxi hóa)\na) Đúng. Điện cực Cu đóng vai trò là anode hoạt động, nó nhường electron và tan dần tạo thành ion  (hiện tượng cực dương tan).\nb) Đúng. Tại cực âm, các cation  di chuyển tới nhận electron tạo thành lớp kim loại Cu bám lên bề mặt điện cực.\nc) Sai. Do anode bị hòa tan, phân tử  hoàn toàn không bị oxi hóa nên không hề sinh ra khí oxygen ().\nd) Đúng. Số mol ion  tan ra ở anode bù trừ chính xác lượng bị khử ở cathode, giúp nồng độ dung dịch  được bảo toàn.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q300_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q300_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 301,
+        "id": "C5-P2-TH-301",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "(Đề TN 2025) Một nhà máy sản xuất sodium hydroxide (NaOH) và chlorine (Cl₂) bằng phương pháp điện phân dung dịch sodium chloride (NaCl) có màng ngăn với điện cực theo phương trình hóa học sau:",
+          "Sodium hydroxide rắn thu được bằng cách cô đặc rồi hạ nhiệt độ dung dịch chứa NaOH sau điện phân."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Trong quá trình điện phân, dung dịch ở khu vực cathode có pH < 7.",
+          "b": "Màng ngăn giúp ngăn phản ứng giữa sodium hydroxide và chlorine trong quá trình điện phân.",
+          "c": "Tại anode, khí chlorine thu được do sự oxi hóa ion chloride.",
+          "d": "Sodium hydroxide rắn thu được từ dung dịch chứa NaOH bằng phương pháp chiết."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:S - b:Đ - c:Đ - d:S",
+        "solution": "a) Sai. Tại cathode xảy ra phản ứng:  → môi trường kiềm (pH > 7).\nb) Đúng. Nếu Cl₂ khuếch tán sang phía cathode (có NaOH), có thể xảy ra phản ứng phụ:\nc) Đúng. Phản ứng tại anode: . Đây là quá trình oxi hóa ion chloride (Cl⁻).\nd) Sai. NaOH rắn được thu bằng cách: Cô đặc dung dịch NaOH, sau đó làm nguội để NaOH kết tinh → tách ra, đây là phương pháp cô đặc và kết tinh, không phải chiết.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q301_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 302,
+        "id": "C5-P2-VD-302",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Điện phân dung dịch NaCl để điều chế Cl2 và NaOH là một trong những quá trình điện phân quan trọng trong công nghiệp. Trong thực tế, người ta điện phân dung dịch NaCl bão hòa có nồng độ 300 g.L–1 với điện cực trơ, có màng ngăn điện cực. Sau một thời gian điện phân, nồng độ dung dịch NaCl tại anode giảm xuống đến mức 200 g.L–1 gọi là “nước muối nghèo” và được đưa ra khỏi bể điện phân, đồng thời dung dịch NaCl bão hoà mới sẽ được bổ sung vào để tiếp tục quá trình điện phân.",
+          "Một trong những nguyên nhân được giải thích cho việc đưa “nước muối nghèo” ra khỏi bể điện phân là nếu tiếp tục điện phân với “nước muối nghèo” thì sẽ xảy ra sự oxi hóa H2O, làm giảm hiệu suất điện phân."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Khi điện phân dung dịch NaCl, ở anode có sự khử anion chloride thành khí chlorine.",
+          "b": "Màng ngăn xốp có vai trò ngăn cản anion OH– di chuyển sang anode phản ứng với Cl2.",
+          "c": "Với mỗi lít nước muối bão hoà ban đầu, khi điện phân đến nồng độ “nước muối nghèo” thì sẽ thu được 54,7 gam NaOH, biết hiệu suất chuyển hóa NaCl thành NaOH là 90%.",
+          "d": "Nếu tiếp tục điện phân với nước muối nghèo thì ở anode sẽ có khí oxygen thoát ra."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "VD",
+          "d": "TH"
+        },
+        "answer": "a:S - b:Đ - c:S - d:Đ",
+        "solution": "a) Sai. Tại cực dương (anode), anion chloride luôn bị oxi hóa để nhường electron, không phải quá trình khử.\nb) Đúng. Màng ngăn xốp có tác dụng kìm hãm sự dịch chuyển của ion  ngược về buồng anode, tránh tạo thành muối chlorate ().\nc) Sai. Giả sử 1 lít nước muối chứa 300 g NaCl sẽ giảm còn 200 g NaCl:\n→\n→ Hiệu suất 90%:\n→ Khối lượng NaOH: .\nd) Đúng. Khi nồng độ  quá thấp, lượng ion chloride không đủ để bao phủ bề mặt điện cực, lúc này phân tử  sẽ tham gia quá trình oxi hóa tạo ra khí .",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 303,
+        "id": "C5-P2-TH-303",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho sơ đồ (1) biểu diễn quá trình điện phân dung dịch CuSO4(aq) với điện cực trơ, sơ đồ (2) minh họa quá trình tinh luyện đồng (Cu) bằng phương pháp điện phân."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Khi điện phân xảy ra ở sơ đồ (2), nồng độ ion Cu2+ trong dung dịch luôn giảm dần theo thời gian.",
+          "b": "Khi điện phân xảy ra ở sơ đồ (1), thì ban đầu ở cực âm xảy ra quá trình khử ion Cu2+ và ở cực dương xảy ra quá trình oxi hóa H2O.",
+          "c": "Trong sơ đồ (1), điện cực âm được gọi là cathode và điện cực dương gọi là anode.",
+          "d": "Để tinh luyện Cu như sơ đồ (2) thì khối Cu không tinh khiết phải được nối vào anode, còn thanh Cu tinh khiết được nối vào cathode, khi đó khối lượng Cu tan ra từ anode bằng khối lượng Cu bám vào cathode."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "NB",
+          "d": "VD"
+        },
+        "answer": "a:S - b:Đ - c:Đ - d:Đ",
+        "solution": "Phân tích sơ đồ (1):\nCực âm (cathode): graphite → xảy ra quá trình khử:\nCực dương (anode): graphite → nước bị oxi hóa:\n→ [Cu²⁺] trong dung dịch giảm dần theo thời gian.\nPhân tích sơ đồ (2):\nAnode: đồng không tinh khiết → oxi hóa:\nCathode: đồng tinh khiết → khử:\n→ Ion Cu²⁺ sinh ra từ anode được khử lại ở cathode → [Cu²⁺] gần như không đổi\na) Sai. Trong sơ đồ (2), lượng  sinh ra từ sự hòa tan của anode bù đắp vừa khít cho lượng bị khử mất đi ở cathode, nên nồng độ dung dịch được duy trì ổn định.\nb) Đúng. Trong sơ đồ (1) do dùng điện cực trơ, anion  không phản ứng, dẫn đến phân tử  tại anode bị oxi hóa thành khí oxygen. Cực âm vẫn khử ion  bình thường.\nc) Đúng. Theo quy ước chuẩn quốc tế, dù là bình điện phân hay pin điện hóa, điện cực âm luôn là cathode (nơi xảy ra sự khử) và cực dương là anode (nơi xảy ra sự oxi hóa).\nd) Đúng. Đây là nguyên tắc vật lí cơ bản của kĩ thuật tinh luyện kim loại nhằm dời chuyển hạt nhân đồng sạch sang một lõi tinh khiết mới.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q303_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 304,
+        "id": "C5-P2-VD-304",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một nhóm học sinh nghiên cứu về tinh chế kim loại đồng (copper) bằng phương pháp điện phân từ một thanh đồng không tinh khiết (chứa tạp chất không tham gia vào quá trình điện phân). Nhóm học sinh đã thực hiện thí nghiệm theo các bước sau:",
+          "– Bước 1: Cân để xác định khối lượng ban đầu của thanh đồng nguyên chất (3,21 gam) và thanh đồng không tinh khiết (3,30 gam).",
+          "– Bước 2: Nối thanh đồng nguyên chất với một điện cực và thanh đồng không tinh khiết với điện cực còn lại của nguồn điện một chiều, rồi nhúng vào bình điện phân chứa dung dịch copper(II) sulfate đã acid hóa bằng dung dịch sulfuric acid.",
+          "– Bước 3: Điện phân ở hiệu điện thế phù hợp. Sau thời gian điện phân t giây, các điện cực được lấy ra, làm khô cẩn thận, rồi cân để xác định lại khối lượng của thanh đồng nguyên chất và thanh đồng không tinh khiết, thấy khối lượng thanh đồng nguyên chất là 3,51 gam và khối lượng thanh đồng không tinh khiết là 2,98 gam."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Ở cực dương xảy ra quá trình khử Cu2+ thành Cu.",
+          "b": "Màu xanh của dung dịch copper(II) sulfate nhạt dần.",
+          "c": "Trong thí nghiệm trên, thanh đồng nguyên chất được nối với điện cực âm, thanh không đồng tinh khiết được nối với điện cực dương của nguồn điện.",
+          "d": "Sau thời gian điện phân t giây, khối lượng đồng trong thanh đồng không tinh khiết tan ra là 0,32 gam."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "NB",
+          "d": "VD"
+        },
+        "answer": "a:S - b:S - c:Đ - d:S",
+        "solution": "a) Sai. Tại cực dương (anode), kim loại Cu thực hiện quá trình oxi hóa (nhường electron) để tan vào dung dịch tạo ion .\nb) Sai. Bản chất đây là quá trình anode tan, nồng độ ion  (nguyên nhân tạo màu xanh) không bị hao hụt nên màu dung dịch giữ nguyên.\nc) Đúng. Đồng không tinh khiết bắt buộc phải nằm ở cực dương để bị điện phân hòa tan nhằm tách bỏ các tạp chất rắn.\nd) Sai. Dựa vào lượng Cu bám thêm ở cathode (3,51 - 3,21 = 0,30 gam), ta suy ra lượng Cu thực tế tan ra từ anode cũng là 0,30 gam. Tổng khối lượng anode giảm 0,32 gam là do cộng thêm 0,02 gam tạp chất rơi rụng xuống đáy.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 305,
+        "id": "C5-P2-VD-305",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Để tinh chế đồng từ một mẫu đồng không tinh khiết (chứa đồng và phần tạp chất còn lại không tham gia vào quá trình điện phân), một nhóm học sinh đã thực hiện thí nghiệm sau:",
+          "- Nối mẫu đồng không tinh khiết với một điện cực và miếng đồng tinh khiết với điện cực còn lại của nguồn điện một chiều, rồi nhúng vào bình điện phân chứa dung dịch copper(II) sulfate.",
+          "- Tiến hành điện phân với cường độ dòng điện 24A. Sau t giờ, các điện cực được lấy ra, làm khô và đem cân.",
+          "- Khối lượng các điện cực trước và sau điện phân được ghi lại trong bảng dưới đây:",
+          "Giả sử hiệu suất quá trình điện phân là 100%. Biết q = ne.F = I.t, trong đó: q là điện lượng (C), ne là số mol electron đi qua dây dẫn, I là cường độ dòng điện (A), t là thời gian (giây), F là hằng số Faraday (96500\tC/mol)."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Trong thí nghiệm, mẫu đồng không tinh khiết được nối với cực âm, miếng đồng tinh khiết được nối với cực dương của nguồn điện.",
+          "b": "Ở cực âm xảy ra quá trình khử Cu2+.",
+          "c": "Theo số liệu thu được, giá trị của t là 33,0. (kết quả được làm tròn đến hàng phần mười)",
+          "d": "Mẫu đồng thô có độ tinh khiết lớn hơn 90%."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "TH",
+          "c": "VD",
+          "d": "NB"
+        },
+        "answer": "a:S - b:Đ - c:S - d:S",
+        "solution": "a) Sai. Mẫu đồng thô (chứa tạp chất) phải được gắn vào cực dương (anode) để dỡ bỏ cấu trúc, miếng tinh khiết nối vào cực âm.\nb) Đúng. Tại cathode (cực âm), ion  khuếch tán tới để nhận electron (bị khử) kết tinh thành kim loại Cu.\nc) Sai. Khối lượng Cu bám vào cathode là 980 - 155 = 825 gam. Áp dụng định luật Faraday: , thu được thời gian t xấp xỉ 28,8 giờ.\nd) Sai. Khối lượng đồng thô hao hụt là 1030 - 85,6 = 944,4 gam. Lượng Cu nguyên chất chứa trong đó là 825 gam. Độ tinh khiết đạt: 825 / 944,4 ≈ 87,36% (nhỏ hơn 90%).",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q305_img1.png"
+        ],
+        "tables": [
+          [
+            [
+              "Thời điểm",
+              "Khối lượng mẫu đồng",
+              "Khối lượng miếng đồng tinh khiết"
+            ],
+            [
+              "Trước điện phân",
+              "1030",
+              "155"
+            ],
+            [
+              "Sau t giờ",
+              "85,6",
+              "980"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 306,
+        "id": "C5-P2-TH-306",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một nhóm học sinh tìm hiểu quá trình thu hồi kim loại đồng (copper) bằng phương pháp điện phân từ một đồng xu làm bằng hợp kim Cu - Zn chứa khoảng  đồng về khối lượng. Giả thuyết của nhóm học sinh là \"khi điện phân, chỉ có tạp chất trong đồng xu tan hết vào trong dung dịch, còn lại sẽ là đồng tinh khiết\". Để kiểm tra giả thuyết này, nhóm học sinh đã thực hiện thí nghiệm như sau:",
+          "– Cân để xác định khối lượng ban đầu của đồng xu (2,23 gam) và thanh đồng tinh khiết (2,55 gam).",
+          "– Nối đồng xu với một điện cực và thanh đồng tinh khiết với điện cực còn lại của nguồn điện một chiều, rồi nhúng vào bình điện phân chứa dung dịch copper(II) sulfate.",
+          "– Điện phân ở hiệu điện thế phù hợp.",
+          "– Sau một thời gian điện phân, làm khô, rồi cân để xác định lại khối lượng của đồng xu và thanh đồng tinh khiết, thấy khối lượng đồng xu là 1,94 gam và khối lượng thanh đồng là m1 gam."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Trong thí nghiệm trên, đồng xu được nối với cực dương, thanh đồng tinh khiết được nối với cực âm của nguồn điện.",
+          "b": "Giá trị của m1 lớn hơn 2,55.",
+          "c": "Ở cực dương xảy ra quá trình khử.",
+          "d": "Do khối lượng của đồng xu giảm, nên giả thuyết ban đầu của nhóm học sinh là đúng."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "VD",
+          "c": "TH",
+          "d": "VD"
+        },
+        "answer": "a:Đ - b:Đ - c:S - d:S",
+        "solution": "a) Đúng. Thanh đồng tinh khiết nối với cực âm (cathode) và đồng xu nối với cực dương (anode) để thí nghiệm điện phân với cực dương tan.\nb) Đúng. Do cực dương (anode) tan dần nên đồng xu có khối lượng giảm từ 2,33 gam xuống còn 1,94 gam. Đồng thời, bên cực âm (cathode) lượng Cu bám lên thêm thanh đồng tinh khiết nên khối lượng thanh đồng tinh khiết lúc sau tăng từ 2,55 gam lên đến m1 gam m1 > 2,55.\nc) Sai. Ở cực dương (anode), quá trình oxi hóa xảy ra, không phải quá trình khử.\nd) Sai. Thực tế, ở cực dương (anode) có thứ tự ưu tiên quá trình oxy hóa (1) rồi đến (2) như sau:\nZn Zn2+ + 2e (1).\nCu Cu2+ + 2e (2).\nKhi hết Zn nghĩa là tan hết (0,05 x 2,23) = 0,1115 gam.\nĐề bài cho tổng lượng kim loại tan là: 2,23 – 1,94 = 0,29 gam > 0,1115 gam.\nVậy cả Zn và Cu đều bị tan từ đồng xu (tại cực dương) mâu thuẫn phát biểu của học sinh.\nỞ cực âm (cathode), có thứ tự ưu tiên quá trình oxy hóa (3) rồi đến (4) như sau:\nCu2+ + 2e  Cu (3).\nZn2+ + 2e  Zn (4).\nVì có sẵn lượng chất Cu2+ trong dung dịch CuSO4 nên cho dù Zn bị tan ở cực dương nhưng ở cực âm thì vẫn chỉ có Cu bám lên thanh đồng tinh khiết  chỉ xảy ra quá trình khử (3).",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q306_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 307,
+        "id": "C5-P2-TH-307",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Mạ vàng bằng phương pháp điện phân (mạ điện) được dùng để mạ một lớp vàng mỏng bên ngoài vật cần mạ để trang trí bề mặt, tạo độ thẩm mỹ. Trong quá trình mạ vàng, vật cần mạ được gắn với cathode, thanh Au đóng vai trò là anode và cùng nhúng trong dung dịch muối cyanide của vàng ([Au(CN)2]−. Sơ đồ mạ được lắp đặt như hình bên.",
+          "Cho biết:",
+          "− Quá trình khử tại cathode: [Au(CN)2]− + 1e  Au + 2CN−.",
+          "− Điện lượng q = It = neF với F = 96500 (C/mol)."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Khi có dòng điện chạy qua, các ion [Au(CN)2]− sẽ di chuyển về cathode, bị khử thành Au và phủ lên bề mặt vật cần mạ.",
+          "b": "Nồng độ [Au(CN)2]− giảm dần theo thời gian điện phân.",
+          "c": "Trong quá trình điện phân, anode tan dần ra, khối lượng dung dịch tăng lên.",
+          "d": "Để mạ 3,25 gam vàng lên một chiếc đồng hồ khi điện phân dung dịch chứa ion [Au(CN)2]− với dòng điện có cường độ 2A không đổi cần thời gian là 7,5 phút."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "VD"
+        },
+        "answer": "a:Đ - b:S - c:S - d:S",
+        "solution": "Cathode (−): [Au(CN)2]− + 1e  Au + 2CN−\nAnode (+):  Au + 2CN–  [Au(CN)2]− + 1e\na) Đúng. Các ion phức mang vàng sẽ bị hút về phía cực âm, tại đây vàng mang số oxi hóa +1 sẽ nhận 1 electron (quá trình khử) để bám chắc lên đồng hồ.\nb) Sai. Điện cực Au làm anode bị oxi hóa hòa tan liên tục vào dung dịch, bù trừ chính xác cho lượng vàng kết tủa ở cathode, duy trì nồng độ phức chất không đổi.\nc) Sai. Kối lượng dung dịch không đổi: manode giảm = mcathode tăng.\nd) Sai. Với Au trao đổi 1 electron, thời gian điện phân tính theo giây là  giây (tương đương khoảng 13,27 phút). Do đó phát biểu 7,5 phút là sai lệch.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q307_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q307_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q307_img3.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 308,
+        "id": "C5-P3-NB-308",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các quá trình sau:",
+          "(1) Cu2+(aq) + 2e  Cu(s)\t(2) 2Al(s) + 3H2O(l)  Al2O3(s) + 6H+(aq) + 6e",
+          "(3) 2H2O(l) + 2e  H2(g) + 2OH ̄ (aq)\t(4) 2H2O (l)  O2(g) + 4H+ (aq) + 4e",
+          "(5) 2Cl– (aq)  Cl2(g) + 2e\t(6) 2H+(aq) + 2e  H2(g)",
+          "Có bao nhiêu quá trình xảy ra tại cathode trong quá trình điện phân?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3. Gồm 1, 3, 6.\nCathode là cực âm, nơi các cation hoặc phân tử nước di chuyển tới để thực hiện quá trình khử (nhận electron). Các quá trình nhận electron trong danh sách trên là (1), (3), và (6). Các quá trình còn lại là quá trình oxi hóa (nhường electron) xảy ra tại anode.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q308_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q308_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q308_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q308_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q308_img5.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q308_img6.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 309,
+        "id": "C5-P3-NB-309",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các quá trình sau:",
+          "(1) Ag+(aq) + 1e  Ag(s)\t(2) 2Cl–(aq)  Cl2(g) + 2e",
+          "(3) 2H2O(l) + 2e  H2(g) + 2OH ̄ (aq)\t(4) 2H2O (l) O2(g) + 4H+ (aq) + 4e",
+          "(5) 4OH–  O2(g) + 2H2O(g) + 4e \t(6) 2H+(aq) + 2e  H2(g)",
+          "Có bao nhiêu quá trình xảy ra tại anode trong quá trình điện phân?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3. Gồm 2,4,5.\nAnode là cực dương, nơi các anion hoặc phân tử nước di chuyển tới để thực hiện quá trình oxi hóa (nhường electron). Các bán phản ứng thể hiện sự nhường electron (electron nằm ở bên phải mũi tên) là (2), (4), và (5).",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q309_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q309_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q309_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q309_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q309_img5.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q309_img6.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 310,
+        "id": "C5-P3-NB-310",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các phản ứng sau:",
+          "(1) CuCl2(aq)  Cu(s) + Cl2(g)",
+          "(2) 2NaCl(aq) + 2H2O(l)  2NaOH(aq) + H2(g) + Cl2(g)",
+          "(3) H2(g) + Cl2(g) 2HCl(g)",
+          "(4) 2CuSO4(aq) + 2H2O(l)  2Cu(s) + 2H2SO4(aq) + O2(g)",
+          "(5) 4Al(s) + 3O2(g)  2Al2O3(s)",
+          "Số phản ứng xảy ra trong bình điện phân là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3. Gồm 1,2,4\nĐây là nguyên lí của quá trình mạ điện/tinh luyện. Anode tan ra () làm giảm khối lượng điện cực dương, đồng thời ion  di chuyển sang cathode và bị khử thành kim loại bám vào thép (). Lượng ion tan ra bù đắp vừa đủ cho lượng ion mất đi, nên nồng độ và màu sắc dung dịch không đổi.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q310_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q310_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q310_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q310_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q310_img5.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 311,
+        "id": "C5-P3-NB-311",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Điện phân dung dịch chứa đồng thời các cation: , , , , . Số cation bị điện phân tại điện cực graphite là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3\nTại cực âm (cathode), các cation của kim loại hoạt động mạnh (, ) không bị khử. Thay vào đó, nước sẽ bị điện phân. Các cation của kim loại từ trung bình đến yếu (, , ) sẽ lần lượt bị khử thành kim loại bám vào điện cực.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q311_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q311_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q311_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q311_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q311_img5.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 312,
+        "id": "C5-P3-NB-312",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các ion sau: Fe2+, Na+, Cu2+, Ba2+, Br–,  và. Dãy gồm các ion hầu như không điện phân trong dung dịch?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án: 4. Gồm Na+, Ba2+,  và\nCác ion không tham gia điện phân trong dung dịch nước bao gồm: cation kim loại nhóm IA, IIA, nhôm (, ) và anion gốc acid có chứa oxygen (, ). Đối với các ion này, phân tử  sẽ đóng vai trò thay thế để bị oxi hóa/khử tại điện cực.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q312_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q312_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q312_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q312_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 313,
+        "id": "C5-P3-NB-313",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Điện phân dung dịch hỗn hợp gồm: NaCl, Mg(NO3)2, ZnCl2; CuSO4 và FeSO4 điện cực graphite. Sau khi điện phân hoàn toàn thu được bao nhiêu kim loại ở cathode?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3. Gồm Cu, Fe, Zn.\nCác muối chứa cation kim loại mạnh (, ) không sinh ra kim loại trong dung dịch. Các cation của kim loại trung bình - yếu sẽ bị khử thành kim loại rắn. Đó là 3 muối:  (sinh ra Zn),  (sinh ra Cu), và FeSO4 ( nhận 2e để tạo thành Fe).",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 314,
+        "id": "C5-P3-NB-314",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tiến hành các thí nghiệm điện phân với điện cực trơ sau:",
+          "(a) Điện phân dung dịch silver nitrate.",
+          "(b) Điện phân dung dịch potassium chloride với màng ngăn xốp.",
+          "(c) Điện phân nóng chảy calcium chloride.",
+          "(d) Điện phân dung dịch zinc sulfate.",
+          "(e) Điện phân dung dịch hydrochloric acid loãng.",
+          "Có bao nhiêu quá trình điện phân tạo được kim loại?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3. Gồm a, c, d.\n(a) Điện phân dung dịch silver nitrate (): Bạc (Ag) là kim loại yếu (đứng sau Al), do đó cation  bị khử tại cathode sinh ra kim loại Ag kết tinh.\n(b) Điện phân dung dịch potassium chloride (KCl) với màng ngăn xốp: Potassium (K) là kim loại hoạt động mạnh, cation  không bị khử trong dung dịch nước. Phân tử  sẽ bị khử thay thế sinh ra khí  và dung dịch kiềm, hoàn toàn không thu được kim loại.\n(c) Điện phân nóng chảy calcium chloride (): Trong điều kiện không có nước (nóng chảy), cation  buộc phải nhận electron tại cathode, sinh ra kim loại Ca.\n(d) Điện phân dung dịch zinc sulfate (): Kẽm (Zn) là kim loại hoạt động trung bình (đứng sau Al), nên cation  bị khử tại cathode sinh ra kim loại Zn.\n(e) Điện phân dung dịch hydrochloric acid (HCl) loãng: Ion  bị khử tại cathode sinh ra khí , không sinh ra kim loại.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 315,
+        "id": "C5-P3-NB-315",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tiến hành các thí nghiệm điện phân với điện cực trơ sau:",
+          "(1) Điện phân sodium chloride nóng chảy.",
+          "(2) Điện phân aluminium oxide nóng chảy.",
+          "(3) Điện phân dung dịch sodium chloride với màng ngăn xốp.",
+          "(4) Điện phân dung dịch copper(II) sulfate.",
+          "(5) Điện phân dung dịch nikel sulfate.",
+          "Hãy sắp xếp các thí nghiệm thu được kim loại theo số thứ tự tăng dần (ví dụ 12, 125, …)"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "1245",
+        "solution": "Đáp án: 1245.\nĐiện phân nóng chảy (1, 2) luôn thu hồi được kim loại (Na, Al). Điện phân dung dịch muối của kim loại yếu (4, 5) cũng sẽ tạo ra lớp kim loại bám ở cathode (Cu, Ni). Riêng thí nghiệm (3), quá trình chỉ tạo ra NaOH, khí  và khí , hoàn toàn không sinh ra kim loại.\n(a) NaCl  Na + 1/2Cl2\n(b) Al2O3  2Al + 3/2 O2\n(c) 2NaCl + 2H2O  2NaOH + H2 + Cl2\n(d) CuSO4 + H2O  Cu + H2SO4 + ½ O2\n(e) NiSO4 + H2O  Ni + H2SO4 + ½ O2",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 316,
+        "id": "C5-P3-NB-316",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong thí nghiệm điện phân dung dịch CuSO4, điện cực graphite (than chì). Cho các phát biểu sau:",
+          "(1) Tại cathode xảy ra sự khử Cu2+ trước, sau đó mới đến sự khử của nước.",
+          "(2) Tại anode chỉ xảy ra sự oxi hóa của nước tạo khí hydrogen.",
+          "(3) Sau điện phân, khối lượng cathode tăng lên.",
+          "(4) Theo thời gian điện phân, pH của dung dịch giảm dần.",
+          "(5) Khi vừa bắt đầu điện phân, cả hai điện cực đều có khí thoát ra.",
+          "Hãy sắp xếp các phát biểu đúng theo số thứ tự tăng dần (ví dụ 12, 125, …)"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "134",
+        "solution": "Đáp án: 134.\n(1) Đúng.  có thế điện cực chuẩn cao hơn  nên ưu tiên bị khử trước.\n(3) Đúng. Kim loại Cu kết tinh bám vào làm khối lượng cathode tăng lên.\n(4) Đúng. Tại anode,  bị oxi hóa giải phóng ion , khiến dung dịch ngày càng mang tính acid (pH giảm).\nPhát biểu (2) sai do sự oxi hóa nước ở anode tạo ra khí oxygen ().\nPhát biểu (5) sai vì ở giai đoạn đầu, cực âm không sủi bọt khí (chỉ có Cu tạo thành).",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 317,
+        "id": "C5-P3-NB-317",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các nhận định sau:",
+          "(1) Để mạ một lớp đồng lên chiếc chìa khóa sắt, người ta nối chìa khóa với cực âm của dòng điện một chiều.",
+          "(2) Trong quá trình mạ điện với anode tan, nồng độ cation kim loại trong dung dịch mạ sẽ giảm dần theo thời gian.",
+          "(3) Để tinh luyện đồng, người ta sử dụng đồng thô làm anode và đồng tinh khiết làm cathode trong dung dịch .",
+          "(4) Khi điện phân dung dịch NaCl bão hòa có màng ngăn xốp, tại cathode xảy ra quá trình khử phân tử .",
+          "Có bao nhiêu nhận định đúng?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án đúng: 3\nCác nhận định đúng là (1), (3), (4).\nNhận định (2) sai vì trong hiện tượng cực dương tan, lượng kim loại tan ra ở anode bù trừ vừa đủ cho lượng kim loại bám vào cathode, do đó nồng độ dung dịch mạ được duy trì ổn định.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q317_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q317_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 318,
+        "id": "C5-P3-NB-318",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một nhóm học sinh tiến hành điện phân dung dịch  1,0 M bằng dòng điện một chiều với hai điện cực trơ (graphite). Các cảm biến được đặt vào bình điện phân để liên tục ghi nhận sự thay đổi nồng độ của ion  và ion . kết quả thu được biểu diễn theo đồ thị sau:",
+          "Cho các phát biểu phân tích đồ thị sau:",
+          "(a) Đường cong (A) biểu diễn sự sụt giảm nồng độ của ion  do ion này bị oxi hóa tại cathode để tạo thành kim loại bám vào điện cực.",
+          "(b) Đường cong (B) biểu diễn sự gia tăng nồng độ của ion , chứng tỏ tại anode đã xảy ra quá trình oxi hóa phân tử .",
+          "(c) Nếu tiếp tục duy trì dòng điện sau thời điểm t1, khối lượng cathode sẽ tiếp tục tăng do sự bám dính của lớp kim loại đồng.",
+          "(d) Trong khoảng thời gian từ ban đầu đến t1, giá trị pH của dung dịch trong bình điện phân có xu hướng giảm dần.",
+          "Có bao nhiêu phát biểu đúng trong các nhận định trên?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án: 2\n📝 Hướng dẫn giải:\n(a) Sai. Tại cathode luôn xảy ra quá trình khử ion  (nhận electron), không phải quá trình oxi hóa.\n(b) Đúng. Tại anode trơ, ion  không bị điện phân. Phân tử nước sẽ bị oxi hóa theo phương trình:  +  + 4e, làm nồng độ  tăng lên, tương ứng với đường cong (B).\n(c) Sai. Tại thời điểm t1, ion  đã cạn kiệt (đường A chạm 0). Nếu tiếp tục điện phân, nước sẽ bị khử ở cathode sinh ra khí , do đó khối lượng kim loại bám trên cathode không thể tăng thêm.\n(d) Đúng. Nồng độ ion  tăng liên tục (đường B đi lên) đồng nghĩa với tính acid tăng, làm cho giá trị pH của dung dịch giảm dần. (Các phát biểu đúng là 2, 4).",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q318_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q318_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q318_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q318_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q318_img5.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q318_img6.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q318_img7.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 319,
+        "id": "C5-P3-NB-319",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một nhà máy sử dụng bể điện phân dung dịch sodium chloride (NaCl) bão hòa có màng ngăn xốp để sản xuất xút và khí chlorine. Đồ thị tự động ghi nhận thể tích khí chlorine () thoát ra ở anode tăng đều đặn theo thời gian. Tuy nhiên, tại thời điểm t0, do áp lực dòng chảy làm rách màng ngăn xốp, đồ thị lập tức ghi nhận lượng khí chlorine bay ra khỏi hệ thống bị đi ngang (không tăng thêm).",
+          "Cho các nhận định sau để giải thích sự cố:",
+          "(1) Từ thời điểm ban đầu đến trước t0, tại cathode xảy ra quá trình khử ion  để sinh ra kim loại sodium.",
+          "(2) Từ thời điểm ban đầu đến trước t0, dung dịch thu được ở khu vực bao quanh cathode có khả năng làm giấy quỳ tím chuyển sang màu xanh.",
+          "(3) Nguyên nhân lượng khí chlorine thoát ra ngoài bị sụt giảm sau thời điểm t0 là do khí này đã tác dụng với nước ở anode để tạo thành hydrochloric acid.",
+          "(4) Sự cố rách màng ngăn vô tình làm cho dung dịch thu được trong bể điện phân lúc này có chứa hỗn hợp của nước Javel.",
+          "Hãy sắp xếp các nhận định đúng theo số thứ tự tăng dần thành một dãy số (ví dụ 12, 134...)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "24",
+        "solution": "Đáp án: 24\n📝 Hướng dẫn giải:\n(1) Sai. Trong dung dịch nước, ion  mang tính oxi hóa rất yếu nên không bị điện phân. Thay vào đó, phân tử  sẽ bị khử tại cathode sinh ra khí  và ion .\n(2) Đúng. Quá trình khử nước tạo ra ion  tích tụ cùng với ion  chưa bị điện phân tạo thành dung dịch kiềm mạnh (NaOH), làm quỳ hóa xanh.\n(3) Sai. Sự sụt giảm không phải do tác dụng với nước, mà do khi rách màng ngăn,  dễ dàng khuếch tán sang buồng cathode và phản ứng ngay lập tức với kiềm NaOH.\n(4) Đúng. Phản ứng giữa  và NaOH sinh ra hỗn hợp NaCl, NaClO và  (chính là nước Javel). Đây cũng là nguyên tắc sản xuất nước Javel bằng phương pháp điện phân không có màng ngăn.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q319_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q319_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q319_img3.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 320,
+        "id": "C5-P1-NB-320",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Lắp ráp pin điện hóa Fe – Sn ở điều kiện chuẩn. Cho biết các giá trị thế điện cực chuẩn:  và . Sức điện động chuẩn của pin điện hóa trên là"
+        ],
+        "opt_lines": [
+          "A. –0,577 V.\tB. +0,303 V.\tC. + 0,577 V.\tD. –0,303 V."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q320_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q320_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 321,
+        "id": "C5-P1-NB-321",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phản ứng hóa học xảy ra trong pin điện hóa:",
+          "2Cr + 3Cu2+  2Cr3+ + 3Cu",
+          "Biết . Eo của pin điện hóa là"
+        ],
+        "opt_lines": [
+          "A. 0,40 V.\tB. 1,08 V.\tC. 1,25 V.\tD. 2,5 V."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q321_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q321_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 322,
+        "id": "C5-P1-NB-322",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phản ứng hóa học xảy ra trong pin điện hóa: 2Au3+ + 3Ni  2Au + 3Ni2+",
+          "Biết: , . Eo của pin điện hóa là"
+        ],
+        "opt_lines": [
+          "A. 3,75 V.\tB. 2,25 V.\tC. 1,76 V.\tD. 1,25 V."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q322_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q322_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q322_img3.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 323,
+        "id": "C5-P1-NB-323",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Thiết lập pin điện hóa ở điều kiện chuẩn gồm hai điện cực tạo bởi các cặp oxi hóa − khử Ni2+/Ni () và Cd2+/Cd (). Sức điện động chuẩn của pin điện hóa trên là"
+        ],
+        "opt_lines": [
+          "A. +0,146 V.\tB. 0,000 V.\tC. –0,146 V.\tD. +0,660 V."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q323_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q323_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 324,
+        "id": "C5-P1-NB-324",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các cặp oxi hóa – khử và thế điện cực chuẩn tương ứng:",
+          "Pin có sức điện động chuẩn lớn nhất là"
+        ],
+        "opt_lines": [
+          "A. Pin Zn – Cu.\tB. Pin Fe – Cu.\tC. Pin Cu – Ag.\tD. Pin Fe – Ag."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "Sức điện động chuẩn lớn nhất của pin X – Y ứng với thế điện cực chuẩn Xn+/X là nhỏ nhất và Ym+/Y là lớn nhất. Vậy, ta có 2 cặp thỏa mãn:",
+        "image_paths": [],
+        "tables": [
+          [
+            [
+              "Cặp oxi hóa – khử",
+              "Cu2+/Cu",
+              "Zn2+/Zn",
+              "Fe2+/Fe",
+              "Ag+/Ag"
+            ],
+            [
+              "Thế điện cực chuẩn (V)",
+              "+0,34",
+              "–0,762",
+              "–0,44",
+              "+0,799"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 325,
+        "id": "C5-P1-NB-325",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các thế điện cực chuẩn: , , và . Trong các pin sau đây, pin nào có suất điện động chuẩn lớn nhất?"
+        ],
+        "opt_lines": [
+          "A. Pin Zn – Cu.\tB. Pin Zn – Pb.\tC. Pin Al – Zn.\tD. Pin Pb – Cu."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "",
+        "solution": "Sức điện động chuẩn lớn nhất của pin X – Y ứng với thế điện cực chuẩn Xn+/X là nhỏ nhất và Ym+/Y là lớn nhất. Vậy, pin có sức điện động chuẩn lớn nhất là Zn – Cu.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q325_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q325_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q325_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q325_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 326,
+        "id": "C5-P3-NB-326",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một pin điện hóa được thiết lập từ hai điện cực tạo bởi hai cặp oxi hóa − khử là M2+/M và Ag+/Ag. Cho biết:",
+          "Nếu M là một trong số các kim loại: Fe, Ni, Sn, Cu thì sức điện động chuẩn lớn nhất của pin bằng bao nhiêu volt (V)? (Làm tròn kết quả đến phần trăm)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "",
+        "solution": "Sức điện động chuẩn lớn nhất của pin M – Ag ứng với thế điện cực chuẩn Mn+/M là nhỏ nhất. Vậy, M là Fe.",
+        "image_paths": [],
+        "tables": [
+          [
+            [
+              "Cặp oxi hóa − khử",
+              "Fe2+/Fe",
+              "Ni2+/Ni",
+              "Sn2+/Sn",
+              "Cu2+/Cu",
+              "Ag+/Ag"
+            ],
+            [
+              "Thế điện cực chuẩn (V)",
+              "–0,44",
+              "–0,257",
+              "–0,137",
+              "+0,340",
+              "+0,799"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 327,
+        "id": "C5-P1-NB-327",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Sức điện động chuẩn của pin điện hóa H2 − Cu (gồm hai điện cực ứng với hai cặp oxi hóa − khử là 2H+/H2 và Cu2+/Cu) đo được bằng vôn kế có điện trở vô cùng lớn là 0,340 V. Từ đó, xác định được thế điện cực chuẩn của cặp Cu2+/ Cu là"
+        ],
+        "opt_lines": [
+          "A. –0,340 V.\tB. 0,000 V.\tC. 0,680 V.\tD. +0,340 V."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 328,
+        "id": "C5-P1-NB-328",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho pin điện hóa Mn – Cd có  và . Thế điện cực chuẩn của cặp oxi hóa khử Mn2+/ Mn có giá trị là"
+        ],
+        "opt_lines": [
+          "A. 0,39 V.\tB. –1,19 V.\tC. +1,19 V.\tD. –0,39 V."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q328_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q328_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 329,
+        "id": "C5-P1-NB-329",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Pin điện",
+        "topic": "Pin điện",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho suất điện động chuẩn của các pin điện hóa: Zn – Cu là 1,1 V; Cu – Ag là 0,46 V. Biết thế điện cực chuẩn . Thế điện cực chuẩn  và  có giá trị lần lượt là"
+        ],
+        "opt_lines": [
+          "A. +1,56 V và +0,64 V.\tB. –1,46 V và –0,34 V.\tC. –0,76 V và +0,34 V.\tD. –1,56 V và +0,64 V."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q329_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q329_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q329_img3.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 330,
+        "id": "C5-P3-VD-330",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một quá trình điện phân tinh chế đồng sử dụng anode làm từ đồng thô có chứa 97% Cu và 3% các tạp chất khác về khối lượng. Để tạo ra 1000 gam đồng tinh khiết ở cathode với hiệu suất điện phân là 95%, cần m gam đồng thô ở anode. Giá trị của m bằng bao nhiêu? (Không làm tròn kết quả các phép tính trung gian, chỉ làm tròn kết quả cuối cùng đến hàng đơn vị)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "1085",
+        "solution": "Đáp án: 1085.\n📝 Hướng dẫn giải:\nCách 1 (Tư duy từng bước):\nLượng  tinh khiết cần thu được ở cathode là 1000 gam.\nDo hiệu suất điện phân đạt 95%, khối lượng  nguyên chất cần bị oxi hóa ở anode là:\n.\nVì đồng thô chỉ chứa 97% , khối lượng đồng thô cần dùng là:\n.\nCách 2 (Bấm máy tính): .",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 331,
+        "id": "C5-P3-NB-331",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong công nghiệp, quá trình điện phân nóng chảy NaCl để sản xuất Na được thực hiện ở một bình điện phân Downs với cường độ dòng điện 40 000 A (giả thiết không đổi). Cho q = It = ne×F với F = 96500 C/mol.Trong đó: q là điện lượng (C), I là cường độ dòng điện (A), t là thời gian (s).Trong 24 giờ, một bình điện phân trên sản xuất được m kg Na. Giá trị của m bằng bao nhiêu? (Không làm tròn kết quả các phép tính trung gian, chỉ làm tròn kết quả cuối cùng đến hàng đơn vị)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "824",
+        "solution": "Đáp án: 824.\nCách 1 (Tư duy từng bước):\nQuá trình khử: . Số electron trao đổi .\nThời gian điện phân: .\nÁp dụng định luật Faraday: .\nĐổi sang kilogam: .\nCách 2 (Bấm máy tính):",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 332,
+        "id": "C5-P3-VD-332",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong công nghiệp, aluminium được sản xuất bằng phương pháp điện phân aluminium oxide nóng chảy với hai điện cực bằng than chì, hiệu suất điện phân 100%. Quá trình điện phân được tiến hành với dòng điện có hiệu điện thế 5 V không đổi. Cho biết: 1 kWh = 3,6.106 J.",
+          "– Điện lượng: q = ne.F.",
+          "– Điện năng tiêu thụ: Atiêu thụ = q.U, trong đó: q là điện lượng (C), Atiêu thụ là điện năng tiêu thụ (J), U là hiệu điện thế (V), ne là số mol electron đi qua dây dẫn.",
+          "Tính điện năng tiêu thụ (theo kWh) để sản xuất được 27 kg aluminium. (Không làm tròn kết quả các phép tính trung gian, chỉ làm tròn kết quả cuối cùng đến hàng đơn vị)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "402",
+        "solution": "Đáp án: 402.\n📝 Hướng dẫn giải:\nCách 1 (Tư duy từng bước):\nSố mol : .\nQuá trình khử: .\nĐiện lượng: .\nĐiện năng tiêu thụ: .\nĐổi sang kWh: .\nCách 2 (Bấm máy tính): .",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 333,
+        "id": "C5-P3-NB-333",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một chiếc khuyên tai có tổng diện tích bề mặt là 30 cm2 được mạ với lớp phủ vàng dày 0,02 mm từ dung dịch Au3+. Biết khối lượng riêng của vàng là D = 19,3 g/cm3 và giá vàng là 70 triệu đồng mỗi troy ounce (31,1 gam). Chi phí để mua vàng mạ chiếc khuyên tai là x triệu đồng. Giá trị của x bằng bao nhiêu? (Không làm tròn kết quả các phép tính trung gian, chỉ làm tròn kết quả cuối cùng đến hàng phần mười)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2,6",
+        "solution": "Đáp án: 2,6.\n📝 Hướng dẫn giải:\nCách 1 (Tư duy từng bước):\nĐổi đơn vị độ dày: .\nThể tích lớp vàng cần mạ: .\nKhối lượng vàng: .\nChi phí:  triệu đồng.\nCách 2 (Bấm máy tính): triệu đồng.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 334,
+        "id": "C5-P3-VD-334",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tại một nhà máy, quá trình tinh chế đồng được thực hiện bằng phương pháp điện phân dung dịch với anode bằng đồng thô (có chứa 13% khối lượng tạp chất Zn, Fe, Ni, Pb, Ag), cathode là tấm đồng tinh khiết mỏng, dung dịch điện phân gồm CuSO4 và H2SO4. Kết thúc quá trình điện phân, đồng tinh khiết được thu hồi ở cathode, sau đó được nấu chảy ở nhiệt độ khoảng 1100 oC rồi được đúc thành các tấm đồng thành phẩm, mỗi tấm nặng 30 kg. Biết hiệu suất toàn bộ quá trình tinh chế từ đồng thô đến đồng thành phẩm đạt 90%. Trung bình, 1 000 kg đồng thô thì tạo ra được m tấm đồng thành phẩm. Giá trị của m bằng bao nhiêu? (Không làm tròn kết quả các phép tính trung gian, chỉ làm tròn kết quả cuối cùng đến hàng đơn vị)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "26",
+        "solution": "Đáp án: 26.\n📝 Hướng dẫn giải:\nCách 1 (Tư duy từng bước):\nKhối lượng  nguyên chất trong 1000 kg đồng thô: .\nKhối lượng  thực tế thu được (hiệu suất 90%): .\nSố tấm đồng đúc được: tấm.\nCách 2 (Bấm máy tính): Số tấm đồng = tấm.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 335,
+        "id": "C5-P3-VD-335",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Mạ điện là một trong những ứng dụng của điện phân dựa trên định luật Faraday. Sơ đồ ở bên minh họa một bình điện phân được sử dụng để mạ bạc cho muỗng bằng đồng. Tính khối lượng kim loại bạc tạo thành phủ lên muỗng bằng đồng khi dùng dòng điện 2,1A trong 45 phút để mạ điện thìa đồng với hiệu suất là 80%. (Không làm tròn kết quả các phép tính trung gian, chỉ làm tròn kết quả cuối cùng đến hàng phần mười)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "5,1",
+        "solution": "Đáp án: 5,1.\n📝 Hướng dẫn giải:\nCách 1 (Tư duy từng bước):\nSố mol electron trao đổi: .\nTại cathode: .\nKhối lượng bạc thực tế thu được (hiệu suất 80%): .\nCách 2 (Bấm máy tính) .",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q335_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 336,
+        "id": "C5-P3-VD-336",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Để mạ đồng một vật dụng kim loại có tổng diện tích bề mặt là 10 cm2, người ta tiến hành điện phân dung dịch CuSO4 với cực âm là vật cần mạ và cực dương là lá đồng thô. Biết cường độ dòng điện không đổi là 2A, hiệu suất điện phân là 90%, khối lượng riêng của tinh thể Cu là 8,94 g/cm3 và lượng đồng tạo ra được tính theo công thức Faraday là m = AIt/nF (với A là nguyên tử khối của Cu = 64, I là cường độ dòng điện, F là hằng số Faraday = 96500 C/mol, n là số electron mà 1 ion Cu2+ nhận, t là thời gian điện phân tính bằng giây). Thời gian điện phân để tạo lớp mạ có độ dày đồng nhất 0,1 mm là bao nhiêu phút? (Không làm tròn kết quả các phép tính trung gian, chỉ làm tròn kết quả cuối cùng đến hàng đơn vị)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "25",
+        "solution": "Đáp án: 25.\n📝 Hướng dẫn giải:\nCách 1 (Tư duy từng bước):\nThể tích lớp đồng: .\nKhối lượng đồng cần mạ: .\nÁp dụng Faraday (): .\nCách 2 (Bấm máy tính) .",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 337,
+        "id": "C5-P3-VD-337",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong nhà máy chlorine – kiềm, dung dịch NaCl bão hòa (300 g/L) được điện phân một phần tạo ra “nước muối nghèo” (220 g/L). Từ V mL dung dịch NaCl bão hòa, nhà máy sản xuất được một thùng 10 L xút 50% (khối lượng riêng 1,52 g/mL). Cho biết:",
+          "• Hao hụt lượng xút trong quá trình điều chế: 20%.",
+          "• Hiệu suất quá trình điện phân: 85%.",
+          "• Cường độ dòng điện: I = 15 000 A, điện áp bể điện phân: U = 3,5 V; 1 W = 1 J/s",
+          "• Thể tích dung dịch coi như không đổi.",
+          "• Năng lượng điện (công của lực điện) E = Q × U; Q = ne ×F; F = 96 500 C/mol",
+          "Năng lượng điện đã tiêu thụ trong quá trình sản xuất lượng xút trên là a kWh. Giá trị của a là bao nhiêu? (Không làm tròn kết quả các phép tính trung gian, chỉ làm tròn kết quả cuối cùng đến hàng phần mười)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "26,2",
+        "solution": "Đáp án: 26,2\n📝 Hướng dẫn giải:\nCách 1 (Tư duy từng bước):\nKhối lượng  tinh khiết: .\nKhối lượng cần điều chế (tính hao hụt 20%): .\nSố mol electron thực tế (): .\nĐiện lượng .\nNăng lượng: . Đổi ra kWh: .\nCách 2 (Bấm máy tính) .",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 338,
+        "id": "C5-P3-VD-338",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tại một nhà máy, nhôm được sản xuất từ 4 tấn quặng bauxite chứa 52% Al2O3 về khối lượng (còn lại là các tạp chất trơ không chứa Al). Thực hiện giai đoạn tinh chế quặng để được Al2O3 với hiệu suất 90%. Để điện phân toàn bộ lượng Al2O3 nóng chảy thu được ở trên bởi dòng điện một chiều có cường độ 140 000 A thì cần x giờ điện phân liên tục. Cho biết, số mol electron đi qua dây dẫn được tính theo công thức sau:",
+          "ne = (I×t) / F",
+          "Trong đó, I là cường độ dòng điện (A), t là thời gian (giây), F là hằng số Faraday (96 500 C/mol). Hiệu suất của quá trình điện phân đạt 95%. Giá trị của x là bao nhiêu? (Không làm tròn kết quả các phép tính trung gian, chỉ làm tròn kết quả cuối cùng đến hàng đơn vị)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "22",
+        "solution": "Đáp án: 22.\n📝 Hướng dẫn giải:\nCách 1 (Tư duy từng bước):\nKhối lượng  tinh chế ():\n.\nSố mol electron cần dùng: .\nThời gian ():  giờ.\nCách 2 (Bấm máy tính) giờ.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 339,
+        "id": "C5-P3-NB-339",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tiến hành xác định độ tinh khiết của một mẫu hợp kim Cu–Zn (Cu chiếm hơn 80% khối lượng), người ta tiến hành điện phân với cực dương là mẫu hợp kim nặng 10,4 gam, cực âm là than chì và nhúng trong dung dịch ZnSO4. Cường độ dòng điện không đổi I = 2 A. Sau thời gian điện phân t = 15661,95 giây thì anode tan vừa hết. Cho biết: Q = It = nF với n là số mol electron trao đổi, F = 96500 C/mol. Độ tinh khiết của Cu trong mẫu hợp kim là bao nhiêu phần trăm? (Không làm tròn kết quả các phép tính trung gian, chỉ làm tròn kết quả cuối cùng đến hàng đơn vị)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "92",
+        "solution": "Đáp án: 92\n📝 Hướng dẫn giải:\nCách 1 (Tư duy từng bước):\n.\nDo anode tan hết nên cả hai kim loại đều bị oxi hóa theo hai bán phản ứng sau:\nLập hệ phương trình khối lượng hợp kim và bảo toàn electron:\nvà .\nGiải hệ thu được  và .\nĐộ tinh khiết : .\nCách 2 (Bấm máy tính) Bấm máy giải hệ\n.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 340,
+        "id": "C5-P3-NB-340",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một vật kim loại được mạ nikel có diện tích 100 cm2. Dòng điện chạy qua bình điện phân có cường độ 0,5 A và thời gian mạ là 5 giờ. Độ dày của lớp niken phủ đều trên mặt của vật được mạ là bao nhiêu . Biết nikel có khối lượng mol nguyên tử là 58,7 g/mol; hóa trị 2; khối lượng riêng là 8,8.103 kg/m3 và hằng số Faraday . (Không làm tròn kết quả các phép tính trung gian, chỉ làm tròn kết quả cuối cùng đến hàng phần mười)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "31,1",
+        "solution": "Đáp án: 31,1.\n📝 Hướng dẫn giải:\nCách 1 (Tư duy từng bước):\nKhối lượng mạ: .\nThể tích lớp mạ: .\nĐộ dày lớp mạ: .\nCách 2 (Bấm máy tính) .",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q340_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q340_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 341,
+        "id": "C5-P3-NB-341",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một tấm huy chương mặt tròn bằng kim loại có đường kính 70 mm, bề dày 3 mm; được mạ thêm một lớp vàng dầy 0,05 mm (lớp mạ bám đều lên các mặt của tấm huy chương). Biết khối lượng riêng của Au là 19,3 g/cm3; khối lượng mol của Au là 197 g/mol; khi điện phân, mỗi ion vàng trao đổi 3 electron và hằng số Faraday . Thời gian điện phân (cường độ dòng điện không đổi là 10A) để mạ lớp vàng lên một tấm huy chương là bao nhiêu giây? (Không làm tròn kết quả các phép tính trung gian, chỉ làm tròn kết quả cuối cùng đến hàng đơn vị)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "1188",
+        "solution": "Đáp án: 1188\n📝 Hướng dẫn giải:\nCách 1 (Tư duy từng bước):\nThể tích lớp mạ (): .\n.\n.\nCách 2 (Bấm máy tính) .",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c5_q341_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 342,
+        "id": "C5-P3-NB-342",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một tấm huy chương mặt tròn bằng kim loại có đường kính 60 mm, bề dày 3 mm, được mạ bởi một lớp vàng dầy 0,05 mm. Biết khối lượng riêng của Au là 19,3 mg/mm3; nguyên tử khối của Au là 197 gam/mol. Khi điện phân, mỗi ion vàng trao đổi 3 electron. Tính thời gian (giây) điện phân (cường độ dòng điện không đổi 10 A) để mạ lớp vàng lên một tấm huy chương. (Không làm tròn kết quả các phép tính trung gian, chỉ làm tròn kết quả cuối cùng đến hàng đơn vị)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "884",
+        "solution": "Đáp án: 884\n📝 Hướng dẫn giải:\nCách 1 (Tư duy từng bước):\nTương tự câu trên, tính thể tích vỏ bọc: .\nKhối lượng mạ: .\nThời gian: .\nCách 2 (Bấm máy tính) .",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 343,
+        "id": "C5-P3-NB-343",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Điện phân",
+        "topic": "Điện phân",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một loại quặng nhôm có chứa 40% khối lượng Al. Để điện phân toàn bộ lượng Al2O3 nóng chảy thu được từ 1 000 kg loại quặng trên bởi dòng điện một chiều có cường độ 10 000 A thì về lí thuyết cần bao nhiêu giờ điện phân liên tục? (Không làm tròn kết quả các phép tính trung gian, chỉ làm tròn kết quả cuối cùng đến hàng đơn vị)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "119",
+        "solution": "Đáp án: 119\n📝 Hướng dẫn giải:\nCách 1 (Tư duy từng bước):\nKhối lượng  nguyên chất: .\nTổng lượng mol electron: .\nThời gian (giờ): .\nCách 2 (Bấm máy tính) .",
+        "image_paths": [],
+        "tables": []
       }
     ]
   },
