@@ -9984,7 +9984,7 @@
       "Saccharose – Maltose",
       "Tinh bột – Cellulose"
     ],
-    "total_questions": 127,
+    "total_questions": 266,
     "questions": [
       {
         "seq_num": 1,
@@ -13516,6 +13516,3410 @@
         "answer": "4,95",
         "id": "C2-P3-VD-127",
         "solution": "Đáp số 4,95.\nGiả sử ban đầu có 100 gam đường ẩm\nmkk nóng = 3mđường ẩm = 300 gam\nVì trong quá trình sấy chỉ xảy ra sự bay hơi của nước nên msaccharose và mkhí khô không đổi.\nmkk nóng thoát ra =\nBTKL nước\nPhần trăm khối lượng nước trong đường ẩm sau sấy:\na = 4,95."
+      },
+      {
+        "q_num": 128,
+        "id": "C2-P1-NB-128",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Carbohydrate nhất thiết phải chứa nhóm chức của"
+        ],
+        "opt_lines": [
+          "A. alcohol.\tB. ketone.\tC. amine.\tD. aldehyde."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 129,
+        "id": "C2-P1-NB-129",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tinh bột và cellulose thuộc loại"
+        ],
+        "opt_lines": [
+          "A. monosaccharide.\tB. lipid.\tC. disaccharide.\tD. polysaccharide."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 130,
+        "id": "C2-P1-NB-130",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất nào sau đây thuộc loại carbohydrate?"
+        ],
+        "opt_lines": [
+          "A. Poly(vinyl chloride).\tB. Glycerol.\tC. Protein.\tD. Cellulose."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 131,
+        "id": "C2-P1-NB-131",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho 6 carbohydrate sau: glucose, fructose, maltose, saccharose, tinh bột và cellulose. Có bao nhiêu carbohydrate đã cho thuộc nhóm polysaccharide?"
+        ],
+        "opt_lines": [
+          "A. 1.\tB. 2.\tC. 3.\tD. 4."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 132,
+        "id": "C2-P1-NB-132",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho dãy các chất: tinh bột, cellulose, glucose, fructose, saccharose. Số chất trong dãy thuộc loại monosaccharide là"
+        ],
+        "opt_lines": [
+          "A. 1.\tB. 3.\tC. 4.\tD. 2."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 133,
+        "id": "C2-P1-NB-133",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Nguyên tố nào dưới đây không phải thành phần cấu tạo nên carbohydrate?"
+        ],
+        "opt_lines": [
+          "A. Oxygen.\tB. Nitrogen.\tC. Hydrogen.\tD. Carbon."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 134,
+        "id": "C2-P1-NB-134",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Hàm lượng glucose trong máu người trưởng thành, khỏe mạnh và lúc đói có một lượng nhỏ glucose với nồng độ khoảng?"
+        ],
+        "opt_lines": [
+          "A. 4,4 – 7,2 mmol/L.\tB. 4,2 – 7,2 mmol/L.\tC. 4,4 – 7,4 mmol/L.\tD. 4,5 – 7,4 mmol/L."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 135,
+        "id": "C2-P1-NB-135",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Bệnh nhân suy nhược phải tiếp đường (tiêm hoặc truyền dung dịch đường vào tĩnh mạch), đó là loại đường nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. Saccharose.\tB. Fructose.\tC. Maltose.\tD. Glucose."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 136,
+        "id": "C2-P1-NB-136",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Công thức cấu tạo dạng mạch hở của glucose là"
+        ],
+        "opt_lines": [
+          "A. CH2OH[CHOH]4CHO.\t\tB. CH2OH[CHOH]4CH2OH.",
+          "C. CH2OH[CHOH]5CHO.\t\tD. CH2OH[CHOH]4COOH."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 137,
+        "id": "C2-P1-NB-137",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Glucose là chất dinh dưỡng và được dùng làm thuốc tăng lực cho người già, trẻ em và người ốm. Số nguyên tử carbon trong phân tử glucose là"
+        ],
+        "opt_lines": [
+          "A. 6.\tB. 11.\tC. 5.\tD. 12."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 138,
+        "id": "C2-P1-NB-138",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Số nguyên tử hydrogen trong phân tử fructose là"
+        ],
+        "opt_lines": [
+          "A. 10.\tB. 12.\tC. 22.\tD. 6."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 139,
+        "id": "C2-P1-NB-139",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Monosaccharide X có công thức cấu tạo như sau:",
+          "Tên gọi của X là"
+        ],
+        "opt_lines": [
+          "A. -glucose.\tB. -glucose.\tC. -fructose.\tD. -fructose."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q139_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q139_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q139_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q139_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q139_img5.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 140,
+        "id": "C2-P1-NB-140",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong công thức cấu tạo dạng mạch vòng α-glucose như hình.",
+          "Nhóm –OH hemiacetal là –OH gắn ở carbon số mấy?"
+        ],
+        "opt_lines": [
+          "A. 2.\tB. 3.\tC. 4.\tD. 1."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q140_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 141,
+        "id": "C2-P1-NB-141",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Đồ thị sau đây biểu diễn sự thay đổi về lượng glucose trong máu của một người sử dụng đồ uống có đường sau 8 giờ nhịn ăn:",
+          "Khi sử dụng đồ uống có đường, nồng độ glucose trong máu tăng cao nhất sau khi"
+        ],
+        "opt_lines": [
+          "A. sử dụng khoảng 20 phút.\tB. sử dụng khoảng 2 giờ.",
+          "C. sử dụng khoảng 50 phút.\tD. sử dụng khoảng 3 giờ."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q141_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 142,
+        "id": "C2-P1-NB-142",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ở dạng mạch vòng, glucose và fructose lần lượt còn nhóm...(I)… và nhóm...(II)… Đây là nguyên nhân dẫn đến glucose và fructose...(III)… Cụm từ cần điền vào (I), (II) và (III) lần lượt là"
+        ],
+        "opt_lines": [
+          "A. –OH hemiacetal, –OH hemiketal, có thể mở vòng.",
+          "B. –OH hemiketal, –OH hemiacetal, có thể mở vòng.",
+          "C. –OH hemiacetal, –OH hemiketal, có thể tham gia phản ứng thuỷ phân.",
+          "D. –OH hemiketal, –OH hemiacetal, không thể tham gia phản ứng thuỷ phân."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 143,
+        "id": "C2-P1-NB-143",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phản ứng điều chế ethanol từ glucose theo phương trình hóa học C6H2O6  2C2H5OH + 2CO2 là phản ứng"
+        ],
+        "opt_lines": [
+          "A. trùng ngưng.\tB. thủy phân.\tC. lên men.\tD. ester hóa."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q143_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 144,
+        "id": "C2-P1-NB-144",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Thuốc thử dùng để phân biệt glucose với fructose là"
+        ],
+        "opt_lines": [
+          "A. AgNO3/ NH3.\tB. Cu(OH)2.\tC. dung dịch Br2.\tD. H2."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 145,
+        "id": "C2-P1-NB-145",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Glucose tham gia phản ứng với Cu(OH)2/OH-, đun nóng tạo kết tủa đỏ gạch Cu2O. Trong phản ứng này chứng minh tính chất của nhóm chức nào trong phân tử glucose?"
+        ],
+        "opt_lines": [
+          "A. Tính chất của polyalcohol.\tB. Tính chất của aldehyde.",
+          "C. Tính chất ketone.\t\tD. Tính chất nhóm –OH hemiacetal."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 146,
+        "id": "C2-P1-NB-146",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Glucose có thể lên tạo lactic acid có trong sữa chua qua phản ứng nào sao đây?"
+        ],
+        "opt_lines": [
+          "A. 2C6H12O6 + Cu(OH)2 (C6H11O6)2Cu + 2H2O.",
+          "B. C6H12O6  2C2H5OH + 2CO2.",
+          "C. C6H12O6  2CH3CH(OH)COOH.",
+          "D. CH2OH[CHOH]4CHO + Br2 +H2O CH2OH[CHOH]4COOH + 2HBr."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q146_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q146_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q146_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q146_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 147,
+        "id": "C2-P1-NB-147",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Glucose và fructose bị oxi hóa bởi Cu(OH)2/OH-(to) tạo kết tủa đỏ gạch qua phản ứng nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. 2C6H12O6 + Cu(OH)2 (C6H11O6)2Cu + 2H2O",
+          "B. CH2OH[CHOH]4CHO + 2Cu(OH)2 + NaOHCH2OH[CHOH]4COONa + Cu2O + 3H2O",
+          "C. CH2OH[CHOH]4CHO + 2[Ag(NH3)2]OHCH2OH[CHOH]4COONH4 + 2Ag + 3NH3 + H2O",
+          "D. CH2OH[CHOH]4CHO + Br2 +H2O CH2OH[CHOH]4COOH + 2HBr."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q147_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q147_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q147_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q147_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 148,
+        "id": "C2-P1-NB-148",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phân tử -glucose có cấu tạo như sau:",
+          "Trong phân tử -glucose, nhóm –OH ở vị trí carbon số mấy có khả năng phản ứng với ethanol khi có mặt của HCl khan, tạo thành ethyl glucoside?"
+        ],
+        "opt_lines": [
+          "A. Carbon số 1.\tB. Carbon số 2.\tC. Carbon số 3.\tD. Carbon số 6."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q148_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q148_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q148_img3.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 149,
+        "id": "C2-P1-NB-149",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất T có các đặc điểm: (1) thuộc loại monosaccharide; (2) có nhiều trong quả nho chín; (3) tác dụng với nước bromine; (4) có phản ứng tráng gương. Chất T là"
+        ],
+        "opt_lines": [
+          "A. glucose.\tB. saccharose.\tC. fructose.\tD. cellulose."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 150,
+        "id": "C2-P1-NB-150",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Khi nói về glucose, điều nào sau đây không đúng?"
+        ],
+        "opt_lines": [
+          "A. Tồn tại chủ yếu ở 2 dạng mạch vòng (α, β) và không thể chuyển hóa lẫn nhau.",
+          "B. Là hợp chất tạp chức, phân tử có nhóm chức của alcohol và aldehyde.",
+          "C. Phản ứng với Cu(OH)2 ở nhiệt độ phòng cho dung dịch màu xanh lam.",
+          "D. Tham gia phản ứng với thuốc thử Tollens."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 151,
+        "id": "C2-P1-TH-151",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phát biểu nào sau đây về fructose không đúng?"
+        ],
+        "opt_lines": [
+          "A. Fructose có công thức phân tử C6H12O6.",
+          "B. Fructose phản ứng được với Cu(OH)2 trong môi trường kiềm ở điều kiện thường.",
+          "C. Fructose thuộc loại monosaccharide.",
+          "D. Fructose làm mất màu nước bromine ở điều kiện thường."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 152,
+        "id": "C2-P1-NB-152",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Nhận xét nào sau đây không đúng với cả glucose và fructose?"
+        ],
+        "opt_lines": [
+          "A. Đều có phản ứng với thuốc thử Tollens.",
+          "B. Đều thể hiện tính chất của nhóm chức aldehyde.",
+          "C. Đều tham gia phản ứng hòa tan Cu(OH)2.",
+          "D. Trong phân tử có cùng số lượng nhóm hydroxy."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 153,
+        "id": "C2-P1-VD-153",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các phát biểu sau:",
+          "(a) Glucose và fructose không tham gia phản ứng thủy phân.",
+          "(b) Có thể phân biệt glucose và fructose bằng nước bromine.",
+          "(c) Carbohydrate là những hợp chất hữu cơ tạp chức, thường có công thức chung là Cn(H2O)m.",
+          "(d) Chất béo không phải carbohydrate.",
+          "Số phát biểu đúng là"
+        ],
+        "opt_lines": [
+          "A. 1.\tB. 2.\tC. 3.\tD. 4."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 154,
+        "id": "C2-P1-VD-154",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các phát biểu sau:",
+          "(a) Có thể dùng nước bromine để phân biệt dung dịch glucose và dung dịch fructose.",
+          "(b) Trong môi trường acid, glucose và fructose có thể chuyển hóa lẫn nhau.",
+          "(c) Có thể phân biệt glucose và fructose bằng phản ứng với dung dịch AgNO3 trong NH3.",
+          "(d) Trong dung dịch, glucose và fructose đều hòa tan Cu(OH)2 ở nhiệt độ thường cho dung dịch màu xanh lam.",
+          "(e) Ở dạng mạch vòng, fructose tồn tại ở dạng mạch vòng 5 cạnh.",
+          "(g) Glucose tồn tại ở dạng vòng 6 cạnh (α và β) chuyển hóa qua lại lẫn nhau.",
+          "Số phát biểu đúng là"
+        ],
+        "opt_lines": [
+          "A. 2.\tB. 5.\tC. 4.\tD. 3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 155,
+        "id": "C2-P1-NB-155",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Mật ong để lâu hoặc ở nhiệt độ dưới 20oC và thấp hơn, thường thấy có những hạt rắn xuất hiện ở đáy chai là hiện tượng gì? Biết trong mật ong chứa chủ yếu là đường glucose và frutose."
+        ],
+        "opt_lines": [
+          "A. Nước trong mật ong bay hơi làm kết tinh tinh bột.",
+          "B. Mật ong bị oxi hóa chậm trong không khí tạo kết tủa.",
+          "C. Nước trong mật ong bay hơi làm kết tinh đường saccharose.",
+          "D. Nước trong mật ong bay hơi làm kết tinh đường glucose và fructose."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 156,
+        "id": "C2-P1-VD-156",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phần trăm khối lượng của nguyên tố oxygen trong 1 phân tử glucose là"
+        ],
+        "opt_lines": [
+          "A. 44,41%.\tB. 53,33%.\tC. 51,46%.\tD. 49,38%."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "Cách 1 (Tư duy từng bước):\nBước 1: Công thức phân tử của glucose là .\nBước 2: Phân tử khối của glucose là 180.\nBước 3: Khối lượng của 6 nguyên tử oxygen là 16 × 6 = 96.\nBước 4: Phần trăm khối lượng oxygen = = 53,33%.\nCách 2 (Bấm máy tính): Phần trăm khối lượng oxygen =  = 53,33%.\n🔍 Giải thích bản chất: Phân tử glucose có 6 nguyên tử oxygen. Chỉ cần lấy phần khối lượng do oxygen đóng góp chia cho tổng khối lượng phân tử là ra ngay đáp án.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 157,
+        "id": "C2-P1-VD-157",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một ruột phích có diện tích bề mặt là 0,35 m2. Để tráng được 2000 ruột phích như trên với độ dày lớp bạc là 0,1 thì cần dùng m gam glucose 10% tác dụng với lượng dư dung dịch AgNO3 trong NH3. Biết hiệu suất phản ứng tráng bạc là 75% và khối lượng của bạc là 10,49 g/cm3. Giá trị của m gần nhất với giá trị nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. 8160.\tB. 655,7.\tC. 843,6.\tD. 724,5."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "Phương trình hóa học\nTỉ lệ vàng cần nhớ: 1 mol glucose sinh ra 2 mol Ag.\nCách 1 (Tư duy từng bước):\nBước 1: Thể tích lớp silver = 2000 x (0,35 × 10000) × (0,1 × 0,0001) = 70 cm3.\nBước 2: Khối lượng kim loại silver = 70 × 10,49 = 734,3 gam.\nBước 3: Số mol silver = 734,3/108 = 6,799 mol. Số mol glucose lý thuyết = 3,3995 mol.\nBước 4: Khối lượng glucose nguyên chất thực tế (hiệu suất 75%) = (3,3995×180)/0,75 = 815,88 gam.\nBước 5: Khối lượng dung dịch glucose 10% = 815,88 / 0,1 = 8158,8 gam (xấp xỉ 8160 gam).\nCách 2 (Bấm máy tính):",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q157_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 158,
+        "id": "C2-P1-VD-158",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Để tráng 100 chiếc gương soi, mỗi gương có diện tích bề mặt 0,4 m² với độ dày 0,1 μm người ta cho m gam glucose thực hiện phản ứng với lượng dư dung dịch silver nitrate trong ammonia. Biết khối lượng riêng của silver là 10,49 g/cm³ và hiệu suất của quá trình là 65%. Giá trị gần nhất của m là"
+        ],
+        "opt_lines": [
+          "A. 26,9.\tB. 53,8.\tC. 21,0.\tD. 31,2."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "Phương trình hóa học\nTỉ lệ vàng cần nhớ: 1 mol glucose sinh ra 2 mol Ag.\nCách 1 (Tư duy từng bước):\nBước 1: Thể tích lớp silver = 100 × (0,4 × 10000) × (0,1 × 0,0001) = 4 cm3.\nBước 2: Khối lượng kim loại silver = 4 × 10,49 = 41,96 gam.\nBước 3: Số mol silver = 41,96 / 108 = 0,3885 mol. Suy ra số mol glucose lý thuyết = 0,1942 mol.\nBước 4: Khối lượng glucose thực tế (hiệu suất 65%) = (0,1942 × 180) / 0,65 = 53,78 gam.\nCách 2 (Bấm máy tính):",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 159,
+        "id": "C2-P1-VD-159",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một gương soi ở các nhà vệ sinh hình tròn có đường kính 40 cm. Để tráng 200 tấm gương soi có diện tích bề mặt như trên với độ dày 0,2 μm người ta đun nóng dung dịch chứa m gam glucose 5% với một lượng dung dịch silver nitrate trong ammonia. Biết khối lượng riêng của silver là 10,49 g/cm³, hiệu suất phản ứng tráng gương là 80% (tính theo glucose). Giá trị của m là (làm tròn đến phần nguyên)."
+        ],
+        "opt_lines": [
+          "A. 1098.\tB. 875.\tC. 54,7.\tD. 870."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "Cách 1 (Tư duy từng bước):\nBước 1: Diện tích 1 gương tròn = Số Pi × (Đường kính/2)2 = 3,14 x 20 x 20 = 1256 cm2.\nBước 2: Thể tích lớp silver của 200 gương = 200 × 1256 × (0,2 × 0,0001) = 5,024 cm3.\nBước 3: Khối lượng kim loại silver = 5,024 × 10,49 = 52,7 gam.\nBước 4: Số mol silver = 52,7 / 108 = 0,488 mol. Suy ra số mol glucose lý thuyết = 0,244 mol.\nBước 5: Khối lượng glucose nguyên chất thực tế = (0,244 × 180) / 0,8 = 54,9 gam.\nBước 6: Khối lượng dung dịch glucose 5% = 54,9 / 0,05 = 1098 gam.\nCách 2 (Bấm máy tính):  1098 gam.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 160,
+        "id": "C2-P1-VD-160",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Dung dịch glucose (C6H12O6) 5%, có khối lượng riêng là 1,02 g/mL, phản ứng oxi hóa 1 mol glucose tạo thành CO2 (g) và H2O(l) tỏa ra nhiệt lượng là 2 803,0 kJ. Một người bệnh được truyền một chai chứa 500 mL dung dịch glucose 5%. Năng lượng tối đa từ phản ứng oxi hóa hoàn toàn glucose mà bệnh nhân đó có thể nhận được là"
+        ],
+        "opt_lines": [
+          "A. +397,09 kJ.\tB. -397,09 kJ.\tC. +416,02 kJ.\tD. -416,02 kJ"
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "Cách 1 (Tư duy từng bước):\nBước 1: Khối lượng dung dịch trong chai = 500 mL × 1,02 g/mL = 510 gam.\nBước 2: Khối lượng glucose nguyên chất = 510 × 5% = 25,5 gam.\nBước 3: Số mol glucose = 25,5 / 180 = 0,1417 mol.\nBước 4: Năng lượng bệnh nhân nhận được = 0,1417 × 2803 = 397,1 kJ.\nCách 2 (Bấm máy tính): Năng lượng tỏa ra =  397,1 kJ.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 161,
+        "id": "C2-P1-VD-161",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chai 500 mL dung dịch đường glucose 5% rất phổ biến trong việc phục hồi và cung cấp năng lượng cho cơ thể người bệnh. Trung bình, 1 mol glucose khi được đưa vào sẽ cung cấp 3060 kJ năng lượng cho cơ thể và dung dịch đường glucose 5% có khối lượng riêng là 1,02 g/mL. Giả sử để một người bệnh phục hồi cần 1300kJ năng lượng thì cần truyền cho người bệnh đó bao nhiêu chai dung dịch đường glucose 5%?"
+        ],
+        "opt_lines": [
+          "A. 4 chai.\tB. 3 chai.\tC. 2 chai.\tD. 1 chai."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "Cách 1 (Tư duy từng bước):\nBước 1: Tính khối lượng dung dịch của 1 chai = 500 × 1,02 = 510 gam.\nBước 2: Tính số mol glucose trong 1 chai = (510 × 0,05) / 180 = 0,1417 mol.\nBước 3: Năng lượng cung cấp từ 1 chai = 0,1417 × 3060 = 433,6 kJ.\nBước 4: Số chai cần truyền = Năng lượng tổng cần / Năng lượng 1 chai = 1300 / 433,6 = 2,998 chai. Làm tròn thành 3 chai.\nCách 2 (Bấm máy tính): Số lượng chai =  3 chai.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 162,
+        "id": "C2-P1-VD-162",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phản ứng tổng hợp glucose trong cây xanh cần được cung cấp năng lượng từ ánh sáng mặt trời:",
+          "6CO2 + 6H2O + 673 kcal  C6H12O6 + 6O2",
+          "Cứ trong một phút, mỗi cm2 lá xanh nhận được 0,5 cal năng lượng mặt trời, nhưng chỉ có 10% được sử dụng vào phản ứng tổng hợp glucose. Thời gian để một cây có 1000 lá xanh (diện tích mỗi lá 10 cm2) sản sinh được 18 gam glucose là"
+        ],
+        "opt_lines": [
+          "A. 2 giờ 14 phút 36 giây.\t\tB. 4 giờ 29 phút 12 giây.",
+          "C. 2 giờ 30 phút 15 giây.\t\tD. 5 giờ 00 phút 00 giây."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "Phương trình hóa học tổng hợp:  (Thu nhiệt năng)\nCách 1 (Tư duy từng bước):\nBước 1: Tính số mol glucose cần tạo ra = 18 / 180 = 0,1 mol.\nBước 2: Năng lượng tổng cộng cần thu vào = 0,1 × 673 = 67,3 kcal = 67300 cal.\nBước 3: Tốc độ nạp năng lượng thực tế của cây trong 1 phút = (1000 lá × 10 cm2) × 0,5 cal/phút x 10% hiệu suất = 500 cal/phút.\nBước 4: Thời gian quang hợp = Tổng năng lượng cần / Tốc độ nạp = 67300 / 500 = 134,6 phút.\nCách 2 (Bấm máy tính): Thời gian quang hợp =  = 134,6 phút.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q162_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 163,
+        "id": "C2-P2-TH-163",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Fructose có công thức phân tử C6H12O6. Tương tự glucose, fructose tồn tại đồng thời ở dạng mạch hở và dạng mạch vòng (α-fructose và β-fructose) chuyển hóa qua lại lẫn nhau như hình dưới:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Ở dạng mạch hở, phân tử fructose có năm nhóm hydroxy và một nhóm aldehyde.",
+          "b": "Nhóm –OH ở vị trí số 2 trong fructose dạng mạch vòng gọi là –OH hemiketal.",
+          "c": "Từ công thức cấu tạo ta thấy, fructose có tính chất của polyalcohol và ketone.",
+          "d": "Fructose không có nhóm –CH=O, vì vậy fructose không bị oxi hóa bởi thuốc thử Tollens và bởi Cu(OH)2 trong môi trường kiềm."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "NB",
+          "d": "TH"
+        },
+        "answer": "a:S - b:Đ - c:Đ - d:S",
+        "solution": "a) Sai. Ở dạng mạch hở, fructose có nhóm ketone (C=O), không phải nhóm aldehyde.\nb) Đúng. Trong mạch vòng, nhóm –OH ở C2 liên kết với nhóm C=O tạo thành nhóm –OH hemiketal.\nc) Đúng. Fructose có nhiều nhóm –OH (tính polyalcohol) và một nhóm ketone → có tính chất của cả hai.\nd) Sai. Trong môi trường kiềm, fructose chuyển hóa thành glucose (có nhóm –CHO) → bị oxi hóa bởi Tollens và Cu(OH)₂.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q163_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 164,
+        "id": "C2-P2-TH-164",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Các nghiên cứu sâu hơn về cấu tạo cho biết glucose có một dạng mạch hở và hai dạng mạch vòng (α-glucose và β-glucose) chuyển hóa qua lại lẫn nhau như hình dưới:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Ở dạng mạch hở, phân tử glucose có năm nhóm hydroxy và một nhóm aldehyde, với công thức cấu tạo là HOCH2[CHOH]4CH=O.",
+          "b": "Nhóm – OH ở vị trí carbon số 6 trong glucose dạng mạch vòng gọi là – OH hemiacetal.",
+          "c": "Ở dạng cấu tạo mạch vòng, nhóm –OH hemiacetal của glucose tác dụng với methanol khi có mặt của HCl khan, tạo thành methyl α-glycosie.",
+          "d": "Phản ứng của glucose với methanol khi có mặt HCl khan, tạo thành methyl α-glycoside, chứng tỏ glucose có dạng mạch hở."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:S - c:S - d:S",
+        "solution": "a) Đúng. Ở dạng mạch hở, glucose là một aldehyde có công thức:  chứa 5 nhóm  và 1 nhóm .\nb) Sai. Nhóm  ở vị trí carbon số 1 trong dạng mạch vòng mới được gọi là nhóm  hemiacetal.\nc) Sai. Khi glucose dạng vòng phản ứng với methanol (xúc tác HCl khan), nhóm  hemiacetal ở C1 bị thay thế tạo thành hỗn hợp methyl -glucoside hoặc -glucoside tùy cấu hình, không phải chỉ tạo ra duy nhất dạng .\nd) Sai. Phản ứng của glucose với methanol/HCl xảy ra ở vị trí nhóm  hemiacetal của dạng vòng, chứng tỏ glucose có tồn tại ở dạng mạch vòng.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q164_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 165,
+        "id": "C2-P2-TH-165",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Glusacomine là một amino monosaccharide có nhiều trong các mô liên kết và mô sụn. Trong y học và dược phẩm, glusacomine được dùng làm nguyên liệu để sản xuất thực phẩm chức năng và sản phẩm hỗ trợ điều trị các bệnh về xương khớp. Glusacomine có công thức cấu tạo như sau:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Trong glucosamine, nhóm –OH hemiacetal không có khả năng mở vòng.",
+          "b": "Trong phòng thí nghiệm, học sinh có thể điều chế được glusacomine từ vỏ tôm.",
+          "c": "Trong glusacomine, nhóm –OH hemiacetal có thể ở vị trí α hoặc β.",
+          "d": "Glusacomine tác dụng được với HCl tạo thành glusacomine hydrochloride."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:S - b:Đ - c:Đ - d:Đ",
+        "solution": "a) Sai. Nhóm  hemiacetal trong glucosamine có khả năng mở vòng tạo thành dạng mạch hở.\nb) Đúng. Glucosamine có thể được chiết xuất từ vỏ tôm, cua do chúng chứa nhiều chitin (là polymer của glucosamine).\nc) Đúng. Vị trí  hemiacetal tại C1 có thể tồn tại ở dạng  hoặc  tương tự như trong phân tử glucose.\nd) Đúng. Nhóm  trong glucosamine có tính base nên phản ứng được với acid HCl tạo thành muối glucosamine hydrochloride.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q165_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 166,
+        "id": "C2-P2-VD-166",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tiến hành thí nghiệm theo các bước sau:",
+          "Bước 1: Cho khoảng 2 mL dung dịch AgNO3 1% vào ống nghiệm, thêm từ từ dung dịch ammonia 5%, lắc đều đến khi kết tủa tan hết. Dung dịch thu được là thuốc thử Tollens.",
+          "Bước 2: Thêm vào ống nghiệm khoảng 2 mL dung dịch glucose 2%, lắc đều. Sau đó, ngâm ống nghiệm vào cốc thủy tinh chứa nước nóng trong vài phút."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Sản phẩm hữu cơ thu được sau bước 2 là gluconic acid.",
+          "b": "Thí nghiệm trên chứng minh glucose có tính chất của aldehyde.",
+          "c": "Trong phản ứng ở bước 2, glucose đóng vai trò là chất oxi hóa.",
+          "d": "Fructose có nhóm chức ketone, vì vậy không tham gia phản ứng với thuốc thử Tollens."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:Đ - c:S - d:S",
+        "solution": "a) Đúng. Glucose bị oxi hóa bởi Tollens tạo gluconic acid (có nhóm –COOH).\nb) Đúng. Phản ứng tráng bạc xảy ra → chứng tỏ glucose có nhóm –CHO (aldehyde).\nc) Sai. Glucose bị oxi hóa (mất electron) nên là chất khử, không phải chất oxi hóa.\nd) Sai. Fructose là ketose, nhưng trong môi trường kiềm có thể chuyển hóa thành glucose → vẫn tham gia phản ứng Tollens.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 167,
+        "id": "C2-P2-VD-167",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tiến hành thí nghiệm theo các bước sau:",
+          "Bước 1: Cho khoảng 2 mL dung dịch NaOH 10% vào ống nghiệm. Sau đó, thêm khoảng 0,5 mL dung dịch CuSO4 5% vào, lắc nhẹ.",
+          "Bước 2: Cho thêm tiếp khoảng 3 mL dung dịch glucose 2% vào ống nghiệm và lắc đều.",
+          "Bước 3: Đun nóng ống nghiệm bằng ngọn lửa đèn cồn trong vài phút."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Ở bước 2, kết tủa đã bị hòa tan, thu được dung dịch màu xanh lam.",
+          "b": "Thí nghiệm trên chứng minh glucose có tính chất của aldehyde.",
+          "c": "Sau bước 3, xuất hiện kết tủa đỏ gạch. Sản phẩm hữu cơ thu được là gluconic acid.",
+          "d": "Ở bước 2, nếu thay glucose bằng fuctose thì hiện tượng bước 3 xảy ra tương tự."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "NB",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:Đ - c:S - d:Đ",
+        "solution": "a) Đúng. Ở bước 2, Cu(OH)₂ tan tạo phức xanh lam với glucose (do glucose có nhiều nhóm –OH liền kề).\na) Đúng. Ở bước 2,  tan tạo phức màu xanh lam với glucose do phân tử glucose có nhiều nhóm  liền kề.\nb) Đúng. Sau bước 3, glucose khử  thành  (kết tủa đỏ gạch), chứng tỏ phân tử có chứa nhóm aldehyde.\nc) Sai. Glucose bị oxi hóa thành muối sodium gluconate do phản ứng diễn ra trong môi trường kiềm , không phải là gluconic acid tự do.\nd) Đúng. Fructose là ketose, nhưng trong môi trường kiềm chuyển hóa thành glucose nên phản ứng tạo kết tủa đỏ gạch xảy ra tương tự.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 168,
+        "id": "C2-P2-VD-168",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Từ dung dịch glucose 45 gam/L, thực hiện quá trình lên men rượu trong phòng thí nghiệm, kết quả biểu thị theo đồ thị sau:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Phương trình lên men rượu của glucose là: C6H12O6 2C2H5OH + CO2.",
+          "b": "Nồng độ ethanol tăng liên tục trong suốt 48 giờ lên men.",
+          "c": "Sau 18 giờ, hơn một nửa lượng glucose ban đầu đã được chuyển hóa thành ethanol.",
+          "d": "Hiệu suất của quá trình lên men sau 36 giờ là 78%."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "VD"
+        },
+        "answer": "a:Đ - b:S - c:Đ - d:S",
+        "solution": "a) Đúng. Phương trình biểu diễn quá trình lên men của glucose tạo ethanol và khí carbonic.\nb) Sai. Dựa vào bảng dữ liệu, nồng độ ethanol chỉ tăng lên đến khoảng 30 giờ (đạt  g/L) và sau đó đạt trạng thái ổn định (đi ngang).\nc) Đúng. Nồng độ ethanol sau 18 giờ là 17 g/L, suy ra lượng glucose đã chuyển hóa là  g/L (chiếm , lớn hơn 50%).\nd) Sai. Lượng ethanol lý thuyết tối đa là  g/L. Tại 36 giờ nồng độ đạt 21 g/L, hiệu suất là .",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q168_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q168_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 169,
+        "id": "C2-P2-VD-169",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một nhóm học sinh nghiên cứu quá trình sử dụng vi khuẩn Lactobacillus để lên men rỉ đường đã tinh chế (chứa đường tổng, bao gồm sucrose, glucose, fructose và các thành phần khác không lên men) tạo lactic acid ở 37°C, trong môi trường có pH = 6,0. Giả thuyết nhóm học sinh đưa ra là: “Nếu tỉ lệ rỉ đường càng cao (nồng độ đường tổng càng lớn) thì lượng lactic acid thu được càng nhiều”. Để kiểm chứng giả thuyết trên, nhóm học sinh tiến hành thí nghiệm theo các bước như sau:",
+          "- Bước 1: Pha loãng rỉ đường đã tinh chế với nước để tạo ra bốn mẫu có nồng độ đường tổng khác nhau: 5%, 10%, 15% và 20% (về thể tích), lần lượt được kí hiệu là mẫu 1 đến mẫu 4.",
+          "- Bước 2: Mỗi mẫu rỉ đường đã pha loãng được bổ sung 10% thể tích dịch huyền phù vi khuẩn Lactobacillus.",
+          "- Bước 3: Sau khi bổ sung vi khuẩn, nước cất được thêm vào mỗi mẫu để đạt tổng thể tích là 200 mL.",
+          "- Bước 4: Độ pH của tất cả các mẫu được điều chỉnh về mức 6,0 bằng dung dịch H2SO4.",
+          "- Bước 5: Chuẩn bị mẫu đối chứng (mẫu trắng) tương tự như mẫu có nồng độ rỉ đường 5% nhưng không được bổ sung vi khuẩn Lactobacillus.",
+          "- Bước 6: Tất cả các mẫu thu được từ Bước 4 và Bước 5 (mẫu 1, 2, 3, 4 và mẫu trắng) được ủ trong tủ ấm ở 37°C trong 30 giờ.",
+          "- Bước 7: Sau 30 giờ ủ, thể tích dung dịch trong các mẫu gần như không thay đổi. Mỗi mẫu được lấy 5 mL, pha loãng đến 100 mL, sau đó tiến hành chuẩn độ lactic acid trong các mẫu sau pha loãng bằng dung dịch NaOH 0,1 M với chỉ thị phenolphthalein. Kết quả thu được như bảng sau:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Mục đích của việc pha loãng mẫu ở Bước 7 trước khi chuẩn độ là để giảm nồng độ lactic acid, giúp quá trình chuẩn độ chính xác hơn với lượng NaOH dùng vừa phải.",
+          "b": "Lượng lactic acid tạo ra trong mẫu 2 gấp đôi lượng lactic acid tạo ra trong mẫu 1.",
+          "c": "Khối lượng lactic acid tạo thành cao nhất ở mẫu 3.",
+          "d": "Dựa trên kết quả thí nghiệm, cho thấy giả thuyết ban đầu của nhóm học sinh là đúng."
+        },
+        "item_levels": {
+          "a": "VD",
+          "b": "TH",
+          "c": "VD",
+          "d": "VD"
+        },
+        "answer": "a:Đ - b:Đ - c:Đ - d:S",
+        "solution": "a) Đúng. Việc pha loãng mẫu giúp giảm nồng độ chất cần chuẩn độ (lactic acid) xuống mức phù hợp với nồng độ của dung dịch chuẩn (NaOH 0,1 M) và thể tích bình chuẩn độ; giúp việc quan sát sự đổi màu của chất chỉ thị ở điểm tương đương được chính xác hơn, tránh việc sử dụng quá nhiều hoặc quá ít dung dịch chuẩn.\nb) Đúng. Thể tích NaOH dùng cho mẫu 2 (5,8 mL) gấp đôi thể tích NaOH dùng cho mẫu 1 (2,9 mL). Vì thể tích NaOH tỉ lệ thuận với lượng lactic acid, nên lượng lactic acid tạo ra trong mẫu 2 gấp đôi lượng lactic acid tạo ra trong mẫu 1\nc) Đúng. Thể tích NaOH dùng nhiều nhất là ở mẫu 3 (15% rỉ đường) với 8,7 mL. Điều này cho thấy lượng lactic acid tạo thành cao nhất ở mẫu có tỷ lệ rỉ đường 15%. Vậy nhận định này đúng.\nd) Sai. Kết quả cho thấy lượng lactic acid tăng lên khi nồng độ rỉ đường tăng từ 5% lên 15%. Tuy nhiên, khi nồng độ rỉ đường tăng lên 20%, lượng lactic acid lại giảm xuống so với mẫu 15%. Điều này cho thấy nồng độ đường quá cao có thể ức chế hoạt động của vi khuẩn.\nCác bước tính toán cho mỗi mẫu:\n+ Tính số mol NaOH đã dùng:\n+ Suy ra số mol lactic acid trong mẫu 5 mL: Vì phản ứng theo tỉ lệ 1:1 nên số mol lactic acid trong 5 mL mẫu ban đầu (trước khi pha loãng) bằng số mol NaOH đã dùng.\n+ Tính nồng độ mol của lactic acid trong mẫu 200 mL ban đầu: Nồng độ trong 5 mL mẫu lấy ra cũng chính là nồng độ của cả 200 mL mẫu ban đầu.\n+ Tính tổng khối lượng lactic acid tạo thành trong 200 mL:\nTrong đó và M của lactic acid () là 90 g/mol.\nDưới đây là bảng tổng hợp kết quả tính toán chi tiết:\nVí dụ tính toán chi tiết cho Mẫu 3:",
+        "image_paths": [],
+        "tables": [
+          [
+            [
+              "Mẫu",
+              "Mẫu trắng",
+              "Mẫu 1",
+              "Mẫu 2",
+              "Mẫu 3",
+              "Mẫu 4"
+            ],
+            [
+              "Thể tích NaOH 0,1 M (mL)",
+              "0,0",
+              "2,9",
+              "5,8",
+              "8,7",
+              "7,2"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 170,
+        "id": "C2-P3-NB-170",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các chất: methanol, glycerol, glucose, maltose, acetic acid, fructose, cellulose. Có bao nhiêu chất thuộc loại carbohydrate?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án:  4. Bao gồm: glucose, maltose, fructose, cellulose.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 171,
+        "id": "C2-P3-NB-171",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ở trạng thái tinh thể, phân tử frutose tồn tại ở dạng mạch vòng có mấy cạnh?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "5",
+        "solution": "Đáp án:  5.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 172,
+        "id": "C2-P3-NB-172",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ở dạng cấu tạo mạch vòng, nhóm –OH hemiacetal của glucose tác dụng với methanol khi có mặt của HCl khan, tạo thành methyl glucoside có công thức cấu tạo:",
+          "Methyl -glucoside",
+          "Tổng số nguyên tử có trong một phân tử methyl -glucoside là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "27",
+        "solution": "Đáp án:  27.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q172_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 173,
+        "id": "C2-P3-NB-173",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Glucose có công thức phân tử C6H12O6. Cấu tạo glucose có một dạng mạch hở và 2 dạng mạch vòng chuyển hóa (α-glucose và β-glucose) chuyển hóa qua lại lẫn nhau. Ở dạng mạch hở phân tử glucose có bao nhiêu nhóm hydroxy (–OH)?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "5",
+        "solution": "Đáp án:  5. Công thức glucose dạng mạch hở: HOCH2[CHOH]4CH=O.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 174,
+        "id": "C2-P3-NB-174",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Glucose có công thức phân tử C6H12O6. Cấu tạo glucose có một dạng mạch hở và 2 dạng mạch vòng (α và β) chuyển hóa qua lại lẫn nhau. Ở dạng mạch vòng α-glucose, phân tử glucose có bao nhiêu nhóm –OH hemiacetal?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "1",
+        "solution": "Đáp án:  1. Ở dạng vòng, số nhóm –OH hemiacetal là 1.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 175,
+        "id": "C2-P3-NB-175",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Glucose tồn tại đồng thời dạng mạch hở và mạch vòng (α và β). Glucose có tính chất của aldehyde và của polyalcohol. Cho các chất sau: Cu(OH)2, nước bromine, dung dịch I2 trong KI, thuốc thử Tollens và CH3OH/HCl khan. Ở điều kiện thích hợp, số chất tác dụng được với glucose là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án:  4. Cu(OH)2, nước bromine, thuốc thử Tollens và CH3OH/HCl khan.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 176,
+        "id": "C2-P3-VD-176",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ở dạng mạch vòng, glucose phản ứng với methyl alcohol ở nhóm –OH hemiacetal, tạo thành methyl -glucoside theo sơ đồ phản ứng:",
+          "Phân tử khối của methyl -glucoside bằng bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "194",
+        "solution": "Đáp án:  194.\n📝 Hướng dẫn giải\nCách 1 (Tư duy từng bước):\nBước 1: Nhận diện phản ứng thế. Phân tử glucose () bị mất đi nguyên tử hydrogen () ở nhóm  số 1 và nhận vào gốc methyl ().\nBước 2: Viết công thức phân tử mới:  hay gộp lại là .\nBước 3: Bấm máy tính tổng khối lượng: .\nCách 2 (Bấm máy tính): Khối lượng phân tử = .",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q176_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 177,
+        "id": "C2-P3-NB-177",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Thực hiện các phản ứng sau:",
+          "(a) OHCH2[CHOH]CHO + 2[Ag(NH3)2]OHOHCH2[CHOH]4COONH4 + 2Ag + 3NH3 + H2O",
+          "(b) HOCH2(CHOH)4CHO + Br2 + H2O  HOCH2(CHOH)4COOH + 2HBr",
+          "(c) HOCH2(CHOH)4CHO + H2  HOCH2(CHOH)4CH2OH",
+          "(d) HOCH2(CHOH)4CHO  2C2H5OH + 2CO2",
+          "Số phản ứng thể hiện tính chất aldehyde của glucose là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3. Thí nghiệm số (1), (2), (3)",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q177_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q177_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q177_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q177_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 178,
+        "id": "C2-P3-NB-178",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các phản ứng của glucose như sau:",
+          "(a)",
+          "(b)",
+          "(c)",
+          "(d)",
+          "Có bao nhiêu phản ứng mà trong đó glucose thể hiện tính oxi hóa?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "1",
+        "solution": "Đáp án: 1. Glucose thể thiện tính oxi hóa nếu tác dụng với một chất khác có khả năng nhường electron (chất khử). Chỉ có phản ứng c) thỏa mãn",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q178_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q178_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q178_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q178_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 179,
+        "id": "C2-P3-VD-179",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Công ty Vedan Việt Nam sản xuất bột ngọt (monosodium glutamate - MSG) từ nguyên liệu chính là tinh bột sắn. Quy trình sản xuất gồm các bước chính sau:​",
+          "Bước 1: Thủy phân tinh bột sắn thành glucose: Tinh bột sắn được thủy phân hoàn toàn thành glucose nhờ xúc tác axit hoặc enzyme.​",
+          "Bước 2: Lên men glucose thành glutamic acid: Glucose được lên men bởi vi sinh vật để chuyển hóa thành glutamic acid.​",
+          "C₆H₁₂O₆  HOOCCH(NH₂)(CH₂)₂COOH  + sản phẩm phụ",
+          "Bước 3: Cho glutamic acid thu được phản ứng với dung dịch sodium hydroxide (NaOH) để tạo thành monosodium glutamate.​",
+          "Biết rằng hiệu suất của quá trình thủy phân là 95%, hiệu suất của quá trình lên men là 80% và hiệu suất của quá trình phản ứng với dung dịch NaOH là 90%. Tính khối lượng monosodium glutamate (kg, làm tròn đến hàng đơn vị) thu được từ 1 tấn tinh bột sắn."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "714",
+        "solution": "Đáp án: 714.\n📝 Hướng dẫn giải\nCách 1 (Tư duy từng bước):\nBước 1: Tính số mol gốc tinh bột  (khối lượng phân tử 162) có trong 1 tấn (1000 kg):  kmol.\nBước 2: Áp dụng bảo toàn nguyên tố, tỉ lệ mol xuyên suốt chuỗi là 1:1:1:1. Vậy số mol MSG lý thuyết bằng đúng số mol tinh bột.\nBước 3: Số mol MSG thực tế thu được do hao hụt qua 3 giai đoạn:  kmol.\nBước 4: Khối lượng phân tử của MSG là 169. Khối lượng MSG thu được: Số mol thực tế  kilogram.\nCách 2 (Bấm máy tính): Khối lượng MSG = .",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q179_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 180,
+        "id": "C2-P3-NB-180",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Theo các tài liệu được công bố, đường huyết lúc đói (với người không ăn gì ít nhất 8 tiếng) sẽ được coi là nguy hiểm khi cao hơn 0,130 gam glucose/100 mL, máu ở người bệnh tiểu đường và vượt quá mức 100 mg/dL ở người không mắc bệnh. Lượng đường glucose trong máu của anh X là 0,140 gam glucose/100 mL mẫu. Khi anh X uống dung dịch chứa 2,0 gam glucose, lượng đường trong máu sẽ tăng lên. Giả sử toàn bộ lượng đường này được hấp thụ vào trong máu và tổng thể tích máu trong cơ thể anh X không đổi là 5,0 L. Cho các phát biểu sau:",
+          "(1) Lượng đường trong máu của anh X đang ở mức nguy hiểm.",
+          "(2) Tổng khối lượng glucose trong cơ thể anh X trước khi hấp thụ glucose là 6,5 gam.",
+          "(3) Tổng khối lượng glucose trong cơ thể anh X sau khi hấp thụ glucose là 7,4 gam.",
+          "(4) Đường huyết trong máu anh X sau khi hấp thụ là 0,180 gam glucose/100 mL máu.",
+          "Các phát biểu đúng xếp theo trình tự tăng dần là (ví dụ 1234, 234, 34, 4,…)"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "14",
+        "solution": "Đáp án: 14.\n📝 Hướng dẫn giải\nPhân tích số liệu\nThể tích máu: 5,0 L = 5000 mL = 50 (đơn vị 100 mL).\nTrước khi uống glucose:\nNồng độ: 0,140 g/100 mL\nTổng khối lượng glucose = 0,140 × 50 = 7,0 gam\nSau khi hấp thụ thêm 2,0 gam glucose:\nTổng khối lượng glucose = 7,0 + 2,0 = 9,0 gam\nNồng độ mới = 9,0/5000 × 100 = 0,180 gam glucose/100 mL\nĐánh giá các phát biểu\n(1) Đúng. Trước khi uống, nồng độ glucose là 0,140 g/100 mL, vượt ngưỡng nguy hiểm 0,130 g/100 mL (đây là mẫu máu người không mắc bệnh tiểu đường, nên áp ngưỡng 0,130 g/100 mL, không phải ngưỡng dành cho người bệnh).\n(2) Sai. Tổng khối lượng glucose trước khi hấp thụ là 7,0 gam, không phải 6,5 gam.\n(3) Sai. Tổng khối lượng glucose sau khi hấp thụ là 9,0 gam, không phải 7,4 gam.\n(4) Đúng. Nồng độ đường huyết sau khi hấp thụ là 0,180 gam glucose/100 mL máu.\nKết luận: Các phát biểu đúng là (1) và (4).",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 181,
+        "id": "C2-P3-VD-181",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong y tế và công nghiệp thực phẩm, để thu tinh thể  tinh khiết, người ta tiến hành làm lạnh dung dịch  bão hòa từ 30 oC xuống 10 oC. Biết độ tan của  trong 100 gam nước ở 30 oC là 91 gam và ở 10 oC là 50 gam. Khi làm lạnh 382 kg dung dịch bão hòa  ở 30 oC xuống 10 oC, khối lượng tinh thể  thu được là bao nhiêu kg? Giả sử hiệu suất quá trình kết tinh đạt 85% (Kết quả làm tròn đến hàng phần mười)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "69,7",
+        "solution": "Đáp án: 69,7\n📝 Hướng dẫn giải\nTính khối lượng chất tan ban đầu: Ở 30 oC (độ tan 91g), khối lượng glucose có trong 382 kg dung dịch bão hòa là: .\nĐặt ẩn và lập phương trình: Gọi  (kg) là khối lượng tinh thể glucose tách ra theo lý thuyết. Sau khi làm lạnh xuống 10 oC, phần dung dịch bão hòa còn lại sẽ có:\nKhối lượng chất tan còn lại:  (kg)\nKhối lượng dung dịch còn lại:  (kg) Dựa vào độ tan ở 10 oC (50g/100g nước), ta có tỉ lệ chất tan trên dung dịch bão hòa là . Ta lập được phương trình:\nGiải phương trình: . (Đây là lượng kết tinh lý thuyết).\nTính khối lượng thực tế: Với hiệu suất 85%, khối lượng tinh thể thu được là: .",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q181_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q181_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q181_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q181_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q181_img5.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 182,
+        "id": "C2-P3-VD-182",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Glucose – Fructose",
+        "topic": "Glucose – Fructose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Để thu được tinh thể  tinh khiết, người ta tiến hành làm lạnh dung dịch  bão hòa từ 30 oC xuống 10 oC. Biết độ tan của  trong 100 gam nước ở 30 oC là 91 gam và ở 10 oC là 50 gam. Quá trình sản xuất sử dụng 191 kg dung dịch bão hòa ở 30 oC. Giả sử trong quá trình làm lạnh có 10 kg nước bị bay hơi mất và hiệu suất quá trình kết tinh đạt 85%. Khối lượng tinh thể  thu được là bao nhiêu kg? (Kết quả làm tròn đến hàng phần mười)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "39,1",
+        "solution": "Đáp án: 39,1\n📝 Hướng dẫn giải\nPhân tích dung dịch ban đầu: Với độ tan 91 gam ở 30 oC, 191 kg dung dịch bão hòa sẽ chứa chính xác 100 kg nước và 91 kg chất tan (glucose).\nLượng nước còn lại: Sau khi bay hơi 10 kg, lượng nước đóng vai trò dung môi ở 10 oC chỉ còn: .\nLượng chất tan được giữ lại: Ở 10 oC (độ tan 50 gam), 90 kg nước hòa tan được tối đa lượng glucose là: .\nKhối lượng kết tinh lý thuyết: Lượng glucose dư thừa bị đẩy ra khỏi dung dịch là: .\nTính khối lượng thực tế: Với hiệu suất 85%, khối lượng tinh thể thực tế thu được là: .",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q182_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q182_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q182_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q182_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 183,
+        "id": "C2-P1-NB-183",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Số nguyên tử carbon trong phân tử saccharose là"
+        ],
+        "opt_lines": [
+          "A. 6.\tB. 5.\tC. 12.\tD. 10."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 184,
+        "id": "C2-P1-NB-184",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một phân tử saccharose cấu tạo nên từ"
+        ],
+        "opt_lines": [
+          "A. một đơn vị β-glucose và một đơn vị β-fructose.",
+          "B. một đơn vị β-glucose và một đơn vị α-fructose.",
+          "C. hai đơn vị α-glucose.",
+          "D. một đơn vị α-glucose và một đơn vị β-fructose."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 185,
+        "id": "C2-P1-NB-185",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một phân tử maltose có"
+        ],
+        "opt_lines": [
+          "A. một đơn vị β-glucose và một đơn vị β-fructose.",
+          "B. một đơn vị β-glucose và một đơn vị α-fructose.",
+          "C. hai đơn vị α-glucose.",
+          "D. một đơn vị α-glucose và một đơn vị β-fructose."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 186,
+        "id": "C2-P1-NB-186",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Hai gốc glucose trong phân tử maltose liên kết với nhau bởi liên kết"
+        ],
+        "opt_lines": [
+          "A. -1,4-glycoside.\tB. -1,2-glycoside.\tC. -1,6-glycoside.\tD. -1,2-glycoside."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q186_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q186_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q186_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q186_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 187,
+        "id": "C2-P1-NB-187",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Carbohydrate nào dưới đây không có nhóm –OH hemiacetal hoặc nhóm –OH hemiketal?"
+        ],
+        "opt_lines": [
+          "A. Glucose.\tB. Fructose.\tC. Saccharose.\tD. Maltose."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 188,
+        "id": "C2-P1-NB-188",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Hình dưới đây biểu thị cấu trúc của hợp chất carbohydrate có tên gọi là"
+        ],
+        "opt_lines": [
+          "A. Maltose.\tB. Tinh bột.\tC. Cellulose.\tD. Saccharose."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q188_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 189,
+        "id": "C2-P1-NB-189",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong phân tử saccharose, gốc glucose liên kết với gốc fructose qua nguyên tử đóng vai trò cầu nối là"
+        ],
+        "opt_lines": [
+          "A. carbon.\tB. hydrogen.\tC. oxygen.\tD. nitrogen."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 190,
+        "id": "C2-P1-NB-190",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Saccharose là một loại disaccharide có nhiều trong cây mía, hoa thốt nốt, củ cải đường. Công thức phân tử của saccharose là"
+        ],
+        "opt_lines": [
+          "A. C6H12O6.\tB. C12H22O11.\tC. (C6H10O5)n.\tD. C2H4O2."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 191,
+        "id": "C2-P1-NB-191",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong dung dịch, saccharose phản ứng với Cu(OH)2 cho dung dịch màu"
+        ],
+        "opt_lines": [
+          "A. vàng.\tB. xanh lam.\tC. tím.\tD. nâu đỏ."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 192,
+        "id": "C2-P1-TH-192",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Khi thủy phân saccharose trong môi trường acid thu được sản phẩm là"
+        ],
+        "opt_lines": [
+          "A. ethanol.\tB. glucose và fructose.",
+          "C. glucose.\tD. fructose."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 193,
+        "id": "C2-P1-NB-193",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Saccharose và glucose đều có phản ứng"
+        ],
+        "opt_lines": [
+          "A. nước bromine.\tB. thuốc thử Tollens.\tC. hòa tan Cu(OH)2.\tD. thủy phân."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 194,
+        "id": "C2-P1-NB-194",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Dung dịch chất nào sau đây hòa tan Cu(OH)2, cho dung dịch có màu xanh lam?"
+        ],
+        "opt_lines": [
+          "A. Saccharose.\tB. Ethyl alcohol.\tC. Propane-1,3-diol.\tD. Acetic aldehyde."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 195,
+        "id": "C2-P1-NB-195",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các dung dịch sau: saccharose, glucose, glycerol, ethylene glycol, methanol. Số lượng dung dịch có thể hòa tan Cu(OH)2 là"
+        ],
+        "opt_lines": [
+          "A. 4.\tB. 5.\tC. 6.\tD. 3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 196,
+        "id": "C2-P1-NB-196",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các carbohydrate sau: glucose, fructose, saccharose và maltose. Số carbohydrate có khả năng mở vòng trong dung dịch nước là"
+        ],
+        "opt_lines": [
+          "A. 1.\tB. 2.\tC. 3.\tD. 4."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 197,
+        "id": "C2-P1-TH-197",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất X là chất dinh dưỡng, được dùng làm thuốc tăng lực cho người già, trẻ nhỏ và người ốm. Trong công nghiệp, X được điều chế bằng cách thủy phân chất Y. Chất Y là nguyên liệu để làm bánh kẹo, nước giải khát. Tên gọi của X, Y lần lượt là"
+        ],
+        "opt_lines": [
+          "A. glucose và cellulose.\tB. saccharose và tinh bột.",
+          "C. fructose và glucose.\tD. glucose và saccharose."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 198,
+        "id": "C2-P1-VD-198",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các phát biểu sau:",
+          "(a) Saccharose làm mất màu nước bromine.",
+          "(b) Saccharose tác dụng với Cu(OH)2 trong môi trường kiềm.",
+          "(c) Thủy phân saccharose thu được một loại monosacharide duy nhất.",
+          "(d) Saccharose có nhiều trong cây mía, củ cải đường, hoa thốt nốt.",
+          "Số phát biểu đúng là"
+        ],
+        "opt_lines": [
+          "A. 1.\tB. 2.\tC. 3.\tD. 4."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 199,
+        "id": "C2-P1-NB-199",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong công nghiệp sản xuất đường saccharose, người ta đã sử dụng phương pháp nào để tách saccharose ra khỏi dung dịch nước mía?"
+        ],
+        "opt_lines": [
+          "A. Chưng cất.\tB. Sắc kí.\tC. Kết tinh.\tD. Chiết."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 200,
+        "id": "C2-P1-VD-200",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một sinh viên tiến hành thí nghiệm thủy phân saccharose và kiểm tra xem dịch thủy phân có chứa glucose hay không thông qua các bước sau:",
+          "Bước 1: cho một lượng nhỏ saccharose nguyên chất vào nước để tạo thành dung dịch, đun sôi hỗn hợp trong vài phút và để nguội.",
+          "Bước 2: Thêm vào vài giọt thuốc thử Tollens vào dung dịch đã để nguội, đun nóng nhẹ. Tuy nhiên hiện tượng quan sát được không thấy xuất hiện kết tủa silver.",
+          "Nhận định nào dưới đây là đúng."
+        ],
+        "opt_lines": [
+          "A. Sản phẩm thủy phân saccharose không có chứa glucose nên không xảy ra phản ứng tráng bạc.",
+          "B. Thời gian đun nóng thí nghiệm chưa đủ nên không xảy ra phản ứng tráng bạc.",
+          "C. Phản ứng không xảy ra do saccharose chưa bị thủy phân.",
+          "D. Cần thêm dung dịch sodium hydroxide để làm xúc tác cho phản ứng thủy phân."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 201,
+        "id": "C2-P1-VD-201",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Thí nghiệm: Phản ứng của saccharose với Cu(OH)2",
+          "Chuẩn bị: Hóa chất: dung dịch CuSO4 5%, dung dịch NaOH 10%, dung dịch saccharose 5%. Dụng cụ: ống nghiệm. Tiến hành:",
+          "Bước 1: Cho khoảng 2 mL dung dịch NaOH 10% vào ống nghiệm. Sau đó, thêm khoảng 0,5 mL dung dịch CuSO4 5% vào, lắc nhẹ.",
+          "Bước 2: Cho khoảng 3 mL dung dịch saccharose 5% vào ống nghiệm, lắc đều.",
+          "Phát biểu nào sau đây sai?"
+        ],
+        "opt_lines": [
+          "A. Phản ứng xảy ra ở bước 2 là 2C12H22O11 + Cu(OH)2 (C12H21O11)2Cu + 2H2O.",
+          "B. Nếu thay dung dịch NaOH ở bước 1 bằng dung dịch KOH thì hiện tượng ở bước 2 vẫn tương tự.",
+          "C. Thí nghiệm trên chứng minh saccharose có tính chất của polyalcohol.",
+          "D. Ở bước 2, dung dịch thu được có màu xanh lam, sau đó chuyển sang màu đỏ gạch."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q201_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 202,
+        "id": "C2-P2-TH-202",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Saccharose được cấu tạo từ một đơn vị α-glucose và một đơn vị β-fructose. Công thức cấu tạo của saccharose như hình dưới:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Saccharose là một polysaccharide có công thức phân tử là C12H22O11.",
+          "b": "Các đơn vị α-glucose và β-fructose liên kết với nhau qua liên kết α-1,2-glycoside.",
+          "c": "Do được cấu tạo từ một đơn vị α-glucose và một đơn vị β-fructose, vì vậy saccharose có khả năng tham gia phản ứng với thuốc thử Tollens.",
+          "d": "Nhóm –OH ở vị trí C4 (đơn vị α-glucose) là nhóm –OH hemiacetal."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:S - b:Đ - c:S - d:S",
+        "solution": "a) Sai. ⚠️ Bẫy phân loại! Saccharose là một disaccharide (đường đôi) được cấu tạo từ 2 đơn vị đường đơn, không phải là polysaccharide.\nb) Đúng. Các đơn vị -glucose và -fructose liên kết với nhau qua liên kết đặc trưng là -1,2-glycoside.\nc) Sai. Dù được cấu tạo từ các đường đơn có tính khử, nhưng khi liên kết tạo saccharose, các nhóm chức đã bị \"khóa\" lại. Do không chứa nhóm  nên saccharose không phản ứng với thuốc thử Tollens.\nd) Sai. Trong phân tử saccharose hoàn toàn không còn nhóm  hemiacetal (đã bị triệt tiêu khi tạo liên kết glycoside), nhóm ở C4 chỉ là nhóm  alcohol bình thường.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q202_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 203,
+        "id": "C2-P2-TH-203",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phân tử maltose được tạo bởi hai đơn vị glucose, liên kết với nhau qua nguyên tử oxygen giữa C1 của đơn vị glucose này và C4 của đơn vị glucose kia. Công thức cấu tạo của maltose như hình dưới:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Maltose là một disaccharide có công thức phân tử là C12H22O11.",
+          "b": "Hai đơn vị glucose liên kết với nhau qua liên kết α-1,4-glycoside.",
+          "c": "Dạng mở vòng, maltose chứa nhóm –CH=O, vì vậy maltose có khả năng tham gia phản ứng với thuốc thử Tollens.",
+          "d": "Dạng mạch vòng, nhóm –OH ở vị trí C1 và C4 là nhóm –OH hemiacetal."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:Đ - c:Đ - d:S",
+        "solution": "a) Đúng. Maltose là một disaccharide (đường mạch nha) có cùng công thức phân tử với saccharose là .\nb) Đúng. Hai đơn vị -glucose liên kết với nhau qua nguyên tử oxygen tạo thành cầu nối -1,4-glycoside.\nc) Đúng. Nhờ còn 1 nhóm  hemiacetal tự do, maltose ở dạng mở vòng tái tạo được nhóm , do đó có khả năng tham gia phản ứng tráng gương (Tollens).\nd) Sai. ⚠️ Bẫy vị trí! Chỉ có nhóm  ở vị trí C1 (của gốc glucose thứ hai) mới là nhóm  hemiacetal. Nhóm ở C4 đã tham gia tạo liên kết glycoside.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q203_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 204,
+        "id": "C2-P2-TH-204",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cấu trúc phân tử saccharose và maltose được cho dưới đây:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Phân tử saccharose không còn nhóm –OH hemiacetal và nhóm –OH hemiketal.",
+          "b": "Phân tử saccharose và maltose đều không có khả năng mở vòng.",
+          "c": "Phân tử saccharose tạo bởi một đơn vị β-glucose và một đơn vị α-fructose, liên kết với nhau qua nguyên tử oxygen giữa C1 của đơn vị β-glucose và C4 của đơn vị α-fructose.",
+          "d": "Saccharose và maltose đều là các disaccharide."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:S - c:S - d:Đ",
+        "solution": "a) Đúng. Cấu trúc -1,2-glycoside đã khóa chặt vòng của cả glucose và fructose, khiến phân tử saccharose không còn cả nhóm  hemiacetal và  hemiketal.\nb) Sai. Saccharose bị \"khóa vòng\", nhưng maltose thì vẫn có khả năng mở vòng do còn giữ lại được 1 nhóm  hemiacetal tự do.\nc) Sai. ⚠️ Bẫy loạn thông tin! Phân tử saccharose tạo bởi -glucose và -fructose, liên kết với nhau qua nguyên tử oxygen giữa C1 của -glucose và C2 của -fructose.\nd) Đúng. Cả saccharose và maltose đều được cấu tạo từ 2 đơn vị monosaccharide nên thuộc loại disaccharide.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q204_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 205,
+        "id": "C2-P2-TH-205",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Saccharose monolaurate được tổng hợp bằng phản ứng ester hóa giữa saccharose (đường mía hoặc đường củ cải) với lauric acid, một acid béo no có nhiều trong dầu dừa. Saccharose monolaurate được sử dụng như một chất nhũ hóa và chất hoạt động bề mặt trong thực phẩm và mĩ phẩm. Saccharose monolaurate được đánh giá an toàn và thân thiện với môi trường. Công thức cấu tạo của saccharose monolaurate như sau:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Lauric acid có chứa 12 nguyên tử carbon trong phân tử.",
+          "b": "Saccharose monolaurate có đầu ưa nước là gốc saccharose và đuôi kị nước là gốc hydrocarbon có mạch carbon dài.",
+          "c": "Trong saccharose monolaurate, gốc laurate gắn với nguyên tử C số 2 ở gốc glucose.",
+          "d": "Thủy phân saccharose monolaurate trong môi trường acid thu được tối đa hai sản phẩm hữu cơ."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:Đ - c:S - d:S",
+        "solution": "a) Đúng. Đếm số C trên công thức cấu tạo của gốc laurate, ta thấy acid béo này có chứa đúng 12 nguyên tử carbon.\nb) Đúng. Saccharose có nhiều nhóm  phân cực nên đóng vai trò là \"đầu ưa nước\", còn gốc hydrocarbon dài của laurate không phân cực là \"đuôi kị nước\", giúp chất này làm chất nhũ hóa cực tốt.\nc) Sai. Nhìn vào công thức cấu tạo, gốc laurate gắn vào nguyên tử carbon số 6 (C6) của gốc glucose, không phải C2.\nd) Sai. ⚠️ Bẫy số lượng sản phẩm! Thủy phân saccharose monolaurate trong môi trường acid sẽ cắt đứt đồng thời cả liên kết ester và liên kết glycoside, thu được tối đa 3 sản phẩm hữu cơ: lauric acid, glucose và fructose.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q205_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 206,
+        "id": "C2-P2-VD-206",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tiến hành thí nghiệm theo các bước sau:",
+          "Bước 1: Cho khoảng 2 mL dung dịch NaOH 10% vào ống nghiệm. Sau đó, thêm khoảng 0,5 mL dung dịch CuSO4 5% vào, lắc nhẹ.",
+          "Bước 2: Cho khoảng 3 mL dung dịch saccharose 5% vào ống nghiệm, lắc đều."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Sau bước 2, kết tủa tan tạo thành dung dịch màu xanh lam.",
+          "b": "Thí nghiệm trên chứng minh saccharose có tính chất của aldehyde.",
+          "c": "Ở bước 2, nếu thay saccharose bằng maltose thì hiện tượng ở bước 2 xảy ra tương tự.",
+          "d": "Sau bước 2, nếu đun nóng thu được kết tủa Cu2O màu đỏ gạch."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:S - c:Đ - d:S",
+        "solution": "a) Đúng. Saccharose có nhiều nhóm  liền kề nên hòa tan được  tạo thành phức chất đồng - saccharose có màu xanh lam trong suốt.\nb) Sai. Thí nghiệm hòa tan  ở nhiệt độ thường dùng để chứng minh saccharose có tính chất của polyalcohol, hoàn toàn không chứng minh tính chất aldehyde.\nc) Đúng. Maltose cũng chứa nhiều nhóm  liền kề nên hiện tượng hòa tan  ở bước 2 xảy ra hoàn toàn tương tự.\nd) Sai. ⚠️ Bẫy tính khử! Saccharose bị khóa vòng, không có tính chất aldehyde nên dù đun nóng dung dịch màu xanh lam cũng không sinh ra được kết tủa  màu đỏ gạch.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 207,
+        "id": "C2-P2-TH-207",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một nhóm học sinh đã tiến hành thí nghiệm với 4 bình erlene có các thành phần tương ứng như sau:",
+          "Năm bình erlene sau đó được đậy kín bằng quả bóng bay. Sau khoảng 1 giờ, nhóm học sinh nhận thấy chỉ quả bóng bay ở bình 2 và bình 3 được thổi phồng, trong đó quả bóng ở bình 2 to hơn."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Thí nghiệm cho thấy nấm men không thể tự sinh ra khí nếu không được cung cấp nguồn carbohydrate.",
+          "b": "Bóng bay được thổi phồng nhờ hai quá trình: thuỷ phân saccharose và lên men glucose, fructose.",
+          "c": "Từ kết quả thí nghiệm, có thể kết luận: nhiệt độ càng cao, phản ứng lên men diễn ra càng nhanh.",
+          "d": "Nhiệt độ cao có thể làm giảm hoạt tính xúc tác của enzyme."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:Đ - c:S - d:Đ",
+        "solution": "a) Đúng. Dựa vào bình đối chứng 1 (chỉ có nấm men và nước ấm, không có saccharose), quả bóng bay không hề phồng lên, chứng tỏ vi sinh vật cần nguồn carbon (đường) để tạo khí.\nb) Đúng. Quá trình sinh khí trải qua hai nấc: Enzyme trong nấm men thủy phân saccharose thành glucose/fructose, sau đó tiếp tục lên men các monosaccharide này thành ethanol và khí  làm phồng bóng.\nc) Sai. ⚠️ Bẫy quy luật nhiệt độ! Ở bình 4 (nước nóng 80°C), nhiệt độ rất cao nhưng quả bóng không phồng. Suy ra nhiệt độ chỉ làm tăng tốc độ phản ứng ở một giới hạn nhất định (như bình 2 ở 40°C), quá cao sẽ làm hỏng enzyme.\nd) Đúng. Nhiệt độ cao (như 80°C) đã làm biến tính (luộc chín) các protein cấu tạo nên enzyme của nấm men, làm mất hoàn toàn hoạt tính xúc tác.",
+        "image_paths": [],
+        "tables": [
+          [
+            [
+              "STT",
+              "Bình 1",
+              "Bình 2",
+              "Bình 3",
+              "Bình 4",
+              "Bình 5"
+            ],
+            [
+              "Thành phần",
+              "Nấm men",
+              "Nấm men",
+              "Nấm men",
+              "Nấm men",
+              "Saccharose"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 208,
+        "id": "C2-P3-NB-208",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Maltose có công thức phân tử C12H22O11, cấu tạo từ hai đơn vị glucose qua liên kết α-1,4-glycoside. Ở dạng mạch vòng, tổng số nhóm –OH trong phân tử maltose là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "8",
+        "solution": "Đáp án:  8.\nCông thức maltose dạng mạch vòng:",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 209,
+        "id": "C2-P3-NB-209",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các phát biểu sau:",
+          "(a) Ở điều kiện thường, maltose và saccharose đều là những chất rắn, dễ tan trong nước.",
+          "(b) Saccharose bị hóa đen trong H2SO4 đặc.",
+          "(c) Trong công nghiệp dược phẩm, saccharose được dùng để pha chế thuốc.",
+          "(d) Maltose được sử dụng trong công nghiệp sản xuất bia.",
+          "Có bao nhiêu phát biểu đúng trong các phát biểu trên?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án:  4.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 210,
+        "id": "C2-P3-TH-210",
+        "part": "P3",
+        "level": "TH",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các phát biểu:",
+          "(a) Maltose được tạo ra chủ yếu do quá trình lên men glucose.",
+          "(b) Saccharose có cả cấu tạo dạng mạch hở và dạng mạch vòng.",
+          "(c) Mỗi phân tử maltose gồm 2 đơn vị β-glucose.",
+          "(d) Hai đơn vị glucose trong phân tử maltose liên kết với nhau bằng liên kết α-1,2-glycoside.",
+          "(e) Phân tử maltose không có nhóm –OH hemiacetal.",
+          "Có bao nhiêu phát biểu không đúng?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "5",
+        "solution": "Đáp án:  5.\n(a) Sai vì maltose tạo ra do quá trình thủy phân tinh bột.\n(b) Sai vì saccharose chỉ có cấu tạo dạng mạch vòng.\n(c) Sai vì mỗi phân tử maltose gồm 2 đơn vị α-glucose.\n(d) Sai vì hai đơn vị glucose trong phân tử maltose liên kết với nhau bằng liên kết α-1,4-glycoside.\n(e) Sai vì phân tử maltose có thể mở vòng do có nhóm hemiacetal.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 211,
+        "id": "C2-P3-TH-211",
+        "part": "P3",
+        "level": "TH",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong công nghiệp, saccharose được sử dụng làm nguyên liệu trong kĩ thuật tráng gương, tráng ruột phích theo sơ đồ:",
+          "Disaccharide  Monosaccharide  Bạc kim loại.",
+          "Trong quá trình trên, từ 1 mol saccharose tạo được tối đa bao nhiêu mol bạc kim loại?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án:  4.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q211_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q211_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 212,
+        "id": "C2-P3-VD-212",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Saccharose – Maltose",
+        "topic": "Saccharose – Maltose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong công nghiệp sản xuất đường, người ta tiến hành làm lạnh dung dịch saccharose bão hòa từ 80 °C xuống 20 °C để thu hoạch tinh thể đường. Biết độ tan của saccharose trong 100 gam nước ở 20 °C và 80 °C lần lượt là 204 gam và 362 gam. Để thu được đúng 500 kg tinh thể saccharose với hiệu suất kết tinh đạt 90% (giả sử nước bay hơi không đáng kể), nhà máy cần sử dụng khối lượng dung dịch saccharose bão hòa ở 80 °C tối thiểu là bao nhiêu kg? (Kết quả làm tròn đến hàng đơn vị)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "1625",
+        "solution": "Đáp án: 1625\n📝 Hướng dẫn giải\nỞ 80 °C, 100 gam nước hòa tan tối đa 362 gam saccharose, tạo thành 462 gam dung dịch bão hòa.\nKhi hạ nhiệt độ xuống 20 °C, lượng tinh thể lý thuyết tách ra từ 462 gam dung dịch này là:  gam.\nBiểu thức bấm máy tính gộp một dòng (tính ngược từ sản phẩm, chia cho hiệu suất):  kg (Làm tròn thành 1625 kg).",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 213,
+        "id": "C2-P1-NB-213",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cellulose thuộc loại polysaccharide, là thành phần chính tạo nên màng tế bào thực vật, có nhiều trong gỗ, bông gòn. Công thức của cellulose là"
+        ],
+        "opt_lines": [
+          "A. (C6H10O5)n.\tB. C12H22O11.\tC. C6H12O6.\tD. C2H4O2."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 214,
+        "id": "C2-P1-NB-214",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cellulose có cấu tạo mạch không phân nhánh, mỗi đơn vị C6H10O5 có 3 nhóm –OH, nên có thể viết là"
+        ],
+        "opt_lines": [
+          "A. [C6H5O2(OH)3]n.\t\tB. [C6H8O2(OH)3]n.",
+          "C. [C6H7O2(OH)3]n.\t\tD. [C6H7O3(OH)2]n."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 215,
+        "id": "C2-P1-NB-215",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong các chất dưới đây, chất nào được tạo thành từ đơn vị khác ngoài đơn vị glucose?"
+        ],
+        "opt_lines": [
+          "A. Maltose.\tB. Saccharose.\tC. Tinh bột.\tD. Cellulose."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 216,
+        "id": "C2-P1-NB-216",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Đun nóng tinh bột trong dung dịch acid vô cơ loãng sẽ thu được"
+        ],
+        "opt_lines": [
+          "A. cellulose.\tB. glucose.\tC. glycerol.\tD. ethyl acetate."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 217,
+        "id": "C2-P1-TH-217",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Thủy phân hoàn toàn tinh bột trong môi trường acid, thu được chất nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. Glucose.\tB. Saccharose.\tC. Ethyl alcohol.\tD. Fructose."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 218,
+        "id": "C2-P1-TH-218",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất nào sau đây bị thủy phân khi đun nóng trong môi trường acid?"
+        ],
+        "opt_lines": [
+          "A. Glycerol.\tB. Fructose.\tC. Glucose.\tD. Cellulose."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 219,
+        "id": "C2-P1-TH-219",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Sản phẩm cuối cùng của sự thủy phân tinh bột trong cơ thể người là"
+        ],
+        "opt_lines": [
+          "A. glucose.\tB. saccharose.\tC. glycogen.\tD. CO2 và H2O."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 220,
+        "id": "C2-P1-NB-220",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tinh bột là sản phẩm quang hóa của cây xanh và được dự trữ trong các loại hạt, củ, quả,… Trong các loại nông sản: hạt gạo, hạt lúa mạch, củ khoai lang, củ sắn, loại nào có chứa hàm lượng tinh bột cao nhất?"
+        ],
+        "opt_lines": [
+          "A. Hạt lúa mạch.\tB. Hạt gạo.\tC. Củ khoai lang.\tD. Củ sắn."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 221,
+        "id": "C2-P1-NB-221",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong tinh bột chứa khoảng 20% phần có khả năng tan trong nước, đó là"
+        ],
+        "opt_lines": [
+          "A. Amylopectin.\tB. Amylose.\tC. Glucose.\tD. Fructose."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 222,
+        "id": "C2-P1-NB-222",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Công thức cấu tạo dạng amylose của tinh bột là"
+        ],
+        "opt_lines": [
+          "A. \tB.",
+          "C. \tD."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q222_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q222_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q222_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q222_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 223,
+        "id": "C2-P1-TH-223",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong một thí nghiệm nghiên cứu, một sinh viên phát hiện nước ép của quả táo xanh chuyển sang màu xanh tím khi tiếp xúc với dung dịch iodine, trong khi nước ép của quả táo chín có thể tham gia phản ứng với thuốc thử Tollens. Phát biểu nào dưới đây là không đúng?"
+        ],
+        "opt_lines": [
+          "A. Nước ép của quả táo xanh có chứa tinh bột nên có phản ứng màu với iodine.",
+          "B. Nước ép của quả táo chín có chứa nhiều maltose nên tham gia phản ứng với thuốc thử Tollens.",
+          "C. Nước ép của quả táo chín có thể tham gia phản ứng với Cu(OH)2 đun nóng, cho kết tủa đỏ gạch.",
+          "D. Nước ép của quả táo chín có thể làm mất màu dung dịch bromine."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 224,
+        "id": "C2-P1-NB-224",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong quả chuối xanh có chứa chất X làm iodine chuyển thành màu xanh tím, trong quả chuối chín có chất Y có phản ứng tráng gương. Chất X, Y lần lượt là:"
+        ],
+        "opt_lines": [
+          "A. tinh bột, glucose.\tB. Saccharose, fructose.",
+          "C. Cellulose, glucose.\tD. Cellulose, fructose."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 225,
+        "id": "C2-P1-TH-225",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất X được tạo thành trong cây xanh nhờ quá trình quang hợp, điều kiện thường, X là chất rắn vô định hình. Thủy phân X nhờ xúc tác acid hoặc enzyme, thu được chất Y có ứng dụng làm thuốc tăng lực trong y học. Chất X và Y lần lượt là"
+        ],
+        "opt_lines": [
+          "A. tinh bột và glucose.\tB. tinh bột và saccharose.",
+          "C. cellulose và saccharose.\tD. saccharose và glucose."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 226,
+        "id": "C2-P1-TH-226",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất rắn X vô định hình, màu trắng, không tan trong nước nguội. Thủy phân X với xúc tác acid hoặc enzyme, thu được chất Y. Chất X và Y lần lượt là"
+        ],
+        "opt_lines": [
+          "A. tinh bột và glucose.\tB. tinh bột và saccharose.",
+          "C. cellulose và saccharose.\tD. saccharose và glucose."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 227,
+        "id": "C2-P1-TH-227",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất X được tạo thành trong cây xanh nhờ quá trình quang hợp. Thủy phân hoàn toàn X (xúc tác acid) thu được chất Y. Chất Y có nhiều trong quả nho chín nên còn được gọi là đường nho. Hai chất X và Y lần lượt là"
+        ],
+        "opt_lines": [
+          "A. Tinh bột và glucose.\tB. Cellulose và saccharose.",
+          "C. Cellulose và fructose.\tD. Tinh bột và saccharose."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 228,
+        "id": "C2-P1-NB-228",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Nhận định nào sau đây là sai về cấu tạo phân tử cellulose?"
+        ],
+        "opt_lines": [
+          "A. Mỗi mắt xích C6H10O5 trong phân tử có ba nhóm OH.",
+          "B. Phân tử được cấu tạo bởi các gốc β-glucose.",
+          "C. Liên kết giữa các gốc glucose là gọi là β-1,4-glycoside.",
+          "D. Có cấu trúc mạch phân nhánh."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 229,
+        "id": "C2-P1-TH-229",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Dãy các chất đều có khả năng tham gia phản ứng thủy phân trong dung dịch H2SO4 đun nóng là:"
+        ],
+        "opt_lines": [
+          "A. glucose, tinh bột và cellulose.\tB. saccharose, tinh bột và cellulose.",
+          "C. glucose, saccharose và fructose.\tD. fructose, saccharose và tinh bột."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 230,
+        "id": "C2-P1-NB-230",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ứng dụng nào sau đây của các carbohydrate là không đúng?"
+        ],
+        "opt_lines": [
+          "A. Trong y học, glucose được dùng làm thuốc tăng lực, saccharose dùng để pha chế thuốc.",
+          "B. Cellulose trinitrate là nguyên liệu để sản xuất tơ nhân tạo và chế tạo thuốc súng không khói.",
+          "C. Trong công nghiệp, tinh bột được dùng để sản xuất bánh kẹo, glucose, hồ dán,.",
+          "D. Glucose được sử dụng chủ yếu trong công nghiệp tráng gương, tráng ruột phích."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 231,
+        "id": "C2-P1-NB-231",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phương trình: 6nCO2 + 5nH2O (C6H10O5)n + 6nO2 là phản ứng hóa học chính của quá trình nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. quá trình hô hấp.\tB. quá trình quang hợp.",
+          "C. quá trình khử.\tD. quá trình oxi hóa."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q231_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 232,
+        "id": "C2-P1-TH-232",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho sơ đồ chuyển hóa: Cellulose X Y Z",
+          "Trong sơ đồ trên, các chất X, Y, Z lần lượt là"
+        ],
+        "opt_lines": [
+          "A. glucose, amino gluconate, gluconic acid.",
+          "B. glucose, ammonium gluconate, gluconic acid.",
+          "C. fructose, amino gluconate, gluconic acid.",
+          "D. fructose, ammonium gluconate, gluconic acid."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q232_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q232_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q232_img3.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 233,
+        "id": "C2-P1-NB-233",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho dãy phản ứng hóa học sau:",
+          "Các giai đoạn có thể thực hiện nhờ xúc tác acid là"
+        ],
+        "opt_lines": [
+          "A. (1), (2). \tB. (2), (3). \tC. (1), (4). \tD. (2), (4)."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q233_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 234,
+        "id": "C2-P1-VD-234",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các phát biểu sau:",
+          "(a) Hydrogen hóa hoàn toàn glucose tạo ra acid gluconic.",
+          "(b) Ở điều kiện thường, glucose và saccharose đều là những chất rắn, dễ tan trong nước.",
+          "(c) Cellulose trinitrate là nguyên liệu để sản xuất tơ nhân tạo và chế tạo thuốc súng không khói.",
+          "(d) Amylopectin trong tinh bột chỉ có các liên kết α-1,4-glycoside.",
+          "(e) Saccharose bị hóa đen trong H2SO4 đặc.",
+          "(f) Trong công nghiệp dược phẩm, saccharose được dùng để pha chế thuốc.",
+          "Trong các phát biểu trên, số phát biểu đúng là"
+        ],
+        "opt_lines": [
+          "A. 4.\tB. 3.\tC. 2.\tD. 5."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 235,
+        "id": "C2-P1-VD-235",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tiến hành thí nghiệm phản ứng của hồ tinh bột với iodine theo các bước sau đây:",
+          "Bước 1: Cho vài giọt dung dịch iodine vào ống nghiệm đựng sẵn 1 - 2 mL dung dịch hồ tinh bột (hoặc nhỏ vài giọt dung dịch iodine lên mặt cắt quả chuối xanh hoặc củ khoai lang tươi, sắn tươi).",
+          "Bước 2: Đun nóng dung dịch một lát, sau đó để nguội.",
+          "Phát biểu nào sau đây sai?"
+        ],
+        "opt_lines": [
+          "A. Ở bước 1, xảy ra phản ứng của iodine với tinh bột, dung dịch trong ống nghiệm chuyển sang màu xanh tím.",
+          "B. Nếu nhỏ vài giọt dung dịch iodine lên mặt cắt của quả chuối chín thì màu xanh tím cũng xuất hiện.",
+          "C. Ở bước 2, màu của dung dịch có sự biến đổi: xanh tím → không màu → xanh tím.",
+          "D. Do cấu tạo ở dạng xoắn có lỗ rỗng, tinh bột hấp phụ iodine cho màu xanh tím."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 236,
+        "id": "C2-P1-NB-236",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Số mắc xích của glucose có trong cellulose là 30000. Khối lượng phân tử trung bình của cellulose trong sợi bông là bao nhiêu (u)?"
+        ],
+        "opt_lines": [
+          "A. 25.000.\tB. 27.000.\tC. 4.860.000.\tD. 35.000"
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "Cách 1 (Tư duy từng bước):\nCông thức chung của cellulose là .\nKhối lượng của một mắt xích  là .\nVới hệ số polymer hóa , ta nhân lên:\nKhối lượng phân tử = .\nCách 2 (Bấm máy tính): .",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 237,
+        "id": "C2-P1-NB-237",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong 1 kg gạo chứa 81% tinh bột có số mắt xích –C6H10O5– là"
+        ],
+        "opt_lines": [
+          "A. 3,011.1024.\tB. 5,212.1024.\tC. 3,011.1021.\tD. 5,212.1021."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "Cách 1 (Tư duy từng bước):\nKhối lượng tinh bột nguyên chất =  gam.\nSố mol mắt xích  =  mol.\nTổng số mắt xích = Số mol  Hằng số Avogadro =  hạt.\nCách 2 (Bấm máy tính): .",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 238,
+        "id": "C2-P1-NB-238",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong cơ thể, tinh bột được chuyển hóa thành glucose và glucose cung cấp năng lượng cho tế bào theo phản ứng đơn giản hóa:",
+          "Giả thiết năng lượng từ tinh bột chiếm  tổng năng lượng thức ăn. Mỗi ngày, một học sinh lớp 12 cần năng lượng 8960 kJ thì nên ăn bao nhiêu gam tinh bột cho phù hợp?"
+        ],
+        "opt_lines": [
+          "A. 576 gam.\tB. 311 gam.\tC. 518 gam.\tD. 345 gam."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "Cách 1 (Tư duy từng bước):\nNăng lượng do tinh bột phải gánh vác:  kJ.\nSố mol glucose tương ứng cần đốt cháy:  mol.\nBảo toàn gốc carbon: 1 mắt xích tinh bột sinh ra 1 glucose. Nên số mol mắt xích tinh bột = 1,92 mol.\nKhối lượng tinh bột cần ăn =  gam.\nCách 2 (Bấm máy tính):  gam.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q238_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q238_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q238_img3.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 239,
+        "id": "C2-P1-NB-239",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong giấy A4, thành phần bột gỗ chiếm khoảng , còn lại là các chất phụ gia như chất làm đầy (calcium carbonate, kaolin), chất kết dính, chất tăng độ mịn, độ bóng, chất chống ẩm. Theo quy ước hiện nay, 1 ream giấy (còn gọi là ram hay gram) gồm 500 tờ. Định lượng giấy gsm (grams per square meter) là số gam giấy tính cho mỗi mét vuông.",
+          "Trong 1 ream giấy A4, khổ , định lượng 70 gsm, khối lượng bột gỗ là bao nhiêu kg, biết trong giấy có chứa  bột gỗ?"
+        ],
+        "opt_lines": [
+          "A. .\tB. .\tC. .\tD. ."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "Cách 1 (Tư duy từng bước):\nĐổi kích thước về mét: 0,21 m và 0,297 m.\nDiện tích 1 tờ A4 = 0,21×0,297 m2.\nTổng diện tích 500 tờ =  .\nKhối lượng của cả xấp giấy =  gam  kg.\nKhối lượng bột gỗ =  kg.\nCách 2 (Bấm máy tính):  kg.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q239_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q239_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q239_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q239_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q239_img5.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q239_img6.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q239_img7.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 240,
+        "id": "C2-P1-VD-240",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ethyl alcohol được điều chế bằng phương pháp sinh hóa theo sơ đồ:",
+          "(C6H10O5)nC6H12O6C2H5OH.",
+          "Từ 16,2 kg gạo (chứa 80% tinh bột) điều chế được V lít ethyl alcohol. Biết hiệu suất của cả quá trình là 75% và khối lượng riêng của ethyl alcohol nguyên chất là 0,8 g/mL. Giá trị của V gần nhất với giá trị nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. 6.\tB. 7.\tC. 8.\tD. 9."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "Cách 1 (Tư duy từng bước):\nKhối lượng tinh bột =  kg.\nSố mol (kmol) tinh bột =  kmol.\nSố mol ethanol lý thuyết =  kmol.\nKhối lượng ethanol thực tế =  kg.\nThể tích = Khối lượng / Khối lượng riêng =  lít.\nCách 2 (Bấm máy tính):  lít.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q240_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q240_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 241,
+        "id": "C2-P1-VD-241",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cồn sinh học được dùng làm nhiên liệu sạch, được sản xuất thông qua quá trình lên men các chất hữu cơ như tinh bột, cellulose. Tính khối lượng ethanol thu được từ 1 tấn mùn cưa chứa 45% cellulose về khối lượng. Biết hiệu suất cả quá trình đạt 70%."
+        ],
+        "opt_lines": [
+          "A. 0,1789 tấn.\tB. 0,077 tấn.\tC. 0,22 tấn.\tD. 0,004 tấn."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "(C6H10O5)n + nH2O  2nC2H5OH + 2nCO2\nCách 2 (Bấm máy tính):  tấn.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 242,
+        "id": "C2-P1-VD-242",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ethanol có thể được sản xuất từ cellulose hoặc tinh bột. Loại ethanol này được dùng để sản xuất xăng E5 (chứa 5% ethanol về thể tích). Lượng ethanol thu được từ 1 tấn mùn cưa (chứa 50% cellulose, phần còn lại là chất trơ) có thể dùng để pha chế bao nhiêu lít xăng E5? Biết hiệu suất quá trình sản xuất ethanol từ cellulose là 60% và ethanol có khối lượng riêng là 0,8 gam.mL–1."
+        ],
+        "opt_lines": [
+          "A. 4260 lít.\tB. 212,963 lít.\tC. 224 lít.\tD. 3407 lít."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "(C6H10O5)n + nH2O  2nC2H5OH + 2nCO2\nCách 2 (Bấm máy tính):  lít.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 243,
+        "id": "C2-P1-VD-243",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Củ sắn khô chứa 38% khối lượng là tinh bột, còn lại là các chất không có khả năng lên men thành ethyl alcohol. Lên men 1 tấn sắn khô với hiệu suất cả quá trình là 81%. Toàn bộ lượng ethyl alcohol sinh ra để điều chế xăng E5 (có chứa 5% về thể tích ethyl alcohol). Biết khối lượng riêng của ethanol là 0,8 g/mL, thể tích xăng E5 thu được sau pha trộn là"
+        ],
+        "opt_lines": [
+          "A. 218,5 lít.\tB. 4370 lít.\tC. 5430 lít.\tD. 534 lít."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "Cách 2 (Bấm máy tính):  lít.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 244,
+        "id": "C2-P1-VD-244",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ethyl alcohol được điều chế bằng cách lên men tinh bột theo sơ đồ:",
+          "Để điều chế 10 lít ethyl alcohol 46o cần m kg gạo (chứa 75% tinh bột, còn lại là tạp chất trơ). Biết hiệu suất của cả quá trình là 80% và khối lượng riêng của ethyl alcohol nguyên chất là 0,8 g/mL. Giá trị của m là"
+        ],
+        "opt_lines": [
+          "A. 3,600.\tB. 6,912.\tC. 10,800.\tD. 8,100."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "Cách 1 (Tư duy từng bước):\nThể tích cồn nguyên chất =  lít.\nKhối lượng cồn nguyên chất =  kg.\nSố mol cồn =  kmol.\nSố mol tinh bột lý thuyết =  kmol.\nKhối lượng tinh bột lý thuyết =  kg.\nKhối lượng gạo thực tế (chia hiệu suất, chia phần trăm) =  kg.\nCách 2 (Bấm máy tính):  kg.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q244_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 245,
+        "id": "C2-P1-VD-245",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cellulose trinitrate là chất dễ cháy và nổ mạnh, được dùng làm thuốc súng không khói. Để sản xuất 11,88 kg cellulose trinitrate cần dùng m kg dung dịch HNO3 60% tác dụng với cellulose dư. Biết hiệu suất của cả quá trình tổng hợp đạt 90%. Giá trị của m là"
+        ],
+        "opt_lines": [
+          "A. 12,6.\tB. 14,0.\tC. 16,8.\tD. 8,4."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "[(C6H7O2(OH)3]n + 3nHNO3  [C6H7O2(ONO2)3]n + 3nH2O\nCách 1 (Tư duy từng bước):\nSố mol cellulose trinitrate =  kmol.\nTheo phương trình, số mol HNO3 phản ứng =  kmol.\nKhối lượng HNO3 nguyên chất =  kg.\nKhối lượng dung dịch HNO3 60% =  kg.\nLượng đem dùng thực tế (do hiệu suất 90%) =  kg.\nCách 2 (Bấm máy tính):  kg.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 246,
+        "id": "C2-P2-TH-246",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "(THPT 2026) Cellulose và tinh bột đều có công thức chung là . Tinh bột gồm hai thành phần là amylose và amylopectin. Thuỷ phân hoàn toàn cellulose và tinh bột trong môi trường acid đun nóng, thu được glucose theo phương trình hoá học sau:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Cellulose và tinh bột đều là polymer tự nhiên (polymer thiên nhiên).",
+          "b": "Phản ứng thuỷ phân cellulose và tinh bột theo phương trình (1) là phản ứng cắt mạch polymer.",
+          "c": "Vì cellulose và tinh bột đều có công thức chung là  nên phân tử khối của cellulose và tinh bột đều bằng nhau.",
+          "d": "Cellulose và amylopectin đều cấu tạo từ các đơn vị glucose liên kết với nhau bằng các liên kết glycoside nên chúng đều có cấu tạo mạch polymer phân nhánh."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:Đ - c:S - d:S",
+        "solution": "a) Đúng. Cả hai hợp chất carbohydrate này đều được tổng hợp sinh học trong tự nhiên thông qua quá trình quang hợp diễn ra ở thực vật.\nb) Đúng. Môi trường acid đun nóng sẽ xúc tác bẻ gãy hàng loạt các liên kết , cắt đứt chuỗi polymer dài thành vô số các phân tử  đơn phân tử.\nc) Sai. Mặc dù dùng chung một công thức biểu diễn cơ sở, nhưng hệ số polymer hóa (chỉ số ) của  lớn hơn rất nhiều so với tinh bột dẫn đến phân tử khối trung bình hoàn toàn khác biệt.\nd) Sai. Phân tử  chỉ chứa các liên kết -1,4-glycoside nên cấu trúc mạch hoàn toàn không phân nhánh, chỉ có thành phần  của tinh bột mới có sự phân nhánh.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q246_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q246_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q246_img3.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 247,
+        "id": "C2-P2-VD-247",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tiến hành thí nghiệm theo các bước sau:",
+          "Bước 1: Cho vào ống nghiệm 2 mL dung dịch hồ tinh bột. Thêm tiếp 1 mL dung dịch H2SO4, lắc đều.",
+          "Bước 2: Đặt ống nghiệm vào cốc thủy tinh chứa cốc nước sôi, tiếp tục đun cách thủy trong khoảng 10 phút.",
+          "Bước 3: Thêm dần dung dịch NaOH vào ống nghiệm cho đến khi dung dịch bắt đầu chuyển sang môi trường kiềm (thử bằng cách dùng đũa thủy tinh chấm vào dung dịch, sau đó chấm vào mẩu giấy quỳ tím sao cho quỳ tím chuyển sang màu xanh). Thêm tiếp vào ống nghiệm 0,5 mL dung dịch NaOH và 1 mL dung dịch CuSO4. Kết tủa màu xanh xuất hiện.",
+          "Bước 4: Đun nóng ống nghiệm. Theo dõi sự thay đổi màu sắc kết tủa."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Sau bước 3, thêm dung dịch NaOH vào cốc thủy tinh để trung hòa acid H2SO4.",
+          "b": "Sau bước 4, kết tủa màu xanh (Cu(OH)2) chuyển dần sang kết tủa màu đỏ gạch.",
+          "c": "Từ hiện tượng ở bước 4, suy ra sản phẩm của phản ứng thủy phân hồ tinh bột ở bước 2 là fructose.",
+          "d": "Tinh bột cũng bị thủy phân nhờ các enzyme trong quá trình tiêu hóa thành dextrin (C6H10O5)x (x < n), maltose và glucose."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:Đ - c:S - d:Đ",
+        "solution": "(C6H10O5)n + nH2O  nC6H12O6 (glucose)\na) Đúng. NaOH được thêm vào để trung hoà H2SO4 sau phản ứng thủy phân, tạo môi trường kiềm cho bước sau.\nb) Đúng. Cu(OH)2 ban đầu tạo kết tủa màu xanh, khi đun nóng với glucose sinh ra sẽ xuất hiện kết tủa Cu2O màu đỏ gạch.\nc) Sai. Thủy phân tinh bột luôn thu được glucose, không phải fructose.\nd) Đúng. Trong tiêu hóa, tinh bột bị enzym phân hủy lần lượt thành dextrin (C6H10O5)x  (x < n), maltose và cuối cùng là glucose.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 248,
+        "id": "C2-P2-VD-248",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tiến hành thí nghiệm theo các bước sau:",
+          "Bước 1: Cho khoảng 5 mL dung dịch hồ tinh bột 1% vào ống nghiệm. Sau đó thêm khoảng 1 mL dung dịch HCl 1 M vào, lắc đều.",
+          "Bước 2: Đặt ống nghiệm vào cốc thủy tinh chứa cốc nước nóng, đun cách thủy trong khoảng 10 phút. Sau đó để nguội.",
+          "Bước 3: Thêm từ từ NaHCO3 vào đến khi ngừng sủi bọt khí.",
+          "Bước 4: Cho khoảng 2 mL dung dịch thu được vào ống nghiệm chứa Cu(OH)2 (được điều chế bằng cách cho 0,5 mL dung dịch CuSO4 5% vào 2 mL dung dịch NaOH 10%, lắc nhẹ). Sau đó đặt ống nghiệm vào cốc thủy tinh chứa nước nóng khoảng 5 phút."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Sau bước 3, thêm NaHCO3 vào ống nghiệm để loại bỏ acid HCl.",
+          "b": "Sau bước 4, kết tủa màu xanh bị hòa tan thu được dung dịch màu xanh lam",
+          "c": "Từ hiện tượng ở bước 4, suy ra sản phẩm của phản ứng thủy phân hồ tinh bột ở bước 2 là glucose.",
+          "d": "Ở bước 4, xảy ra phản ứng khử glucose bằng Cu(OH)2/OH–."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:S - c:Đ - d:S",
+        "solution": "(C6H10O5)n + nH2O  nC6H12O6 (glucose)\na) Đúng. Thêm  vào ống nghiệm để trung hòa và loại bỏ acid  còn dư.\nb) Sai. Khi đun nóng, kết tủa  sẽ phản ứng tạo kết tủa đỏ gạch , không phải tạo dung dịch màu xanh lam.\nc) Đúng. Sự xuất hiện của kết tủa  đỏ gạch chứng tỏ sản phẩm của phản ứng thủy phân có tính khử, chính là glucose.\nd) Sai. Glucose nhường electron nên nó là chất khử, còn  là chất bị khử (chất oxi hóa).",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 249,
+        "id": "C2-P2-VD-249",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tiến hành thí nghiệm theo các bước sau:",
+          "Bước 1: Cho một lượng nhỏ bông vào cốc thủy tinh, cho tiếp 5 mL dung dịch H2SO4 70%. Dùng đũa thủy tinh khuấy đều, sau đó đặt cốc thủy tinh vào chậu nước nóng và khuấy đều cho tới khi tạo dung dịch đồng nhất.",
+          "Bước 2: Để nguội, lấy khoảng 1 mL dung dịch trong cốc cho vào ống nghiệm. Thêm từ từ NaHCO3 vào ống nghiệm đến khi dừng sủi bọt khí.",
+          "Bước 3: Cho vào ống nghiệm 2 mL dung dịch NaOH 10%, sau đó thêm tiếp 1 mL dung dịch CuSO4 2%. Lắc đều và đun nóng ống nghiệm."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Sợi bông khiếm khoảng 90% cellulose về khối lượng.",
+          "b": "Ở bước 2, thêm NaHCO3 vào ống nghiệm để loại bỏ acid H2SO4.",
+          "c": "Ở bước 3, kết tủa màu xanh (Cu(OH)2) chuyển sang màu đỏ gạch (Cu2O), chứng tỏ sản phẩm thủy phân cellulose ở bước 1 là glucose.",
+          "d": "Ở bước 3, có thể thay dung dịch NaOH bằng dung dịch KOH."
+        },
+        "item_levels": {
+          "a": "VD",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:Đ - c:Đ - d:Đ",
+        "solution": "(C6H10O5)n + nH2O  nC6H12O6 (glucose)\na) Đúng. Sợi bông tự nhiên có thành phần chính là cellulose, chiếm khoảng 90% về khối lượng.\nb) Đúng. Thêm  vào ống nghiệm để trung hòa lượng acid  đặc còn sót lại.\nc) Đúng. Kết tủa  chuyển sang màu đỏ gạch  chứng tỏ sản phẩm thủy phân cellulose ở bước 1 chính là glucose.\nd) Đúng. Dung dịch  hoàn toàn có thể thay thế  để tạo ra kết tủa  trong thí nghiệm này.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 250,
+        "id": "C2-P2-VD-250",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tiến hành thí nghiệm theo các bước sau:",
+          "Bước 1: Cho vào cốc thủy tinh 4 mL dung dịch HNO3 đặc. Đặt cốc vào chậu nước đá. Thêm tiếp từ từ 8 mL dung dịch H2SO4 đặc. Khuấy đều bằng đũa thủy tinh.",
+          "Bước 2: Dàn mỏng bông thành lớp mỏng, rộng bằng cốc đáy thủy tinh. Cho bông vào cốc. Dùng đũa thủy tinh nhấn chìm khối bông xuống hỗn hợp acid.",
+          "Bước 3: Đặt cốc vào chậu nước nóng khoảng 60 – 70 oC trong khoảng 7 phút.",
+          "Bước 4: Gắp sản phẩm ra khỏi cốc, rửa sạch bằng dung dịch NaHCO3 và nước, sau đó ép khô bằng giấy lọc."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Sau bước 3, sản phẩm thu được có màu vàng.",
+          "b": "Cellulose phản ứng với hỗn hợp HNO3 đặc và H2SO4 đặc, tùy điều kiện mà một, hai hay cả 3 nhóm hydroxy này có thể phản ứng với HNO3 tạo thành cellulose nitrate.",
+          "c": "Ở bước 1, nếu thay cellulose bằng tinh bột thì vẫn thu được sản phẩm là cellulose nitrate.",
+          "d": "Sau bước 4, lấy sản phẩm thu được đốt cháy thấy có khói trắng xuất hiện."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:Đ - c:S - d:S",
+        "solution": "[C6H7O2(OH)3]n + 3nHNO3  [C6H7O2(ONO2)3]n (cellulose trinitrate) + 3nH2O\n[C6H7O2(OH)3]n + 2nHNO3  [C6H7O2(OH)(ONO2)3]n (cellulose dinitrate) + 2nH2O\na) Đúng. Sản phẩm cellulose nitrate (hay nitrocellulose) thu được thường có màu vàng nhạt.\nb) Đúng. Tùy thuộc vào điều kiện phản ứng, một, hai hay cả ba nhóm hydroxy () của cellulose đều có thể phản ứng với  để tạo thành ester nitric.\nc) Sai. Tinh bột không có cấu trúc sợi thẳng duỗi dài như cellulose nên không có cấu trúc phù hợp để tạo ra sản phẩm dai, bền như cellulose nitrate.\nd) Sai. Cellulose nitrate khi cháy rất sạch, không sinh ra khói trắng hay tàn (vì không chứa chất tạo khói), do đó được gọi là thuốc súng không khói.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 251,
+        "id": "C2-P2-VD-251",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong quá trình lên men tinh bột thành ethanol, nấm men là chất xúc tác giúp chuyển hóa glucose thành ethanol và khí CO2 trong điều kiện yếm khí (không có oxygen), quá trình lên men tỏa nhiệt. Từ 300 gam tinh bột, thực hiện quá trình lên men rượu trong phòng thí nghiệm, kết quả biểu diễn theo đồ thị sau:",
+          "Kết quả nghiên cứu nhận thấy:",
+          "- Tốc độ phản ứng tăng lên và dung dịch trở nên đặc và nhiệt độ dung dịch tăng dần.",
+          "- Sau ngày thứ 10, phản ứng hầu như dừng lại mặc dù trong dung dịch vẫn còn glucose chưa bị chuyển hóa hết."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Hiệu suất của quá trình lên men tại ngày thứ 10 là 60%.",
+          "b": "Từ 300 gam tinh bột, sau 12 ngày thực hiện quá trình lên men rượu trong phòng thí nghiệm thì thu được 2,5 mol ethyl alcohol.",
+          "c": "Ngoài ethanol, trong quá trình lên men, có thể sinh ra các sản phẩm phụ như acetaldehyde, acetic acid hoặc ethyl acetate tùy theo các điều kiện của quá trình lên men.",
+          "d": "Lên men rượu diễn ra trong điều kiện yếm khí, điều này là cần thiết để nấm men có thể hoạt động hiệu quả và tạo ra ethanol."
+        },
+        "item_levels": {
+          "a": "VD",
+          "b": "VD",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:S - b:S - c:Đ - d:Đ",
+        "solution": "a) Sai. Dựa vào tính toán từ đồ thị và 300 gam tinh bột ban đầu, hiệu suất tại ngày thứ 10 không đạt 60% (chỉ đạt khoảng 54%).\nb) Sai. Từ 300 gam tinh bột, số mol ethyl alcohol tối đa theo lý thuyết sinh ra phải lớn hơn. Theo đồ thị, sau 12 ngày số mol ethyl alcohol không đạt mức 2,5 mol.\nc) Đúng. Trong thực tế, lên men rượu có thể sinh ra các sản phẩm phụ như acetaldehyde, acetic acid hay ethyl acetate tùy theo nhiệt độ và chủng nấm men.\nd) Đúng. Quá trình lên men rượu bắt buộc phải diễn ra trong điều kiện yếm khí (không có oxygen) để nấm men hoạt động tạo ra ethanol thay vì sinh sôi nảy nở hoặc tạo giấm.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 252,
+        "id": "C2-P2-TH-252",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Enzyme amylase là một protein có khả năng xúc tác cho phản ứng thủy phân tinh bột. Hoạt tính xúc tác của enzyme càng cao thì phản ứng thủy phân tinh bột diễn ra càng nhanh. Hoạt tính xúc tác của enzyme phụ thuộc vào các yếu tố như nhiệt độ, pH,… Một nhóm học sinh dự đoán \" pH càng tăng thì hoạt tính xúc tác của enzyme amylase càng cao\". Từ đó, học sinh tiến hành thí nghiệm ở nhiệt độ không đổi nhưng thay đổi pH của môi trường để kiểm tra dự đoán trên như sau:",
+          "Buớc 1: Thêm 2,0 mL dung dịch một loại enzyme amylase vào một ống nghiệm chứa 5,0 mL dung dịch có vai trò duy trì ổn định pH bằng 5 .",
+          "Buớc 2: Thêm tiếp 2,0 mL dung dịch tinh bột vào ống nghiệm trên, lắc đều.",
+          "Buớc 3: Sau khoảng mỗi 10 giây, dùng ống hút lấy 1-2 giọt hỗn hợp phản ứng trong ống nghiệm và cho vào đĩa sứ chứa sẵn dung dịch iodine, quan sát để từ đó xác định thời gian tinh bột thủy phân hết.",
+          "Lặp lại thí nghiệm theo ba bước trên, chỉ thay đổi pH dung dịch trong Bước 1 lần lượt là 6, 7, 8, 9.",
+          "Nhóm học sinh ghi lại kết quả thời gian  (giây) mà tinh bột thủy phân hết trong môi trường pH = 5, 6, 7, 8, 9 và vẽ đồ thị như hình bên."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Ở Buớc 3 , nếu dung dịch iodine chuyển sang màu xanh tím nghĩa là tinh bột thủy phân hết.",
+          "b": "Theo số liệu thu được, phản ứng thủy phân tinh bột ở pH = 9 diễn ra nhanh hơn ở pH = 8.",
+          "c": "Ở các giá trị pH nghiên cứu, hoạt tính xúc tác của enzyme amylase cao nhất tại pH = 7.",
+          "d": "Từ kết quả thí nghiệm, kết luận được hoạt tính xúc tác của enzyme amylase tăng khi pH tăng."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:S - b:S - c:Đ - d:S",
+        "solution": "a) Sai. Dung dịch iodine chuyển sang màu xanh tím nghĩa là tinh bột chưa bị thủy phân hết (iodine vẫn còn gặp tinh bột).\nb) Sai. Nhìn vào đồ thị, ở pH = 8 thời gian thủy phân là 100 giây; ở pH = 9 thời gian là 180 giây. Thời gian càng dài nghĩa là phản ứng diễn ra càng chậm, do đó tại pH = 9 phản ứng chậm hơn pH = 8.\nc) Đúng. Tại pH = 7, thời gian thủy phân đạt mức thấp nhất (60 giây), chứng tỏ tốc độ phản ứng diễn ra nhanh nhất, hoạt tính enzyme cao nhất.\nd) Sai. Từ pH 5 đến 7, hoạt tính enzyme tăng; nhưng từ pH 7 đến 9, hoạt tính enzyme lại giảm sút rõ rệt. Không thể kết luận là tăng liên tục.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q252_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q252_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 253,
+        "id": "C2-P2-VD-253",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tại một nhà máy sản xuất rượu, cứ 10 tấn tinh bột (chứa 6,85% tạp chất trơ) sẽ sản xuất được 7,21 m³ dung dịch ethanol 40° (cho khối lượng riêng của ethanol nguyên chất là 0,789 g/cm³). Tinh bột là một polysaccharide gồm nhiều gốc α-glucose liên kết với nhau tạo ra hai dạng mạch amylose và amylopectin. Dưới đây là một đoạn cấu tạo của tinh bột:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Amylopectin có các gốc α-glucose liên kết với nhau bởi liên kết α-1,4-glycoside và α-1,6-glycoside.",
+          "b": "Tinh bột bị thủy phân hoàn toàn trong môi trường acid tạo thành glucose.",
+          "c": "Hiệu suất của quá trình sản xuất ethanol ở trên đạt 40% (làm tròn kết quả đến hàng đơn vị).",
+          "d": "Đoạn mạch trên có các gốc α-glucose được liên kết với nhau bằng liên kết α-1,4-glycoside."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "VD",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:Đ - c:S - d:Đ",
+        "solution": "a) Đúng. Amylopectin có cấu trúc mạch nhánh phức tạp, bao gồm cả liên kết -1,4-glycoside ở mạch thẳng và liên kết -1,6-glycoside ở các điểm rẽ nhánh.\nb) Đúng. Trong môi trường acid đun nóng, tinh bột bị cắt đứt mọi liên kết glycoside, thủy phân hoàn toàn tạo thành các phân tử glucose.\nc) Sai. Áp dụng công thức tính toán với 10 tấn tinh bột (93,15% nguyên chất) và 7,21  ethanol 40°, hiệu suất thực tế đạt 43%, không phải 40%.\nd) Đúng. Đoạn mạch thẳng hiển thị trong mô tả sử dụng liên kết -1,4-glycoside nối giữa các gốc -glucose liền kề.\n📘 Dữ kiện bài toán:\n\tTinh bột: 10.000 kg\n\tTạp chất: 6,85% → còn 93,15%\n\tEthanol thu được: 7210 L\n\tNồng độ ethanol: 40°\n\tKhối lượng riêng: 0.789 kg/L\n\t162 kg tinh bột → 92 kg ethanol",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q253_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 254,
+        "id": "C2-P3-NB-254",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cellulose là polymer thiên nhiên, có công thức phân tử là (C6H10O5)n. Phân tử cellulose tạo bởi nhiều đơn vị β-glucose. Số nhóm – OH trong một đơn vị β-glucose là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án:  3. Công thức cellulose: [C6H7O2(OH)3]n.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 255,
+        "id": "C2-P3-TH-255",
+        "part": "P3",
+        "level": "TH",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho sơ đồ sau:",
+          "CO2  (C6H10O5)n    C6H12O6   C2H5OH CH3COOH",
+          "Gán số thứ tự phương trình hóa học của các phản ứng theo tên gọi: lên men rượu, thủy phân, quang hợp, lên men giấm và sắp xếp theo trình tự thành dãy bốn số (ví dụ:  )."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3214",
+        "solution": "Đáp án:  3214.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q255_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q255_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q255_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q255_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q255_img5.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 256,
+        "id": "C2-P3-TH-256",
+        "part": "P3",
+        "level": "TH",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho sơ đồ chuyển hóa:",
+          "Biết X là monosaccharide; Y, Z là các hợp chất hữu cơ. Phân tử khối của Z là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "196",
+        "solution": "Đáp án:  196.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q256_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 257,
+        "id": "C2-P3-NB-257",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các phân tử: tinh bột, cellulose, saccharose, maltose, fructose và glucose. Có bao nhiêu phân tử có chứa liên kết glycoside?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án:  4. tinh bột, cellulose, saccharose, maltose",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 258,
+        "id": "C2-P3-TH-258",
+        "part": "P3",
+        "level": "TH",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho phương trình hóa học của các phản ứng được đánh số thứ tự từ 1 tới 4 dưới đây:",
+          "(1) (tinh bột)",
+          "(2)  (glucose)",
+          "(3)  (glucose)",
+          "(4)  (glucose)",
+          "Gán số thứ tự phương trình hóa học của các phản ứng theo tên gọi: lên men rượu, thủy phân, lên men lactic, tráng gương và sắp xếp theo trình tự thành dãy bốn số (ví dụ:  )."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2134",
+        "solution": "Đáp án:  2134.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q258_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q258_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q258_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q258_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q258_img5.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q258_img6.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q258_img7.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q258_img8.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q258_img9.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q258_img10.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 259,
+        "id": "C2-P3-NB-259",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cellulose trinitrate (hay nitrocellulose) là một chất dễ cháy, được sử dụng trong sản xuất thuốc súng không khói, chất nổ. Một đoạn mạch cellulose trinitrate có phân tử khối là 1782000 chứa bao nhiêu đơn vị -glucose?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "6000",
+        "solution": "Đáp án:  6000.\n📝 Hướng dẫn giải\nCách 1 (Tư duy từng bước): Mắt xích của cellulose trinitrate là  có khối lượng bằng 297. Ta thiết lập phương trình: . Giải ra .\nCách 2 (Bấm máy tính): Số mắt xích = .",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q259_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 260,
+        "id": "C2-P3-VD-260",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Từ m kg mùn cưa chứa 50% cellulose (còn lại là tạp chất trơ) sản xuất được 80 kg glucose với hiệu suất toàn bộ quá trình là 80%. Tính giá trị của m?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "180",
+        "solution": "Đáp án:  180\n📝 Hướng dẫn giải\n(C6H10O5)n + nH2O  nC6H12O6 (glucose)\nCách 1 (Tư duy từng bước):\nSố mol glucose thu được =  kmol.\nVì 1 mắt xích cellulose sinh ra 1 glucose, số mol cellulose lý thuyết cần dùng =  kmol.\nKhối lượng cellulose lý thuyết =  kg.\nKhối lượng cellulose thực tế (do hiệu suất 80%) =  kg.\nKhối lượng mùn cưa đem dùng (chứa 50% cellulose) =  kg.\nCách 2 (Bấm máy tính):\nGiải thích:\n\t là khối lượng cellulose tinh khiết\n\tChia cho 162 → số mol cellulose\n\tNhân 180 → khối lượng glucose lý thuyết\n\tNhân hiệu suất 80% → khối lượng glucose thực tế: 80 kg",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 261,
+        "id": "C2-P3-VD-261",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Người ta sản xuất rượu vang từ nho với hiệu suất 95%. Biết trong loại nho này chứa 60% glucose, khối lượng riêng của ethanol là 0,8 g/mL. Để sản xuất 100 lít rượu vang 15o cần khối lượng x kg nho. Giá trị của x bằng bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "41,2",
+        "solution": "Đáp án:  41,2\n📝 Hướng dẫn giải\nCách 1 (Tư duy từng bước):\nThể tích cồn nguyên chất =  lít.\nKhối lượng cồn =  kg.\nSố mol cồn =  kmol  Số mol glucose lý thuyết =  kmol.\nKhối lượng glucose thực tế (H=95%) =  kg.\nKhối lượng nho cần dùng (60% glucose) =  kg.\nCách 2 (Bấm máy tính):\n💡 Giải thích nhanh:\n\t: khối lượng glucose có trong nho\n\tChia 180 → số mol glucose\n\tNhân 92 → khối lượng ethanol lý thuyết\n\tNhân 95% → khối lượng ethanol thực tế\n\tVế phải: khối lượng ethanol trong 100 L rượu vang 15°, D = 0,8",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 262,
+        "id": "C2-P3-VD-262",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Từ 405 kg tinh bột (chứa 20% tạp chất trơ) sản xuất được m kg glucose với hiệu suất toàn bộ quá trình là 80%. Giá trị của m là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "288",
+        "solution": "Đáp án:  288.\n📝 Hướng dẫn giải\n(C6H10O5)n + nH2O → nC6H12O6\nCách 2 (Bấm máy tính):\n\t: lượng tinh bột tinh khiết (loại bỏ tạp chất)\n\tChia 162: đổi ra mol tinh bột\n\tNhân 180: khối lượng glucose lý thuyết\n\tNhân 80%: lấy hiệu suất thực tế\n\tKết quả là m (kg glucose thực tế)",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 263,
+        "id": "C2-P3-VD-263",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Để sản xuất 150 lít cồn y tế 70o người ta cần lên men tối thiểu m kg glucose. Biết hiệu suất của quá trình lên men là 80%, khối lượng riêng của ethanol là 0,8 g/mL. Giá trị của m bằng bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "205",
+        "solution": "Đáp án:  205\n📝 Hướng dẫn giải\nCách 2 (Bấm máy tính):\n\tm180: mol glucose\n\t× 92: khối lượng ethanol lý thuyết\n\t× 80%: hiệu suất thực tế\n\tVế phải: khối lượng ethanol trong 150 L cồn 70°",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 264,
+        "id": "C2-P3-VD-264",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tại một nhà máy rượu, cứ 10 tấn tinh bột (chứa 6,85% tạp chất trơ) sẽ sản xuất được 7,21 m3 ethanol 40o (cho khối lượng riêng của ethanol nguyên chất là 0,789 g/cm3). Hiệu suất của quá trình sản xuất là H%. Giá trị của H là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "43",
+        "solution": "Đáp án:  43\n📝 Hướng dẫn giải\nCách 1 (Tư duy từng bước):\nLượng tinh bột nguyên chất m =  kg   kmol.\nKhối lượng ethanol thực tế m =  kg   kmol.\nHiệu suất .\nCách 2 (Bấm máy tính):",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 265,
+        "id": "C2-P3-VD-265",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Dùng m kg bột gạo chứa 80% tinh bột cần dùng trong quá trình lên men để sản xuất 1000 bình 5 lít ethanol 70o (biết hiệu suất của cả quá trình là 72% và khối lượng riêng của ethanol nguyên chất là 0,8 g/mL). Giá trị của m là bao nhiêu? Kết quả làm tròn đến hàng đơn vị."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "8560",
+        "solution": "Đáp án:  8560\n📝 Hướng dẫn giải\nCách 2 (Bấm máy tính):\n\t: tinh bột thật có trong bột gạo\n\tChia 162 → mol tinh bột\n\tNhân 92 → khối lượng ethanol lý thuyết\n\tNhân 72% → khối lượng ethanol thực tế\n\tVế phải: khối lượng ethanol trong 5000 L 70º",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 266,
+        "id": "C2-P3-VD-266",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Tinh bột – Cellulose",
+        "topic": "Tinh bột – Cellulose",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cellulose trinitrate được dùng để chế tạo celluloid là một loại vật liệu để sản xuất nhạc cụ, thiết bị văn phòng, thân bút máy,... Phản ứng điều chế cellulose trinitrate được thực hiện theo phương trình hóa học sau:",
+          "[C6H7O2(OH)3]n + 3nHNO3  [C6H7O2(ONO2)3]n + 3nH2O",
+          "Giả sử hiệu suất của phản ứng đạt 65%. Từ 2 tấn cellulose có thể điều chế được bao nhiêu tấn cellulose trinitrate? (Làm tròn kết quả đến hàng phần trăm)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2,38",
+        "solution": "Đáp án:  2,38.\n📝 Hướng dẫn giải\nCách 2 (Bấm máy tính): Khối lượng =  tấn.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c2_q266_img1.png"
+        ],
+        "tables": []
       }
     ]
   },
