@@ -16931,7 +16931,7 @@
       "Amino acid",
       "Peptide – Protein – Enzyme"
     ],
-    "total_questions": 204,
+    "total_questions": 349,
     "questions": [
       {
         "seq_num": 1,
@@ -22855,6 +22855,3528 @@
         "answer": "658",
         "id": "C3-P3-VD-204",
         "solution": "Đáp số 658.\nHiệu suất tổng:"
+      },
+      {
+        "q_num": 205,
+        "id": "C3-P1-NB-205",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Khi thay thế một hay nhiều nguyên tử …(1)… trong phân tử ammonia bằng một hay nhiều gốc …(2)… thu được amine. Nội dung phù hợp trong các chỗ trống (1), (2) lần lượt là:"
+        ],
+        "opt_lines": [
+          "A. hydrogen, amino.\t\tB. nitrogen, amino.",
+          "C. hydrogen, hydrocarbon.\tD. nitrogen, hydrocarbon."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 206,
+        "id": "C3-P1-NB-206",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Nhóm chức nào sau đây là đặc trưng cho amine?"
+        ],
+        "opt_lines": [
+          "A. –OH.\tB. –COOH.\tC. –NH2.\tD. –CH3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 207,
+        "id": "C3-P1-NB-207",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Công thức chung của amine no, đơn chức, mạch hở là"
+        ],
+        "opt_lines": [
+          "A. CnH2n–5N (n ≥ 6).\tB. CnH2n+1N (n ≥ 2).\tC. CnH2n–1N (n ≥ 2).\tD. CnH2n+3N (n ≥1)."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 208,
+        "id": "C3-P1-NB-208",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất nào sau đây thuộc loại amine bậc ba?"
+        ],
+        "opt_lines": [
+          "A. C2H5–NH2.\tB. (CH3)3N.\tC. CH3–NH–CH3.\tD. C6H5NH2."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 209,
+        "id": "C3-P1-TH-209",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Số đồng phân cấu tạo của amine bậc một có cùng công thức phân tử C4H11N là"
+        ],
+        "opt_lines": [
+          "A. 4.\tB. 5.\tC. 2.\tD. 3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 210,
+        "id": "C3-P1-NB-210",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Số arylamine bậc một ứng với công thức phân tử C7H9N là"
+        ],
+        "opt_lines": [
+          "A. 3.\tB. 2.\tC. 5.\tD. 4."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 211,
+        "id": "C3-P1-NB-211",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Công thức phân tử của dimethylamine là"
+        ],
+        "opt_lines": [
+          "A. C2H8N2.\tB. C2H7N.\tC. C4H11N\tD. C2H6N2."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 212,
+        "id": "C3-P1-NB-212",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất X có công thức CH3NH2. Tên gọi của X là"
+        ],
+        "opt_lines": [
+          "A. trimethylamine.\tB. ethylamine.\tC. methylamine.\tD. dimethylamine."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 213,
+        "id": "C3-P1-NB-213",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trimethylamine có phân tử khối bằng bao nhiêu amu?"
+        ],
+        "opt_lines": [
+          "A. 31.\tB. 45.\tC. 59.\tD. 73."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 214,
+        "id": "C3-P1-NB-214",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Hợp chất CH3NHCH3 có tên là"
+        ],
+        "opt_lines": [
+          "A. propylamine.\tB. diethylamine.\tC. ethylmethylamine.\tD. dimethylamine."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 215,
+        "id": "C3-P1-NB-215",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tên gọi và bậc của amine có công thức cấu tạo CH3CH2CH(CH3)CH2–NH2 là"
+        ],
+        "opt_lines": [
+          "A. 3–methylbutan–4–amine, bậc một.\tB. 2–methylbutan–l–amine, bậc hai.",
+          "C. 3–methylbutan–4–amine, bậc hai.\tD. 2–methylbutan–l–amine, bậc một."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 216,
+        "id": "C3-P1-NB-216",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong các tên gọi dưới đây, tên nào phù hợp với chất (CH3)2CHNH2?"
+        ],
+        "opt_lines": [
+          "A. Methylethylamine.\tB. Ethylmethylamine.\tC. Isopropanamine.\tD. Isopropylamine."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 217,
+        "id": "C3-P1-NB-217",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong các tên gọi sau tên gọi nào phù hợp với chất C6H5CH2NH2?"
+        ],
+        "opt_lines": [
+          "A. Benzylamine.\tB. Benzenamine.\tC. Phenylamine.\tD. Aniline."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 218,
+        "id": "C3-P1-NB-218",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Mùi tanh của cá là hỗn hợp các amine và một số tạp chất khác. Để khử mùi tanh của cá trước khi chế biến thực phẩm, nên áp dụng cách nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. Ngâm cá trong nước để amine tan vào nước.",
+          "B. Rửa cá bằng giấm ăn.",
+          "C. Rửa cá bằng dung dịch soda (Na2CO3).",
+          "D. Rửa cá bằng dung dịch nước muối."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 219,
+        "id": "C3-P1-NB-219",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Amine nào sau đây không tạo được liên kết hydrogen giữa các phân tử?"
+        ],
+        "opt_lines": [
+          "A. CH3NH2.\tB. CH3NHCH3.\tC. C6H5CH2NH2\tD. (CH3)3N."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 220,
+        "id": "C3-P1-NB-220",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất phản ứng với dung dịch FeCl3 cho kết tủa là"
+        ],
+        "opt_lines": [
+          "A. CH3NH2.\tB. CH3COOCH3.\tC. CH3OH.\tD. CH3COOH."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 221,
+        "id": "C3-P1-NB-221",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ethylamine tác dụng được với chất nào sau đây trong dung dịch?"
+        ],
+        "opt_lines": [
+          "A. K2SO4.\tB. NaOH.\tC. HCl.\tD. KCl."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 222,
+        "id": "C3-P1-NB-222",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho dung dịch methylamine phản ứng với dung dịch nào sao đây tạo được kết?"
+        ],
+        "opt_lines": [
+          "A. NaCl.\tB. Ba(NO3)2.\tC. FeCl3.\tD. K2SO4."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 223,
+        "id": "C3-P1-NB-223",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Methylamine hay ethylamine tác dụng với Cu(OH)2 tạo dung dịch phức chất có màu."
+        ],
+        "opt_lines": [
+          "A. tím.\tB. trắng.\tC. nâu đỏ.\tD. xanh lam."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 224,
+        "id": "C3-P1-NB-224",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Methylamine phản ứng với HNO2 tạo thành hợp chất hữu cơ là"
+        ],
+        "opt_lines": [
+          "A. CH3–O–N=O.\tB. CH3–O–CH3.\tC. CH3OH.\tD. CH3CHO."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 225,
+        "id": "C3-P1-NB-225",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Methylamine phản ứng với HNO2 tạo thành khí"
+        ],
+        "opt_lines": [
+          "A. NH3.\tB. N2.\tC. H2.\tD. C2H6."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 226,
+        "id": "C3-P1-TH-226",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho sơ đồ phản ứng: C6H5–NH2 + 3Br2 (X) + 3HBr. (X) là chất kết tủa màu trắng. Tên gọi của (X) là"
+        ],
+        "opt_lines": [
+          "A. bromoaniline.\tB. 2,4,6–tribromoaniline.",
+          "C. 1,3,5–tribromoaniline.\tD. tribromoaniline."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q226_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 227,
+        "id": "C3-P1-NB-227",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Nhỏ vài giọt nước bromine vào ống nghiệm chứa aniline, hiện tượng quan sát được là"
+        ],
+        "opt_lines": [
+          "A. xuất hiện màu xanh.\tB. xuất hiện màu tím.",
+          "C. có kết tủa màu trắng.\tD. có bọt khí thoát ra."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 228,
+        "id": "C3-P1-VD-228",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "(TNTHPT 2025) Cho các phát biểu sau về tính chất của methylamine:",
+          "(a) Methylamine làm giấy quỳ tím ẩm hóa đỏ.",
+          "(b) Methylamine phản ứng được với HCl trong dung dịch.",
+          "(c) Methylamine không phản ứng được với dung dịch FeCl₃ ở điều kiện thường.",
+          "(d) Dung dịch methylamine phản ứng được với Cu(OH)₂.",
+          "Số phát biểu đúng là"
+        ],
+        "opt_lines": [
+          "A. 4.\tB. 3.\tC. 2.\tD. 1."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 229,
+        "id": "C3-P1-NB-229",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Alkylamine được điều chế từ ammonia và dẫn xuất halogen, nếu tỉ lệ mol giữa ammonia và dẫn xuất halogen là 1: 1 thì amine thu được có bậc mấy?"
+        ],
+        "opt_lines": [
+          "A. Bậc một.\tB. Bậc hai.\tC. Bậc ba.\tD. Bậc bốn."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 230,
+        "id": "C3-P1-TH-230",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho sơ đồ phản ứng: NH3  X  Y  Z. Biết Z có khả năng tham gia phản ứng tráng bạc. Hai chất Y và Z lần lượt là:"
+        ],
+        "opt_lines": [
+          "A. CH3OH, HCHO.\tB. C2H5OH, CH3CHO.\tC. CH3OH, HCOOH.\tD. C2H5OH, HCHO."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q230_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q230_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q230_img3.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 231,
+        "id": "C3-P1-NB-231",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Aniline và các “…….” thường được điều chế bằng cách khử hợp chất nitrobenzene (hoặc dẫn xuất nitro tương ứng) bởi một số kim loại (Zn, Fe) trong dung dịch HCl. Điền từ hoặc cụm từ thích hợp vào khoảng trống trên."
+        ],
+        "opt_lines": [
+          "A. alkylamine.\tB. arylamine.\tC. hydrocarbon thơm.\tD. alkane."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 232,
+        "id": "C3-P2-TH-232",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Quan sát bảng thông tin về nhiệt độ sôi và độ tan của amine:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Tất cả các amine trong bảng đều tan tốt trong nước do tạo liên kết hydrogen mạnh.",
+          "b": "Aniline có nhiệt độ sôi cao nhất do có khối lượng phân tử lớn và khả năng tạo liên kết hydrogen mạnh nhất.",
+          "c": "Trimethylamine có độ tan kém hơn methylamine do không có nguyên tử H liên kết trực tiếp với N để hình thành liên kết hydrogen.",
+          "d": "Tính base và độ tan trong nước tỉ lệ nghịch với nhau."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:S - b:S - c:Đ - d:S",
+        "solution": "a) Sai. Bẫy khái quát hóa: Không phải tất cả amine đều tan tốt,  (aniline) ít tan trong nước do chứa gốc phenyl kị nước rất cồng kềnh.\nb) Sai. Bẫy nguyên nhân: Aniline có khối lượng phân tử lớn nhưng khả năng tạo liên kết hydrogen yếu hơn các alkylamine bậc một do vòng benzene làm giảm mật độ electron trên nguyên tử .\nc) Đúng. Phân tử  là amine bậc ba, không còn nguyên tử  liên kết trực tiếp với nguyên tử  nên không tạo được liên kết hydrogen với nước tốt như .\nd) Sai. Bẫy tỉ lệ: Tính base phụ thuộc vào hiệu ứng đẩy/hút electron của gốc hydrocarbon, trong khi độ tan phụ thuộc vào khả năng tạo liên kết hydrogen và tính phân cực, chúng không tỉ lệ nghịch tuyệt đối.",
+        "image_paths": [],
+        "tables": [
+          [
+            [
+              "Chất",
+              "Nhiệt độ sôi (°C)",
+              "Độ tan trong nước (g/100g H₂O)"
+            ],
+            [
+              "CH₃NH₂",
+              "–6",
+              "100 g"
+            ],
+            [
+              "(CH₃)₂NH",
+              "7",
+              "30"
+            ],
+            [
+              "(CH₃)₃N",
+              "3",
+              "15"
+            ],
+            [
+              "C₆H₅NH₂ (aniline)",
+              "184",
+              "3,7"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 233,
+        "id": "C3-P2-TH-233",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Nhiệt độ nóng chảy, nhiệt độ sôi, độ tan trong nước của một số amine được thể hiện trong bảng dưới đây:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Methylamine, ethylamine, dimethylamine và trimethylamine là những chất khí.",
+          "b": "Ở điều kiện thường, aniline là chất lỏng, ít tan trong nước.",
+          "c": "Amine có nhiệt độ sôi cao hơn hydrocarbon có cùng số nguyên tử carbon hoặc có phân tử khối tương đương.",
+          "d": "Tất cả các amine đều tan nhiều trong nước tương tự ammonia nhờ tạo được liên kết hydrogen với nước."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "NB",
+          "c": "NB",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:Đ - c:Đ - d:S",
+        "solution": "a) Đúng. Các chất: CH₃NH₂, CH₃CH₂NH₂, CH₃NHCH₃, (CH₃)₃N đều có nhiệt độ sôi thấp hơn 25°C → ở điều kiện thường (25°C), chúng tồn tại ở trạng thái khí.\nb) Đúng. Nhiệt độ sôi của aniline là 184°C > 25°C > Nhiệt độ nóng chảy của aniline → tồn tại ở dạng chất lỏng. Độ tan trong nước là 3,7 g/100g H₂O → thuộc loại ít tan.\nc) Đúng. Do amine có thể tạo liên kết hydrogen, trong khi hydrocarbon không tạo liên kết hydrogen → nên amine sôi ở nhiệt độ cao hơn.\nd) Sai. Khi số nguyên tử C trong gốc hydrocarbon tăng thì độ tan của các amine giảm",
+        "image_paths": [],
+        "tables": [
+          [
+            [
+              "Amine",
+              "Nhiệt độ nóng chảy (oC)",
+              "Nhiệt độ sôi (oC)",
+              "Độ tan trong nước ở"
+            ],
+            [
+              "CH3NH2",
+              "–95",
+              "–6",
+              "Tan nhiều"
+            ],
+            [
+              "CH3CH2NH2",
+              "–81",
+              "17",
+              "Tan nhiều"
+            ],
+            [
+              "C6H5NH2 (aniline)",
+              "–6",
+              "184",
+              "3,7"
+            ],
+            [
+              "CH3NHCH3",
+              "–93",
+              "7",
+              "Tan nhiều"
+            ],
+            [
+              "(CH3)3N",
+              "–117",
+              "3",
+              "Tan nhiều"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 234,
+        "id": "C3-P2-TH-234",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho hằng số phân li base (KC) của một số amine trong dung môi nước ở 25 oC:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Tính base tăng dần theo thứ tự: aniline < methylamine < dimethylamine.",
+          "b": "Do ảnh hưởng của nhóm – NH2 gây nên tính base yếu của aniline.",
+          "c": "Có thể biết ba chất trên bằng thuốc thử là quỳ tím và acid HNO2.",
+          "d": "Cả ba chất trên đều tác dụng được với nitrous acid (HNO2) sinh ra khí N2."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:S - c:Đ - d:S",
+        "solution": "a) Đúng. Dựa vào hằng số , giá trị  tương ứng với tính base tăng dần theo trật tự: aniline < methylamine < dimethylamine.\nb) Sai. Bẫy nguyên nhân: Tính base yếu của aniline là do gốc phenyl () có hiệu ứng hút electron làm giảm mật độ electron trên nguyên tử , không phải do nhóm .\nc) Đúng. Có thể dùng quỳ tím nhận biết được aniline (không đổi màu) và dùng  để phân biệt methylamine (tạo khí ) với dimethylamine (không tạo khí ).\nd) Sai. Bẫy phân loại: Chỉ có amine bậc một như methylamine mới tác dụng với  sinh khí , còn dimethylamine (bậc hai) và aniline (tạo muối diazonium) không sinh khí .",
+        "image_paths": [],
+        "tables": [
+          [
+            [
+              "Chất",
+              "Methylamine",
+              "Aniline",
+              "Dimethylamine"
+            ],
+            [
+              "KC",
+              "10−3,38",
+              "10−9,4",
+              "10−3,23"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 235,
+        "id": "C3-P2-VD-235",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tiến hành thí nghiệm theo các bước sau:",
+          "Bước 1: Cho 2 mL dung dịch methylamine 0,1 M vào ống nghiệm, thêm tiếp 1 giọt phenolphthalein.",
+          "Bước 2: Nhỏ từ từ 2 mL dung dịch HCl 0,1 M vào ống nghiệm."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Ở bước 1, dung dịch chuyển sang màu hồng do methylamine có tính base.",
+          "b": "Ở bước 2, dung dịch chuyển sang không màu do methylamine tác dụng với acid HCl thu được sản phẩm hữu cơ là methylammonium chloride.",
+          "c": "Thí nghiệm trên chứng minh các amine có tính base.",
+          "d": "Ở bước 1, nếu thay methylamine bằng aniline thì hiện tượng ở bước 1 và bước 2 tương tự"
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:Đ - c:Đ - d:S",
+        "solution": "(1) CH3NH2 + H2O  CH3NH3+ + OH–\n(2) CH3NH2 + HCl  CH3NH3Cl\na) Đúng. Dung dịch methylamine có tính base, tạo môi trường kiềm mạnh làm dung dịch phenolphthalein từ không màu chuyển sang màu hồng.\nb) Đúng. Phản ứng tạo ra muối methylammonium chloride () trung hòa hoàn toàn lượng base, làm mất môi trường kiềm nên dung dịch trở lại trạng thái không màu.\nc) Đúng. Sự đổi màu chất chỉ thị và phản ứng trung hòa tạo muối với acid  là những minh chứng thực nghiệm kinh điển cho tính base của amine.\nd) Sai. Bẫy tính chất: Aniline là một base rất yếu, hoàn toàn không đủ khả năng làm dung dịch phenolphthalein chuyển sang màu hồng ở ngay bước 1.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 236,
+        "id": "C3-P2-VD-236",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tiến hành thí nghiệm theo các bước sau:",
+          "Bước 1: Cho khoảng 2 mL dung dịch CuSO4 0,1 M vào ống nghiệm.",
+          "Bước 2: Thêm từ từ dung dịch methylamine vào ống nghiệm, lắc đều."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Sản phẩm hữu cơ thu được ở bước 2 là methylammonium sulfate.",
+          "b": "Ở bước 2, lúc đầu xuất hiện kết tủa xanh, sau đó kết tủa tan thu được dung dịch xanh lam.",
+          "c": "Methylamine và ethylamine có phản ứng tạo phức với Cu(OH)2.",
+          "d": "Ở bước 1, nếu thay dung dịch CuSO4 bằng FeCl3, thì kết tủa thu được cũng bị hòa tan trong dung dịch methylamine dư."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:Đ - c:Đ - d:S",
+        "solution": "(1)\n(2) Cu(OH)2 + 4CH3NH2  [Cu(CH3NH2)4](OH)2\na) Đúng. Khí  phản ứng với nước và dung dịch  tạo ra kết tủa và muối hữu cơ hòa tan mang tên methylammonium sulfate .\nb) Đúng. Ban đầu phản ứng sinh ra kết tủa  màu xanh lam, sau đó kết tủa này bị hòa tan trong  dư tạo thành phức chất có màu xanh lam thẫm.\nc) Đúng. Tương tự như ammonia, các alkylamine mạch ngắn như methylamine và ethylamine đều có khả năng tạo phức chất hòa tan với .\nd) Sai. Bẫy bản chất kết tủa: Kết tủa  sinh ra có màu nâu đỏ cực kỳ bền, hoàn toàn không có khả năng bị hòa tan tạo phức trong dung dịch methylamine dư.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 237,
+        "id": "C3-P2-VD-237",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tiến hành thí nghiệm theo các bước sau:",
+          "Bước 1: Cho khoảng 1 mL nước bromine vào ống nghiệm.",
+          "Bước 2: Thêm từ từ vài giọt dung dịch aniline loãng vào ống nghiệm."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Ở bước 2, xuất hiện kết tủa trắng.",
+          "b": "Sản phẩm hữu cơ thu được ở thí nghiệm trên là o–bromoaniline.",
+          "c": "Có thể phân biệt benzene với aniline bằng phản ứng với nước bromine",
+          "d": "Nhóm –NH2 làm tăng khả năng phản ứng thế nguyên tử H trong vòng benzene của aniline. Phản ứng thế nguyên tử H ưu tiên ở các vị trí o– và p– của aniline."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:S - c:Đ - d:Đ",
+        "solution": "C6H5NH2 + 3Br2  C6H2Br3NH2↓ + 3HBr\na) Đúng. Aniline tác dụng nhanh chóng với nước bromine ở điều kiện thường sinh ra kết tủa 2,4,6-tribromoaniline có màu trắng đặc trưng.\nb) Sai. Bẫy sản phẩm: Nhóm  hoạt hóa vòng rất mạnh, thế đồng thời vào cả 3 vị trí (2 vị trí ortho và 1 vị trí para) tạo 2,4,6-tribromoaniline chứ không dừng lại ở o-bromoaniline.\nc) Đúng. Benzene hoàn toàn không phản ứng với nước bromine ở điều kiện thường, còn aniline tạo kết tủa trắng ngay lập tức nên đây là thuốc thử hoàn hảo để phân biệt.\nd) Đúng. Nhóm  đẩy electron làm tăng mật độ electron trên vòng thơm, đặc biệt tại các vị trí ortho và para, giúp phản ứng thế electrophile xảy ra cực kì dễ dàng.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 238,
+        "id": "C3-P2-TH-238",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Melamine là hợp chất hữu cơ tan ít trong nước, kết dính tốt được dùng trong chế tạo keo dính, nội thất. Một số cơ sở sản xuất sữa thường thêm melamine vào sản phẩm để tạp hàm lượng đạm giả trong sữa, gây nguy hại đến sức khỏe. Melamine có công thức cấu tạo như sau:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Một phân tử melamine có công thức đơn giản nhất là CH2N2 và có 15 liên kết sigma (ơ).",
+          "b": "Melanine được dùng như một loại keo để sản xuất giấy trang trí phủ melamine (một loại vật liệu quan trọng trong ngành gỗ công nghiệp với ưu điểm màu sắc phong phú, bền màu, chống thấm nước,…).",
+          "c": "Melamine thuộc loại arylamine có tính base.",
+          "d": "Muốn tăng 1 độ đạm (1 gam nitrogen) cho sữa tươi thì phải thêm vào 1 lít sữa khoảng 1500 mg melamine."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "NB",
+          "d": "VD"
+        },
+        "answer": "a:Đ - b:Đ - c:S - d:Đ",
+        "solution": "a) Đúng. Công thức phân tử  rút gọn thành , phân tử có tổng cộng 15 liên kết  bao gồm 6 liên kết trong vòng, 3 liên kết ở nối đôi và 6 liên kết ở các nhóm .\nb) Đúng. Melamine phản ứng với formaldehyde sinh ra nhựa melamine-formaldehyde, được ứng dụng rộng rãi làm keo dán và lớp phủ bề mặt chịu nhiệt cho gỗ công nghiệp.\nc) Sai. Bẫy phân loại gốc: Các nhóm chức  trong phân tử melamine gắn vào dị vòng triazine (chứa nitrogen), hoàn toàn không gắn vào vòng benzene nên không thuộc loại arylamine.\nd) Đúng. Hàm lượng N trong 15000 mg melamine:",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q238_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 239,
+        "id": "C3-P3-NB-239",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong các công thức cấu tạo sau: CH3–CH2–OH, CH3–CH2–NH2, CH3–CO–CH3, CH3–NH–CH3, CH3–COOH, (CH3)3N. Có bao nhiêu chất là amine?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3.\nCó 2 amine trong các công thức cấu tạo đã cho là: CH3–CH2–NH2 và CH3–NH–CH3, (CH3)3N.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 240,
+        "id": "C3-P3-NB-240",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Có bao nhiêu amine bậc hai trong các amine sau: CH3–NH2, CH3–CH2–NH2, CH3–NH–CH3, (CH3)3N, CH3–CH(NH2) –CH3, CH3–CH(CH3)–NH–CH3?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án: 2.\nCác amine bậc 2 chứa 2 gốc hydrocarbon liên kết với nguyên tử nitrogen.\nCó 2 amine bậc 2 là: CH3–NH–CH3, CH3–CH(CH3)–NH–CH3.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 241,
+        "id": "C3-P3-NB-241",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các amine: methylamine, dimethylamine, phenylamine, trimethylamine, propylamine. Có bao nhiêu alkylamine trong các chất trên?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án 4. Methylamine, dimethylamine, trimethylamine, propylamine.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 242,
+        "id": "C3-P3-NB-242",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các amine có công thức cấu tạo dưới đây:",
+          "Trong số các amine trên, có bao nhiêu arylamine?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q242_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 243,
+        "id": "C3-P3-NB-243",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Amphetamine và methamphetamine đều là những loại ma túy, lần lượt có tên gọi là hồng phiến và ma túy đá.",
+          "Số nguyên tử amphetamine có x nguyên tử hydrogen, methamphetamine có y nguyên tử hydrogen. Giá trị xy là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "1315",
+        "solution": "Đáp án: 1315.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q243_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 244,
+        "id": "C3-P3-NB-244",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Số amine có công thức phân tử C3H9N là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án 4: CH3CH2CH2NH2; CH3CH(CH3)NH2; CH3NHCH2CH3; (CH3)3N",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 245,
+        "id": "C3-P3-TH-245",
+        "part": "P3",
+        "level": "TH",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Số đồng phân amine bậc hai có công thức C4H11N là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án 3: CH3–NH–CH2–CH2–CH3, CH3 – NH – CH(CH3)2, C2H5 – NH – C2H5",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 246,
+        "id": "C3-P3-NB-246",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các amine: methylamine, ethylamine, dimethylamine, phenylamine. Có bao nhiêu amine thể khí điều kiện thường?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án 3. Bao gồm: methylamine, ethylamine, dimethylamine.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 247,
+        "id": "C3-P3-NB-247",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Nhỏ dung dịch của mỗi chất methylamine, ethylamine, ammonia, aniline vào các mẩu giấy quỳ tím riêng rẽ. Số trường hợp mẩu giấy quỳ tím bị chuyển thành màu xanh là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án 3. Gồm methylamine, ethylamine, ammonia",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 248,
+        "id": "C3-P3-NB-248",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho methylamine lần lượt tác dụng với dung dịch HCl, dung dịch FeCl3, dung dịch NaOH, dung dịch Br2. Có bao nhiêu trường hợp xảy ra phản ứng?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án 2. Bao gồm: dung dịch HCl, dung dịch FeCl3.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 249,
+        "id": "C3-P3-NB-249",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các nhận định sau:",
+          "(1) Aniline phản ứng với dung dịch  thu được chất kết tủa trắng.",
+          "(2)  là amine bậc hai.",
+          "(3)  phản ứng với  ở nhiệt độ thường thu được chất khí không màu.",
+          "(4) Để khử mùi tanh của cá (thường do trimethylamine gây ra) có thể dùng giấm ăn.",
+          "Sắp xếp các nhận định đúng theo số thứ tự tăng dần (Ví dụ . )."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "134",
+        "solution": "Đáp án 134.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q249_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q249_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q249_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q249_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q249_img5.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 250,
+        "id": "C3-P3-NB-250",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một bạn học sinh tiến hành các thí nghiệm và ghi lại như sau:",
+          "Thí nghiệm 1. Nhỏ từ từ đến dư dung dịch methylamine vào ống nghiệm đựng dung dịch CuSO4 thu được dung dịch màu xanh tím.",
+          "Thí nghiệm 2. Nhỏ nước bromine vào ống nghiệm đựng dung dịch aniline thấy có kết tủa màu trắng xuất hiện.",
+          "Thí nghiệm 3. Cho từ từ dung dịch ethylamine vào ống nghiệm đựng dung dịch hỗn hợp acid HCl + NaNO2, ở nhiệt độ thường thấy có khí không màu bay lên.",
+          "Thí nghiệm 4. Nhỏ vài giọt dung dịch aniline vào mẩu giấy quỳ tím, thấy màu quỳ tím chuyển sang màu xanh.",
+          "Bạn học sinh đó đã ghi chép không đúng đối với thí nghiệm số mấy?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án: 4. Aniline có tính base yếu, không làm đổi màu quỳ tím.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 251,
+        "id": "C3-P3-NB-251",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Spermine là một hợp chất được phân lập từ tinh dịch có cấu tạo như sau:",
+          "Phần trăm khối lượng của nguyên tử N trong spermine là bao nhiêu (làm tròn đến phần chục)"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "27,7",
+        "solution": "Đáp án 27,7.\n📝 Hướng dẫn giải:\n🔹 Cách 1 (Tư duy từng bước):\nGom các nguyên tử để thiết lập công thức phân tử của spermine: .\nTính khối lượng phân tử tổng cộng:  gam/mol.\nLập biểu thức phần trăm khối lượng của nguyên tố nitrogen: .\nCăn cứ vào lệnh làm tròn đến hàng phần chục của đề bài: 27,7%.\n🧮 Cách 2 (Bấm máy tính):",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q251_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 252,
+        "id": "C3-P3-NB-252",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Hợp chất X là một amine bậc hai với các dữ kiện sau:",
+          "– Thành phần nguyên tố: 61,02% C; 15,25% H và 23,73% N về khối lượng.",
+          "– Phổ khối lượng có pic ion phân tử M+ ứng với m/z = 59.",
+          "– Năng lượng liên kết (kJ/mol): C–H, C–C, C–N, N–H  lần lượt là 418, 346, 386 và 305."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 253,
+        "id": "C3-P3-NB-253",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tổng năng lượng của các liên kết trong một phân tử X là a kJ/mol. Giá trị của a bằng bao nhiêu? (kết quả phép tính trung gian không được làm tròn, chỉ làm tròn kết quả cuối cùng đến hàng đơn vị)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4767",
+        "solution": "Đáp án 4767.\n📝 Hướng dẫn giải:\n🔹 Cách 1 (Tư duy từng bước):\nTruy hồi công thức phân tử  dựa vào khối lượng phân tử và phần trăm khối lượng:  ;  ; .\nBiện luận cấu trúc amine bậc hai ứng với 3 nguyên tử carbon: Mạch bắt buộc phải phân tách qua nguyên tử nitrogen:  (ethylmethylamine).\nPhân tích số lượng và loại liên kết có trong cấu trúc phân tử:  liên kết  (từ các nhóm ).  liên kết .  liên kết .  liên kết .\nTính tổng năng lượng của tất cả liên kết :  kJ/mol.\n🧮 Cách 2 (Bấm máy tính):",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 254,
+        "id": "C3-P3-VD-254",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Aniline có thể được tổng hợp từ benzene theo sơ đồ chuyển hóa sau:",
+          "Theo sơ đồ trên, từ 1 tấn benzene sẽ điều chế được bao nhiêu kg aniline? Biết hiệu suất toàn bộ quá trình là 60%. (kết quả phép tính trung gian không được làm tròn, chỉ làm tròn kết quả cuối cùng đến hàng đơn vị)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "715",
+        "solution": "Đáp án 715.\n📝 Hướng dẫn giải:\n🔹 Cách 1 (Tư duy từng bước):\nPhương trình bảo toàn cấu trúc vòng thơm xuyên suốt chuỗi phản ứng:\nTheo định luật bảo toàn nguyên tố carbon vòng, 1 mol benzene (78 gam/mol) sẽ tạo ra lý thuyết 1 mol aniline (93 gam/mol).\nTính khối lượng aniline thu được theo lý thuyết (sử dụng thẳng đơn vị khối lượng lớn):  kg.\nBù trừ thất thoát bằng hiệu suất thực tế của nhà máy:  kg.\nLàm tròn theo yêu cầu đến hàng đơn vị: 715 kg.\n🧮 Cách 2 (Bấm máy tính):",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q254_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 255,
+        "id": "C3-P3-NB-255",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amine",
+        "topic": "Amine",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong dung môi nước ở , methylamine thể hiện là một base Brønsted theo cân bằng:",
+          "Bỏ qua sự điện li của nước, giá trị pH của dung dịch  ở  bằng bao nhiêu? (kết quả phép tính trung gian không được làm tròn, chỉ làm tròn kết quả cuối cùng đến hàng phần mười)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "11,8",
+        "solution": "Đáp án 11,8.\n📝 Hướng dẫn giải:\n🔹 Cách 1 (Tư duy từng bước):\nGọi nồng độ  sinh ra khi đạt trạng thái cân bằng là  (M).\nThiết lập phương trình hằng số cân bằng :\nGiải phương trình đại số bậc hai tìm :  M.\nChuyển đổi nồng độ  thành giá trị : .\nTính giá trị  của dung dịch: .\n🧮 Cách 2 (Bấm máy tính): Nếu  rất nhỏ so với nồng độ ban đầu (), có thể sử dụng công thức xấp xỉ siêu tốc:",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q255_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q255_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q255_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q255_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q255_img5.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q255_img6.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 256,
+        "id": "C3-P1-NB-256",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "\"Amino acid là hợp chất hữu cơ tạp chức, trong phân tử chứa đồng thời nhóm chức..(1)... và nhóm chức.. (2)..\". Nội dung phù hợp trong ô trống (1), (2) lần lượt là:"
+        ],
+        "opt_lines": [
+          "A. carboxyl (–COOH), amino .\tB. hydroxyl (–OH), amino .",
+          "C. carboxyl (–COOH), hydroxyl (–OH).\tD. carbonyl (–CO–), carboxyl (–COOH)."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q256_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q256_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 257,
+        "id": "C3-P1-NB-257",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các hợp chất có công thức cấu tạo dưới đây:",
+          "Những hợp chất nào trong số các chất trên thuộc loại –amino acid?"
+        ],
+        "opt_lines": [
+          "A. Chất (2), chất (3) và chất (4).\tB. Chất (1) và chất (2).",
+          "C. Chất (1) và chất (3).\t\tD. Chất (1), chất (2) và chất (4)."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q257_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 258,
+        "id": "C3-P1-NB-258",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Số nhóm amino và số nhóm carboxyl có trong một phân tử glutamic acid tương ứng là"
+        ],
+        "opt_lines": [
+          "A. 1 và 2.\tB. 1 và 1.\tC. 2 và 1.\tD. 2 và 2."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 259,
+        "id": "C3-P1-NB-259",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Số nhóm amino (–NH2) trong phân tử alanine là"
+        ],
+        "opt_lines": [
+          "A. 4.\tB. 2.\tC. 3.\tD. 1."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 260,
+        "id": "C3-P1-NB-260",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Hợp chất H2NCH2COOH có tên là"
+        ],
+        "opt_lines": [
+          "A. valine.\tB. lysine.\tC. alanine.\tD. glycine."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 261,
+        "id": "C3-P1-NB-261",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Amino acid có phân tử khối nhỏ nhất là"
+        ],
+        "opt_lines": [
+          "A. Glycine.\tB. Alanine.\tC. Valine.\tD. Lysine."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 262,
+        "id": "C3-P1-NB-262",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ở điều kiện thường, trạng thái tồn tại của amino acid là"
+        ],
+        "opt_lines": [
+          "A. thể lỏng.\tB. thể khí.\tC. thể rắn.\tD. thể rắn và lỏng."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 263,
+        "id": "C3-P1-NB-263",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Để phân biệt 3 dung dịch: H2NCH2COOH; CH3COOH; C2H5NH2, chỉ cần dùng một thuốc thử là"
+        ],
+        "opt_lines": [
+          "A. dung dịch NaOH.\tB. dung dịch HCl.\tC. sodium kim loại.\tD. quỳ tím."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 264,
+        "id": "C3-P1-NB-264",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho ba dung dịch có cùng nồng độ mol: (1) H2NCH2COOH, (2) CH3COOH, (3) CH3CH2NH2. Dãy xếp theo thứ tự pH tăng dần là:"
+        ],
+        "opt_lines": [
+          "A. (2), (1), (3).\tB. (3), (1), (2).\tC. (1), (2), (3).\tD. (2), (3), (1)."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 265,
+        "id": "C3-P1-NB-265",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tính lưỡng tính của amino acid thể hiện qua phản ứng với"
+        ],
+        "opt_lines": [
+          "A. acid mạnh, base mạnh.\tB. acid, kim loại kiềm.",
+          "C. alcohol trong môi trường acid mạnh.\tD. Cu(OH)2, loại phản ứng màu biuret."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 266,
+        "id": "C3-P1-NB-266",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Aminoacetic acid (H2N–CH2–COOH) tác dụng được với dung dịch nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. NaNO3.\tB. NaCl.\tC. HCl.\tD. Na2SO4."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 267,
+        "id": "C3-P1-NB-267",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Từ amino acid X và methyl alcohol điều chế được ester Y có công thức phân tử C3H7O2N. Công thức cấu tạo của amino acid X là"
+        ],
+        "opt_lines": [
+          "A. CH3CH2COOH.\t\tB. H2NCH2COOH.",
+          "C. H2NCH2COOCH3.\t\tD. CH3CH(NH2)COOH."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 268,
+        "id": "C3-P1-NB-268",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tyrosine là một α–amino acid có công thức cấu tạo như sau.",
+          "Nhận định nào sau đây về tyrosine là sai?"
+        ],
+        "opt_lines": [
+          "A. Tác dụng được với nước bromine.",
+          "B. Tác dụng với NaOH dư theo tỉ lệ mol 1: 1.",
+          "C. Có tính chất lưỡng tính.",
+          "D. Có phân tử khối là 181."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q268_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 269,
+        "id": "C3-P1-NB-269",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tùy thuộc vào pH của dung dịch, alanine tồn tại một số dạng như sau:",
+          "Khi pH = 11 thì alanine sẽ tồn tại dạng nào trong các dạng trên? Cho biết pHI của alanine là 6,01."
+        ],
+        "opt_lines": [
+          "A. (l).\tB. (2). \tC. (3).\tD. (4)."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q269_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 270,
+        "id": "C3-P1-NB-270",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Giá trị pH mà tại đó amino acid tồn tại ở dạng ion lưỡng cực là điểm đẳng điện (pI). Khi pH < pI, amino acid tồn tại chủ yếu ở dạng cation, và khi pH > pI, amino acid tồn tại chủ yếu ở dạng anion. Cho các giá trị pI của các amino acid sau:",
+          "Trong các giá trị pH sau, giá trị nào là tối ưu nhất để tách các chất ra khỏi dung dịch?"
+        ],
+        "opt_lines": [
+          "A. pH = 6,0.\tB. pH = 9,7.\tC. pH = 3,2.\tD. pH = 2,0."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": [
+          [
+            [
+              "Chất",
+              "pI"
+            ],
+            [
+              "H2NCH2COOH (glycine)",
+              "6,0"
+            ],
+            [
+              "HOOCCH(NH2)CH2COOH (aspartic acid)",
+              "2,8"
+            ],
+            [
+              "H2N(CH2)4CH(NH2)COOH (lysine)",
+              "9,7"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 271,
+        "id": "C3-P1-NB-271",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Lysine (Lys) có công thức cấu tạo như sau: H2N – CH2 – CH2 – CH2 – CH2 – CH(NH2) – COOH. Thêm dung dịch acid HCl (dư) vào ống nghiệm đựng dung dịch Lys, sau đó đặt ống nghiệm vào trong điện trường. Khi đó, Lys"
+        ],
+        "opt_lines": [
+          "A. di chuyển về phía cực âm của điện trường.",
+          "B. di chuyển về phía cực dương của điện trường.",
+          "C. không di chuyển dưới tác dụng của điện trường.",
+          "D. di chuyển về cực âm, sau đó lại di chuyển theo chiều ngược lại."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "Khi cho HCl vào  dạng tồn tại: +H3N – CH2 – CH2 – CH2 – CH2 – CH(NH3+) – COO–  ion dương nên di chuyển về điện cực âm của điện trường.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 272,
+        "id": "C3-P1-NB-272",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Lysine là một trong những amino acid thiết yếu đối với cơ thể con người. Coi ở mỗi môi trường có giá trị pH bằng 2,0; 9,7; 13,0 lysine chỉ tồn tại ở một dạng (được sắp xếp ngẫu nhiên) sau đây:",
+          "Trong quá trình điện di, ion sẽ di chuyển về phía điện cực trái dấu với ion. Nhận định nào sau đây về quá trình điện di của lysine không đúng?"
+        ],
+        "opt_lines": [
+          "A. Ở pH = 9,7 lysine hầu như không di chuyển về các điện cực.",
+          "B. Ở pH = 2,0 lysine di chuyển về phía cực âm.",
+          "C. Ở pH = 13,0 lysine di chuyển về phía cực dương.",
+          "D. Ở pH = 1,0 lysine di chuyển về phía cực dương."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "D sai vì pH = 1 là pH thấp nên lysine tồn tại dạng ion dương nên di chuyển về cực âm.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q272_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 273,
+        "id": "C3-P1-NB-273",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phenylalanine (Phe) là một loại amino acid thiết yếu, tham gia vào cấu tạo của protein và được sử dụng làm thuốc hỗ trợ điều trị bệnh trầm cảm trong y học. Công thức cấu tạo của Phe như sau:",
+          "Cho độ tan của Phe (gam/100 gam nước) ở các nhiệt độ khác nhau:",
+          "Cho các nhận định sau:",
+          "(a) Phe thuộc loại α – amino acid và có tính chất lưỡng tính.",
+          "(b) Ở pH = 2, Phe di chuyển về phía cực dương của điện trường.",
+          "(c) Ở 25 oC, dung dịch Phe bão hòa có nồng độ là 1,41%.",
+          "(d) Tinh chế được Phe bằng phương pháp kết tinh.",
+          "Các nhận định đúng là"
+        ],
+        "opt_lines": [
+          "A. (b), (d).\tB. (a), (c).\tC. (b), (c).\tD. (a), (d)."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "Bao gồm: a, d.\n(b) Sai vì pH = 2 là pH thấp  Phe tồn tại chủ yếu dạng cation nên di chuyển về điện cực âm.\n(c) Sai vì ở 25 oC độ tan của Phe là 1,41 gam trong 100 gam nước",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q273_img1.png"
+        ],
+        "tables": [
+          [
+            [
+              "Nhiệt độ, oC",
+              "0",
+              "25",
+              "50",
+              "75",
+              "100"
+            ],
+            [
+              "Độ tan",
+              "1,00",
+              "1,41",
+              "2,19",
+              "3,71",
+              "6,89"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 274,
+        "id": "C3-P1-NB-274",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một thí nghiệm được mô tả như hình bên dưới:",
+          "Giá trị pH mà khi đó amino acid có nồng độ ion lưỡng cực là cực đại được gọi là điểm đẳng điện (kí hiệu là pI). Mỗi amino acid có điểm đẳng điện khác nhau: Alanine (), Lysine () và glutamic acid (). Khi  thì amino acid đó tồn tại chủ yếu ở dạng cation, còn khi  thì amino acid đó tồn tại chủ yếu ở dạng anion.",
+          "Cho các nhận định sau:",
+          "(a) Thí nghiệm trên biểu diễn tính điện li của amino acid.",
+          "(b) Ion tồn tại chủ yếu đối với Lys là cation, sẽ di chuyển về cực âm của nguồn điện nên vệt (1) là cation của Lys.",
+          "(c) Ion tồn tại chủ yếu đối với Ala là ion lưỡng cực, không di chuyển nên vệt (2) là Ala.",
+          "(d) Ion tồn tại chủ yếu đối với Glu là anion, sẽ di chuyển về cực dương của nguồn điện nên vệt (3) là anion của Glu.",
+          "Các nhận định đúng là:"
+        ],
+        "opt_lines": [
+          "A. (a), (b), (d).\t\t\t\tB. (b), (c), (d).\t\t\t\tC. (a), (c), (d).\t\t\tD. (a), (b), (c)."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "(a) Sai vì thí nghiệm biểu diễn tính điện di của amino acid.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q274_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q274_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q274_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q274_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q274_img5.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q274_img6.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q274_img7.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 275,
+        "id": "C3-P1-VD-275",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Sản xuất bột ngọt từ các nguyên liệu chính: Dung dịch NaOH 40%, tinh thể glutamic acid (chứa 80% glutamic acid). Tiến hành thực hiện gồm các bước sau:",
+          "Bước 1: Hòa tan tinh thể glutamic vào nước, thu được dung dịch bão hòa.",
+          "Bước 2: Dung dung dịch NaOH 40% để trung hòa dung dịch glutamic acid đến pH = 6,8.",
+          "Bước 3: Lọc lấy nước lọc, cô cạn bớt nước, để nguội và kết tinh, thu được chất rắn.",
+          "Bước 4: Sấy chân không chất rắn thu được ở nhiệt độ thấp được bột ngọt. Bột ngọt thu được có độ tinh khiết là 99,5%. Giả thiết hiệu suất của cả quá trính tính theo glutamic acid là 90%. Để thu được 2 tấn bột ngọt cần m kg tinh thể glutamic acid. Giá trị của m là"
+        ],
+        "opt_lines": [
+          "A. 2404.\tB. 3020.\tC. 2164.\tD. 2416."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "🔬 Phản ứng điều chế bột ngọt (monosodium glutamate – MSG):\n🔁 Tính nhanh:",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 276,
+        "id": "C3-P2-TH-276",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Valine là một amino acid, valine tham gia vào nhiều chức năng của cơ thể, thúc đẩy quá trình phát triển cơ và phục hồi mô. Thiếu valine sẽ ảnh hưởng đến sự phát triển của cơ thể, gây trở ngại về thần kinh, thiếu máu. Công thức cấu tạo của valine như hình bên dưới:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Công thức phân tử của valine là C5H11NO2.",
+          "b": "Valine thuộc loại ε–amino acid.",
+          "c": "Khi cho valine tác dụng với acid HCl thu được muối có công thức là C5H12NO2Cl.",
+          "d": "Ở pH = 6, ion tồn tại chủ yếu đối với Val là cation. Vì vậy, khi đặt trong điện trường sẽ di chuyển về cực âm."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "NB",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:S - c:Đ - d:S",
+        "solution": "a) Đúng. Phân tử valine có mạch 5 nguyên tử carbon phân nhánh, 1 nhóm  và 1 nhóm  nên có công thức phân tử chuẩn là .\nb) Sai. Bẫy phân loại: Nhóm chức  gắn trực tiếp vào nguyên tử carbon ở vị trí  (carbon số 2) nên valine thuộc loại -amino acid, không phải -amino acid.\nc) Đúng. Nhóm amino có tính base, nhận proton từ  tạo thành muối cation  có công thức phân tử gom gọn là .\nd) Sai. Bẫy điện di: Ở  (gần bằng điểm đẳng điện ), valine tồn tại chủ yếu ở dạng ion lưỡng cực có tổng điện tích bằng 0 nên nó không di chuyển về bất kỳ cực nào.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q276_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 277,
+        "id": "C3-P2-TH-277",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Isoleucine cần thiết cho việc hình thành huyết sắc tố. Bên cạnh đó, isoleucine còn có ảnh hưởng tới quá trình đông máu, bảo vệ cơ thể chống lại các nguy cơ nhiễm trùng vết thương sau khi tập luyện thể thao, quá trình này rất có ích để hỗ trợ cơ bắp. Đây là amino acid (acid amine) rất thiết yếu dành cho những vận động viên và cả những người thường luyện tập thể dục. Isoleucine có công thức cấu tạo như sau:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Isoleucine là một α–amino acid.",
+          "b": "Công thức phân tử của isoleucine là C6H13O2N.",
+          "c": "Tên thay thế của isoleucine là 2–amino–3–methylpentanoic acid.",
+          "d": "Khi cho isoleucine tác dụng với dung dịch NaOH thu được muối có công thức phân tử là C6H13O2NNa."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "NB",
+          "c": "NB",
+          "d": "NB"
+        },
+        "answer": "a:Đ - b:Đ - c:Đ - d:S",
+        "solution": "a) Đúng. Nhóm  liên kết trực tiếp với nguyên tử carbon số 2 (liền kề nhóm ) nên isoleucine hoàn toàn thỏa mãn định nghĩa của một -amino acid.\nb) Đúng. Dựa vào công thức cấu tạo, phân tử isoleucine có 6 nguyên tử , 13 nguyên tử , 2 nguyên tử  và 1 nguyên tử  nên công thức phân tử là .\nc) Đúng. Đánh số từ nhóm , nhóm  nằm ở vị trí số 2 và nhóm  nằm ở vị trí số 3 trên mạch chính 5 carbon, nên tên thay thế là 2-amino-3-methylpentanoic acid.\nd) Sai. Bẫy phản ứng: Khi tác dụng với , nhóm  bị trung hòa mất đi 1 nguyên tử  và thay bằng nguyên tử , do đó muối thu được phải là .",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q277_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 278,
+        "id": "C3-P2-TH-278",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong dung dịch, tồn tại cân bằng hóa học giữa ion lưỡng cực với các dạng ion của amino acid đó. Ví dụ:",
+          "H3N+ – CH2 – COOHH3N+ – CH2 – COO–H2N – CH2 – COO–",
+          "Dạng cation                      Dạng ion lưỡng cực                     Dạng anion",
+          "Các amino acid có khả năng di chuyển khác nhau trong điện trường tùy thuộc vào pH của môi trường (tính chất điện di)."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Trong môi trường acid mạnh (pH khoảng 1 – 2), glycine tồn tại chủ yếu ở dạng cation, bị di chuyển về phía điện cực âm của điện trường.",
+          "b": "Ở pH khoảng 6, glycine tồn tại chủ yếu ở dạng ion lưỡng cực, không bị di chuyển trong điện trường.",
+          "c": "Ở pH lớn hơn 10, glycine tồn tại chủ yếu ở dạng anion, bị di chuyển về phía điện cực dương của điện trường.",
+          "d": "Ở pH = 6, ion tồn tại chủ yếu đối với Ala là cation. Vì vậy, khi đặt trong điện trường sẽ di chuyển về cực âm."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:Đ - c:Đ - d:S",
+        "solution": "a) Đúng. Ở môi trường acid mạnh (), nhóm  nhận proton tạo thành cation  mang điện tích dương nên bị điện trường kéo về phía cực âm.\nb) Đúng. Ở  (xấp xỉ điểm đẳng điện  của glycine), phân tử trung hòa về mặt điện học (tồn tại ở dạng ion lưỡng cực) nên không bị dịch chuyển trong điện trường.\nc) Đúng. Ở  (môi trường kiềm mạnh), nhóm  nhường proton tạo thành anion  mang điện tích âm nên lập tức di chuyển về phía điện cực dương.\nd) Sai. Bẫy trạng thái điện li: Ở , alanine có điểm đẳng điện  nên tồn tại chủ yếu ở dạng ion lưỡng cực (điện tích bằng 0) chứ không phải cation.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q278_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q278_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 279,
+        "id": "C3-P2-TH-279",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Histidine là một trong những amino acid thiết yếu đối với cơ thể con người. Với mỗi môi trường có giá trị pH bằng 4,0 ; 7,6 ; 12,0, coi histidine chỉ tồn tại ở dạng cho dưới đây:",
+          "Trong quá trình điện di, ion sẽ di chuyển về phía điện cực trái dấu với ion."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Với môi trường pH = 7,6 thì dạng (II) hầu như không dịch chuyển về các điện cực.",
+          "b": "Với môi trường pH = 4,0 thì dạng (I) di chuyển về phía cực âm.",
+          "c": "Với môi trường pH = 12,0 thì dạng (III) di chuyển về phía cực dương.",
+          "d": "Với môi trường pH = 7,6 thì dạng (II) di chuyển về phía cực âm."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:Đ - c:Đ - d:S",
+        "solution": "a) Đúng. Tại  (trùng khớp với  của histidine), phân tử tồn tại chủ yếu ở dạng ion lưỡng cực (Dạng II) có tổng điện tích bằng 0 nên hầu như không dịch chuyển.\nb) Đúng. Tại  (môi trường acid), phân tử nhận proton tạo thành cation (Dạng I) mang điện tích dương nên sẽ bị lực hút tĩnh điện kéo về phía cực âm.\nc) Đúng. Tại  (môi trường base), phân tử nhường proton tạo thành anion (Dạng III) mang điện tích âm nên sẽ tự động di chuyển về phía cực dương.\nd) Sai. Khẳng định ngược nguyên lý: Như đã phân tích ở ý a, tại  phân tử tồn tại ở dạng trung hòa điện học (Dạng II) nên nó đứng yên, không dịch chuyển về cực âm.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q279_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 280,
+        "id": "C3-P2-TH-280",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Sự kết hợp giữa aspartic acid và phenylalanine tạo thành peptide, peptide này có thể được chuyển đổi thành methyl ester gọi là aspartame. Công thức của aspatic acid, phenylalanine, aspartame được cho sau đây:",
+          "Aspartame có vị ngọt nên được sử dụng trong thực phẩm không đường dành cho người bị tiểu đường. Ở nhiệt độ cao aspartame bị phân hủy tạo các amino acid tự do không có vị ngọt."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Tên thay thế của aspartic acid là 2 –aminobutane–1,4–dioic acid.",
+          "b": "Tại , khi đặt vào một điện trường, aspatic acid di chuyển về phía cực dương.",
+          "c": "Số nguyên tử hydrogen trong phân tử aspartame là 18.",
+          "d": "Có thể sử dụng aspartame để thay thế đường saccharose trong làm các loại bánh nướng."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "TH",
+          "c": "NB",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:Đ - c:Đ - d:S",
+        "solution": "a) Đúng. Aspartic acid có mạch chính 4 nguyên tử carbon, 2 nhóm  ở hai đầu (dioic acid) và nhóm  ở vị trí số 2, nên tên thay thế chuẩn là 2-aminobutane-1,4-dioic acid.\nb) Đúng. Tại  (lớn hơn rất nhiều so với  của aspartic acid), phân tử tồn tại dưới dạng anion mang điện tích âm do hai nhóm  nên di chuyển về cực dương.\nc) Đúng. Phân tử aspartame có công thức phân tử tổng quát là , đếm trực tiếp trên cấu trúc không gian thu được chính xác 18 nguyên tử hydrogen.\nd) Sai. Bẫy ứng dụng thực tiễn: Aspartame rất kém bền với nhiệt độ cao, cấu trúc bị phân hủy sinh ra các amino acid mất vị ngọt, do đó tuyệt đối không dùng trong sản xuất bánh nướng.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q280_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q280_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q280_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q280_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 281,
+        "id": "C3-P3-NB-281",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các chất: CH3NH2, H2NCH2COOH, H2NCH2COOC2H5, (CH3)2CHCH(NH2)COOH. Có bao nhiêu chất là amino acid?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án 2. H2NCH2COOH và (CH3)2CHCH(NH2)COOH.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 282,
+        "id": "C3-P3-NB-282",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các công thức sau: H2NCH2COOH, H2NCH2CH2COOH, H2NCH(CH3)COOH, H2N[CH2]4CH(NH2)COOH, HOOC[CH2]2CH(NH2)COOH, H2NC6H4COOH. Có bao nhiêu chất trong các công thức đã cho là α–amino acid?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án 4. H2NCH2COOH, H2NCH(CH3)COOH, H2N[CH2]4CH(NH2)COOH, HOOC[CH2]2CH(NH2)COOH,",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 283,
+        "id": "C3-P3-NB-283",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các chất có công thức cấu tạo như sau:",
+          "Có bao nhiêu chất trong số các chất trên không phải là α–amino acid?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án: 2. Gồm 3 và 4.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q283_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 284,
+        "id": "C3-P3-NB-284",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Số nhóm –NH2 trong phân tử lysine là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án 2. Lysine: (NH2)2 – C5H9 – COOH",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 285,
+        "id": "C3-P3-NB-285",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Số nguyên tử carbon trong phân tử alanine là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án 3. Alanine: CH3 – CH(NH2) – COOH",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 286,
+        "id": "C3-P3-NB-286",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các chất: alanine (1), aminoacetic acid (2), methylamine (3), aniline (4), glutamic acid (5). Có bao nhiêu chất tan tốt trong nước ở điều kiện thường?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án: 4. (1,2,3,5)",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 287,
+        "id": "C3-P3-NB-287",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho giá trị nhiệt độ nóng chảy (oC) của glycine, trilaurin, nước (H2O), aniline, tristearin không theo thứ tự sau: 0; –6; 46,5; 71,6; 262. Giá trị nào phù hợp với nhiệt độ nóng chảy của glycine?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "262",
+        "solution": "Đáp án: 262. Glycine là aminoacid tồn tại được ở dạng ion lưỡng cực nên có nhiệt độ nóng chảy cao nhất.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 288,
+        "id": "C3-P3-NB-288",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Glutamic acid có các dạng tồn tại và giá trị pH mà dạng tồn tại đó là chủ yếu (≈ 100%) sau:",
+          "Giá trị pH của dung dịch bằng bao nhiêu thì glutamic acid không bị điện di?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3,22",
+        "solution": "Đáp án: 3,22. Glutamic acid không bị điện di tại pH mà phân tử glutamic acid tồn tại dạng ion lưỡng cực có tổng điện tích bằng 0.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q288_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 289,
+        "id": "C3-P3-NB-289",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Giá trị pH mà tại đó amino acid tồn tại chủ yếu ở dạng ion lưỡng cực có tổng điện tích bằng 0 được gọi là . Cho bốn amino acid với các giá trị  tương ứng như sau:",
+          "Trong số các giá trị pH trên, khi điện di ở môi trường pH nào thì có ba amino acid di chuyển về cực âm và một amino acid không di chuyển?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3,08",
+        "solution": "Đáp án: 3,08. Tại giá trị pH < pHI (Gly, Ala, Lys) được coi là giá trị pH thấp nên amino acid thể hiện tính base nhận ion H+ từ môi trường để hình thành nên ion dương (cation) di chuyển về cực âm của nguồn điện.\nKhi pH = pHI (Glu): amino acid tồn tại ở dạng ion lưỡng cực nên không di chuyển.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q289_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q289_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q289_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q289_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q289_img5.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q289_img6.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 290,
+        "id": "C3-P3-TH-290",
+        "part": "P3",
+        "level": "TH",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Glycine tham gia phản ứng este hóa với ethyl alcohol khi có mặt khí HCl theo sơ đồ: Glycine + ethyl alcohol + hydrochloric acid  X + nước. Phân tử khối của X là bao nhiêu? (Kết quả làm tròn đến hàng đơn vị)"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "140",
+        "solution": "Đáp án: 140\nH2NCH2COOH + C2H5OH + HCl  ClNH3CH2COOC2H5 (X) + H2O\nPhân tử khối của X là 139,5",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q290_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 291,
+        "id": "C3-P3-TH-291",
+        "part": "P3",
+        "level": "TH",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho sơ đồ chuyển hóa sau: Xmuối YZ. Biết X là glutamic acid. Số nguyên tử hydrogen trong phân tử Z là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "16",
+        "solution": "Đáp án 16.\nHOOC–[CH2]2CH(NH2)COOH HOOC–[CH2]2CH(NH3Cl)COOCH3\nC2H5OOC–[CH2]2CH(NH3Cl)COOCH3",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q291_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q291_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 292,
+        "id": "C3-P1-NB-292",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "“Peptide là hợp chất hữu cơ được cấu tạo từ các đơn vị (...), (...) liên kết với nhau qua liên kết (...).” Nội dung phù hợp trong 6 trống (1), (2), (3) lần lượt là:"
+        ],
+        "opt_lines": [
+          "A. – amino acid, amide, \tB. α– amino acid, peptide.",
+          "C. – amino acid, peptide.\tD. – amino acid, peptide."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q292_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q292_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q292_img3.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 293,
+        "id": "C3-P1-NB-293",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất nào sau đây thuộc loại tripeptide?"
+        ],
+        "opt_lines": [
+          "A. Glucose.\tB. Saccharose.\tC. Gly–Ala.\tD. Gly–Ala–Gly."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 294,
+        "id": "C3-P1-NB-294",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất nào sau đây là dipeptide?"
+        ],
+        "opt_lines": [
+          "A. Gly–Ala–Gly.\tB. Ala–Gly–Gly.\tC. Gly–Ala–Ala.\tD. Gly–Ala."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 295,
+        "id": "C3-P1-NB-295",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong phân tử Ala–Gly, amino acid đầu N chứa nhóm"
+        ],
+        "opt_lines": [
+          "A. –NH2.\tB. –COOH.\tC. –NO2.\tD. –CHO."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 296,
+        "id": "C3-P1-NB-296",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Amino acid đầu N và amino acid đầu C trong phân tử peptide Ala–Gly–Val–Gly–Val lần lượt là"
+        ],
+        "opt_lines": [
+          "A. Val và Ala.\tB. Ala và Gly.\tC. Val và Gly.\tD. Ala và Val."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 297,
+        "id": "C3-P1-NB-297",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Peptide X có công thức cấu tạo như sau:",
+          "H2N–[CH2]4–CH(NH2)CO–NHCH2–CO–NH–CH(CH3)–COOH",
+          "Amino acid đầu N và đầu C tương ứng là"
+        ],
+        "opt_lines": [
+          "A. Lys và Gly.\tB. Gly và Ala.\tC. Ala và Gly.\tD. Lys và Ala."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 298,
+        "id": "C3-P1-NB-298",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Số nguyên tử carbon trong phân tử Gly–Ala là"
+        ],
+        "opt_lines": [
+          "A. 7.\tB. 5.\tC. 4.\tD. 6."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 299,
+        "id": "C3-P1-NB-299",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Dipeptide có công thức: H2NCH2CONHCH(CH3)COOH. Tên viết tắt của X là"
+        ],
+        "opt_lines": [
+          "A. Gly–Val.\tB. Gly–Ala.\tC. Ala–Gly.\tD. Ala–Val."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 300,
+        "id": "C3-P1-NB-300",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho peptide có công thức cấu tạo như sau:",
+          "Kí hiệu của peptide là"
+        ],
+        "opt_lines": [
+          "A. Val–Gly–Gly–Ala.\t\tB. Gly–Gly–Ala–Val.",
+          "C. Val–Gly–Ala–Gly.\t\tD. Val–Ala–Gly–Gly."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q300_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 301,
+        "id": "C3-P1-NB-301",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phân tử peptide nào sau đây có 4 nguyên tử oxygen?"
+        ],
+        "opt_lines": [
+          "A. Gly–Ala–Ala.\tB. Gly–Ala.\tC. Gly–Gly–Ala–Val.\tD. Gly–Ala–Glu."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 302,
+        "id": "C3-P1-NB-302",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Dung dịch Ala–Gly phản ứng được với dung dịch nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. HCl.\tB. KNO3.\tC. NaCl.\tD. NaNO3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 303,
+        "id": "C3-P1-NB-303",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Peptide nào sau đây không có phản ứng màu biuret?"
+        ],
+        "opt_lines": [
+          "A. Ala–Gly.\tB. Ala–Ala–Gly–Gly.\tC. Ala–Gly–Gly.\tD. Gly–Ala–Gly."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 304,
+        "id": "C3-P1-NB-304",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tripeptide Gly–Ala–Gly không tác dụng với chất nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. Cu(OH)2 trong môi trường kiềm.\tB. Dung dịch Na2SO4.",
+          "C. Dung dịch HCl.\t\tD. Dung dịch NaOH."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 305,
+        "id": "C3-P1-NB-305",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ba dung dịch: methylamine (CH3NH2), glycine (Gly) và Ala–Gly đều phản ứng được với"
+        ],
+        "opt_lines": [
+          "A. dung dịch NaNO3.\tB. dung dịch NaCl.\tC. dung dịch NaOH.\tD. dung dịch HCl."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 306,
+        "id": "C3-P1-TH-306",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Thủy phân hoàn toàn H2NCH2CO–NHCH(CH3)CO–NHCH(CH3)CO–NHCH2COOH thu được bao nhiêu loại α–amino acid khác nhau?"
+        ],
+        "opt_lines": [
+          "A. 4.\tB. 3.\tC. 5.\tD. 2."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 307,
+        "id": "C3-P1-NB-307",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Đun nóng chất H2N–CH2–CONH–CH(CH3)–CONH–CH2–COOH trong dung dịch HCl (dư), sau khi các phản ứng kết thúc thu được sản phẩm là:"
+        ],
+        "opt_lines": [
+          "A. H2N–CH2–COOH, H2N–CH2–CH2–COOH.",
+          "B. ClH3N–CH2–COOH, ClH3N–CH2–CH2–COOH.",
+          "C. ClH3N–CH2–COOH, ClH3N–CH(CH3)–COOH.",
+          "D. H2N–CH2–COOH, H2N–CH(CH3)–COOH."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 308,
+        "id": "C3-P1-NB-308",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Khối lượng phân tử của tetrapeptide mạch hở Gly–Ala–Val–Glu là"
+        ],
+        "opt_lines": [
+          "A. 428.\tB. 374.\tC. 410.\tD. 392."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 309,
+        "id": "C3-P1-TH-309",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Thủy phân không hoàn toàn tetrepeptide X mạch hở, thu được hỗn hợp sản phẩm trong đó có Gly–Ala, Phe–Val và Ala–Phe. Tên viết tắt của X là"
+        ],
+        "opt_lines": [
+          "A. Gly–Ala–Val–Phe.\tB. Val–Phe–Gly–Ala.\tC. Ala–Val–Phe–Gly.\tD. Gly–Ala–Phe–Val."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 310,
+        "id": "C3-P1-TH-310",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Thủy phân hoàn toàn 1 mol pentapeptide X, thu được 2 mol Gly, 1 mol Ala, 1 mol Val và 1 mol Phe. Thủy phân không hoàn toàn X thu được dipeptide Val–Phe và tripeptide Gly–Ala–Val nhưng không thu được dipeptide Gly–Gly. Tên viết tắt của X là"
+        ],
+        "opt_lines": [
+          "A. Gly–Phe–Gly–Ala–Val.\tB. Gly–Ala–Val–Val–Phe.",
+          "C. Gly–Ala–Val–Phe–Gly.\t\t\t\t\t\t\t\t\tD. Val–Phe–Gly–Ala–Gly."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 311,
+        "id": "C3-P1-TH-311",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Kết quả phân tích nguyên tố của một amino acid X như sau: %C = 46,60%; %H = 8,74%; %N = 13,59% (về khối lượng); còn lại là oxygen. Bằng phổ khối lượng (MS), xác định được phân tử khối của X bằng 103. Phát biểu nào sau đây là không đúng?"
+        ],
+        "opt_lines": [
+          "A. Công thức phân tử của X là C4H9O2N.",
+          "B. Có 2 α–amino acid đồng phân cấu tạo ứng với công thức phân tử của X.",
+          "C. Có 3 chất đồng phân cấu tạo có cùng công thức phân tử với X tạo được dung dịch có môi trường base.",
+          "D. Khi đặt X được điều chỉnh đến pH = 6,0 trong điện trường thì X sẽ di chuyển về cực âm."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "X: CxHyOzNt x = 4; y = 9; z = 1; t = 2\nCTPT X: C4H9O2N.\nA. Đúng\nB. Đúng. Có 2 α–amino acid: NH2CH(C2H5)COOH và NH2C(CH3)2COOH.\nC. Đúng. Có các ester đồng phân với X: H2NCH2COOC2H5, H2NCH2CH2COOCH3, H2NCH(CH3)COOCH3. Trong phân tử các chất này có nhóm –NH2 nên dung dịch có tính base.\nD. Sai. Vì X là amino acid có số nhóm –NH2 bằng số nhóm –COOH nên ở môi trường trung tính như pH=6 thì X ở dạng ion lưỡng cực và không bị dịch chuyển bởi điện trường.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 312,
+        "id": "C3-P1-TH-312",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Kết quả phân tích nguyên tố trong phân tử một dipeptide X như sau: %C = 36,36%; %H = 6,06%; %N = 21,21% (về khối lượng); còn lại là oxygen. Từ phổ khối lượng, xác định được phân tử khối của X bằng 132.",
+          "Phát biểu nào sau đây về X là không đúng?"
+        ],
+        "opt_lines": [
+          "A. Công thức phân tử của X là C4H8O3N2.\tB. Công thức cấu tạo của X là Gly–Gly.",
+          "C. Dung dịch của X có môi trường acid.\tD. X không tham gia phản ứng màu biuret."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "Ta có: ; ;\nCông thức phân tử của X là C4H8N2O3.\nDo X là dipeptide có chứa 4C tạo bởi 2 gốc Gly (do mỗi gốc Gly đã có 2 nguyên tử Carbon). X là Gly–Gly.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 313,
+        "id": "C3-P2-TH-313",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Peptide X có công thức cấu tạo như sau:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Tên viết tắt của peptide X là Val–Gly–Ala.",
+          "b": "X là tripeptide mạch hở có 3 liên kết peptide.",
+          "c": "Trong peptide X, amino acid chứa đầu N là Val.",
+          "d": "Thủy phân hoàn toàn X thu được 3 α–amino acid khác nhau."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "NB",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:S - c:Đ - d:Đ",
+        "solution": "a) Đúng. Peptide có 3 gốc amino acid theo thứ tự từ đầu N đến đầu C là: Val – Gly – Ala.\nb) Sai. X là tripeptide → có 2 liên kết peptide, không phải 3.\nc) Đúng. Nhóm –NH2 tự do ở đầu N thuộc về Valine.\nd) Đúng. 3 gốc amino acid khác nhau: Valine, Glycine, Alanine → thủy phân hoàn toàn thu được 3 α–amino acid khác nhau.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q313_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 314,
+        "id": "C3-P2-VD-314",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tiến hành thí nghiệm về phản ứng giữa polypeptide và Cu(OH)2.",
+          "Bước 1: Cho khoảng 1 mL dung dịch NaOH 30% vào ống nghiệm, nhỏ thêm 2 – 3 giọt dung dịch CuSO4 2%, lắc đều.",
+          "Bước 2: Cho khoảng 4 mL dung dịch lòng trắng trứng (polypeptide) vào ống nghiệm, lắc đều."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Sau bước 1 thấy xuất hiện kết tủa có màu xanh.",
+          "b": "Sau bước 2 thu được dung dịch màu tím.",
+          "c": "Nếu thay lòng trắng trứng (polypeptide) bằng peptide Gly–Ala thì hiện tượng quan sát được sau bước 2 là không đổi.",
+          "d": "Có thể dùng thí nghiệm trên để phân biệt lòng trắng trứng với các dipeptide."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:Đ - c:S - d:Đ",
+        "solution": "a) Đúng. Sau khi trộn CuSO₄ với NaOH, tạo thành kết tủa Cu(OH)2 màu xanh.\nb) Đúng. Lòng trắng trứng chứa polypeptide phản ứng với Cu(OH)2 tạo phức chất màu tím (phản ứng màu biuret).\nc) Sai. Gly–Ala là dipeptide (chỉ có 1 liên kết peptide) nên không có phản ứng màu biuret, dung dịch không chuyển tím.\nd) Đúng. Dựa vào phản ứng biuret có thể phân biệt polypeptide (có phản ứng, có màu tím) và dipeptide (không phản ứng).",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 315,
+        "id": "C3-P2-TH-315",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Insulin là hormone do tuyến tuỵ tiết ra, giúp điều hòa lượng đường trong máu bằng cách thức đẩy tế bào sử dụng glucose làm năng lượng. Sự thiếu hụt insulin hoặc giảm đáp ứng với insulin có nguy cơ gây ra bệnh tiểu đường.",
+          "Thủy phân không hoàn toàn một đoạn phân tử insulin thu được tripeptide X mạch hở Glu–Arg–Gly. Cho công thức cấu tạo và kí hiệu một số nhóm chức của các amino acid:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Trong phân tử X còn nhóm carboxyl số (1) của Glu.",
+          "b": "Trong phân tử X, nhóm  số (1) của Arg đã tham gia tạo liên kết peptide.",
+          "c": "Tách biệt được hỗn hợp Glu, Arg, Gly bằng phương pháp điện di.",
+          "d": "X có amino acid đầu N là Glu, amino acid đầu C là Gly."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "NB",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:S - c:Đ - d:Đ",
+        "solution": "a) Đúng. Phân tích cấu tạo cho thấy nhóm carboxyl  ở vị trí số (1) của gốc glutamic acid (nằm ở đầu N) mới là nhóm còn tự do chưa tham gia liên kết.\nb) Sai. Bẫy vị trí liên kết peptide: Trong phân tử X, nhóm amino  gắn ở vị trí  tức vị trí số (2) của arginine mới là nhóm bị mất đi một nguyên tử hydrogen để tạo liên kết peptide.\nc) Đúng. Các amino acid cấu thành (glutamic acid, arginine, glycine) có điểm đẳng điện  chênh lệch nhau rất lớn nên hoàn toàn có thể tách biệt bằng phương pháp điện di.\nd) Đúng. Trình tự cấu trúc của phân tử peptide luôn quy ước đọc từ trái qua phải, do đó amino acid đầu N là glutamic acid và amino acid đầu C là glycine.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q315_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q315_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q315_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q315_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 316,
+        "id": "C3-P2-TH-316",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Albumin là một loại protein quan trọng trong huyết tương, giúp duy trì áp suất thẩm thấu, vận chuyển các hormone và vitamine trong máu. Thiếu hụt albumin có thể dẫn đến phù và rối loạn chuyển hóa. Thủy phân không hoàn toàn một đoạn phân tử albumin thu được tripeptide X mạch hở có công thức cấu tạo như sau:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "X có amino acid đầu N là lysine, đầu C là valine.",
+          "b": "Trong môi trường kiềm, X có phản ứng màu biuret.",
+          "c": "Amino acid đầu C của X có tên thay thế là 2 – amino – 4 – methylpentanoic acid.",
+          "d": "Có thể tách biệt được 3 amino acid tạo thành X bằng phương pháp điện di."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "NB",
+          "d": "TH"
+        },
+        "answer": "a:S - b:Đ - c:Đ - d:Đ",
+        "solution": "a) Sai. Bẫy danh pháp: Amino acid ở đầu C có mạch chính 5 nguyên tử carbon và một nhánh methyl nên nó là dẫn xuất của leucine, hoàn toàn không phải valine.\nb) Đúng. Phân tử X là một tripeptide (có chứa đúng 2 liên kết peptide) nên thỏa mãn điều kiện tham gia phản ứng màu biuret tạo phức màu tím với dung dịch .\nc) Đúng. Cấu trúc amino acid đầu C là  có tên thay thế chuẩn danh pháp IUPAC là 2-amino-4-methylpentanoic acid.\nd) Đúng. Ba amino acid cấu thành mạch peptide này có tính chất điện li và điểm đẳng điện  khác nhau nên khi đặt vào điện trường sẽ di chuyển với tốc độ khác biệt.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q316_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 317,
+        "id": "C3-P2-TH-317",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Dipeptide Phe–Tyr có cấu trúc:"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q317_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 318,
+        "id": "C3-P3-NB-318",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Peptide X có tên viết tắt là Gly–Ala. Phân tử khối của X là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "146",
+        "solution": "Đáp án: 146.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 319,
+        "id": "C3-P3-NB-319",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các chất có công thức cấu tạo sau:",
+          "NH2CH2CONHCH2COOH  (1)   \tNH2CH2CH2CONHCH2COOH (2)",
+          "NH2CH2CONHCH2CH2COOH  (3)\tNH2CH2CH2CONHCH2CH2COOH (4)",
+          "NH2CH2CH(NH2)CONHCH2COOH (5)\tHOOC–CH2–CH(NH2)COOH (6)",
+          "Trong số này có bao nhiêu chất thuộc loại peptide?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án: 2. (1 và 5)",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 320,
+        "id": "C3-P3-NB-320",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một peptide có công thức cấu tạo như sau:",
+          "Có bao nhiêu liên kết peptide có trong phân tử peptide trên?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q320_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 321,
+        "id": "C3-P3-NB-321",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các chất có công thức cấu tạo như sau:",
+          "Có bao nhiêu peptide tham gia phản ứng màu biuret cho màu tím đặc trưng?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "1",
+        "solution": "Đáp án: 1. Chất (5)",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q321_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 322,
+        "id": "C3-P3-TH-322",
+        "part": "P3",
+        "level": "TH",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Thủy phân một peptide X có cấu tạo như sau:",
+          "H2N–CH2–CONH–CH(CH3)–CONH–CH(COOH)–CH2CH2COOH",
+          "Số dipeptide thu được khi thủy phân không hoàn toàn X là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án: 2. Gồm Gly–Ala và Ala–Glu.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 323,
+        "id": "C3-P3-NB-323",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các peptide sau: Gly–Val–Ala–Gly (1); Ala–Gly (2); Val–Gly–Ala (3); Gly–Val–Ala (4). Có bao nhiêu peptide tham gia phản ứng màu biuret tạo màu tím đặc trưng với Cu(OH)2 trong môi trường kiềm?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3. Các peptide có từ hai liên kết peptide trở lên phản ứng với thuốc thử biuret (Cu(OH)2 trong môi trường kiềm), tạo thành dung dịch có màu tím đặc trưng.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 324,
+        "id": "C3-P3-TH-324",
+        "part": "P3",
+        "level": "TH",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tripsin là enzyme đặc hiệu xúc tác cho phản ứng thủy phân liên kết peptide để tạo thành lysine (Lys) hoặc peptide ngắn hơn có đầu N là lysine. Thủy phân peptide ứng với công thức cấu tạo là Gly–Ala–Lys–Val–Lys–Val–Gly khi có mặt enzyme tripsin có thể thu được bao nhiêu dipeptide?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3.  Để tạo ra lysine thì các dipeptide tạo kèm theo là Gly–Ala, Val–Gly.\nDipeptide có đầu N là lysine là Lys–Val.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 325,
+        "id": "C3-P3-TH-325",
+        "part": "P3",
+        "level": "TH",
+        "raw_topic": "Amino acid",
+        "topic": "Amino acid",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một nonapeptide (E) được sản sinh từ huyết thanh trong máu, có thể bị thủy phân hoàn toàn trong môi trường acid để tạo ra 3 phân tử Pro, 2 phân tử Arg, 2 phân tử Phe, 1 phân tử Ser và 1 phân tử Gly. Xử lí bằng enzyme chymotrypsin tạo ra pentapeptide Arg–Pro–Pro–Gly–Phe, tripeptide Ser–Pro–Phe và Arg. Phân tích nhóm đầu và nhóm cuối của peptide cho thấy các amino acid đều giống nhau. Cho biết trình tự các amino acid có trong nonapeptide. Nếu đánh số thứ tự amino acid đầu N là số 1 thì Ser ở vị trí số mấy trong (E)?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "6",
+        "solution": "Đáp án: 6. (E) là Arg–Pro–Pro–Gly–Phe–Ser–Pro–Phe–Arg.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 326,
+        "id": "C3-P1-NB-326",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Hợp chất nào sau đây thuộc loại protein?"
+        ],
+        "opt_lines": [
+          "A. Saccharose.\tB. Albumin.\tC. Triglyceride.\tD. Cellulose."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 327,
+        "id": "C3-P1-NB-327",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất cơ sở để hình thành nên các phân tử protein đơn giản là"
+        ],
+        "opt_lines": [
+          "A. α–amino acid.\tB. acid béo.\tC. các loại đường.\tD. tinh bột."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 328,
+        "id": "C3-P1-NB-328",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Protein nào sau đây có trong lòng trắng trứng?"
+        ],
+        "opt_lines": [
+          "A. Fibroin.\tB. Albumin.\tC. Collagen.\tD. Hemoglobin."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 329,
+        "id": "C3-P1-NB-329",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong các protein sau, protein nào tồn tại dạng hình cầu?"
+        ],
+        "opt_lines": [
+          "A. Albumin.\tB. Collagen.\tC. Keratin.\tD. Fibroin."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 330,
+        "id": "C3-P1-NB-330",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất nào tan được trong nước tạo thành dung dịch keo?"
+        ],
+        "opt_lines": [
+          "A.  Keratin.\tB.  Tóc.\tC.  Collagen.\tD.  Abumin."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 331,
+        "id": "C3-P1-NB-331",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Quá trình chuyển hóa protein thành amino acid thuộc loại phản ứng nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. Trùng hợp.\tB. Trùng ngưng.\tC. Thủy phân.\tD. Trao đổi."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 332,
+        "id": "C3-P1-NB-332",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Đốt cháy hoàn toàn chất hữu cơ nào sau đây thu được sản phẩm có chứa N2?"
+        ],
+        "opt_lines": [
+          "A. Chất béo.\tB. Tinh bột.\tC. Cellulose.\tD. Protein."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 333,
+        "id": "C3-P1-NB-333",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Khi ngâm trứng gà vào dung dịch NaCl bão hoà để làm trứng muối, sau một thời gian ở phần lòng trắng bị đông cứng do xảy ra hiện tượng"
+        ],
+        "opt_lines": [
+          "A. thủy phân protein.\tB. đông tụ protein.\tC. oxi hóa protein.\tD. kết tủa protein."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 334,
+        "id": "C3-P1-NB-334",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Khi nấu canh cua thì thấy các mảng “riêu cua” nổi lên là do"
+        ],
+        "opt_lines": [
+          "A. phản ứng thủy phân của protein.\tB. phản ứng màu của protein.",
+          "C. sự đông tụ của protein do acid.\t\t\t\t\t\t\tD. sự đông tụ của protein do nhiệt độ."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 335,
+        "id": "C3-P1-NB-335",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Khi nhỏ acid HNO3 đậm đặc vào dung dịch lòng trắng trứng đun nóng hỗn hợp thấy xuất hiện:...(1)…, cho Cu(OH)2 vào dung dịch lòng trắng trứng thấy màu...(2)... xuất hiện"
+        ],
+        "opt_lines": [
+          "A. (1) kết tủa màu vàng, (2) xanh.\tB. (1) kết tủa màu xanh, (2) vàng.",
+          "C. (1) kết tủa màu trắng, (2) tím.\tD. (1) kết tủa màu vàng, (2) tím."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 336,
+        "id": "C3-P1-TH-336",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Khi đun nóng protein trong dung dịch acid hoặc kiềm hoặc dưới tác dụng của các enzyme, protein bị thủy phân thành…(1)…, cuối cùng thành…(2)…"
+        ],
+        "opt_lines": [
+          "A. (1) phân tử protein nhỏ hơn; (2) amino acid.",
+          "B. (1) chuỗi polypeptide; (2) hỗn hợp các α–amino acid.",
+          "C. (1) chuỗi polypeptide; (2) amino acid.",
+          "D. (1) amino acid; (2) chuỗi polypeptide."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 337,
+        "id": "C3-P1-NB-337",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phản ứng nào sau đây có sự xúc tác của enzyme?"
+        ],
+        "opt_lines": [
+          "A. Khi ăn cơm nếu nhai cơm kĩ thấy có vị ngọt.",
+          "B. Sự quang hợp cây xanh.",
+          "C. Phản ứng của dung dịch NaOH với dung dịch HCl.",
+          "D. Phản ứng phân hủy đá vôi (CaCO3)."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 338,
+        "id": "C3-P1-TH-338",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phát biểu nào sau đây sai khi nói về enzyme?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 339,
+        "id": "C3-P1-VD-339",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các phát biểu sau:",
+          "a) Protein dạng hình cầu và dạng hình sợi tan tốt trong nước.",
+          "b) Một trong những tính chất hóa học đặc trưng của protein là phản ứng thủy phân.",
+          "c) Phản ứng của protein với nitric acid cho sản phẩm có màu tím.",
+          "d) Khi đun nóng lòng trắng trứng sẽ xảy ra hiện tượng đông tụ.",
+          "e) Trong cơ thể, enzyme đóng vai trò là chất xúc tác sinh học.",
+          "Số phát biểu đúng là"
+        ],
+        "opt_lines": [
+          "A. 4.\tB. 3.\tC. 5.\tD. 2."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "Số phát biểu đúng là 3 (b, d, e).\n(a) Sai – Chỉ có protein dạng hình cầu tan tốt trong nước, còn protein dạng hình sợi (như keratin, collagen) không tan trong nước.\n(b) Đúng – Phản ứng thủy phân là một trong những tính chất hóa học đặc trưng của protein, phân cắt protein thành các peptide và amino acid.\n(c) Sai – Phản ứng của protein với nitric acid cho màu vàng (phản ứng Xantoprotein), không phải màu tím.\n(d) Đúng – Khi đun nóng lòng trắng trứng (chứa albumin, một loại protein), sẽ xảy ra hiện tượng đông tụ do protein biến tính.\n(e) Đúng – Enzyme là chất xúc tác sinh học trong cơ thể, giúp tăng tốc độ phản ứng hóa học mà không bị tiêu hao trong quá trình",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 340,
+        "id": "C3-P1-NB-340",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Mỗi enzyme có một khoảng pH tối ưu. Môi trường pH quá cao hoặc quá thấp sẽ ảnh hưởng đến hoạt tính của enzyme. Giá trị pH mà tại đó enzyme hoạt động mạnh nhất được gọi là giá trị pH tối ưu.",
+          "Giá trị pH tối ưu của pepsin và trypsin lần lượt là"
+        ],
+        "opt_lines": [
+          "A. 2,0 và 8,5. \tB. 7,0 và 8,5. \tC. 8,5 và 2,0. \tD. 2,0 và 7,0."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q340_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 341,
+        "id": "C3-P1-VD-341",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Các enzyme trong cơ thể người đã tiến hóa để hoạt động tốt nhất ở nhiệt độ cơ thể bình thường. Đồ thị dưới đây biểu hiện tốc độ của một phản ứng sinh hóa trong cơ thể với sự xúc tác của một enzyme theo nhiệt độ:",
+          "Cho các phát biểu sau:",
+          "(a) Ở 37 °C, enzyme có hoạt tính tối đa làm tốc độ phản ứng xảy ra nhanh nhất.",
+          "(b) Enzyme bất hoạt hoàn toàn ở khoảng 51 °C.",
+          "(c) Tốc độ phản ứng thấp hơn ở nhiệt độ trên hoặc dưới 37 °C.",
+          "(d) Tốc độ phản ứng tăng khi nhiệt độ tăng từ 0 °C đến 37 °C. Khi nhiệt độ vượt quá 37 °C, enzyme bị biến tính và tốc độ phản ứng bắt đầu giảm.",
+          "Số phát biểu đúng là"
+        ],
+        "opt_lines": [
+          "A. 1. \tB. 2. \tC. 3. \tD. 4."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q341_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 342,
+        "id": "C3-P2-VD-342",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tiến hành thí nghiệm theo các bước sau:",
+          "Bước 1: Cho vào hai ống nghiệm (1) và (2), mỗi ống 2 mL dung dịch lòng trắng trứng.",
+          "Bước 2: Đun nóng ống nghiệm (1) trên ngọn lửa đèn cồn trong 2 – 3 phút.",
+          "Bước 3: Thêm vài giọt dung dịch HNO3 đặc vào ống nghiệm (2)."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Ở bước 2, lòng trắng trứng bị đông tụ khi đun trên đèn cồn.",
+          "b": "Ở bước 3, lòng trắng trứng tác dụng với dung dịch HNO3 đặc tạo thành hợp chất rắn có màu vàng. Phản ứng này gọi là phản ứng màu biuret.",
+          "c": "Protein có thể bị đông tụ dưới tác dụng của nhiệt, acid, base hoặc ion kim loại nặng.",
+          "d": "Ở bước 3, màu vàng của sản phẩm là do phản ứng nitro hóa vòng thơm có trong protein."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "NB",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:S - c:Đ - d:Đ",
+        "solution": "a) Đúng. Nhiệt làm protein biến tính và đông tụ, tạo ra kết tủa trắng (như “riêu cua”).\na) Đúng. Khi bị đun nóng ở bước 2, cấu trúc không gian của protein trong lòng trắng trứng bị biến tính và xảy ra hiện tượng đông tụ tạo thành khối chất rắn màu trắng.\nb) Sai. Bẫy tên gọi phản ứng: Phản ứng của protein với nitric acid đặc tạo ra hợp chất màu vàng tươi được gọi là phản ứng xanthoproteic, hoàn toàn không phải phản ứng màu biuret.\nc) Đúng. Sự đông tụ của protein là hiện tượng phổ biến, xảy ra dưới tác dụng của nhiệt độ cao, môi trường acid mạnh, base mạnh hoặc các dung dịch muối kim loại nặng.\nd) Đúng. Khối chất rắn chuyển sang màu vàng là minh chứng cho phản ứng nitro hóa xảy ra tại vòng benzene của các amino acid thơm (như tyrosine) có mặt trong protein.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 343,
+        "id": "C3-P2-TH-343",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một nhóm HS nghiên cứu khoa học, khảo sát sự ảnh hưởng của pH môi trường đến khả năng hoạt động của enzyme trong quá trình tiêu hóa ở người.",
+          "Một trong số thí nghiệm, nhóm học sinh đã khảo sát sự thủy phân albumin (protein có trong lòng trắng trứng) bằng enzyme pepsin được trình bày dưới bảng sau:",
+          "Tiến hành thí nghiệm tương tự đối với chymotrypsin (một loại enzyme), thu được đồ thị sau:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Albumin là protein dạng sợi, không tan trong nước nên ban đầu dung dịch bị đục.",
+          "b": "Pepsin hoạt động tốt nhất ở pH = 2.",
+          "c": "Từ kết quả thí nghiệm thì enzyme pepsin và chymotrypsin đều hoạt động tốt trong môi trường acid.",
+          "d": "Ở ống nghiệm 3, nếu thay pepsin thành chymotrypsin thì hiện tượng quan sát được là “từ đục thành trong” sau thí nghiệm."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:S - b:Đ - c:S - d:Đ",
+        "solution": "a) Sai. Bẫy tính chất vật lí: Albumin trong lòng trắng trứng thuộc loại protein hình cầu, tan tốt trong nước tạo thành dung dịch keo nên ban đầu hỗn hợp có dạng đục nhẹ chứ không phải protein hình sợi.\nb) Đúng. Dựa vào đồ thị và bảng số liệu thực nghiệm, ống nghiệm 1 (chứa acid ) cho kết quả dung dịch trong suốt, chứng tỏ pepsin hoạt động tốt nhất ở .\nc) Sai. Bẫy đọc đồ thị: Đỉnh đồ thị của enzyme chymotrypsin nằm ở khoảng , chứng tỏ nó chỉ hoạt động tốt nhất trong môi trường base yếu chứ không phải acid.\nd) Đúng. Hóa chất  tạo ra môi trường base yếu thuận lợi cho chymotrypsin hoạt động, do đó albumin sẽ bị thủy phân cắt đứt các mạch peptide làm dung dịch từ đục hóa trong.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q343_img1.png"
+        ],
+        "tables": [
+          [
+            [
+              "Ống nghiệm",
+              "Thành phần",
+              "Thời điểm t = 0 (phút)",
+              "Thời điểm t = 20 (phút)"
+            ],
+            [
+              "1",
+              "Albumin + Pepsin + HCl 0,01 M",
+              "Đục",
+              "Trong"
+            ],
+            [
+              "2",
+              "Albumin + Pepsin + H2O",
+              "Đục",
+              "Đục"
+            ],
+            [
+              "3",
+              "Albumin + Pepsin + NaHCO3 0,01 M",
+              "Đục",
+              "Đục"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 344,
+        "id": "C3-P2-VD-344",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Enzyme amylase là một protein có khả năng xúc tác cho phản ứng thủy phân tinh bột. Hoạt tính xúc tác của enzyme càng cao thì phản ứng thủy phân tinh bột diễn ra càng nhanh. Hoạt tính xúc tác của enzyme phụ thuộc vào các yếu tố như nhiệt độ, pH,… Một nhóm học sinh dự đoán \" pH càng tăng thì hoạt tính xúc tác của enzyme amylase càng cao\". Từ đó, học sinh tiến hành thí nghiệm ở nhiệt độ không đổi nhưng thay đổi pH của môi trường để kiểm tra dự đoán trên như sau:",
+          "Bước 1: Thêm 2,0 mL dung dịch một loại enzyme amylase vào một ống nghiệm chứa  dung dịch có vai trò duy trì ổn định pH bằng 5.",
+          "Bước 2: Thêm tiếp 2,0 mL dung dịch tinh bột vào ống nghiệm trên, lắc đều.",
+          "Bước 3: Sau khoảng mỗi 10 giây, dùng ống hút lấy 1–2 giọt hỗn hợp phản ứng trong ống nghiệm và cho vào đĩa sứ chứa sẵn dung dịch iodine, quan sát để từ đó xác định thời gian tinh bột thủy phân hết.",
+          "Lặp lại thí nghiệm theo ba bước trên, chỉ thay đổi pH dung dịch trong Buớc 1 lần lượt là 6 ; 7 ; 8 ; 9.",
+          "Nhóm học sinh ghi lại kết quả thời gian t (giây) mà tinh bột thủy phân hết trong môi trường  và vẽ đồ thị như hình bên."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Ở Bước 3, nếu dung dịch iodine chuyển sang màu xanh tím nghĩa là tinh bột thủy phân hết.",
+          "b": "Theo số liệu thu được, phản ứng thủy phân tinh bột ở  diễn ra nhanh hơn ở .",
+          "c": "Ở các giá trị pH nghiên cứu, hoạt tính xúc tác của enzyme amylase cao nhất tại .",
+          "d": "Từ kết quả thí nghiệm, kết luận được hoạt tính xúc tác của enzyme amylase tăng khi pH tăng."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:S - b:S - c:Đ - d:S",
+        "solution": "a) Sai. Bẫy hiện tượng chất chỉ thị: Nếu tinh bột đã bị enzyme thủy phân hết thành các phân tử đường thì dung dịch iodine sẽ không đổi màu, màu xanh tím chứng tỏ tinh bột vẫn còn dư.\nb) Sai. Bẫy phân tích đồ thị: Tại , phản ứng chỉ mất 100 giây để hoàn thành, nhanh hơn rất nhiều so với thời gian 180 giây tại , do đó tốc độ tại  lớn hơn.\nc) Đúng. Tại , thời gian thủy phân là ngắn nhất (chỉ tốn 60 giây), chứng tỏ hoạt tính xúc tác của enzyme amylase đạt mức tối đa ở điều kiện môi trường trung tính này.\nd) Sai. Bẫy quy luật toán học: Hoạt tính xúc tác chỉ tăng khi  đi từ 5 đến 7, nhưng khi  tiếp tục tăng lên 8 và 9 thì thời gian phản ứng tăng vọt chứng tỏ hoạt tính enzyme bị sụt giảm mạnh.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q344_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q344_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q344_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q344_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q344_img5.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q344_img6.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 345,
+        "id": "C3-P3-NB-345",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các chất sau: lysine, methylamine, aniline, Gly–Ala, albumin, Val–Gly–Ala, saccharose, glucose. Có bao nhiêu chất tác dụng được với dung dịch HCl?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "7",
+        "solution": "Đáp án 7: lysine, methylamine, aniline, Gly–Ala, albumin, Val–Gly–Ala và saccharose.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 346,
+        "id": "C3-P3-TH-346",
+        "part": "P3",
+        "level": "TH",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các chất sau: ethyl acetate, tripalmitin, saccharose, ethylamine, Gly–Ala, fibroin, Ala–Ala–Val. Số chất tham gia phản ứng thủy phân trong môi trường kiềm là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "5",
+        "solution": "Đáp án 5:  ethyl acetate, tripalmitin, Gly–Ala, fibroin và Ala–Ala–Val.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 347,
+        "id": "C3-P3-NB-347",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các dung dịch: glycerol, albumin, saccharose, glucose, Ala–Gly, Val–Ala–Gly. Số dung dịch phản ứng màu biuret là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án 2: albumin và Val–Ala–Gly.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 348,
+        "id": "C3-P3-NB-348",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các dung dịch: glycerol, albumin, saccharose, glucose. Số dung dịch phản ứng với Cu(OH)2 trong môi trường kiềm là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án 4:",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 349,
+        "id": "C3-P3-NB-349",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Peptide – Protein – Enzyme",
+        "topic": "Peptide – Protein – Enzyme",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các phản ứng hóa học sau:",
+          "(1) (C6H10O5)n + nH2OnC6H12O6 \t\t\t\t(2) C12H22O11 + H2O2C6H12O6",
+          "(3) C6H12O6 2C2H5OH + 2CO2 \t\t\t\t\t(4) C2H5OH + O2CH3COOH + H2O",
+          "Có bao nhiêu phản ứng có thể dùng xúc tác enzyme?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án: 4.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q349_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q349_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q349_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c3_q349_img4.png"
+        ],
+        "tables": []
       }
     ]
   },
