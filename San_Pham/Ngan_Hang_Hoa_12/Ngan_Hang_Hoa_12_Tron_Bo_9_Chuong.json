@@ -26387,7 +26387,7 @@
       "Đại cương về Polymer",
       "Vật liệu Polymer"
     ],
-    "total_questions": 130,
+    "total_questions": 256,
     "questions": [
       {
         "seq_num": 1,
@@ -30508,6 +30508,2946 @@
         "answer": "1235",
         "id": "C4-P3-VD-130",
         "solution": "Đáp số 1235\n(1) Đúng. Nhựa ABS được tổng hợp từ 3 monomer khác nhau (acrylonitrile, butadiene, styrene) bằng phản ứng đồng trùng hợp.\n(2) Đúng. Nhựa ABS chứa mắt xích butadiene có liên kết đôi C=C nên có phản ứng cộng với dung dịch bromine.\n(3) Đúng. Mắt xích butadiene mang đặc tính của cao su, giúp tăng độ dẻo dai và chịu va đập cho vật liệu.\n(4) Sai. Nhựa ABS chứa nguyên tố N (từ acrylonitrile), khi đốt cháy ngoài CO2, H2O còn có thể sinh ra khí khác như N2.\n(5) Đúng:\nTỉ lệ của styrene là 100% - 15,41% - 39,24% = 45,35%.\nTỉ lệ số mắt xích x: y: z ="
+      },
+      {
+        "q_num": 131,
+        "id": "C4-P1-NB-131",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Polymer là những hợp chất hữu cơ có phân tử khối...(1)..., do nhiều...(2)... liên kết với nhau tạo nên. Điền các từ hoặc cụm từ trong khung vào chỗ trống của các phát biểu sau cho phù hợp?"
+        ],
+        "opt_lines": [
+          "A. (1) lớn và (2) chất.\t\tB. (1) lớn và (2) mắt xích.",
+          "C. (1) nhỏ và (2) mắt xích.\tD. (1) nhỏ và (2) chất."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 132,
+        "id": "C4-P1-NB-132",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Polymer là những hợp chất có phân tử khối lớn do nhiều đơn vị nhỏ liên kết với nhau tạo thành. Các đơn vị nhỏ này được gọi là"
+        ],
+        "opt_lines": [
+          "A. mắt xích.\tB. monomer.\tC. hệ số polymer hóa.\tD. hệ số trùng hợp."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 133,
+        "id": "C4-P1-NB-133",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất nào dưới đây thuộc loại polymer?"
+        ],
+        "opt_lines": [
+          "A. Glucose. \tB. Fructose.\tC. Saccharose. \tD. Cellulose."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 134,
+        "id": "C4-P1-NB-134",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Các polymer không bị nóng chảy mà bị phân hủy bởi nhiệt được gọi là"
+        ],
+        "opt_lines": [
+          "A. chất nhiệt dẻo.\tB. tơ.\tC. chất nhiệt rắn.\tD. cao su."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 135,
+        "id": "C4-P1-NB-135",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Polymer nào sau đây trong thành phần chỉ gồm hai nguyên tố C và H?"
+        ],
+        "opt_lines": [
+          "A. Poly(phenol formaldehyde).\tB. Poly(methyl methacrylate).",
+          "C. Polybuta–1,3–diene.\t\tD. Nylon–6,6."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 136,
+        "id": "C4-P1-NB-136",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Khi phân tích thành phần một polymer X thấy tỉ lệ số mol C và H tương ứng là 1: 1. X là polymer nào dưới đây?"
+        ],
+        "opt_lines": [
+          "A. Polypropylene.\t\tB. Tinh bột.",
+          "C. Polystyrene.\t\tD. Poly(vinyl chloride)."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 137,
+        "id": "C4-P1-NB-137",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Loại polymer nào sau đây có chứa nguyên tố nitrogen?"
+        ],
+        "opt_lines": [
+          "A. Polystyrene.\tB. Poly(vinyl chloride).\tC. Polyisoprene.\tD. Nylon–6,6."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 138,
+        "id": "C4-P1-NB-138",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Poly(vinyl chloride) được điều chế trực tiếp từ monomer nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. CH2=CH–CN.\tB. CH2=CH2.\tC. CH2=CH–CH=CH2.\tD. CH2=CH–Cl."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 139,
+        "id": "C4-P1-NB-139",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một polymer Y có cấu tạo mạch như sau:...−CH2−CH2−CH2−CH2−CH2−CH2−CH2−CH2−…",
+          "Công thức một mắt xích trên polymer Y là"
+        ],
+        "opt_lines": [
+          "A. −CH2−CH2−CH2−.\t\tB. −CH2−CH2−CH2−CH2−.",
+          "C. −CH2−.\t\tD. −CH2−CH2−."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 140,
+        "id": "C4-P1-NB-140",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho cấu tạo của một đoạn mạch trong phân tử polymer X:",
+          "Tên gọi của polymer X là"
+        ],
+        "opt_lines": [
+          "A. Polyvinyl chloride.\t\tB. (Polyvinyl) chloride.",
+          "C. Poly(vinyl chlorine).\t\tD. Poly(vinyl chloride)."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q140_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 141,
+        "id": "C4-P1-NB-141",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Polymer  có tên gọi là"
+        ],
+        "opt_lines": [
+          "A. polypropylene.\t\tB. poly(methyl methacrylate).",
+          "C. Polybuta–1,3–diene.\t\tD. polyisoprene."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q141_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 142,
+        "id": "C4-P1-NB-142",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Quá trình cộng hợp liên tiếp nhiều phân tử nhỏ giống nhau hoặc tương tự nhau (monomer) tạo thành phân tử lớn (polymer) được gọi là phản ứng"
+        ],
+        "opt_lines": [
+          "A. thủy phân.\tB. trùng hợp.\tC. trùng ngưng.\tD. xà phòng hóa."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 143,
+        "id": "C4-P1-NB-143",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Quá trình kết hợp nhiều phân tử nhỏ (monomer) thành phân tử lớn (polymer) đồng thời giải phóng những phân tử nhỏ khác (thí dụ H2O) được gọi là phản ứng"
+        ],
+        "opt_lines": [
+          "A. trùng ngưng.\tB. trùng hợp.\tC. xà phòng hóa.\tD. thủy phân."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 144,
+        "id": "C4-P1-NB-144",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các chất sau: CH2=CHCl; CH2=CHCH3; CH2=CH–CH=CH2; H2N[CH2]5COOH. Số chất có khả năng tham gia phản ứng trùng hợp là"
+        ],
+        "opt_lines": [
+          "A. 3.\tB. 1.\tC. 4.\tD. 2."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 145,
+        "id": "C4-P1-NB-145",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trùng hợp propylene thu được polymer có tên gọi là"
+        ],
+        "opt_lines": [
+          "A. polypropylene.\t\tB. polyethylene.",
+          "C. polystyrene.\t\tD. poly(vinyl chloride)."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 146,
+        "id": "C4-P1-NB-146",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Poly(vinyl acetate) là polymer được điều chế bằng phản ứng trùng hợp"
+        ],
+        "opt_lines": [
+          "A. C2H5COO–CH=CH2.\t\tB. CH2=CH–COO–C2H5.",
+          "C. CH3COO–CH=CH2.\t\tD. CH2=CH–COO–CH3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 147,
+        "id": "C4-P1-NB-147",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Polymer nào sau đây được tổng hợp bằng phản ứng trùng hợp?"
+        ],
+        "opt_lines": [
+          "A. Polysaccharide.\t\tB. Poly(vinyl chloride).",
+          "C. Poly(etylen terephatalat).\tD. Nylon–6,6."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 148,
+        "id": "C4-P1-NB-148",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các polymer: poly(vinyl chloride), cellulose, polycaproamide, polystyrene, cellulose triacetate, nylon–6,6. Số polymer tổng hợp là"
+        ],
+        "opt_lines": [
+          "A. 5.\tB. 2.\tC. 3.\tD. 4."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 149,
+        "id": "C4-P1-NB-149",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các chất: caprolactam (1), isopropylbenzene (2), acrylonitrile (3), glycine (4), vinyl acetate (5). Các chất có khả năng tham gia phản ứng trùng hợp tạo polymer là"
+        ],
+        "opt_lines": [
+          "A. (1), (2) và (3).\tB. (1), (2) và (5).\tC. (1), (3) và (5).\tD. (3), (4) và (5)."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 150,
+        "id": "C4-P1-NB-150",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất nào sau đây có thể tham gia phản ứng trùng ngưng?"
+        ],
+        "opt_lines": [
+          "A. C6H6.\tB. H2N[CH2]6COOH.\tC. C6H5CH=CH2. \tD. CH2=CHCH3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 151,
+        "id": "C4-P1-NB-151",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Polymer Z được tổng hợp theo phương trình hóa học sau:",
+          "Polymer  được điều chế bằng phản ứng"
+        ],
+        "opt_lines": [
+          "A. trùng ngưng.\tB. thế.\tC. phân hủy.\tD. trùng hợp."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q151_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q151_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 152,
+        "id": "C4-P1-NB-152",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Capron được tổng hợp từ caprolactam theo phương trình hóa học sau:",
+          "Phản ứng điều chế capron từ caprolactam thuộc loại phản ứng"
+        ],
+        "opt_lines": [
+          "A. trùng ngưng.\tB. thế.\tC. phân hủy.\tD. trùng hợp."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q152_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 153,
+        "id": "C4-P1-NB-153",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "(Loại polymer nào sau đây được điều chế bằng phản ứng trùng ngưng?"
+        ],
+        "opt_lines": [
+          "A. PVC.\tB. Cao su buna.\tC. PS.\tD. Nylon–6,6."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 154,
+        "id": "C4-P1-NB-154",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Loại polymer nào sau đây được tổng hợp từ một loại monomer?"
+        ],
+        "opt_lines": [
+          "A. Cao su buna–S.\tB. Nylon–6,6.\tC. Capron.\tD. PET."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 155,
+        "id": "C4-P1-NB-155",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Các động vật ăn cỏ như trâu, bò, dê, cừu,... có thể chuyển hóa cellulose trong thức ăn thành glucose bằng enzyme cellulase để cung cấp năng lượng cho cơ thể. Phản ứng chuyển hóa cellulose thành glucose thuộc loại phản ứng nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. Cắt mạch polymer.\t\tB. Giữ nguyên mạch polymer.",
+          "C. Tăng mạch polymer.\t\tD. Trùng ngưng."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 156,
+        "id": "C4-P1-NB-156",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phản ứng của polyisoprene với bromine xảy ra theo phương trình hóa học sau:",
+          "Phản ứng trên thuộc loại phản ứng"
+        ],
+        "opt_lines": [
+          "A. cắt mạch polymer.\t\tB. giữ nguyên mạch polymer.",
+          "C. tăng mạch polymer.\t\tD. trùng hợp polymer."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q156_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 157,
+        "id": "C4-P1-NB-157",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Polystyrene bị nhiệt phân thu được styrene theo phản ứng sau:",
+          "Phản ứng trên thuộc loại phản ứng"
+        ],
+        "opt_lines": [
+          "A. cắt mạch polymer.\t\tB. giữ nguyên mạch polymer.",
+          "C. tăng mạch polymer.\t\tD. phân hủy polymer."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q157_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 158,
+        "id": "C4-P1-NB-158",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong công nghiệp, người ta có thể điều chế poly(vinyl alcohol) bằng cách đun nóng PVC trong dung dịch kiềm. Khi đó xảy ra phản ứng sau:",
+          "Phản ứng trên thuộc loại phản ứng"
+        ],
+        "opt_lines": [
+          "A. giữ nguyên mạch polymer.\t B. phân cắt mạch polymer.",
+          "C. oxi hóa – khử. \t\tD. tăng mạch polymer."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q158_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 159,
+        "id": "C4-P1-NB-159",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong các polymer sau: tinh bột, cellulose, protein, polyethylene, poly(vinyl chloride). Có bao nhiêu chất có thể bị phân hủy sinh học?"
+        ],
+        "opt_lines": [
+          "A. 1. \tB. 2.\tC. 3. \tD. 4."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 160,
+        "id": "C4-P1-NB-160",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Nhiệt độ tự bốc cháy là nhiệt độ thấp nhất ở áp suất khí quyển mà chất cháy tự cháy trong không khí dù không cần tiếp xúc với nguồn lửa. Khi nhà kho chứa các đồ vật làm bằng nhựa poly(vinyl chloride) (PVC) bị cháy sẽ tạo nên khói đám cháy có nhiệt độ rất cao và chứa các khí như . Trong khi di chuyển ra xa đám cháy, cần cúi thấp người, đồng thời dùng khăn ướt che mũi và miệng.",
+          "Cho các phát biểu sau:",
+          "(a) Khăn ướt không có tác dụng hạn chế khí HCl đi vào cơ thể.",
+          "(b) Việc cúi thấp người nhằm tránh khói đám cháy (có xu hướng bốc lên cao).",
+          "(c) Khói từ đám cháy nhựa PVC độc hại hơn khói từ đám cháy các đồ vật làm bằng gỗ.",
+          "(d) Việc sử dụng nước để chữa cháy nhằm mục đích hạ nhiệt độ đám cháy thấp hơn nhiệt độ tự bốc cháy của PVC",
+          "Các phát biểu đúng là"
+        ],
+        "opt_lines": [
+          "A. (a), (b), (c).\tB. (a), (b), (d).\tC. (b), (c), (d).\tD. (a), (c), (d)."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q160_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 161,
+        "id": "C4-P1-NB-161",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một loại cao su có công thức cấu tạo một đoạn mạch như sau:",
+          "Khối lượng phân tử của monomer tạo thành polymer trên là"
+        ],
+        "opt_lines": [
+          "A. 68.\tB. 100.\tC. 147.\tD. 161."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q161_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 162,
+        "id": "C4-P2-TH-162",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Polyisoprene phản ứng với hydrogen chloride theo phương trình hóa học sau:",
+          "(1)"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Polyisoprene được điều chế bằng phản ứng trùng hợp CH2=CH–CH=CH2.",
+          "b": "Phản ứng (1) thuộc loại phản ứng giữ nguyên mạch polymer.",
+          "c": "Cao su thiên nhiên, cao su buna,… do có liên kết đôi trong mạch nên có thể tham gia phản ứng cộng vào liên kết đôi mà không làm thay đổi mạch polymer.",
+          "d": "Khi đun nóng polyisoprene với sulfur thu được cao su lưu hóa. Phản ứng này cũng thuộc loại phản ứng giữ nguyên mạch polymer."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "NB",
+          "c": "TH",
+          "d": "NB"
+        },
+        "answer": "a:S - b:Đ - c:Đ - d:S",
+        "solution": "a) Sai. Polyisoprene được điều chế từ monomer CH₂=C(CH₃)–CH=CH₂, không phải CH₂=CH–CH=CH₂.\nb) Đúng. Phản ứng cộng HCl vào liên kết đôi là giữ nguyên mạch polymer.\nc) Đúng. Liên kết đôi trong cao su thiên nhiên, cao su buna,... cho phép phản ứng cộng HCl mà không cắt mạch polymer.\nd) Sai. Lưu hóa cao su với S tạo liên kết mạng không gian → là phản ứng tăng mạch, không phải giữ nguyên mạch.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q162_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 163,
+        "id": "C4-P2-TH-163",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Poly(vinyl acetate) bị thủy phân trong môi trường kiềm theo phương trình hóa học sau:",
+          "(1)"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Phản ứng (1) thuộc loại phản ứng cắt mạch polymer.",
+          "b": "Những polymer có liên kết đôi trong mạch có thể tham gia phản ứng cộng vào liên kết đôi làm cắt mạch polymer.",
+          "c": "Polymer thu được có tên gọi là poly(vinyl alcohol).",
+          "d": "Poly(vinyl alcohol) còn được điều chế bằng phản ứng trùng hợp vinyl alcohol."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "TH",
+          "c": "NB",
+          "d": "TH"
+        },
+        "answer": "a:S - b:S - c:Đ - d:S",
+        "solution": "a) Sai. Phản ứng chuyển nhóm –OOCCH₃ thành –OH là phản ứng giữ nguyên mạch, không cắt mạch.\nb) Sai. Liên kết đôi trong mạch cho phản ứng cộng, nhưng không gây cắt mạch.\nc) Đúng. Sản phẩm có nhóm –OH → gọi là poly(vinyl alcohol).\nd) Sai. Vinyl alcohol không bền, tự chuyển hóa thành acetaldehyde (CH₃CHO), nên không trùng hợp được.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q163_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 164,
+        "id": "C4-P2-TH-164",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Poly(methyl methacrylate) (viết tắt là PMMA) là một polymer được điều chế từ methyl methacrylate. PMMA được sử dụng để chế tạo thuỷ tinh hữu cơ plexiglass. Plexiglass được dùng làm kính máy bay, ô tô, kính trong các máy móc nghiên cứu, kính xây dựng, trong y học dùng làm răng giả, xương giả,..."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Phản ứng tổng hợp PMMA từ methyl methacrylate thuộc loại phản ứng trùng ngưng.",
+          "b": "Methyl methacrylate có phản ứng tráng bạc.",
+          "c": "Trong một mắt xích PMMA, phần trăm khối lượng nguyên tố carbon là 60%.",
+          "d": "Từ methacrylic acid (CH2=C(CH3)COOH) và methanol có thể điều chế trực tiếp được methyl methacrylate."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "TH",
+          "c": "VD",
+          "d": "TH"
+        },
+        "answer": "a:S - b:S - c:Đ - d:Đ",
+        "solution": "a) Sai. Là trùng hợp, không phải trùng ngưng\nb) Sai. Methyl methacrylate là một ester → không có nhóm aldehyde (–CHO) nên không tham gia phản ứng tráng bạc.\nc) Đúng. Công thức phân tử monomer ⇒ C5​H8​O2​\nd) Đúng. Là phản ứng este hóa tạo methyl methacrylate",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 165,
+        "id": "C4-P2-TH-165",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Sợi Kevlar có độ bền lớn nên được sử dụng làm sợi gia cường trong lốp xe đua, vật liệu composite, vải thuyền buồm, áo giáp chống đạn,... Kevlar có công thức cấu tạo như hình sau đây:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Đoạn mạch Kevlar trên gồm 4 mắt xích.",
+          "b": "Phản ứng tạo Kevlar thuộc loại phản ứng trùng ngưng.",
+          "c": "Kevlar được tổng hợp từ các monomer là p–H2NC6H4NH2, p–OHCC6H4CHO.",
+          "d": "Sợi Kevlar thuộc loại polyamide."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "NB",
+          "c": "TH",
+          "d": "NB"
+        },
+        "answer": "a:Đ - b:Đ - c:S - d:Đ",
+        "solution": "a) Đúng. Có 4 mắt xích trong đoạn mạch Kevlar\nb) Đúng. Là phản ứng trùng ngưng (giải phóng H₂O)\nc)  Sai. Monomer dùng là diacid – diamine, không phải dialdehyde\nd) Đúng. Kevlar là polyamide do có liên kết –CO–NH–",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q165_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 166,
+        "id": "C4-P3-NB-166",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các polymer sau: cellulose, polybutadiene, protein, polystyrene, tinh bột, poly(methyl metacrylate). Có bao nhiêu polymer thuộc loại polymer thiên nhiên?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3. Bao gồm: cellulose, protein, tinh bột.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 167,
+        "id": "C4-P3-NB-167",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Có bao nhiêu polymer thiên nhiên trong các vật liệu sau: bông, tơ tằm, len, cellulose, tơ nitron?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án: 4. Bao gồm: bông, tơ tằm, len, cellulose.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 168,
+        "id": "C4-P3-NB-168",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các polymer: nylon–6,6; capron; cellulose trinitrate; tơ tằm; cao su buna. Số polymer có thành phần chứa nguyên tố N là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án: 4. Bao gồm: nylon–6,6; capron; cellulose trinitrate; tơ tằm.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 169,
+        "id": "C4-P3-NB-169",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các nhận định sau:",
+          "Có bao nhiêu nhận định sai trong các nhận định trên?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án: 2. Bao gồm: a và c.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q169_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 170,
+        "id": "C4-P3-NB-170",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Nomex là polymer chịu nhiệt rất tốt. Loại polymer này thường được dùng để sản xuất quần áo bảo hộ công nghiệp và các trang thiết bị cho lính cứu hỏa. Nomex công thức cấu tạo như sau:",
+          "Tổng số nguyên tử hydrogen của các monomer tạo nên Nomex có giá trị bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "14",
+        "solution": "Đáp án: 14. Nomex được tạo nên từ các monomer: H2NC6H4NH2 và HOOCC6H4COOH",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q170_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 171,
+        "id": "C4-P3-NB-171",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các phản ứng sau:",
+          "(1)",
+          "(2)",
+          "(3)",
+          "(4)",
+          "Số phản ứng thuộc loại phản ứng giảm mạch polymer là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án 2. Bao gồm: (3) và (4).",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q171_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q171_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q171_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q171_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 172,
+        "id": "C4-P3-NB-172",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho phương trình của các phản ứng được đánh số thứ tự dưới đây:",
+          "(1)",
+          "Tinh bột",
+          "(2) Cao su thiên nhiên  Cao su lưu hóa",
+          "(3)",
+          "(4)",
+          "Xác định dãy bốn số (ví dụ: ) theo trình tự sắp xếp các phản ứng trên theo tên gọi: phản ứng tăng mạch; phản ứng cắt mạch; phản ứng giữ nguyên mạch; phản ứng phân hủy."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2341",
+        "solution": "Đáp án: 2341.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q172_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q172_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q172_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q172_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q172_img5.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 173,
+        "id": "C4-P3-NB-173",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các polymer sau: polyethylene, poly(methyl methacrylate), poly(vinyl chloride), polyacrylonitrile. Số polymer điều chế được bằng phản ứng trùng hợp là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án: 4.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 174,
+        "id": "C4-P3-NB-174",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các polymer sau: polybuta–1,3–diene, poly(methyl methacrylate), polyacrylonitrile, nylon–6,6. Số polymer được điều chế bằng phản ứng trùng ngưng là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "1",
+        "solution": "Đáp án: 1: nylon–6,6",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 175,
+        "id": "C4-P3-NB-175",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho dãy các nguyên liệu: (1) ω–aminoenanthic acid; (2) caprolactam; (3) ethylene glycol và terephthalic acid; (4) hexamethylendiamine và adipic acid. Số nguyên liệu có phản ứng trùng ngưng tạo polymer là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3: Bao gồm: (1), (3) và (4)",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 176,
+        "id": "C4-P3-TH-176",
+        "part": "P3",
+        "level": "TH",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các polymer: poly(hexamethylene adipamide); amylose; capron; cellulose. Số polymer bị thủy phân trong môi trường acid là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án: 4.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 177,
+        "id": "C4-P3-TH-177",
+        "part": "P3",
+        "level": "TH",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các polymer: nylon–6,6, cellulose trinitrate, poly(methyl methacrylate), poly(vinyl chloride) và polystyrene. Số polymer bị thủy phân trong môi trường kiềm là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3: Bao gồm: nylon–6,6 và poly(methyl methacrylate), poly(vinyl chloride)",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 178,
+        "id": "C4-P3-NB-178",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các polymer sau: protein, polypropylene, polyethylene, poly(vinyl chloride), polystyrene, tinh bột. Khi đun nóng mỗi chất với dung dịch kiềm, có bao nhiêu chất bị phân cắt mạch polymer?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "1",
+        "solution": "Đáp án: 1. Bao gồm: protein.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 179,
+        "id": "C4-P3-NB-179",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các polymer sau: polypeptide, poly(vinyl chloride), polystyrene, tinh bột, poly(vinyl acetate). Khi đun nóng mỗi chất trong dung dịch kiềm, có bao nhiêu chất có phản ứng mà mạch polymer không thay đổi?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án: 2. Bao gồm: poly(vinyl chloride), poly(vinyl acetate).",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 180,
+        "id": "C4-P3-TH-180",
+        "part": "P3",
+        "level": "TH",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Terephthalic acid là chất rắn màu trắng, tiền thân của polyester PET, được sử dụng để sản xuất quần áo và chai nhựa. Quá trình tổng hợp terephthalic từ p–xylene theo sơ đồ sau:",
+          "Có bao nhiêu phân tử oxygen đã phản ứng với 1 phân tử p–xylene trong phản ứng trên?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3. CH3 – C6H4 – CH3 + 3O2   HOOC – C6H4 – COOH + 2H2O.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q180_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q180_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 181,
+        "id": "C4-P3-NB-181",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Sợi bông tự nhiên có thành phần chính là polymer . Thông qua phương pháp đo lường vật lí, người ta xác định được phân tử khối trung bình của một sợi  là 4 860 000. Hệ số polymer hóa của sợi bông này là bao nhiêu? (Làm tròn kết quả đến hàng đơn vị)"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "30000",
+        "solution": "Đáp án: 30000\nGiải thích: Mỗi mắt xích cơ sở  của  có khối lượng bằng 162.\n.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q181_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q181_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 182,
+        "id": "C4-P3-NB-182",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tơ  là một loại  có tính dai, bền, được dùng để dệt vải may mặc hoặc bện dây cáp. Một đoạn mạch polymer của  có phân tử khối là 226 000. Tính hệ số polymer hóa của đoạn mạch này. (Làm tròn kết quả đến hàng đơn vị)"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "1000",
+        "solution": "Đáp án: 1000\nGiải thích: Một mắt xích hoàn chỉnh của  được tạo ra từ phản ứng trùng ngưng, có công thức cấu tạo là  mang khối lượng phân tử bằng 226. Biểu thức tính gộp một dòng: .",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q182_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q182_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q182_img3.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 183,
+        "id": "C4-P3-NB-183",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cao su thiên nhiên có thành phần chính là , mang lại độ đàn hồi cực kỳ xuất sắc. Trong một lần lấy mẫu mủ cao su phân tích, kĩ thuật viên đo được phân tử khối trung bình của một chuỗi polymer là 1 020 000. Xác định số lượng đơn vị  có trong chuỗi polymer này. (Làm tròn kết quả đến hàng đơn vị)"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "15000",
+        "solution": "Đáp án: 15000\nGiải thích: Mắt xích cơ sở của cao su thiên nhiên có công thức cấu tạo là  (công thức phân tử là ) có khối lượng phân tử bằng 68. Biểu thức tính gộp một dòng: .",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q183_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q183_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 184,
+        "id": "C4-P3-NB-184",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Để cải thiện độ bền nhiệt và tính kháng hóa chất, người ta tiến hành phản ứng cộng khí  () vào cao su thiên nhiên (, C5H8). Một nhóm nghiên cứu thu được một loại vật liệu polymer mới có chứa 14,76% nguyên tố  về khối lượng. Giả sử phản ứng xảy ra đồng đều, trung bình một phân tử  sẽ phản ứng với  mắt xích . Tìm giá trị của . (Làm tròn kết quả đến hàng đơn vị)"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3\n📝 📝 Hướng dẫn giải::\n🔹 Cách 1 (Tư duy từng bước):\n\tMắt xích cơ sở của  có công thức phân tử là  (khối lượng phân tử bằng 68).\n\tPhương trình hóa học tổng quát:\n\tTổng khối lượng phân tử của đoạn mạch sản phẩm là: .\n\tKhối lượng của nguyên tố  trong đoạn mạch là 35,5.\n\tThiết lập phương trình phần trăm khối lượng:\n\tGiải phương trình ta thu được: .\n\tKết luận: Cứ 3 mắt xích  thì có 1 mắt xích cộng hợp với phân tử .\n🧮 Cách 2 (Bấm máy tính bằng biểu thức một dòng): Học sinh thiết lập thẳng biểu thức chứa ẩn  trên máy tính và dùng lệnh Solve:",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q184_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q184_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q184_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q184_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q184_img5.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q184_img6.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q184_img7.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q184_img8.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 185,
+        "id": "C4-P3-NB-185",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Để cải thiện khả năng chịu nhiệt và độ cứng, người ta sục khí  vào dung dịch chứa nhựa  để tạo ra nhựa CPVC (Chlorinated Poly(vinyl chloride)). Giả sử trung bình cứ  mắt xích  sẽ phản ứng thế với 1 phân tử . Phân tích nguyên tố cho thấy loại nhựa CPVC này có chứa 66,77%  về khối lượng. Xác định giá trị của . (Làm tròn kết quả đến hàng đơn vị)"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án: 2\nGiải thích: Phương trình hóa học tổng quát: .\nMắt xích ban đầu có khối lượng phân tử là 62,5.\nKhối lượng phân tử của đoạn mạch sau phản ứng là .\nBiểu thức bấm máy tính một dòng:",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q185_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q185_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q185_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q185_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q185_img5.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q185_img6.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q185_img7.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 186,
+        "id": "C4-P3-NB-186",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Quá trình lưu hóa cao su thiên nhiên () bằng nguyên tố  ở nhiệt độ cao sẽ tạo ra các cầu nối  () liên kết các mạch  lại với nhau. Một mẫu cao su lưu hóa có chứa 3,63% nguyên tố  về khối lượng. Giả sử trung bình cứ  mắt xích  thì có 1 cầu nối  hình thành và thay thế cho 2 nguyên tử . Xác định giá trị của .(Làm tròn kết quả đến hàng đơn vị)"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "25",
+        "solution": "Đáp án: 25\nGiải thích: Phương trình hóa học tổng quát: .\nMắt xích  có khối lượng phân tử là 68.\nKhối lượng của cầu nối  là 64.\nBiểu thức bấm máy tính một dòng:",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q186_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q186_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q186_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q186_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q186_img5.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q186_img6.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q186_img7.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q186_img8.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q186_img9.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q186_img10.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q186_img11.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 187,
+        "id": "C4-P3-NB-187",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Nhựa  phản ứng thế với khí  tạo ra vật liệu CPE (Chlorinated Polyethylene) có khả năng chống cháy và tính đàn hồi cao. Biết rằng trung bình cứ  mắt xích  thì có 1 nguyên tử  bị thay thế bởi 1 nguyên tử . Sản phẩm CPE thu được có chứa 24,23%  về khối lượng. Xác định giá trị của .(Làm tròn kết quả đến hàng đơn vị)"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án: 4\nGiải thích: Phương trình hóa học tổng quát: .\nMắt xích  có khối lượng phân tử là 28.\nBiểu thức bấm máy tính một dòng:",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q187_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q187_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q187_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q187_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q187_img5.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q187_img6.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q187_img7.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q187_img8.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 188,
+        "id": "C4-P3-NB-188",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Để nghiên cứu cấu trúc, người ta cho nhựa  phản ứng cộng với dung dịch . Trung bình 1 phân tử  () cộng gộp hoàn toàn vào 1 liên kết đôi của đoạn mạch chứa  mắt xích  (các liên kết đôi còn lại không phản ứng do án ngữ không gian). Sản phẩm  thu được có chứa 37,21%  về khối lượng. Xác định giá trị của . (Làm tròn kết quả đến hàng đơn vị)"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "5",
+        "solution": "Đáp án: 5\nGiải thích: Phương trình hóa học tổng quát: . Mắt xích  có khối lượng phân tử là 54. Phân tử  có khối lượng là 160. Biểu thức bấm máy tính một dòng:",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q188_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q188_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q188_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q188_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q188_img5.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q188_img6.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q188_img7.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q188_img8.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q188_img9.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 189,
+        "id": "C4-P3-NB-189",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Đại cương về Polymer",
+        "topic": "Đại cương về Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Nhựa  phản ứng thế với khí  (có mặt xúc tác bột sắt, đun nóng) tạo ra một loại vật liệu có khả năng kháng cháy. Biết rằng 1 phân tử  chỉ phản ứng thế vào vòng  của đoạn mạch chứa  mắt xích . Phân tích cấu tạo sản phẩm thu được thấy có chứa 7,88% nguyên tố  về khối lượng. Xác định giá trị của . (Làm tròn kết quả đến hàng đơn vị)"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án: 4\nGiải thích: Phương trình hóa học tổng quát: .\nMắt xích  có khối lượng phân tử là 104.\nBiểu thức bấm máy tính một dòng:",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q189_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q189_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q189_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q189_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q189_img5.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q189_img6.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q189_img7.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q189_img8.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 190,
+        "id": "C4-P1-NB-190",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Polymer nào sau đây được dùng để chế tạo vật liệu có tính dẻo?"
+        ],
+        "opt_lines": [
+          "A. Poly(vinyl chloride).\t\tB. Poly(vinyl cyanide).",
+          "C. Poly(hexamethylene adipamide).\tD. Poly(ethylene terephthalate)."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 191,
+        "id": "C4-P1-NB-191",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trùng hợp monomer CH2=CH–Cl thu được chất dẻo nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. PE.\tB. PP.\tC. PVC.\tD. PS."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 192,
+        "id": "C4-P1-NB-192",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Polymer  là chất rắn trong suốt, có khả năng cho ánh sáng truyền qua tốt nên được dùng để chế tạo thuỷ tinh hữu cơ. Tên gọi của  là"
+        ],
+        "opt_lines": [
+          "A. poly(methyl methacrylate).\tB. poly(phenol–formaldehyde).",
+          "C. polyethylene.\t\tD. poly(vinyl chloride)."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q192_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q192_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 193,
+        "id": "C4-P1-NB-193",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Polystyrene  là chất nhiệt dẻo thường được sử dụng để sản xuất đồ nhựa như li, chén dùng một lần hoặc hộp đựng thức ăn mang về tại các cửa hàng. Ở khoảng trên 80 oC, PS bị biến đồi trờ nên mềm, dính. Do vậy, nên tránh hâm nóng thực phẩm chứa trong các loại hộp này. Monomer được dùng để điều chế PS là"
+        ],
+        "opt_lines": [
+          "A. C6H5CH=CH2.\tB. CH2=CHCH=CH2.\tC. CH2=CH2.\tD. CH2=CHCH3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q193_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 194,
+        "id": "C4-P1-NB-194",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "PE là một polymer thông dụng, dùng làm chất dẻo (chất dẻo chứa PE chiếm gần 1/3 tổng lượng chất dẻo được sản xuất hàng năm). Trong đời sống, PE được dùng làm màng bọc thực phẩm, túi nylon, bao gói, chai lọ đựng hóa mĩ phẩm,... PE được điều chế từ monomer nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. Ethylene.\tB. Propylene.\tC. Styrene.\tD. Vinyl chloride."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 195,
+        "id": "C4-P1-NB-195",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất dẻo nào sau đây chứa chlorine?"
+        ],
+        "opt_lines": [
+          "A. PE.\tB. PVC.\tC. PS.\tD. PPF."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 196,
+        "id": "C4-P1-NB-196",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trùng hợp styrene thu được polymer có kí hiệu viết tắt là"
+        ],
+        "opt_lines": [
+          "A. PE.\tB. PP.\tC. PVC.\tD. PS."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 197,
+        "id": "C4-P1-NB-197",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Polymer nào có tính cách điện tốt, bền được dùng làm ống dẫn nước, vải che mưa, vật liệu điện,…?"
+        ],
+        "opt_lines": [
+          "A. Cao su thiên nhiên.\t\tB. Poly(vinyl chloride).",
+          "C. Polyethylene.\t\tD. Thủy tinh hữu cơ."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 198,
+        "id": "C4-P1-NB-198",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho dãy gồm các hợp chất cao phân tử: (1) polystyrene, (2) poly(vinyl chloride), (3) poly(phenol formaldehyde), (4) polybuta–1,3–diene. Số hợp chất trong dãy được dùng để sản xuất vật liệu polymer có tính dẻo là"
+        ],
+        "opt_lines": [
+          "A. 1.\tB. 2.\tC. 3.\tD. 4."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 199,
+        "id": "C4-P1-VD-199",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Poly(phenol–formaldehyde) (PPF) là polymer có tính cứng, chịu nhiệt, chống mài mòn và chống ẩm cao. Vì vậy, PPF được ứng dụng rộng rãi trong nhiều ngành công nghiệp như sử dựng làm chất kết dính trong sản xuất ván ép, ván MDF, giúp tăng độ bền và khả năng chống ẩm của vật liệu. PPF được điều chế từ phản ứng giữa phenol và formaldehyde ỏ pH và nhiệt độ thích hợp. Cho các phát biểu sau:",
+          "a) PPF được điều chế từ phản ứng trùng hợp.",
+          "b) Các mạch polymer của PPF có thể tham gia phản ứng nối mạch polymer lại với nhau tạo thành mạng không gian.",
+          "c) Rác thải nhựa làm từ vật liệu PPF có thể xử lí bằng cách đốt.",
+          "d) PPF là vật liệu polymer thuộc loại chất dẻo.",
+          "Số phát biểu đúng là"
+        ],
+        "opt_lines": [
+          "A. 1.\tB. 3.\tC. 2.\tD. 4."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 200,
+        "id": "C4-P1-TH-200",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phát biểu nào sau đây về composite là đúng?"
+        ],
+        "opt_lines": [
+          "A. Vật liệu nền có thể là chất dẻo hoặc cao su.",
+          "B. Vật liệu cốt có vai trò đảm bảo cho các thành phần composite liên kết với nhau.",
+          "C. Vật liệu nền được trộn vào vật liệu nền để tăng tính chất cơ lí.",
+          "D. Vật liệu cốt có thể ở dạng sợi (sợi carbon, sợi vải,…) hoặc dạng bột (bột nhôm, bột silica,…)."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 201,
+        "id": "C4-P1-NB-201",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tơ nào sau đây thuộc loại tơ thiên nhiên?"
+        ],
+        "opt_lines": [
+          "A. Tơ nitron.\tB. Tơ tằm.\tC. Tơ nylon–6,6.\tD. Tơ nylon–6."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 202,
+        "id": "C4-P1-NB-202",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tơ nào sau đây thuộc loại tơ nhân tạo?"
+        ],
+        "opt_lines": [
+          "A. Tơ nitron.\t\tB. Tơ tằm.",
+          "C. Tơ capron.\t\tD. Tơ cellulose acetate."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 203,
+        "id": "C4-P1-NB-203",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tơ nào sau đây thuộc loại tơ tổng hợp?"
+        ],
+        "opt_lines": [
+          "A. Tơ tằm.\t\tB. Tơ capron.",
+          "C. Tơ visco.\t\tD. Tơ cellulose acetate."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 204,
+        "id": "C4-P1-NB-204",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Len là loại sợi dệt sản xuất chủ yếu từ lông cừu, cung cấp nguyên liệu để dệt, đan, chế tạo các loại áo len giữ ấm thông dụng trên thế giới. Len thuộc loại vật liệu polymer nào?"
+        ],
+        "opt_lines": [
+          "A. Chất dẻo.\tB. Tơ tự nhiên.\tC. Tơ tổng hợp.\tD. Cao su tự nhiên."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 205,
+        "id": "C4-P1-NB-205",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Sợi visco thuộc loại"
+        ],
+        "opt_lines": [
+          "A. polymer trùng ngưng.\tB. polymer bán tổng hợp.",
+          "C. polymer thiên nhiên.\t\tD. polymer tổng hợp."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 206,
+        "id": "C4-P1-NB-206",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong các polymer: tơ tằm, sợi bông, tơ visco, tơ nylon–6, tơ nitron, những polymer có nguồn gốc từ cellulose là"
+        ],
+        "opt_lines": [
+          "A. sợi bông, tơ visco và tơ nylon–6.\tB. tơ tằm, sợi bông và tơ nitron.",
+          "C. sợi bông và tơ visco.\t\tD. tơ visco và tơ nylon–6."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 207,
+        "id": "C4-P1-NB-207",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tơ polyamide là những polymer tổng hợp có nhiều nhóm"
+        ],
+        "opt_lines": [
+          "A. amide −CO−NH− trong phân tử.\tB. −CO− trong phân tử.",
+          "C. −NH− trong phân tử.\t\tD. −CH(CN)− trong phân tử."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 208,
+        "id": "C4-P1-NB-208",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Sợi bông thiên nhiên là nguyên liệu chủ yếu trong công nghiệp dệt với các đặc tính tự nhiên như cách nhiệt, mềm mại, co giãn, thóang khí. Thành phần chủ yếu của sợi bông là"
+        ],
+        "opt_lines": [
+          "A. cellulose.\tB. protein.\tC. polybuta–1,3–diene.\tD. polyacrylonitrile."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 209,
+        "id": "C4-P1-NB-209",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Vật liệu nào sau đây được chế tạo từ polymer trùng ngưng?"
+        ],
+        "opt_lines": [
+          "A. Cao su isoprene.\tB. Polyethylene.\tC. Tơ nitron.\tD. Nylon–6,6."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 210,
+        "id": "C4-P1-NB-210",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các loại tơ: bông, tơ capron, tơ cellulose acetate, tơ tằm, tơ nitron, nylon–6,6. Số tơ tổng hợp là"
+        ],
+        "opt_lines": [
+          "A. 5.\tB. 2.\tC. 3.\tD. 4."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 211,
+        "id": "C4-P1-NB-211",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các polymer: polycaproamide; polyacrylonitrile; poly(ethylene terephthalate) và poly(hexamethylene adipamide). Số polymer được dùng để sản xuất tơ là"
+        ],
+        "opt_lines": [
+          "A. 2.\tB. 1.\tC. 4.\tD. 3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 212,
+        "id": "C4-P1-NB-212",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cellulose triacetate (CTA) là polymer được sản xuất thương mại lần đầu tiên ở Mỹ vào năm 1954. Polymer này được sử dụng để sản xuất tơ sợi chống nhăn, màng cho màn hình tinh thể lỏng,  Công thức của cellulose triacetate là"
+        ],
+        "opt_lines": [
+          "A. .\tB. .",
+          "C. .\t\tD. ."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q212_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q212_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q212_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q212_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q212_img5.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 213,
+        "id": "C4-P1-NB-213",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho polymer X có công thức cấu tạo như sau:",
+          "Công thức của monomer được dùng để tổng hợp ra X là"
+        ],
+        "opt_lines": [
+          "A. p–HOOC–C6H4–COOH và p–NH2–C6H4–NH2.\tB. C6H5–COOH và p–NH2–C6H4–NH2.",
+          "C. p–H2N–C6H4–COOH.\t\tD. p–HOOC–C6H4–COOH và CH3–NH2."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q213_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 214,
+        "id": "C4-P1-TH-214",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho polymer X có công thức cấu tạo như sau:",
+          "Phát biểu nào sau đây về X là không đúng?"
+        ],
+        "opt_lines": [
+          "A. Nếu X điều chế từ monomer là –aminocaproic acid thì phản ứng thuộc loại phản ứng trùng ngưng.",
+          "B. Nếu X điều chế từ monomer là caprolactam thì phản ứng thuộc loại phản ứng trùng hợp.",
+          "C. X có thể tham gia phản ứng thủy phân trong điều kiện thích hợp.",
+          "D. X là chất tan tốt trong nước và dễ phân hủy sinh học."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q214_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 215,
+        "id": "C4-P1-VD-215",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tơ sợi là một nguyên liệu quan trọng trong ngành dệt may và sản xuất vật liệu. Tơ sợi được sản xuất từ các nguồn nguyên liệu tự nhiên hoặc tổng hợp. Các loại tơ sợi phổ biến bao gồm tơ sợi tự nhiên như tơ tằm, lông cừu, sợi cotton và tơ sợi tổng hợp như nylon,... Cho các phát biểu sau:",
+          "a) Tơ nylon–6,6 và tơ capron thuộc loại tơ polyamide.",
+          "b) Tơ nylon, tơ tằm, tơ visco đều bền với nhiệt độ.",
+          "c) Quần áo được dệt bằng sợi len lông cừu, tơ tằm không nên giặt với xà phòng có độ kiềm cao.",
+          "d) Tơ capron và tơ olon đều có thành phần chứa nhóm .",
+          "Số phát biểu đúng là"
+        ],
+        "opt_lines": [
+          "A. 2.\tB. 1.\tC. 4.\tD. 3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q215_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 216,
+        "id": "C4-P1-NB-216",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phản ứng: nCH2=CH–CH=CH2  , dùng để điều chế polymer nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. Polypropylene.\tB. Polyethylene.\tC. Polybuta–1,3–diene.\tD. Polystyrene."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q216_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q216_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 217,
+        "id": "C4-P1-NB-217",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cao su lưu hóa thu được khi cho cao su tác dụng với chất nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. Sulfur.\tB. Na2SO3.\tC. Na2SO4.\tD. Styrene."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 218,
+        "id": "C4-P1-NB-218",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trùng hợp chất nào sau đây thu được cao su buna?"
+        ],
+        "opt_lines": [
+          "A. CH2=CH–CH=CH2.\t\tB. CH2=CCl–CH=CH2.",
+          "C. CH2=C(CH3)–CH=CH2.\tD. CH2=C(CH3)–CCl=CH2."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 219,
+        "id": "C4-P1-NB-219",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Loại cao su nào dưới đây là sản phẩm của phản ứng đồng trùng hợp?"
+        ],
+        "opt_lines": [
+          "A. Cao su chloroprene.\tB. Cao su isoprene.\tC. Cao su buna.\tD. Cao su buna–N."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 220,
+        "id": "C4-P1-NB-220",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các polymer sau: polybuta–1,3–diene, polyisoprene, polyethylene, tơ capron. Trong số các polymer trên, có bao nhiêu chất có thể tham gia phản ứng cộng trong điều kiện thích hợp?"
+        ],
+        "opt_lines": [
+          "A. 1. \tB. 2. \tC. 3. \tD. 4."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 221,
+        "id": "C4-P1-NB-221",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho dãy gồm các vật liệu: (1) tơ nitron, (2) cao su thiên nhiên, (3) cao su buna, (4) keo dán poly(urea–formaldehyde). Số vật liệu có tính đàn hồi là"
+        ],
+        "opt_lines": [
+          "A. 3.\tB. 4.\tC. 2.\tD. 1."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 222,
+        "id": "C4-P1-NB-222",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Vật liệu polymer nào sau đây có cấu trúc mạng lưới không gian?"
+        ],
+        "opt_lines": [
+          "A. Cao su thiên nhiên.\tB. Cao su lưu hóa.\tC. Cao su buna–S.\tD. Cao su buna–N."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 223,
+        "id": "C4-P1-NB-223",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cây cao su là loại cây công nghiệp có giá trị kinh tế cao. Chất lỏng thu được từ cây cao su giống như nhựa cây (gọi là mủ cao su) được dùng để sản xuất cao su tự nhiên. Polymer trong cao su tự nhiên là"
+        ],
+        "opt_lines": [
+          "A. Polystyrene.\t\tB. Polyisoprene.",
+          "C. Polyethylene.\t\tD. Polybuta–1,3–diene."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 224,
+        "id": "C4-P1-NB-224",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cao su isoprene được tổng hợp từ monomer nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. CH2=C(CH3)CH=CH2.\t\tB. CH3CH=C=CH2.",
+          "C. (CH3)2C=C=CH2.\t\tD. CH2=CHCH=CH2."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 225,
+        "id": "C4-P1-NB-225",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cao su buna–N được tổng hợp bằng cách trùng hợp buta–1,3–diene với chất nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. Isoprene.\tB. Sodium.\tC. Acrylonitrile.\tD. Styrene."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 226,
+        "id": "C4-P1-NB-226",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất nào sau đây có khả năng trùng hợp thành cao su?"
+        ],
+        "opt_lines": [
+          "A. CH2=C(CH3)CH=CH2.\t\tB. CH3–C(CH3)=C=CH2.",
+          "C. CH3–CH2–C≡CH.\t\tD. CH3–CH=CH–CH3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 227,
+        "id": "C4-P1-NB-227",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Polychloroprene có công thức là"
+        ],
+        "opt_lines": [
+          "A. \t\tB.",
+          "C. \t\tD."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q227_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q227_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q227_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q227_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 228,
+        "id": "C4-P1-NB-228",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho polymer thiên nhiên X được lấy từ mủ cây cao su, có công thức cấu tạo như sau:",
+          "Bằng phương pháp hóa học có thể tổng hợp được X bằng phản ứng trùng hợp từ"
+        ],
+        "opt_lines": [
+          "A. 2–methylbuta–1,3–diene.\t\t\t\t\t\t\t\tB. buta–1,3–diene.",
+          "C. propylene.\t\t\t\t\t\t\t\t\t\t\t\t\tD. 2–methylbutane."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q228_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 229,
+        "id": "C4-P1-NB-229",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Polymer nào có thể tham gia phản ứng cộng hydrogen?"
+        ],
+        "opt_lines": [
+          "A. Polypropylene.\t\tB. Cao su buna.",
+          "C. Poly(vinyl chloride).\t\tD. Nylon–6,6."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 230,
+        "id": "C4-P1-NB-230",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Khi trùng hợp buta–1,3–diene với styrene thu được polymer có cấu tạo như sau:",
+          "Polymer trên dùng để sản xuất loại cao su nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. Cao su buna.\t\t\t\t\t\t\t\t\t\t\t\t\tB. Cao su buna–S.",
+          "C. Cao su chloroprene.\t\t\t\t\t\t\t\t\t\tD. Cao su buna–N."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q230_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 231,
+        "id": "C4-P1-NB-231",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cao su buna–S (hay còn gọi là cao su SBR) là loại cao su tổng hợp được sử dụng rất phổ biến, ước tính 50% lốp xe được làm từ SBR. Thực hiện phản ứng trùng hợp các chất nào dưới đây thu được sản phẩm là cao su buna–S?"
+        ],
+        "opt_lines": [
+          "A. CH2=CHCH=CH2 và C6H5CH=CH2.\tB. CH2=CHCH=CH2 và sulfur.",
+          "C. CH2=CHCH=CH2 và CH2=CHCl.\tD. CH2=CHCH=CH2 và CH2=CHCN."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 232,
+        "id": "C4-P1-NB-232",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cao su butyl có khả năng chống thấm tốt, chống chịu hóa chất nên được sử dụng làm lớp lót trong săm lốp, gang tay cao su,…Cao su butyl thường được sản xuất bằng cách trùng hợp 98% monomer X với 2% monomer Y. Dưới đây là một đoạn mạch của cao su butyl:",
+          "X và Y lần lượt là các chất nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. C(CH3)2=CH–CH=CH2 và CH2=CH(CH3).\tB. CH2=C(CH3)2 và CH2=CH(CH3)–CH=CH2.",
+          "C. CH2=CH(CH3)–CH=CH2 và CH2=C(CH3)2.\tD. CH2=C(CH3)2 và C(CH3)2=CH–CH=CH2."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q232_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 233,
+        "id": "C4-P1-NB-233",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Keo dán là vật liệu polymer có"
+        ],
+        "opt_lines": [
+          "A. khả năng kết dính hai mảnh vật liệu rắn với nhau.",
+          "B. khả năng tạo liên kết hydrogen giữa các vật liệu được kết dính.",
+          "C. thành phần gồm vật liệu cốt và vật liệu nền là chất kết dính.",
+          "D. khả năng kết dính khi thêm chất đóng rắn."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 234,
+        "id": "C4-P2-TH-234",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "(Polypropylene (PP) được sản xuất từ propylene. Polymer này được dùng nhiều trong sản xuất bao bì, hộp đựng thực phẩm."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Polypropylene là chất nhiệt dẻo có thể tái chế.",
+          "b": "Monomer được dùng để trùng hợp tạo thành PP có công thức CH2=CHCH3.",
+          "c": "Polypropylene là polymer tổng hợp.",
+          "d": "Khi thủy phân polypropylene trong môi trường kiềm, đun nóng thu được propylene."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:Đ - c:Đ - d:S",
+        "solution": "nCH2=CHCH3   (PP)\na) Đúng. PP là chất nhiệt dẻo, có thể nóng chảy và tái chế được.\nb) Đúng. PP được điều chế từ monomer propylene (CH₂=CHCH₃).\nc) Đúng. PP là polymer tổng hợp do con người tạo ra từ phản ứng trùng hợp.\nd) Sai. PP không bị thủy phân trong môi trường kiềm do không có nhóm chức dễ phản ứng (như ester, amide,…).",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q234_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 235,
+        "id": "C4-P2-TH-235",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "(Poly(vinyl chloride) (PVC) là chất dẻo có tính cách điện tốt, bền với acid, dùng phổ biến để sản xuất vật liệu cách điện, ống dẫn nước, áo mưa."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Poly(vinyl chloride) được điều chế từ vinyl chloride bằng phản ứng trùng ngưng.",
+          "b": "Công thức của vinyl chloride là CH2=CHCl.",
+          "c": "PVC khi đun nóng không nóng chảy mà bị phân hủy nên gọi là chất nhiệt rắn.",
+          "d": "Thủy phân PVC trong môi trường kiềm, đun nóng thu được poly(vinyl alcohol)."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:S - b:Đ - c:S - d:Đ",
+        "solution": "nCH2=CHCl   (PVC)\na) Sai. PVC được điều chế bằng phản ứng trùng hợp, không phải phản ứng trùng ngưng.\nb) Đúng. Vinyl chloride có công thức CH₂=CHCl, đúng như phát biểu.\nc) Sai. PVC là chất nhiệt dẻo, có thể nóng chảy khi gia nhiệt, không phải chất nhiệt rắn.\nd) Đúng. Khi đun nóng PVC trong môi trường kiềm, có thể xảy ra phản ứng thế nhóm –Cl bằng –OH, tạo poly(vinyl alcohol).",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q235_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 236,
+        "id": "C4-P2-TH-236",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "(Polystyrene (PS) thường được dùng để sản xuất vỏ của các dụng cụ điện tử như tivi, tủ lạnh, điều hòa."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Polystyrene (PS) được điều chế từ styrene bằng phản ứng trùng ngưng.",
+          "b": "Khi đun nóng, polystyrene bị nhiệt phân thu được styrene.",
+          "c": "Polystyren khi bị đun nóng đến nóng chảy thì trở nên mềm, dễ ăn khuôn và khi nguội đóng rắn lại. Polystyrene là polymer nhiệt dẻo.",
+          "d": "Polystyrene là chất dẻo có thể tái chế được."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:S - b:Đ - c:Đ - d:Đ",
+        "solution": "nC6H5CH=CH2   (PS)\na) Sai. PS được điều chế từ styrene bằng phản ứng trùng hợp, không phải phản ứng trùng ngưng.\nb) Đúng. Khi bị nhiệt phân, PS có thể phân hủy và giải phóng styrene đơn phân → đây là phản ứng ngược với trùng hợp.\nc) Đúng. PS là chất nhiệt dẻo, khi đun nóng có thể nóng chảy, trở nên mềm → dễ ép khuôn, và rắn lại khi nguội.\nd) Đúng. Polystyrene là polymer nhiệt dẻo có thể tái chế, ký hiệu số 06 trong hệ thống phân loại nhựa tái chế.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q236_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 237,
+        "id": "C4-P2-TH-237",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "(Đề TN 2025) Tơ capron là loại tơ có tính dai, độ đàn hồi và độ bóng cao, ít thấm nước và được sử dụng để dệt vải may mặc. Tơ capron được tổng hợp từ caprolactam theo phương trình hóa học sau:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Trong phản ứng (1), các phân tử monomer bị mở vòng.",
+          "b": "Tơ capron là tơ bán tổng hợp.",
+          "c": "Do tơ capron và tơ nylon–6,6 đều có các nhóm –CO–NH– nên hai loại tơ này đều bền với dung dịch kiềm mạnh.",
+          "d": "Do tơ capron có các nhóm –CO–NH– nên tơ capron là peptide."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:S - c:S - d:S",
+        "solution": "a) Đúng. Phản ứng mở vòng là đặc trưng của trùng ngưng caprolactam, → tạo tơ capron.\nb) Sai. Tơ capron là tơ tổng hợp, không phải bán tổng hợp.\nc) Sai. Nhóm –CO–NH– (liên kết amide) bị thủy phân trong môi trường kiềm mạnh → tạo muối → Tơ capron không bền trong dung dịch kiềm mạnh, cũng như tơ nylon–6,6.\nd) Sai. Tơ capron có liên kết amide, nhưng không phải peptide vì tơ capron tổng hợp từ caprolactam, không phải amino acid.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q237_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 238,
+        "id": "C4-P2-TH-238",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Poly(ethylene terephthalate) (viết tắt là PET) là một polymer được điều chế từ terephthalic acid và ethylene glycol. PET có công thức cấu tạo như sau:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Tơ được chế tạo từ PET thuộc loại tơ tổng hợp.",
+          "b": "Trong một mắt xích PET, phần trăm khối lượng carbon là 62,5%.",
+          "c": "Phản ứng tổng hợp poly(ethylene terephthalate) từ terephthalic acid và ethylene glycol thuộc loại phản ứng trùng hợp.",
+          "d": "Trong dung dịch, ethylene glycol phản ứng với Cu(OH)2 tạo dung dịch màu xanh lam."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "VD",
+          "c": "NB",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:Đ - c:S - d:Đ",
+        "solution": "nHOOCC6H4COOH + nHOCH2CH2OH   + 2nH2O\na) Đúng.\nb) Đúng. Công thức 1 mắt xích PET :\nc) Sai. PET được tổng hợp bằng phản ứng trùng ngưng\nd) Đúng. Ethylene glycol là alcohol đa chức nên hòa tan Cu(OH)2",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q238_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 239,
+        "id": "C4-P2-VD-239",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một loại polymer Z có thể chế tạo thấu kính quang học, xi măng xương, được tổng hợp từ X, Y theo sơ đồ sau:",
+          "Cho biết: oxygen có thể phản ứng với gốc tự do, tạo thành peroxide hoặc oxi hóa monomer, làm giảm hiệu suất phản ứng."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Sự có mặt của oxygen trong hỗn hợp X và Y làm giảm hiệu suất phản ứng tổng hợp Z.",
+          "b": "Polymer Z bị thủy phân trong môi trường acid hoặc kiềm mạnh.",
+          "c": "Phản ứng tổng hợp Z thuộc loại phản ứng trùng ngưng.",
+          "d": "Khi đun nóng hỗn hợp X, Y cần thực hiện trong môi trường khí trơ để tránh bị oxi hóa."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "NB",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:Đ - c:S - d:Đ",
+        "solution": "a) Đúng. Do oxygen có thể phản ứng với gốc tự do, tạo thành peroxide → gây oxi hóa monomer, giảm hiệu suất phản ứng trùng hợp.\nb) Đúng. Polymer Z chứa nhóm ester (–COO–) → dễ bị thủy phân trong môi trường acid hoặc kiềm mạnh.\nc) Sai. Phản ứng tổng hợp Z là phản ứng trùng hợp, không tạo sản phẩm nhỏ như nước hoặc HCl → không phải trùng ngưng.\nd) Đúng. Khi đun nóng hỗn hợp để trùng hợp, cần loại bỏ oxygen bằng cách dẫn khí trơ (như N₂ hoặc CO₂) để tránh oxi hóa các gốc tự do → đảm bảo phản ứng xảy ra hiệu quả.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q239_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 240,
+        "id": "C4-P2-VD-240",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tơ capron là polymer có tính đai, bền, mềm óng mượt, ít thấm nước, mau khô. Bên cạnh ứng dụng trong ngành may mặc, tơ capron còn được sử dụng làm dây cáp, đan lưới, chế tạo các chi tiết máy..... Một quy trình sản xuất tơ capron từ cyclohexanol được thực hiện theo sơ đồ sau:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Tơ capron thuộc loại tơ nhân tạo.",
+          "b": "Phản ứng (3) là phản ứng trùng ngưng.",
+          "c": "Thành phần trăm theo khối lượng của nitrogen trong phân tử caprolactam là 12,39%.",
+          "d": "Nếu hiệu suất chuyển hóa từ cyclohexanol đến capron là 60%, thì cứ 2,0 tấn cyclohexanol thu được 1,356 tấn tơ capron."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "NB",
+          "c": "VD",
+          "d": "VD"
+        },
+        "answer": "a:S - b:S - c:Đ - d:Đ",
+        "solution": "a) Sai. Tơ capron thuộc loại tơ tổng hợp.\nb) Sai. Phản ứng trùng hợp.\nc) Đúng. C6H11ON  %N = 12,39%.\nd) Đúng. C6H12O  (C6H11ON)n\ntấn.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q240_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 241,
+        "id": "C4-P2-TH-241",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Poly(ethylene terephthalate) (viết tắt là PET) là một polymer được điều chế từ terephthalic acid và ethylene glycol. PET có công thức cấu tạo như sau:",
+          "PET được sử dụng để sản xuất tơ, chai đựng nước uống, hộp đựng thực phẩm. Để thuận lợi cho việc nhận biết, sử dụng và tái chế thì các đồ nhựa làm từ vật liệu chứa PET thường được in kí hiệu như hình trên."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Tơ được chế tạo từ PET thuộc loại tơ tổng hợp.",
+          "b": "Phản ứng tổng hợp PET từ terephthalic acid và ethylene glycol thuộc loại phản ứng trùng hợp.",
+          "c": "Trong một mắt xích PET, phần trăm khối lượng oxygen là 36,7%.",
+          "d": "PET có khả năng chống chịu tốt với alcohol, hydrocarbon béo, dầu, mỡ và acid loãng, chống chịu vừa phải với kiềm loãng, hydrocarbon thơm và halogen hóa."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "NB",
+          "c": "VD",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:S - c:S - d:Đ",
+        "solution": "a) Đúng. Tơ polyester (như PET) là tơ tổng hợp, do con người tạo ra từ các hợp chất hữu cơ qua phản ứng hóa học.\nb) Sai. Phản ứng tạo PET là phản ứng trùng ngưng, vì tạo liên kết ester và giải phóng phân tử nước.\nc) Sai. 1 mắt xích PET có công thức là –OOC–C6H4–COOCH2CH2–\nd) Đúng. PET có tính bền hóa học cao với acid loãng, base yếu, alcohol, dầu, mỡ, các hydrocarbon bão hòa → thích hợp làm chai đựng nước, dầu ăn...",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q241_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q241_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 242,
+        "id": "C4-P2-TH-242",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Poly(ethylene terephthalate) (viết tắt là PET) được điều chế theo sơ đồ phản ứng sau:",
+          "PET có mã số kí hiệu trên sản phẩm là số 1 và thuộc loại polymer nhiệt dẻo phổ biến nhất, có thể tái chế và được sử dụng để dệt sợi may quần áo, thảm, đồ hộp đựng chất lỏng và thực phẩm,..."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Phản ứng điều chế PET thuộc loại phản ứng trùng ngưng.",
+          "b": "Trong một mắt xích PET, phần trăm khối lượng carbon là 62,5%.",
+          "c": "Tơ được chế tạo từ PET thuộc loại tơ tổng hợp.",
+          "d": "PET bị thuỷ phân trong dung dịch kiềm và dung dịch acid khi đun nóng."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "VD",
+          "c": "NB",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:Đ - c:Đ - d:Đ",
+        "solution": "a)\tĐúng. Có giải phóng H₂O từ 2 monomer khác nhau\nb)\tĐúng. Công thức 1 mắt xích PET :\nc)\tĐúng. PET là polymer tổng hợp → tạo sợi → tơ tổng hợp\nd)\tĐúng. Là polyester → bị thủy phân bởi HCl/NaOH loãng",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q242_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 243,
+        "id": "C4-P3-NB-243",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các polymer: (1) tơ tằm, (2) sợi bông, (3) sợi đay, (4) cellulose triacetate, (5) tinh bột. Số lượng polymer thiên nhiên là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án: 4. Gồm (1) tơ tằm, (2) sợi bông, (3) sợi đay, (5) tinh bột",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 244,
+        "id": "C4-P3-NB-244",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các polyme: poly(vinyl chloride); polyethylene; polybuta–1,3–diene; polystyrene và poly(phenol formaldehyde). Số polymer được dùng để sản xuất chất dẻo là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án: 4. Gồm poly(vinyl chloride); polyethylene; polystyrene và poly(phenol formaldehyde).",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 245,
+        "id": "C4-P3-NB-245",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các polymer sau: poly(vinyl chloride); polyacrylonitrile; polyethylene; poly(methyl methacrylate). Số polymer dùng để sản xuất chất dẻo là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3: Gồm poly(vinyl chloride); polyethylene và poly(methyl methacrylate)",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 246,
+        "id": "C4-P3-NB-246",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các chất sau: polybuta–1,3–diene, poly(methyl methacrylate), polystyrene, len lông cừu, polyacrylonitrile, cellulose, polychloroprene. Trong số các chất trên, có bao nhiêu chất được dùng để chế tạo cao su?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án: 2. Gồm polybuta–1,3–diene, polychloroprene.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 247,
+        "id": "C4-P3-NB-247",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các chất sau: CH3CH2CH=CH2; CH2=CH–CH=CH2; CH2=C(CH3)–CH=CH2; CH2=CHCCl=CH2; CH3CH=CHCH3. Có bao nhiêu chất có thể điều chế cao su?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3. Gồm CH2=CH–CH=CH2; CH2=C(CH3)–CH=CH2; CH2=CHCCl=CH2",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 248,
+        "id": "C4-P3-NB-248",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các polymer sau: tơ nitron (hay tơ olon), tơ visco, nylon–6,6, tơ cellulose acetate, tơ tằm, len lông cừu. Trong số này, có bao nhiêu loại vật liệu thuộc loại tơ bán tổng hợp?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án: 2. Gồm tơ visco, tơ cellulose acetate",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 249,
+        "id": "C4-P3-NB-249",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Có bao nhiêu chất trong các chất sau có thể được sử dụng làm tơ: polystyrene, poly(methyl methacrylate), capron, cellulose."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án 2. capron, cellulose.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 250,
+        "id": "C4-P3-NB-250",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho dãy gồm các tơ: tơ nitron; tơ tằm; tơ nylon–6,6; tơ capron; sợi bông. Có bao nhiêu tơ thuộc loại tơ thiên nhiên?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án 2: Gồm tơ tằm và sợi bông",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 251,
+        "id": "C4-P3-NB-251",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các tơ: tơ nitron; tơ nylon–6,6; tơ visco; tơ cellulose triacetate. Có bao nhiêu tơ được sản xuất từ cellulose?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án 2. Gồm tơ visco và tơ cellulose triacetate",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 252,
+        "id": "C4-P3-VD-252",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong công nghiệp, người ta điều chế PVC từ ethylene theo sơ đồ sau:",
+          "Ethylene  1,2–dichloroethane  vinyl chloride  PVC",
+          "Giả sử hiệu suất mỗi quá trình (1), (2) và (3) tương ứng là 50%, 65% và 60%, hãy tính số kg PVC thu được khi dùng 1 000 m3 khí ethylene (ở 25 °C và l bar). (Kết quả làm tròn đến hàng đơn vị)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "492",
+        "solution": "Đáp án: 492.\n📝 Hướng dẫn giải:\nSố mol khí  là:  mol.\nSơ đồ bảo toàn nguyên tố : .\nKhối lượng mol của mắt xích  là 62,5 gam/mol.\nBiểu thức tính gộp một dòng:  kilogam (Làm tròn thành 492 kilogam).",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q252_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q252_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q252_img3.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 253,
+        "id": "C4-P3-VD-253",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Nylon–6 là loại tơ có độ bền cao, khả năng chống mài mòn tốt, được sử dụng rộng rãi để sản xuất các sản phẩm như sợi dệt may, thảm, dây cáp, nhựa kĩ thuật và linh kiện ô tô.",
+          "Trong công nghiệp, nylon–6 được tổng hợp từ cyclohexane theo sơ đồ gồm bốn giai đoạn với hiệu suất mỗi giai đoạn tương ứng như sau:",
+          "Trung bình, từ 1000 kg cyclohexane nguyên liệu đầu thì tạo ra được m kg nylon-6. Giá trị của m bằng bao nhiêu? (Kết quả làm tròn đến hàng đơn vị)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "642",
+        "solution": "Đáp án: 642\n📝 Hướng dẫn giải:",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q253_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 254,
+        "id": "C4-P3-VD-254",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Kevlar là một polyamide có độ bền rất cao. Loại vật liệu này được dùng để sản xuất áo chống đạn và mũ bảo hiểm cho quân đội. Một đoạn mạch của Kevlar được mô tả như hình sau:",
+          "Kevlar được tổng hợp trực tiếp từ terephthalic acid với benzene–1,4–diamine bằng phản ứng trùng ngưng. Để sản xuất được 10 tấn kevlar với hiệu suất của cả quá trình sản xuất là 88% thì khối lượng terephthalic acid tối thiểu cần dùng là bao nhiêu tấn? (Kết quả làm tròn đến hàng phần mười)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "7,9",
+        "solution": "Đáp án: 7,9\n📝 Hướng dẫn giải:",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q254_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 255,
+        "id": "C4-P3-VD-255",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cellulose triacetate được điều chế từ cellulose và acetic anhydride. Tính khối lượng cellulose triacetate (theo đơn vị tấn) tạo thành từ 1 tấn cellulose nếu hiệu suất của quá trình điều chế là 67%. (Kết quả làm tròn đến hàng phần trăm)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "1,19",
+        "solution": "Đáp án: 1,19.\n📝 Hướng dẫn giải:\nBiểu thức tính gộp một dòng (tính xuôi theo hiệu suất):  tấn (Làm tròn thành 1,19 tấn).",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 256,
+        "id": "C4-P3-VD-256",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Vật liệu Polymer",
+        "topic": "Vật liệu Polymer",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cao su chloroprene có thể tổng hợp từ acetylene theo sơ đồ:",
+          "Cần bao nhiêu tấn acetylene để sản xuất 1 tấn cao su chloroprene? Giả sử hiệu suất phản ứng trùng hợp là 78%. (Kết quả làm tròn đến hàng phần trăm)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "0,75",
+        "solution": "Đáp án: 0,75.\n📝 Hướng dẫn giải:\nDựa vào sơ đồ bảo toàn nguyên tố :\nBiểu thức tính gộp một dòng (tính ngược từ sản phẩm):  tấn (Làm tròn thành 0,75 tấn).",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c4_q256_img1.png"
+        ],
+        "tables": []
       }
     ]
   },
