@@ -7,7 +7,7 @@
       "Chất béo",
       "Xà phòng và chất giặt rửa"
     ],
-    "total_questions": 187,
+    "total_questions": 350,
     "questions": [
       {
         "seq_num": 1,
@@ -5950,6 +5950,4029 @@
         "answer": "3",
         "id": "C1-P3-VD-187",
         "solution": "Đáp số 3.\n(1) Sai vì Biodiesel gồm C,H,O còn diesel gồm C và H\n(2) Sai vì biodiesel cháy hoàn toàn sinh ra khí CO2 gây hiệu ứng nhà kính\n(3) Đúng vì tận dụng dầu ăn đã qua sử dụng giúp giảm ỗ nhiễm môi trường, xử lý chất thải sinh hoạt, tạo ra năng lượng tái tạo.\n(4) Sai vì m (chất béo) = 500*0,85 = 425 kg. Phân tử khối chất béo là 860 => RCOO = 273 =>\nRCOOCH3 = 288. Theo phương trình mRCOOCH3 = 0,9*425*3*288/860 = 384,28 kg ≠ 427 kg"
+      },
+      {
+        "q_num": 188,
+        "id": "C1-P1-NB-188",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Đun nóng carboxylic acid với alcohol khi có mặt xúc tác H2SO4 đặc, nóng tạo ra sản phẩm hữu cơ nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. Ketone.\tB. Aldehyde.\tC. Ester.\tD. Ether."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 189,
+        "id": "C1-P1-NB-189",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ester nào sau đây là ester no, đơn chức, mạch hở?"
+        ],
+        "opt_lines": [
+          "A. CH3COOC6H5.\tB. HCOOCH=CH2.\tC. CH3COOCH3.\tD. (HCOO)2C2H4."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 190,
+        "id": "C1-P1-NB-190",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất X có cấu tạo CH3CH2COOCH3. Tên gọi của X là"
+        ],
+        "opt_lines": [
+          "A. ethyl acetate.\tB. methyl propionate.\tC. methyl acetate.\tD. propyl acetate."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 191,
+        "id": "C1-P1-NB-191",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ethyl acetate có công thức là"
+        ],
+        "opt_lines": [
+          "A. C2H5COOCH3.\tB. CH3COOCH3.\tC. CH3COOC2H5.\tD. C2H3COOCH3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 192,
+        "id": "C1-P1-NB-192",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ethyl propionate là ester có mùi thơm của dứa. Công thức của ethyl propionate là"
+        ],
+        "opt_lines": [
+          "A. HCOOC2H5.\tB. C2H5COOC2H5.\tC. C2H5COOCH3.\tD. CH3COOCH3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 193,
+        "id": "C1-P1-NB-193",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ester nào sau đây có công thức phân tử C4H6O2?"
+        ],
+        "opt_lines": [
+          "A. Phenyl acetate.\tB. Vinyl acetate.\tC. Propyl acetate.\tD. Ethyl acetate."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 194,
+        "id": "C1-P1-TH-194",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Số đồng phân ester ứng với công thức phân tử C3H6O2 là"
+        ],
+        "opt_lines": [
+          "A. 2.\tB. 5.\tC. 4.\tD. 3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 195,
+        "id": "C1-P1-TH-195",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Có bao nhiêu ester là đồng phân cấu tạo của nhau có cùng công thức phân tử C4H8O2?"
+        ],
+        "opt_lines": [
+          "A. 2.\tB. 3.\tC. 4.\tD. 5."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 196,
+        "id": "C1-P1-TH-196",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Số ester đồng phân cấu tạo của nhau có cùng công thức phân tử C5H10O2 là"
+        ],
+        "opt_lines": [
+          "A. 6.\tB. 7.\tC. 8.\tD. 9."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 197,
+        "id": "C1-P1-TH-197",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Sắp xếp các chất sau theo giảm dần nhiệt độ sôi: CH3COOH (1), HCOOCH3 (2), CH3CH2COOH (3), CH3COOCH3 (4), CH3CH2CH2OH (5)."
+        ],
+        "opt_lines": [
+          "A. (3) > (5) > (1) > (2) > (4).\tB. (3) > (1) > (5) > (4) > (2).",
+          "C. (1) > (3) > (4) > (5) > (2).\tD. (3) > (1) > (4) > (5) > (2)."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 198,
+        "id": "C1-P1-TH-198",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Nhiệt độ sôi của các chất: methyl formate; acetic acid; ethyl alcohol và propyl alcohol được liệt kê ngẫu nhiên là:  và . Chất sôi ở nhiệt độ 32oC là"
+        ],
+        "opt_lines": [
+          "A. methyl formate.\tB. ethyl alcohol.\tC. acetic acid.\tD. propyl alcohol."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q198_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q198_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 199,
+        "id": "C1-P2-TH-199",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ester đơn chức, mạch hở có công thức tổng quát như sau:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Gốc R1 có thể là nguyên tử hydrogen hoặc gốc hydrocarbon và R2 là gốc hydrocarbon.",
+          "b": "Ester no, đơn chức, mạch hở có công thức chung là CnH2nO2 (n ≥ 2).",
+          "c": "Trên phổ hồng ngoại (IR), ester có peak đặc trưng ở các số sóng khoảng 1700 ± 50 cm–1 và 1300 – 1000 cm–1.",
+          "d": "Nếu gốc R1 là CH3– và gốc R2 là C2H5– thì ester trên có tên là ethyl acetate."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:S - b:Đ - c:Đ - d:S",
+        "solution": "a) Sai. Gốc R¹ không thể là nguyên tử hydrogen vì khi đó cấu trúc tạo thành sẽ là carboxylic acid, không tạo thành ester.\nb) Đúng. Ester no, đơn chức, mạch hở có công thức chung là CnH2nO2 (n ≥ 2).\nc) Đúng. Peak khoảng 1735 cm⁻¹ là do dao động của liên kết đôi C=O (carbonyl). Peak 1300–1000 cm⁻¹ là do dao động của liên kết đơn C–O (rộng hơn, nhiều dải).\nd) Sai. Nếu gốc R¹ là CH3– và gốc R² là C2H5– thì ester trên có tên là ethyl acetate (còn methyl propionate là C2H5COOCH3).",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q199_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 200,
+        "id": "C1-P2-TH-200",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Isopropyl formate là một ester có trong cà phê Arabica (còn gọi là cà phê chè)."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Công thức của isopropyl formate là HCOOCH(CH3)2.",
+          "b": "Isopropyl formate là ester không no (có 1C=C), đơn chức, mạch hở.",
+          "c": "Phần trăm khối lượng oxygen trong isopropyl formate là 37,5%.",
+          "d": "Isopropyl formate được điều chế từ propyl alcohol và formic acid."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "VD",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:S - c:S - d:S",
+        "solution": "a) Đúng. Isopropyl formate được tạo ra từ phản ứng giữa formic acid (HCOOH) và isopropyl alcohol ((CH₃)₂CHOH).\nb) Sai. Isopropyl formate (C4H8O2) là ester no, đơn chức, mạch hở.\nc) Sai. Phần trăm khối lượng oxygen trong phân tử isopropyl formate là %O = (32 / 88) × 100% ≈ 36,36%.\nd) Sai. Isopropyl formate được điều chế từ isopropyl alcohol ((CH₃)₂CHOH), không phải được điều chế từ propyl alcohol (CH₃CH₂CH₂OH) và formic acid.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 201,
+        "id": "C1-P2-TH-201",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các thông tin trong bảng sau:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Ester HCOOCH3 có nhiệt độ sôi thấp nhất do không tạo được liên kết hydrogen với nhau.",
+          "b": "Phân tử CH3COOH có nhiệt độ sôi cao nhất do các phân tử liên kết hydrogen với nhau tạo thành dạng dimer hoặc dạng liên phân tử bền.",
+          "c": "Nhiệt độ sôi của các chất tăng dần theo thứ tự như sau: CH3CH2CH2OH < HCOOCH3 < CH3COOH.",
+          "d": "Các ester có nhiệt độ sôi cao hơn nhiệt độ sôi của carboxylic acid và alcohol có cùng số nguyên tử carbon hoặc có khối lượng phân tử tương đương."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "NB"
+        },
+        "answer": "a:Đ - b:Đ - c:S - d:S",
+        "solution": "a) Đúng. Ester không có nhóm –OH nên không tạo được liên kết hydrogen liên phân tử như alcohol hay carboxylic acid.\nb) Đúng. Carboxylic acid tạo cấu trúc dimer bền vững thông qua hai liên kết hydrogen, do đó làm tăng mạnh nhiệt độ sôi.\nc) Sai. Nhiệt độ sôi của các chất tăng dần theo thứ tự như sau: HCOOCH3 < CH3CH2CH2OH < CH3COOH.\nd) Sai. Thứ tự tăng dần đúng là: HCOOCH₃ < CH₃CH₂CH₂OH < CH₃COOH. Nguyên nhân là do alcohol có khả năng tạo liên kết hydrogen, nhưng độ bền liên kết không mạnh bằng carboxylic acid nên nhiệt độ sôi nằm ở mức trung bình.",
+        "image_paths": [],
+        "tables": [
+          [
+            [
+              "",
+              "CH3CH2CH2OH",
+              "CH3COOH",
+              "HCOOCH3"
+            ],
+            [
+              "Loại hợp chất",
+              "Alcohol",
+              "Carboxylic acid",
+              "Ester"
+            ],
+            [
+              "Phân tử khối",
+              "60",
+              "60",
+              "60"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 202,
+        "id": "C1-P2-TH-202",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho ba hợp chất butan-1-ol, propanoic acid, methyl acetate và các giá trị nhiệt độ sôi (không theo thứ tự) là: 57 oC; 118 oC; 141 oC)."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Nhiệt độ sôi của các chất trên là: butan-1-ol (141), propanoic acid (118), methyl acetate (57).",
+          "b": "Nhiệt độ sôi methyl acetate thấp nhất do không có liên kết hydrogen giữa các phân tử.",
+          "c": "Nhiệt độ sôi butan-1-ol cao nhất do có liên kết hydrogen giữa các phân tử bền hơn liên kết hydrogen giữa các phân tử carboxylic acid.",
+          "d": "Hợp chất có khối lượng phân tử tương đương, nhiệt độ sôi được sắp xếp theo thứ tự tăng dần như sau: hydrocarbon < aldehyde; ketone; ester < alcohol < carboxylic acid."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:S - b:Đ - c:S - d:Đ",
+        "solution": "a) Sai. Nhiệt độ sôi thực tế là: methyl acetate (57°C), butan-1-ol (118°C), propanoic acid (141°C).\nb) Đúng. Ester (methyl acetate) không có liên kết hydrogen giữa các phân tử nên có nhiệt độ sôi thấp nhất.\nc) Sai. Carboxylic acid (propanoic acid) có thể tạo dạng dimer bền vững bằng hai liên kết hydrogen nên có nhiệt độ sôi cao hơn alcohol.\nd) Đúng. Nhận định này hoàn toàn phù hợp với quy luật biến đổi nhiệt độ sôi của các hợp chất hữu cơ.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 203,
+        "id": "C1-P2-TH-203",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "X, Y, Z, và T là một trong các chất khác nhau trong số 4 chất (không theo thứ tự): ethyl acetate; propan-1-ol; acetic acid; methyl formate. Nhiệt độ sôi của chúng được ghi trong bảng sau:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Z, T tạo được liên kết hydrogen liên phân tử.",
+          "b": "X là ethyl acetate.",
+          "c": "Y có phân tử khối lớn nhất trong các chất X, Y, Z, T.",
+          "d": "Z có trong giấm ăn với nồng độ từ 2% đến 5%."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:S - c:Đ - d:Đ",
+        "solution": "a) Đúng. Chất Z (acetic acid) và chất T (propan-1-ol) đều có khả năng tạo liên kết hydrogen liên phân tử.\nb) Sai. Chất X có nhiệt độ sôi thấp nhất là methyl formate, không phải là ethyl acetate.\nc) Đúng. Chất Y là ethyl acetate có phân tử khối lớn nhất trong bốn chất (88 g/mol).\nd) Đúng. Chất Z là acetic acid, đây chính là thành phần chính tạo nên vị chua trong giấm ăn với nồng độ từ 2% đến 5%.",
+        "image_paths": [],
+        "tables": [
+          [
+            [
+              "Chất",
+              "X",
+              "Y",
+              "Z",
+              "T"
+            ],
+            [
+              "Nhiệt độ sôi (oC)",
+              "31,5",
+              "77,1",
+              "118,2",
+              "97,2"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 204,
+        "id": "C1-P2-TH-204",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Đun nóng hỗn hợp gồm ethyl alcohol, acetic acid và sulfuric acid đặc ở điều kiện thích hợp để tổng hợp ra ester E. Sau một thời gian phản ứng thì thu được hỗn hợp X. Tiến hành tách được chất E từ X. Cho các thông số tính chất vật lý sau:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Phản ứng ester hóa giữa ethyl alcohol và acetic acid là phản ứng một chiều.",
+          "b": "Để tách E ra khỏi X, sử dụng phương pháp chưng cất sẽ phù hợp hơn phương pháp chiết.",
+          "c": "Phổ IR của E có peak hấp thụ đặc trưng của liên kết C=O và C-O.",
+          "d": "Ở phản ứng trên có sự tách OH từ phân tử acetic acid và H từ phân tử ethyl alcohol."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:S - b:S - c:Đ - d:Đ",
+        "solution": "a) Sai. Phản ứng ester hoá tạo ra ethyl acetate là một phản ứng thuận nghịch.\nb) Sai. Nếu chỉ dùng phương pháp chưng cất (dựa vào sự khác nhau về nhiệt độ sôi) thì khi chưng cất cả ester ethyl acetate và ethyl alcohol đều bay hơi. Chất E có độ tan rất kém so với các chất còn lại nên sử dụng phương pháp chiết. Vì vậy để tách được ester E cần dùng kết hợp cả phương pháp chưng cất và phương pháp chiết.\nc) Đúng. Chất E là ester nên trên phổ hồng ngoại (IR) có tín hiệu hấp thụ đặc trưng của liên kết đôi C=O ở khoảng 1700 cm⁻¹ và liên kết đơn C-O.\nd) Đúng. Bản chất của phản ứng ester hóa là sự đứt liên kết và tách nhóm OH từ phân tử acetic acid cùng với nguyên tử hydrogen từ phân tử ethyl alcohol.",
+        "image_paths": [],
+        "tables": [
+          [
+            [
+              "Chất",
+              "Khối lượng riêng (g.mL-1)",
+              "Độ tan (g) trong 100 g nước",
+              "Nhiệt độ sôi (oC)"
+            ],
+            [
+              "H2O",
+              "1,00",
+              "",
+              "100"
+            ],
+            [
+              "C2H5OH",
+              "0,79",
+              "∞",
+              "78"
+            ],
+            [
+              "CH3COOH",
+              "1,05",
+              "∞",
+              "118"
+            ],
+            [
+              "CH3COOC2H5",
+              "0,90",
+              "2",
+              "77"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 205,
+        "id": "C1-P3-NB-205",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các hợp chất có công thức như sau: CH3COOC2H5 (A); HCOOCH3 (B); CH3COOH (C); HCOOC2H5 (D); C6H5COOCH3 (E) và HOCH2CH2CHO (F). Số hợp chất thuộc loại ester là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án: 4: CH3COOC2H5 (A); HCOOCH3 (B); HCOOC2H5 (D); C6H5COOCH3 (E)",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 206,
+        "id": "C1-P3-NB-206",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các chất có công thức cấu tạo sau đây: (1) HCOOC2H5; (2) CH3COOH; (3) CH3COOCH3; (4) CH2=CHCOOCH3; (5) HOCH2CH2OH; (6) CH3OOC-COOC6H5. Ghi số thứ tự từ nhỏ đến lớn gồm các hợp chất thuộc loại ester và xếp theo một dãy gồm bốn số (ví dụ: 1234, 2456…)"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "1346",
+        "solution": "Đáp án: 1346.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 207,
+        "id": "C1-P3-NB-207",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các ester sau: ethyl acetate, ethyl formate, methyl acetate, methyl acrylate. Có bao nhiêu ester no, đơn chức, mạch hở?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3: ethyl acetate (CH3COOC2H5), ethyl formate (HCOOC2H5), methyl acetate (CH3COOCH3).",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 208,
+        "id": "C1-P3-NB-208",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các ester sau: HCOOCH3; CH3COOCH3; (COOCH3)2; (HCOO)2C2H4; CH2=CHCOOCH3; C2H5COOC2H5; CH3COOC6H5. Có bao nhiêu ester no, đơn chức, mạch hở?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3: HCOOCH3; CH3COOCH3; C2H5COOC2H5",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 209,
+        "id": "C1-P3-NB-209",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một học sinh gọi tên các ester như sau:",
+          "(1) HCOOCH3 : methyl formate",
+          "(2) CH3CH2COOCH=CH2: vinyl propanonate",
+          "(3) CH2=C(CH3)–COOCH2CH3: ethyl methacrylate",
+          "(4) CH2=CHCOOCH2CH2CH3: isopropyl acrylate",
+          "(5) CH3COOCH2CH2CH(CH3)2 : isoamyl acetate",
+          "(6) C6H5COOCH2C6H5: phenyl benzoate",
+          "Có bao nhiêu ester gọi tên không đúng?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án 2. (4) propyl acrylate và (6) benzyl benzoate",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 210,
+        "id": "C1-P3-NB-210",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Geranyl acetate có mùi hoa hồng, thường được sử dụng trong ngành công nghiệp nước hoa, mĩ phẩm. Geranyl acetate có công thức cấu tạo như sau:",
+          "Trong phân tử geranyl acetate có bao nhiêu liên kết ?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "20",
+        "solution": "Đáp án: 20.\nGeranyl acetate có công thức phân tử , tất cả các nguyên tử H đều liên kết với  có 20 liên kết .",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q210_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q210_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 211,
+        "id": "C1-P3-TH-211",
+        "part": "P3",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Số đồng phân ester có công thức phân tử C3H6O2 là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án: 2: HCOOC2H5 và CH3COOCH3",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 212,
+        "id": "C1-P3-TH-212",
+        "part": "P3",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong phân tử este X no, đơn chức, mạch hở, oxygen chiếm 36,36% khối lượng. Có bao nhiêu đồng phân cấu tạo của X thỏa mãn?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án: 4.\n📝 Hướng dẫn giải:\nX no, đơn chức, mạch hở → Đặt công thức chung của X là CnH2nO2\n→ n = 4 (C4H8O2)\nHCOOCH2CH2CH3, HCOOCH(CH3)CH3, CH3COOCH2CH3, CH3CH2COOCH3.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 213,
+        "id": "C1-P3-NB-213",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Có bao nhiêu ester của methanol ứng với công thức phân tử là C5H10O2?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án: 2. CH3CH2CH2COOCH3, (CH3)2CHCOOCH3.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 214,
+        "id": "C1-P1-TH-214",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Thủy phân ester X trong dung dịch acid, thu được CH3COOH và CH3OH. Công thức cấu tạo của X là"
+        ],
+        "opt_lines": [
+          "A. HCOOC2H5.\tB. CH3COOC2H5.\tC. C2H5COOCH3.\tD. CH3COOCH3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 215,
+        "id": "C1-P1-NB-215",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho ester X tác dụng với dung dịch NaOH đun nóng, thu được sản phẩm gồm sodium propionate và methyl alcohol. Công thức của X là"
+        ],
+        "opt_lines": [
+          "A. HCOOCH3.\tB. C2H5COOCH3.\tC. CH3COOCH3.\tD. C2H5COOC2H5."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 216,
+        "id": "C1-P1-TH-216",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ester X có công thức phân tử C4H8O2. Thủy phân X trong dung dịch NaOH dư, thu được sản phẩm gồm sodium propionate và alcohol Y. Công thức của Y là"
+        ],
+        "opt_lines": [
+          "A. C3H5(OH)3.\tB. C2H5OH.\tC. C3H7OH.\tD. CH3OH."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 217,
+        "id": "C1-P1-TH-217",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Thủy phân ester nào sau đây trong dung dịch NaOH thu được sodium formate?"
+        ],
+        "opt_lines": [
+          "A. CH3COOC3H7.\tB. CH3COOCH3.\tC. HCOOC2H5.\tD. CH3COOC2H5."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 218,
+        "id": "C1-P1-NB-218",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ester nào sau đây tác dụng với dung dịch NaOH thu được sodium acetate?"
+        ],
+        "opt_lines": [
+          "A. HCOOCH3.\tB. CH3COOC2H5.\tC. C2H5COOCH3.\tD. HCOOC2H5."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 219,
+        "id": "C1-P1-TH-219",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ester X có mùi đặc trưng giống mùi táo và có công thức phân tử C5H10O2. Thủy phân X trong dung dịch NaOH, thu được sodium butanoate và một alcohol. Công thức của X là"
+        ],
+        "opt_lines": [
+          "A. CH3COOCH2CH2CH3.\t\tB. CH3CH2COOCH2CH3.",
+          "C. CH3CH2CH2COOCH3.\t\tD. (CH3)2CHCOOCH2CH3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 220,
+        "id": "C1-P1-TH-220",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Khi thủy phân hỗn hợp methyl acetate và ethyl acetate trong dung dịch NaOH (vừa đủ) thu được hỗn hợp gồm?"
+        ],
+        "opt_lines": [
+          "A. 2 muối và 1 alcohol.\t\tB. 1 muối và 1 alcohol.",
+          "C. 1 muối và 2 alcohol.\t\tD. 2 muối và 2 alcohol."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 221,
+        "id": "C1-P1-TH-221",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Thủy phân hoàn toàn hỗn hợp ethyl propionate và ethyl formate trong dung dịch NaOH, thu được sản phẩm gồm"
+        ],
+        "opt_lines": [
+          "A. 1 muối và 1 alcohol.\t\tB. 2 muối và 2 alcohol.",
+          "C. 1 muối và 2 alcohol.\t\tD. 2 muối và 1 alcohol."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 222,
+        "id": "C1-P1-NB-222",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho vào ba ống nghiệm, mỗi ống 1 mL ethyl acetate, sau đó cho vào mỗi ống các chất sau:",
+          "- Ống nghiệm (1): 2 mL nước cất.",
+          "- Ống nghiệm (2): 2 mL dung dịch H2SO4 20%.",
+          "- Ống nghiệm (3): 2 mL dung dịch NaOH 30%.",
+          "Lắc đều ba ống nghiệm rồi đặt ba ống trong nồi cách Thủy ở nhiệt độ 60 - 70°C. Sau một thời gian, thể tích lớp ester còn lại trong ba ống theo thứ tự giảm dần là"
+        ],
+        "opt_lines": [
+          "A. (3) > (2) > (1).\tB. (2) > (3) > (1).\tC. (1) > (2) > (3).\tD. (1) > (3) > (2)."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 223,
+        "id": "C1-P1-NB-223",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Đun nóng ester CH2=CHCOOCH3 trong dung dịch NaOH thu được sản phẩm là"
+        ],
+        "opt_lines": [
+          "A. CH2=CHOH và CH3COONa.\tB. CH2=CHCOOH và CH3OH.",
+          "C. CH2=CHCOONa và CH3OH.\tD. CH2=CHCH2OH và CH3ONa."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 224,
+        "id": "C1-P1-NB-224",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Đun nóng ester CH3COOCH=CH2 với dung dịch KOH thì thu được"
+        ],
+        "opt_lines": [
+          "A. CH3COOK và CH2=CHOH.\tB. CH2=CHCOOK và CH3OH.",
+          "C. C2H5COOK và CH3OH.\tD. CH3COOK và CH3CHO."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 225,
+        "id": "C1-P1-TH-225",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Xà phòng hóa ester X có công thức phân tử C4H8O2 bằng dung dịch NaOH dư, thu được muối Y và alcohol Z bậc 2. Tên của X là"
+        ],
+        "opt_lines": [
+          "A. isopropyl fomate.\t\tB. ethyl acetate.",
+          "C. propyl fomate.\t\tD. methyl propionate."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 226,
+        "id": "C1-P1-TH-226",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho sơ đồ chuyển hóa sau: X (C4H8O2)  alcohol Y  CH3COOH. Công thức của X là"
+        ],
+        "opt_lines": [
+          "A. HCOOCH2CH2CH3.\t\tB. C2H5COOCH3.",
+          "C. CH3COOC2H5.\t\tD. CH3CH2CH2COOH."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q226_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q226_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 227,
+        "id": "C1-P1-VD-227",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ester là một loại hợp chất hữu cơ phổ biến và có vai trò quan trọng trong lĩnh vực hóa học và công nghiệp như làm dung môi, chất tạo hương, nguyên liệu tổng hợp polymer, … Các ester chủ yếu được điều chế từ phản ứng ester hóa.",
+          "(a) Methyl formate là ester có phân tử khối nhỏ nhất.",
+          "(b) Ethyl acetate là ester tan tốt trong nước.",
+          "(c) Trong phân tử ester no, đơn chức, mạch hở có chứa một liên kết π.",
+          "(d) Benzyl acetate có công thức phân tử C9H10O2.",
+          "(e) Ester là sản phẩm của phản ứng giữa acid và alcohol.",
+          "(g) Ester là hợp chất hữu cơ trong phân tử có nhóm -COO-.",
+          "(h) Ester no, đơn chức, mạch hở có công thức phân tử CnH2nO2 (n ≥2).",
+          "(i) Hợp chất CH3OOCC2H5 thuộc dãy đồng đẳng của methyl formate.",
+          "Số phát biểu đúng trong các phát biểu trên là"
+        ],
+        "opt_lines": [
+          "A. 3.\tB. 6.\tC. 4.\tD. 5."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 228,
+        "id": "C1-P1-TH-228",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Xà phòng hóa ester X có công thức phân tử C4H8O2 bằng dung dịch NaOH dư thu được muối Y và alcohol Z. Phố khối lượng của alcohol Z được cho trong hình dưới đây:",
+          "Công thức cấu tạo thu gọn của X là"
+        ],
+        "opt_lines": [
+          "A. HCOOCH(CH3)2.\tB. CH3CH2COOCH3.\tC. CH3COOC2H5.\tD. HCOOCH2CH2CH3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q228_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 229,
+        "id": "C1-P1-TH-229",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Hợp chất hữu cơ đơn chức X có mùi thơm của quả dứa chín và được sử dụng trong tổng hợp dược phẩm, … Kết quả phân tích nguyên tố cho thấy X có %C = 58,82%, %H = 9,8% (về khối lượng), còn lại là oxygen. Trên phổ MS của X thấy xuất hiện peak ion phân tử có giá trị m/z = 102. Trên phổ IR của X thấy xuất hiện tín hiệu đặc trưng ở 1740 cm-1. Phát biểu nào sau đây là đúng?"
+        ],
+        "opt_lines": [
+          "A. X là carboxylic acid no, đơn chức, có công thức phân tử C5H10O2.",
+          "B. X là ester no, đơn chức và có công thức phân tử C5H10O2.",
+          "C. Phân tử X có tỉ lệ số nguyên tử carbon và hydrogen là 2 : 1.",
+          "D. Ở điều kiện thường, X phản ứng với NaOH với tỉ lệ mol 1 : 1."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 230,
+        "id": "C1-P2-TH-230",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Aspirin được sử dụng làm thuốc giảm đau, hạ sốt. Sau khi uống, aspirin bị thủy phân trong cơ thể tạo thành salicylic acid. Salicylic acid ức chế quá trình sinh tổng hợp prostaglandin (chất gây đau, sốt và viêm khi nồng độ trong máu cao hơn mức bình thường). Công thức hoá học của aspirin được cho ở hình bên dưới."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Công thức phân tử của aspirin là C9H8O4.",
+          "b": "Thủy phân aspirin trong môi trường acid cho sản phẩm có chứa alcohol.",
+          "c": "1 mol aspirin có khả năng phản ứng tối đa với 2 mol NaOH.",
+          "d": "Aspirin có khả năng tham gia phản ứng với Na, dung dịch NaOH, dung dịch Na2CO3."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "TH",
+          "c": "VD",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:S - c:S - d:Đ",
+        "solution": "a) Đúng. Công thức phân tử của aspirin là C₉H₈O₄.\nb) Sai. Thủy phân aspirin trong môi trường acid tạo ra salicylic acid (chứa nhóm phenol) và acetic acid, không tạo ra alcohol.\nc) Sai. 1 mol aspirin có thể phản ứng tối đa với 3 mol NaOH vì có 3 nhóm chức phản ứng (1 –COOH, 1 –OH phenol và 1 ester).\nd) Đúng. Aspirin có nhóm –COOH và –COO– nên phản ứng được với Na, dung dịch NaOH và dung dịch Na₂CO₃.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q230_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 231,
+        "id": "C1-P2-TH-231",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Linalyl acetate là một trong những chất của tinh dầu cam và mùi thơm của hoa oải hương. Cho công thức cấu tạo của linlalyl acetate như sau:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Linalyl acetate có vùng hấp thụ trên phổ hồng ngoại (IR) ở khoảng sóng với peak đặc trưng với số sóng có giá trị từ 3650 – 3200 cm–1.",
+          "b": "Hydrogen hóa hoàn toàn linalyl acetate thu được ester có công thức phân tử là C12H24O2.",
+          "c": "Phân tử linalyl acetate có 2 gốc methylene (-CH2-).",
+          "d": "Linalyl acetate có đồng phân hình học."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "NB",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:S - b:Đ - c:Đ - d:S",
+        "solution": "a) Sai. Linalyl acetate biểu diễn các peak đặc trưng của nhóm chức ester là liên kết đôi C=O (tại vùng 1750 – 1715 cm⁻¹) và liên kết đơn C-O (tại vùng 1300 – 1000 cm⁻¹).\nb) Đúng. Phương trình hóa học: C12H20O2 + 2H2 C12H24O2, trong đó hai phân tử hydrogen cộng hợp vào hai liên kết đôi C=C.\nc) Đúng. Trong cấu trúc phân tử của linalyl acetate có chứa hai nhóm methylene (-CH2-).\nd) Sai. Cả hai liên kết đôi C=C của linalyl acetate đều không thỏa mãn điều kiện không gian để xuất hiện đồng phân hình học.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q231_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 232,
+        "id": "C1-P2-VD-232",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tiến hành các thí nghiệm theo các bước sau:",
+          "Bước 1: Cho vào hai ống nghiệm (1) và (2) mỗi ống 1 mL ethyl acetate.",
+          "Bước 2: Thêm 2 mL dung dịch H2SO4 20% vào ống nghiệm (1); 2 mL dung dịch NaOH 30% vào ống nghiệm (2).",
+          "Bước 3: Đun cách thủy ống nghiệm (1) và (2) trong cốc thủy tinh ở nhiệt độ 60 – 70 oC khoảng 5 phút."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Sau bước 2, chất lỏng trong ống nghiệm (1) phân lớp, chất lỏng trong ống nghiệm (2) đồng nhất.",
+          "b": "Sau bước 3, chất lỏng trong cả hai ống nghiệm đều đồng nhất.",
+          "c": "Sau bước 3, sản phẩm phản ứng thủy phân trong cả hai ống nghiệm đều tan tốt trong nước.",
+          "d": "Phản ứng thủy phân ester trong môi trường kiềm xảy ra tốt hơn so với môi trường acid."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "NB",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:S - b:S - c:Đ - d:Đ",
+        "solution": "a) Sai. Sau bước 2, chất lỏng trong cả hai ống nghiệm đều phân thành hai lớp vì ethyl acetate không hòa tan trong nước, dung dịch acid hay dung dịch kiềm ở nhiệt độ thường.\nb) Sai. Sau bước 3, chất lỏng ở ống nghiệm (1) vẫn phân lớp do phản ứng thủy phân trong môi trường acid là phản ứng thuận nghịch nên vẫn còn ester dư; ống nghiệm (2) đồng nhất vì phản ứng thủy phân trong môi trường kiềm (xà phòng hóa) là phản ứng một chiều xảy ra hoàn toàn.\nc) Đúng. Các sản phẩm thu được sau quá trình thủy phân (bao gồm alcohol, carboxylic acid hoặc muối) đều hòa tan rất tốt trong nước.\nd) Đúng. Trong môi trường kiềm, phản ứng thủy phân không thuận nghịch nên xảy ra hoàn toàn và có tốc độ nhanh hơn so với môi trường acid.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 233,
+        "id": "C1-P2-VD-233",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một nhóm học sinh dự đoán “nồng độ NaOH càng lớn thì tốc độ phản ứng thủy phân càng lớn”. Từ đó, học sinh tiến hành thí nghiệm ở nhiệt độ không đổi (60°C) nhưng thay đổi nồng độ NaOH để kiểm tra dự đoán trên như sau:",
+          "• Bước 1: Thêm 4 mL ethyl acetate (d = 0,9 g/mL) vào một ống nghiệm chứa 20 mL dung dịch NaOH nồng độ C (mol/L). Các giá trị nồng độ này không giống nhau giữa các thí nghiệm.",
+          "• Bước 2: Ngâm ống nghiệm trong nồi nước nóng (nhiệt độ nước khoảng 60°C) và đo thời gian cho đến khi phần chất lỏng trong ống nghiệm trở lên đồng nhất.",
+          "Kết quả thí nghiệm được cho ở bảng sau:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Sau bước 1, phần chất lỏng trong các ống nghiệm tách thành hai lớp.",
+          "b": "Phản ứng thủy phân ethyl acetate xảy ra ở bước 2 của các thí nghiệm.",
+          "c": "Phản ứng thủy phân hoàn toàn tại thời điểm hỗn hợp trong ống nghiệm đồng nhất.",
+          "d": "Kết quả thí nghiệm chứng tỏ dự đoán của học sinh ban đầu là chính xác."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "TH",
+          "c": "TH",
+          "d": "VD"
+        },
+        "answer": "a:Đ - b:Đ - c:Đ - d:Đ",
+        "solution": "a) Đúng. Ở nhiệt độ thường, phản ứng xà phòng hóa có xảy ra nhưng tốc độ không đáng kể, do ethyl acetate không tan nên hỗn hợp chất lỏng phân thành hai lớp.\nb) Đúng. Phản ứng thủy phân ethyl acetate bắt đầu diễn ra mạnh mẽ ở bước đun nóng trong các thí nghiệm.\nc) Đúng. Phản ứng thủy phân được xem là hoàn toàn tại thời điểm hỗn hợp trong ống nghiệm trở nên đồng nhất (toàn bộ ester đã chuyển hóa thành muối và alcohol hòa tan).\nd) Đúng. Dữ liệu bảng cho thấy nồng độ sodium hydroxide càng lớn thì thời gian hỗn hợp đồng nhất càng ngắn, chứng tỏ tốc độ phản ứng thủy phân càng lớn.",
+        "image_paths": [],
+        "tables": [
+          [
+            [
+              "Nồng độ NaOH (mol/L)",
+              "4,0",
+              "3,6",
+              "3,2",
+              "2,8",
+              "2,4",
+              "2,0"
+            ],
+            [
+              "Thời gian hỗn hợp đồng nhất (phút)",
+              "5,2",
+              "6,0",
+              "7,0",
+              "8,2",
+              "9,5",
+              "11,0"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 234,
+        "id": "C1-P3-NB-234",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tiến hành các thí nghiệm sau:",
+          "(1) Đun nóng hỗn hợp 3 mL isoamyl acetate và 5 mL dung dịch sulfuric acid 0,1 M.",
+          "(2) Đun nóng hỗn hợp 3 mL ethyl acetate và 5 mL dung dịch sodium hydroxide 0,2 M.",
+          "(3) Cho 3 mL dung dịch acetic acid 0,1 M vào ống nghiệm chứa 3 mL dung dịch sodium hydroxide 0,2 M.",
+          "(4) Đun nóng hỗn hợp 3 mL ethyl bromide và 5 mL dung dịch sodium hydroxide 0,2 M.",
+          "Trong các thí nghiệm trên, có bao nhiêu thí nghiệm xảy ra phản ứng thuận nghịch?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "1",
+        "solution": "Đáp án: 1.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 235,
+        "id": "C1-P3-TH-235",
+        "part": "P3",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho dãy các ester sau: C6H5COOCH3, HCOOCH=CHCH3, CH3COOCH=CH2, C6H5OOCCH=CH2, CH3COOCH2C6H5, C6H5OOCCH3, HCOOC2H5, C2H5OOCCH3. Biết gốc C6H5 chứa vòng benzene. Bao nhiêu ester khi thủy phân trong môi trường kiềm thu được sản phẩm có chứa alcohol?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án: 4. Gồm C6H5COOCH3, CH3COOCH2C6H5, HCOOC2H5, C2H5OOCCH3.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 236,
+        "id": "C1-P3-TH-236",
+        "part": "P3",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các ester sau: C2H5COOCH3; CH3COOCH3; CH2(COOCH3)2; (HCOO)2C2H4; CH2=CHCOOCH3; C6H5COOC2H5; CH3COOC6H5. Có bao nhiêu ester khi thủy phân trong môi trường kiềm chỉ thu được methyl alcohol?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án: 4. Gồm C2H5COOCH3; CH3COOCH3; CH2(COOCH3)2; CH2=CHCOOCH3",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 237,
+        "id": "C1-P3-TH-237",
+        "part": "P3",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ester X có công thức phân tử C5H10O2. Thủy phân X trong dung dịch NaOH, thu được muối sodium của carboxylic acid và methyl alcohol. Số công thức cấu tạo của X thõa mãn tính chất trên là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án: 2. C3H7COOCH3 (02 đp)",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 238,
+        "id": "C1-P3-TH-238",
+        "part": "P3",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các ester sau: methyl propionate; methyl acetate; propyl acetate; diethyl oxalate; phenyl acetate; vinyl formate; methyl acrylate. Có bao nhiêu ester khi thủy phân chỉ thu được acetic acid?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3.  methyl acetate (CH3COOCH3); propyl acetate (CH3COOC3H7); phenyl acetate (CH3COOC6H5.)",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 239,
+        "id": "C1-P3-NB-239",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các ester sau: C6H5COOC6H5 (phenyl benzoate); CH3COO−[CH2]2−OOCCH2CH3; CH3COOC6H5 (phenyl acetate); CH3OOC−COOCH3; HCOO–CH2–C6H5? Số ester khi tác dụng với dung dịch NaOH dư thu được hai muối là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3. Gồm C6H5COOC6H5 (phenyl benzoate); CH3COO−[CH2]2−OOCCH2CH3; CH3COOC6H5 (phenyl acetate)",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 240,
+        "id": "C1-P3-TH-240",
+        "part": "P3",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Methyl 4-hydroxybenzoate là ester được sử dụng làm chất bảo quản thực phẩm hoặc mĩ phẩm để ngăn chặn sự phát triển của nấm mốc và các vi khuẩn có hại khác.",
+          "Thủy phân methyl 4-hydroxybenzoate trong môi trường acid thu được hợp chất hữu cơ X và một alcohol. Phân tử khối của X bằng bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "138",
+        "solution": "Đáp án: 138.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q240_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 241,
+        "id": "C1-P3-TH-241",
+        "part": "P3",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "(F) là một chất lỏng không màu, không tan trong nước, dùng để tạo hương liệu có mùi chuối cho thực phẩm. (F) có cấu trúc phân tử như sau:",
+          "Thủy phân (F) trong môi trường acid, thu được acetic acid và alcohol (E). Trong một phân tử (E) có x nguyên tử C, y nguyên tử H và z nguyên tử O. Xác định bộ số xyz."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "5121",
+        "solution": "Đáp án: 5121.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q241_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 242,
+        "id": "C1-P3-VD-242",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Thủy phân hoàn toàn ester X trong môi trường NaOH thu được ethyl alcohol và sodium acrylate. Phân tử khối của X là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "100",
+        "solution": "Đáp án: 100\n📝 Hướng dẫn giải:\nCách 1 (Tư duy từng bước):\nBước 1: Xác định cấu trúc gốc alcohol. Sản phẩm  () cho biết gốc alcohol nằm phía sau đuôi ester là  (hay ).\nBước 2: Xác định cấu trúc gốc acid. Công thức của muối là . Suy ra gốc acid nằm phía trước đầu ester là .\nBước 3: Ghép nối cấu trúc và tính phân tử khối. Công thức cấu tạo của ester X là:  (có tên gọi là ). X có dạng .\nPhân tử khối của X =  (gam/mol).\n🧮 Cách 2 (Bấm máy tính):",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 243,
+        "id": "C1-P3-VD-243",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ester X có công thức phân tử C5H10O2. Thủy phân X trong môi trường NaOH thu được ethyl alcohol và chất Y là muối của carboxylic acid. Phần trăm theo khối lượng của oxygen trong Y là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "33,3",
+        "solution": "Đáp án: 33,3\n📝 Hướng dẫn giải:\nCách 1 (Tư duy từng bước):\nBước 1: Ghép nối các mảnh vỡ cấu tạo để tìm công thức của ester X.\nCông thức cấu tạo chính xác của X là:  ().\nBước 2: Xác định công thức muối Y.\nChất Y là muối  có công thức phân tử là .\nBước 3: Tính phần trăm khối lượng nguyên tố.\nTính khối lượng mol của muối Y ():  (gam/mol).\nTrong một phân tử muối Y có chứa 2 nguyên tử  (tương ứng khối lượng là 32 gam).\nPhần trăm khối lượng nguyên tố  =\n🧮 Cách 2 (Bấm máy tính):",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 244,
+        "id": "C1-P1-NB-244",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Mùi thơm trong nhiều loại hoa quả, tinh dầu thực vật,.. là mùi của ester. Để có ester dùng làm nguyên liệu - hương liệu, trước hết người ta thu hái, đem thái nhỏ và ngâm với nước. Cần sử dụng phương pháp nào sau đây để tách riêng ester ra khỏi hỗn hợp?"
+        ],
+        "opt_lines": [
+          "A. Chưng cất.\tB. Chiết.\tC. Kết tinh.\tD. Lọc."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 245,
+        "id": "C1-P1-NB-245",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Từ salicylic acid, người ta điều chế được methyl salicylate. Đây là một loại thuốc xoa bóp giảm đau phổ biến.",
+          "Trong phản ứng điều chế methyl salicylate, salicylic acid đóng vai trò là... (I), tác dụng với... (II), đóng vai trò là... (III). Cụm từ cần điền vào (I), (II) và (III) lần lượt là"
+        ],
+        "opt_lines": [
+          "A. carboxylic acid, methyl alcohol, alcohol.\tB. alcohol, acetic acid, carboxylic acid.",
+          "C. carboxylic acid, phenol, alcohol.\tD. alcohol, benzoic acid, carboxylic acid."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q245_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q245_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 246,
+        "id": "C1-P1-VD-246",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Yếu tố nào sau đây không làm tăng hiệu suất phản ứng ester hoá giữa acetic acid và ethanol?"
+        ],
+        "opt_lines": [
+          "A. Dùng dung dịch H2SO4 đặc làm xúc tác.\tB. Chưng cất ester tạo ra.",
+          "C. Tăng nồng độ acetic acid hoặc alcohol.\tD. Lấy số mol alcohol và acid bằng nhau."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 247,
+        "id": "C1-P1-NB-247",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Sản phẩm của phản ứng sau là: CH3COOH + C2H5OH"
+        ],
+        "opt_lines": [
+          "A. CH3COOCH3.\tB. C2H5COOCH3.\tC. CH3COOC2H5.\tD. HCOOC2H5."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q247_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 248,
+        "id": "C1-P1-TH-248",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ethanol phản ứng với propanoic acid, có mặt của sulfuric acid đậm đặc. Phát biểu nào về sản phẩm hữu cơ của phản ứng này là đúng?"
+        ],
+        "opt_lines": [
+          "A. Có công thức C5H10O2.",
+          "B. Có công thức C5H12O3.",
+          "C. Được hình thành bởi một phản ứng cộng.",
+          "D. Tên gọi là propyl ethanoate."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 249,
+        "id": "C1-P1-NB-249",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cặp chất nào có thể phản ứng để tạo ra ester CH3CH2COOCH3?"
+        ],
+        "opt_lines": [
+          "A. ethanol và ethanoic acid.\tB. methanol và ethanoic acid.",
+          "C. methanol và propanoic acid.\tD. propan-1-ol và methanoic acid."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 250,
+        "id": "C1-P1-NB-250",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Công thức của ester hình thành từ phản ứng của propanoic acid với methanol với sự có mặt của sulfuric acid đậm đặc làm xúc tác là"
+        ],
+        "opt_lines": [
+          "A. CH3CH2COCH3.\t\tB. CH3CH2COOCH3.",
+          "C. CH3COOCH2CH3.\t\tD. CH3CH2CH2COOCH3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 251,
+        "id": "C1-P1-NB-251",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tên của alcohol tương ứng được sử dụng để điều chế ester HCOOCH(CH3)2 là"
+        ],
+        "opt_lines": [
+          "A. Propan-1-ol.\tB. Propan-2-ol.\tC. 2-methylpropan-2-ol.\tD. Methanol."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 252,
+        "id": "C1-P1-NB-252",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tổng hợp ethyl acetate trong phòng thí nghiệm từ nhóm hóa chất nào sau đây sẽ đạt hiệu quả cao nhất?"
+        ],
+        "opt_lines": [
+          "A. Acetic acid nguyên chất; cồn 90o; dung dịch H2SO4 98%.",
+          "B. Dung dịch CH3COOH 5%; ethanol nguyên chất, dung dịch H2SO4 98%.",
+          "C. Acetic acid nguyên chất; cồn 96o, dung dịch HCl 36,5%.",
+          "D. Acetic acid nguyên chất; ethanol nguyên chất, dung dịch H2SO4 98%."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 253,
+        "id": "C1-P1-VD-253",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Đun 12 gam acetic acid với một lượng dư ethanol (H2SO4 đặc làm xúc tác). Đến khi dừng thí nghiệm thu được 8,36 gam ester. Tính hiệu suất phản ứng ester hoá."
+        ],
+        "opt_lines": [
+          "A. 65,15%.\tB. 54,54%.\tC. 34,84%.\tD. 47,50%."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "🔹 Cách 1 (Tư duy từng bước):\nTính lượng acetic acid ban đầu:  mol.\nDo ethanol lấy dư, nên lượng sản phẩm lý thuyết bắt buộc phải tính theo acetic acid.\nTính lượng ester (ethyl acetate) thực tế thu được:  mol.\nTính hiệu suất phản ứng: .\n🧮 Cách 2 (Bấm máy tính): Biểu thức toán học thiết lập trực tiếp hiệu suất () dựa trên tỉ lệ số mol thực tế và số mol lý thuyết:",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 254,
+        "id": "C1-P1-VD-254",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Isoamyl acetate có mùi thơm đặc trưng của chuối chín nên còn được gọi là dầu chuối. Khi đun nóng hỗn hợp 16,2 g acetic acid và 14,96 g isoamyl alcohol ((CH3)2CHCH2CH2OH) với xúc tác H2SO4 đặc, thu được 15,6 g dầu chuối. Hiệu suất của phản ứng điều chế dầu chuối trên là"
+        ],
+        "opt_lines": [
+          "A. 63,04%.\tB. 58,55%.\tC. 62,50%.\tD. 70,59%."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "🔹 Cách 1 (Tư duy từng bước):\nTính số lượng các nguyên liệu ban đầu:\nmol.\nmol.\nPhương trình hóa học của phản ứng ester hóa:\nBiện luận chất giới hạn: Vì tỉ lệ phản ứng là 1:1 và , nên acetic acid dư, isoamyl alcohol phản ứng hết. Mọi tính toán lý thuyết bắt buộc phải dựa vào isoamyl alcohol.\nTheo phương trình hóa học, lượng isoamyl acetate (dầu chuối) lý thuyết thu được tối đa là 0,17 mol.\nTính số mol isoamyl acetate thực tế thu được:  mol.\nTính hiệu suất của phản ứng: Hiệu suất = % = 70,59%.\n🧮 Cách 2 (Thiết lập biểu thức bấm máy tính nhanh):\nSử dụng hàm  để tự động chọn chất có số lượng nhỏ hơn làm mẫu số tính hiệu suất (số liệu thực tế chia cho số liệu lý thuyết):\nHiệu suất = % = 70,59%.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 255,
+        "id": "C1-P1-VD-255",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Propyl ethanoate là một ester có mùi lê. Khi đun nóng hỗn hợp 12 g ethanoic acid và 18 g propyl alcohol với xúc tác H2SO4 đặc, thu được m g propyl ethanoate. Biết hiệu suất của phản ứng là 70%. Giá trị của m là"
+        ],
+        "opt_lines": [
+          "A. 20,40.\tB. 14,28.\tC. 22,20.\tD. 15,24."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "Tính lượng các nguyên liệu ban đầu:  mol.  mol.\nPhương trình hóa học:\nSo sánh lượng chất để tìm chất giới hạn: Vì , ethanoic acid phản ứng hết, propyl alcohol dư. Lượng ester được tính theo ethanoic acid.\nTính lượng ester thực tế: (lý thuyết) = 0,2 mol. (thực tế) =  mol.\nTính khối lượng ester thu được:  gam.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 256,
+        "id": "C1-P1-VD-256",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Thuốc aspirin thuộc nhóm thuốc kháng viêm non-steroid có tác dụng giảm đau, hạ sốt. Thuốc aspirin được tổng hợp từ các nguyên liệu theo phương trình hoá học sau (hiệu suất phản ứng tính theo acid là 92%).",
+          "salicylic acid   acetic anhydride               aspirin                 acetic acid",
+          "Để sản xuất một lô thuốc aspirin gồm 10 triệu viên nén (mỗi viên nén chứa 81 mg aspirin) thì khối lượng salicylic acid cần dùng là"
+        ],
+        "opt_lines": [
+          "A. 580 kg. \tB. 497 kg. \tC. 675 kg. \tD. 824 kg."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "🔹 Cách 1 (Tư duy từng bước):\nTính tổng khối lượng aspirin cần sản xuất:  gam.\nChuyển đổi thành số mol aspirin:  mol.\nPhương trình hóa học:\nPhương trình hóa học chứng minh tỉ lệ 1 mol salicylic acid tổng hợp được 1 mol aspirin. Do đó, lượng salicylic acid lý thuyết cần có là 4500 mol.\nTính lượng salicylic acid thực tế cần nhập vào do sự hao hụt của phản ứng:  (thực tế) =  mol.\nTính khối lượng salicylic acid:  gam  kg.\n🧮 Cách 2 (Bấm máy tính): Biểu thức toán học tính ngược từ yêu cầu sản phẩm, chia cho hiệu suất để bù hao hụt nguyên liệu:",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q256_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 257,
+        "id": "C1-P1-VD-257",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Methyl salicylate dùng làm thuốc xoa bóp giảm đau, được điều chế theo phản ứng sau:",
+          "Để sản xuất 3,8 triệu tuýp thuốc xoa bóp giảm đau cần tối thiểu m tấn salixylic acid. Biết mỗi tuýp thuốc chứa 2,7 gam methyl salicylate và hiệu suất phản ứng tính theo salixylic acid là 75%. Giá trị của m là"
+        ],
+        "opt_lines": [
+          "A. 9,315.\tB. 12,420.\tC. 6,986.\tD. 15,068."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "🔹 Cách 1 (Tư duy từng bước):\nTính khối lượng methyl salicylate nguyên chất:  tấn.\nTính số mol methyl salicylate (tính theo hệ đơn vị tấn-mol tương ứng với mega-mol):  tấn-mol.\nDựa vào phương trình hóa học, tỉ lệ phản ứng là 1:1, nên lượng salicylic acid lý thuyết cần dùng là 0,0675 tấn-mol.\nTính lượng salicylic acid thực tế để bù đắp hao hụt: (thực tế) =  tấn-mol.\nTính khối lượng salicylic acid :  tấn.\n🧮 Cách 2 (Bấm máy tính): Thiết lập phương trình với đại lượng \"tấn\" và \"triệu\" tự động triệt tiêu nhau ( và ): tấn.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q257_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 258,
+        "id": "C1-P1-VD-258",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Hợp chất E được điều chế từ alcohol X và acid Y (biết Y là hợp chất tạp chức chứa vòng benzene). E có trong thành phần của một số thuốc giảm đau, xoa bóp, cao dán,… dùng để điều trị đau lưng, căng cơ, bong gân,. Thành phần về khối lượng các nguyên tố trong E như sau: 63,16%C, 5,26%H và 31,58%O. Phổ IR của E ngoài vùng hấp thụ với peak đặc trưng của liên kết C=O (số sóng 1750-1735 cm-1), liên kết C-O (số sóng 1300-1000 cm-1) còn có peak đặc trưng của liên kết O-H (số sóng 3650 - 3200 cm-1). Từ phổ MS, xác định được E có phân tử khối là 152. Cho các phát biểu sau:",
+          "(a) X là methyl alcohol.",
+          "(b) Tổng số nguyên tử trong phân tử E là 20.",
+          "(c) Y có nhóm -OH và -COOH.",
+          "(d) 1 mol Y tác dụng vừa đủ với 2 mol NaOH.",
+          "Số phát biểu đúng là"
+        ],
+        "opt_lines": [
+          "A. 2.\tB. 1.\tC. 4.\tD. 3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "Bước 1: Thiết lập công thức phân tử của hợp chất . Gọi công thức tổng quát của  là . Ta có tỉ lệ nguyên tử . Công thức đơn giản nhất là . Vì phân tử khối bằng 152, ta có . Vậy công thức phân tử của  là .\nBước 2: Xác định công thức cấu tạo dựa trên dữ liệu phổ và thực tiễn. Phổ IR cho thấy  có nhóm  (ester),  và đặc biệt là nhóm . Vì  được điều chế từ acid tạp chức  (chứa vòng benzene) và alcohol , đồng thời  dùng làm thuốc xoa bóp, nên  là methyl salicylate. Công thức cấu tạo của  là .\nBước 3: Xác định các chất tham gia . Alcohol  là  (methyl alcohol). Acid  là  (salicylic acid).\nBước 4: Kiểm chứng các phát biểu.\n(a)  là methyl alcohol: Đúng.\n(b) Tổng số nguyên tử trong  () là : Sai.\n(c)  có nhóm  (phenol) và  (carboxylic acid): Đúng.\n(d) 1 mol  () phản ứng với 2 mol : Đúng.\nKết luận: Có 3 phát biểu đúng (a, c, d). Đáp án: D.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 259,
+        "id": "C1-P2-TH-259",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Quá trình điều chế isoamyl acetate trong phòng thí nghiệm từ acid và alcohol tương ứng được minh hoạ ở Hình (a). Sau đó, sản phẩm ester được tách biệt bằng phương pháp chiết theo sơ đồ Hình (b)."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Ban đầu, bình (A) chứa isoamyl alcohol, acetic acid và sulfuric acid đặc.",
+          "b": "Ở ống sinh hàn, nước lạnh được dẫn đi vào (2) và chảy ra ở (1).",
+          "c": "Chất lỏng thu được ở (B) là một dung dịch đồng nhất.",
+          "d": "Kết thúc thí nghiệm, isoamyl acetate được thu ở bình (C)."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "NB",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:S - c:S - d:S",
+        "solution": "a) Đúng. Ban đầu, bình (A) chứa hỗn hợp bao gồm isoamyl alcohol, acetic acid và dung dịch sulfuric acid đặc.\nb) Sai. Tại ống sinh hàn, nước lạnh dùng để ngưng tụ phải được dẫn đi vào ở vị trí thấp (1) và chảy ra ở vị trí cao (2) để đảm bảo ống sinh hàn luôn ngập nước.\nc) Sai. Chất lỏng thu được ở bình hứng (B) là một hỗn hợp không đồng nhất (có chứa ester, nước, alcohol dư, acid dư).\nd) Sai. Ester isoamyl acetate nhẹ hơn nước và không hòa tan trong nước nên sẽ nằm ở lớp chất lỏng phía trên của phễu chiết, không phải nằm ở bình hứng (C).",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q259_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 260,
+        "id": "C1-P2-TH-260",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong phòng thí nghiệm, ethyl acetate được điều chế từ acetic acid và ethanol, xúc tác H2SO4 đặc, theo mô hình thí nghiệm sau:",
+          "Biết nhiệt độ trong bình cầu (4) giữ ở mức 65-70°C, nhiệt độ trong ống sinh hàn (3) duy trì ở 25°C. Sau thí nghiệm, tiến hành phân tách sản phẩm. Ghi phổ hồng ngoại của acetic acid, ethanol và ethyl acetate. Cho biết số sóng hấp thụ đặc trưng của một số liên kết trên phổ hồng ngoại như sau:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Chất lỏng trong bình hứng (5) có ethyl acetate.",
+          "b": "Vai trò của ống sinh hàn (3) để ngưng tụ hơi; nước vào từ (1), nước ra ở (2).",
+          "c": "Nhiệt độ phản ứng ở bình cầu (4) càng cao thì phản ứng điều chế ethyl acetate xảy ra càng nhanh.",
+          "d": "Dựa vào phổ hồng ngoại, phân biệt được acetic acid, ethanol và ethyl acetate."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "NB",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:Đ - c:S - d:Đ",
+        "solution": "a) Đúng. Chất lỏng ngưng tụ thu được trong bình hứng (5) có chứa sản phẩm ethyl acetate.\nb) Đúng. Ống sinh hàn có tác dụng tạo môi trường nhiệt độ thấp để hơi ester ngưng tụ lại, nguyên tắc vận hành là nước lạnh đi vào ở vị trí thấp (1) và đi ra ở vị trí cao (2).\nc) Sai. Nhiệt độ phản ứng quá cao sẽ làm cho ethyl alcohol (có nhiệt độ sôi thấp hơn acetic acid) thoát ra mạnh khiến tốc độ phản ứng thuận chậm lại. Đồng thời, nhiệt độ cao cũng thúc đẩy các phản ứng phụ xảy ra do có mặt dung dịch sulfuric acid đặc trong bình.\nd) Đúng. Do phân tử chứa các nhóm chức khác nhau nên dựa vào các vùng hấp thụ đặc trưng trên phổ hồng ngoại, ta hoàn toàn có thể phân biệt được acetic acid, ethyl alcohol và ethyl acetate.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q260_img1.png"
+        ],
+        "tables": [
+          [
+            [
+              "Liên kết",
+              "O-H (alcohol)",
+              "O-H (carboxylic acid)",
+              "C=O (ester, carboxylic acid)"
+            ],
+            [
+              "Số sóng (cm-1)",
+              "3650 - 3200",
+              "3300 - 2500",
+              "1780 - 1650"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 261,
+        "id": "C1-P2-VD-261",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho bảng nhiệt độ sôi (°C) đo ở áp suất 1 atm như sau:",
+          "Ethyl acetate được điều chế bằng cách đun nóng hỗn hợp gồm acetic acid, ethanol và dung dịch H2SO4 98%, đựng trong bình cầu có nhánh. Nhiệt độ bếp được thiết lập ở 80°C. Mô hình điều chế và tách ethyl acetate được thực hiện như sau:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Phản ứng điều chế ethyl acetate từ các nguyên liệu trên được gọi là phản ứng ester hóa.",
+          "b": "Dung dịch H2SO4 đặc có vai trò làm chất xúc tác làm tăng hiệu suất của phản ứng.",
+          "c": "Trong quá trình phản ứng, phần hơi tách ra từ bình cầu có nhánh sang bình hứng chủ yếu gồm ethyl acetate và nước.",
+          "d": "Nếu thiết lập nhiệt độ bếp ở 150°C sẽ thu được nhiều sản phẩm ester hơn ở bình hứng."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "VD",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:S - c:S - d:S",
+        "solution": "a) Đúng. Phản ứng hóa học điều chế ethyl acetate từ acetic acid và ethyl alcohol được gọi là phản ứng ester hóa.\nCH3COOH + C2H5OHCH3COOC2H5 + H2O\nb) Sai. Dung dịch sulfuric acid đặc đóng vai trò làm chất xúc tác để tăng tốc độ phản ứng, nhưng chất xúc tác không làm tăng hiệu suất của phản ứng hóa học.\nc) Sai. Ở nhiệt độ 80°C, ethyl alcohol (sôi ở 78,3°C) và ethyl acetate (sôi ở 77°C) bay hơi mạnh nhất nên phần hơi tách ra sang bình hứng chủ yếu gồm hai chất này và một phần nhỏ hơi nước.\nd) Sai. Nếu thiết lập nhiệt độ quá cao sẽ làm các chất tham gia phản ứng bay hơi khi chưa kịp phản ứng, đồng thời nhiệt độ cao cũng thúc đẩy các phản ứng phụ dẫn đến lượng sản phẩm ester thu được ở bình hứng sẽ ít hơn.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q261_img1.png"
+        ],
+        "tables": [
+          [
+            [
+              "Chất",
+              "C2H5OH",
+              "CH3COOH",
+              "H2O",
+              "CH3COOC2H5",
+              "H2SO4"
+            ],
+            [
+              "Nhiệt độ sôi",
+              "78,3",
+              "118",
+              "100",
+              "77",
+              "337"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 262,
+        "id": "C1-P2-TH-262",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một học sinh tiến hành tổng hợp isoamyl acetate (thành phần chính của dầu chuối) từ acetic acid và isoamyl alcohol theo phương trình hóa học sau:",
+          "Acetic acid\t\tisoamyl alcohol \t\t\tisoamyl acetate",
+          "Sau thí nghiệm, tiến hành phân tách sản phẩm. Ghi phổ hồng ngoại của acetic acid, isoamyl alcohol và isoamyl acetate. Cho biết số sóng hấp thụ đặc trưng của một số liên kết trên phổ hồng như sau:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Phản ứng tổng hợp trong thí nghiệm này là phản ứng thủy phân ester.",
+          "b": "Phổ hồng ngoại có số sóng hấp thụ ở 3350 cm-1 là phổ của isoamyl alcohol.",
+          "c": "Phổ hồng ngoại có số sóng hấp thụ ở 1750 cm-1 mà không có số sóng hấp thụ đặc trưng của liên kết O–H là phổ của isoamyl acetate.",
+          "d": "Dựa vào phổ hồng ngoại, phân biệt được acetic acid, isoamyl alcohol và isoamyl acetate."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:S - b:Đ - c:Đ - d:Đ",
+        "solution": "a) Sai. Phản ứng giữa acetic acid và isoamyl alcohol có xúc tác là dung dịch sulfuric acid đặc là phản ứng ester hóa (phản ứng thuận nghịch), hoàn toàn không phải là phản ứng thủy phân ester.\nb) Đúng. Trên phổ hồng ngoại, tín hiệu hấp thụ ở khoảng 3350 cm⁻¹ đặc trưng cho liên kết O–H của alcohol, do đó đây là phổ của isoamyl alcohol.\nc) Đúng. Phổ hồng ngoại có tín hiệu hấp thụ khoảng 1750 cm⁻¹ là của liên kết đôi C=O trong ester, sự vắng mặt của vùng hấp thụ O–H chứng tỏ đây là phổ của hợp chất isoamyl acetate.\nd) Đúng. Dựa vào sự khác biệt vùng hấp thụ đặc trưng của các nhóm chức như O–H (của carboxylic acid, alcohol) và C=O (của ester, carboxylic acid), ta hoàn toàn phân biệt được ba hợp chất này bằng phổ hồng ngoại.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q262_img1.png"
+        ],
+        "tables": [
+          [
+            [
+              "Liên kết",
+              "O–H (alcohol)",
+              "O–H (carboxylic acid)",
+              "C=O (ester, carboxylic acid)"
+            ],
+            [
+              "Số sóng (cm-1)",
+              "3650–3200",
+              "3300–2500",
+              "1780–1650"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 263,
+        "id": "C1-P2-VD-263",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Isoamyl acetate có mùi chuối chính nên được dùng làm hương liệu nhân tạo. Trong ngành sơn, isoamyl acetate được dùng làm dung môi vecni, dung môi sơn mài, … Isoamyl acetate được điều chế theo các bước sau:",
+          "Bước 1: Cho vào bình cầu 15 mL isoamyl alcohol (d = 0,81 g/mL), 10 mL acetic acid (d = 1,049 g/ mL) và 7 mL H2SO4 đậm đặc, cho thêm vào bình vài viên đá bọt. Lắp ống sinh hàn hồi lưu thẳng đứng vào miệng bình cầu. Sau đó đun bình cầu trong khoảng 1 giờ.",
+          "Bước 2: Sau khi đun, để nguội rồi rót sản phẩm vào phễu chiết, lắc đều rồi để yên khoảng 5 phút, chất lỏng tách thành hai lớp, loại bỏ phần chất lỏng phía dưới, lấy phần chất lỏng phía trên.",
+          "Bước 3: Cho từ từ dung dịch Na2CO3 10% vào phần chất lỏng thu lấy ở bước 2 và lắc đều đến khi không còn khí thoát ra, thêm tiếp 20 mL dung dịch NaCl bão hòa rồi để yên khi đó chất lỏng tách thành hai lớp. Chiết lấy phần chất lỏng phía trên, làm khan ta thu được isoamyl acetate."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Isoamyl acetate rất ít tan trong nước và có khối lượng riêng nhỏ hơn khối lượng riêng của nước.",
+          "b": "Thêm dung dịch Na2CO3 ở bước 3 nhằm mục đích loại bỏ acid lẫn trong isoamyl acetate.",
+          "c": "Ở bước 1, xảy ra phản ứng thế nhóm -OH của (CH3)2CHCH2CH2OH bằng gốc CH3COO-.",
+          "d": "Nếu hiệu suất phản ứng ester hóa là 60% và lượng isoamyl acetate bị hao hụt mất 5% thì khối lượng isoamyl acetate thu được là 10,23 gam. (Kết quả làm tròn đến hàng phần trăm)."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "VD"
+        },
+        "answer": "a:Đ - b:Đ - c:S - d:Đ",
+        "solution": "a) Đúng. Isoamyl acetate là ester có khối lượng riêng nhỏ hơn nước (~0,88 g/mL) nên sẽ nổi lên trên, cho thấy nó tan rất ít trong nước và phân lớp rõ rệt, dễ tách.\nb) Đúng. Dung dịch Na₂CO₃ có tính base yếu, được dùng để trung hòa acid acetic còn dư sau phản ứng, giúp loại bỏ acid không mong muốn và làm sạch isoamyl acetate.\nc) Sai. Phản ứng thế H trong -OH bằng gốc CH3CO- hoặc thế -OH trong COOH bằng OR’.\nd) Đúng. Isoamyl alcohol: CH3 – CH(CH3) – CH2 – CH2OH hay C5H11OH (M = 88)\nPTHH: C5H11OH + CH3COOH  CH3COOC5H11 + H2O",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 264,
+        "id": "C1-P3-NB-264",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho methyl alcohol phản ứng với propionic acid có xúc tác H2SO4 đặc, thu được ester X. Khối lượng mol phân tử của X là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "88",
+        "solution": "Đáp án: 88. Công thức của ester tạo thành C2H5COOCH3.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 265,
+        "id": "C1-P3-NB-265",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Có bao nhiêu ester được tạo từ carboxylic acid và alcohol tương ứng:"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "6",
+        "solution": "Đáp án: 6. Gồm (2), (4), (5), (6), (7) và (8).",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q265_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 266,
+        "id": "C1-P3-NB-266",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ester thường được điều chế bằng cách đun hỗn hợp carboxylic acid, alcohol và dung dịch sulfuric acid đặc. Khi đó xảy ra phản ứng ester hóa. Cho các ester sau: C2H5COOCH3; CH3COOCH3; CH2(COOCH3)2; (HCOO)2C2H4; CH2=CHCOOCH3; C6H5COOC2H5; CH3COOC6H5; CH3COOCH=CH2? Có bao nhiêu ester được điều chế bằng phản ứng ester hóa?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "6",
+        "solution": "Đáp án: 6 Gồm C2H5COOCH3; CH3COOCH3; CH2(COOCH3)2; (HCOO)2C2H4; CH2=CHCOOCH3; C6H5COOC2H5.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 267,
+        "id": "C1-P3-NB-267",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Thực hiện phản ứng ester hoá 0,1 mol acetic acid và 0,1 mol isoamyl alcohol (có H2SO4 đặc, xúc tác) để điều chế isoamyl acetate (còn gọi là dầu chuối) theo phản ứng hoá học sau:",
+          "Trong các đồ thị được đánh số từ 1 đến 4 dưới đây, đồ thị nào biểu diễn sự thay đổi số mol (n) isoamyl acetate theo thời gian (t)?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "1",
+        "solution": "Đáp án: 1.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q267_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q267_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 268,
+        "id": "C1-P3-VD-268",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tiến hành thí nghiệm điều chế isoamyl acetate (có mùi chuối chín) theo thứ tự các bước sau đây:",
+          "• Bước 1: Cho 3 mL isoamyl alcohol, 4 mL acetic acid và 5 mL H2SO4 đặc vào bình cầu, lắc đều và đun nhẹ trong khoảng 7-8 phút.",
+          "• Bước 2: Để nguội chất lỏng ở bình hứng, thêm 10 mL dung dịch NaCl bão hoà và cho sang phễu chiết để tách sản phẩm thu được.",
+          "Cho các phát biểu sau:",
+          "(1) Việc thêm dung dịch NaCl bão hoà giúp tách isoamyl acetate dễ dàng hơn.",
+          "(2) Trong phễu chiết, lớp chất lỏng phía dưới có thành phần chính là isoamyl acetate.",
+          "(3) Phản ứng điều chế isoamyl acetate trong thí nghiệm trên là phản ứng ester hoá.",
+          "(4) Vai trò của H2SO4 đặc là chất xúc tác và hút nước để tăng hiệu suất phản ứng thuận và phản ứng xảy ra nhanh hơn.",
+          "Có bao nhiêu phát biểu đúng?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3\n(1) Đúng. Dung dịch NaCl bão hoà có khối lượng riêng lớn, không hòa tan được ester nên giúp ester tách ra và nổi lên.\n(2) Sai, lớp isoamyl acetate nhẹ hơn nên ở phía trên, lớp phía dưới là dung dịch NaCl.\n(3) Đúng.\n(4) Đúng. H2SO4 đặc là chất xúc tác để hệ nhanh đạt đến trạng thái cân bằng. Chất xúc tác không làm tăng hiệu suất. H2SO4 đặc còn vai trò khác là hút nước để cân bằng chuyển dịch theo chiều thuận.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 269,
+        "id": "C1-P3-VD-269",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Ester",
+        "topic": "Ester",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Aspirin (acetylsalicylic acid) được sử dụng trong y học để sản xuất thuốc chống viêm, hạ sốt. Trong phòng thí nghiệm, khi đun nóng hỗn hợp gồm 13,8 gam salicylic acid với 15,3 gam anhydride acetic (có xúc tác thích hợp) với hiệu suất , thu được acetic acid và m gam aspirin theo phương trình hoá học:",
+          "Giá trị của m bằng bao nhiêu? (Làm tròn kết quả đến phần mười)"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "9,9",
+        "solution": "Đáp án: 9,9.\n📝 Hướng dẫn giải:\nCách 1 (Tư duy từng bước):\nBước 1: Tính số mol của các nguyên liệu ban đầu.\n=  (mol).\n=  (mol).\nBước 2: Lập tỉ lệ để xác định chất phản ứng giới hạn.\nTỉ lệ hệ số phản ứng là 1:1. So sánh số mol ban đầu, ta thấy . Do đó, lượng  đang dư, mọi tính toán phải dựa vào lượng  (chất phản ứng hết).\nBước 3: Tính số mol sản phẩm thu được trên thực tế.\nDo hiệu suất phản ứng chỉ đạt 55%, số mol  thực tế sinh ra =  (mol).\nBước 4: Tính khối lượng sản phẩm.\nKhối lượng  (m) =  (gam).\n🧮 Cách 2 (Bấm máy tính):",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q269_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q269_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 270,
+        "id": "C1-P1-NB-270",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất nào dưới đây thuộc loại chất béo?"
+        ],
+        "opt_lines": [
+          "A. dầu bôi trơn.\tB. tinh dầu quế.\tC. dầu mỏ.\tD. dầu ăn."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 271,
+        "id": "C1-P1-NB-271",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Các nguồn chất béo có trong đâu?"
+        ],
+        "opt_lines": [
+          "A. Quả nho.\tB. Chanh.\tC. Mỡ động vật.\tD. Dầu chuối."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 272,
+        "id": "C1-P1-NB-272",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất nào sau đây có thành phần chính là triester của glycerol với acid béo?"
+        ],
+        "opt_lines": [
+          "A. Giấm ăn.\tB. Dầu lạc.\tC. Dầu bôi trơn.\tD. Tinh dầu chuối."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 273,
+        "id": "C1-P1-NB-273",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Palmitic acid có công thức là"
+        ],
+        "opt_lines": [
+          "A. C2H5COOH.\tB. C17H35COOH.\tC. C15H31COOH.\tD. C15H29COOH."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 274,
+        "id": "C1-P1-NB-274",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất béo là triester của acid béo với"
+        ],
+        "opt_lines": [
+          "A. methyl alcohol.\tB. ethylene glycol.\tC. ethyl alcohol.\tD. glycerol."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 275,
+        "id": "C1-P1-NB-275",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Triester của glycerol với gốc acid nào sau đây là chất béo?"
+        ],
+        "opt_lines": [
+          "A. formic acid.\tB. acetic acid.\tC. acrylic acid.\tD. oleic acid."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 276,
+        "id": "C1-P1-NB-276",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Số nguyên tử oxygen có trong phân tử triolein là"
+        ],
+        "opt_lines": [
+          "A. 6.\tB. 2.\tC. 3.\tD. 4."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 277,
+        "id": "C1-P1-NB-277",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất nào sau đây là chất béo?"
+        ],
+        "opt_lines": [
+          "A. C17H35COOC2H5.\tB. (C17H35COO)3C3H5.\tC. C3H5(OH)3.\tD. (C17H33COO)2C2H4."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 278,
+        "id": "C1-P1-NB-278",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Công thức cấu tạo thu gọn nào sau đây biểu thị một chất béo?"
+        ],
+        "opt_lines": [
+          "A. (C17H35COO)3C3H5.\tB. CH3COOC2H5.\tC. C3H5COOC2H5.\tD. (CH3COO)3C3H5."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 279,
+        "id": "C1-P1-NB-279",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Công thức nào sau đây có thể là công thức của chất béo?"
+        ],
+        "opt_lines": [
+          "A. C17H35COOC3H5.\tB. (C17H33COO)2C2H4.\tC. (C15H31COO)3C3H5.\tD. CH3COOC6H5."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 280,
+        "id": "C1-P1-NB-280",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tripalmitin có công thức là"
+        ],
+        "opt_lines": [
+          "A. (C15H29COO)3C3H5.\tB. (C17H33COO)3C3H5.\tC. (C15H31COO)3C3H5.\tD. (C17H35COO)3C3H5."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 281,
+        "id": "C1-P1-NB-281",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Triolein có công thức là"
+        ],
+        "opt_lines": [
+          "A. (C17H35COO)3C3H5.\tB. (C15H31COO)3C3H5.\tC. (C17H33COO)3C3H5.\tD. (C17H31COO)3C3H5."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 282,
+        "id": "C1-P1-NB-282",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tristearin là tên gọi của chất béo nào dưới đây?"
+        ],
+        "opt_lines": [
+          "A. (C15H31COO)3C3H5.\tB. (C17H31COO)3C3H5.\tC. (C17H35COO)3C3H5.\tD. (C17H33COO)3C3H5."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 283,
+        "id": "C1-P1-NB-283",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Glyceryl trioleate có công thức cấu tạo là"
+        ],
+        "opt_lines": [
+          "A. (CH3[CH2]8CH=CH[CH2]7COO)3C3H5.\tB. (CH3[CH2]7CH=CH[CH2]7COO)3C3H5.",
+          "C. (CH3[CH2]7CH=CH[CH2]6COO)3C3H5.\tD. (CH3[CH2]16COO)3C3H5."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 284,
+        "id": "C1-P1-NB-284",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Glyceryl trilinoleate có công thức là"
+        ],
+        "opt_lines": [
+          "A. (C17H35COO)3C3H5.\tB. (C15H31COO)3C3H5.\tC. (C17H33COO)3C3H5.\tD. (C17H31COO)3C3H5."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 285,
+        "id": "C1-P1-NB-285",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Công thức phân tử của triglyceride tạo bởi linoleic acid và glycerol là"
+        ],
+        "opt_lines": [
+          "A. C55H93O6.\tB. C53H90O6.\tC. C57H98O6.\tD. C51H98O6."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 286,
+        "id": "C1-P1-NB-286",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Công thức phân tử của glyceryl tristearate là"
+        ],
+        "opt_lines": [
+          "A. C57H110O6.\tB. C54H110O6.\tC. C54H104O6.\tD. C51H98O6."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 287,
+        "id": "C1-P1-NB-287",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Hầu hết các triglyceride trong tự nhiên đều chứa glycerol liên kết với hai hoặc ba acid béo khác nhau. Từ palmitic acid và stearic acid có thể tạo được tối đa bao nhiêu triglyceride khác nhau chứa đồng thời cả hai gốc acid?"
+        ],
+        "opt_lines": [
+          "A. 2.\tB. 3.\tC. 4.\tD. 5."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 288,
+        "id": "C1-P1-NB-288",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong các triglyceride dưới đây, chất nào có nhiệt độ nóng chảy thấp nhất?"
+        ],
+        "opt_lines": [
+          "A. Trilinolein.\tB. Tripalmitin.\tC. Tristearin.\tD. Triolein."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 289,
+        "id": "C1-P1-NB-289",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất nào dưới đây không tan trong nước?"
+        ],
+        "opt_lines": [
+          "A. Ethanol.\tB. Acetic acid.\tC. Tristearin.\tD. Formaldehyde."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 290,
+        "id": "C1-P1-VD-290",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tiến hành thí nghiệm như sau:",
+          "Bước 1: Lấy vào cốc đong 20 mL nước, thêm vào 5 mL dầu ăn, khuấy đều.",
+          "Bước 2: Để yên trong vài phút. Quan sát hiện tượng.",
+          "Phát biểu nào không đúng với nội dung của thí nghiệm trên?"
+        ],
+        "opt_lines": [
+          "A. Thí nghiệm trên có thể dùng để chứng minh dầu ăn không tan trong nước.",
+          "B. Thí nghiệm trên có thể dùng để chứng minh dầu ăn nhẹ hơn nước.",
+          "C. Nước là dung môi không phân cực nên không hòa tan dầu.",
+          "D. Có thể tách riêng dầu ăn và nước trong hỗn hợp trên bằng phương pháp chiết."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 291,
+        "id": "C1-P1-NB-291",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong công nghiệp, một lượng lớn chất béo dùng để sản xuất"
+        ],
+        "opt_lines": [
+          "A. glucose và glycerol.\t\tB. xà phòng và glycerol.",
+          "C. glucose và ethyl alcohol.\tD. xà phòng và ethyl alcohol."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 292,
+        "id": "C1-P1-NB-292",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Acid béo omega-3 và omega-6 có tác dụng giảm huyết áp, giảm chlolessterol trong máu và ngăn chặn sự hình thành các mảng triglyceride bám trên động mạch. Nguồn cung cấp acid béo omega-3 và omega-6 cho cơ thể chủ yếu từ"
+        ],
+        "opt_lines": [
+          "A. protein.\tB. chất béo.\tC. tinh bột.\tD. đường mía."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 293,
+        "id": "C1-P1-TH-293",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất hữu cơ X được dùng phổ biến trong lĩnh vực mĩ phẩm và phụ gia thực phẩm. Khi thủy phân hoàn toàn bất kì chất béo nào cũng đều thu được X. Chất X là"
+        ],
+        "opt_lines": [
+          "A. ethanol. \tB. glycerol.\tC. formic acid. \tD. stearic acid."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 294,
+        "id": "C1-P1-TH-294",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Thủy phân hoàn toàn một lượng tristearin trong dung dịch NaOH (vừa đủ), thu được 1 mol glycerol và"
+        ],
+        "opt_lines": [
+          "A. 1 mol sodium stearate.\t\tB. 3 mol stearic acid.",
+          "C. 3 mol sodium stearate.\t\tD. 1 mol stearic acid."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 295,
+        "id": "C1-P1-TH-295",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Thủy phân một triglyceride X bằng dung dịch NaOH, thu được hỗn hợp muối gồm sodium oleate, sodium stearate (có tỉ lệ mol tương ứng là 1: 2) và glycerol. Số triglyceride X thỏa mãn tính chất trên là"
+        ],
+        "opt_lines": [
+          "A. 2.\tB. 1.\tC. 3.\tD. 4."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 296,
+        "id": "C1-P1-NB-296",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Triglycerin A có công thức như hình bên, một phân tử chất A có khả năng tham gia cộng hợp tối đa mấy phân tử hydrogen?"
+        ],
+        "opt_lines": [
+          "A. 10.\tB. 5.\tC. 8.\tD. 16."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q296_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 297,
+        "id": "C1-P1-TH-297",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phát biểu nào sau đây không đúng về hợp chất dưới đây?"
+        ],
+        "opt_lines": [
+          "A. Có phản ứng hydrogen hoá khi có mặt Ni, đun nóng.",
+          "B. Thủy phân trong môi trường acid thu được glycerol.",
+          "C. Tồn tại ở thể rắn ở nhiệt độ phòng.",
+          "D. Mạch carbon của acid béo đều ở dạng cis-."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q297_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 298,
+        "id": "C1-P1-TH-298",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Công thức cấu tạo của một loại dầu thực vật được cho dưới đây:",
+          "Phát biểu nào sau đây không đúng?"
+        ],
+        "opt_lines": [
+          "A. Có phản ứng cộng với H2 (xúc tác Ni, to).",
+          "B. Có thể dùng để chiết bromine ra khỏi nước bromine.",
+          "C. Thủy phân trong môi trường acid thu được 3 sản phẩm hữu cơ.",
+          "D. Nhiệt độ nóng thấp hơn tripalmitin do tương tác van der Waals yếu hơn."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q298_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 299,
+        "id": "C1-P1-TH-299",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Dầu mỡ để lâu ngày thường có mùi hôi, khét. Hiện tượng này gọi là sự ôi mỡ. Phát biểu nào sau đây là không đúng?"
+        ],
+        "opt_lines": [
+          "A. Sự ôi mỡ là do gốc hydrocarbon không no trong phân tử chất béo cộng hợp với hydrogen thành chất béo no.",
+          "B. Sự ôi mỡ là do gốc hydrocarbon không no trong phân tử chất béo bị oxi hoá chậm bởi oxygen trong không khí.",
+          "C. Việc sử dụng lại dầu, mỡ chiên, rán nhiều lần cũng gây hại tới sức khoẻ.",
+          "D. Dầu, mỡ tái sử dụng nhiều lần cũng có hiện tượng ôi mỡ."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 300,
+        "id": "C1-P1-NB-300",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Triolein là loại chất béo có nhiều trong dầu thực vật như dầu oliu, dầu lạc, dầu vừng. Triolein giúp làm giảm cholesterol trong máu, giảm nguy cơ mắc các bệnh tim mạch, tăng cường hấp thụ vitamin (A, D, E và K), chống viêm, điều hoà hormone,... Nhận định nào sau đây về triolein không đúng?"
+        ],
+        "opt_lines": [
+          "A. Chủ yếu tồn tại ở dạng đồng phân trans.\tB. Có nhiệt độ nóng chảy thấp hơn .",
+          "C. Có 6 liên kết  trong phân tử.\tD. Dễ hoà tan các vitamin A, D, E và K."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q300_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q300_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 301,
+        "id": "C1-P1-VD-301",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tiến hành thí nghiệm theo các bước sau:",
+          "Bước 1: Cho vào cốc thủy tinh chịu nhiệt khoảng 5 gam mỡ lợn và 10 mL dung dịch NaOH 40%.",
+          "Bước 2: Đun sôi nhẹ hỗn hợp, liên tục khuấy đều bằng đũa thủy tinh khoảng 30 phút và thỉnh thoảng thêm nước cất để giữ cho thể tích hỗn hợp không đổi. Để nguội hỗn hợp.",
+          "Bước 3: Rót thêm vào hỗn hợp 15 – 20 mL dung dịch NaCl bão hòa nóng, khuấy nhẹ. Để yên hỗn hợp.",
+          "Cho các phát biểu sau:",
+          "(1) Sau bước 3 thấy có lớp chất rắn màu trắng nổi lên là glycerol.",
+          "(2) Vai trò của dung dịch NaCl bão hòa ở bước 3 là để tách muối sodium của acid béo ra khỏi hỗn hợp.",
+          "(3) Ở bước 2, nếu không thêm nước cất, hỗn hợp bị cạn khô thì phản ứng thủy phân không xảy ra.",
+          "(4) Ở bước 1, nếu thay mỡ lợn bằng dầu dừa thì hiện tượng thí nghiệm sau bước 3 vẫn xảy ra tương tự.",
+          "(5) Trong công nghiệp, phản ứng ở thí nghiệm trên được ứng dụng để sản xuất xà phòng và glycerol.",
+          "Số phát biểu đúng là"
+        ],
+        "opt_lines": [
+          "A. 4.\tB. 5.\tC. 2.\tD. 3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 302,
+        "id": "C1-P1-TH-302",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tiến hành các thí nghiệm sau:",
+          "(1) Đun nóng hỗn hợp 3 mL isoamyl acetate và 5 mL dung dịch sulfuric acid 0,1 M.",
+          "(2) Đun nóng hỗn hợp 3 mL ethyl acetate và 5 mL dung dịch NaOH 0,2 M.",
+          "(3) Đun 5 gam mỡ động vật trong nước.",
+          "(4) Đun nóng hỗn hợp 3 mL ethyl bromide và 5 mL dung dịch NaOH 0,2 M.",
+          "(5) Cho 3 mL dung dịch CH3COOH 0,1 M vào ống nghiệm chứa 3 mL dung dịch NaOH 0,2 M.",
+          "(6) Đun nóng hỗn hợp 3 gam tristearin và 5 mL dung dịch NaOH 0,2 M.",
+          "Trong các thí nghiệm trên, thí nghiệm nào xảy ra phản ứng xà phòng hóa?"
+        ],
+        "opt_lines": [
+          "A. (1), (3), (4).\tB. (2), (6).\tC. (1), (3), (4), (5).\tD. (3), (6)."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 303,
+        "id": "C1-P1-VD-303",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Muesli là một loại ngũ cốc dinh dưỡng xuất hiện vào cuối những năm 1800, với các thành phần như yến mạch cán mỏng, quả hạch, hạt và trái cây khô. Bảng sau chứa thông tin dinh dưỡng trên một gói muesli:",
+          "Biết năng lượng giải phóng khi oxi hoá hoàn toàn các chất như sau:",
+          "Sử dụng thông tin trên xác định % năng lượng do chất béo trong khẩu phần ăn đem lại là bao nhiêu?"
+        ],
+        "opt_lines": [
+          "A. 20,98%.\tB. 37,72%.\tC. 30,39%.\tD. 35,80%."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "%năng lượng do chất béo trong gói 45 gam = gói 100 gam\n.",
+        "image_paths": [],
+        "tables": [
+          [
+            [
+              "Thông tin dinh dưỡng",
+              "Thông tin dinh dưỡng"
+            ],
+            [
+              "",
+              "Hàm lượng trung bình trên 100 gam"
+            ],
+            [
+              "Protein",
+              "13,2 gam"
+            ],
+            [
+              "Tổng chất béo",
+              "16,3 gam"
+            ],
+            [
+              "Tổng chất béo",
+              "2,9 gam"
+            ],
+            [
+              "Tổng carbohydrate",
+              "48,2 gam"
+            ],
+            [
+              "Tổng carbohydrate",
+              "17,4 gam"
+            ],
+            [
+              "Chất xơ",
+              "4,90 gam"
+            ],
+            [
+              "Sodium",
+              "10,5 mg"
+            ]
+          ],
+          [
+            [
+              "Chất dinh dưỡng",
+              "Protein",
+              "Chất béo",
+              "Carbohydrate"
+            ],
+            [
+              "Năng lượng (kJ/gam)",
+              "17",
+              "37",
+              "16"
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 304,
+        "id": "C1-P2-TH-304",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Với acid béo không no, số thứ tự chỉ vị trí liên kết đôi (C=C) đầu tiên tính từ đuôi CH3 là n thì acid béo thuộc nhóm omega-n."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Acid béo omega-3 và omega-6 là các acid béo không no với liên kết đôi (C=C) đầu tiên ở vị trí số 3 và 6 khi đánh số từ nhóm methyl.",
+          "b": "Linoleic acid (CH3[CH2]4CH=CHCH2CH=CH[CH2]7COOH) thuộc nhóm omega-3.",
+          "c": "Các loại dầu thực vật (dầu mè, dầu đậu nành,…) chứa nhiều acid béo omega-6.",
+          "d": "Acid béo omega-3 và omega-6 đều có lợi cho sức khỏe tim mạch, ngăn ngừa các bệnh về tim, động mạch vành."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:S - c:Đ - d:Đ",
+        "solution": "a) Đúng. Tên omega-n cho biết vị trí nối đôi đầu tiên tính từ đầu methyl (–CH₃) → omega-3: nối đôi tại carbon số 3; omega-6: tại carbon số 6.\nb) Sai. Linoleic acid có liên kết đôi đầu tiên ở vị trí số 6, nên thuộc nhóm omega-6, không phải omega-3.\nc) Đúng. Dầu thực vật như dầu mè, dầu đậu nành chứa nhiều acid béo omega-6 hơn omega-3.\nd) Đúng. Omega-3 và omega-6 đều là acid béo thiết yếu, giúp giảm cholesterol xấu, ngừa bệnh tim mạch, hỗ trợ phát triển não và thị lực.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 305,
+        "id": "C1-P2-TH-305",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Acid béo X có cấu tạo như hình bên thuộc nhóm omega-n (n là số thứ tự vị trí của liên kết đôi đầu tiên tính từ đầu nhóm CH3) là một trong những acid béo có lợi cho sức khỏe tim mạch, ngăn ngừa các bệnh về tim, động mạch vành."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Công thức của chất béo tạo nên từ acid béo X là (C17H33COO)3C3H5.",
+          "b": "Acid béo X có cấu hình ở dạng cis.",
+          "c": "Acid béo X thuộc loại omega-6.",
+          "d": "Hydrogen hoá hoàn toàn acid béo X thu được sản phẩm có tên gọi là palmitic acid."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "NB",
+          "d": "NB"
+        },
+        "answer": "a:S - b:Đ - c:Đ - d:S",
+        "solution": "a) Sai. Công thức phân tử của acid béo X là  do đó chất béo tạo thành khi liên kết với  phải là , bẫy ở đây là học sinh dễ nhầm lẫn sang gốc của .\nb) Đúng. Quan sát cấu trúc phân tử X, các nguyên tử  tại vị trí liên kết đôi  đều nằm ở cùng một phía, đây là đặc trưng của cấu hình  thường gặp ở acid béo tự nhiên.\nc) Đúng. Liên kết đôi  đầu tiên nằm ở vị trí nguyên tử carbon số 6 tính từ nhóm , do đó acid béo X thuộc nhóm .\nd) Sai. Phản ứng  hóa đối với  (có 2 liên kết ) sẽ bẻ gãy các liên kết đôi tạo ra  (), bẫy sai lầm là học sinh tính nhầm sang  ().",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q305_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 306,
+        "id": "C1-P2-TH-306",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một số loại dầu cá có chứa triglyceride được hình thành từ glycerol và acid béo không bão hòa A có công thức dưới đây:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Acid béo A là acid béo omega – 6.",
+          "b": "Acid béo A có chứa 76,36%C về khối lượng.",
+          "c": "Triglyceride tạo nên từ acid béo A có chứa 99 nguyên tử H.",
+          "d": "Triglyceride tạo nên của acid béo A có chứa 18 liên kết pi (π)."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "VD",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:S - b:S - c:S - d:Đ",
+        "solution": "a) Sai. Quan sát cấu trúc phân tử, liên kết đôi  đầu tiên cách nhóm  ba nguyên tử carbon nên acid béo A thuộc nhóm , bẫy là học sinh nhầm thành nhóm .\nb) Sai. Công thức phân tử của acid béo A là , phần trăm khối lượng nguyên tố carbon là , bẫy sai lầm là thiết lập sai công thức phân tử ban đầu.\nc) Sai.  tạo bởi ba phân tử acid béo A có công thức , tổng số nguyên tử  thực tế là , bẫy là học sinh quên cộng thêm 5 nguyên tử  của gốc .\nd) Đúng. Mỗi phân tử acid béo A chứa 6 liên kết đôi  (tương ứng 6 liên kết ) do đó  tạo bởi ba phân tử acid béo A sẽ chứa tổng cộng 18 liên kết  ở các gốc .",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q306_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 307,
+        "id": "C1-P2-TH-307",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong thành phần của dầu oliu có chứa một số chất béo, trong đó chủ yếu là chất X có cấu trúc như hình bên."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Chất X là triester của glycerol với hai gốc oleic acid và một gốc linoleic acid.",
+          "b": "Hydrogen hoá hoàn toàn 1 mol chất béo X trong điều kiện thích hợp thấy có 7 mol H2 tham gia phản ứng.",
+          "c": "Hydrogen hoá hoàn toàn chất X thu được sản phẩm có chứa 11,56% hydrogen về khối lượng.",
+          "d": "Chất X có nhiệt độ sôi cao hơn so với tristearin trong cùng điều kiện."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "VD",
+          "c": "VD",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:S - c:S - d:S",
+        "solution": "a) Đúng. Các gốc acid béo trong phân tử X đều có 17 nguyên tử carbon, bao gồm hai gốc có chứa 1 liên kết  (gốc ) và một gốc chứa 2 liên kết  (gốc ).\nb) Sai. Phân tử chất béo X chỉ chứa tổng cộng 4 liên kết  ở các gốc  nên 1 mol X chỉ cộng hợp tối đa với 4 mol phân tử , bẫy là học sinh đếm nhầm cả 3 liên kết  nằm trong nhóm chức .\nc) Sai. Quá trình  hóa hoàn toàn chất béo X thu được chất béo no  có công thức , phần trăm khối lượng nguyên tố  chiếm khoảng .\nd) Sai. Chất béo X là chất béo không no (tồn tại ở dạng lỏng) nên lực tương tác  giữa các phân tử yếu hơn, dẫn đến nhiệt độ nóng chảy thấp hơn rất nhiều so với chất béo no như  (dạng rắn).",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q307_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 308,
+        "id": "C1-P2-TH-308",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Triglyceride đóng vai trò là nguồn cung cấp năng lượng và chuyên chở các chất béo trong quá trình trao đổi chất. Cho triglyceride X có công thức cấu tạo như hình sau:",
+          "Các kí hiệu (1), (2), (3) lần lượt là các gốc hydrocarbon trong cấu tạo của triglyceride X"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Công thức phân tử của X là C55H98O6.",
+          "b": "Acid béo có gốc kí hiệu (2) thuộc loại acid béo omega-9.",
+          "c": "Các gốc của acid béo không no trong phân tử X đều có cấu hình cis-.",
+          "d": "Hydrogen hóa hoàn toàn 427 kg X bằng hydrogen (dư) ở nhiệt độ cao và áp suất cao, Ni xúc tác thu được 432 kg chất béo rắn."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "NB",
+          "c": "TH",
+          "d": "VD"
+        },
+        "answer": "a:Đ - b:Đ - c:Đ - d:S",
+        "solution": "a) Đúng. Dựa vào cấu trúc phân tử được cung cấp, ta đếm được tổng số nguyên tử và xác định công thức phân tử tổng quát của  X là .\nb) Đúng. Gốc  kí hiệu (2) có liên kết đôi  đầu tiên nằm ở vị trí nguyên tử carbon số 9 tính từ đuôi nhóm , do đó thuộc nhóm acid béo .\nc) Đúng. Quan sát công thức cấu tạo của các gốc acid béo không no trong phân tử X, tất cả các liên kết đôi  đều có nhánh chính nằm cùng phía mang đặc trưng của cấu hình .\nd) Sai. Số mol X tham gia phản ứng là  nên khối lượng chất béo no sinh ra là , bẫy sai lầm là học sinh tính toán sai khối lượng mol của sản phẩm lúc sau.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q308_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 309,
+        "id": "C1-P3-NB-309",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Có bao nhiêu chất thuộc loại acid béo trong các chất sau: CH3COOH (1), C17H35COOH (2), C15H31COOH (3), HCOOH (4), CH2=CHCOOH (5), C17H33COOH (6), (C17H33COO)3C3H5 (7), C17H31COOH (8)?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án: 4. Các chất thuộc acid béo bao gồm: (2), (3), (6) và (8).",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 310,
+        "id": "C1-P3-NB-310",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Các acid béo không bão hòa (acid béo không no) có thể phân loại dưới dạng acid omega – n. Trong đó n là vị trí xuất hiện liên kết đôi đầu tiên trong mạch carbron khi đánh số thứ tự từ nhóm methyl. Acid béo X có công thức được biểu diễn dưới đây thuộc acid béo “omega” với giá trị n bằng mấy?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "6",
+        "solution": "Đáp án: 6. Acid béo X thuộc omega-6.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q310_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 311,
+        "id": "C1-P3-NB-311",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Docosahexaenoic acid (DHA) thuộc loại acid béo omega-n, là thành phần quan trọng của não người, vỏ não, da và võng mạc. Docosahexaenoic acid có công thức cấu tạo như sau:",
+          "Giá trị của n là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3. Acid béo thuộc loại omega-n, với n là vị trí của liên kết đôi đầu tiên được tính từ đầu nhóm -CH3.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q311_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 312,
+        "id": "C1-P3-NB-312",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho một số acid béo thường gặp dưới đây:",
+          "1)",
+          "2)",
+          "3)",
+          "4)",
+          "Có bao nhiêu acid béo thuộc nhóm omega-6?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án 3: (2), (3) và (4)",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q312_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q312_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q312_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q312_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 313,
+        "id": "C1-P3-NB-313",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Có bao nhiêu nguyên tử oxgyen có trong một phân tử triglyceride?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "6",
+        "solution": "Đáp án: 6.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 314,
+        "id": "C1-P3-TH-314",
+        "part": "P3",
+        "level": "TH",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Khi xà phòng hóa triglyceride X bằng dung dịch NaOH dư, đun nóng, thu được sản phẩm gồm glycerol, sodium oleate, sodium stearate và sodium palmitate. Số đồng phân cấu tạo thỏa mãn tính chất trên của X là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án 3:\n;  ;",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 315,
+        "id": "C1-P3-TH-315",
+        "part": "P3",
+        "level": "TH",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Xà phòng hóa hoàn toàn triglyceride X trong dung dịch NaOH dư, thu được glycerol, sodium oleate, sodium stearate và sodium palmitate. Phân tử khối của X là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "860",
+        "solution": "Đáp án 860: CTCT của X: [(C15H31COO)(C17H33COO)(C17H35COO)]C3H5.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 316,
+        "id": "C1-P3-TH-316",
+        "part": "P3",
+        "level": "TH",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất béo không bão hòa A có công thức dạng khung phân tử như hình dưới đây.",
+          "Thủy phân chất béo A trong môi trường acid, thu được bao nhiêu acid béo khác nhau?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án 3. Các acid béo bao gồm: C15H31COOH, C17H33COOH, C17H31COOH.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q316_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 317,
+        "id": "C1-P3-NB-317",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho chất X là thành phần chính trong một loại dầu thực vật và có cấu tạo như sau:",
+          "Cho các phát biểu:",
+          "1) X thuộc loại chất béo không no, trong phân tử có ba liên kết π.",
+          "2) Khi sử dụng làm thực phẩm, X sẽ cung cấp acid béo omega-6 cho cơ thể.",
+          "3) Ở điều kiện thường, X tồn tại ở thể lỏng và có khối lượng riêng nhỏ hơn 1 g/mL.",
+          "4) Khi để lâu trong không khí, X sẽ bị oxi hóa tạo ra hợp chất có mùi.",
+          "5) Dùng nước dễ dàng rửa sạch chất X bám vào các vật dụng.",
+          "Liệt kê các phát biểu đúng theo số thứ tự tăng dần."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "234",
+        "solution": "Đáp án 234.\n(1) Sai. X thuộc loại chất béo không no, trong phân tử có 6 liên kết π (nằm trong 3C=C và 3C=O).\n(2) Đúng. Cấu tạo của X có gốc acid béo omega-6 nên khi sửdụng X sẽ cung cấp omega-6 cho cơ thể.\n(3) Đúng. X ở thể lỏng trong điều kiện thường và X nhẹ hơn nước (khối lượng riêng nhỏ hơn 1 g/mL).\n(4) Đúng. các liên kết C=C trong X dễ bị oxi hóa tạo ra hợp chất có mùi.\n(5) Sai. Nước không thể rửa sạch được chất béo.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q317_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 318,
+        "id": "C1-P3-VD-318",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Dầu ăn đã qua sử dụng có thể tái chế làm nhiên liệu. Xét phản ứng đốt cháy tripalmitin trong dầu ăn:",
+          "Cho nhiệt tạo thành chuẩn:",
+          "Trung bình, 1 gam tripalmitin cung cấp a kJ năng lượng. Giá trị của a bằng bao nhiêu? (Làm tròn kết quả đến phần nguyên.)"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "39",
+        "solution": "Đáp án: 39.\n📝 Hướng dẫn giải:\n🔹 Cách 1 (Tư duy từng bước):\nPhản ứng đốt cháy:\nBước 1: Tính ΔH°phản ứng theo enthalpy tạo thành\nBước 2: Tính khối lượng mol của tripalmitin:\nBước 3: Năng lượng/1 gam:\n🧮 Cách 2 (Bấm máy tính):",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q318_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q318_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q318_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q318_img4.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q318_img5.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q318_img6.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q318_img7.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q318_img8.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 319,
+        "id": "C1-P3-NB-319",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất béo là nguồn cung cấp năng lượng đáng kể cho cơ thể người. Theo nhu cầu dinh dưỡng khuyến nghị cho người Việt Nam (Bộ Y tế, 2016): Trung bình 1 gam chất béo cung cấp 9 kcal và năng lượng từ chất béo đóng góp khoảng 30% tổng năng lượng cần thiết trong ngày, cơ thể người nam 18 tuổi cần năng lượng trung bình 2470 kcal/ngày. Một học sinh nam 18 tuổi cần tiêu thụ khoảng bao nhiêu gam chất béo trong thực phẩm trong một ngày để cung cấp đủ năng lượng từ chất béo cho hoạt động của cơ thể? (Kết quả làm tròn đến hàng phần mười)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "82,3",
+        "solution": "Đáp án: 82,3.\n📝 Hướng dẫn giải:\n🔹 Cách 1 (Tư duy từng bước):\nTính phần năng lượng mà chất béo cần cung cấp trong một ngày:  kcal.\nKhối lượng chất béo thực tế cần ăn để nạp đủ lượng năng lượng trên:  gam.\n🧮 Cách 2 (Bấm máy tính): Thiết lập biểu thức tính trực tiếp khối lượng chất béo:",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 320,
+        "id": "C1-P3-NB-320",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Chất béo",
+        "topic": "Chất béo",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất béo là nguồn cung cấp năng lượng đáng kể cho cơ thể. Trung bình 1 gam chất béo cung cấp 37,7 kJ. Mỗi ngày, một học sinh trung học phổ thông cần cung cấp 10000 kJ (trong đó năng lượng từ chất béo đóng góp 20%) thì học sinh đó phải ăn bao nhiêu gam chất béo cho phù hợp? (Kết quả làm tròn đến hàng đơn vị)"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "53",
+        "solution": "Đáp án: 53.\n📝 Hướng dẫn giải:\n🔹 Cách 1 (Tư duy từng bước):\nTính phần năng lượng lipid phải gánh vác trong một ngày: .\nXác định lượng lipid thực tế cần tiêu thụ: .\n🧮 Cách 2 (Bấm máy tính):",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 321,
+        "id": "C1-P1-NB-321",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Thành phần của xà phòng bao gồm muối của acid béo với kim loại X và các chất phụ gia. Kim loại X có thể là"
+        ],
+        "opt_lines": [
+          "A. sodium.\t\tB. potassium.",
+          "C. calcium.\t\tD. sodium hoặc potassium."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 322,
+        "id": "C1-P1-NB-322",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Hoá chất chủ đạo trong ngành công nghiệp sản xuất xà phòng là"
+        ],
+        "opt_lines": [
+          "A. K2SO4.\tB. NaCl.\tC. Mg(NO3)2.\tD. NaOH."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 323,
+        "id": "C1-P1-NB-323",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Dung dịch nào sau đây là chất giặt rửa tự nhiên?"
+        ],
+        "opt_lines": [
+          "A. Nước quả cam.\tB. Nước quả chanh.\tC. Nước quả bồ kết.\tD. Nước quả dâu."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 324,
+        "id": "C1-P1-NB-324",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phần kị nước trong xà phòng và chất giặt rửa là"
+        ],
+        "opt_lines": [
+          "A. nhóm carboxylate.\t\tB. nhóm sulfate.",
+          "C. các gốc hydrocarbon mạch dài.\tD. nhóm sulfonate."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 325,
+        "id": "C1-P1-NB-325",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Thành phần chính của chất giặt rửa tổng hợp là"
+        ],
+        "opt_lines": [
+          "A. C15H31COONa.\t\tB. (C17H35COO)2Ca.",
+          "C. CH3[CH2]11-C6H4-SO3Na.\tD. C17H35COOK."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 326,
+        "id": "C1-P1-NB-326",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Xà phòng và chất giặt rửa có điểm chung là"
+        ],
+        "opt_lines": [
+          "A. chứa muối sodium có khả năng làm giảm sức căng bề mặt của các chất bẩn.",
+          "B. các muối được lấy từ phản ứng xà phòng hoá chất béo.",
+          "C. sản phẩm của công nghệ hoá dầu.",
+          "D. có nguồn gốc từ động vật hoặc thực vật."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 327,
+        "id": "C1-P1-TH-327",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phát biểu nào dưới đây là đúng?"
+        ],
+        "opt_lines": [
+          "A. Xà phòng, chất giặt rửa tổng hợp có cấu tạo gồm phần ưa nước và kị nước.",
+          "B. Chất giặt rửa tổng hợp là muối sodium, postassium của các acid béo.",
+          "C. Xà phòng tan trong nước tạo dung dịch có sức căng bề mặt lớn làm cho vật cần giặt rửa dễ thấm ướt.",
+          "D. Trong xà phòng và chất giặt rửa tổng hợp, gốc alkyl là phần ưa nước."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 328,
+        "id": "C1-P1-NB-328",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Khi cho vài giọt dầu ăn vào dung dịch xà phòng, lắc đều. Hiện tượng quan sát được là"
+        ],
+        "opt_lines": [
+          "A. dầu ăn không tan và nổi lên trên.\tB. dầu ăn không tan và chìm xuống dưới.",
+          "C. dầu ăn tan vào dung dịch xà phòng.\tD. dầu ăn kết tủa lắng xuống dưới đáy."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 329,
+        "id": "C1-P1-TH-329",
+        "part": "P1",
+        "level": "TH",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Hợp chất hữu cơ X có công thức cấu tạo như sau:",
+          "Phát biểu nào sau đây không đúng?"
+        ],
+        "opt_lines": [
+          "A. X có công thức phân tử là .\tB. X được sử dụng để sản xuất xà phòng.",
+          "C. X là muối sodium alkylbenzene sulfonate.\tD. X có đầu ưa nước và đuôi kị nước."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q329_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q329_img2.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 330,
+        "id": "C1-P1-NB-330",
+        "part": "P1",
+        "level": "NB",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Hỗn hợp các muối sodium của acid béo sinh ra ở trạng thái keo. Để tách muối này ra khỏi hỗn hợp, người ta thêm chất gì vào hỗn hợp?"
+        ],
+        "opt_lines": [
+          "A. tinh bột.\tB. muối ăn.\tC. nước.\tD. acid."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 331,
+        "id": "C1-P1-VD-331",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các phát biểu sau:",
+          "(a) Xà phòng được điều chế từ mỡ lợn là chất giặt rửa tự nhiên.",
+          "(b) Xà phòng có thể được sản xuất từ nguồn hydrocarbon có trong dầu mỏ.",
+          "(c) Nước Javel và baking soda là các chất giặt rửa có nguồn gốc vô cơ.",
+          "(d) Sodium laurylsulfate (CH3[CH2]10CH2OSO3Na) là chất giặt rửa tổng hợp.",
+          "Số phát biểu đúng là"
+        ],
+        "opt_lines": [
+          "A. 1.\tB. 2.\tC. 3.\tD. 4."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "(a) Sai\n(b) Đúng. Một số chất giặt rửa tổng hợp (như alkylbenzene sulfonate) được sản xuất từ hydrocarbon của dầu mỏ.(c) Sai. Nước Javel (NaClO) và baking soda (NaHCO₃) đều là chất tẩy rửa.\n(d) Đúng.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 332,
+        "id": "C1-P1-VD-332",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các phát biểu sau:",
+          "a) Xà phòng bị giảm hoặc mất tác dụng tẩy rửa khi dùng nước cứng vì tạo các muối kết tủa với cation Ca2+, Mg2+.",
+          "b) Bột giặt tổng hợp vẫn có thể sử dụng với nước cứng được vì muối sulfonate có độ tan lớn nên không bị kết tủa với ion Ca2+, Mg2+.",
+          "c) Các chế phẩm như bột giặt, kem giặt,… bao gồm các thành phần chất giặt rửa tổng hợp các phụ gia chất thơm, mất màu, còn có thể có chất tẩy trắng như sodium hypoclhorite.",
+          "d) Những chất giặt rửa tổng hợp có chứa gốc hydrocarbon phân nhánh không gây ô nhiễm môi trường vì chúng dễ bị các vi sinh vật phân hủy.",
+          "e) Chất ưa nước là những chất tan tốt trong dầu mỏ, alkane,…",
+          "Số phát biểu sai là"
+        ],
+        "opt_lines": [
+          "A. 1.\tB. 2.\tC. 3.\tD. 4."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 333,
+        "id": "C1-P1-VD-333",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một loại chất béo có chứa 80% triolein về khối lượng. Xà phòng hoá hoàn toàn 5,525 kg chất béo này trong dung dịch KOH, đun nóng thu được x bánh xà phòng. Biết rằng trong mỗi bánh xà phòng có chứa 60 gam potassium oleate. Giá trị của x là"
+        ],
+        "opt_lines": [
+          "A. 80.\tB. 70.\tC. 60.\tD. 90."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "mtriolein = 5,525.80% = 4,42 kg.\nPTHH: (C17H33COO)3C3H5 + 3KOH  3C17H33COOK + C3H5(OH)3\n884 g → 960 g\n4,42 kg → = 4800 g\nSố bánh xà phòng là bánh.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 334,
+        "id": "C1-P1-VD-334",
+        "part": "P1",
+        "level": "VD",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một loại chất béo có chứa 65% triolein về khối lượng. Để sản xuất 2,3 triệu hộp kem dưỡng da (có chứa chất dưỡng ẩm glycerol) cần dùng tối thiểu x tấn loại chất béo trên cho phản ứng với dung dịch NaOH, đun nóng. Biết rằng trong mỗi hộp kem dưỡng da có chứa 5 gam glycerol. Giá trị của x là"
+        ],
+        "opt_lines": [
+          "A. 160.\tB. 190.\tC. 180.\tD. 170."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "mglycerol = 2,3.106.5 = 11,5.106 gam = 11,5 tấn.\nPTHH: (C17H33COO)3C3H5 + 3NaOH  3C17H33COONa + C3H5(OH)3\n884 g → 92 g\ntấn ← 11,5 tấn\nmchất béo = 110,5/65% = 170 tấn",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 335,
+        "id": "C1-P2-TH-335",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các chất sau:",
+          "sodium palmitate (X) \t\tsodium laurylsulfate (Y)"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "X và Y đều là thành phẩn chính của xà phòng.",
+          "b": "X và Y đều có tính năng giặt rửa.",
+          "c": "X và Y đều có đầu ưa nước gắn với đuôi kị nước.",
+          "d": "X và Y đều tạo muối khó tan trong nước cứng."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:S - b:Đ - c:Đ - d:S",
+        "solution": "a) Sai. X là xà phòng (muối  của acid béo) còn Y là chất giặt rửa tổng hợp, bẫy sai lầm là học sinh nhầm lẫn tên gọi của hai loại hợp chất này.\nb) Đúng. Cả hai chất X và Y đều mang đặc tính lưỡng cực với đầu ưa nước và đuôi kị nước nên đều có tính năng giặt rửa bề mặt.\nc) Đúng. Cấu trúc chung của các chất hoạt động bề mặt như X và Y đều có một đầu ưa nước phân cực và một đuôi kị nước  mạch dài.\nd) Sai. Chỉ có X (xà phòng) tạo kết tủa với các ion  và , còn Y (chất giặt rửa tổng hợp) không tạo kết tủa, đây là ưu điểm lớn nhất của chất giặt rửa tổng hợp.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q335_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 336,
+        "id": "C1-P2-TH-336",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Xà phòng là hỗn hợp muối sodium và potassium của các acid béo và các chất phụ gia. Thành phần chủ yếu của xà phòng thường là muối sodium của palmitic acid hoặc stearic acid."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Công thức của sodium palmitate và sodium stearate lần lượt là: C15H31COONa và C17H33COONa.",
+          "b": "Muối của acid béo được cấu tạo gồm một phần ưa nước nối với một phần kị nước. Phần ưa nước (tan được trong nước) là nhóm carboxylate –COO–; phần kị nước (không tan trong nước) là các gốc hydrocarbon mạch dài, như C15H31–, C17H35–,…",
+          "c": "Phần kị nước (muối của acid béo) không tan trong nước và các dung môi hữu cơ.",
+          "d": "Phân tử xà phòng có khả năng xâm nhập vào vết bẩn dầu mỡ nhờ gốc ưa nước (–COO–). Kết quả là các phân tử dầu mỡ bị xà phòng cuốn khỏi vết bẩn."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:S - b:Đ - c:S - d:S",
+        "solution": "a) Sai. Công thức hóa học của  phải là , bẫy sai lầm là học sinh nhầm lẫn với gốc  ().\nb) Đúng. Muối của acid béo luôn bao gồm đầu ưa nước là nhóm   và đuôi kị nước là gốc  mạch dài.\nc) Sai. Phần kị nước tuy không hòa tan trong nước nhưng lại hòa tan rất tốt trong các dung môi hữu cơ không phân cực như dầu mỡ.\nd) Sai. Phân tử xà phòng xâm nhập vào vết bẩn dầu mỡ bằng đuôi kị nước (gốc ), bẫy sai lầm là học sinh nhầm lẫn chức năng của phần ưa nước và phần kị nước.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 337,
+        "id": "C1-P2-TH-337",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất giặt rửa tổng hợp là các chất được tổng hợp hóa học, có tác dụng giặt rửa như xà phòng nhưng không phải muối sodium, potassium của các acid béo. Những chất này thường là muối sodium alkylsulfate hoặc alkylbenzene sulfonate."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Các muối CH3[CH2]14COONa và CH3[CH2]10CH2OSO3Na là thành phần chính của chất giặt rửa tổng hợp.",
+          "b": "Thành phần chính của chất giặt rửa tổng hợp điển hình là các muối: CH3[CH2]10CH2OSO3Na hoặc CH3[CH2]11 – C6H4 – SO3Na.",
+          "c": "Saponin trong bồ hòn và quả bồ kết là chất giặt rửa tự nhiên. Khi tiếp xúc với nước, saponin tạo ra lớp bọt nhẹ tương tự xà phòng.",
+          "d": "Cấu tạo chung của xà phòng và chất giặt rửa phổ biến gồm hai phần: phần ưa nước và phần kị nước. Trong đó phần ưa nước của xà phòng và chất giặt rửa tổng hợp là các gốc hydrocarbon mạch dài (R); phần này tan nhiều trong nước."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:S - b:Đ - c:Đ - d:S",
+        "solution": "a) Sai. Hợp chất  (hay ) là thành phần chính của xà phòng, không phải của chất giặt rửa tổng hợp.\nb) Đúng. Thành phần chính của chất giặt rửa tổng hợp thường là các muối  hoặc .\nc) Đúng.  có trong quả bồ kết và bồ hòn là các chất hoạt động bề mặt có nguồn gốc tự nhiên, an toàn và thân thiện với môi trường.\nd) Sai. Phần ưa nước của xà phòng là nhóm  và của chất giặt rửa tổng hợp là nhóm  hoặc , gốc  mạch dài là phần kị nước.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 338,
+        "id": "C1-P2-VD-338",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong công nghiệp, để sản xuất xà phòng, người ta thường đun chất béo (mỡ động vật, dầu thực vật) với dung dịch kiềm đặc ở nhiệt độ cao:",
+          "(RCOO)3C3H5 + 3NaOH  3RCOONa + C3H5(OH)3"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Thành phần chủ yếu muối RCOONa là sodium palmitate và sodium stearate.",
+          "b": "Để tách hỗn hợp muối của các acid béo, người ta cho vào hỗn hợp sản phẩm dung dịch muối NaCl bảo hòa, các muối của acid béo nổi lên.",
+          "c": "Trong phòng thí nghiệm, để điều chế lượng nhỏ xà phòng, người ta có thể đựng hỗn hợp chất béo và NaOH vào bát nhôm (hoặc xoong nhôm) để làm thí nghiệm.",
+          "d": "Xà phòng còn được sản xuất từ dầu mỏ theo sơ đồ: Alkane  acid béo  muối sodium/potassium của acid béo."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:Đ - c:S - d:Đ",
+        "solution": "a) Đúng. Thành phần chủ yếu của các bánh xà phòng thông dụng là hỗn hợp muối  và .\nb) Đúng. Việc thêm dung dịch  bão hòa làm tăng khối lượng riêng của lớp chất lỏng phía dưới, khiến xà phòng bị giảm độ tan và kết tinh nổi lên trên.\nc) Sai. Tuyệt đối không sử dụng dụng cụ bằng nhôm () vì nhôm sẽ phản ứng với dung dịch  tạo thành muối  hòa tan và giải phóng khí .\nd) Đúng. Xà phòng công nghiệp có thể được tổng hợp đi từ nguồn  của dầu mỏ thông qua quá trình oxi hóa  thành acid béo rồi trung hòa bằng kiềm.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q338_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q338_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q338_img3.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 339,
+        "id": "C1-P2-TH-339",
+        "part": "P2",
+        "level": "TH",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Có hai ống nghiệm được đánh số (1) và (2). Ống nghiệm (1) chứa 3 mL nước cất và 3 giọt dung dịch calcium chloride bão hoà. Ống nghiệm (2) chứa 3 mL nước xà phòng và 3 giọt dung dịch calcium chloride bão hoà. Lắc đều các ống nghiệm."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Sau thí nghiệm: ống nghiệm (1) trong suốt, ống nghiệm (2) xuất hiện vẩn đục.",
+          "b": "Ống nghiệm (2) vẫn đục do phần ưa nước kết hợp với ion chloride (Cl–) tạo kết tủa",
+          "c": "Cũng làm thí nghiệm như trên nhưng thay nước xà phòng bằng chất giặt rửa tổng hợp thì hiện tượng xảy ra tương tự.",
+          "d": "Ưu điểm của chất giặt rữa so với xà phòng là dùng được trong nước cứng."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:S - c:S - d:Đ",
+        "solution": "a) Đúng. Nước xà phòng ở ống nghiệm (2) sẽ phản ứng với ion  sinh ra kết tủa lơ lửng làm dung dịch bị vẩn đục, trong khi ống (1) không có phản ứng nên vẫn trong suốt.\nb) Sai. Hiện tượng vẩn đục là do nhóm  kết hợp với ion  tạo thành muối không tan, hoàn toàn không liên quan đến ion  .\nc) Sai. Chất giặt rửa tổng hợp không tạo kết tủa với các ion  hay , do đó nếu thay bằng chất giặt rửa tổng hợp thì ống nghiệm vẫn giữ được độ trong suốt.\nd) Đúng. Nhờ khả năng tạo các muối hòa tan với ion kim loại kiềm thổ, chất giặt rửa tổng hợp có ưu điểm vượt trội là không bị suy giảm sức mạnh trong môi trường nước cứng.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 340,
+        "id": "C1-P2-VD-340",
+        "part": "P2",
+        "level": "VD",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tiến hành thí nghiệm phản ứng xà phòng hoá theo các bước sau đây:",
+          "Bước 1: Cho vào bát sứ khoảng 1 gam mỡ (hoặc dầu thực vật) và 2 - 2,5 mL dung dịch NaOH 40%.",
+          "Bước 2: Đun hỗn hợp sôi nhẹ và liên tục khuấy đều bằng đũa thủy tinh. Thỉnh thoảng thêm vài giọt nước cất để giữ cho thể tích của hỗn hợp không đổi.",
+          "Bước 3: Sau 8 - 10 phút, rót thêm vào hỗi hợp 4 - 5 mL dung dịch NaCl bão hòa nóng, khuấy nhẹ."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Ở bước 2, xảy ra phản ứng thủy phân chất béo, tạo thành glycerol và muối sodium của acid béo.",
+          "b": "Sau bước 3, glycerol sẽ tách lớp nổi lên trên.",
+          "c": "Sau bước 3, thấy có một lớp dày đóng bánh màu trắng nổi lên trên, lớp này là muối của acid béo hay còn gọi là xà phòng.",
+          "d": "Mục đích của việc thêm dung dịch NaCl bão hòa là làm kết tinh muối của acid béo."
+        },
+        "item_levels": {
+          "a": "TH",
+          "b": "TH",
+          "c": "TH",
+          "d": "TH"
+        },
+        "answer": "a:Đ - b:S - c:Đ - d:Đ",
+        "solution": "a) Đúng. Khi đun nóng chất béo với dung dịch , phản ứng xà phòng hóa xảy ra sinh ra  và muối  của acid béo.\nb) Sai.  là một  đa chức hòa tan rất tốt trong lớp dung dịch nước phía dưới, phần tách lớp nổi lên trên bề mặt mới là xà phòng.\nc) Đúng. Muối  của acid béo (xà phòng) có khối lượng riêng nhỏ hơn dung dịch muối  phía dưới nên sẽ đóng bánh thành lớp màu trắng nổi lên trên.\nd) Đúng. Việc thêm dung dịch  bão hòa làm tăng tỉ trọng của pha lỏng, qua đó làm giảm độ tan và ép muối của acid béo kết tinh nổi lên bề mặt.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 341,
+        "id": "C1-P3-NB-341",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Xà phòng là hỗn hợp muối sodium hoặc potassium của các acid béo (palmitic acid hoặc stearic acid) và các chất phụ gia. Số loại nguyên tố có trong muối sodium và potassium của các acid béo là bao nhiêu nguyên tố?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "5",
+        "solution": "Đáp án: 5. nguyên tố: C, H, O, Na, K.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 342,
+        "id": "C1-P3-NB-342",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất giặt rửa tổng hợp có tác dụng giặt rửa như xà phòng, thường là muối sodium alkylsulfate hoặc alkylbenzene sulfonate. Số loại nguyên tố có trong muối sodium alkylsulfate và muối sodium alkylbenzene sulfonate là bao nhiêu nguyên tố?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "5",
+        "solution": "Đáp án: 5. nguyên tố: C, H, O, Na, S.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 343,
+        "id": "C1-P3-NB-343",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các chất: CH3[CH2]14COONa, CH3[CH2]10CH2OSO3Na, CH3[CH2]16COOK,",
+          "CH3[CH2]11C6H4SO3Na, CH3COONa, (C15H31COO)3C3H5. Có bao nhiêu chất là xà phòng?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án: 2. Bao gồm: CH3 [CH2]14COONa, CH3[CH2]16COOK.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 344,
+        "id": "C1-P3-NB-344",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong số các vật phẩm tiêu dùng sau: xà phòng bánh, dầu gội đầu, nước bồ kết và baking soda (NaHCO3), có bao nhiêu vật phẩm có thành phần chất giặt rửa tự nhiên và tổng hợp?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3. xà phòng bánh, dầu gội đầu, nước bồ kết",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 345,
+        "id": "C1-P3-NB-345",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các nguyên liệu sau: (1) dầu mỏ, (2) dung dịch từ quả bồ hòn, (3) sulfuric acid, (4) potassium stearate (5) phenol, (6) sodium 4-dodecylbenzenesulfonate (CH3[CH2]11C6H4SO3Na). Có bao nhiêu nguyên liệu có tính giặt rửa?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3",
+        "solution": "Đáp án: 3. Gồm 2, 4, 6.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 346,
+        "id": "C1-P3-NB-346",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các chất giặt rửa ở cột (I) và các ưu điểm và nhược điểm ở cột (II) sau",
+          "Hãy ghép các thông tin của cột (II) với cột (I) phù hợp với thứ tự a), b), c) thành một dãy ba chữ số (Ví dụ: 132, 213,…)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "321",
+        "solution": "Đáp án: 321.",
+        "image_paths": [],
+        "tables": [
+          [
+            [
+              "Cột (I)",
+              "Cột (I)",
+              "Cột (II)",
+              "Cột (II)"
+            ],
+            [
+              "1)",
+              "Xà phòng",
+              "a)",
+              "Ưu điểm: lành tính với da, dễ phân hủy bởi vi sinh vật nên không gây ô nhiễm môi trường."
+            ],
+            [
+              "2)",
+              "Chất",
+              "b)",
+              "Ưu điểm: Dùng được với nước cứng. Giá thành thấp."
+            ],
+            [
+              "3)",
+              "Chất",
+              "c)",
+              "Ưu điểm: có thể bị phân hủy bởi vi sinh vật nên ít gây ô nhiễm môi trường."
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 347,
+        "id": "C1-P3-NB-347",
+        "part": "P3",
+        "level": "NB",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một loại chất giặt rửa tổng hợp có thành phần chính là muối sau:",
+          "Thành phần % theo khối lượng của carbon trong muối trên là a%. Xác định giá trị của a (Làm tròn kết quả đến hàng đơn vị)"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "62",
+        "solution": "Đáp án: 62.\n📝 Hướng dẫn giải:\n🔹 Cách 1 (Tư duy từng bước):\nTính khối lượng mol phân tử của muối chất giặt rửa tổng hợp:\ngam/mol.\nTính tỉ lệ phần trăm khối lượng của nguyên tố carbon trong phân tử:\n.\n🧮 Cách 2 (Bấm máy tính):",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\c1_q347_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 348,
+        "id": "C1-P3-VD-348",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một cơ sở sản xuất thủ công sử dụng 100 kg muối của acid béo để sản xuất được tối đa k bánh xà phòng thơm, mỗi bánh nặng 90 gam và có chứa 80% khối lượng muối của acid béo (còn lại là chất phụ gia và hương liệu). Giá trị của k bằng bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "1388",
+        "solution": "Đáp án: 1388.\n📝 Hướng dẫn giải:\n🔹 Cách 1 (Tư duy từng bước):\nTính khối lượng muối acid béo nguyên chất cần thiết để ép thành một bánh xà phòng:  gam  kg.\nTính tổng số bánh xà phòng sản xuất được từ nguyên liệu ban đầu:  bánh.\nVì số bánh xà phòng phải là số nguyên, xưởng sản xuất được tối đa 1388 bánh.\n🧮 Cách 2 (Bấm máy tính): Biểu thức chia tổng khối lượng nguyên liệu cho định mức nguyên liệu của một sản phẩm:",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 349,
+        "id": "C1-P3-VD-349",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Một loại chất béo có chứa 80% tristearin về khối lượng. Để sản xuất 9,2 triệu chai nước rửa tay (có chứa chất dưỡng ẩm glycerol) cần dùng tối thiểu x tấn loại chất béo trên cho phản ứng với dung dịch NaOH, đun nóng. Biết rằng trong mỗi chai nước rửa tay có chứa 6 gam glycerol. Giá trị của x là bao nhiêu? Kết quả làm tròn đến hàng đơn vị."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "668",
+        "solution": "Đáp án: 668.\n📝 Hướng dẫn giải:\n🔹 Cách 1 (Tư duy từng bước):\nTính tổng lượng glycerol cần dùng để sản xuất nước rửa tay:\ntấn.  tấn-mol.\nPhương trình hóa học của phản ứng xà phòng hóa:\nTheo phương trình hóa học, 1 mol tristearin sinh ra 1 mol glycerol:\ntấn-mol.  tấn.\nTính khối lượng chất béo thô cần thiết:  tấn  Làm tròn thành 668 tấn.\n🧮 Cách 2 (Bấm máy tính): tấn",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 350,
+        "id": "C1-P3-VD-350",
+        "part": "P3",
+        "level": "VD",
+        "raw_topic": "Xà phòng và chất giặt rửa",
+        "topic": "Xà phòng và chất giặt rửa",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Thành phần chủ yếu của xà phòng thường là muối sodium của palmitic acid hoặc stearic acid. Ngoài ra, trong xà phòng còn có chất độn (làm tăng độ cứng để đúc thành bánh), chất tẩy màu, chất diệt khuẩn và chất tạo hương,…Từ 0,6 tấn chất béo chứa 89% khối lượng tristearin (còn 11% tạp chất trơ bị loại bỏ trong quá trình nấu xà phòng) để sản xuất được m tấn xà phòng chứa 72% khối lượng sodium stearate. Từ m tấn xà phòng đó có thể sản xuất ra được bao nhiêu bánh xà phòng, biết rằng mỗi bánh xà phòng có khối lượng tịnh 90 gam và giả sử hiệu suất toàn bộ quá trình là 100%."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "8500",
+        "solution": "Đáp án: 8500.\n📝 Hướng dẫn giải:\n🔹 Cách 1 (Tư duy từng bước):\nTính lượng tristearin nguyên chất tham gia phản ứng:  gam.  mol.\nTheo phương trình hóa học xà phòng hóa, 1 mol tristearin sinh ra 3 mol sodium stearate:\n(C17H35COO)3C3H5 + 3NaOH  3C17H35COONa + C3H5(OH)3\nmol.  gam.\nTính tổng khối lượng của toàn bộ mẻ xà phòng (bao gồm cả chất độn, phụ gia):  gam.\nTính tổng số lượng bánh xà phòng thành phẩm: Số bánh bánh.\n🧮 Cách 2 (Bấm máy tính): Số bánh",
+        "image_paths": [],
+        "tables": []
       }
     ]
   },
