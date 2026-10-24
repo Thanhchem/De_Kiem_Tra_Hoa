@@ -162,5 +162,21 @@ Khi người dùng yêu cầu file PDF **trình chiếu Tivi**, AI bắt buộc 
   - Phía dưới để trống $50\% - 60\%$ màn hình cho giáo viên tương tác/chữa bài trên Tivi.
 - **Slide Bảng đáp án:** Đặt ở cuối mỗi đề thi, trình bày bảng đáp án chuẩn rõ ràng.
 
+---
+
+## 6. KHO NGÂN HÀNG CÂU HỎI & ĐỀ KIỂM TRA HÓA HỌC 12 (TỰ ĐỘNG TRA CỨU)
+
+Khi người dùng nhắc đến **"kho đề 12"**, **"ngân hàng câu hỏi Hóa 12"**, hoặc yêu cầu rút đề kiểm tra Giữa kì / Cuối kì / Thi thử Hóa 12 theo ma trận, AI tự động truy cập tại thư mục:
+- **Thư mục Kho Ngân hàng Hóa 12:** `c:\Antigravity_Thanh\San_Pham\Ngan_Hang_Hoa_12\`
+- **Cơ sở dữ liệu JSON trọn bộ 9 chương (1.362 câu hỏi đã phân loại Phần I/II/III và mức độ Biết `NB`, Hiểu `TH`, Vận dụng `VD`):**
+  `c:\Antigravity_Thanh\San_Pham\Ngan_Hang_Hoa_12\Ngan_Hang_Hoa_12_Tron_Bo_9_Chuong.json`
+- **18 file Word Ngân hàng từng chương (Chương 1 → Chương 8 & Chuyên đề học tập, gồm bản `_HocSinh.docx` và `_GiaoVien.docx`):**
+  `c:\Antigravity_Thanh\San_Pham\Ngan_Hang_Hoa_12\Ngan_Hang_Hoa_12_Chuong_*.docx`
+- **Bộ 10 Đề Kiểm tra Giữa Học kì I – Hóa 12 (Đề 01 → Đề 10, Mã đề 101 → 110, 280 câu không trùng lặp):**
+  - Lưu tại `c:\Antigravity_Thanh\San_Pham\De_Kiem_Tra_GK1_Hoa_12_De01..10_*.docx` và `c:\Antigravity_Thanh\San_Pham\Ngan_Hang_Hoa_12\`.
+  - Script rút đề và kiểm tra trùng lặp: `c:\Antigravity_Thanh\scripts\generate_5_de_gk1_hoa12.py`.
+  - Kho hình ảnh trích xuất theo câu hỏi: `c:\Antigravity_Thanh\San_Pham\images_gk1_hoa12\`.
+
+
 
 
