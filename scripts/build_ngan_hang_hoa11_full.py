@@ -311,11 +311,62 @@ def parse_cvl_doc(fpath, ch_num):
                 continue
 
             # Topic heading checks
-            if any(k in t.upper() for k in ['BÀI ', 'CHỦ ĐỀ ', 'ALKANE', 'ALKENE', 'ARENE', 'ALCOHOL', 'PHENOL', 'CARBONYL', 'CARBOXYLIC']):
-                inferred = infer_topic_by_chapter(ch_num, t)
-                if inferred != cur_topic:
-                    flush_q()
-                    cur_topic = inferred
+            t_u = t.upper()
+            topics_list = CHAPTER_DEFS[ch_num]["topics"]
+            new_topic = None
+            if len(t) < 80:
+                if ch_num == 1:
+                    if t.startswith(('BÀI 1:', 'BÀI 1.')):
+                        new_topic = topics_list[0]
+                    elif t.startswith(('BÀI 2:', 'BÀI 2.')):
+                        new_topic = topics_list[1]
+                elif ch_num == 2:
+                    if 'PHẦN ①' in t:
+                        new_topic = topics_list[0]
+                    elif 'PHẦN ②' in t:
+                        new_topic = topics_list[1]
+                    elif 'PHẦN ③' in t or 'DẠNG 4:' in t:
+                        new_topic = topics_list[2]
+                    elif 'PHẦN ④' in t or 'TÍNH CHẤT SO2' in t_u:
+                        new_topic = topics_list[3]
+                    elif 'PHẦN ⑤' in t or 'ĐIỀU CHẾ H2SO4' in t_u:
+                        new_topic = topics_list[4]
+                    elif '① NITROGEN' in t_u:
+                        new_topic = topics_list[1]
+                    elif '② SULFUR' in t_u:
+                        new_topic = topics_list[3]
+                elif ch_num == 3:
+                    if t.startswith(('BÀI 10', 'BÀI 10.')):
+                        new_topic = topics_list[0]
+                    elif t.startswith(('BÀI 11', 'BÀI 11.')):
+                        new_topic = topics_list[1]
+                    elif t.startswith(('BÀI 12', 'BÀI 12.')):
+                        new_topic = topics_list[2]
+                    elif t.startswith(('BÀI 13', 'BÀI 13.')):
+                        new_topic = topics_list[3]
+                elif ch_num == 4:
+                    if t.startswith(('BÀI 15', 'HỆ THỐNG BÀI TẬP ALKANE')):
+                        new_topic = topics_list[0]
+                    elif t.startswith(('BÀI 16', 'HỆ THỐNG BÀI TẬP ALKENE', 'HỆ THỐNG BÀI TẬP HYDROCARBON KHÔNG NO')):
+                        new_topic = topics_list[1]
+                    elif t.startswith(('BÀI 17', 'ARENE', 'HỆ THỐNG BÀI TẬP ARENE')):
+                        new_topic = topics_list[2]
+                elif ch_num == 5:
+                    if t.startswith(('BÀI 19', 'BÀI 19.')):
+                        new_topic = topics_list[0]
+                    elif t.startswith(('BÀI 20', 'BÀI 20.')):
+                        new_topic = topics_list[1]
+                    elif t.startswith(('BÀI 21', 'BÀI 21.')):
+                        new_topic = topics_list[2]
+                elif ch_num == 6:
+                    if t.startswith(('BÀI 23', 'BÀI 23.')):
+                        new_topic = topics_list[0]
+                    elif t.startswith(('BÀI 24', 'BÀI 24.')):
+                        new_topic = topics_list[1]
+
+            if new_topic and new_topic != cur_topic:
+                flush_q()
+                cur_topic = new_topic
 
             # Section heading checks
             if 'BÀI TẬP ÔN TẬP LÝ THUYẾT' in t or 'PHẦN 1.' in t or 'PHẦN I.' in t:
@@ -445,11 +496,6 @@ def parse_cvl_doc(fpath, ch_num):
                         cur_q["tables"].append(t_data)
 
     flush_q()
-
-    # Re-infer topics based on actual question content
-    for q in questions:
-        q["topic"] = infer_topic_by_chapter(ch_num, " ".join(q["stem_lines"]) + " " + " ".join(q["opt_lines"]))
-
     return questions
 
 

@@ -390,6 +390,107 @@
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
         "source_tag": "[THPT Châu Văn Liêm – 2026]",
         "stem_lines": [
+          "Nhóm chức là “………….” gây ra những phản ứng đặc trưng của phân tử hợp chất hữu cơ. Cụm từ thích hợp điền vào chỗ trống trong phát biểu trên là"
+        ],
+        "opt_lines": [
+          "A. nguyên tử.\t\tB. phân tử.",
+          "C. nhóm nguyên tử.\t\tD. nguyên tử hoặc nhóm nguyên tử."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 20,
+        "id": "H11-C3-P1-NB-020",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Nhóm chức –NH~2~ là của hợp chất nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. Carboxylic acid.\tB. Amine.\tC. Alcohol.\tD. Ketone."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 21,
+        "id": "H11-C3-P1-NB-021",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Nhóm chức –OH là của hợp chất nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. Carboxylic acid.\tB. Amine.\tC. Alcohol.\tD. Ketone."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 22,
+        "id": "H11-C3-P1-NB-022",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Nhóm chức –CHO là của hợp chất nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. Carboxylic acid.\tB. Aldehyde.\tC. Alcohol.\tD. Ketone."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 23,
+        "id": "H11-C3-P1-NB-023",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Nhóm chức –COOH là của hợp chất nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. Carboxylic acid.\tB. Aldehyde.\tC. Alcohol.\tD. Ketone."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 24,
+        "id": "H11-C3-P1-NB-024",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
           "Hợp chất C~2~H~5~Br thuộc loại hợp chất nào sau đây?"
         ],
         "opt_lines": [
@@ -403,8 +504,8 @@
         "tables": []
       },
       {
-        "q_num": 20,
-        "id": "H11-C3-P1-NB-020",
+        "q_num": 25,
+        "id": "H11-C3-P1-NB-025",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
@@ -423,8 +524,8 @@
         "tables": []
       },
       {
-        "q_num": 21,
-        "id": "H11-C3-P1-NB-021",
+        "q_num": 26,
+        "id": "H11-C3-P1-NB-026",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
@@ -443,8 +544,116 @@
         "tables": []
       },
       {
-        "q_num": 22,
-        "id": "H11-C3-P1-NB-022",
+        "q_num": 27,
+        "id": "H11-C3-P1-NB-027",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trường hợp nào dưới đây khoanh đúng nhóm chức carboxylic acid của ethanoic acid?"
+        ],
+        "opt_lines": [
+          "A. \t\tB.",
+          "C. \t\tD."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q027_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q027_img2.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q027_img3.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q027_img4.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 28,
+        "id": "H11-C3-P1-NB-028",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phổ hồng ngoại là phương pháp vật lí rất quan trọng và phổ biến để nghiên cứu về"
+        ],
+        "opt_lines": [
+          "A. thành phần nguyên tố chất hữu cơ.\tB. thành phần phân tử hợp chất hữu cơ.",
+          "C. cấu tạo hợp chất hữu cơ.\tD. cấu trúc không gian hợp chất hữu cơ."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 29,
+        "id": "H11-C3-P1-NB-029",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Nhóm chức ketone (C = O) có số sóng hấp thụ đặc trưng trên phổ hồng ngoại là"
+        ],
+        "opt_lines": [
+          "A. 3500 – 3200 cm^–^^1^.\t\tB. 3300 – 3000 cm^–^^1^.",
+          "C. 1300 – 1000 cm^–^^1^.\t\tD. 1715 – 1666 cm^–^^1^."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 30,
+        "id": "H11-C3-P1-NB-030",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phổ hồng ngoại của hợp chất hữu cơ nào sau đây có hấp thụ ở vùng 3500 – 3200 cm^–^^1^?"
+        ],
+        "opt_lines": [
+          "A. Aldehyde.\tB. Ketone.\tC. Ester.\tD. Alcohol."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 31,
+        "id": "H11-C3-P1-NB-031",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phổ hồng ngoại của hợp chất hữu cơ nào sau đây không có hấp thụ ở vùng 1750 – 1600 cm^–^^1^?"
+        ],
+        "opt_lines": [
+          "A. Alcohol.\tB. Ketone.\tC. Ester.\tD. Aldehyde."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 32,
+        "id": "H11-C3-P1-NB-032",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
@@ -462,13 +671,39 @@
         "answer": "D",
         "solution": "",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q022_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q032_img1.png"
         ],
         "tables": []
       },
       {
-        "q_num": 23,
-        "id": "H11-C3-P1-NB-023",
+        "q_num": 33,
+        "id": "H11-C3-P1-NB-033",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Xét các chất sau:",
+          "Nhận định nào sau đây không đúng?"
+        ],
+        "opt_lines": [
+          "A. Số hợp chất hữu cơ đa chức (có 2 nhóm chức giống nhau trở lên) bằng 4.",
+          "B. Số hợp chất hữu cơ tạp chức (có 2 nhóm chức khác nhau trở lên) bằng 2.",
+          "C. Số hợp chất hữu cơ thuộc loại alcohol bằng 3.",
+          "D. Số hợp chất hữu cơ thuộc loại carboxylic acid bằng 3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q033_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 34,
+        "id": "H11-C3-P1-NB-034",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
@@ -490,8 +725,8 @@
         "tables": []
       },
       {
-        "q_num": 24,
-        "id": "H11-C3-P1-NB-024",
+        "q_num": 35,
+        "id": "H11-C3-P1-NB-035",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
@@ -513,8 +748,31 @@
         "tables": []
       },
       {
-        "q_num": 25,
-        "id": "H11-C3-P1-NB-025",
+        "q_num": 36,
+        "id": "H11-C3-P1-NB-036",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Vì sao có thể dựa vào nhóm chức để phân loại các hợp chất hữu cơ?"
+        ],
+        "opt_lines": [
+          "A. Vì biết được nhóm chức thì biết được thành phần các nguyên tố hóa học có trong phân tử hợp chất hữu cơ.",
+          "B. Vì nhóm chức không bị biến đổi khi phân tử hữu cơ tham gia phản ứng.",
+          "C. Vì nhóm chức tham gia vào các phản ứng trong cơ thể sống.",
+          "D. Vì nhóm chức gây ra các phản ứng hóa học đặc trưng cho phân tử hữu cơ."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 37,
+        "id": "H11-C3-P1-NB-037",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
@@ -533,8 +791,8 @@
         "tables": []
       },
       {
-        "q_num": 26,
-        "id": "H11-C3-P1-NB-026",
+        "q_num": 38,
+        "id": "H11-C3-P1-NB-038",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
@@ -553,8 +811,8 @@
         "tables": []
       },
       {
-        "q_num": 27,
-        "id": "H11-C3-P1-NB-027",
+        "q_num": 39,
+        "id": "H11-C3-P1-NB-039",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
@@ -573,8 +831,8 @@
         "tables": []
       },
       {
-        "q_num": 28,
-        "id": "H11-C3-P1-NB-028",
+        "q_num": 40,
+        "id": "H11-C3-P1-NB-040",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
@@ -593,8 +851,8 @@
         "tables": []
       },
       {
-        "q_num": 29,
-        "id": "H11-C3-P1-NB-029",
+        "q_num": 41,
+        "id": "H11-C3-P1-NB-041",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
@@ -613,8 +871,8 @@
         "tables": []
       },
       {
-        "q_num": 30,
-        "id": "H11-C3-P1-NB-030",
+        "q_num": 42,
+        "id": "H11-C3-P1-NB-042",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
@@ -633,261 +891,6 @@
         "tables": []
       },
       {
-        "q_num": 31,
-        "id": "H11-C3-P1-NB-031",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Pha tĩnh là một chất rắn có diện tích bề mặt …(1), có khả năng ….(2) khác nhau các chất trong hỗn hợp cần tách. (1) và (2) lần lượt là::"
-        ],
-        "opt_lines": [
-          "A. bé – hấp thụ.\tB. lớn – hòa tan.\tC. lớn – hấp phụ.\tD. bé – hấp phụ."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "C",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 32,
-        "id": "H11-C3-P1-NB-032",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Cho hình ảnh về dụng cụ sau:",
-          "Dụng cụ này có thể được sử dụng để tách riêng các chất trong hỗn hợp nào dưới đây?"
-        ],
-        "opt_lines": [
-          "A. Nước và rượu.\t\tB. Nước và muối ăn.",
-          "C. Xăng và dầu ăn.\t\tD. Dầu ăn và nước."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "D",
-        "solution": "",
-        "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q032_img1.png"
-        ],
-        "tables": []
-      },
-      {
-        "q_num": 33,
-        "id": "H11-C3-P1-NB-033",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Phương pháp sắc kĩ cột có thể được dùng để tách các hợp chất estriol, estradiol và estrone. Sau một thời gian có sự tách các chất như trong sơ đồ sau:",
-          "Thứ tự giảm dần khả năng hấp phụ bởi pha tĩnh là"
-        ],
-        "opt_lines": [
-          "A. Esteadiol > Estriol > Estrone.\t\tB. Estriol > Estrone > Esteadiol.",
-          "C. Estriol > Esteadiol > Estrone.\t\tD. Estrone > Esteadiol > Estriol."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "D",
-        "solution": "",
-        "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q033_img1.png"
-        ],
-        "tables": []
-      },
-      {
-        "q_num": 34,
-        "id": "H11-C3-P1-NB-034",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Công thức tổng quát cho ta biết"
-        ],
-        "opt_lines": [
-          "A. cách thức liên kết giữa các nguyên tử trong phân tử hợp chất hữu cơ.",
-          "B. tỉ lệ số nguyên tử của các nguyên tố trong hợp chất hữu cơ.",
-          "C. thành phần nguyên tố trong phân tử hợp chất hữu cơ.",
-          "D. thành phần nguyên tố và số lượng nguyên tử mỗi nguyên tố trong hợp chất hữu cơ."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "C",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 35,
-        "id": "H11-C3-P1-NB-035",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Công thức đơn giản nhất cho ta biết"
-        ],
-        "opt_lines": [
-          "A. cách thức liên kết giữa các nguyên tử trong phân tử hợp chất hữu cơ.",
-          "B. tỉ lệ số nguyên tử của các nguyên tố trong hợp chất hữu cơ.",
-          "C. thành phần nguyên tố trong phân tử hợp chất hữu cơ.",
-          "D. thành phần nguyên tố và số lượng nguyên tử mỗi nguyên tố trong hợp chất hữu cơ."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "B",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 36,
-        "id": "H11-C3-P1-NB-036",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Công thức đơn giản nhất của hợp chất hữu cơ ethane–1,2–diol (C~2~H~6~O~2~) là"
-        ],
-        "opt_lines": [
-          "A. C~2~H~6~O~2~.\tB. CH~3~O.\tC. CH~3~.\tD. CH~4~O."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "B",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 37,
-        "id": "H11-C3-P1-NB-037",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Công thức đơn giản nhất CH là của hợp chất hữu cơ nào sau đây?"
-        ],
-        "opt_lines": [
-          "A. C~6~H~6~.\tB. C~4~H~8~.\tC. C~4~H~6~.\tD. C~5~H~10~."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "A",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 38,
-        "id": "H11-C3-P1-NB-038",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Tỉ lệ tối giản về số nguyên tử C, H, O trong phân tử C~2~H~4~O~2~lần lượt là:"
-        ],
-        "opt_lines": [
-          "A. 2: 4: 2.\tB. 1: 2: 1.\tC. 2: 4: 1.\tD. 1: 2: 2."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "B",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 39,
-        "id": "H11-C3-P1-NB-039",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Chất nào sau đây có cùng công thức đơn giản với C~2~H~2~?"
-        ],
-        "opt_lines": [
-          "A. CH~4~.\tB. C~6~H~6~.\tC. C~2~H~4~.\tD. C~3~H~6~."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "B",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 40,
-        "id": "H11-C3-P1-NB-040",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Chất nào sau đây là đồng đẳng của CH ≡ CH?"
-        ],
-        "opt_lines": [
-          "A. CH~2~=C=CH~2~.\tB. CH~2~=CH‒CH=CH~2~.\tC. CH≡CCH~3~. \tD. CH~2~=CH~2~"
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "C",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 41,
-        "id": "H11-C3-P1-NB-041",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Hợp chất nào sau đây là đồng đẳng của acetic acid CH~3~COOH?"
-        ],
-        "opt_lines": [
-          "A. HCOOH.\t\tB. CH~3~COOCH~3~.",
-          "C. HOCH~2~COOH.\t\tD. HOOCCOOH."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "A",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 42,
-        "id": "H11-C3-P1-NB-042",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Cặp chất nào sau đây thuộc cùng dãy đồng đẳng?"
-        ],
-        "opt_lines": [
-          "A. CH~4~ và C~2~H~4~. \tB. CH~4~ và C~2~H~6~. \tC. C~2~H~4~ và C~2~H~6~. \tD. C~2~H~2~ và C~4~H~4~."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "B",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
         "q_num": 43,
         "id": "H11-C3-P1-NB-043",
         "part": "P1",
@@ -895,15 +898,15 @@
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
         "source_tag": "[THPT Châu Văn Liêm – 2026]",
         "stem_lines": [
-          "Trong các dãy chất sau đây, dãy nào gồm các chất là đồng đẳng của nhau?"
+          "Trên phổ hồng ngoại của hợp chất hữu cơ X có các hấp thụ đặc trưng ở 2817 cm^–^^1^ và 1731 cm^–^^1^. Chất X là chất nào trong các chất dưới đây?"
         ],
         "opt_lines": [
-          "A. CH~3~CH~2~OH và CH~3~CH~2~CH~2~OH.\tB. CH~3~OCH~3~và CH~3~CH~2~OH.",
-          "C. CH~4~, C~2~H~6~ và C~4~H~8~.\t\tD. CH~4~ và C~3~H~6~."
+          "A. CH~3~COCH~2~CH~3~.\t\tB. CH~2~=CHCH~2~CH~2~OH.",
+          "C. CH~3~CH~2~CH~2~CHO.\t\tD. CH~3~CH=CHCH~2~OH."
         ],
         "p2_items": {},
         "item_levels": {},
-        "answer": "A",
+        "answer": "C",
         "solution": "",
         "image_paths": [],
         "tables": []
@@ -916,24 +919,17 @@
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
         "source_tag": "[THPT Châu Văn Liêm – 2026]",
         "stem_lines": [
-          "Hợp chất hữu cơ nào sau đây có mạch carbon phân nhánh?"
+          "Trên phổ hồng ngoại của hợp chất hữu cơ X chỉ có hấp thụ đặc trưng ở 1715 cm^–^^1^. Chất X có thể là chất nào trong các chất dưới đây?"
         ],
-        "opt_lines": [],
+        "opt_lines": [
+          "A. CH~3~COCH~3~.\tB. CH~3~CH~2~CH~3~.\tC. CH~3~CH~2~COOH.\tD. C~6~H~5~CH~2~OH."
+        ],
         "p2_items": {},
         "item_levels": {},
-        "answer": "",
+        "answer": "A",
         "solution": "",
         "image_paths": [],
-        "tables": [
-          [
-            [
-              "A.",
-              "B.",
-              "C.",
-              "D."
-            ]
-          ]
-        ]
+        "tables": []
       },
       {
         "q_num": 45,
@@ -943,19 +939,18 @@
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
         "source_tag": "[THPT Châu Văn Liêm – 2026]",
         "stem_lines": [
-          "Cho các hợp chất hữu cơ sau:",
-          "(1)\t            (2)\t        (3)\t         (4)",
-          "(5)\t            (6)\t        (7)\t         (8)",
-          "Số hợp chất hữu cơ có mạch carbon phân nhánh là"
+          "Dựa vào phổ IR của hợp chất X có công thức CH~3~COCH~3~ dưới đây, hãy chỉ ra peak nào giúp dự đoán X có nhóm C=O?"
         ],
         "opt_lines": [
-          "A. 3. \tB. 4. \tC. 5. \tD. 6."
+          "A. (1). \tB. (3). \tC. (2). \tD. (4)."
         ],
         "p2_items": {},
         "item_levels": {},
-        "answer": "B",
+        "answer": "A",
         "solution": "",
-        "image_paths": [],
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q045_img1.png"
+        ],
         "tables": []
       },
       {
@@ -966,17 +961,18 @@
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
         "source_tag": "[THPT Châu Văn Liêm – 2026]",
         "stem_lines": [
-          "Cặp chất nào sau đây là đồng đẳng của nhau?"
+          "Dựa vào phổ IR của hợp chất X có công thức CH~3~CH(OH)CH~3~ dưới đây, hãy chỉ ra peak nào giúp dự đoán X có nhóm –OH?"
         ],
         "opt_lines": [
-          "A. CH~3~OH, CH~3~OCH~3~.\t\tB. CH~3~OCH~3~, CH~3~CHO.",
-          "C. HCHO, CH~3~CHO.\t\tD. CH~3~CH~2~OH, C~3~H~5~(OH)~3.~"
+          "A. (1). \tB. (2). \tC. (3). \tD. (4)."
         ],
         "p2_items": {},
         "item_levels": {},
-        "answer": "C",
+        "answer": "A",
         "solution": "",
-        "image_paths": [],
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q046_img1.png"
+        ],
         "tables": []
       },
       {
@@ -987,19 +983,19 @@
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
         "source_tag": "[THPT Châu Văn Liêm – 2026]",
         "stem_lines": [
-          "Cặp chất nào dưới đây là đồng đẳng của nhau?"
+          "Cho sơ đồ phổ hồng ngoại IR của chất X như sau:",
+          "X là chất nào sau đây?"
         ],
         "opt_lines": [
-          "A. CH₃CH=CH₂ và CH₃-CH₂-CH₂-CH₃.",
-          "B. CH₂=CH-CH=CH₂ và CH₃CºCH.",
-          "C. CH₃CH₂CH₂CH₃ và (CH₃)₂CHCH₃.",
-          "D. CH₂=CH-CH=CH₂ và CH₂=C(CH₃)-CH=CH₂."
+          "A. CH~3~CH~2~OH.\tB. CH~3~COOH.\tC. CH~3~CHO.\tD. CH~3~COOCH~3~."
         ],
         "p2_items": {},
         "item_levels": {},
-        "answer": "D",
+        "answer": "A",
         "solution": "",
-        "image_paths": [],
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q047_img1.png"
+        ],
         "tables": []
       },
       {
@@ -1010,207 +1006,25 @@
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
         "source_tag": "[THPT Châu Văn Liêm – 2026]",
         "stem_lines": [
-          "Cặp chất nào dưới đây là đồng đẳng của nhau?"
+          "Cho sơ đồ phổ khối IR của chất X như sau:",
+          "X là chất nào sau đây?"
         ],
         "opt_lines": [
-          "A. CH₃OH và CH₃CH₂CH₂CH₂OH.\tB. CH₃CH₂OH và HOCH₂CH₂OH.",
-          "C. CH₃CH₂CHO và CH₃COCH₂CH₃.\tD. CH₃COOH và CH₃COOCH₃."
+          "A. CH~3~CH~2~CH~2~OH.\t\tB. CH~3~CH~2~CH~2~CH~2~CH~2~COOH.",
+          "C. CH~3~CH~2~CH~2~CHO.\t\tD. CH~3~CH~2~CH~2~COOCH~2~CH~2~CH~3~."
         ],
         "p2_items": {},
         "item_levels": {},
-        "answer": "A",
+        "answer": "B",
         "solution": "",
-        "image_paths": [],
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q048_img1.png"
+        ],
         "tables": []
       },
       {
         "q_num": 49,
         "id": "H11-C3-P1-NB-049",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Cho các công thức khai triển của một số dẫn xuất halogen:",
-          "Những công thức nào sau đây biểu diễn cùng một chất?"
-        ],
-        "opt_lines": [
-          "A. X, Y, Z.\tB. X, T, U.\tC. X, Y, U.\tD. Y, T, U."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "C",
-        "solution": "",
-        "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q049_img1.png"
-        ],
-        "tables": []
-      },
-      {
-        "q_num": 50,
-        "id": "H11-C3-P1-NB-050",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Trong các dãy chất sau đây, có mấy dãy gồm các chất là đồng đẳng của nhau?",
-          "(1) C~2~H~6~, CH~4~, C~4~H~10~\t\t(2) C~2~H~5~OH, CH~3~CH~2~CH~2~OH",
-          "(3) CH~3~OCH~3~, CH~3~CHO\t\t(4) CH~3~COOH, HCOOH, C~2~H~3~COOH"
-        ],
-        "opt_lines": [
-          "A. 1.\tB. 4. \tC. 2. \tD. 3."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "C",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 51,
-        "id": "H11-C3-P1-NB-051",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Theo quy ước, một liên kết đôi hoặc một vòng tương ứng với độ bất bão hòa là"
-        ],
-        "opt_lines": [
-          "A. k = 0.\tB. k = 1.\tC. k = 2.\tD. k = 3."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "B",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 52,
-        "id": "H11-C3-P1-NB-052",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Theo quy ước, một liên kết ba tương ứng với độ bất bão hòa là"
-        ],
-        "opt_lines": [
-          "A. k = 0.\tB. k = 1.\tC. k = 2.\tD. k = 3."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "C",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 53,
-        "id": "H11-C3-P1-NB-053",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Độ bất bão hòa của hợp chất có công thức C~5~H~12~ là"
-        ],
-        "opt_lines": [
-          "A. k = 0.\tB. k = 1.\tC. k = 2.\tD. k = 3."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "A",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 54,
-        "id": "H11-C3-P1-NB-054",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Độ bất bão hòa của hợp chất có công thức C~3~H~4~O~2~ là"
-        ],
-        "opt_lines": [
-          "A. k = 1.\tB. k = 2.\tC. k = 3.\tD. k = 4."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "B",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 55,
-        "id": "H11-C3-P1-NB-055",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Độ bất bão hòa của hợp chất có công thức CH~3~CHO là"
-        ],
-        "opt_lines": [
-          "A. k = 1.\tB. k = 2.\tC. k = 3.\tD. k = 4."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "A",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 56,
-        "id": "H11-C3-P1-NB-056",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Công thức tổng quát của hydrocarbon là"
-        ],
-        "opt_lines": [
-          "A. C~n~H~2n + 2~~–~~2k~.\tB. C~n~H~2n~~–~~2k~.\tC. C~n~H~2n + 2 +2k~.\tD. C~n~H~2n + 2k~."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "A",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 57,
-        "id": "H11-C3-P1-NB-057",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Công thức dãy đồng đẳng của hydrocarbon không no, chứa một liên kết đôi, mạch hở là"
-        ],
-        "opt_lines": [
-          "A. C~n~H~2n+2.~\tB. C~n~H~2n~~–~~2.~\tC. C~n~H~2n~.\tD. C~n~H~2n~~–~~4~."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "C",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 58,
-        "id": "H11-C3-P1-NB-058",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
@@ -1229,8 +1043,8 @@
         "tables": []
       },
       {
-        "q_num": 59,
-        "id": "H11-C3-P1-TH-059",
+        "q_num": 50,
+        "id": "H11-C3-P1-TH-050",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
@@ -1252,8 +1066,8 @@
         "tables": []
       },
       {
-        "q_num": 60,
-        "id": "H11-C3-P1-TH-060",
+        "q_num": 51,
+        "id": "H11-C3-P1-TH-051",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
@@ -1276,8 +1090,8 @@
         "tables": []
       },
       {
-        "q_num": 61,
-        "id": "H11-C3-P1-TH-061",
+        "q_num": 52,
+        "id": "H11-C3-P1-TH-052",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
@@ -1296,8 +1110,29 @@
         "tables": []
       },
       {
-        "q_num": 62,
-        "id": "H11-C3-P1-NB-062",
+        "q_num": 53,
+        "id": "H11-C3-P1-VD-053",
+        "part": "P1",
+        "level": "VD",
+        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Dựa vào các số sóng hấp thụ đặc trưng trên phổ IR ta có thể dự đoán được?"
+        ],
+        "opt_lines": [
+          "A. thành phần cấu tạo nên hợp chất hữu cơ.\tB. màu sắc của các hợp chất hữu cơ.",
+          "C. nhóm chức trong phân tử hợp chất hữu cơ.\tD. tính chất của các hợp chất hữu cơ."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 54,
+        "id": "H11-C3-P1-NB-054",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1317,8 +1152,8 @@
         "tables": []
       },
       {
-        "q_num": 63,
-        "id": "H11-C3-P1-NB-063",
+        "q_num": 55,
+        "id": "H11-C3-P1-NB-055",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1337,8 +1172,8 @@
         "tables": []
       },
       {
-        "q_num": 64,
-        "id": "H11-C3-P1-NB-064",
+        "q_num": 56,
+        "id": "H11-C3-P1-NB-056",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1358,8 +1193,8 @@
         "tables": []
       },
       {
-        "q_num": 65,
-        "id": "H11-C3-P1-NB-065",
+        "q_num": 57,
+        "id": "H11-C3-P1-NB-057",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1379,8 +1214,8 @@
         "tables": []
       },
       {
-        "q_num": 66,
-        "id": "H11-C3-P1-NB-066",
+        "q_num": 58,
+        "id": "H11-C3-P1-NB-058",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1400,8 +1235,8 @@
         "tables": []
       },
       {
-        "q_num": 67,
-        "id": "H11-C3-P1-NB-067",
+        "q_num": 59,
+        "id": "H11-C3-P1-NB-059",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1420,8 +1255,28 @@
         "tables": []
       },
       {
-        "q_num": 68,
-        "id": "H11-C3-P1-NB-068",
+        "q_num": 60,
+        "id": "H11-C3-P1-NB-060",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Pha tĩnh là một chất rắn có diện tích bề mặt …(1), có khả năng ….(2) khác nhau các chất trong hỗn hợp cần tách. (1) và (2) lần lượt là::"
+        ],
+        "opt_lines": [
+          "A. bé – hấp thụ.\tB. lớn – hòa tan.\tC. lớn – hấp phụ.\tD. bé – hấp phụ."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 61,
+        "id": "H11-C3-P1-NB-061",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1440,8 +1295,8 @@
         "tables": []
       },
       {
-        "q_num": 69,
-        "id": "H11-C3-P1-NB-069",
+        "q_num": 62,
+        "id": "H11-C3-P1-NB-062",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1461,8 +1316,8 @@
         "tables": []
       },
       {
-        "q_num": 70,
-        "id": "H11-C3-P1-NB-070",
+        "q_num": 63,
+        "id": "H11-C3-P1-NB-063",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1479,13 +1334,37 @@
         "answer": "",
         "solution": "",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q070_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q063_img1.png"
         ],
         "tables": []
       },
       {
-        "q_num": 71,
-        "id": "H11-C3-P1-NB-071",
+        "q_num": 64,
+        "id": "H11-C3-P1-NB-064",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho hình ảnh về dụng cụ sau:",
+          "Dụng cụ này có thể được sử dụng để tách riêng các chất trong hỗn hợp nào dưới đây?"
+        ],
+        "opt_lines": [
+          "A. Nước và rượu.\t\tB. Nước và muối ăn.",
+          "C. Xăng và dầu ăn.\t\tD. Dầu ăn và nước."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q064_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 65,
+        "id": "H11-C3-P1-NB-065",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1505,8 +1384,8 @@
         "tables": []
       },
       {
-        "q_num": 72,
-        "id": "H11-C3-P1-NB-072",
+        "q_num": 66,
+        "id": "H11-C3-P1-NB-066",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1526,8 +1405,8 @@
         "tables": []
       },
       {
-        "q_num": 73,
-        "id": "H11-C3-P1-NB-073",
+        "q_num": 67,
+        "id": "H11-C3-P1-NB-067",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1547,8 +1426,8 @@
         "tables": []
       },
       {
-        "q_num": 74,
-        "id": "H11-C3-P1-NB-074",
+        "q_num": 68,
+        "id": "H11-C3-P1-NB-068",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1570,8 +1449,8 @@
         "tables": []
       },
       {
-        "q_num": 75,
-        "id": "H11-C3-P1-NB-075",
+        "q_num": 69,
+        "id": "H11-C3-P1-NB-069",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1591,8 +1470,8 @@
         "tables": []
       },
       {
-        "q_num": 76,
-        "id": "H11-C3-P1-NB-076",
+        "q_num": 70,
+        "id": "H11-C3-P1-NB-070",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1612,8 +1491,29 @@
         "tables": []
       },
       {
-        "q_num": 77,
-        "id": "H11-C3-P1-NB-077",
+        "q_num": 71,
+        "id": "H11-C3-P1-NB-071",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Ngâm hoa quả làm siro thuộc loại phản ứng tách biệt và tinh chế nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. Phương pháp chưng cất.\tB. Phương pháp chiết",
+          "C. Phương pháp kết tinh.\t\tD. Sắc kí cột."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 72,
+        "id": "H11-C3-P1-NB-072",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1633,8 +1533,8 @@
         "tables": []
       },
       {
-        "q_num": 78,
-        "id": "H11-C3-P1-NB-078",
+        "q_num": 73,
+        "id": "H11-C3-P1-NB-073",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1653,8 +1553,8 @@
         "tables": []
       },
       {
-        "q_num": 79,
-        "id": "H11-C3-P1-NB-079",
+        "q_num": 74,
+        "id": "H11-C3-P1-NB-074",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1674,8 +1574,58 @@
         "tables": []
       },
       {
-        "q_num": 80,
-        "id": "H11-C3-P1-NB-080",
+        "q_num": 75,
+        "id": "H11-C3-P1-NB-075",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các phát biểu sau:",
+          "(a) Ngâm hoa quả làm siro thuộc phương pháp chiết.",
+          "(b) Làm đường từ mía thuộc phương pháp chưng cất.",
+          "(c) Nấu rượu uống thuộc phương pháp kết tinh.",
+          "(d) Phân tích thổ nhưỡng thuộc phương pháp chiết lỏng – rắn.",
+          "(e) Để phân tích dư lượng thuốc bảo vệ thực vật trong nông sản dùng phương pháp chưng cất.",
+          "Số phát biểu đúng là"
+        ],
+        "opt_lines": [
+          "A. 2.\tB. 3.\tC. 4.\tD. 1."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 76,
+        "id": "H11-C3-P1-NB-076",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phương pháp sắc kĩ cột có thể được dùng để tách các hợp chất estriol, estradiol và estrone. Sau một thời gian có sự tách các chất như trong sơ đồ sau:",
+          "Thứ tự giảm dần khả năng hấp phụ bởi pha tĩnh là"
+        ],
+        "opt_lines": [
+          "A. Esteadiol > Estriol > Estrone.\t\tB. Estriol > Estrone > Esteadiol.",
+          "C. Estriol > Esteadiol > Estrone.\t\tD. Estrone > Esteadiol > Estriol."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q076_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 77,
+        "id": "H11-C3-P1-NB-077",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1694,8 +1644,8 @@
         "tables": []
       },
       {
-        "q_num": 81,
-        "id": "H11-C3-P1-TH-081",
+        "q_num": 78,
+        "id": "H11-C3-P1-TH-078",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1715,8 +1665,8 @@
         "tables": []
       },
       {
-        "q_num": 82,
-        "id": "H11-C3-P1-TH-082",
+        "q_num": 79,
+        "id": "H11-C3-P1-TH-079",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1736,8 +1686,8 @@
         "tables": []
       },
       {
-        "q_num": 83,
-        "id": "H11-C3-P1-TH-083",
+        "q_num": 80,
+        "id": "H11-C3-P1-TH-080",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1757,8 +1707,8 @@
         "tables": []
       },
       {
-        "q_num": 84,
-        "id": "H11-C3-P1-TH-084",
+        "q_num": 81,
+        "id": "H11-C3-P1-TH-081",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1777,8 +1727,8 @@
         "tables": []
       },
       {
-        "q_num": 85,
-        "id": "H11-C3-P1-TH-085",
+        "q_num": 82,
+        "id": "H11-C3-P1-TH-082",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1800,8 +1750,8 @@
         "tables": []
       },
       {
-        "q_num": 86,
-        "id": "H11-C3-P1-TH-086",
+        "q_num": 83,
+        "id": "H11-C3-P1-TH-083",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1820,8 +1770,8 @@
         "tables": []
       },
       {
-        "q_num": 87,
-        "id": "H11-C3-P1-TH-087",
+        "q_num": 84,
+        "id": "H11-C3-P1-TH-084",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1840,8 +1790,8 @@
         "tables": []
       },
       {
-        "q_num": 88,
-        "id": "H11-C3-P1-TH-088",
+        "q_num": 85,
+        "id": "H11-C3-P1-TH-085",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1861,8 +1811,8 @@
         "tables": []
       },
       {
-        "q_num": 89,
-        "id": "H11-C3-P1-TH-089",
+        "q_num": 86,
+        "id": "H11-C3-P1-TH-086",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1882,8 +1832,8 @@
         "tables": []
       },
       {
-        "q_num": 90,
-        "id": "H11-C3-P1-TH-090",
+        "q_num": 87,
+        "id": "H11-C3-P1-TH-087",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1902,8 +1852,8 @@
         "tables": []
       },
       {
-        "q_num": 91,
-        "id": "H11-C3-P1-TH-091",
+        "q_num": 88,
+        "id": "H11-C3-P1-TH-088",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1920,13 +1870,13 @@
         "answer": "B",
         "solution": "",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q091_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q088_img1.png"
         ],
         "tables": []
       },
       {
-        "q_num": 92,
-        "id": "H11-C3-P1-TH-092",
+        "q_num": 89,
+        "id": "H11-C3-P1-TH-089",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1946,8 +1896,8 @@
         "tables": []
       },
       {
-        "q_num": 93,
-        "id": "H11-C3-P1-TH-093",
+        "q_num": 90,
+        "id": "H11-C3-P1-TH-090",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1967,8 +1917,8 @@
         "tables": []
       },
       {
-        "q_num": 94,
-        "id": "H11-C3-P1-TH-094",
+        "q_num": 91,
+        "id": "H11-C3-P1-TH-091",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -1992,8 +1942,8 @@
         "tables": []
       },
       {
-        "q_num": 95,
-        "id": "H11-C3-P1-TH-095",
+        "q_num": 92,
+        "id": "H11-C3-P1-TH-092",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -2012,8 +1962,8 @@
         "tables": []
       },
       {
-        "q_num": 96,
-        "id": "H11-C3-P1-TH-096",
+        "q_num": 93,
+        "id": "H11-C3-P1-TH-093",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -2032,8 +1982,8 @@
         "tables": []
       },
       {
-        "q_num": 97,
-        "id": "H11-C3-P1-TH-097",
+        "q_num": 94,
+        "id": "H11-C3-P1-TH-094",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -2052,8 +2002,8 @@
         "tables": []
       },
       {
-        "q_num": 98,
-        "id": "H11-C3-P1-TH-098",
+        "q_num": 95,
+        "id": "H11-C3-P1-TH-095",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -2072,8 +2022,8 @@
         "tables": []
       },
       {
-        "q_num": 99,
-        "id": "H11-C3-P1-TH-099",
+        "q_num": 96,
+        "id": "H11-C3-P1-TH-096",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -2093,8 +2043,8 @@
         "tables": []
       },
       {
-        "q_num": 100,
-        "id": "H11-C3-P1-TH-100",
+        "q_num": 97,
+        "id": "H11-C3-P1-TH-097",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -2111,13 +2061,13 @@
         "answer": "",
         "solution": "",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q100_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q097_img1.png"
         ],
         "tables": []
       },
       {
-        "q_num": 101,
-        "id": "H11-C3-P1-TH-101",
+        "q_num": 98,
+        "id": "H11-C3-P1-TH-098",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -2136,8 +2086,8 @@
         "tables": []
       },
       {
-        "q_num": 102,
-        "id": "H11-C3-P1-TH-102",
+        "q_num": 99,
+        "id": "H11-C3-P1-TH-099",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -2156,8 +2106,8 @@
         "tables": []
       },
       {
-        "q_num": 103,
-        "id": "H11-C3-P1-TH-103",
+        "q_num": 100,
+        "id": "H11-C3-P1-TH-100",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -2176,8 +2126,8 @@
         "tables": []
       },
       {
-        "q_num": 104,
-        "id": "H11-C3-P1-TH-104",
+        "q_num": 101,
+        "id": "H11-C3-P1-TH-101",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -2196,8 +2146,8 @@
         "tables": []
       },
       {
-        "q_num": 105,
-        "id": "H11-C3-P1-TH-105",
+        "q_num": 102,
+        "id": "H11-C3-P1-TH-102",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -2216,8 +2166,8 @@
         "tables": []
       },
       {
-        "q_num": 106,
-        "id": "H11-C3-P1-TH-106",
+        "q_num": 103,
+        "id": "H11-C3-P1-TH-103",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -2236,8 +2186,8 @@
         "tables": []
       },
       {
-        "q_num": 107,
-        "id": "H11-C3-P1-TH-107",
+        "q_num": 104,
+        "id": "H11-C3-P1-TH-104",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -2258,8 +2208,8 @@
         "tables": []
       },
       {
-        "q_num": 108,
-        "id": "H11-C3-P1-TH-108",
+        "q_num": 105,
+        "id": "H11-C3-P1-TH-105",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -2280,8 +2230,8 @@
         "tables": []
       },
       {
-        "q_num": 109,
-        "id": "H11-C3-P1-TH-109",
+        "q_num": 106,
+        "id": "H11-C3-P1-TH-106",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -2303,8 +2253,8 @@
         "tables": []
       },
       {
-        "q_num": 110,
-        "id": "H11-C3-P1-TH-110",
+        "q_num": 107,
+        "id": "H11-C3-P1-TH-107",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -2326,8 +2276,8 @@
         "tables": []
       },
       {
-        "q_num": 111,
-        "id": "H11-C3-P1-VD-111",
+        "q_num": 108,
+        "id": "H11-C3-P1-VD-108",
         "part": "P1",
         "level": "VD",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -2346,8 +2296,8 @@
         "tables": []
       },
       {
-        "q_num": 112,
-        "id": "H11-C3-P1-VD-112",
+        "q_num": 109,
+        "id": "H11-C3-P1-VD-109",
         "part": "P1",
         "level": "VD",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -2367,8 +2317,29 @@
         "tables": []
       },
       {
-        "q_num": 113,
-        "id": "H11-C3-P1-VD-113",
+        "q_num": 110,
+        "id": "H11-C3-P1-VD-110",
+        "part": "P1",
+        "level": "VD",
+        "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Việc tách các chất ra khỏi nhau bằng phương pháp sắc kí dựa trên đặc tính nào sau đây của chất?"
+        ],
+        "opt_lines": [
+          "A. Phân tử khối.\t\tB. Nhiệt độ sôi.",
+          "C. Khả năng hấp phụ và hòa tan.\tD. Nhiệt độ nóng chảy."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 111,
+        "id": "H11-C3-P1-VD-111",
         "part": "P1",
         "level": "VD",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -2390,8 +2361,54 @@
         "answer": "",
         "solution": "(a) Đúng.\n(b) Sai, là sự bay hơi\n(c) Sai, là sự ngưng tụ\n(d) Sai, Vì nước làm lạnh được dẫn vào ống sinh hàn ở cửa (1) và thoát ra ở cửa (2).",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q113_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q111_img1.png"
         ],
+        "tables": []
+      },
+      {
+        "q_num": 112,
+        "id": "H11-C3-P1-NB-112",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Công thức tổng quát cho ta biết"
+        ],
+        "opt_lines": [
+          "A. cách thức liên kết giữa các nguyên tử trong phân tử hợp chất hữu cơ.",
+          "B. tỉ lệ số nguyên tử của các nguyên tố trong hợp chất hữu cơ.",
+          "C. thành phần nguyên tố trong phân tử hợp chất hữu cơ.",
+          "D. thành phần nguyên tố và số lượng nguyên tử mỗi nguyên tố trong hợp chất hữu cơ."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 113,
+        "id": "H11-C3-P1-NB-113",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Công thức đơn giản nhất cho ta biết"
+        ],
+        "opt_lines": [
+          "A. cách thức liên kết giữa các nguyên tử trong phân tử hợp chất hữu cơ.",
+          "B. tỉ lệ số nguyên tử của các nguyên tố trong hợp chất hữu cơ.",
+          "C. thành phần nguyên tố trong phân tử hợp chất hữu cơ.",
+          "D. thành phần nguyên tố và số lượng nguyên tử mỗi nguyên tố trong hợp chất hữu cơ."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
         "tables": []
       },
       {
@@ -2425,6 +2442,26 @@
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
         "source_tag": "[THPT Châu Văn Liêm – 2026]",
         "stem_lines": [
+          "Công thức đơn giản nhất của hợp chất hữu cơ ethane–1,2–diol (C~2~H~6~O~2~) là"
+        ],
+        "opt_lines": [
+          "A. C~2~H~6~O~2~.\tB. CH~3~O.\tC. CH~3~.\tD. CH~4~O."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 116,
+        "id": "H11-C3-P1-NB-116",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
           "Vitamin A (retinol) có công thức phân tử C~20~H~30~O, công thức đơn giản nhất của vitamin A là"
         ],
         "opt_lines": [
@@ -2438,8 +2475,8 @@
         "tables": []
       },
       {
-        "q_num": 116,
-        "id": "H11-C3-P1-NB-116",
+        "q_num": 117,
+        "id": "H11-C3-P1-NB-117",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
@@ -2458,8 +2495,8 @@
         "tables": []
       },
       {
-        "q_num": 117,
-        "id": "H11-C3-P1-NB-117",
+        "q_num": 118,
+        "id": "H11-C3-P1-NB-118",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
@@ -2478,8 +2515,28 @@
         "tables": []
       },
       {
-        "q_num": 118,
-        "id": "H11-C3-P1-NB-118",
+        "q_num": 119,
+        "id": "H11-C3-P1-NB-119",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Công thức đơn giản nhất CH là của hợp chất hữu cơ nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. C~6~H~6~.\tB. C~4~H~8~.\tC. C~4~H~6~.\tD. C~5~H~10~."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 120,
+        "id": "H11-C3-P1-NB-120",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
@@ -2498,8 +2555,28 @@
         "tables": []
       },
       {
-        "q_num": 119,
-        "id": "H11-C3-P1-NB-119",
+        "q_num": 121,
+        "id": "H11-C3-P1-NB-121",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Tỉ lệ tối giản về số nguyên tử C, H, O trong phân tử C~2~H~4~O~2~lần lượt là:"
+        ],
+        "opt_lines": [
+          "A. 2: 4: 2.\tB. 1: 2: 1.\tC. 2: 4: 1.\tD. 1: 2: 2."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 122,
+        "id": "H11-C3-P1-NB-122",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
@@ -2518,8 +2595,8 @@
         "tables": []
       },
       {
-        "q_num": 120,
-        "id": "H11-C3-P1-NB-120",
+        "q_num": 123,
+        "id": "H11-C3-P1-NB-123",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
@@ -2538,8 +2615,28 @@
         "tables": []
       },
       {
-        "q_num": 121,
-        "id": "H11-C3-P1-NB-121",
+        "q_num": 124,
+        "id": "H11-C3-P1-NB-124",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất nào sau đây có cùng công thức đơn giản với C~2~H~2~?"
+        ],
+        "opt_lines": [
+          "A. CH~4~.\tB. C~6~H~6~.\tC. C~2~H~4~.\tD. C~3~H~6~."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 125,
+        "id": "H11-C3-P1-NB-125",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
@@ -2558,8 +2655,8 @@
         "tables": []
       },
       {
-        "q_num": 122,
-        "id": "H11-C3-P1-NB-122",
+        "q_num": 126,
+        "id": "H11-C3-P1-NB-126",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
@@ -2578,8 +2675,8 @@
         "tables": []
       },
       {
-        "q_num": 123,
-        "id": "H11-C3-P1-NB-123",
+        "q_num": 127,
+        "id": "H11-C3-P1-NB-127",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
@@ -2598,87 +2695,6 @@
         "tables": []
       },
       {
-        "q_num": 124,
-        "id": "H11-C3-P1-NB-124",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Công thức thu gọn nào sau đây tương ứng với công thức phân tử C~3~H~4~O~2~?"
-        ],
-        "opt_lines": [
-          "A. CH~3~COOCH~3~.\t\tB. CH~2~=CHCOOH.",
-          "C. HCOOCH~2~CH~3~.\t\tD. CH≡CCOOH."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "B",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 125,
-        "id": "H11-C3-P1-NB-125",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Độ bất bão hòa của hợp chất có công thức phân tử C~3~H~8~O là"
-        ],
-        "opt_lines": [
-          "A. k = 0.\tB. k = 1.\tC. k = 2.\tD. k = 3."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "A",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 126,
-        "id": "H11-C3-P1-NB-126",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Độ bất bão hòa của hợp chất có công thức phân tử C~2~H~5~OH là"
-        ],
-        "opt_lines": [
-          "A. k = 0.\tB. k = 1.\tC. k = 2.\tD. k = 3."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "A",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 127,
-        "id": "H11-C3-P1-NB-127",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Độ bất bão hòa của hợp chất có công thức phân tử C~12~H~22~O~11~ là"
-        ],
-        "opt_lines": [
-          "A. k = 0.\tB. k = 1.\tC. k = 2.\tD. k = 3."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "C",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
         "q_num": 128,
         "id": "H11-C3-P1-NB-128",
         "part": "P1",
@@ -2686,10 +2702,11 @@
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
         "source_tag": "[THPT Châu Văn Liêm – 2026]",
         "stem_lines": [
-          "Độ bất bão hòa của hợp chất có công thức phân tử C~3~H~4~O là"
+          "Genaryl acetate là ester có trong hoa hồng và được chiết suất để làm hương liệu cho nước hoa. Công thức cấu tạo thu gọn của genaryl acetate là",
+          "Công thức phân tử của genaryl acetate là"
         ],
         "opt_lines": [
-          "A. k = 0.\tB. k = 1.\tC. k = 2.\tD. k = 3."
+          "A. C~11~H~16~O~2~.\tB. C~12~H~18~O~2~.\tC. C~12~H~20~O~2~.\tD. C~11~H~18~O~2~."
         ],
         "p2_items": {},
         "item_levels": {},
@@ -2832,27 +2849,6 @@
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
         "source_tag": "[THPT Châu Văn Liêm – 2026]",
         "stem_lines": [
-          "Việc tách các chất ra khỏi nhau bằng phương pháp sắc kí dựa trên đặc tính nào sau đây của chất?"
-        ],
-        "opt_lines": [
-          "A. Phân tử khối.\t\tB. Nhiệt độ sôi.",
-          "C. Khả năng hấp phụ và hòa tan.\tD. Nhiệt độ nóng chảy."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "C",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 136,
-        "id": "H11-C3-P1-VD-136",
-        "part": "P1",
-        "level": "VD",
-        "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
           "Phương pháp phổ khối lượng dùng để"
         ],
         "opt_lines": [
@@ -2869,8 +2865,8 @@
         "tables": []
       },
       {
-        "q_num": 137,
-        "id": "H11-C3-P1-VD-137",
+        "q_num": 136,
+        "id": "H11-C3-P1-VD-136",
         "part": "P1",
         "level": "VD",
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
@@ -2889,8 +2885,8 @@
         "tables": []
       },
       {
-        "q_num": 138,
-        "id": "H11-C3-P1-VD-138",
+        "q_num": 137,
+        "id": "H11-C3-P1-VD-137",
         "part": "P1",
         "level": "VD",
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
@@ -2910,8 +2906,8 @@
         "tables": []
       },
       {
-        "q_num": 139,
-        "id": "H11-C3-P1-VD-139",
+        "q_num": 138,
+        "id": "H11-C3-P1-VD-138",
         "part": "P1",
         "level": "VD",
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
@@ -2928,6 +2924,29 @@
         "p2_items": {},
         "item_levels": {},
         "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 139,
+        "id": "H11-C3-P1-VD-139",
+        "part": "P1",
+        "level": "VD",
+        "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Sau khi biết công thức thực nghiệm, có thể xác định công thức phân tử hợp chất hữu cơ dựa trên đặc điểm nào sau đây?"
+        ],
+        "opt_lines": [
+          "A. Phân tử khối của chất.",
+          "B. Thành phần phần trăm về khối lượng các nguyên tố có trong phân tử.",
+          "C. Khối lượng các sản phẩm thu được khi đốt cháy hoàn toàn một lượng chất xác định.",
+          "D. Các hấp thụ đặc trăng trên phổ IR của chất."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
         "solution": "",
         "image_paths": [],
         "tables": []
@@ -3012,462 +3031,6 @@
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
         "source_tag": "[THPT Châu Văn Liêm – 2026]",
         "stem_lines": [
-          "Nhóm chức là “………….” gây ra những phản ứng đặc trưng của phân tử hợp chất hữu cơ. Cụm từ thích hợp điền vào chỗ trống trong phát biểu trên là"
-        ],
-        "opt_lines": [
-          "A. nguyên tử.\t\tB. phân tử.",
-          "C. nhóm nguyên tử.\t\tD. nguyên tử hoặc nhóm nguyên tử."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "D",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 144,
-        "id": "H11-C3-P1-NB-144",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Nhóm chức –NH~2~ là của hợp chất nào sau đây?"
-        ],
-        "opt_lines": [
-          "A. Carboxylic acid.\tB. Amine.\tC. Alcohol.\tD. Ketone."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "B",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 145,
-        "id": "H11-C3-P1-NB-145",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Nhóm chức –OH là của hợp chất nào sau đây?"
-        ],
-        "opt_lines": [
-          "A. Carboxylic acid.\tB. Amine.\tC. Alcohol.\tD. Ketone."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "C",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 146,
-        "id": "H11-C3-P1-NB-146",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Nhóm chức –CHO là của hợp chất nào sau đây?"
-        ],
-        "opt_lines": [
-          "A. Carboxylic acid.\tB. Aldehyde.\tC. Alcohol.\tD. Ketone."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "B",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 147,
-        "id": "H11-C3-P1-NB-147",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Nhóm chức –COOH là của hợp chất nào sau đây?"
-        ],
-        "opt_lines": [
-          "A. Carboxylic acid.\tB. Aldehyde.\tC. Alcohol.\tD. Ketone."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "A",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 148,
-        "id": "H11-C3-P1-NB-148",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Trường hợp nào dưới đây khoanh đúng nhóm chức carboxylic acid của ethanoic acid?"
-        ],
-        "opt_lines": [
-          "A. \t\tB.",
-          "C. \t\tD."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "C",
-        "solution": "",
-        "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q148_img1.png",
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q148_img2.png",
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q148_img3.png",
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q148_img4.png"
-        ],
-        "tables": []
-      },
-      {
-        "q_num": 149,
-        "id": "H11-C3-P1-NB-149",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Phổ hồng ngoại là phương pháp vật lí rất quan trọng và phổ biến để nghiên cứu về"
-        ],
-        "opt_lines": [
-          "A. thành phần nguyên tố chất hữu cơ.\tB. thành phần phân tử hợp chất hữu cơ.",
-          "C. cấu tạo hợp chất hữu cơ.\tD. cấu trúc không gian hợp chất hữu cơ."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "C",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 150,
-        "id": "H11-C3-P1-NB-150",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Nhóm chức ketone (C = O) có số sóng hấp thụ đặc trưng trên phổ hồng ngoại là"
-        ],
-        "opt_lines": [
-          "A. 3500 – 3200 cm^–^^1^.\t\tB. 3300 – 3000 cm^–^^1^.",
-          "C. 1300 – 1000 cm^–^^1^.\t\tD. 1715 – 1666 cm^–^^1^."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "D",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 151,
-        "id": "H11-C3-P1-NB-151",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Phổ hồng ngoại của hợp chất hữu cơ nào sau đây có hấp thụ ở vùng 3500 – 3200 cm^–^^1^?"
-        ],
-        "opt_lines": [],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 152,
-        "id": "H11-C3-P1-NB-152",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Phổ hồng ngoại của hợp chất hữu cơ nào sau đây không có hấp thụ ở vùng 1750 – 1600 cm^–^^1^?"
-        ],
-        "opt_lines": [
-          "A. Alcohol.\tB. Ketone.\tC. Ester.\tD. Aldehyde."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "A",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 153,
-        "id": "H11-C3-P1-NB-153",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Xét các chất sau:",
-          "Nhận định nào sau đây không đúng?"
-        ],
-        "opt_lines": [
-          "A. Số hợp chất hữu cơ đa chức (có 2 nhóm chức giống nhau trở lên) bằng 4.",
-          "B. Số hợp chất hữu cơ tạp chức (có 2 nhóm chức khác nhau trở lên) bằng 2.",
-          "C. Số hợp chất hữu cơ thuộc loại alcohol bằng 3.",
-          "D. Số hợp chất hữu cơ thuộc loại carboxylic acid bằng 3."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "D",
-        "solution": "",
-        "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q153_img1.png"
-        ],
-        "tables": []
-      },
-      {
-        "q_num": 154,
-        "id": "H11-C3-P1-NB-154",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Vì sao có thể dựa vào nhóm chức để phân loại các hợp chất hữu cơ?"
-        ],
-        "opt_lines": [
-          "A. Vì biết được nhóm chức thì biết được thành phần các nguyên tố hóa học có trong phân tử hợp chất hữu cơ.",
-          "B. Vì nhóm chức không bị biến đổi khi phân tử hữu cơ tham gia phản ứng.",
-          "C. Vì nhóm chức tham gia vào các phản ứng trong cơ thể sống.",
-          "D. Vì nhóm chức gây ra các phản ứng hóa học đặc trưng cho phân tử hữu cơ."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "D",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 155,
-        "id": "H11-C3-P1-NB-155",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Trên phổ hồng ngoại của hợp chất hữu cơ X có các hấp thụ đặc trưng ở 2817 cm^–^^1^ và 1731 cm^–^^1^. Chất X là chất nào trong các chất dưới đây?"
-        ],
-        "opt_lines": [
-          "A. CH~3~COCH~2~CH~3~.\t\tB. CH~2~=CHCH~2~CH~2~OH.",
-          "C. CH~3~CH~2~CH~2~CHO.\t\tD. CH~3~CH=CHCH~2~OH."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "C",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 156,
-        "id": "H11-C3-P1-NB-156",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Trên phổ hồng ngoại của hợp chất hữu cơ X chỉ có hấp thụ đặc trưng ở 1715 cm^–^^1^. Chất X có thể là chất nào trong các chất dưới đây?"
-        ],
-        "opt_lines": [
-          "A. CH~3~COCH~3~.\tB. CH~3~CH~2~CH~3~.\tC. CH~3~CH~2~COOH.\tD. C~6~H~5~CH~2~OH."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "A",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 157,
-        "id": "H11-C3-P1-NB-157",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Dựa vào phổ IR của hợp chất X có công thức CH~3~COCH~3~ dưới đây, hãy chỉ ra peak nào giúp dự đoán X có nhóm C=O?"
-        ],
-        "opt_lines": [
-          "A. (1). \tB. (3). \tC. (2). \tD. (4)."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "A",
-        "solution": "",
-        "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q157_img1.png"
-        ],
-        "tables": []
-      },
-      {
-        "q_num": 158,
-        "id": "H11-C3-P1-NB-158",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Dựa vào phổ IR của hợp chất X có công thức CH~3~CH(OH)CH~3~ dưới đây, hãy chỉ ra peak nào giúp dự đoán X có nhóm –OH?"
-        ],
-        "opt_lines": [
-          "A. (1). \tB. (2). \tC. (3). \tD. (4)."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "A",
-        "solution": "",
-        "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q158_img1.png"
-        ],
-        "tables": []
-      },
-      {
-        "q_num": 159,
-        "id": "H11-C3-P1-NB-159",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Cho sơ đồ phổ hồng ngoại IR của chất X như sau:",
-          "X là chất nào sau đây?"
-        ],
-        "opt_lines": [
-          "A. CH~3~CH~2~OH.\tB. CH~3~COOH.\tC. CH~3~CHO.\tD. CH~3~COOCH~3~."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "A",
-        "solution": "",
-        "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q159_img1.png"
-        ],
-        "tables": []
-      },
-      {
-        "q_num": 160,
-        "id": "H11-C3-P1-NB-160",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Cho sơ đồ phổ khối IR của chất X như sau:",
-          "X là chất nào sau đây?"
-        ],
-        "opt_lines": [
-          "A. CH~3~CH~2~CH~2~OH.\t\tB. CH~3~CH~2~CH~2~CH~2~CH~2~COOH.",
-          "C. CH~3~CH~2~CH~2~CHO.\t\tD. CH~3~CH~2~CH~2~COOCH~2~CH~2~CH~3~."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "B",
-        "solution": "",
-        "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q160_img1.png"
-        ],
-        "tables": []
-      },
-      {
-        "q_num": 161,
-        "id": "H11-C3-P1-NB-161",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Ngâm hoa quả làm siro thuộc loại phản ứng tách biệt và tinh chế nào sau đây?"
-        ],
-        "opt_lines": [
-          "A. Phương pháp chưng cất.\tB. Phương pháp chiết",
-          "C. Phương pháp kết tinh.\t\tD. Sắc kí cột."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "B",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 162,
-        "id": "H11-C3-P1-NB-162",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Cho các phát biểu sau:",
-          "(a) Ngâm hoa quả làm siro thuộc phương pháp chiết.",
-          "(b) Làm đường từ mía thuộc phương pháp chưng cất.",
-          "(c) Nấu rượu uống thuộc phương pháp kết tinh.",
-          "(d) Phân tích thổ nhưỡng thuộc phương pháp chiết lỏng – rắn.",
-          "(e) Để phân tích dư lượng thuốc bảo vệ thực vật trong nông sản dùng phương pháp chưng cất.",
-          "Số phát biểu đúng là"
-        ],
-        "opt_lines": [
-          "A. 2.\tB. 3.\tC. 4.\tD. 1."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "A",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 163,
-        "id": "H11-C3-P1-NB-163",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Genaryl acetate là ester có trong hoa hồng và được chiết suất để làm hương liệu cho nước hoa. Công thức cấu tạo thu gọn của genaryl acetate là",
-          "Công thức phân tử của genaryl acetate là"
-        ],
-        "opt_lines": [
-          "A. C~11~H~16~O~2~.\tB. C~12~H~18~O~2~.\tC. C~12~H~20~O~2~.\tD. C~11~H~18~O~2~."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "C",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 164,
-        "id": "H11-C3-P1-NB-164",
-        "part": "P1",
-        "level": "NB",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
           "Theo thuyết cấu tạo hóa học, trong phân tử các chất hữu cơ, các nguyên tử liên kết với nhau"
         ],
         "opt_lines": [
@@ -3484,8 +3047,8 @@
         "tables": []
       },
       {
-        "q_num": 165,
-        "id": "H11-C3-P1-NB-165",
+        "q_num": 144,
+        "id": "H11-C3-P1-NB-144",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -3505,8 +3068,29 @@
         "tables": []
       },
       {
-        "q_num": 166,
-        "id": "H11-C3-P1-NB-166",
+        "q_num": 145,
+        "id": "H11-C3-P1-NB-145",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Công thức thu gọn nào sau đây tương ứng với công thức phân tử C~3~H~4~O~2~?"
+        ],
+        "opt_lines": [
+          "A. CH~3~COOCH~3~.\t\tB. CH~2~=CHCOOH.",
+          "C. HCOOCH~2~CH~3~.\t\tD. CH≡CCOOH."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 146,
+        "id": "H11-C3-P1-NB-146",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -3525,8 +3109,8 @@
         "tables": []
       },
       {
-        "q_num": 167,
-        "id": "H11-C3-P1-NB-167",
+        "q_num": 147,
+        "id": "H11-C3-P1-NB-147",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -3543,13 +3127,13 @@
         "answer": "A",
         "solution": "",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q167_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q147_img1.png"
         ],
         "tables": []
       },
       {
-        "q_num": 168,
-        "id": "H11-C3-P1-NB-168",
+        "q_num": 148,
+        "id": "H11-C3-P1-NB-148",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -3565,13 +3149,13 @@
         "answer": "A",
         "solution": "",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q168_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q148_img1.png"
         ],
         "tables": []
       },
       {
-        "q_num": 169,
-        "id": "H11-C3-P1-NB-169",
+        "q_num": 149,
+        "id": "H11-C3-P1-NB-149",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -3591,8 +3175,8 @@
         "tables": []
       },
       {
-        "q_num": 170,
-        "id": "H11-C3-P1-NB-170",
+        "q_num": 150,
+        "id": "H11-C3-P1-NB-150",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -3612,8 +3196,69 @@
         "tables": []
       },
       {
-        "q_num": 171,
-        "id": "H11-C3-P1-NB-171",
+        "q_num": 151,
+        "id": "H11-C3-P1-NB-151",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Chất nào sau đây là đồng đẳng của CH ≡ CH?"
+        ],
+        "opt_lines": [
+          "A. CH~2~=C=CH~2~.\tB. CH~2~=CH‒CH=CH~2~.\tC. CH≡CCH~3~. \tD. CH~2~=CH~2~"
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 152,
+        "id": "H11-C3-P1-NB-152",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Hợp chất nào sau đây là đồng đẳng của acetic acid CH~3~COOH?"
+        ],
+        "opt_lines": [
+          "A. HCOOH.\t\tB. CH~3~COOCH~3~.",
+          "C. HOCH~2~COOH.\t\tD. HOOCCOOH."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 153,
+        "id": "H11-C3-P1-NB-153",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cặp chất nào sau đây thuộc cùng dãy đồng đẳng?"
+        ],
+        "opt_lines": [
+          "A. CH~4~ và C~2~H~4~. \tB. CH~4~ và C~2~H~6~. \tC. C~2~H~4~ và C~2~H~6~. \tD. C~2~H~2~ và C~4~H~4~."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 154,
+        "id": "H11-C3-P1-NB-154",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -3633,8 +3278,8 @@
         "tables": []
       },
       {
-        "q_num": 172,
-        "id": "H11-C3-P1-NB-172",
+        "q_num": 155,
+        "id": "H11-C3-P1-NB-155",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -3654,8 +3299,8 @@
         "tables": []
       },
       {
-        "q_num": 173,
-        "id": "H11-C3-P1-NB-173",
+        "q_num": 156,
+        "id": "H11-C3-P1-NB-156",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -3675,8 +3320,8 @@
         "tables": []
       },
       {
-        "q_num": 174,
-        "id": "H11-C3-P1-NB-174",
+        "q_num": 157,
+        "id": "H11-C3-P1-NB-157",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -3696,8 +3341,8 @@
         "tables": []
       },
       {
-        "q_num": 175,
-        "id": "H11-C3-P1-NB-175",
+        "q_num": 158,
+        "id": "H11-C3-P1-NB-158",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -3717,8 +3362,79 @@
         "tables": []
       },
       {
-        "q_num": 176,
-        "id": "H11-C3-P1-NB-176",
+        "q_num": 159,
+        "id": "H11-C3-P1-NB-159",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong các dãy chất sau đây, dãy nào gồm các chất là đồng đẳng của nhau?"
+        ],
+        "opt_lines": [
+          "A. CH~3~CH~2~OH và CH~3~CH~2~CH~2~OH.\tB. CH~3~OCH~3~và CH~3~CH~2~OH.",
+          "C. CH~4~, C~2~H~6~ và C~4~H~8~.\t\tD. CH~4~ và C~3~H~6~."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 160,
+        "id": "H11-C3-P1-NB-160",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Hợp chất hữu cơ nào sau đây có mạch carbon phân nhánh?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "",
+        "solution": "",
+        "image_paths": [],
+        "tables": [
+          [
+            [
+              "A.",
+              "B.",
+              "C.",
+              "D."
+            ]
+          ]
+        ]
+      },
+      {
+        "q_num": 161,
+        "id": "H11-C3-P1-NB-161",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các hợp chất hữu cơ sau:",
+          "(1)\t            (2)\t        (3)\t         (4)",
+          "(5)\t            (6)\t        (7)\t         (8)",
+          "Số hợp chất hữu cơ có mạch carbon phân nhánh là"
+        ],
+        "opt_lines": [
+          "A. 3. \tB. 4. \tC. 5. \tD. 6."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 162,
+        "id": "H11-C3-P1-NB-162",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -3750,8 +3466,8 @@
         ]
       },
       {
-        "q_num": 177,
-        "id": "H11-C3-P1-NB-177",
+        "q_num": 163,
+        "id": "H11-C3-P1-NB-163",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -3771,8 +3487,8 @@
         "tables": []
       },
       {
-        "q_num": 178,
-        "id": "H11-C3-P1-NB-178",
+        "q_num": 164,
+        "id": "H11-C3-P1-NB-164",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -3792,8 +3508,73 @@
         "tables": []
       },
       {
-        "q_num": 179,
-        "id": "H11-C3-P1-NB-179",
+        "q_num": 165,
+        "id": "H11-C3-P1-NB-165",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cặp chất nào sau đây là đồng đẳng của nhau?"
+        ],
+        "opt_lines": [
+          "A. CH~3~OH, CH~3~OCH~3~.\t\tB. CH~3~OCH~3~, CH~3~CHO.",
+          "C. HCHO, CH~3~CHO.\t\tD. CH~3~CH~2~OH, C~3~H~5~(OH)~3.~"
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 166,
+        "id": "H11-C3-P1-NB-166",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cặp chất nào dưới đây là đồng đẳng của nhau?"
+        ],
+        "opt_lines": [
+          "A. CH₃CH=CH₂ và CH₃-CH₂-CH₂-CH₃.",
+          "B. CH₂=CH-CH=CH₂ và CH₃CºCH.",
+          "C. CH₃CH₂CH₂CH₃ và (CH₃)₂CHCH₃.",
+          "D. CH₂=CH-CH=CH₂ và CH₂=C(CH₃)-CH=CH₂."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "D",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 167,
+        "id": "H11-C3-P1-NB-167",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cặp chất nào dưới đây là đồng đẳng của nhau?"
+        ],
+        "opt_lines": [
+          "A. CH₃OH và CH₃CH₂CH₂CH₂OH.\tB. CH₃CH₂OH và HOCH₂CH₂OH.",
+          "C. CH₃CH₂CHO và CH₃COCH₂CH₃.\tD. CH₃COOH và CH₃COOCH₃."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 168,
+        "id": "H11-C3-P1-NB-168",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -3813,8 +3594,8 @@
         "tables": []
       },
       {
-        "q_num": 180,
-        "id": "H11-C3-P1-NB-180",
+        "q_num": 169,
+        "id": "H11-C3-P1-NB-169",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -3836,8 +3617,8 @@
         "tables": []
       },
       {
-        "q_num": 181,
-        "id": "H11-C3-P1-NB-181",
+        "q_num": 170,
+        "id": "H11-C3-P1-NB-170",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -3854,13 +3635,13 @@
         "answer": "D",
         "solution": "",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q181_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q170_img1.png"
         ],
         "tables": []
       },
       {
-        "q_num": 182,
-        "id": "H11-C3-P1-NB-182",
+        "q_num": 171,
+        "id": "H11-C3-P1-NB-171",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -3880,8 +3661,8 @@
         "tables": []
       },
       {
-        "q_num": 183,
-        "id": "H11-C3-P1-NB-183",
+        "q_num": 172,
+        "id": "H11-C3-P1-NB-172",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -3901,8 +3682,8 @@
         "tables": []
       },
       {
-        "q_num": 184,
-        "id": "H11-C3-P1-NB-184",
+        "q_num": 173,
+        "id": "H11-C3-P1-NB-173",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -3920,13 +3701,13 @@
         "answer": "C",
         "solution": "",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q184_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q173_img1.png"
         ],
         "tables": []
       },
       {
-        "q_num": 185,
-        "id": "H11-C3-P1-NB-185",
+        "q_num": 174,
+        "id": "H11-C3-P1-NB-174",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -3944,13 +3725,13 @@
         "answer": "C",
         "solution": "",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q185_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q174_img1.png"
         ],
         "tables": []
       },
       {
-        "q_num": 186,
-        "id": "H11-C3-P1-NB-186",
+        "q_num": 175,
+        "id": "H11-C3-P1-NB-175",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -3970,13 +3751,36 @@
         "answer": "D",
         "solution": "",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q186_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q175_img1.png"
         ],
         "tables": []
       },
       {
-        "q_num": 187,
-        "id": "H11-C3-P1-NB-187",
+        "q_num": 176,
+        "id": "H11-C3-P1-NB-176",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các công thức khai triển của một số dẫn xuất halogen:",
+          "Những công thức nào sau đây biểu diễn cùng một chất?"
+        ],
+        "opt_lines": [
+          "A. X, Y, Z.\tB. X, T, U.\tC. X, Y, U.\tD. Y, T, U."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q176_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 177,
+        "id": "H11-C3-P1-NB-177",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -3995,13 +3799,13 @@
         "answer": "D",
         "solution": "",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q187_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q177_img1.png"
         ],
         "tables": []
       },
       {
-        "q_num": 188,
-        "id": "H11-C3-P1-NB-188",
+        "q_num": 178,
+        "id": "H11-C3-P1-NB-178",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -4023,8 +3827,70 @@
         "tables": []
       },
       {
-        "q_num": 189,
-        "id": "H11-C3-P1-NB-189",
+        "q_num": 179,
+        "id": "H11-C3-P1-NB-179",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Trong các dãy chất sau đây, có mấy dãy gồm các chất là đồng đẳng của nhau?",
+          "(1) C~2~H~6~, CH~4~, C~4~H~10~\t\t(2) C~2~H~5~OH, CH~3~CH~2~CH~2~OH",
+          "(3) CH~3~OCH~3~, CH~3~CHO\t\t(4) CH~3~COOH, HCOOH, C~2~H~3~COOH"
+        ],
+        "opt_lines": [
+          "A. 1.\tB. 4. \tC. 2. \tD. 3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 180,
+        "id": "H11-C3-P1-NB-180",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Theo quy ước, một liên kết đôi hoặc một vòng tương ứng với độ bất bão hòa là"
+        ],
+        "opt_lines": [
+          "A. k = 0.\tB. k = 1.\tC. k = 2.\tD. k = 3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 181,
+        "id": "H11-C3-P1-NB-181",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Theo quy ước, một liên kết ba tương ứng với độ bất bão hòa là"
+        ],
+        "opt_lines": [
+          "A. k = 0.\tB. k = 1.\tC. k = 2.\tD. k = 3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 182,
+        "id": "H11-C3-P1-NB-182",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -4043,8 +3909,8 @@
         "tables": []
       },
       {
-        "q_num": 190,
-        "id": "H11-C3-P1-NB-190",
+        "q_num": 183,
+        "id": "H11-C3-P1-NB-183",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -4061,13 +3927,13 @@
         "answer": "D",
         "solution": "",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q190_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q183_img1.png"
         ],
         "tables": []
       },
       {
-        "q_num": 191,
-        "id": "H11-C3-P1-NB-191",
+        "q_num": 184,
+        "id": "H11-C3-P1-NB-184",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -4084,13 +3950,13 @@
         "answer": "B",
         "solution": "",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q191_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q184_img1.png"
         ],
         "tables": []
       },
       {
-        "q_num": 192,
-        "id": "H11-C3-P1-NB-192",
+        "q_num": 185,
+        "id": "H11-C3-P1-NB-185",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -4110,8 +3976,8 @@
         "tables": []
       },
       {
-        "q_num": 193,
-        "id": "H11-C3-P1-NB-193",
+        "q_num": 186,
+        "id": "H11-C3-P1-NB-186",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -4128,13 +3994,13 @@
         "answer": "C",
         "solution": "",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q193_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q186_img1.png"
         ],
         "tables": []
       },
       {
-        "q_num": 194,
-        "id": "H11-C3-P1-NB-194",
+        "q_num": 187,
+        "id": "H11-C3-P1-NB-187",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -4151,13 +4017,13 @@
         "answer": "B",
         "solution": "",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q194_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q187_img1.png"
         ],
         "tables": []
       },
       {
-        "q_num": 195,
-        "id": "H11-C3-P1-NB-195",
+        "q_num": 188,
+        "id": "H11-C3-P1-NB-188",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -4174,13 +4040,13 @@
         "answer": "B",
         "solution": "",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q195_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q188_img1.png"
         ],
         "tables": []
       },
       {
-        "q_num": 196,
-        "id": "H11-C3-P1-NB-196",
+        "q_num": 189,
+        "id": "H11-C3-P1-NB-189",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -4197,13 +4063,193 @@
         "answer": "B",
         "solution": "",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q196_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q189_img1.png"
         ],
+        "tables": []
+      },
+      {
+        "q_num": 190,
+        "id": "H11-C3-P1-NB-190",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Độ bất bão hòa của hợp chất có công thức C~5~H~12~ là"
+        ],
+        "opt_lines": [
+          "A. k = 0.\tB. k = 1.\tC. k = 2.\tD. k = 3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 191,
+        "id": "H11-C3-P1-NB-191",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Độ bất bão hòa của hợp chất có công thức C~3~H~4~O~2~ là"
+        ],
+        "opt_lines": [
+          "A. k = 1.\tB. k = 2.\tC. k = 3.\tD. k = 4."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "B",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 192,
+        "id": "H11-C3-P1-NB-192",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Độ bất bão hòa của hợp chất có công thức phân tử C~3~H~8~O là"
+        ],
+        "opt_lines": [
+          "A. k = 0.\tB. k = 1.\tC. k = 2.\tD. k = 3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 193,
+        "id": "H11-C3-P1-NB-193",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Độ bất bão hòa của hợp chất có công thức phân tử C~2~H~5~OH là"
+        ],
+        "opt_lines": [
+          "A. k = 0.\tB. k = 1.\tC. k = 2.\tD. k = 3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 194,
+        "id": "H11-C3-P1-NB-194",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Độ bất bão hòa của hợp chất có công thức phân tử C~12~H~22~O~11~ là"
+        ],
+        "opt_lines": [
+          "A. k = 0.\tB. k = 1.\tC. k = 2.\tD. k = 3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 195,
+        "id": "H11-C3-P1-NB-195",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Độ bất bão hòa của hợp chất có công thức phân tử C~3~H~4~O là"
+        ],
+        "opt_lines": [
+          "A. k = 0.\tB. k = 1.\tC. k = 2.\tD. k = 3."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 196,
+        "id": "H11-C3-P1-NB-196",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Độ bất bão hòa của hợp chất có công thức CH~3~CHO là"
+        ],
+        "opt_lines": [
+          "A. k = 1.\tB. k = 2.\tC. k = 3.\tD. k = 4."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
         "tables": []
       },
       {
         "q_num": 197,
         "id": "H11-C3-P1-NB-197",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Công thức tổng quát của hydrocarbon là"
+        ],
+        "opt_lines": [
+          "A. C~n~H~2n + 2~~–~~2k~.\tB. C~n~H~2n~~–~~2k~.\tC. C~n~H~2n + 2 +2k~.\tD. C~n~H~2n + 2k~."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "A",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 198,
+        "id": "H11-C3-P1-NB-198",
+        "part": "P1",
+        "level": "NB",
+        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Công thức dãy đồng đẳng của hydrocarbon không no, chứa một liên kết đôi, mạch hở là"
+        ],
+        "opt_lines": [
+          "A. C~n~H~2n+2.~\tB. C~n~H~2n~~–~~2.~\tC. C~n~H~2n~.\tD. C~n~H~2n~~–~~4~."
+        ],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "C",
+        "solution": "",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 199,
+        "id": "H11-C3-P1-NB-199",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -4225,8 +4271,8 @@
         "tables": []
       },
       {
-        "q_num": 198,
-        "id": "H11-C3-P1-NB-198",
+        "q_num": 200,
+        "id": "H11-C3-P1-NB-200",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -4248,8 +4294,8 @@
         "tables": []
       },
       {
-        "q_num": 199,
-        "id": "H11-C3-P1-NB-199",
+        "q_num": 201,
+        "id": "H11-C3-P1-NB-201",
         "part": "P1",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -4271,8 +4317,8 @@
         "tables": []
       },
       {
-        "q_num": 200,
-        "id": "H11-C3-P1-TH-200",
+        "q_num": 202,
+        "id": "H11-C3-P1-TH-202",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -4291,8 +4337,8 @@
         "tables": []
       },
       {
-        "q_num": 201,
-        "id": "H11-C3-P1-TH-201",
+        "q_num": 203,
+        "id": "H11-C3-P1-TH-203",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -4314,8 +4360,8 @@
         "tables": []
       },
       {
-        "q_num": 202,
-        "id": "H11-C3-P1-TH-202",
+        "q_num": 204,
+        "id": "H11-C3-P1-TH-204",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -4337,8 +4383,8 @@
         "tables": []
       },
       {
-        "q_num": 203,
-        "id": "H11-C3-P1-TH-203",
+        "q_num": 205,
+        "id": "H11-C3-P1-TH-205",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -4360,8 +4406,8 @@
         "tables": []
       },
       {
-        "q_num": 204,
-        "id": "H11-C3-P1-TH-204",
+        "q_num": 206,
+        "id": "H11-C3-P1-TH-206",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -4379,13 +4425,13 @@
         "answer": "",
         "solution": "",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q204_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q206_img1.png"
         ],
         "tables": []
       },
       {
-        "q_num": 205,
-        "id": "H11-C3-P1-TH-205",
+        "q_num": 207,
+        "id": "H11-C3-P1-TH-207",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -4402,13 +4448,13 @@
         "answer": "",
         "solution": "",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q205_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q207_img1.png"
         ],
         "tables": []
       },
       {
-        "q_num": 206,
-        "id": "H11-C3-P1-TH-206",
+        "q_num": 208,
+        "id": "H11-C3-P1-TH-208",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -4425,13 +4471,13 @@
         "answer": "",
         "solution": "",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q206_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q208_img1.png"
         ],
         "tables": []
       },
       {
-        "q_num": 207,
-        "id": "H11-C3-P1-TH-207",
+        "q_num": 209,
+        "id": "H11-C3-P1-TH-209",
         "part": "P1",
         "level": "TH",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -4447,50 +4493,6 @@
         "item_levels": {},
         "answer": "",
         "solution": "Trong phổ khối lượng, tín hiệu có tỉ số m/z lớn nhất thường tương ứng với ion phân tử [M]⁺ là 60  M = 60\nVậy công thức phân tử C~2~H~4~O\nCH₃COOH (acetic acid)\nHCOOCH₃ (methyl formate)\nm/z = 29(Cường độ 100%) → [CHO]⁺\nm/z = 31(Cường độ 15%)→[CH₃O]⁺\nCông thức cấu tạo phù hợp nhất với hợp chất X làHCOOCH₃",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 208,
-        "id": "H11-C3-P1-VD-208",
-        "part": "P1",
-        "level": "VD",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Dựa vào các số sóng hấp thụ đặc trưng trên phổ IR ta có thể dự đoán được?"
-        ],
-        "opt_lines": [
-          "A. thành phần cấu tạo nên hợp chất hữu cơ.\tB. màu sắc của các hợp chất hữu cơ.",
-          "C. nhóm chức trong phân tử hợp chất hữu cơ.\tD. tính chất của các hợp chất hữu cơ."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "C",
-        "solution": "",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 209,
-        "id": "H11-C3-P1-VD-209",
-        "part": "P1",
-        "level": "VD",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Sau khi biết công thức thực nghiệm, có thể xác định công thức phân tử hợp chất hữu cơ dựa trên đặc điểm nào sau đây?"
-        ],
-        "opt_lines": [
-          "A. Phân tử khối của chất.",
-          "B. Thành phần phần trăm về khối lượng các nguyên tố có trong phân tử.",
-          "C. Khối lượng các sản phẩm thu được khi đốt cháy hoàn toàn một lượng chất xác định.",
-          "D. Các hấp thụ đặc trăng trên phổ IR của chất."
-        ],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "A",
-        "solution": "",
         "image_paths": [],
         "tables": []
       },
@@ -4579,6 +4581,36 @@
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
         "source_tag": "[THPT Châu Văn Liêm – 2026]",
         "stem_lines": [
+          "Từ một loài dương xỉ phổ biến thuộc họ Gleiche–niaceae, một nhóm nghiên cứu đã phân lập được hợp chất X có cấu tạo như sau:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Hợp chất X có chứa 4 nhóm chức alcohol.",
+          "b": "Hợp chất X có chứa nhóm chức ether.",
+          "c": "Hợp chất X có chứa nhóm chức ketone.",
+          "d": "Hợp chất X là hợp chất đa chức."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "NB",
+          "c": "NB",
+          "d": "NB"
+        },
+        "answer": "a:S - b:Đ - c:Đ - d:S",
+        "solution": "a) Sai. Bốn nhóm –OH trong phân tử là nhóm hydroxyl gắn với vòng benzen nên thuộc nhóm phenol, không phải alcohol.\nb) Đúng. Có nhóm chức ether (C–O–C) nối giữa hai vòng thơm ở giữa phân tử.\nc) Đúng. Có nhóm chức ketone (C=O) ở vị trí giữa vòng giữa và nhánh carbon.\nd) Sai. Hợp chất X chứa nhiều nhóm chức khác nhau như phenol, ether, ketone → là hợp chất tạp chức chứ không phải đa chức (đa chức là nhiều nhóm chức cùng loại).",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q213_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 214,
+        "id": "H11-C3-P2-NB-214",
+        "part": "P2",
+        "level": "NB",
+        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
           "Giải Nobel Hóa học năm 2021 được trao cho 2 nhà khoa học trẻ Benjamin List và David W.C. MacMillan \"cho sự phát triển quá trình xúc tác hữu cơ bất đối xứng\", mở ra các ứng dụng trong việc xây dựng phân tử. Trong đó Benjamin List đã sử dụng prolin làm xúc tác cho phản ứng cộng andol. Prolin có công thức cấu tạo như sau:"
         ],
         "opt_lines": [],
@@ -4600,36 +4632,6 @@
         "tables": []
       },
       {
-        "q_num": 214,
-        "id": "H11-C3-P2-NB-214",
-        "part": "P2",
-        "level": "NB",
-        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Hình bên dưới mô tả dụng cụ dùng và phương pháp để tách các chất lỏng ra khỏi nhau."
-        ],
-        "opt_lines": [],
-        "p2_items": {
-          "a": "Phương pháp sử dụng để tách các chất lỏng trong thí nghiệm là phương pháp chiết.",
-          "b": "Trạng thái các chất ở vị trí A và vị trí B là giống nhau.",
-          "c": "Trong bình cầu (vị trí A) chỉ chứa 1 chất.",
-          "d": "Hỗn hợp A chứa chất cần tách có nhiệt độ sôi khác nhau nhiều chất còn lại."
-        },
-        "item_levels": {
-          "a": "NB",
-          "b": "NB",
-          "c": "NB",
-          "d": "TH"
-        },
-        "answer": "a:S - b:S - c:S - d:Đ",
-        "solution": "a) Sai. Phương pháp sử dụng là chưng cất thường\nb) Sai. A là chất lỏng, vị trí B là hơi (khí).\nc) Sai. Vị trí A chứa hỗn hợp chất\nd) Đúng.",
-        "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q214_img1.png"
-        ],
-        "tables": []
-      },
-      {
         "q_num": 215,
         "id": "H11-C3-P2-NB-215",
         "part": "P2",
@@ -4637,14 +4639,16 @@
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
         "source_tag": "[THPT Châu Văn Liêm – 2026]",
         "stem_lines": [
-          "Thêm hexane (một hydrocarbon trong phân tử có 6 nguyên tử carbon) vào dung dịch iodine trong nước, lắc đều rồi để yên. Sau đó thu lấy lớp hữu cơ, làm bay hơi dung môi để thu lấy iodine."
+          "Geraniol có trong tinh dầu hoa được sử dụng phổ biến trong công nghiệp hương liệu, thực phẩm,… vì có mùi thơm đặc trưng. Citral có trong tinh dầu sả có tác dụng an thần đối với hệ thần kinh, loại bỏ tế bào chết và chất nhờn trên da, hạ sốt, lợi tiểu, chống đầy hơi, khử trùng và kháng khuẩn mạnh. Geraniol và citral có cấu tạo như hình sau:",
+          "Geraniol",
+          "Citral"
         ],
         "opt_lines": [],
         "p2_items": {
-          "a": "Phương pháp sử dụng thu lấy iodine ở trên là phương pháp chiết lỏng – lỏng.",
-          "b": "Dụng cụ sử dụng trong phương pháp trên gọi là phễu tam giác.",
-          "c": "Để tách riêng phần nước và phần hữu cơ sau khi lắc người ta mở khóa phễu chiết, lần lượt thu được phần nước ở ở và phần hữu cơ ở trên phễu chiết.",
-          "d": "Lớp hữu cơ sau khi lắc có màu tím là do iodine tan trong hexane tốt hơn trong nước nên bị chiết sang lớp hữu cơ."
+          "a": "Geraniol có chứa nhóm chức alcohol, citral chứa nhóm chức ketone.",
+          "b": "Geraniol thuộc loại hydrocarbon.",
+          "c": "Số sóng hấp thụ đặc trưng trên phổ IR của nhóm C=O trong citral khoảng 1740–1685 cm^–^^1^.",
+          "d": "Số sóng hấp thụ đặc trưng trên phổ IR của nhóm O–H trong geraniol khoảng 1760 – 1690 cm^–^^1^."
         },
         "item_levels": {
           "a": "NB",
@@ -4652,11 +4656,9 @@
           "c": "NB",
           "d": "NB"
         },
-        "answer": "a:Đ - b:S - c:Đ - d:Đ",
-        "solution": "a) Đúng. Đây là phương pháp chiết lỏng – lỏng, trong đó hai chất lỏng không trộn lẫn (nước và hexane) được sử dụng để tách các chất tan khác nhau dựa trên độ tan của chúng trong từng dung môi.\nb) Sai. Dụng cụ được sử dụng là phễu chiết, không phải phễu tam giác. Phễu chiết có dạng hình nón với khóa để tách các lớp chất lỏng.\nc) Đúng. Hexane có khối lượng riêng nhỏ hơn nước nên nằm ở lớp trên, còn nước nặng hơn nên nằm ở lớp dưới. Khi mở khóa phễu chiết, phần nước được thu trước, sau đó đến phần hữu cơ.\nd) Đúng. Iodine tan trong hexane tốt hơn nước, tạo nên lớp hữu cơ màu tím đặc trưng. Điều này xảy ra do lực liên kết phân tử giữa iodine và hexane thuận lợi hơn so với iodine và nước.",
-        "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q215_img1.png"
-        ],
+        "answer": "a:S - b:S - c:Đ - d:S",
+        "solution": "a) Sai. Geraniol chứa nhóm chức alcohol –OH, còn citral chứa nhóm chức aldehyde chứ không phải ketone.\nb) Sai. Geraniol là dẫn xuất hydrocarbon có chứa nhóm –OH.\nc) Đúng. Nhóm C=O trong aldehyde (citral) hấp thụ IR ở khoảng 1740–1685 cm⁻¹.\nd) Sai. Nhóm –OH (alcohol) trong geraniol hấp thụ IR khoảng 3200–3600 cm⁻¹.",
+        "image_paths": [],
         "tables": []
       },
       {
@@ -4667,18 +4669,14 @@
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
         "source_tag": "[THPT Châu Văn Liêm – 2026]",
         "stem_lines": [
-          "Để thực hiện tách sắc tố từ lá cây và tách các nhóm sắc tổ bằng phương pháp hóa học, người ta làm như sau:",
-          "– Giai đoạn 1: Sử dụng lá tươi đã loại bỏ cuống lá và gân chính. Sau đó cắt nhỏ cho vào cối sứ, nghiền nát thật nhuyễn với một ít acetone, sau đó tiếp tục thêm acetone, khuấy đều, lọc qua phễu lọc vào một bình chứa, thu được một hỗn hợp sắc tố màu xanh lục.",
-          "– Giai đoạn 2: Lấy một lượng benzene gấp đôi lượng dịch vừa thu được, cho vào bình, lắc đều, rồi để yên. Vài phút sau quan sát thấy dung dịch màu phân thành 2 lớp:",
-          "Lớp dưới có màu vàng là màu của carotenoid hòa tan trong benzene.",
-          "Lớp trên có màu xanh lục là màu của diệp lục hòa tan trong acetone."
+          "Phổ IR cung cấp thông tin về các mức năng lượng dao động và xoay của các liên kết hóa học trong một phân tử. Hình ảnh minh họa của phổ IR được mô tả dưới đây:"
         ],
         "opt_lines": [],
         "p2_items": {
-          "a": "Giai đoạn 1 đã sử dụng phương pháp lọc.",
-          "b": "Giai đoạn 2 đã sử dụng phương pháp chiết lỏng – lỏng.",
-          "c": "Giai đoạn 1 có thể thay acetone bằng nước cất.",
-          "d": "Sau bước 2, lớp chất lỏng phía trên (màu xanh lục) có khối riêng nhẹ hơn lớp chất lỏng phía dưới (màu vàng)."
+          "a": "Thông qua việc phân tích phổ IR, ta có thể dự đoán được sự có mặt của các nhóm chức xuất hiện trong một hợp chất nghiên cứu.",
+          "b": "Trên phổ hồng ngoại, trục nằm ngang biểu diễn số sóng (cm^–^^1^) còn trục thẳng đứng biểu diễn cường độ truyền qua hoặc độ hấp thụ (theo %).",
+          "c": "Trên phổ IR có các tín hiệu (peak) của cực đại hấp thụ (hoặc cực tiểu truyền qua) ứng với những dao động đặc trưng của các nhóm chức.",
+          "d": "Dùng tín hiệu từ phổ IR có thể quy kết được hoàn toàn công thức cấu tạo của một hợp chất bất kỳ."
         },
         "item_levels": {
           "a": "NB",
@@ -4686,40 +4684,96 @@
           "c": "NB",
           "d": "NB"
         },
-        "answer": "a:S - b:Đ - c:S - d:Đ",
-        "solution": "a) Sai. Phương pháp chiết: chiết lỏng – rắn.\nb) Đúng.\nc) Sai. Nước không có khả năng hòa tan được chất hữu cơ cần chiết như acetone.\nd) Đúng.",
-        "image_paths": [],
+        "answer": "a:Đ - b:Đ - c:Đ - d:S",
+        "solution": "a) Đúng. Phổ IR cho phép xác định sự có mặt của nhóm chức nhờ vào vị trí các vạch hấp thụ đặc trưng.\nb) Đúng. Trục hoành là số sóng (cm⁻¹), trục tung thể hiện phần trăm truyền qua hoặc hấp thụ (%).\nc) Đúng. Các cực đại hấp thụ (peak) tương ứng với dao động đặc trưng của liên kết trong nhóm chức.\nd) Sai. Phổ IR chỉ giúp xác định nhóm chức, không thể xác định hoàn toàn cấu trúc của hợp chất bất kỳ.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q216_img1.png"
+        ],
         "tables": []
       },
       {
         "q_num": 217,
-        "id": "H11-C3-P2-TH-217",
+        "id": "H11-C3-P2-NB-217",
         "part": "P2",
-        "level": "TH",
+        "level": "NB",
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
         "source_tag": "[THPT Châu Văn Liêm – 2026]",
         "stem_lines": [
-          "Giải Nobel Hóa học năm 2021 được trao cho 2 nhà khoa học Benjamin List và David W.C. MacMillan “cho sự phát triển quá trình xúc tác hữu cơ bất đối xứng”, mở ra các ứng dụng trong việc xây dựng phân tử. Trong đó Benjamin List đã sử dụng prolin làm xúc tác cho phản ứng cộng andol. Prolin có công thức cấu tạo như sau:"
+          "Kết quả phổ IR của một hợp chất hữu cơ (X) được thể hiện qua hình dưới đây:",
+          "Bảng tín hiệu phổ hồng ngoại của một số nhóm chức cơ bản"
         ],
         "opt_lines": [],
         "p2_items": {
-          "a": "Phần trăm khối lượng của oxygen trong prolin là 26,09%.",
-          "b": "Prolin có cấu tạo mạch vòng.",
-          "c": "Phân tử prolin chứa 17 nguyên tử của các nguyên tố.",
-          "d": "Prolin có chứa một nhóm chức alcohol."
+          "a": "Phổ IR của (X) có tín hiệu của amine bậc 1.",
+          "b": "Phổ IR của (X) có tín hiệu của –OH trong alcohol.",
+          "c": "Phổ IR của (X) có tín hiệu của –C=O trong ketone.",
+          "d": "Phổ IR của (X) có tín hiệu của –OH trong carboxylic acid."
         },
         "item_levels": {
-          "a": "VD",
+          "a": "NB",
           "b": "NB",
           "c": "NB",
           "d": "NB"
         },
-        "answer": "a:S - b:Đ - c:Đ - d:S",
-        "solution": "a) Sai. Phần trăm khối lượng O trong Prolin là 27,83%, không phải 26,09%.\nb) Đúng. Prolin có cấu trúc vòng ngũ giác, là amino acid duy nhất có cấu trúc mạch vòng.\nc) Đúng. Công thức phân tử là C₅H₉O₂N, gồm 17 nguyên tử.\nd) Sai. Prolin không chứa nhóm OH tự do nên không có nhóm chức alcohol, mà chứa nhóm amine và nhóm carboxylic acid.",
+        "answer": "a:S - b:S - c:S - d:Đ",
+        "solution": "a) Sai. Không có tín hiệu ở khoảng 3300 – 3000 cm⁻¹ nên không có nhóm –NH (amine bậc 1).\nb) Sai. Nhóm –OH trong alcohol có tín hiệu ở vùng 3500–3200 cm⁻¹, không trùng tín hiệu trong phổ.\nc) Sai. Có đỉnh hấp thụ rõ trong khoảng 1715–1666 cm⁻¹, có liên kết C=O trong ketone/acid/ester.\nd) Đúng. Có hai tín hiệu đặc trưng phù hợp với nhóm –OH và C=O của carboxylic acid (khoảng 1760–1690 và 3300–2500 cm⁻¹).",
         "image_paths": [
           "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q217_img1.png"
         ],
-        "tables": []
+        "tables": [
+          [
+            [
+              "Hợp chất",
+              "Liên kết",
+              "Số sóng (cm^–^^1^)"
+            ],
+            [
+              "Alcohol",
+              "O – H",
+              "3500 – 3200"
+            ],
+            [
+              "Amine",
+              "N – H",
+              "3300 – 3000"
+            ],
+            [
+              "Aldehyde",
+              "C – H",
+              "2830 – 2695"
+            ],
+            [
+              "Aldehyde",
+              "C = O",
+              "1740 – 1685"
+            ],
+            [
+              "Ketone",
+              "C = O",
+              "1715 – 1666"
+            ],
+            [
+              "Carboxylic acid",
+              "C = O",
+              "1760 – 1690"
+            ],
+            [
+              "Carboxylic acid",
+              "O – H",
+              "3300 – 2500"
+            ],
+            [
+              "Ester",
+              "C = O",
+              "1750 – 1715"
+            ],
+            [
+              "Ester",
+              "C – O",
+              "1300 – 1000"
+            ]
+          ]
+        ]
       },
       {
         "q_num": 218,
@@ -4843,6 +4897,98 @@
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
         "source_tag": "[THPT Châu Văn Liêm – 2026]",
         "stem_lines": [
+          "Hình bên dưới mô tả dụng cụ dùng và phương pháp để tách các chất lỏng ra khỏi nhau."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Phương pháp sử dụng để tách các chất lỏng trong thí nghiệm là phương pháp chiết.",
+          "b": "Trạng thái các chất ở vị trí A và vị trí B là giống nhau.",
+          "c": "Trong bình cầu (vị trí A) chỉ chứa 1 chất.",
+          "d": "Hỗn hợp A chứa chất cần tách có nhiệt độ sôi khác nhau nhiều chất còn lại."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "NB",
+          "c": "NB",
+          "d": "TH"
+        },
+        "answer": "a:S - b:S - c:S - d:Đ",
+        "solution": "a) Sai. Phương pháp sử dụng là chưng cất thường\nb) Sai. A là chất lỏng, vị trí B là hơi (khí).\nc) Sai. Vị trí A chứa hỗn hợp chất\nd) Đúng.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q221_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 222,
+        "id": "H11-C3-P2-NB-222",
+        "part": "P2",
+        "level": "NB",
+        "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Thêm hexane (một hydrocarbon trong phân tử có 6 nguyên tử carbon) vào dung dịch iodine trong nước, lắc đều rồi để yên. Sau đó thu lấy lớp hữu cơ, làm bay hơi dung môi để thu lấy iodine."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Phương pháp sử dụng thu lấy iodine ở trên là phương pháp chiết lỏng – lỏng.",
+          "b": "Dụng cụ sử dụng trong phương pháp trên gọi là phễu tam giác.",
+          "c": "Để tách riêng phần nước và phần hữu cơ sau khi lắc người ta mở khóa phễu chiết, lần lượt thu được phần nước ở ở và phần hữu cơ ở trên phễu chiết.",
+          "d": "Lớp hữu cơ sau khi lắc có màu tím là do iodine tan trong hexane tốt hơn trong nước nên bị chiết sang lớp hữu cơ."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "NB",
+          "c": "NB",
+          "d": "NB"
+        },
+        "answer": "a:Đ - b:S - c:Đ - d:Đ",
+        "solution": "a) Đúng. Đây là phương pháp chiết lỏng – lỏng, trong đó hai chất lỏng không trộn lẫn (nước và hexane) được sử dụng để tách các chất tan khác nhau dựa trên độ tan của chúng trong từng dung môi.\nb) Sai. Dụng cụ được sử dụng là phễu chiết, không phải phễu tam giác. Phễu chiết có dạng hình nón với khóa để tách các lớp chất lỏng.\nc) Đúng. Hexane có khối lượng riêng nhỏ hơn nước nên nằm ở lớp trên, còn nước nặng hơn nên nằm ở lớp dưới. Khi mở khóa phễu chiết, phần nước được thu trước, sau đó đến phần hữu cơ.\nd) Đúng. Iodine tan trong hexane tốt hơn nước, tạo nên lớp hữu cơ màu tím đặc trưng. Điều này xảy ra do lực liên kết phân tử giữa iodine và hexane thuận lợi hơn so với iodine và nước.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q222_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 223,
+        "id": "H11-C3-P2-NB-223",
+        "part": "P2",
+        "level": "NB",
+        "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Để thực hiện tách sắc tố từ lá cây và tách các nhóm sắc tổ bằng phương pháp hóa học, người ta làm như sau:",
+          "– Giai đoạn 1: Sử dụng lá tươi đã loại bỏ cuống lá và gân chính. Sau đó cắt nhỏ cho vào cối sứ, nghiền nát thật nhuyễn với một ít acetone, sau đó tiếp tục thêm acetone, khuấy đều, lọc qua phễu lọc vào một bình chứa, thu được một hỗn hợp sắc tố màu xanh lục.",
+          "– Giai đoạn 2: Lấy một lượng benzene gấp đôi lượng dịch vừa thu được, cho vào bình, lắc đều, rồi để yên. Vài phút sau quan sát thấy dung dịch màu phân thành 2 lớp:",
+          "Lớp dưới có màu vàng là màu của carotenoid hòa tan trong benzene.",
+          "Lớp trên có màu xanh lục là màu của diệp lục hòa tan trong acetone."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Giai đoạn 1 đã sử dụng phương pháp lọc.",
+          "b": "Giai đoạn 2 đã sử dụng phương pháp chiết lỏng – lỏng.",
+          "c": "Giai đoạn 1 có thể thay acetone bằng nước cất.",
+          "d": "Sau bước 2, lớp chất lỏng phía trên (màu xanh lục) có khối riêng nhẹ hơn lớp chất lỏng phía dưới (màu vàng)."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "NB",
+          "c": "NB",
+          "d": "NB"
+        },
+        "answer": "a:S - b:Đ - c:S - d:Đ",
+        "solution": "a) Sai. Phương pháp chiết: chiết lỏng – rắn.\nb) Đúng.\nc) Sai. Nước không có khả năng hòa tan được chất hữu cơ cần chiết như acetone.\nd) Đúng.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 224,
+        "id": "H11-C3-P2-NB-224",
+        "part": "P2",
+        "level": "NB",
+        "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
           "Benzene thương mại (t~s~ = 80,1 ^o^C) thu được từ quá trình chưng cất nhựa than đá chứa 3 – 5% thiophene (t~s~ = 84,2 ^o^C). Thiophene được loại khỏi benzene bằng cách chiết với dung dịch sulfuric acid đậm đặc. Quá trình tinh chế này dựa trên cơ sở là phản ứng giữa sulfuric acid với thiophene xảy ra dễ dàng hơn nhiều so với benzene. Khi lắc benzene thương mại với dung dịch sulfuric acid đậm đặc, chỉ thiophene phản ứng với sulfuric acid để tạo thành thiolphene – 2 – sulfonic acid tan trong sulfuric acid. Chiết lấy lớp benzene, rửa nhiều lần bằng nước rồi làm khô bằng CuSO~4~ khan và đem chưng cất thu lấy benzene tinh khiết."
         ],
         "opt_lines": [],
@@ -4864,38 +5010,8 @@
         "tables": []
       },
       {
-        "q_num": 222,
-        "id": "H11-C3-P2-NB-222",
-        "part": "P2",
-        "level": "NB",
-        "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Camphor (có trong cây long não) là một chất rắn kết tinh màu trắng hay trong suốt giống như sáp với mùi thơm đặc trưng, thường dùng trong y học. Phần trăm khối lượng các nguyên tố trong camphor lần lượt là: 78,94% carbon, 10,53% hydrogen và 10,53% oxygen. Phổ khối lượng của camphor được cho hình bên dưới:"
-        ],
-        "opt_lines": [],
-        "p2_items": {
-          "a": "Phân tử khối của camphor là 152 ứng với mảnh ion phân tử [M^+^].",
-          "b": "Camphor có tỉ lệ 2 nguyên tố C và H là 5 : 7.",
-          "c": "Tổng số nguyên tử trong phân tử camphor là 27.",
-          "d": "Peak có giá trị m/z là 138 ứng với mảnh ion có tỉ lệ C: H: O = 9: 14: 1."
-        },
-        "item_levels": {
-          "a": "NB",
-          "b": "NB",
-          "c": "NB",
-          "d": "NB"
-        },
-        "answer": "a:Đ - b:S - c:Đ - d:Đ",
-        "solution": "a) Đúng. Peak ion phân tử có giá trị lớn nhất là 152.\nb) Sai. Tỉ lệ 2 nguyên tố C: H = (78,94)/(12):10,531=5:8\nc) Đúng. Tỉ lệ 3 nguyên tố C: H: O = (78,94)/(12):10,531:10,5316=10:16:1\nĐặt CTPT của camphor là (C~10~H~16~O)~k~\nM = 152k = 152 ⇒ k = 1 ⇒ CTPT của camphor là C~10~H~16~O.\nd) Đúng. Mảnh có m/z = 138 = 152 – 14 (mất nhóm CH~2~) ⇒ công thức là C~9~H~14~O.",
-        "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q222_img1.png"
-        ],
-        "tables": []
-      },
-      {
-        "q_num": 223,
-        "id": "H11-C3-P2-TH-223",
+        "q_num": 225,
+        "id": "H11-C3-P2-TH-225",
         "part": "P2",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -4922,8 +5038,8 @@
         "tables": []
       },
       {
-        "q_num": 224,
-        "id": "H11-C3-P2-TH-224",
+        "q_num": 226,
+        "id": "H11-C3-P2-TH-226",
         "part": "P2",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -4947,13 +5063,13 @@
         "answer": "a:Đ - b:Đ - c:Đ - d:S",
         "solution": "a) Đúng. Thêm dần nước nóng để hòa tan hoàn toàn chất rắn chưa tinh khiết.\nb) Đúng. Khi nguội, dung dịch bão hoà sẽ kết tinh → lọc lấy tinh thể.\nc) Sai. Chất bẩn không tan đã được loại từ đầu bằng lọc nóng, không còn trong dung dịch kết tinh.\nd) Sai. Chất bẩn thường không kết tinh lại do điều kiện khác với chất tinh thể nên không lẫn.\n📝Hướng dẫn giải\na) Đúng. Vì chất a bị giữ lại lâu nhất nên bị hấp phụ mạnh nhất trên pha tĩnh.\nb) Đúng. Chất c di chuyển nhanh nhất nên bị hấp phụ yếu nhất.\nc) Đúng. Mức độ hòa tan trong dung môi: a > b > c.\nd) Sai. Sắc kí dựa trên sự khác nhau về khả năng hấp phụ và hòa tan của chất trong dung môi.",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q224_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q226_img1.png"
         ],
         "tables": []
       },
       {
-        "q_num": 225,
-        "id": "H11-C3-P2-VD-225",
+        "q_num": 227,
+        "id": "H11-C3-P2-VD-227",
         "part": "P2",
         "level": "VD",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -4980,8 +5096,8 @@
         "tables": []
       },
       {
-        "q_num": 226,
-        "id": "H11-C3-P2-VD-226",
+        "q_num": 228,
+        "id": "H11-C3-P2-VD-228",
         "part": "P2",
         "level": "VD",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -5008,13 +5124,41 @@
         "answer": "a:S - b:S - c:Đ - d:Đ",
         "solution": "a) Sai vì Dichloromethane (CH₂Cl₂) và chloroform (CHCl₃) đều là dung môi hữu cơ và tan hoàn toàn vào nhau. Vì vậy hỗn hợp chỉ có một pha lỏng, không thể dùng phễu chiết.\nb) Sai vì Không phải mọi hỗn hợp chất lỏng có nhiệt độ sôi khác nhau đều tách được bằng chưng cất thường. nhiệt độ sôi quá gần nhau thì phải dùng chưng cất phân đoạn.\nc) Đúng vì Khi nhiệt kế khoảng 40°C, chủ yếu CH₂Cl₂ bay hơi và ngưng tụ.\nd) Đúng vì Đá bọt tạo tâm sôi, giúp chất lỏng sôi đều, tránh hiện tượng sôi cục bộ, sôi vọt.",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q226_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q228_img1.png"
         ],
         "tables": []
       },
       {
-        "q_num": 227,
-        "id": "H11-C3-P2-NB-227",
+        "q_num": 229,
+        "id": "H11-C3-P2-NB-229",
+        "part": "P2",
+        "level": "NB",
+        "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Khi nghiên cứu thành phần hóa học của tinh dầu quế, người ta thu được nhiều hợp chất hữu cơ trong đó có cinnamaldehyde và o–methoxycinnamaldehyde với công thức cấu tạo:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Hai chất có cùng thành phần nguyên tố.",
+          "b": "Công thức đơn giản nhất của cinnamaldehyde giống với công thức phân tử.",
+          "c": "Hai chất đều có cùng độ bất bão hoà trong hợp chất.",
+          "d": "Trên phổ hồng ngoại (IR) hai chất đều sóng hấp thụ đặc trưng trong khoảng 1740 – 1685 cm^–1^."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "NB",
+          "c": "NB",
+          "d": "NB"
+        },
+        "answer": "a:Đ - b:Đ - c:Đ - d:Đ",
+        "solution": "a) Đúng. Cả hai chất đều chứa các nguyên tố: C, H, O.\nb) Đúng. Cinnamaldehyde có công thức phân tử là C~9~H~8~O.\nc) Đúng. Cả hai chất đều có số liên kết đôi và vòng giống nhau → có cùng mức độ bất bão hòa.\nd) Đúng. Cả hai chất đều có nhóm aldehyde (–CHO), nhóm này có đặc trưng hấp thụ IR trong khoảng 1740–1685 cm⁻¹.",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 230,
+        "id": "H11-C3-P2-NB-230",
         "part": "P2",
         "level": "NB",
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
@@ -5038,13 +5182,43 @@
         "answer": "a:Đ - b:S - c:S - d:Đ",
         "solution": "a) Đúng. Do %C + %H = 84,21% + 15,79% = 100%.\nb) Sai. peak ion phân tử [X^+^] có giá trị m/z = 114.\nc) Sai. Tỉ lệ C:H=(84,21)/(12):15,791=4:9\nd) Đúng. (C~4~H~9~)~k~ = 114 ⇒k = 2. Vậy công thức phân tử của X là C~8~H~18~ ⇒ Tổng số nguyên tử là 26.",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q227_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q230_img1.png"
         ],
         "tables": []
       },
       {
-        "q_num": 228,
-        "id": "H11-C3-P2-NB-228",
+        "q_num": 231,
+        "id": "H11-C3-P2-NB-231",
+        "part": "P2",
+        "level": "NB",
+        "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Camphor (có trong cây long não) là một chất rắn kết tinh màu trắng hay trong suốt giống như sáp với mùi thơm đặc trưng, thường dùng trong y học. Phần trăm khối lượng các nguyên tố trong camphor lần lượt là: 78,94% carbon, 10,53% hydrogen và 10,53% oxygen. Phổ khối lượng của camphor được cho hình bên dưới:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Phân tử khối của camphor là 152 ứng với mảnh ion phân tử [M^+^].",
+          "b": "Camphor có tỉ lệ 2 nguyên tố C và H là 5 : 7.",
+          "c": "Tổng số nguyên tử trong phân tử camphor là 27.",
+          "d": "Peak có giá trị m/z là 138 ứng với mảnh ion có tỉ lệ C: H: O = 9: 14: 1."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "NB",
+          "c": "NB",
+          "d": "NB"
+        },
+        "answer": "a:Đ - b:S - c:Đ - d:Đ",
+        "solution": "a) Đúng. Peak ion phân tử có giá trị lớn nhất là 152.\nb) Sai. Tỉ lệ 2 nguyên tố C: H = (78,94)/(12):10,531=5:8\nc) Đúng. Tỉ lệ 3 nguyên tố C: H: O = (78,94)/(12):10,531:10,5316=10:16:1\nĐặt CTPT của camphor là (C~10~H~16~O)~k~\nM = 152k = 152 ⇒ k = 1 ⇒ CTPT của camphor là C~10~H~16~O.\nd) Đúng. Mảnh có m/z = 138 = 152 – 14 (mất nhóm CH~2~) ⇒ công thức là C~9~H~14~O.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q231_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 232,
+        "id": "H11-C3-P2-NB-232",
         "part": "P2",
         "level": "NB",
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
@@ -5068,13 +5242,13 @@
         "answer": "a:S - b:S - c:S - d:Đ",
         "solution": "Tỉ lệ nguyên tử C:H:O=73,1712:7,321:(100-73,17-7,32)/(16)=5:6:1\nTừ phổ khối xác định phân tử khối của X = 164.\n[C~5~H~6~O]~k~ = 164 ⇒  k = 2 (C~10~H~12~O~2~).\na) Sai. 2 phương pháp sử dụng là chưng cất và chiết.\nb) Sai. X nặng hơn nước nên nằm ở phía dưới\nc) Sai. Tỉ lệ nguyên tử H và O trong X là 6: 1.\nd) Đúng. Tổng số nguyên tử = 10 +12 +2 = 24.",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q228_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q232_img1.png"
         ],
         "tables": []
       },
       {
-        "q_num": 229,
-        "id": "H11-C3-P2-NB-229",
+        "q_num": 233,
+        "id": "H11-C3-P2-NB-233",
         "part": "P2",
         "level": "NB",
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
@@ -5125,36 +5299,8 @@
         ]
       },
       {
-        "q_num": 230,
-        "id": "H11-C3-P2-NB-230",
-        "part": "P2",
-        "level": "NB",
-        "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Thành phần phần trăm về khối lượng nguyên tố có trong hợp chất X là 85,7% C và 14,3% H. Phổ MS cho thấy X có phân tử khối là 56."
-        ],
-        "opt_lines": [],
-        "p2_items": {
-          "a": "Công thức thực nghiệm của X là CH~2~.",
-          "b": "Công thức phân tử của X là C~3~H~6~.",
-          "c": "Nếu X là hydrocarrbon mạch ở không phân nhánh thì công thức cấu tạo thu gọn của X có thể là CH~2~ = CH – CH~2~ – CH~3~",
-          "d": "Nếu X là hydrocarbon mạch hở, phân nhánh thì công thức cấu tạo thu gọn của X là CH~3~ – CH(CH~3~) – CH~3~."
-        },
-        "item_levels": {
-          "a": "NB",
-          "b": "NB",
-          "c": "NB",
-          "d": "NB"
-        },
-        "answer": "a:Đ - b:S - c:Đ - d:S",
-        "solution": "a) Đúng.\nTa có: x: y = (85,7)/(12):14,31=7,14:14,3=1:2 ⇒ Công thức thực nghiệm của X là CH~2~.\nb) Sai.\nCông thức phân tử của X có dạng (CH~2~)~n~ ⇒ M~X~ = 14n = 56 ⇒ n = 4 ⇒ CTPT của X: C~4~H~8~\nc) Đúng.\nd) Sai. X là hydrocarbon mạch hở, phân nhánh:",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 231,
-        "id": "H11-C3-P2-TH-231",
+        "q_num": 234,
+        "id": "H11-C3-P2-TH-234",
         "part": "P2",
         "level": "TH",
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
@@ -5181,8 +5327,8 @@
         "tables": []
       },
       {
-        "q_num": 232,
-        "id": "H11-C3-P2-TH-232",
+        "q_num": 235,
+        "id": "H11-C3-P2-TH-235",
         "part": "P2",
         "level": "TH",
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
@@ -5209,8 +5355,8 @@
         "tables": []
       },
       {
-        "q_num": 233,
-        "id": "H11-C3-P2-TH-233",
+        "q_num": 236,
+        "id": "H11-C3-P2-TH-236",
         "part": "P2",
         "level": "TH",
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
@@ -5271,8 +5417,8 @@
         ]
       },
       {
-        "q_num": 234,
-        "id": "H11-C3-P2-TH-234",
+        "q_num": 237,
+        "id": "H11-C3-P2-TH-237",
         "part": "P2",
         "level": "TH",
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
@@ -5299,8 +5445,8 @@
         "tables": []
       },
       {
-        "q_num": 235,
-        "id": "H11-C3-P2-VD-235",
+        "q_num": 238,
+        "id": "H11-C3-P2-VD-238",
         "part": "P2",
         "level": "VD",
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
@@ -5327,205 +5473,8 @@
         "tables": []
       },
       {
-        "q_num": 236,
-        "id": "H11-C3-P2-NB-236",
-        "part": "P2",
-        "level": "NB",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Từ một loài dương xỉ phổ biến thuộc họ Gleiche–niaceae, một nhóm nghiên cứu đã phân lập được hợp chất X có cấu tạo như sau:"
-        ],
-        "opt_lines": [],
-        "p2_items": {},
-        "item_levels": {
-          "a": "NB",
-          "b": "NB",
-          "c": "NB",
-          "d": "NB"
-        },
-        "answer": "",
-        "solution": "",
-        "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q236_img1.png"
-        ],
-        "tables": []
-      },
-      {
-        "q_num": 237,
-        "id": "H11-C3-P2-NB-237",
-        "part": "P2",
-        "level": "NB",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Geraniol có trong tinh dầu hoa được sử dụng phổ biến trong công nghiệp hương liệu, thực phẩm,… vì có mùi thơm đặc trưng. Citral có trong tinh dầu sả có tác dụng an thần đối với hệ thần kinh, loại bỏ tế bào chết và chất nhờn trên da, hạ sốt, lợi tiểu, chống đầy hơi, khử trùng và kháng khuẩn mạnh. Geraniol và citral có cấu tạo như hình sau:",
-          "Geraniol",
-          "Citral"
-        ],
-        "opt_lines": [],
-        "p2_items": {
-          "a": "Geraniol có chứa nhóm chức alcohol, citral chứa nhóm chức ketone.",
-          "b": "Geraniol thuộc loại hydrocarbon.",
-          "c": "Số sóng hấp thụ đặc trưng trên phổ IR của nhóm C=O trong citral khoảng 1740–1685 cm^–^^1^.",
-          "d": "Số sóng hấp thụ đặc trưng trên phổ IR của nhóm O–H trong geraniol khoảng 1760 – 1690 cm^–^^1^."
-        },
-        "item_levels": {
-          "a": "NB",
-          "b": "NB",
-          "c": "NB",
-          "d": "NB"
-        },
-        "answer": "a:S - b:S - c:Đ - d:S",
-        "solution": "a) Sai. Geraniol chứa nhóm chức alcohol –OH, còn citral chứa nhóm chức aldehyde chứ không phải ketone.\nb) Sai. Geraniol là dẫn xuất hydrocarbon có chứa nhóm –OH.\nc) Đúng. Nhóm C=O trong aldehyde (citral) hấp thụ IR ở khoảng 1740–1685 cm⁻¹.\nd) Sai. Nhóm –OH (alcohol) trong geraniol hấp thụ IR khoảng 3200–3600 cm⁻¹.",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 238,
-        "id": "H11-C3-P2-NB-238",
-        "part": "P2",
-        "level": "NB",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Phổ IR cung cấp thông tin về các mức năng lượng dao động và xoay của các liên kết hóa học trong một phân tử. Hình ảnh minh họa của phổ IR được mô tả dưới đây:"
-        ],
-        "opt_lines": [],
-        "p2_items": {
-          "a": "Thông qua việc phân tích phổ IR, ta có thể dự đoán được sự có mặt của các nhóm chức xuất hiện trong một hợp chất nghiên cứu.",
-          "b": "Trên phổ hồng ngoại, trục nằm ngang biểu diễn số sóng (cm^–^^1^) còn trục thẳng đứng biểu diễn cường độ truyền qua hoặc độ hấp thụ (theo %).",
-          "c": "Trên phổ IR có các tín hiệu (peak) của cực đại hấp thụ (hoặc cực tiểu truyền qua) ứng với những dao động đặc trưng của các nhóm chức.",
-          "d": "Dùng tín hiệu từ phổ IR có thể quy kết được hoàn toàn công thức cấu tạo của một hợp chất bất kỳ."
-        },
-        "item_levels": {
-          "a": "NB",
-          "b": "NB",
-          "c": "NB",
-          "d": "NB"
-        },
-        "answer": "a:Đ - b:Đ - c:Đ - d:S",
-        "solution": "a) Đúng. Phổ IR cho phép xác định sự có mặt của nhóm chức nhờ vào vị trí các vạch hấp thụ đặc trưng.\nb) Đúng. Trục hoành là số sóng (cm⁻¹), trục tung thể hiện phần trăm truyền qua hoặc hấp thụ (%).\nc) Đúng. Các cực đại hấp thụ (peak) tương ứng với dao động đặc trưng của liên kết trong nhóm chức.\nd) Sai. Phổ IR chỉ giúp xác định nhóm chức, không thể xác định hoàn toàn cấu trúc của hợp chất bất kỳ.",
-        "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q238_img1.png"
-        ],
-        "tables": []
-      },
-      {
         "q_num": 239,
         "id": "H11-C3-P2-NB-239",
-        "part": "P2",
-        "level": "NB",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Kết quả phổ IR của một hợp chất hữu cơ (X) được thể hiện qua hình dưới đây:",
-          "Bảng tín hiệu phổ hồng ngoại của một số nhóm chức cơ bản"
-        ],
-        "opt_lines": [],
-        "p2_items": {
-          "a": "Phổ IR của (X) có tín hiệu của amine bậc 1.",
-          "b": "Phổ IR của (X) có tín hiệu của –OH trong alcohol.",
-          "c": "Phổ IR của (X) có tín hiệu của –C=O trong ketone.",
-          "d": "Phổ IR của (X) có tín hiệu của –OH trong carboxylic acid."
-        },
-        "item_levels": {
-          "a": "NB",
-          "b": "NB",
-          "c": "NB",
-          "d": "NB"
-        },
-        "answer": "a:S",
-        "solution": "a) Sai. Không có tín hiệu ở khoảng 3300 – 3000 cm⁻¹ nên không có nhóm –NH (amine bậc 1).",
-        "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q239_img1.png"
-        ],
-        "tables": [
-          [
-            [
-              "Hợp chất",
-              "Liên kết",
-              "Số sóng (cm^–^^1^)"
-            ],
-            [
-              "Alcohol",
-              "O – H",
-              "3500 – 3200"
-            ],
-            [
-              "Amine",
-              "N – H",
-              "3300 – 3000"
-            ],
-            [
-              "Aldehyde",
-              "C – H",
-              "2830 – 2695"
-            ],
-            [
-              "Aldehyde",
-              "C = O",
-              "1740 – 1685"
-            ],
-            [
-              "Ketone",
-              "C = O",
-              "1715 – 1666"
-            ],
-            [
-              "Carboxylic acid",
-              "C = O",
-              "1760 – 1690"
-            ],
-            [
-              "Carboxylic acid",
-              "O – H",
-              "3300 – 2500"
-            ],
-            [
-              "Ester",
-              "C = O",
-              "1750 – 1715"
-            ],
-            [
-              "Ester",
-              "C – O",
-              "1300 – 1000"
-            ]
-          ]
-        ]
-      },
-      {
-        "q_num": 240,
-        "id": "H11-C3-P2-NB-240",
-        "part": "P2",
-        "level": "NB",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Khi nghiên cứu thành phần hóa học của tinh dầu quế, người ta thu được nhiều hợp chất hữu cơ trong đó có cinnamaldehyde và o–methoxycinnamaldehyde với công thức cấu tạo:"
-        ],
-        "opt_lines": [],
-        "p2_items": {
-          "a": "Hai chất có cùng thành phần nguyên tố.",
-          "b": "Công thức đơn giản nhất của cinnamaldehyde giống với công thức phân tử.",
-          "c": "Hai chất đều có cùng độ bất bão hoà trong hợp chất.",
-          "d": "Trên phổ hồng ngoại (IR) hai chất đều sóng hấp thụ đặc trưng trong khoảng 1740 – 1685 cm^–1^."
-        },
-        "item_levels": {
-          "a": "NB",
-          "b": "NB",
-          "c": "NB",
-          "d": "NB"
-        },
-        "answer": "a:Đ - b:Đ - c:Đ - d:Đ",
-        "solution": "a) Đúng. Cả hai chất đều chứa các nguyên tố: C, H, O.\nb) Đúng. Cinnamaldehyde có công thức phân tử là C~9~H~8~O.\nc) Đúng. Cả hai chất đều có số liên kết đôi và vòng giống nhau → có cùng mức độ bất bão hòa.\nd) Đúng. Cả hai chất đều có nhóm aldehyde (–CHO), nhóm này có đặc trưng hấp thụ IR trong khoảng 1740–1685 cm⁻¹.",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 241,
-        "id": "H11-C3-P2-NB-241",
         "part": "P2",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -5537,7 +5486,8 @@
         "p2_items": {
           "a": "(A) và (B) là đồng phân vị trí nhóm chức của nhau.",
           "b": "(A) và (B) đều có cùng công thức phân tử C~2~H~6~O.",
-          "c": "Hợp chất A có thể phản ứng được với một số kim loại kim loại (như như Na, K,…) giải phóng khí H~2~, còn hợp chất B thì không có tính chất này."
+          "c": "Hợp chất A có thể phản ứng được với một số kim loại kim loại (như như Na, K,…) giải phóng khí H~2~, còn hợp chất B thì không có tính chất này.",
+          "d": "(A) có chứa nhóm chức alcohol, (B) có chứa nhóm chức ether."
         },
         "item_levels": {
           "a": "TH",
@@ -5545,16 +5495,16 @@
           "c": "NB",
           "d": "NB"
         },
-        "answer": "",
-        "solution": "",
+        "answer": "a:S - b:Đ - c:Đ - d:Đ",
+        "solution": "a) Sai. A và B là đồng phân cấu tạo, không phải đồng phân vị trí nhóm chức.\nb) Đúng. Cả hai đều có công thức phân tử C₂H₆O.\nc) Đúng. A là rượu (ethanol) phản ứng với Na, K giải phóng H₂; B là ether nên không phản ứng.\nd) Đúng. A có nhóm chức alcohol (–OH), B có nhóm chức ether (–O–).",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q241_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q239_img1.png"
         ],
         "tables": []
       },
       {
-        "q_num": 242,
-        "id": "H11-C3-P2-NB-242",
+        "q_num": 240,
+        "id": "H11-C3-P2-NB-240",
         "part": "P2",
         "level": "NB",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -5577,6 +5527,64 @@
         },
         "answer": "a:Đ - b:Đ - c:S - d:Đ",
         "solution": "a) Đúng. Vòng 5 cạnh và vòng 6 cạnh trong phân tử nicotine không đồng phẳng do sự lai hóa và không gian phân tử khác nhau.\nb) Đúng. Oxi hóa hoàn toàn nicotine tạo CO₂, H₂O và N₂: C₁₀H₁₄N₂ + O₂ → CO₂ + H₂O + N₂.\nc) Sai. Công thức phân tử của nicotine là C₁₀H₁₄N₂ chứ không phải C₁₀H₁₆N₂.\nd) Đúng. Nguyên tử N trong vòng 5 cạnh có 5 electron lớp ngoài, góp 3 electron tạo liên kết nên còn 1 cặp electron chưa tham gia liên kết.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q240_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 241,
+        "id": "H11-C3-P2-NB-241",
+        "part": "P2",
+        "level": "NB",
+        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Thành phần phần trăm về khối lượng nguyên tố có trong hợp chất X là 85,7% C và 14,3% H. Phổ MS cho thấy X có phân tử khối là 56."
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Công thức thực nghiệm của X là CH~2~.",
+          "b": "Công thức phân tử của X là C~3~H~6~.",
+          "c": "Nếu X là hydrocarrbon mạch ở không phân nhánh thì công thức cấu tạo thu gọn của X có thể là CH~2~ = CH – CH~2~ – CH~3~",
+          "d": "Nếu X là hydrocarbon mạch hở, phân nhánh thì công thức cấu tạo thu gọn của X là CH~3~ – CH(CH~3~) – CH~3~."
+        },
+        "item_levels": {
+          "a": "NB",
+          "b": "NB",
+          "c": "NB",
+          "d": "NB"
+        },
+        "answer": "a:Đ - b:S - c:Đ - d:S",
+        "solution": "a) Đúng.\nTa có: x: y = (85,7)/(12):14,31=7,14:14,3=1:2 ⇒ Công thức thực nghiệm của X là CH~2~.\nb) Sai.\nCông thức phân tử của X có dạng (CH~2~)~n~ ⇒ M~X~ = 14n = 56 ⇒ n = 4 ⇒ CTPT của X: C~4~H~8~\nc) Đúng.\nd) Sai. X là hydrocarbon mạch hở, phân nhánh:",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 242,
+        "id": "H11-C3-P2-TH-242",
+        "part": "P2",
+        "level": "TH",
+        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Giải Nobel Hóa học năm 2021 được trao cho 2 nhà khoa học Benjamin List và David W.C. MacMillan “cho sự phát triển quá trình xúc tác hữu cơ bất đối xứng”, mở ra các ứng dụng trong việc xây dựng phân tử. Trong đó Benjamin List đã sử dụng prolin làm xúc tác cho phản ứng cộng andol. Prolin có công thức cấu tạo như sau:"
+        ],
+        "opt_lines": [],
+        "p2_items": {
+          "a": "Phần trăm khối lượng của oxygen trong prolin là 26,09%.",
+          "b": "Prolin có cấu tạo mạch vòng.",
+          "c": "Phân tử prolin chứa 17 nguyên tử của các nguyên tố.",
+          "d": "Prolin có chứa một nhóm chức alcohol."
+        },
+        "item_levels": {
+          "a": "VD",
+          "b": "NB",
+          "c": "NB",
+          "d": "NB"
+        },
+        "answer": "a:S - b:Đ - c:Đ - d:S",
+        "solution": "a) Sai. Phần trăm khối lượng O trong Prolin là 27,83%, không phải 26,09%.\nb) Đúng. Prolin có cấu trúc vòng ngũ giác, là amino acid duy nhất có cấu trúc mạch vòng.\nc) Đúng. Công thức phân tử là C₅H₉O₂N, gồm 17 nguyên tử.\nd) Sai. Prolin không chứa nhóm OH tự do nên không có nhóm chức alcohol, mà chứa nhóm amine và nhóm carboxylic acid.",
         "image_paths": [
           "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q242_img1.png"
         ],
@@ -5761,17 +5769,15 @@
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
         "source_tag": "[THPT Châu Văn Liêm – 2026]",
         "stem_lines": [
-          "Glutamic acid có công thức dưới đây:",
-          "Có bao nhiêu nguyên tố khác nhau có trong glutamic acid?"
+          "Sự kết hợp của bốn nguyên tử carbon với nhau có thể hình thành các loại mạch carbon như ở hình dưới:",
+          "Số chất có cấu tạo mạch hở là bao nhiêu?"
         ],
         "opt_lines": [],
         "p2_items": {},
         "item_levels": {},
-        "answer": "4",
-        "solution": "Đáp án: 4. Gồm C, H, O, N.",
-        "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q250_img1.png"
-        ],
+        "answer": "2",
+        "solution": "Đáp án: 2. Gồm 1 và 3",
+        "image_paths": [],
         "tables": []
       },
       {
@@ -5782,14 +5788,18 @@
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
         "source_tag": "[THPT Châu Văn Liêm – 2026]",
         "stem_lines": [
-          "Cho các chất sau: C~2~H~6~O, C~3~H~8~O~3~, C~4~H~8~O~2~, C~6~H~12~O~6~, và C~10~H~20~O. Có bao nhiêu chất trong số các chất trên có công thức đơn giản nhất là CH~2~O?"
+          "Cho hai hợp chất hữu cơ có cấu tạo như sau:",
+          "Có bao nhiêu nhóm chức ether đã xuất hiện trong cả hai hợp chất trên?"
         ],
         "opt_lines": [],
         "p2_items": {},
         "item_levels": {},
-        "answer": "1",
-        "solution": "Đáp án: 1. Gồm C~6~H~12~O~6~",
-        "image_paths": [],
+        "answer": "6",
+        "solution": "Đáp án: 6.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q251_img1.png",
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q251_img2.png"
+        ],
         "tables": []
       },
       {
@@ -5800,62 +5810,21 @@
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
         "source_tag": "[THPT Châu Văn Liêm – 2026]",
         "stem_lines": [
-          "Các hợp chất acetic acid (CH~3~COOH), lactic acid (CH~3~CH(OH)COOH), glucose (C~6~H~12~O~6~) có cùng công thức đơn giản nhất. Tổng số lượng các nguyên tử trong công thức đơn giản nhất là bao nhiêu?"
-        ],
-        "opt_lines": [],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "4",
-        "solution": "Đáp án: 4. Các chất có cùng công thức đơn giản nhất là CH~2~O",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 253,
-        "id": "H11-C3-P3-TH-253",
-        "part": "P3",
-        "level": "TH",
-        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Trong các dãy chất sau đây, có bao nhiêu dãy gồm các chất là đồng đẳng của nhau?",
-          "(1) C~2~H~6~, CH~4~, C~4~H~10~;\t\t(2) C~2~H~5~OH, CH~3~CH~2~CH~2~OH;",
-          "(3) CH~3~OCH~3~, CH~3~CHO; \t\t(4) CH~3~COOH, HCOOH, C~2~H~3~COOH"
+          "Hợp chất hữu cơ có 2 nhóm chức giống nhau trở lên gọi là  đa chức, có 2 nhóm chức khác nhau trở lên gọi là tạp chức. Có bao nhiêu hợp chất tạp chức trong số các chất dưới đây:"
         ],
         "opt_lines": [],
         "p2_items": {},
         "item_levels": {},
         "answer": "2",
-        "solution": "Đáp án: 2. Bao gồm: (1), (2).",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 254,
-        "id": "H11-C3-P3-TH-254",
-        "part": "P3",
-        "level": "TH",
-        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Cho các chất sau:",
-          "(a) CH~3~CH~2~OH                              \t\t(e) (CH~3~)~2~CHCH~2~CH~2~OH",
-          "(b) CH~3~CH~2~CH~2~OH                        \t(g) (CH~3~)~3~COH",
-          "(c) (CH~3~)~2~CHOH                             \t(h) HOCH~2~CH~2~OH",
-          "(d) (CH~3~)~2~CHCH~2~OH",
-          "Có bao nhiêu chất thuộc dãy đồng đẳng của CH~3~OH (methanol)?"
+        "solution": "Đáp án: 2.\nHợp chất tạp chức:\n;",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q252_img1.png"
         ],
-        "opt_lines": [],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "6",
-        "solution": "Đáp án: 6. Bao gồm (a), (b), (c), (d), (e), (g).",
-        "image_paths": [],
         "tables": []
       },
       {
-        "q_num": 255,
-        "id": "H11-C3-P3-VD-255",
+        "q_num": 253,
+        "id": "H11-C3-P3-VD-253",
         "part": "P3",
         "level": "VD",
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
@@ -5872,6 +5841,48 @@
         "tables": []
       },
       {
+        "q_num": 254,
+        "id": "H11-C3-P3-VD-254",
+        "part": "P3",
+        "level": "VD",
+        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho phổ hồng ngoại sau:",
+          "Số sóng hấp thụ đặc trưng của nhóm – OH trên phổ hồng ngoại trên là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "3337",
+        "solution": "Đáp án: 3337",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q254_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 255,
+        "id": "H11-C3-P3-VD-255",
+        "part": "P3",
+        "level": "VD",
+        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho phổ hồng ngoại sau:",
+          "Số sóng hấp thụ đặc trưng của nhóm C = O (ketone) có giá trị bao nhiêu cm^-1^?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "1686",
+        "solution": "Đáp án: 1686",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q255_img1.png"
+        ],
+        "tables": []
+      },
+      {
         "q_num": 256,
         "id": "H11-C3-P3-VD-256",
         "part": "P3",
@@ -5879,14 +5890,14 @@
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
         "source_tag": "[THPT Châu Văn Liêm – 2026]",
         "stem_lines": [
-          "Phương pháp sắc kĩ cột có thể được dùng để tách các hợp chất estriol, estradiol và estrone. Sau một thời gian có sự tách các chất như trong sơ đồ sau:",
-          "Nếu đánh số thứ tự các chất estriol, estradiol và estrone theo thứ tự 1, 2, 3.  Sắp xếp các chất (ghi số thứ tự, viết liền không cách) theo thứ tự giảm dần khả năng hấp phụ bởi pha tĩnh."
+          "Hợp chất Y có công thức phân tử C~4~H~8~O, là một hợp chất dễ bay hơi. Phổ IR của hợp chất Y được như sau:",
+          "Peak đặc trưng được đánh số từ 1 đến 3 và giá trị trong ngoặc là số sóng hấp thụ. Dựa vào phổ IR, hãy cho biết tổ hợp peak nào (ghi số thứ tự tăng dần) giúp dự đoán được trong Y có nhóm chức aldehyde."
         ],
         "opt_lines": [],
         "p2_items": {},
         "item_levels": {},
-        "answer": "123",
-        "solution": "Đáp án: 123",
+        "answer": "13",
+        "solution": "Đáp án: 13. Peak 1 đặc trưng cho liên kết C–H trong (–CH=O)\n3 đặc trưng cho liên kết C=O trong (–CH=O)",
         "image_paths": [
           "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q256_img1.png"
         ],
@@ -5900,37 +5911,20 @@
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
         "source_tag": "[THPT Châu Văn Liêm – 2026]",
         "stem_lines": [
-          "Hòa tan 50 gam đường glucose (C~6~H~12~O~6~) vào 250 gam nước ở 20 ^o^C thì thu được dung dịch bão hoà. Độ tan của đường ở 20 ^o^C là bao nhiêu? (Kết quả làm tròn đến hàng đơn vị)."
+          "Cho các chất có công thức cấu tạo sau:",
+          "Có mấy chất trong các chất trên có tín hiệu trên phổ hồng ngoại ở khoảng tần số 1750 – 1680 cm^–^^1^?"
         ],
         "opt_lines": [],
         "p2_items": {},
         "item_levels": {},
-        "answer": "20",
-        "solution": "Đáp án: 20. Độ tan của đường ở 20^o^C là: S=(mct)/(mHO₂)×100=25050×100=20(gam/100g H~2~O)",
+        "answer": "2",
+        "solution": "Đáp án: 2: Chất 3 và chất 4.",
         "image_paths": [],
         "tables": []
       },
       {
         "q_num": 258,
         "id": "H11-C3-P3-VD-258",
-        "part": "P3",
-        "level": "VD",
-        "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Cho các chất: C~2~H~4~; C~6~H~6~, C~4~H~8~, C~5~H~1~~2~. Có bao nhiêu chất có cùng phần trăm khối lượng nguyên tố carbon trong phân tử?"
-        ],
-        "opt_lines": [],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "2",
-        "solution": "Đáp án: 2. Gồm C~2~H~4~; C~4~H~8~",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 259,
-        "id": "H11-C3-P3-VD-259",
         "part": "P3",
         "level": "VD",
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
@@ -5947,8 +5941,8 @@
         "tables": []
       },
       {
-        "q_num": 260,
-        "id": "H11-C3-P3-VD-260",
+        "q_num": 259,
+        "id": "H11-C3-P3-VD-259",
         "part": "P3",
         "level": "VD",
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
@@ -5965,8 +5959,8 @@
         "tables": []
       },
       {
-        "q_num": 261,
-        "id": "H11-C3-P3-VD-261",
+        "q_num": 260,
+        "id": "H11-C3-P3-VD-260",
         "part": "P3",
         "level": "VD",
         "topic": "Bài 8: Hợp chất hữu cơ và hóa học hữu cơ",
@@ -5983,8 +5977,8 @@
         "tables": []
       },
       {
-        "q_num": 262,
-        "id": "H11-C3-P3-TH-262",
+        "q_num": 261,
+        "id": "H11-C3-P3-TH-261",
         "part": "P3",
         "level": "TH",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -5999,13 +5993,13 @@
         "answer": "2413",
         "solution": "Đáp án: 2413\na) Hòa tan hỗn hợp chất rắn (benzoic acid lẫn tạp chất) ở nhiệt độ sôi của dung môi (nước) để tạo dung dịch bão hoà.\nb) Lọc nóng để loại bỏ phần chất rắn không tan.\nc) Để nguội phần dung dịch lọc.\nd) Lọc lấy chất rắn (benzoic acid) kết tinh.",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q262_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q261_img1.png"
         ],
         "tables": []
       },
       {
-        "q_num": 263,
-        "id": "H11-C3-P3-VD-263",
+        "q_num": 262,
+        "id": "H11-C3-P3-VD-262",
         "part": "P3",
         "level": "VD",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -6027,8 +6021,8 @@
         "tables": []
       },
       {
-        "q_num": 264,
-        "id": "H11-C3-P3-VD-264",
+        "q_num": 263,
+        "id": "H11-C3-P3-VD-263",
         "part": "P3",
         "level": "VD",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -6045,8 +6039,8 @@
         "tables": []
       },
       {
-        "q_num": 265,
-        "id": "H11-C3-P3-VD-265",
+        "q_num": 264,
+        "id": "H11-C3-P3-VD-264",
         "part": "P3",
         "level": "VD",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -6063,8 +6057,8 @@
         "tables": []
       },
       {
-        "q_num": 266,
-        "id": "H11-C3-P3-VD-266",
+        "q_num": 265,
+        "id": "H11-C3-P3-VD-265",
         "part": "P3",
         "level": "VD",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -6086,8 +6080,8 @@
         "tables": []
       },
       {
-        "q_num": 267,
-        "id": "H11-C3-P3-VD-267",
+        "q_num": 266,
+        "id": "H11-C3-P3-VD-266",
         "part": "P3",
         "level": "VD",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -6110,8 +6104,47 @@
         "tables": []
       },
       {
+        "q_num": 267,
+        "id": "H11-C3-P3-VD-267",
+        "part": "P3",
+        "level": "VD",
+        "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Phương pháp sắc kĩ cột có thể được dùng để tách các hợp chất estriol, estradiol và estrone. Sau một thời gian có sự tách các chất như trong sơ đồ sau:",
+          "Nếu đánh số thứ tự các chất estriol, estradiol và estrone theo thứ tự 1, 2, 3.  Sắp xếp các chất (ghi số thứ tự, viết liền không cách) theo thứ tự giảm dần khả năng hấp phụ bởi pha tĩnh."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "123",
+        "solution": "Đáp án: 123",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q267_img1.png"
+        ],
+        "tables": []
+      },
+      {
         "q_num": 268,
         "id": "H11-C3-P3-VD-268",
+        "part": "P3",
+        "level": "VD",
+        "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Hòa tan 50 gam đường glucose (C~6~H~12~O~6~) vào 250 gam nước ở 20 ^o^C thì thu được dung dịch bão hoà. Độ tan của đường ở 20 ^o^C là bao nhiêu? (Kết quả làm tròn đến hàng đơn vị)."
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "20",
+        "solution": "Đáp án: 20. Độ tan của đường ở 20^o^C là: S=(mct)/(mHO₂)×100=25050×100=20(gam/100g H~2~O)",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 269,
+        "id": "H11-C3-P3-VD-269",
         "part": "P3",
         "level": "VD",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -6128,8 +6161,8 @@
         "tables": []
       },
       {
-        "q_num": 269,
-        "id": "H11-C3-P3-VD-269",
+        "q_num": 270,
+        "id": "H11-C3-P3-VD-270",
         "part": "P3",
         "level": "VD",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -6146,8 +6179,8 @@
         "tables": []
       },
       {
-        "q_num": 270,
-        "id": "H11-C3-P3-VD-270",
+        "q_num": 271,
+        "id": "H11-C3-P3-VD-271",
         "part": "P3",
         "level": "VD",
         "topic": "Bài 9: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
@@ -6164,8 +6197,65 @@
         "tables": []
       },
       {
-        "q_num": 271,
-        "id": "H11-C3-P3-VD-271",
+        "q_num": 272,
+        "id": "H11-C3-P3-TH-272",
+        "part": "P3",
+        "level": "TH",
+        "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Glutamic acid có công thức dưới đây:",
+          "Có bao nhiêu nguyên tố khác nhau có trong glutamic acid?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án: 4. Gồm C, H, O, N.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q272_img1.png"
+        ],
+        "tables": []
+      },
+      {
+        "q_num": 273,
+        "id": "H11-C3-P3-TH-273",
+        "part": "P3",
+        "level": "TH",
+        "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các chất sau: C~2~H~6~O, C~3~H~8~O~3~, C~4~H~8~O~2~, C~6~H~12~O~6~, và C~10~H~20~O. Có bao nhiêu chất trong số các chất trên có công thức đơn giản nhất là CH~2~O?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "1",
+        "solution": "Đáp án: 1. Gồm C~6~H~12~O~6~",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 274,
+        "id": "H11-C3-P3-TH-274",
+        "part": "P3",
+        "level": "TH",
+        "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Các hợp chất acetic acid (CH~3~COOH), lactic acid (CH~3~CH(OH)COOH), glucose (C~6~H~12~O~6~) có cùng công thức đơn giản nhất. Tổng số lượng các nguyên tử trong công thức đơn giản nhất là bao nhiêu?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "4",
+        "solution": "Đáp án: 4. Các chất có cùng công thức đơn giản nhất là CH~2~O",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 275,
+        "id": "H11-C3-P3-VD-275",
         "part": "P3",
         "level": "VD",
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
@@ -6182,8 +6272,8 @@
         "tables": []
       },
       {
-        "q_num": 272,
-        "id": "H11-C3-P3-VD-272",
+        "q_num": 276,
+        "id": "H11-C3-P3-VD-276",
         "part": "P3",
         "level": "VD",
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
@@ -6200,8 +6290,8 @@
         "tables": []
       },
       {
-        "q_num": 273,
-        "id": "H11-C3-P3-VD-273",
+        "q_num": 277,
+        "id": "H11-C3-P3-VD-277",
         "part": "P3",
         "level": "VD",
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
@@ -6218,8 +6308,8 @@
         "tables": []
       },
       {
-        "q_num": 274,
-        "id": "H11-C3-P3-VD-274",
+        "q_num": 278,
+        "id": "H11-C3-P3-VD-278",
         "part": "P3",
         "level": "VD",
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
@@ -6236,8 +6326,8 @@
         "tables": []
       },
       {
-        "q_num": 275,
-        "id": "H11-C3-P3-VD-275",
+        "q_num": 279,
+        "id": "H11-C3-P3-VD-279",
         "part": "P3",
         "level": "VD",
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
@@ -6252,13 +6342,31 @@
         "answer": "60",
         "solution": "Đáp án: 60.",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q275_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q279_img1.png"
         ],
         "tables": []
       },
       {
-        "q_num": 276,
-        "id": "H11-C3-P3-VD-276",
+        "q_num": 280,
+        "id": "H11-C3-P3-VD-280",
+        "part": "P3",
+        "level": "VD",
+        "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các chất: C~2~H~4~; C~6~H~6~, C~4~H~8~, C~5~H~1~~2~. Có bao nhiêu chất có cùng phần trăm khối lượng nguyên tố carbon trong phân tử?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án: 2. Gồm C~2~H~4~; C~4~H~8~",
+        "image_paths": [],
+        "tables": []
+      },
+      {
+        "q_num": 281,
+        "id": "H11-C3-P3-VD-281",
         "part": "P3",
         "level": "VD",
         "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
@@ -6299,169 +6407,51 @@
         ]
       },
       {
-        "q_num": 277,
-        "id": "H11-C3-P3-VD-277",
-        "part": "P3",
-        "level": "VD",
-        "topic": "Bài 10: Công thức phân tử hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Cho các hydrocarbon có công thức phân tử như sau: C~2~H~4~, C~2~H~6~, C~3~H~4~, C~3~H~6~, C~3~H~8~. Có bao nhiêu hydrocarbon là đồng đẳng của methane (CH~4~)?"
-        ],
-        "opt_lines": [],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "2",
-        "solution": "Đáp án: 2. Bao gồm C~2~H~6~ và C~3~H~8~.",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 278,
-        "id": "H11-C3-P3-TH-278",
+        "q_num": 282,
+        "id": "H11-C3-P3-TH-282",
         "part": "P3",
         "level": "TH",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
         "source_tag": "[THPT Châu Văn Liêm – 2026]",
         "stem_lines": [
-          "Sự kết hợp của bốn nguyên tử carbon với nhau có thể hình thành các loại mạch carbon như ở hình dưới:",
-          "Số chất có cấu tạo mạch hở là bao nhiêu?"
+          "Trong các dãy chất sau đây, có bao nhiêu dãy gồm các chất là đồng đẳng của nhau?",
+          "(1) C~2~H~6~, CH~4~, C~4~H~10~;\t\t(2) C~2~H~5~OH, CH~3~CH~2~CH~2~OH;",
+          "(3) CH~3~OCH~3~, CH~3~CHO; \t\t(4) CH~3~COOH, HCOOH, C~2~H~3~COOH"
         ],
         "opt_lines": [],
         "p2_items": {},
         "item_levels": {},
         "answer": "2",
-        "solution": "Đáp án: 2. Gồm 1 và 3",
+        "solution": "Đáp án: 2. Bao gồm: (1), (2).",
         "image_paths": [],
         "tables": []
       },
       {
-        "q_num": 279,
-        "id": "H11-C3-P3-TH-279",
+        "q_num": 283,
+        "id": "H11-C3-P3-TH-283",
         "part": "P3",
         "level": "TH",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
         "source_tag": "[THPT Châu Văn Liêm – 2026]",
         "stem_lines": [
-          "Cho hai hợp chất hữu cơ có cấu tạo như sau:",
-          "Có bao nhiêu nhóm chức ether đã xuất hiện trong cả hai hợp chất trên?"
+          "Cho các chất sau:",
+          "(a) CH~3~CH~2~OH                              \t\t(e) (CH~3~)~2~CHCH~2~CH~2~OH",
+          "(b) CH~3~CH~2~CH~2~OH                        \t(g) (CH~3~)~3~COH",
+          "(c) (CH~3~)~2~CHOH                             \t(h) HOCH~2~CH~2~OH",
+          "(d) (CH~3~)~2~CHCH~2~OH",
+          "Có bao nhiêu chất thuộc dãy đồng đẳng của CH~3~OH (methanol)?"
         ],
         "opt_lines": [],
         "p2_items": {},
         "item_levels": {},
         "answer": "6",
-        "solution": "Đáp án: 6.",
-        "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q279_img1.png",
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q279_img2.png"
-        ],
-        "tables": []
-      },
-      {
-        "q_num": 280,
-        "id": "H11-C3-P3-TH-280",
-        "part": "P3",
-        "level": "TH",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Hợp chất hữu cơ có 2 nhóm chức giống nhau trở lên gọi là  đa chức, có 2 nhóm chức khác nhau trở lên gọi là tạp chức. Có bao nhiêu hợp chất tạp chức trong số các chất dưới đây:"
-        ],
-        "opt_lines": [],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "2",
-        "solution": "Đáp án: 2.\nHợp chất tạp chức:\n;",
-        "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q280_img1.png"
-        ],
-        "tables": []
-      },
-      {
-        "q_num": 281,
-        "id": "H11-C3-P3-VD-281",
-        "part": "P3",
-        "level": "VD",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Cho phổ hồng ngoại sau:",
-          "Số sóng hấp thụ đặc trưng của nhóm – OH trên phổ hồng ngoại trên là bao nhiêu?"
-        ],
-        "opt_lines": [],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "3337",
-        "solution": "Đáp án: 3337",
-        "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q281_img1.png"
-        ],
-        "tables": []
-      },
-      {
-        "q_num": 282,
-        "id": "H11-C3-P3-VD-282",
-        "part": "P3",
-        "level": "VD",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Cho phổ hồng ngoại sau:",
-          "Số sóng hấp thụ đặc trưng của nhóm C = O (ketone) có giá trị bao nhiêu cm^-1^?"
-        ],
-        "opt_lines": [],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "1686",
-        "solution": "Đáp án: 1686",
-        "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q282_img1.png"
-        ],
-        "tables": []
-      },
-      {
-        "q_num": 283,
-        "id": "H11-C3-P3-VD-283",
-        "part": "P3",
-        "level": "VD",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Hợp chất Y có công thức phân tử C~4~H~8~O, là một hợp chất dễ bay hơi. Phổ IR của hợp chất Y được như sau:",
-          "Peak đặc trưng được đánh số từ 1 đến 3 và giá trị trong ngoặc là số sóng hấp thụ. Dựa vào phổ IR, hãy cho biết tổ hợp peak nào (ghi số thứ tự tăng dần) giúp dự đoán được trong Y có nhóm chức aldehyde."
-        ],
-        "opt_lines": [],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "13",
-        "solution": "Đáp án: 13. Peak 1 đặc trưng cho liên kết C–H trong (–CH=O)\n3 đặc trưng cho liên kết C=O trong (–CH=O)",
-        "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q283_img1.png"
-        ],
+        "solution": "Đáp án: 6. Bao gồm (a), (b), (c), (d), (e), (g).",
+        "image_paths": [],
         "tables": []
       },
       {
         "q_num": 284,
         "id": "H11-C3-P3-VD-284",
-        "part": "P3",
-        "level": "VD",
-        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
-        "source_tag": "[THPT Châu Văn Liêm – 2026]",
-        "stem_lines": [
-          "Cho các chất có công thức cấu tạo sau:",
-          "Có mấy chất trong các chất trên có tín hiệu trên phổ hồng ngoại ở khoảng tần số 1750 – 1680 cm^–^^1^?"
-        ],
-        "opt_lines": [],
-        "p2_items": {},
-        "item_levels": {},
-        "answer": "2",
-        "solution": "Đáp án: 2: Chất 3 và chất 4.",
-        "image_paths": [],
-        "tables": []
-      },
-      {
-        "q_num": 285,
-        "id": "H11-C3-P3-VD-285",
         "part": "P3",
         "level": "VD",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -6476,13 +6466,13 @@
         "answer": "10",
         "solution": "Đáp án: 10",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q285_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q284_img1.png"
         ],
         "tables": []
       },
       {
-        "q_num": 286,
-        "id": "H11-C3-P3-VD-286",
+        "q_num": 285,
+        "id": "H11-C3-P3-VD-285",
         "part": "P3",
         "level": "VD",
         "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
@@ -6497,8 +6487,26 @@
         "answer": "31,6",
         "solution": "Đáp án: 31,6.\nC~8~H~8~O~3~  %O = 31,6%.",
         "image_paths": [
-          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q286_img1.png"
+          "c:\\Antigravity_Thanh\\San_Pham\\images_hoa11\\h11_c3_q285_img1.png"
         ],
+        "tables": []
+      },
+      {
+        "q_num": 286,
+        "id": "H11-C3-P3-VD-286",
+        "part": "P3",
+        "level": "VD",
+        "topic": "Bài 11: Cấu tạo hóa học hợp chất hữu cơ",
+        "source_tag": "[THPT Châu Văn Liêm – 2026]",
+        "stem_lines": [
+          "Cho các hydrocarbon có công thức phân tử như sau: C~2~H~4~, C~2~H~6~, C~3~H~4~, C~3~H~6~, C~3~H~8~. Có bao nhiêu hydrocarbon là đồng đẳng của methane (CH~4~)?"
+        ],
+        "opt_lines": [],
+        "p2_items": {},
+        "item_levels": {},
+        "answer": "2",
+        "solution": "Đáp án: 2. Bao gồm C~2~H~6~ và C~3~H~8~.",
+        "image_paths": [],
         "tables": []
       },
       {
