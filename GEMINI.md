@@ -204,6 +204,26 @@ Khi người dùng nhắc đến **"kho đề 10"**, **"ngân hàng câu hỏi H
   - C7 (Nguyên tố nhóm halogen): 280 câu
 - **Kho hình ảnh sơ đồ/thí nghiệm trích xuất:** `c:\Antigravity_Thanh\San_Pham\images_hoa10\`
 
+---
+
+## 8. KHO NGÂN HÀNG CÂU HỎI HÓA HỌC 11 (TRỌN BỘ 7 CHƯƠNG - 1.996 CÂU HỎI)
+
+Khi người dùng nhắc đến **"kho đề 11"**, **"ngân hàng câu hỏi Hóa 11"**, hoặc yêu cầu rút đề kiểm tra Giữa kì / Cuối kì / Ôn tập Hóa 11 theo ma trận, AI tự động tra cứu tại thư mục:
+- **Thư mục Kho Ngân hàng Hóa 11:** `c:\Antigravity_Thanh\San_Pham\Ngan_Hang_Hoa_11\`
+- **Cơ sở dữ liệu JSON trọn bộ 7 chương (1.996 câu hỏi, 100% đầy đủ đáp án & lời giải chi tiết):**
+  `c:\Antigravity_Thanh\San_Pham\Ngan_Hang_Hoa_11\Ngan_Hang_Hoa_11_Tron_Bo.json`
+- **14 file Word Ngân hàng từng chương (Chương 1 → Chương 6 & Chuyên đề học tập, gồm bản `_HocSinh.docx` và `_GiaoVien.docx` chuẩn FORM ĐỀ KIỂM TRA):**
+  - C1 (Cân bằng hóa học): 280 câu (P1: 171, P2: 44, P3: 65)
+  - C2 (Nitrogen – Sulfur): 369 câu (P1: 229, P2: 40, P3: 100)
+  - C3 (Đại cương hóa học hữu cơ): 292 câu (P1: 210, P2: 35, P3: 47)
+  - C4 (Hydrocarbon): 388 câu (P1: 260, P2: 35, P3: 93)
+  - C5 (Dẫn xuất halogen – Alcohol – Phenol): 355 câu (P1: 223, P2: 46, P3: 86)
+  - C6 (Hợp chất carbonyl – Carboxylic acid): 281 câu (P1: 231, P2: 37, P3: 13)
+  - CDHT (Chuyên đề học tập 11: Phân bón – Thực hành – Dầu mỏ): 31 câu (P1: 17, P2: 7, P3: 7)
+- **Script sinh và cập nhật ngân hàng:** `c:\Antigravity_Thanh\scripts\build_ngan_hang_hoa11_full.py`.
+- **Kho hình ảnh sơ đồ/thí nghiệm trích xuất:** `c:\Antigravity_Thanh\San_Pham\images_hoa11\`.
+
+
 
 
 
