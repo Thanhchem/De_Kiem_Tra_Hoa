@@ -177,6 +177,25 @@ Khi người dùng nhắc đến **"kho đề 12"**, **"ngân hàng câu hỏi H
   - Script rút đề và kiểm tra trùng lặp: `c:\Antigravity_Thanh\scripts\generate_5_de_gk1_hoa12.py`.
   - Kho hình ảnh trích xuất theo câu hỏi: `c:\Antigravity_Thanh\San_Pham\images_gk1_hoa12\`.
 
+---
+
+## 7. KHO NGÂN HÀNG CÂU HỎI HÓA HỌC 10 (TRỌN BỘ 7 CHƯƠNG - 1.545 CÂU HỎI)
+
+Khi người dùng nhắc đến **"kho đề 10"**, **"ngân hàng câu hỏi Hóa 10"**, hoặc yêu cầu rút đề kiểm tra Giữa kì / Cuối kì / Ôn tập Hóa 10, AI tự động tra cứu tại thư mục:
+- **Thư mục Kho Ngân hàng Hóa 10:** `c:\Antigravity_Thanh\San_Pham\Ngan_Hang_Hoa_10\`
+- **Cơ sở dữ liệu JSON trọn bộ 7 chương (1.545 câu hỏi, 100% đầy đủ đáp án & lời giải chi tiết):**
+  `c:\Antigravity_Thanh\San_Pham\Ngan_Hang_Hoa_10\Ngan_Hang_Hoa_10_Tron_Bo.json`
+- **14 file Word Ngân hàng từng chương (Chương 1 → Chương 7, gồm bản `_HocSinh.docx` và `_GiaoVien.docx` chuẩn FORM ĐỀ KIỂM TRA):**
+  - C1 (Cấu tạo nguyên tử): 287 câu
+  - C2 (Bảng tuần hoàn & Định luật tuần hoàn): 221 câu
+  - C3 (Liên kết hóa học): 261 câu
+  - C4 (Phản ứng oxi hóa – khử): 158 câu
+  - C5 (Năng lượng hóa học): 176 câu
+  - C6 (Tốc độ phản ứng hóa học): 162 câu
+  - C7 (Nguyên tố nhóm halogen): 280 câu
+- **Kho hình ảnh sơ đồ/thí nghiệm trích xuất:** `c:\Antigravity_Thanh\San_Pham\images_hoa10\`
+
+
 
 
 
