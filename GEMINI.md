@@ -128,6 +128,15 @@ Khi xử lý đề thi hoặc câu hỏi có liên quan đến các cấu trúc 
   - Ảnh tài nguyên chung: `San_Pham/images_khtn8/khtn8_wrenches.png`
 - **Mã nguồn vẽ (TikZ):** Xem tại `San_Pham/Thi_Nghiem_Co_Le_Bu_Long/thi_nghiem_co_le_bu_long.tex`.
 
+### 4.5. Sơ đồ phản ứng thủy phân Salicin và oxi hóa Salicylic alcohol
+- **Đường dẫn ảnh:**
+  - Bản tiêu chuẩn (300 DPI): `San_Pham/So_Do_Thuy_Phan_Salicin/so_do_thuy_phan_salicin.png`
+  - Bản trong suốt (Transparent): `San_Pham/So_Do_Thuy_Phan_Salicin/so_do_thuy_phan_salicin_transparent.png`
+  - Bản cực nét (600 DPI): `San_Pham/So_Do_Thuy_Phan_Salicin/so_do_thuy_phan_salicin_hd.png`
+  - Bản vector: `San_Pham/So_Do_Thuy_Phan_Salicin/so_do_thuy_phan_salicin.pdf`
+- **Mã nguồn vẽ (TikZ):** Xem tại `San_Pham/So_Do_Thuy_Phan_Salicin/so_do_thuy_phan_salicin.tex`.
+- **Script sinh hình ảnh:** `scripts/ve_so_do_salicin.py`.
+
 ---
 
 ## 5. QUY CHUẨN FILE PDF TRÌNH CHIẾU TIVI 65 INCH (FORM CHIẾU TIVI 16:9)

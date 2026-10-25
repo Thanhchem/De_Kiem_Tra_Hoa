@@ -160,12 +160,34 @@ Xem chi tiết mã nguồn đầy đủ tại: `San_Pham/Thi_Nghiem_Co_Le_Bu_Lon
 
 ---
 
-## 6. CÁC SCRIPTS TỰ ĐỘNG SINH HÌNH ẢNH
+## 6. SƠ ĐỒ PHẢN ỨNG THỦY PHÂN SALICIN VÀ OXI HÓA SALICYLIC ALCOHOL THÀNH SALICYLIC ACID
+
+- **Ý nghĩa Hóa học:** Minh họa cấu trúc glucoside thiên nhiên (Salicin - hoạt chất giảm đau hạ sốt chiết xuất từ vỏ cây liễu trắng *Salix alba*) và các phản ứng sinh hóa/hóa học liên quan:
+  1. **Thủy phân Salicin (xúc tác acid hoặc enzyme $\beta$-glucosidase):**
+     $$\text{Salicin} + \text{H}_2\text{O} \xrightarrow{\text{thủy phân}} \text{D-glucose} + \text{Salicylic alcohol (2-hydroxybenzyl alcohol)}$$
+  2. **Phản ứng oxi hóa Salicylic alcohol:**
+     $$\text{Salicylic alcohol} \xrightarrow{\text{oxi hóa}} \text{Salicylic acid (axit 2-hydroxybenzoic)}$$
+
+### 6.1. Danh mục file hình ảnh độ nét cao
+- **Bản tiêu chuẩn (300 DPI, nền trắng):** `San_Pham/So_Do_Thuy_Phan_Salicin/so_do_thuy_phan_salicin.png`
+- **Bản trong suốt (Transparent, chèn Word không che nền):** `San_Pham/So_Do_Thuy_Phan_Salicin/so_do_thuy_phan_salicin_transparent.png`
+- **Bản cực nét Ultra HD (600 DPI in ấn):** `San_Pham/So_Do_Thuy_Phan_Salicin/so_do_thuy_phan_salicin_hd.png`
+- **Bản Vector PDF (chèn LaTeX sắc nét tuyệt đối):** `San_Pham/So_Do_Thuy_Phan_Salicin/so_do_thuy_phan_salicin.pdf`
+
+### 6.2. Mã nguồn LaTeX TikZ
+Xem chi tiết mã nguồn đầy đủ tại: `San_Pham/So_Do_Thuy_Phan_Salicin/so_do_thuy_phan_salicin.tex`.
+Script tái tạo: `scripts/ve_so_do_salicin.py`.
+
+---
+
+## 7. CÁC SCRIPTS TỰ ĐỘNG SINH HÌNH ẢNH
 - `scripts/ve_cong_thuc_alanine.py`: Tự động biên dịch và trích xuất ảnh PNG/PDF cho các công thức amino acid.
 - `scripts/ve_so_do_aniline.py`: Tự động biên dịch và trích xuất sơ đồ phản ứng điều chế aniline.
+- `scripts/ve_so_do_salicin.py`: Tự động biên dịch và trích xuất sơ đồ thủy phân salicin và oxi hóa salicylic alcohol.
 - `San_Pham/Thi_Nghiem_Binh_Tam_Giac_Bong_Bay/thi_nghiem_binh_tam_giac_bong_bay.tex`: Mã nguồn TikZ vẽ thí nghiệm bình tam giác gắn bóng bay.
 - `San_Pham/Thi_Nghiem_Co_Le_Bu_Long/thi_nghiem_co_le_bu_long.tex`: Mã nguồn TikZ vẽ 3 cờ lê và bu lông minh họa mômen lực.
 - `San_Pham/Cong_Thuc_NH3/cong_thuc_lewis_nh3_refined.tex`: Mã nguồn TikZ vẽ bộ 4 công thức Lewis của NH3.
+
 
 
 
