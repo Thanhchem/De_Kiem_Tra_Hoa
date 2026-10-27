@@ -368,11 +368,11 @@ def generate_tivi_presentation_pdf():
 """)
 
     # --------------------------------------------------------------------------
-    # SLIDE 2: TRẮC NGHIỆM CÂU 3 & CÂU 4
+    # SLIDE 2: TRẮC NGHIỆM CÂU 3 & CÂU 4 (KHÔNG CÓ ĐÁP ÁN)
     # --------------------------------------------------------------------------
     tex_lines.append(r"""
 % ==============================================================================
-% SLIDE 2: TRẮC NGHIỆM CÂU 3 & CÂU 4
+% SLIDE 2: TRẮC NGHIỆM CÂU 3 & CÂU 4 (KHÔNG CÓ ĐÁP ÁN)
 % ==============================================================================
 \fontsize{25}{34}\selectfont
 \textbf{Câu 3.} Phát biểu nào sau đây đúng khi nói về chất dinh dưỡng?
@@ -383,7 +383,7 @@ def generate_tivi_presentation_pdf():
   \item[\textbf{A.}] Chất dinh dưỡng là những chất cơ thể không cần sử dụng.
   \item[\textbf{B.}] Chất dinh dưỡng chỉ có trong các loại thực phẩm có nguồn gốc động vật.
   \item[\textbf{C.}] Chất dinh dưỡng chỉ có vai trò cung cấp năng lượng cho cơ thể.
-  \item[\textbf{D.}] \textbf{Chất dinh dưỡng là những chất được cơ thể sử dụng để duy trì các hoạt động sống, sinh trưởng và phát triển.}
+  \item[\textbf{D.}] Chất dinh dưỡng là những chất được cơ thể sử dụng để duy trì các hoạt động sống, sinh trưởng và phát triển.
 \end{itemize}
 
 \vspace{12pt}
@@ -399,125 +399,76 @@ def generate_tivi_presentation_pdf():
 """)
 
     # --------------------------------------------------------------------------
-    # SLIDE 3: TRẢ LỜI NGẮN CÂU 5 (a & b)
+    # SLIDE 3: TRẢ LỜI NGẮN CÂU 5a (KHÔNG CÓ ĐÁP ÁN)
     # --------------------------------------------------------------------------
     tex_lines.append(r"""
 % ==============================================================================
-% SLIDE 3: TRẢ LỜI NGẮN CÂU 5
+% SLIDE 3: TRẢ LỜI NGẮN CÂU 5a (KHÔNG CÓ ĐÁP ÁN)
 % ==============================================================================
-{\fontsize{24}{30}\selectfont \textbf{\color{brandBlue}II. TRẮC NGHIỆM TRẢ LỜI NGẮN -- CÂU 5 (0,5 ĐIỂM)}}
-\vspace{4pt}
-
-\fontsize{19}{25}\selectfont
-\textbf{Ngữ cảnh:} Tuyên truyền sức khỏe học đường về các bệnh, tật hệ vận động (cong vẹo cột sống, loãng xương, tổn thương khớp) và biện pháp bảo vệ hệ vận động.
-
-\vspace{5pt}
-\textbf{a)} Người lớn tuổi mắc bệnh loãng xương. Bệnh này ảnh hưởng trực tiếp đến bộ phận nào? (\textit{Quy ước: 1. Xương; 2. Cơ; 3. Khớp}).
-\newline \textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$ \hfill \textit{(Đáp án: \textbf{\color{brandRed}1} hoặc \textbf{\color{brandRed}Xương})}
-
-\vspace{5pt}
-\textbf{b)} Có bao nhiêu biện pháp đúng để bảo vệ hệ vận động trong các biện pháp sau?
-\begin{itemize}
-  \setlength{\itemsep}{1pt}
-  \item (1) Ăn uống đủ chất, giàu calcium và vitamin D. \hfill (\textit{Đúng})
-  \item (2) Thường xuyên mang vác vật nặng vượt quá sức chịu đựng. \hfill (\textit{Sai})
-  \item (3) Duy trì tư thế đúng khi ngồi học, đứng và đi lại. \hfill (\textit{Đúng})
-  \item (4) Tập luyện thể dục thể thao thường xuyên với cường độ phù hợp. \hfill (\textit{Đúng})
-\end{itemize}
-\textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$ \hfill \textit{(Đáp án: \textbf{\color{brandRed}3 biện pháp} [gồm (1), (3), (4)])}
-\newpage
-""")
-
-    # --------------------------------------------------------------------------
-    # SLIDE 4: TỰ LUẬN CÂU 6 - PHẦN 1: CÁC BỆNH ĐƯỜNG TIÊU HÓA
-    # --------------------------------------------------------------------------
-    tex_lines.append(r"""
-% ==============================================================================
-% SLIDE 4: TỰ LUẬN CÂU 6 (PHẦN 1: BỆNH TIÊU HÓA)
-% ==============================================================================
-{\fontsize{24}{30}\selectfont \textbf{\color{brandBlue}III. TỰ LUẬN -- CÂU 6 (PHẦN 1: CÁC BỆNH ĐƯỜNG TIÊU HÓA)}}
-\vspace{6pt}
+{\fontsize{24}{30}\selectfont \textbf{\color{brandBlue}II. TRẮC NGHIỆM TRẢ LỜI NGẮN -- CÂU 5 (Ý a)}}
+\vspace{8pt}
 
 \fontsize{21}{28}\selectfont
-\textbf{Đề bài:} Kể tên 3 bệnh ở đường tiêu hóa mà em biết.
+\textbf{Ngữ cảnh:} Trong buổi tuyên truyền về sức khỏe học đường, giáo viên giới thiệu các bệnh, tật liên quan đến hệ vận động (cong vẹo cột sống, loãng xương, tổn thương khớp) và hướng dẫn những thói quen sinh hoạt, vận động phù hợp để bảo vệ hệ vận động.
 
-\vspace{10pt}
-{\fontsize{22}{28}\selectfont \textbf{\color{brandRed}Hướng dẫn trả lời:}}
-\begin{enumerate}
-  \item \textbf{Bệnh sâu răng:} Do vi khuẩn lên men đường và thức ăn thừa tạo axit làm mòn, phá hủy men răng và ngà răng.
-  \item \textbf{Bệnh viêm loét dạ dày -- tá tràng:} Do vi khuẩn \textit{Helicobacter pylori} ($\text{Hp}$), ăn uống thất thường, căng thẳng thần kinh làm tổn thương niêm mạc dạ dày.
-  \item \textbf{Bệnh tiêu chảy / Ngộ độc thực phẩm:} Do ăn phải thức ăn ôi thiu, nhiễm khuẩn, nhiễm độc tố làm rối loạn tiêu hóa và mất nước nghiêm trọng.
-  \item \textbf{Bệnh táo bón:} Do chế độ ăn thiếu chất xơ, uống ít nước, thói quen ít vận động.
-\end{enumerate}
+\vspace{14pt}
+\textbf{a)} Một người lớn tuổi được chẩn đoán mắc bệnh loãng xương. Bệnh này ảnh hưởng trực tiếp đến bộ phận nào của hệ vận động?\\
+(\textit{Quy ước: 1. Xương; \quad 2. Cơ; \quad 3. Khớp}).
+
+\vspace{16pt}
+\textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$
 \newpage
 """)
 
     # --------------------------------------------------------------------------
-    # SLIDE 5: TỰ LUẬN CÂU 6 - PHẦN 2: BIỆN PHÁP PHÒNG TRÁNH
+    # SLIDE 4: TRẢ LỜI NGẮN CÂU 5b (KHÔNG CÓ ĐÁP ÁN)
     # --------------------------------------------------------------------------
     tex_lines.append(r"""
 % ==============================================================================
-% SLIDE 5: TỰ LUẬN CÂU 6 (PHẦN 2: PHÒNG TRÁNH BỆNH TIÊU HÓA)
+% SLIDE 4: TRẢ LỜI NGẮN CÂU 5b (KHÔNG CÓ ĐÁP ÁN)
 % ==============================================================================
-{\fontsize{24}{30}\selectfont \textbf{\color{brandBlue}III. TỰ LUẬN -- CÂU 6 (PHẦN 2: PHÒNG TRÁNH BỆNH TIÊU HÓA)}}
-\vspace{6pt}
-
-\fontsize{20}{26}\selectfont
-\textbf{Đề bài:} Đề xuất các biện pháp giúp phòng tránh các bệnh về đường tiêu hóa.
-
+{\fontsize{24}{30}\selectfont \textbf{\color{brandBlue}II. TRẮC NGHIỆM TRẢ LỜI NGẮN -- CÂU 5 (Ý b)}}
 \vspace{8pt}
-{\fontsize{21}{27}\selectfont \textbf{\color{brandRed}Các biện pháp khoa học:}}
+
+\fontsize{21}{28}\selectfont
+\textbf{b)} Để bảo vệ hệ vận động và hạn chế nguy cơ mắc các bệnh, tật liên quan đến hệ vận động, có bao nhiêu biện pháp đúng trong các biện pháp sau?
+
+\vspace{6pt}
 \begin{itemize}
-  \setlength{\itemsep}{2pt}
-  \item \textbf{Vệ sinh an toàn thực phẩm:} Thực hiện \textit{``ăn chín, uống sôi''}, ăn thực phẩm tươi sạch, rõ nguồn gốc; tuyệt đối không ăn thức ăn ôi thiu, nấm mốc.
-  \item \textbf{Vệ sinh cá nhân:} Rửa tay bằng xà phòng trước khi ăn và sau khi đi vệ sinh; đánh răng ít nhất 2 lần/ngày (sau khi ăn và trước khi đi ngủ).
-  \item \textbf{Chế độ ăn uống hợp lí:} Ăn đúng giờ, đủ bữa, ăn chậm nhai kĩ; tăng cường rau xanh, trái cây tươi (chất xơ) và uống đủ nước ($1,5 - 2\text{ lít/ngày}$); hạn chế đồ ăn quá cay nóng, nhiều dầu mỡ, nước ngọt có ga.
-  \item \textbf{Lối sống lành mạnh:} Giữ tinh thần thoải mái, tránh lo âu căng thẳng kéo dài; duy trì thói quen tập thể dục thể thao đều đặn.
+  \setlength{\itemsep}{4pt}
+  \item (1) Ăn uống đủ chất, bổ sung thực phẩm giàu calcium và vitamin D phù hợp với nhu cầu cơ thể.
+  \item (2) Thường xuyên mang vác vật nặng vượt quá sức chịu đựng của cơ thể.
+  \item (3) Duy trì tư thế đúng khi ngồi học, đứng và đi lại.
+  \item (4) Tập luyện thể dục thể thao thường xuyên với cường độ phù hợp.
 \end{itemize}
+
+\vspace{12pt}
+\textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$
 \newpage
 """)
 
     # --------------------------------------------------------------------------
-    # SLIDE 6: BẢNG TỔNG HỢP ĐÁP ÁN TOÀN BỘ ĐỀ CƯƠNG
+    # SLIDE 5: TỰ LUẬN CÂU 6 (KHÔNG CÓ ĐÁP ÁN - ĐỂ TRỐNG ĐỂ TƯƠNG TÁC GIẢNG BÀI)
     # --------------------------------------------------------------------------
     tex_lines.append(r"""
 % ==============================================================================
-% SLIDE 6: BẢNG TỔNG HỢP ĐÁP ÁN ĐỀ CƯƠNG
+% SLIDE 5: TỰ LUẬN CÂU 6 (KHÔNG CÓ ĐÁP ÁN)
 % ==============================================================================
+{\fontsize{26}{32}\selectfont \textbf{\color{brandBlue}III. PHẦN TỰ LUẬN -- CÂU 6 (1,0 ĐIỂM)}}
+\vspace{14pt}
+
+\fontsize{23}{33}\selectfont
+\textbf{Đề bài:}
+\begin{enumerate}
+  \setlength{\itemsep}{10pt}
+  \item[1)] Hãy kể tên 3 bệnh ở đường tiêu hóa mà em biết.
+  \item[2)] Đề xuất các biện pháp giúp phòng tránh các bệnh về đường tiêu hóa.
+\end{enumerate}
+
+\vspace*{2.5cm}
 \begin{center}
-{\fontsize{24}{30}\selectfont \textbf{\color{brandRed}BẢNG TỔNG HỢP ĐÁP ÁN ÔN TẬP GIỮA KÌ I -- KHTN 8 (SINH HỌC)}}
+{\fontsize{20}{26}\selectfont \textit{\color{gray}(Khoảng trống trình chiếu tương tác / Giáo viên và học sinh chữa bài trực tiếp trên bảng)}}
 \end{center}
-\vspace{6pt}
-
-\fontsize{20}{26}\selectfont
-\textbf{\color{brandBlue}1. ĐÁP ÁN TRẮC NGHIỆM NHIỀU LỰA CHỌN (CÂU 1 -- 4):}
-\vspace{4pt}
-
-\begin{center}
-\begin{tabular}{|c|c|c|c|}
-\hline
-\textbf{Câu 1 (Hệ trao đổi khí)} & \textbf{Câu 2 (Hệ vận động)} & \textbf{Câu 3 (Chất dinh dưỡng)} & \textbf{Câu 4 (Ống tiêu hóa)} \\
-\hline
-\textbf{\color{brandRed}B (Hệ hô hấp)} & \textbf{\color{brandRed}C (Vận động, tư thế)} & \textbf{\color{brandRed}D (Duy trì hoạt động sống)} & \textbf{\color{brandRed}B (Dạ dày)} \\
-\hline
-\end{tabular}
-\end{center}
-
-\vspace{10pt}
-\textbf{\color{brandBlue}2. ĐÁP SỐ TRẢ LỜI NGẮN (CÂU 5):}
-\vspace{4pt}
-
-\begin{tabularx}{\linewidth}{@{}X X@{}}
-• \textbf{Ý a (Bệnh loãng xương):} \textbf{\color{brandRed}1} (hoặc \textbf{\color{brandRed}Xương}) & • \textbf{Ý b (Số biện pháp đúng):} \textbf{\color{brandRed}3} [gồm (1), (3), (4)]
-\end{tabularx}
-
-\vspace{10pt}
-\textbf{\color{brandBlue}3. TỰ LUẬN (CÂU 6):}
-\vspace{4pt}
-\begin{itemize}
-  \item \textbf{3 bệnh đường tiêu hóa:} Sâu răng, Viêm loét dạ dày -- tá tràng, Tiêu chảy / Ngộ độc thực phẩm (hoặc táo bón).
-  \item \textbf{Biện pháp phòng tránh:} Ăn chín uống sôi; rửa tay xà phòng; ăn chậm nhai kĩ; tăng chất xơ và uống đủ nước; giữ tinh thần thoải mái.
-\end{itemize}
 
 \end{document}
 """)
@@ -567,8 +518,11 @@ def main():
             for src_path in all_files:
                 if src_path and os.path.exists(src_path):
                     dest = os.path.join(od, os.path.basename(src_path))
-                    shutil.copy2(src_path, dest)
-                    print(f"    -> Đã copy {os.path.basename(src_path)} vào: {od}")
+                    try:
+                        shutil.copy2(src_path, dest)
+                        print(f"    -> Đã copy {os.path.basename(src_path)} vào: {od}")
+                    except Exception as e:
+                        print(f"    [!] Cảnh báo file đang mở hoặc bận tại {od}: {e}")
 
     print("\n" + "=" * 75)
     print("HOÀN THÀNH TẤT CẢ 3 FILE THEO ĐÚNG CHUẨN FORM ĐỀ KIỂM TRA!")

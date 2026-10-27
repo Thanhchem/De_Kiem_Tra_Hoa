@@ -589,7 +589,7 @@ def generate_tivi_presentation_pdf():
     # --------------------------------------------------------------------------
     tex_lines.append(r"""
 % ==============================================================================
-% SLIDE 3: TRẮC NGHIỆM CÂU 5
+% SLIDE 3: TRẮC NGHIỆM CÂU 5 (KHÔNG CÓ ĐÁP ÁN)
 % ==============================================================================
 \fontsize{27}{36}\selectfont
 \textbf{Câu 5.} Theo định luật bảo toàn khối lượng, trong một phản ứng hóa học, tổng khối lượng các chất tham gia phản ứng
@@ -599,308 +599,209 @@ def generate_tivi_presentation_pdf():
 \textbf{A.} lớn hơn tổng khối lượng sản phẩm. & \textbf{B.} nhỏ hơn tổng khối lượng sản phẩm.\\[8pt]
 \textbf{C.} bằng tổng khối lượng các sản phẩm. & \textbf{D.} luôn bằng không.
 \end{tabularx}
-
-\vspace{22pt}
-{\fontsize{23}{31}\selectfont \textbf{\color{brandBlue}Giải thích:}} \textit{Trong phản ứng hóa học, các nguyên tử được bảo toàn (chỉ thay đổi liên kết giữa chúng), do đó tổng khối lượng trước và sau phản ứng luôn được bảo toàn.}
 \newpage
 """)
 
     # --------------------------------------------------------------------------
-    # SLIDE 4: ĐÚNG - SAI CÂU 6
+    # SLIDE 4: ĐÚNG - SAI CÂU 6 (KHÔNG CÓ ĐÁP ÁN)
     # --------------------------------------------------------------------------
     tex_lines.append(r"""
 % ==============================================================================
-% SLIDE 4: ĐÚNG - SAI CÂU 6
+% SLIDE 4: ĐÚNG - SAI CÂU 6 (KHÔNG CÓ ĐÁP ÁN)
 % ==============================================================================
 {\fontsize{24}{30}\selectfont \textbf{\color{brandBlue}TRẮC NGHIỆM ĐÚNG SAI -- CÂU 6}}
-\vspace{4pt}
+\vspace{8pt}
 
-\fontsize{21}{28}\selectfont
+\fontsize{22}{30}\selectfont
 \textbf{Câu 6.} Xác định mỗi phát biểu sau là đúng hay sai:
 
-\vspace{8pt}
-\textbf{a)} Nồng độ mol của dung dịch cho biết số mol chất tan có trong một lít dung dịch.\hfill $[\quad]$\\[6pt]
-\textbf{b)} Đơn vị thường dùng của nồng độ mol là $\text{mol/L}$.\hfill $[\quad]$\\[6pt]
-\textbf{c)} Khối lượng dung dịch bằng khối lượng chất tan cộng khối lượng dung môi.\hfill $[\quad]$\\[6pt]
-\textbf{d)} Định luật bảo toàn khối lượng chỉ đúng với phản ứng không tạo ra chất khí.\hfill $[\quad]$
-
 \vspace{12pt}
-{\fontsize{21}{27}\selectfont \textbf{\color{brandGreen}Chốt đáp án:}} \textbf{a) \color{brandGreen}Đúng} \quad | \quad \textbf{b) \color{brandGreen}Đúng} \quad | \quad \textbf{c) \color{brandGreen}Đúng} \quad | \quad \textbf{d) \color{brandRed}Sai}
+\textbf{a)} Nồng độ mol của dung dịch cho biết số mol chất tan có trong một lít dung dịch.\hfill $[\quad]$\\[10pt]
+\textbf{b)} Đơn vị thường dùng của nồng độ mol là $\text{mol/L}$.\hfill $[\quad]$\\[10pt]
+\textbf{c)} Khối lượng dung dịch bằng khối lượng chất tan cộng khối lượng dung môi.\hfill $[\quad]$\\[10pt]
+\textbf{d)} Định luật bảo toàn khối lượng chỉ đúng với phản ứng không tạo ra chất khí.\hfill $[\quad]$
 \newpage
 """)
 
     # --------------------------------------------------------------------------
-    # SLIDE 5: ĐÚNG - SAI CÂU 7
+    # SLIDE 5: ĐÚNG - SAI CÂU 7 (KHÔNG CÓ ĐÁP ÁN)
     # --------------------------------------------------------------------------
     tex_lines.append(r"""
 % ==============================================================================
-% SLIDE 5: ĐÚNG - SAI CÂU 7
+% SLIDE 5: ĐÚNG - SAI CÂU 7 (KHÔNG CÓ ĐÁP ÁN)
 % ==============================================================================
 {\fontsize{24}{30}\selectfont \textbf{\color{brandBlue}TRẮC NGHIỆM ĐÚNG SAI -- CÂU 7}}
-\vspace{4pt}
+\vspace{8pt}
 
-\fontsize{21}{28}\selectfont
+\fontsize{22}{30}\selectfont
 \textbf{Câu 7.} Cho các phát biểu sau về nồng độ mol:
 
-\vspace{8pt}
-\textbf{a)} Nồng độ mol của dung dịch cho biết số mol chất tan có trong $1000\text{ lít}$ dung dịch.\hfill $[\quad]$\\[6pt]
-\textbf{b)} Đơn vị thường dùng của nồng độ mol là mol/lít ($\text{mol/L}$).\hfill $[\quad]$\\[6pt]
+\vspace{12pt}
+\textbf{a)} Nồng độ mol của dung dịch cho biết số mol chất tan có trong $1000\text{ lít}$ dung dịch.\hfill $[\quad]$\\[10pt]
+\textbf{b)} Đơn vị thường dùng của nồng độ mol là mol/lít ($\text{mol/L}$).\hfill $[\quad]$\\[10pt]
 \textbf{c)} Hòa tan $0,5\text{ mol } \ce{NaCl}$ vào nước, thu được $1\text{ L dd } \ce{NaCl}$ thì nồng độ mol của dung dịch là $0,5\text{ M}$.\hfill $[\quad]$
-
-\vspace{16pt}
-{\fontsize{21}{27}\selectfont \textbf{\color{brandGreen}Chốt đáp án:}} \textbf{a) \color{brandRed}Sai} \textit{(phải là 1 lít)} \quad | \quad \textbf{b) \color{brandGreen}Đúng} \quad | \quad \textbf{c) \color{brandGreen}Đúng} ($C_M = 0,5 / 1 = 0,5\text{ M}$)
 \newpage
 """)
 
     # --------------------------------------------------------------------------
-    # SLIDE 6: ĐÚNG - SAI CÂU 8
+    # SLIDE 6: ĐÚNG - SAI CÂU 8 (KHÔNG CÓ ĐÁP ÁN)
     # --------------------------------------------------------------------------
     tex_lines.append(r"""
 % ==============================================================================
-% SLIDE 6: ĐÚNG - SAI CÂU 8
+% SLIDE 6: ĐÚNG - SAI CÂU 8 (KHÔNG CÓ ĐÁP ÁN)
 % ==============================================================================
 {\fontsize{24}{30}\selectfont \textbf{\color{brandBlue}TRẮC NGHIỆM ĐÚNG SAI -- CÂU 8}}
-\vspace{4pt}
+\vspace{8pt}
 
-\fontsize{21}{28}\selectfont
+\fontsize{22}{30}\selectfont
 \textbf{Câu 8.} Xác định mỗi phát biểu sau là đúng hay sai:
 
-\vspace{8pt}
-\textbf{a)} Trong phản ứng hóa học, tổng khối lượng các chất tham gia phản ứng bằng tổng khối lượng các sản phẩm.\hfill $[\quad]$\\[6pt]
-\textbf{b)} Định luật bảo toàn khối lượng được áp dụng cho các phản ứng hóa học.\hfill $[\quad]$\\[6pt]
+\vspace{12pt}
+\textbf{a)} Trong phản ứng hóa học, tổng khối lượng các chất tham gia phản ứng bằng tổng khối lượng các sản phẩm.\hfill $[\quad]$\\[10pt]
+\textbf{b)} Định luật bảo toàn khối lượng được áp dụng cho các phản ứng hóa học.\hfill $[\quad]$\\[10pt]
 \textbf{c)} Khi đốt cháy hoàn toàn $12\text{ g magnesium}$ trong oxygen, thu được $20\text{ g magnesium oxide}$ thì khối lượng oxygen đã phản ứng là $8\text{ g}$.\hfill $[\quad]$
-
-\vspace{16pt}
-{\fontsize{21}{27}\selectfont \textbf{\color{brandGreen}Chốt đáp án:}} \textbf{a) \color{brandGreen}Đúng} \quad | \quad \textbf{b) \color{brandGreen}Đúng} \quad | \quad \textbf{c) \color{brandGreen}Đúng} ($m_{\ce{O2}} = 20 - 12 = 8\text{ g}$)
 \newpage
 """)
 
     # --------------------------------------------------------------------------
-    # SLIDE 7: ĐÚNG - SAI CÂU 9
+    # SLIDE 7: ĐÚNG - SAI CÂU 9 (KHÔNG CÓ ĐÁP ÁN)
     # --------------------------------------------------------------------------
     tex_lines.append(r"""
 % ==============================================================================
-% SLIDE 7: ĐÚNG - SAI CÂU 9
+% SLIDE 7: ĐÚNG - SAI CÂU 9 (KHÔNG CÓ ĐÁP ÁN)
 % ==============================================================================
 {\fontsize{24}{30}\selectfont \textbf{\color{brandBlue}TRẮC NGHIỆM ĐÚNG SAI -- CÂU 9}}
-\vspace{4pt}
-
-\fontsize{20}{27}\selectfont
-\textbf{Câu 9.} Xác định mỗi phát biểu sau là đúng hay sai:
-
-\vspace{6pt}
-\textbf{a)} Khối lượng dung dịch bằng tổng khối lượng của chất tan và dung môi.\hfill $[\quad]$\\[5pt]
-\textbf{b)} Khi cho thêm chất tan vào 1 dung dịch chưa bão hòa, nồng độ phần trăm của dung dịch sẽ giảm.\hfill $[\quad]$\\[5pt]
-\textbf{c)} Khi pha thêm $100\text{ mL}$ nước cất vào $100\text{ mL dd } \ce{NaOH } 1\text{M}$, nồng độ mol của dung dịch $\ce{NaOH}$ thu được giảm đi một nửa, còn $0,5\text{M}$.\hfill $[\quad]$\\[5pt]
-\textbf{d)} Cho $7\text{ g iron}$ phản ứng vừa đủ với $4\text{ g sulfur}$, thu được $11\text{ g iron sulfide}$.\hfill $[\quad]$
-
-\vspace{10pt}
-{\fontsize{20}{26}\selectfont \textbf{\color{brandGreen}Chốt đáp án:}} \textbf{a) \color{brandGreen}Đúng} \quad | \quad \textbf{b) \color{brandRed}Sai} \textit{(nồng độ tăng)} \quad | \quad \textbf{c) \color{brandGreen}Đúng} \quad | \quad \textbf{d) \color{brandGreen}Đúng} ($7 + 4 = 11\text{ g}$)
-\newpage
-""")
-
-    # --------------------------------------------------------------------------
-    # SLIDE 8: TRẢ LỜI NGẮN CÂU 10 & CÂU 11
-    # --------------------------------------------------------------------------
-    tex_lines.append(r"""
-% ==============================================================================
-% SLIDE 8: TRẢ LỜI NGẮN CÂU 10 & CÂU 11
-% ==============================================================================
-{\fontsize{24}{30}\selectfont \textbf{\color{brandBlue}PHẦN TRẢ LỜI NGẮN -- CÂU 10 \& CÂU 11}}
-\vspace{4pt}
-
-\fontsize{20}{27}\selectfont
-\textbf{Câu 10.} Viết công thức tính nồng độ phần trăm của dung dịch.
-\vspace{3pt}
-\begin{itemize}
-  \item \textbf{Công thức:} $C\% = \dfrac{m_{\text{ct}}}{m_{\text{dd}}} \times 100\%$, với $m_{\text{dd}} = m_{\text{ct}} + m_{\text{dm}}$ ($m_{\text{ct}}$: chất tan, $m_{\text{dm}}$: dung môi).
-\end{itemize}
-
-\vspace{10pt}
-\textbf{Câu 11.} Hòa tan $15\text{ g}$ muối vào $85\text{ g}$ nước. Tính nồng độ phần trăm của dung dịch thu được.
-\vspace{3pt}
-\begin{itemize}
-  \item Khối lượng dung dịch: $m_{\text{dd}} = 15 + 85 = 100\text{ (g)}$.
-  \item Nồng độ phần trăm: $C\% = \dfrac{15}{100} \times 100\% = \mathbf{15\%}$.
-  \item \textbf{Đáp số:} $\mathbf{15\%}$.
-\end{itemize}
-\newpage
-""")
-
-    # --------------------------------------------------------------------------
-    # SLIDE 9: TRẢ LỜI NGẮN CÂU 12 & CÂU 13
-    # --------------------------------------------------------------------------
-    tex_lines.append(r"""
-% ==============================================================================
-% SLIDE 9: TRẢ LỜI NGẮN CÂU 12 & CÂU 13
-% ==============================================================================
-{\fontsize{24}{30}\selectfont \textbf{\color{brandBlue}PHẦN TRẢ LỜI NGẮN -- CÂU 12 \& CÂU 13}}
-\vspace{4pt}
-
-\fontsize{20}{27}\selectfont
-\textbf{Câu 12.} Đốt cháy hoàn toàn $6\text{ g carbon}$ trong $16\text{ g oxygen}$, thu được carbon dioxide. Tính khối lượng $\ce{CO2}$ tạo thành theo ĐLBTKL.
-\vspace{3pt}
-\begin{itemize}
-  \item Phương trình: $\ce{C + O2 ->[t^\circ] CO2}$.
-  \item Theo ĐLBTKL: $m_{\ce{CO2}} = m_{\ce{C}} + m_{\ce{O2}} = 6 + 16 = \mathbf{22\text{ (g)}}$.
-  \item \textbf{Đáp số:} $\mathbf{22\text{ g}}$.
-\end{itemize}
-
-\vspace{10pt}
-\textbf{Câu 13.} Cần bao nhiêu mol $\ce{NaOH}$ để pha chế $500\text{ mL}$ dung dịch $\ce{NaOH } 2\text{M}$?
-\vspace{3pt}
-\begin{itemize}
-  \item Đổi thể tích: $V = 500\text{ mL} = 0,5\text{ L}$.
-  \item Số mol $\ce{NaOH}$: $n_{\ce{NaOH}} = C_M \times V = 2 \times 0,5 = \mathbf{1\text{ (mol)}}$.
-  \item \textbf{Đáp số:} $\mathbf{1\text{ mol}}$.
-\end{itemize}
-\newpage
-""")
-
-    # --------------------------------------------------------------------------
-    # SLIDE 10: TRẢ LỜI NGẮN CÂU 14 (PHA LOÃNG DUNG DỊCH)
-    # --------------------------------------------------------------------------
-    tex_lines.append(r"""
-% ==============================================================================
-% SLIDE 10: TRẢ LỜI NGẮN CÂU 14
-% ==============================================================================
-{\fontsize{24}{30}\selectfont \textbf{\color{brandBlue}PHẦN TRẢ LỜI NGẮN -- CÂU 14: BÀI TOÁN PHA LOÃNG}}
 \vspace{6pt}
 
 \fontsize{21}{29}\selectfont
-\textbf{Đề bài:} Cần thêm bao nhiêu gam nước vào $100\text{ g}$ dung dịch $\ce{NaCl } 20\%$ để thu được dung dịch $\ce{NaCl}$ nồng độ $5\%$?
+\textbf{Câu 9.} Xác định mỗi phát biểu sau là đúng hay sai:
 
 \vspace{10pt}
-{\fontsize{22}{28}\selectfont \textbf{\color{brandRed}Hướng dẫn giải chi tiết:}}
+\textbf{a)} Khối lượng dung dịch bằng tổng khối lượng của chất tan và dung môi.\hfill $[\quad]$\\[8pt]
+\textbf{b)} Khi cho thêm chất tan vào 1 dung dịch chưa bão hòa, nồng độ phần trăm của dung dịch sẽ giảm.\hfill $[\quad]$\\[8pt]
+\textbf{c)} Khi pha thêm $100\text{ mL}$ nước cất vào $100\text{ mL dd } \ce{NaOH } 1\text{M}$, nồng độ mol của dung dịch $\ce{NaOH}$ thu được giảm đi một nửa, còn $0,5\text{M}$.\hfill $[\quad]$\\[8pt]
+\textbf{d)} Cho $7\text{ g iron}$ phản ứng vừa đủ với $4\text{ g sulfur}$, thu được $11\text{ g iron sulfide}$.\hfill $[\quad]$
+\newpage
+""")
+
+    # --------------------------------------------------------------------------
+    # SLIDE 8: TRẢ LỜI NGẮN CÂU 10 & CÂU 11 (KHÔNG CÓ ĐÁP ÁN)
+    # --------------------------------------------------------------------------
+    tex_lines.append(r"""
+% ==============================================================================
+% SLIDE 8: TRẢ LỜI NGẮN CÂU 10 & CÂU 11 (KHÔNG CÓ ĐÁP ÁN)
+% ==============================================================================
+{\fontsize{24}{30}\selectfont \textbf{\color{brandBlue}PHẦN TRẢ LỜI NGẮN -- CÂU 10 \& CÂU 11}}
+\vspace{10pt}
+
+\fontsize{22}{30}\selectfont
+\textbf{Câu 10.} Viết công thức tính nồng độ phần trăm của dung dịch.
+\vspace{6pt}
+
+\textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$
+
+\vspace{18pt}
+\textbf{Câu 11.} Hòa tan $15\text{ g}$ muối vào $85\text{ g}$ nước. Tính nồng độ phần trăm của dung dịch thu được.
+\vspace{6pt}
+
+\textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$
+\newpage
+""")
+
+    # --------------------------------------------------------------------------
+    # SLIDE 9: TRẢ LỜI NGẮN CÂU 12 & CÂU 13 (KHÔNG CÓ ĐÁP ÁN)
+    # --------------------------------------------------------------------------
+    tex_lines.append(r"""
+% ==============================================================================
+% SLIDE 9: TRẢ LỜI NGẮN CÂU 12 & CÂU 13 (KHÔNG CÓ ĐÁP ÁN)
+% ==============================================================================
+{\fontsize{24}{30}\selectfont \textbf{\color{brandBlue}PHẦN TRẢ LỜI NGẮN -- CÂU 12 \& CÂU 13}}
+\vspace{10pt}
+
+\fontsize{21}{29}\selectfont
+\textbf{Câu 12.} Đốt cháy hoàn toàn $6\text{ g carbon}$ trong $16\text{ g oxygen}$, thu được carbon dioxide. Tính khối lượng $\ce{CO2}$ tạo thành theo ĐLBTKL.
+\vspace{6pt}
+
+\textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$
+
+\vspace{16pt}
+\textbf{Câu 13.} Cần bao nhiêu mol $\ce{NaOH}$ để pha chế $500\text{ mL}$ dung dịch $\ce{NaOH } 2\text{M}$?
+\vspace{6pt}
+
+\textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$
+\newpage
+""")
+
+    # --------------------------------------------------------------------------
+    # SLIDE 10: TRẢ LỜI NGẮN CÂU 14 (KHÔNG CÓ ĐÁP ÁN)
+    # --------------------------------------------------------------------------
+    tex_lines.append(r"""
+% ==============================================================================
+% SLIDE 10: TRẢ LỜI NGẮN CÂU 14 (KHÔNG CÓ ĐÁP ÁN)
+% ==============================================================================
+{\fontsize{24}{30}\selectfont \textbf{\color{brandBlue}PHẦN TRẢ LỜI NGẮN -- CÂU 14: BÀI TOÁN PHA LOÃNG}}
+\vspace{10pt}
+
+\fontsize{23}{32}\selectfont
+\textbf{Đề bài:} Cần thêm bao nhiêu gam nước vào $100\text{ g}$ dung dịch $\ce{NaCl } 20\%$ để thu được dung dịch $\ce{NaCl}$ nồng độ $5\%$?
+
+\vspace{16pt}
+\textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$
+
+\vspace*{2.5cm}
+\begin{center}
+{\fontsize{20}{26}\selectfont \textit{\color{gray}(Khoảng trống trình chiếu tương tác / Giáo viên và học sinh chữa bài trực tiếp trên bảng)}}
+\end{center}
+\newpage
+""")
+
+    # --------------------------------------------------------------------------
+    # SLIDE 11: TỰ LUẬN CÂU 1 (KHÔNG CÓ ĐÁP ÁN)
+    # --------------------------------------------------------------------------
+    tex_lines.append(r"""
+% ==============================================================================
+% SLIDE 11: TỰ LUẬN CÂU 1 (KHÔNG CÓ ĐÁP ÁN)
+% ==============================================================================
+{\fontsize{24}{30}\selectfont \textbf{\color{brandBlue}PHẦN TỰ LUẬN -- CÂU 1 (1,0 ĐIỂM)}}
+\vspace{10pt}
+
+\fontsize{22}{30}\selectfont
+\textbf{Đề bài:}
 \begin{enumerate}
-  \item Khối lượng $\ce{NaCl}$ nguyên chất trong dung dịch ban đầu:
-  \[
-  m_{\ce{NaCl}} = \frac{100 \times 20\%}{100\%} = 20\text{ (g)}.
-  \]
-  \item Khi thêm nước, khối lượng chất tan $\ce{NaCl}$ không đổi ($20\text{ g}$). Khối lượng dung dịch $5\%$ mới là:
-  \[
-  m_{\text{dd mới}} = \frac{20 \times 100\%}{5\%} = 400\text{ (g)}.
-  \]
-  \item Khối lượng nước cần thêm vào là:
-  \[
-  m_{\text{nước thêm}} = m_{\text{dd mới}} - m_{\text{dd ban đầu}} = 400 - 100 = \mathbf{300\text{ (g)}}.
-  \]
+  \setlength{\itemsep}{10pt}
+  \item[1)] Viết các công thức tính toán cơ bản: Nồng độ phần trăm ($C\%$), Nồng độ mol ($C_M$), Khối lượng dung dịch ($m_{\text{dd}}$) và Số mol ($n$).
+  \item[2)] Phát biểu nội dung Định luật bảo toàn khối lượng. Giải thích vì sao trong một phản ứng hóa học, tổng khối lượng các chất luôn được bảo toàn?
 \end{enumerate}
+
+\vspace*{2cm}
+\begin{center}
+{\fontsize{20}{26}\selectfont \textit{\color{gray}(Khoảng trống trình chiếu tương tác / Giáo viên và học sinh chữa bài trực tiếp trên bảng)}}
+\end{center}
 \newpage
 """)
 
     # --------------------------------------------------------------------------
-    # SLIDE 11: TỰ LUẬN CÂU 1
+    # SLIDE 12: TỰ LUẬN CÂU 2 (KHÔNG CÓ ĐÁP ÁN)
     # --------------------------------------------------------------------------
     tex_lines.append(r"""
 % ==============================================================================
-% SLIDE 11: TỰ LUẬN CÂU 1
+% SLIDE 12: TỰ LUẬN CÂU 2 (KHÔNG CÓ ĐÁP ÁN)
 % ==============================================================================
-{\fontsize{24}{30}\selectfont \textbf{\color{brandBlue}PHẦN TỰ LUẬN -- CÂU 1: CÔNG THỨC \& ĐLBT KHỐI LƯỢNG}}
-\vspace{4pt}
+{\fontsize{24}{30}\selectfont \textbf{\color{brandBlue}PHẦN TỰ LUẬN -- CÂU 2 (1,0 ĐIỂM)}}
+\vspace{10pt}
 
-\fontsize{19}{25}\selectfont
-\textbf{1. Các công thức tính toán cơ bản:}
-\begin{itemize}
-  \setlength{\itemsep}{1pt}
-  \item Nồng độ phần trăm: $C\% = \dfrac{m_{\text{ct}}}{m_{\text{dd}}} \times 100\% \implies m_{\text{ct}} = \dfrac{m_{\text{dd}} \times C\%}{100\%}$; \quad $m_{\text{dd}} = m_{\text{ct}} + m_{\text{dm}}$.
-  \item Nồng độ mol: $C_M = \dfrac{n}{V} \implies n = C_M \times V$ ($V$ tính bằng lít).
-  \item Số mol: $n = \dfrac{m}{M}$; thể tích khí đkc ($25^\circ\text{C}, 1\text{ bar}$): $V = n \times 24,79\text{ (L)}$.
-\end{itemize}
+\fontsize{23}{32}\selectfont
+\textbf{Đề bài:}
+\begin{enumerate}
+  \setlength{\itemsep}{10pt}
+  \item[1)] Nêu khái niệm Phương trình hóa học (PTHH). Cho ví dụ minh họa.
+  \item[2)] Nêu ý nghĩa của Phương trình hóa học trong học tập và nghiên cứu hóa học.
+\end{enumerate}
 
-\vspace{3pt}
-\textbf{2. Định luật bảo toàn khối lượng \& Giải thích:}
-\begin{itemize}
-  \setlength{\itemsep}{1pt}
-  \item \textbf{Phát biểu:} \textit{Trong một phản ứng hóa học, tổng khối lượng của các chất tham gia bằng tổng khối lượng các sản phẩm tạo thành.} (Phản ứng $\ce{A + B -> C + D} \implies m_{\ce{A}} + m_{\ce{B}} = m_{\ce{C}} + m_{\ce{D}}$).
-  \item \textbf{Giải thích:} Trong phản ứng hóa học, chỉ có liên kết giữa các nguyên tử biến đổi, \textbf{số lượng nguyên tử của mỗi nguyên tố được bảo toàn}. Khối lượng nguyên tử không đổi nên tổng khối lượng luôn được bảo toàn.
-\end{itemize}
-\newpage
-""")
-
-    # --------------------------------------------------------------------------
-    # SLIDE 12: TỰ LUẬN CÂU 2
-    # --------------------------------------------------------------------------
-    tex_lines.append(r"""
-% ==============================================================================
-% SLIDE 12: TỰ LUẬN CÂU 2
-% ==============================================================================
-{\fontsize{24}{30}\selectfont \textbf{\color{brandBlue}PHẦN TỰ LUẬN -- CÂU 2: PHƯƠNG TRÌNH HÓA HỌC}}
-\vspace{6pt}
-
-\fontsize{21}{28}\selectfont
-\textbf{1. Khái niệm Phương trình hóa học (PTHH):}
-\begin{itemize}
-  \item Là phương thức biểu diễn ngắn gọn phản ứng hóa học bằng công thức hóa học của các chất phản ứng và sản phẩm.
-  \item Vế trái: chất tham gia; Vế phải: chất sản phẩm; ở giữa có dấu mũi tên ($\rightarrow$) và các hệ số cân bằng đặt trước CTHH.
-  \item Ví dụ: $2\ce{H2} + \ce{O2} \xrightarrow{t^\circ} 2\ce{H2O}$.
-\end{itemize}
-
-\vspace{6pt}
-\textbf{2. Ý nghĩa của Phương trình hóa học:}
-\begin{itemize}
-  \item Cho biết chất tham gia phản ứng và chất sản phẩm tạo thành.
-  \item Cho biết \textbf{tỉ lệ về số nguyên tử, số phân tử} giữa các chất trong phản ứng (chính là tỉ lệ các hệ số).
-  \item Cho biết \textbf{tỉ lệ về số mol, tỉ lệ khối lượng} giữa các chất, làm cơ sở khoa học để tính toán lượng chất phản ứng hoặc tạo thành.
-\end{itemize}
-\newpage
-""")
-
-    # --------------------------------------------------------------------------
-    # SLIDE 13: BẢNG TỔNG HỢP ĐÁP ÁN TOÀN BỘ ĐỀ CƯƠNG
-    # --------------------------------------------------------------------------
-    tex_lines.append(r"""
-% ==============================================================================
-% SLIDE 13: BẢNG TỔNG HỢP ĐÁP ÁN ĐỀ CƯƠNG
-% ==============================================================================
+\vspace*{2.5cm}
 \begin{center}
-{\fontsize{24}{30}\selectfont \textbf{\color{brandRed}BẢNG TỔNG HỢP ĐÁP ÁN ÔN TẬP GIỮA KÌ I -- KHTN 8}}
+{\fontsize{20}{26}\selectfont \textit{\color{gray}(Khoảng trống trình chiếu tương tác / Giáo viên và học sinh chữa bài trực tiếp trên bảng)}}
 \end{center}
-\vspace{4pt}
-
-\fontsize{19}{24}\selectfont
-\textbf{\color{brandBlue}1. ĐÁP ÁN TRẮC NGHIỆM ABCD (CÂU 1 -- 5):}
-\vspace{2pt}
-
-\begin{center}
-\begin{tabular}{|c|c|c|c|c|}
-\hline
-\textbf{Câu 1} & \textbf{Câu 2} & \textbf{Câu 3} & \textbf{Câu 4} & \textbf{Câu 5} \\
-\hline
-\textbf{\color{brandRed}A} & \textbf{\color{brandRed}B} & \textbf{\color{brandRed}A} & \textbf{\color{brandRed}B} & \textbf{\color{brandRed}C} \\
-\hline
-\end{tabular}
-\end{center}
-
-\vspace{3pt}
-\textbf{\color{brandBlue}2. ĐÁP ÁN TRẮC NGHIỆM ĐÚNG -- SAI (CÂU 6 -- 9):}
-\vspace{2pt}
-
-\begin{center}
-\begin{tabular}{|c|c|c|c|c|}
-\hline
-\textbf{Câu} & \textbf{Ý a} & \textbf{Ý b} & \textbf{Ý c} & \textbf{Ý d} \\
-\hline
-\textbf{Câu 6} & \textbf{\color{brandGreen}Đúng} & \textbf{\color{brandGreen}Đúng} & \textbf{\color{brandGreen}Đúng} & \textbf{\color{brandRed}Sai} \\
-\hline
-\textbf{Câu 7} & \textbf{\color{brandRed}Sai} & \textbf{\color{brandGreen}Đúng} & \textbf{\color{brandGreen}Đúng} & -- \\
-\hline
-\textbf{Câu 8} & \textbf{\color{brandGreen}Đúng} & \textbf{\color{brandGreen}Đúng} & \textbf{\color{brandGreen}Đúng} & -- \\
-\hline
-\textbf{Câu 9} & \textbf{\color{brandGreen}Đúng} & \textbf{\color{brandRed}Sai} & \textbf{\color{brandGreen}Đúng} & \textbf{\color{brandGreen}Đúng} \\
-\hline
-\end{tabular}
-\end{center}
-
-\vspace{3pt}
-\textbf{\color{brandBlue}3. ĐÁP SỐ TRẢ LỜI NGẮN (CÂU 10 -- 14):}
-\vspace{2pt}
-
-\begin{tabularx}{\linewidth}{@{}X X@{}}
-• \textbf{Câu 10:} $C\% = \dfrac{m_{\text{ct}}}{m_{\text{dd}}} \times 100\%$ & • \textbf{Câu 11:} $C\% = \mathbf{15\%}$\\
-• \textbf{Câu 12:} $m_{\ce{CO2}} = \mathbf{22\text{ g}}$ & • \textbf{Câu 13:} $n_{\ce{NaOH}} = \mathbf{1\text{ mol}}$\\
-• \textbf{Câu 14:} $m_{\text{nước thêm}} = \mathbf{300\text{ g}}$ &
-\end{tabularx}
 
 \end{document}
 """)
@@ -950,8 +851,11 @@ def main():
             for src_path in all_files:
                 if src_path and os.path.exists(src_path):
                     dest = os.path.join(od, os.path.basename(src_path))
-                    shutil.copy2(src_path, dest)
-                    print(f"    -> Đã copy {os.path.basename(src_path)} vào: {od}")
+                    try:
+                        shutil.copy2(src_path, dest)
+                        print(f"    -> Đã copy {os.path.basename(src_path)} vào: {od}")
+                    except Exception as e:
+                        print(f"    [!] Cảnh báo file đang mở hoặc bận tại {od}: {e}")
 
     print("\n" + "=" * 75)
     print("HOÀN THÀNH TẤT CẢ 3 FILE THEO ĐÚNG CHUẨN FORM ĐỀ KIỂM TRA!")
