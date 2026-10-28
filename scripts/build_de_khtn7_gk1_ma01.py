@@ -823,172 +823,181 @@ def generate_latex_tivi_16x9():
     tex_path = os.path.join(OUTPUT_DIR, tex_filename)
 
     lines = []
-    lines.append(r"""\documentclass[14pt]{article}
-\usepackage[utf8]{inputenc}
-\usepackage[vietnamese]{babel}
+    lines.append(r"""\documentclass{article}
+\usepackage[utf8]{vietnam}
+\usepackage{times}
 \usepackage{amsmath,amssymb}
 \usepackage[version=4]{mhchem}
-\usepackage{geometry}
-\geometry{paperwidth=29.7cm,paperheight=16.706cm,top=0.9cm,bottom=0.9cm,left=1.2cm,right=1.2cm,headheight=0pt,headsep=0pt,footskip=0pt}
-\pagestyle{empty}
 \usepackage{tabularx}
 \usepackage{array}
-\usepackage{tikz}
+\usepackage{booktabs}
 \usepackage{xcolor}
+\usepackage[
+  paperwidth=29.7cm,
+  paperheight=16.706cm,
+  top=1.0cm,
+  bottom=1.0cm,
+  left=1.2cm,
+  right=1.2cm,
+  footskip=0pt,
+  headheight=0pt,
+  headsep=0pt
+]{geometry}
 
-\definecolor{hfRed}{HTML}{D32F2F}
-\definecolor{mainBlue}{HTML}{0D47A1}
-\definecolor{mainGreen}{HTML}{1B5E20}
-
+\pagestyle{empty}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
+
+\definecolor{ansRed}{RGB}{198, 40, 40}
 
 \begin{document}
 """)
 
-    # Slide Trang bìa / Giới thiệu
-    lines.append(r"""
-\begin{center}
-\vspace*{\fill}
-{\fontsize{34}{44}\selectfont \textbf{\color{hfRed}ĐỀ KIỂM TRA, ĐÁNH GIÁ GIỮA HỌC KÌ I}}\\[14pt]
-{\fontsize{28}{36}\selectfont \textbf{\color{mainBlue}MÔN: KHOA HỌC TỰ NHIÊN 7 -- NĂM HỌC 2025 -- 2026}}\\[12pt]
-{\fontsize{24}{32}\selectfont \textbf{MÃ ĐỀ: 01 \quad|\quad THỜI GIAN LÀM BÀI: 60 PHÚT}}\\[20pt]
-{\fontsize{20}{26}\selectfont \textit{Giảng dạy trực tiếp trên màn hình Tivi tương tác}}\\[10pt]
-{\fontsize{22}{28}\selectfont \textbf{\color{mainGreen}Thầy TRẦN VĂN THẠNH -- 0777.470.803}}
-\vspace*{\fill}
-\end{center}
-\clearpage
-""")
-
-    # PHẦN I: 2 câu / 1 slide
+    # ==============================================================================
+    # PHẦN I: TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN (2 CÂU / 1 SLIDE)
+    # ==============================================================================
     for i in range(0, len(PART1_QUESTIONS), 2):
         q1 = PART1_QUESTIONS[i]
         q2 = PART1_QUESTIONS[i+1] if i+1 < len(PART1_QUESTIONS) else None
 
-        lines.append(r"{\fontsize{20}{26}\selectfont")
-        
-        # Render câu 1
-        p1 = q1['content']
-        p1 = re.sub(r'~([^~]+)~', r'$_{\1}$', p1)
-        p1 = re.sub(r'\^([^^]+)\^', r'$^{\1}$', p1)
-        p1 = p1.replace("1,9926 × 10^-23", r"$1{,}9926 \times 10^{-23}$")
-        p1 = p1.replace("1,6605 × 10^-24", r"$1{,}6605 \times 10^{-24}$")
-        lines.append(r"\textbf{\color{mainBlue}Câu " + str(q1['id']) + r".} " + p1 + r"\\[6pt]")
+        lines.append(r"\fontsize{26}{34}\selectfont")
+        lines.append("")
 
-        # Options dạng 2 cột tabularx
+        # Câu thứ nhất
+        p1 = to_latex(q1['content'])
+        lines.append(r"\textbf{Câu " + str(q1['id']) + r".} " + p1)
+        lines.append(r"\vspace{6pt}")
+        lines.append("")
+
         clean_opts1 = []
         for opt in q1['options']:
             o = opt.strip("*").strip()
-            lbl = o[:2]
-            body = o[2:].strip()
-            body = re.sub(r'~([^~]+)~', r'$_{\1}$', body)
-            body = re.sub(r'\^([^^]+)\^', r'$^{\1}$', body)
-            clean_opts1.append(r"\textbf{" + lbl + r"} " + body)
+            clean_o = to_latex(o)
+            # Tách A. B. C. D.
+            m = re.match(r'^([A-D]\.)\s*(.*)$', clean_o)
+            if m:
+                clean_opts1.append(r"\textbf{" + m.group(1) + r"} " + m.group(2))
+            else:
+                clean_opts1.append(clean_o)
 
-        lines.append(r"\noindent\begin{tabularx}{\textwidth}{@{}X X@{}}")
-        lines.append(clean_opts1[0] + r" & " + clean_opts1[1] + r"\\[4pt]")
+        lines.append(r"\begin{tabularx}{\linewidth}{@{}X X@{}}")
+        lines.append(clean_opts1[0] + r" & " + clean_opts1[1] + r"\\[8pt]")
         lines.append(clean_opts1[2] + r" & " + clean_opts1[3])
         lines.append(r"\end{tabularx}")
+        lines.append("")
 
+        # Câu thứ hai (nếu có)
         if q2:
             lines.append(r"\vspace*{\fill}")
-            p2 = q2['content']
-            p2 = re.sub(r'~([^~]+)~', r'$_{\1}$', p2)
-            p2 = re.sub(r'\^([^^]+)\^', r'$^{\1}$', p2)
-            p2 = p2.replace("1,9926 × 10^-23", r"$1{,}9926 \times 10^{-23}$")
-            p2 = p2.replace("1,6605 × 10^-24", r"$1{,}6605 \times 10^{-24}$")
-            lines.append(r"\textbf{\color{mainBlue}Câu " + str(q2['id']) + r".} " + p2 + r"\\[6pt]")
+            lines.append("")
+            p2 = to_latex(q2['content'])
+            lines.append(r"\textbf{Câu " + str(q2['id']) + r".} " + p2)
+            lines.append(r"\vspace{6pt}")
+            lines.append("")
 
             clean_opts2 = []
             for opt in q2['options']:
                 o = opt.strip("*").strip()
-                lbl = o[:2]
-                body = o[2:].strip()
-                body = re.sub(r'~([^~]+)~', r'$_{\1}$', body)
-                body = re.sub(r'\^([^^]+)\^', r'$^{\1}$', body)
-                clean_opts2.append(r"\textbf{" + lbl + r"} " + body)
+                clean_o = to_latex(o)
+                m = re.match(r'^([A-D]\.)\s*(.*)$', clean_o)
+                if m:
+                    clean_opts2.append(r"\textbf{" + m.group(1) + r"} " + m.group(2))
+                else:
+                    clean_opts2.append(clean_o)
 
-            lines.append(r"\noindent\begin{tabularx}{\textwidth}{@{}X X@{}}")
-            lines.append(clean_opts2[0] + r" & " + clean_opts2[1] + r"\\[4pt]")
+            lines.append(r"\begin{tabularx}{\linewidth}{@{}X X@{}}")
+            lines.append(clean_opts2[0] + r" & " + clean_opts2[1] + r"\\[8pt]")
             lines.append(clean_opts2[2] + r" & " + clean_opts2[3])
             lines.append(r"\end{tabularx}")
+            lines.append("")
 
-        lines.append(r"}")
-        lines.append(r"\clearpage")
+        lines.append(r"\newpage")
+        lines.append("")
 
-    # PHẦN II: 1 câu / 1 slide
+    # ==============================================================================
+    # PHẦN II: TRẮC NGHIỆM ĐÚNG SAI (1 CÂU / 1 SLIDE)
+    # ==============================================================================
     for q in PART2_QUESTIONS:
-        lines.append(r"{\fontsize{22}{29}\selectfont")
-        lines.append(r"\textbf{\color{mainBlue}Câu " + str(q['id']) + r".} " + q['title'] + r"\\[12pt]")
+        lines.append(r"\fontsize{26}{34}\selectfont")
+        title = to_latex(q['title'])
+        lines.append(r"\textbf{Câu " + str(q['id']) + r" (Đúng/Sai).} " + title)
+        lines.append(r"\vspace{14pt}")
+        lines.append("")
+
+        lines.append(r"\begin{tabularx}{\linewidth}{@{}p{0.88\linewidth} c@{}}")
+        stmt_rows = []
         for stmt, _ in q['statements']:
-            body = stmt
-            body = re.sub(r'~([^~]+)~', r'$_{\1}$', body)
-            body = re.sub(r'\^([^^]+)\^', r'$^{\1}$', body)
-            lines.append(r"\noindent\begin{tabularx}{\textwidth}{@{}X r@{}}")
-            lines.append(body + r" & \textbf{[ \quad ]} \\")
-            lines.append(r"\end{tabularx}\\[8pt]")
-        lines.append(r"\vspace*{\fill}")
-        lines.append(r"}")
-        lines.append(r"\clearpage")
+            body = to_latex(stmt)
+            m = re.match(r'^([a-d]\))\s*(.*)$', body)
+            if m:
+                formatted_stmt = r"\textbf{" + m.group(1) + r"} " + m.group(2)
+            else:
+                formatted_stmt = body
+            stmt_rows.append(formatted_stmt + r" & $[\quad]$")
+        lines.append(r"\\[12pt]".join(stmt_rows))
+        lines.append(r"\end{tabularx}")
+        lines.append("")
+        lines.append(r"\newpage")
+        lines.append("")
 
-    # PHẦN III: 1 câu / 1 slide
+    # ==============================================================================
+    # PHẦN III: TRẢ LỜI NGẮN (1 CÂU / 1 SLIDE, DÀNH 50-60% ĐỂ GIẢNG BÀI)
+    # ==============================================================================
     for q in PART3_QUESTIONS:
-        prompt = q['content']
-        prompt = re.sub(r'~([^~]+)~', r'$_{\1}$', prompt)
-        prompt = re.sub(r'\^([^^]+)\^', r'$^{\1}$', prompt)
+        lines.append(r"\fontsize{30}{40}\selectfont")
+        prompt = to_latex(q['content'])
+        lines.append(r"\textbf{Câu " + str(q['id']) + r" (Trả lời ngắn).} " + prompt)
+        lines.append(r"\vspace{22pt}")
+        lines.append("")
+        lines.append(r"\textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$")
+        lines.append("")
+        lines.append(r"\newpage")
+        lines.append("")
 
-        lines.append(r"{\fontsize{24}{32}\selectfont")
-        lines.append(r"\textbf{\color{mainBlue}Câu " + str(q['id']) + r".} " + prompt + r"\\[20pt]")
-        lines.append(r"\textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$\\[20pt]")
-        lines.append(r"\vspace*{\fill}")
-        lines.append(r"}")
-        lines.append(r"\clearpage")
-
-    # Slide BẢNG ĐÁP ÁN CUỐI CÙNG
-    lines.append(r"""
+    # ==============================================================================
+    # BẢNG ĐÁP ÁN CHÍNH THỨC Ở SLIDE CUỐI CÙNG
+    # ==============================================================================
+    lines.append(r"""\fontsize{18}{24}\selectfont
 \begin{center}
-{\fontsize{26}{34}\selectfont \textbf{\color{hfRed}BẢNG ĐÁP ÁN ĐỀ KIỂM TRA GIỮA KÌ I -- MÃ ĐỀ 01}}\\[16pt]
-{\fontsize{18}{24}\selectfont
-\textbf{\color{mainBlue}PHẦN I. CÂU TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN LỰA CHỌN}\\[6pt]
-\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+{\fontsize{24}{30}\selectfont\textbf{BẢNG ĐÁP ÁN CHÍNH THỨC -- ĐỀ KIỂM TRA GIỮA KÌ I (MÃ ĐỀ 01)}}\\[10pt]
+\end{center}
+
+\textbf{1. PHẦN I: CÂU TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN LỰA CHỌN}\\[4pt]
+\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\linewidth}{|*{16}{>{\centering\arraybackslash}X|}}
 \hline
 \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} & \textbf{13} & \textbf{14} & \textbf{15} & \textbf{16} \\
 \hline
-\textbf{B} & \textbf{D} & \textbf{D} & \textbf{C} & \textbf{A} & \textbf{B} & \textbf{A} & \textbf{A} & \textbf{C} & \textbf{C} & \textbf{C} & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{D} & \textbf{A} \\
+\color{ansRed}\textbf{B} & \color{ansRed}\textbf{D} & \color{ansRed}\textbf{D} & \color{ansRed}\textbf{C} & \color{ansRed}\textbf{A} & \color{ansRed}\textbf{B} & \color{ansRed}\textbf{A} & \color{ansRed}\textbf{A} & \color{ansRed}\textbf{C} & \color{ansRed}\textbf{C} & \color{ansRed}\textbf{C} & \color{ansRed}\textbf{A} & \color{ansRed}\textbf{B} & \color{ansRed}\textbf{C} & \color{ansRed}\textbf{D} & \color{ansRed}\textbf{A} \\
 \hline
-\end{tabular}\\[16pt]
+\end{tabularx}
 
-\textbf{\color{mainBlue}PHẦN II. CÂU TRẮC NGHIỆM ĐÚNG SAI}\\[6pt]
-\begin{tabular}{|c|c|c|c|c|}
-\hline
-\textbf{Câu} & \textbf{Ý a} & \textbf{Ý b} & \textbf{Ý c} & \textbf{Ý d} \\
-\hline
-\textbf{17} & Đúng & Đúng & Sai & Đúng \\
-\hline
-\textbf{18} & Đúng & Sai & Đúng & Sai \\
-\hline
-\textbf{19} & Đúng & Sai & Đúng & Sai \\
-\hline
-\end{tabular}\\[16pt]
+\vspace{14pt}
 
-\textbf{\color{mainBlue}PHẦN III. TRẢ LỜI NGẮN}\\[6pt]
-\begin{tabular}{|c|c|c|c|c|c|}
+\textbf{2. PHẦN II: CÂU TRẮC NGHIỆM ĐÚNG SAI}\\[6pt]
+\begin{tabularx}{\linewidth}{@{}*{3}{>{\raggedright\arraybackslash}X}@{}}
+\textbf{Câu 17:} [\color{ansRed}\textbf{Đ -- Đ -- S -- Đ}\color{black}] &
+\textbf{Câu 18:} [\color{ansRed}\textbf{Đ -- S -- Đ -- S}\color{black}] &
+\textbf{Câu 19:} [\color{ansRed}\textbf{Đ -- S -- Đ -- S}\color{black}]
+\end{tabularx}
+
+\vspace{14pt}
+
+\textbf{3. PHẦN III: CÂU TRẮC NGHIỆM TRẢ LỜI NGẮN}\\[6pt]
+\begin{tabularx}{\linewidth}{@{}*{6}{>{\centering\arraybackslash}X}@{}}
 \hline
 \textbf{Câu 20} & \textbf{Câu 21} & \textbf{Câu 22} & \textbf{Câu 23} & \textbf{Câu 24} & \textbf{Câu 25} \\
 \hline
-\textbf{142} & \textbf{43,66\%} & \textbf{14} & \textbf{7} & \textbf{11}0 & \textbf{2} \\
+\color{ansRed}\textbf{142} & \color{ansRed}\textbf{43,66\%} & \color{ansRed}\textbf{14} & \color{ansRed}\textbf{7} & \color{ansRed}\textbf{110} & \color{ansRed}\textbf{2} \\
 \hline
-\end{tabular}
-}
-\end{center}
-\clearpage
-""")
+\end{tabularx}
 
-    lines.append(r"\end{document}")
+\end{document}
+""")
 
     with open(tex_path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
-    print(f"[OK] Đã tạo file LaTeX Tivi: {tex_path}")
+    print(f"[OK] Đã tạo file LaTeX Tivi chuẩn: {tex_path}")
 
     # Biên dịch pdflatex
     try:
@@ -1009,6 +1018,8 @@ def generate_latex_tivi_16x9():
                 os.remove(junk)
             except:
                 pass
+
+
 
 # ==============================================================================
 # HÀM SAO CHÉP ONEDRIVE
