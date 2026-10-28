@@ -1,0 +1,769 @@
+TỔNG HỢP 10 ĐỀ ÔN TẬP CHƯƠNG 1, 2, 3 HÓA HỌC 12
+ĐỀ SỐ 1
+PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn (4,5 điểm)
+Thí sinh trả lời từ câu 1 đến câu 18. Mỗi câu hỏi thí sinh chỉ chọn một phương án.
+Câu 1. Thành phần chính của chất giặt rửa tổng hợp là
+A. C17H33COOK.      B. (C17H33COO)2Ca.      C. CH3COONa.      D. CH3[CH2]11C6H4SO3Na.
+Câu 2. Ester nào sau đây có công thức CH3COOCH=CH2?
+A. Methyl acetate.      B. Vinyl acetate.      C. Ethyl formate.      D. Methyl acrylate.
+Câu 3. Hợp chất CH3NHCH3 thuộc loại amine nào?
+A. Bậc 1.      B. Bậc 2.      C. Bậc 3.      D. Amine thơm.
+Câu 4. Trong phân tử cellulose, các đơn vị glucose liên kết với nhau bằng liên kết
+A. α-1,4-glycoside.      B. β-1,4-glycoside.      C. α-1,6-glycoside.      D. β-1,6-glycoside.
+Câu 5. Amino acid là hợp chất hữu cơ trong phân tử chứa các nhóm chức
+A. -COOH và -OH.      B. -NH2 và -COOH.      C. -CHO và -OH.      D. -NH2 và -OH.
+Câu 6. Để phân biệt glucose và glycerol ở nhiệt độ thường, thuốc thử phù hợp là
+A. Dung dịch NaOH.      B. Cu(OH)2 đun nóng.      C. Thuốc thử Tollens, t°.      D. Dung dịch HCl.
+Câu 7. Chất chủ yếu trong tinh bột tạo nên quá trình hồ hóa khi đun nóng trong nước là
+A. Amylose.      B. Amylopectin.      C. Glucose.      D. Saccharose.
+Câu 8. Thủy phân hoàn toàn peptide bởi dung dịch kiềm nóng thu được sản phẩm là
+A. Ester.      B. Các muối của α-amino acid.      C. Amine.      D. Alcohol.
+Câu 9. Chất nào sau đây vừa phản ứng với dung dịch NaOH vừa phản ứng với dung dịch HCl?
+A. H2N-CH2-COOH.      B. CH3COOH.      C. C2H5OH.      D. CH3NH2.
+Câu 10. Phản ứng xà phòng hóa chất béo tristearin bằng dung dịch NaOH thu được xà phòng và
+A. Ethylene glycol.      B. Glycerol.      C. Ethanol.      D. Methanol.
+Câu 11. Công thức phân tử của saccharose là
+A. C6H12O6.      B. C12H22O11.      C. (C6H10O5)n.      D. C3H6O2.
+Câu 12. Tên gọi của dipeptide H2N-CH2-CO-NH-CH(CH3)COOH là
+A. Ala-Gly.      B. Gly-Ala.      C. Gly-Val.      D. Ala-Val.
+Câu 13. Carbohydrate nào sau đây thuộc loại disaccharide?
+A. Glucose.      B. Fructose.      C. Saccharose.      D. Tinh bột.
+Câu 14. Hydrogen hóa hoàn toàn triolein (xúc tác Ni, t°) thu được
+A. Tristearin.      B. Tripalmitin.      C. Glycerol.      D. Oleic acid.
+Câu 15. Amine nào sau đây là arylamine (amine thơm)?
+A. CH3NH2.      B. C6H5NH2.      C. C2H5NH2.      D. (CH3)2NH.
+Câu 16. Ở điều kiện thường, chất nào sau đây là chất khí?
+A. Aniline.      B. Methylamine.      C. Glycine.      D. Glucose.
+Câu 17. Cho dung dịch glucose tác dụng với Cu(OH)2/NaOH đun nóng tạo kết tủa màu
+A. Xanh lam.      B. Đỏ gạch.      C. Trắng.      D. Vàng.
+Câu 18. Peptide Gly-Ala có số liên kết peptide là
+A. 1.      B. 2.      C. 3.      D. 0.
+PHẦN II. Câu trắc nghiệm đúng sai (3,0 điểm)
+Thí sinh trả lời từ câu 1 đến câu 4. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn Đúng hoặc Sai.
+Câu 1. Về cấu tạo và tính chất của chất béo Trilinolein (C17H31COO)3C3H5:
+a) Công thức phân tử của trilinolein là C57H98O6.
+b) Thủy phân hoàn toàn trilinolein trong môi trường acid thu được acid béo không no.
+c) Hydrogen hóa hoàn toàn trilinolein thu được chất béo lỏng.
+d) Trilinolein làm mất màu dung dịch nước bromine.
+Câu 2. Cho các điểm đẳng điện pI: Glycine (6,0), Glutamic acid (3,2), Lysine (9,7):
+a) Tên bán hệ thống của glycine là α-aminoacetic acid.
+b) Trong dung dịch pH = 6,0, glycine tồn tại chủ yếu ở dạng cation di chuyển về cực âm.
+c) Ở pH = 11,0, lysine tồn tại ở dạng anion di chuyển về cực dương trong điện trường.
+d) Lysine có 2 nhóm -NH2 và 1 nhóm -COOH trong phân tử.
+Câu 3. Xét peptide X có công thức Ala-Gly-Val:
+a) X là một tripeptide.
+b) Amino acid đầu N là Valine, đầu C là Alanine.
+c) X có phản ứng màu biuret tạo dung dịch màu tím đặc trưng.
+d) Phân tử X chứa 3 liên kết peptide.
+Câu 4. Về thí nghiệm ester hóa giữa CH3COOH và C2H5OH (xúc tác H2SO4 đặc):
+a) Phản ứng xảy ra là phản ứng thuận nghịch.
+b) H2SO4 đặc vừa làm xúc tác vừa làm tăng hiệu suất bằng cách hút nước.
+c) Tách ethyl acetate bằng phương pháp chiết vì nó không tan và nhẹ hơn nước.
+d) Sau phản ứng thu được dung dịch hoàn toàn đồng nhất.
+PHẦN III. Câu trắc nghiệm trả lời ngắn (2,5 điểm)
+Thí sinh trả lời từ câu 1 đến câu 6.
+Câu 1. Thứ tự đúng các bước thí nghiệm điều chế xà phòng: (1) Thêm NaCl bão hòa nóng; (2) Cho dầu ăn + NaOH vào bát sứ; (3) Đun sôi nhẹ và khuấy đều; (4) Thêm nước cất giữ thể tích không đổi.
+Câu 2. Tính thu nhập từ nấu rượu gạo: 320 kg gạo (chứa 80% tinh bột) lên men thu rượu 40° với hiệu suất 70%, D(ethanol)=0,8 g/mL, giá 50.000 đ/lít. Doanh thu thu được là bao nhiêu triệu đồng? (làm tròn đến hàng phần mười)
+Câu 3. Có bao nhiêu chất trong dãy tác dụng được với dung dịch NaOH nóng: lysine, aniline, methyl acrylate, ethyl formate, maltose, tripalmitin?
+Câu 4. Số nguyên tử oxygen trong phân tử tripeptide Gly-Ala-Ala là bao nhiêu?
+Câu 5. Thủy phân hoàn toàn 0,1 mol phenyl acetate CH3COOC6H5 trong NaOH dư. Khối lượng muối thu được là bao nhiêu gam?
+Câu 6. Để sản xuất 1 tấn glucose với hiệu suất 80%, khối lượng tinh bột cần dùng là bao nhiêu tấn? (làm tròn đến hàng phần trăm)
+ĐÁP ÁN VÀ HƯỚNG DẪN GIẢI ĐỀ SỐ 1
+PHẦN I: 1.D | 2.B | 3.B | 4.B | 5.B | 6.C | 7.B | 8.B | 9.A | 10.B | 11.B | 12.B | 13.C | 14.A | 15.B | 16.B | 17.B | 18.A
+PHẦN II: Câu 1: [ĐĐSĐ] | Câu 2: [ĐSĐĐ] | Câu 3: [ĐSĐS] | Câu 4: [ĐĐĐS]
+PHẦN III: Câu 1: 2341 | Câu 2: 15,9 | Câu 3: 4 | Câu 4: 4 | Câu 5: 19,8 | Câu 6: 1,13
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+ĐỀ SỐ 2  
+PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn (4,5 điểm)
+Câu 1. Monosaccharide nào sau đây liên kết với β-fructose để tạo thành saccharose?
+A. α-glucose.      B. β-glucose.      C. α-galactose.      D. β-galactose.
+Câu 2. Phân tử khối của amine H2N-(CH2)6-NH2 dùng để tổng hợp nylon-6,6 là
+A. 116.      B. 114.      C. 146.      D. 112.
+Câu 3. Chất giặt rửa tổng hợp có ưu điểm nổi bật so với xà phòng là
+A. Dễ phân hủy sinh học hơn.      B. Dùng được trong nước cứng.      C. Không gây ô nhiễm môi trường.      D. Sản xuất từ mỡ động vật.
+Câu 4. Carbohydrate nào sau đây có công thức thu gọn HOCH2-(CHOH)4-CHO?
+A. Fructose.      B. Glucose.      C. Saccharose.      D. Cellulose.
+Câu 5. Tên thay thế của alanine CH3-CH(NH2)-COOH là
+A. 2-aminopropanoic acid.      B. 2-aminopropionic acid.      C. α-aminopropionic acid.      D. 3-aminopropanoic acid.
+Câu 6. Quá trình tiêu hóa tinh bột trong cơ thể người nhờ enzyme amilase là phản ứng
+A. Ester hóa.      B. Thủy phân.      C. Xà phòng hóa.      D. Trùng hợp.
+Câu 7. Amine CH3-CH2-NH-CH3 có tên thay thế là
+A. N-methyl ethanamine.      B. N-ethyl methanamine.      C. Diethylamine.      D. Propylamine.
+Câu 8. Chất béo là triester của glycerol với
+A. Mineral acid.      B. Dicarboxylic acid.      C. Fatty acid (acid béo).      D. Amino acid.
+Câu 9. Chất nào sau đây được dùng để tráng ruột phích, tráng gương?
+A. Saccharose.      B. Glucose.      C. Starch.      D. Cellulose.
+Câu 10. Monosaccharide X có nhiều trong trái cây chín, mật ong và máu người. X là
+A. Fructose.      B. Glucose.      C. Maltose.      D. Sucrose.
+Câu 11. Protein α-keratin có trong tóc, móng tay có dạng cấu trúc
+A. Hình cầu, tan trong nước.      B. Hình sợi, không tan trong nước.      C. Hình cầu, không tan.      D. Hình sợi, tan nhiều.
+Câu 12. Trong phân tử maltose, liên kết glycoside được hình thành giữa C1 của gốc α-glucose thứ nhất và C mấy của gốc glucose thứ hai?
+A. C1.      B. C2.      C. C4.      D. C6.
+Câu 13. Khối lượng ethanol thu được khi lên men 600 kg nho chứa 20% glucose với hiệu suất 95% là
+A. 58,3 kg.      B. 61,3 kg.      C. 29,1 kg.      D. 30,7 kg.
+Câu 14. Công thức cấu tạo sodium laurylsulfate là CH3[CH2]11OSO3Na. Đầu CH3[CH2]11- có tính chất
+A. Kị nước (ưa dầu mỡ).      B. Ưa nước.      C. Mang điện tích âm.      D. Tan vô hạn trong nước.
+Câu 15. Nhỏ dung dịch nước bromine vào dung dịch aniline thấy xuất hiện kết tủa màu
+A. Vàng.      B. Trắng.      C. Đỏ gạch.      D. Xanh lam.
+Câu 16. Dung dịch amino acid nào sau đây làm quỳ tím hóa đỏ?
+A. Glycine.      B. Alanine.      C. Glutamic acid.      D. Lysine.
+Câu 17. Cho phản ứng: Glucose → 2 C2H5OH + 2 CO2. Đây là phản ứng
+A. Thủy phân.      B. Lên men rượu.      C. Oxi hóa không hoàn toàn.      D. Trùng hợp.
+Câu 18. Số nhóm peptide (-CO-NH-) trong phân tử tetrapeptide mạch hở là
+A. 4.      B. 3.      C. 2.      D. 5.
+PHẦN II. Câu trắc nghiệm đúng sai (3,0 điểm)
+Câu 1. Về phản ứng ester hóa giữa C2H5OH và CH3COOH:
+a) Ester thu được có tên gọi là ethyl acetate.
+b) Ethyl acetate được ứng dụng rộng rãi làm dung môi tách chiết.
+c) Để tách ethyl acetate khỏi hỗn hợp phản ứng dùng phương pháp chiết hiệu quả hơn chưng cất.
+d) Hỗn hợp sau phản ứng phân thành 2 lớp, lớp trên chủ yếu là ethyl acetate.
+Câu 2. Về các carbohydrate: Glucose, Fructose, Tinh bột, Cellulose:
+a) Glucose và fructose đều là các monosaccharide isomeric (đồng phân của nhau).
+b) Tinh bột và cellulose đều có cấu tạo chuỗi dài, không nhánh và không xoắn.
+c) Fructose làm mất màu nước bromine vì chuyển thành glucose trong môi trường base.
+d) Tinh bột và cellulose đều là nguồn nguyên liệu để sản xuất ethanol sinh học.
+Câu 3. Xét pentapeptide Enkephalin (A) có vai trò tạo cảm xúc tích cực, thủy phân A thu được Gly, Phe, Leu, Tyr. Thủy phân không hoàn toàn thu được Gly-Gly-Phe và Tyr-Gly (Tyr là đầu N):
+a) Trật tự các amino acid trong A là Tyr-Gly-Gly-Phe-Leu.
+b) A không có khả năng tạo phức màu tím với Cu(OH)2 trong môi trường kiềm.
+c) Endorphin có thể tăng cường tự nhiên qua tập thể dục và dinh dưỡng hợp lý.
+d) Glycine là amino acid thiết yếu mà cơ thể người không thể tự tổng hợp được.
+Câu 4. Cho các phát biểu về Aniline C6H5NH2:
+a) Tổng hợp aniline từ benzene qua các giai đoạn: Benzene → Nitrobenzene → Phenylammonium chloride → Aniline.
+b) Aniline phản ứng với HNO2 ở 0-5°C tạo muối diazonium dùng nhuộm azo.
+c) Ở điều kiện thường aniline là chất khí độc hại.
+d) Aniline làm mất màu dung dịch nước bromine tạo kết tủa 2,4,6-tribromoaniline màu trắng.
+PHẦN III. Câu trắc nghiệm trả lời ngắn (2,5 điểm)
+Câu 1. Xà phòng hóa hoàn toàn 15 kg chất béo chứa acid béo tự do bằng 25 L dung dịch KOH 2M thu được 1,472 kg glycerol. Biết muối chiếm 72% khối lượng xà phòng. Khối lượng xà phòng m thu được là bao nhiêu kg? (làm tròn đến hàng phần mười)
+Câu 2. Tổng hệ số cân bằng (số nguyên tối giản) các chất trong phản ứng giữa saccharose 2 C12H22O11 + Cu(OH)2 → (C12H21O11)2Cu + 2 H2O là bao nhiêu?
+Câu 3. Tính tổng phân tử khối (amu) của 2 chất chính trong xà phòng và giặt rửa: Sodium palmitate (C15H31COONa = 278) và Sodium laurylsulfate (C12H25OSO3Na = 288). Tổng M bằng bao nhiêu?
+Câu 4. Dựa vào đồ thị độ hoạt động pH của enzyme, pH tối ưu cho enzyme Pepsin phân hủy protein trong dạ dày là bao nhiêu?
+Câu 5. Cho các thí nghiệm: (a) Glucose + Tollens t°; (b) Glucose + Br2; (c) Glucose + CH3OH/HCl; (d) Glucose + Cu(OH)2/NaOH t°. Có bao nhiêu thí nghiệm xảy ra phản ứng?
+Câu 6. Để sản xuất 1500 chai dung dịch glucose 5% (mỗi chai 500 mL chứa 25g glucose) thì khối lượng tinh bột cần dùng là bao nhiêu kg (làm tròn đến hàng phần mười, H=100%)?
+ĐÁP ÁN VÀ HƯỚNG DẪN GIẢI ĐỀ SỐ 2
+PHẦN I: 1.A | 2.A | 3.B | 4.B | 5.A | 6.B | 7.A | 8.C | 9.B | 10.B | 11.B | 12.C | 13.A | 14.A | 15.B | 16.C | 17.B | 18.B
+PHẦN II: Câu 1: [ĐĐĐĐ] | Câu 2: [ĐSSĐ] | Câu 3: [ĐSĐS] | Câu 4: [ĐĐSĐ]
+PHẦN III: Câu 1: 22,6 | Câu 2: 6 | Câu 3: 566 | Câu 4: 2 | Câu 5: 4 | Câu 6: 33,8
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+ĐỀ SỐ 3 
+PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn (4,5 điểm)
+Câu 1. Thủy phân cellulose trong môi trường acid thu được chất X. Cho X tác dụng với AgNO3/NH3 dư thu được chất Y. Các chất X, Y lần lượt là
+A. Glucose và ammonium gluconate.      B. Saccharose và gluconic acid.      C. Fructose và ammonium gluconate.      D. Glucose và gluconic acid.
+Câu 2. Chất nào sau đây thuộc loại polysaccharide?
+A. Tinh bột.      B. Glucose.      C. Saccharose.      D. Fructose.
+Câu 3. Phát biểu nào sau đây KHÔNG đúng về tính chất vật lý của ester?
+A. Một số ester có mùi thơm quả chín.      B. Ester nhẹ hơn nước và ít tan trong nước.      C. Ester có nhiệt độ sôi cao hơn alcohol có cùng số C.      D. Ở điều kiện thường ester có thể là chất lỏng hoặc rắn.
+Câu 4. Trong quy trình nấu xà phòng, việc thêm dung dịch NaCl bão hòa nóng nhằm mục đích
+A. Thúc đẩy phản ứng xà phòng hóa.      B. Tách muối carboxylate (xà phòng) nổi lên trên.      C. Trung hòa lượng NaOH dư.      D. Làm tăng độ tan của xà phòng.
+Câu 5. Thủy phân không hoàn toàn heptapeptide X thu được Ser-His-Leu, Val-Glu-Ala, His-Leu-Val, Gly-Ser-His. Amino acid ở vị trí thứ 5 (đầu N là số 1) là
+A. Gly.      B. Val.      C. Glu.      D. Ala.
+Câu 6. Nicotine có trong thuốc lá là một alkaloid có công thức C10H14N2. Nicotine thuộc loại hợp chất
+A. Amine.      B. Amino acid.      C. Ester.      D. Protein.
+Câu 7. Phát biểu nào sau đây đúng khi nói về glucose và fructose?
+A. Fructose làm mất màu dung dịch nước bromine.      B. Glucose bị biến đổi thành -OH hemiacetal khi chuyển sang dạng mạch vòng.      C. Fructose không phản ứng với thuốc thử Tollens.      D. Glucose không hòa tan được Cu(OH)2.
+Câu 8. Thể tích CO2 (đkc ở 37°C, 1 mol CO2 có V = 25,4 L) thải ra khi oxi hóa hoàn toàn 90 gam glucose trong cơ thể là
+A. 38,1 L.      B. 76,2 L.      C. 25,4 L.      D. 50,8 L.
+Câu 9. Amino acid nào sau đây chứa 2 nhóm carboxyl (-COOH) trong phân tử?
+A. Glutamic acid.      B. Alanine.      C. Valine.      D. Lysine.
+Câu 10. Monosaccharide nào là đơn vị cấu tạo nên cả tinh bột và cellulose?
+A. Glucose.      B. Fructose.      C. Saccharose.      D. Maltose.
+Câu 11. Protein nào sau đây có nhiều trong lòng trắng trứng gà?
+A. Albumin.      B. Fibroin.      C. Keratin.      D. Collagen.
+Câu 12. Hiện tượng các ion amino acid di chuyển dưới tác dụng của điện trường gọi là
+A. Sự điện di.      B. Sự điện phân.      C. Sự điện li.      D. Sự thủy phân.
+Câu 13. Tên gọi của ester HCOOCH3 là
+A. Methyl formate.      B. Ethyl formate.      C. Methyl acetate.      D. Ethyl acetate.
+Câu 14. Amine CH3CH2-NH-CH2CH3 có tên thay thế là
+A. N-ethylethanamine.      B. Diethylamine.      C. Triethylamine.      D. Ethylamine.
+Câu 15. Thành phần chính của xà phòng truyền thống là
+A. Muối sodium hoặc potassium của acid béo.      B. Muối alkylsulfate.      C. Ester của glycerol.      D. Sulfonic acid.
+Câu 16. Phân tử xà phòng sodium palmitate có đầu -COONa có đặc tính
+A. Ưa nước.      B. Kị nước (ưa dầu mỡ).      C. Không mang điện.      D. Không tan trong nước.
+Câu 17. Các amine CH3NH2, C2H5NH2 tan tốt trong nước chủ yếu do
+A. Tạo liên kết hydrogen với nước.      B. Khối lượng phân tử nhỏ.      C. Có phản ứng trung hòa.      D. Lực van der Waals yếu.
+Câu 18. Cho dung dịch lòng trắng trứng (albumin) tác dụng với Cu(OH)2 xuất hiện màu đặc trưng là
+A. Màu tím.      B. Màu xanh lam.      C. Màu đỏ gạch.      D. Màu vàng.
+PHẦN II. Câu trắc nghiệm đúng sai (3,0 điểm)
+Câu 1. Xét các amino acid Alanine (X), Glutamic acid (Y), Lysine (Z):
+a) Tổng số nhóm -NH2 trong 1 phân tử X và 1 phân tử Z là 3 nhóm.
+b) Dung dịch Alanine (X) không làm đổi màu quỳ tím.
+c) Thể tích dung dịch NaOH 1M cần để phản ứng vừa đủ 29,4g Glutamic acid là 400 mL.
+d) Cả X, Y, Z đều chứa các nguyên tố C, H, O, N trong phân tử.
+Câu 2. Isopropyl formate là ester có trong hương thơm cà phê Arabica:
+a) Công thức cấu tạo của isopropyl formate là HCOOCH(CH3)2.
+b) Isopropyl formate có nhiệt độ sôi cao hơn và tan tốt hơn formic acid.
+c) Ester này được điều chế từ formic acid và isopropyl alcohol có H2SO4 đặc xúc tác.
+d) Thủy phân isopropyl formate trong dung dịch NaOH thu được sodium formate và propan-2-ol.
+Câu 3. Sơ đồ: Saccharose + H2O → X + Y; X → Z (ethanol); Z + Y → T:
+a) X và Z đều hòa tan được Cu(OH)2 ở nhiệt độ thường tạo dung dịch xanh lam.
+b) X tồn tại dạng mạch vòng chứa nhóm -OH hemiacetal.
+c) Thủy phân T thu được 2 chất hữu cơ có cùng số nguyên tử carbon.
+d) Thủy phân 200g dung dịch saccharose 6,84% với hiệu suất 80% thu được 6,912g Ag khi thực hiện tráng bạc.
+Câu 4. Về enzyme và protein:
+a) Tính đa dạng của protein do số lượng, thành phần và trật tự alpha-amino acid quyết định.
+b) Enzyme có tính chọn lọc rất cao, xúc tác cho phản ứng sinh hóa nhất định.
+c) Protein chỉ có vai trò cấu tạo cơ thể động vật, không cần thiết ở thực vật.
+d) Enzyme được ứng dụng rộng rãi trong chẩn đoán và định lượng y học.
+PHẦN III. Câu trắc nghiệm trả lời ngắn (2,5 điểm)
+Câu 1. Đun nóng dung dịch chứa 10g glucose với Cu(OH)2/NaOH dư thu được m gam kết tủa Cu2O màu đỏ gạch. Giá trị m là bao nhiêu gam (làm tròn đến hàng phần mười)?
+Câu 2. Trong số 6 carbohydrate: glucose, fructose, saccharose, maltose, tinh bột, cellulose; có bao nhiêu chất chứa liên kết α-1,4-glycosidic?
+Câu 3. Lên men 1 tấn sắn khô (chứa 35% tinh bột) thu ethanol để pha xăng E5 (5% thể tích ethanol). Biết H = 81%, D(ethanol) = 0,8 g/mL. Thể tích xăng E5 thu được là bao nhiêu lít (làm tròn đến hàng đơn vị)?
+Câu 4. Để điều chế 28,1 gam benzenediazonium chloride C6H5N2Cl từ aniline C6H5NH2 với hiệu suất 90% cần bao nhiêu gam aniline (làm tròn đến hàng phần mười)?
+Câu 5. Thể tích dung dịch dimethylamine (C2H7N) 0,25M cần dùng để trung hòa 20 mL dung dịch HCl 1M bị rò rỉ là bao nhiêu mL?
+Câu 6. Tổng số nguyên tử carbon trong phân tử sodium stearate C17H35COONa là bao nhiêu?
+ĐÁP ÁN VÀ HƯỚNG DẪN GIẢI ĐỀ SỐ 3
+PHẦN I: 1.A | 2.A | 3.C | 4.B | 5.B | 6.A | 7.B | 8.B | 9.A | 10.A | 11.A | 12.A | 13.A | 14.A | 15.A | 16.A | 17.A | 18.A
+PHẦN II: Câu 1: [ĐĐĐĐ] | Câu 2: [ĐSĐĐ] | Câu 3: [SĐĐĐ] | Câu 4: [ĐĐSĐ]
+PHẦN III: Câu 1: 8,0 | Câu 2: 2 | Câu 3: 4025 | Câu 4: 20,7 | Câu 5: 80 | Câu 6: 18
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+ĐỀ SỐ 4  
+PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn (4,5 điểm)
+Câu 1. Liên kết giữa các mắt xích glucose trong phân tử amylose là liên kết
+A. α-1,4-glycosidic.      B. β-1,4-glycosidic.      C. α-1,6-glycosidic.      D. β-1,6-glycosidic.
+Câu 2. Cho dãy các chất: C6H5NH2 (1), C2H5NH2 (2), (C6H5)2NH (3), (C2H5)2NH (4), NH3 (5). Thứ tự lực base giảm dần là
+A. (4) > (2) > (5) > (1) > (3).      B. (3) > (1) > (5) > (2) > (4).      C. (1) > (2) > (3) > (4) > (5).      D. (4) > (2) > (1) > (5) > (3).
+Câu 3. Tên gọi của HCOOC2H5 là
+A. Ethyl formate.      B. Methyl acetate.      C. Methyl formate.      D. Ethyl acetate.
+Câu 4. Đường chiếm thành phần chủ yếu trong mật ong (khoảng 40%) là
+A. Fructose.      B. Glucose.      C. Saccharose.      D. Maltose.
+Câu 5. Số đồng phân ester ứng với công thức phân tử C4H8O2 là
+A. 4.      B. 2.      C. 5.      D. 3.
+Câu 6. Đường dùng để truyền tĩnh mạch cho bệnh nhân suy nhược cơ thể là
+A. Glucose.      B. Saccharose.      C. Fructose.      D. Maltose.
+Câu 7. Phát biểu nào sai khi nói về phản ứng hòa tan Cu(OH)2 của glucose?
+A. Chứng minh glucose có nhóm aldehyde -CHO.      B. Tạo dung dịch màu xanh lam ở nhiệt độ thường.      C. Fructose cũng hòa tan Cu(OH)2 tạo dung dịch xanh lam tương tự.      D. Thay NaOH bằng KOH thì hiện tượng không đổi.
+Câu 8. Triester của glycerol với oleic acid và linoleic acid có tối đa bao nhiêu đồng phân triester chứa cả 2 gốc acid trên?
+A. 4.      B. 6.      C. 2.      D. 8.
+Câu 9. Loại dầu nào sau đây KHÔNG phải là ester của acid béo và glycerol?
+A. Dầu luyn (dầu nhờn bôi trơn).      B. Dầu vừng.      C. Dầu ôliu.      D. Dầu gan cá.
+Câu 10. Cho 20g hỗn hợp 3 amine no đơn chức kế tiếp tác dụng vừa đủ 160 mL HCl 1M thu được muối. Tổng m muối thu được là
+A. 25,84 g.      B. 31,68 g.      C. 28,12 g.      D. 24,18 g.
+Câu 11. Muối sodium stearate có công thức là
+A. C17H35COONa.      B. C15H31COONa.      C. C17H33COONa.      D. CH3COONa.
+Câu 12. Phân tử maltose được cấu tạo từ
+A. 2 gốc α-glucose.      B. 1 α-glucose và 1 β-fructose.      C. 2 gốc β-glucose.      D. 1 α-glucose và 1 β-glucose.
+Câu 13. Amine nào sau đây thuộc loại amine bậc ba?
+A. (CH3)3N.      B. CH3NH2.      C. (CH3)2NH.      D. C2H5NH2.
+Câu 14. Thuốc thử để phân biệt glucose và fructose là
+A. Dung dịch nước bromine.      B. Thuốc thử Tollens.      C. Cu(OH)2 trong môi trường kiềm.      D. Quỳ tím.
+Câu 15. Đường saccharose thuộc loại carbohydrate nào?
+A. Disaccharide.      B. Monosaccharide.      C. Polysaccharide.      D. Oligosaccharide.
+Câu 16. Phản ứng xà phòng hóa tristearin trong dung dịch NaOH tạo xà phòng thuộc loại phản ứng
+A. Thủy phân trong môi trường kiềm.      B. Thủy phân trong môi trường acid.      C. Ester hóa.      D. Trùng hợp.
+Câu 17. Cho sơ đồ: Cellulose → Glucose → Sorbitol. Chất phản ứng biến Glucose thành Sorbitol là
+A. H2 (xúc tác Ni, t°).      B. AgNO3/NH3.      C. Cu(OH)2.      D. O2.
+Câu 18. Peptide chứa 3 gốc α-amino acid gọi là
+A. Tripeptide.      B. Dipeptide.      C. Tetrapeptide.      D. Polypeptide.
+PHẦN II. Câu trắc nghiệm đúng sai (3,0 điểm)
+Câu 1. Xét hai monosaccharide X (glucose) và Y (fructose) thu được từ thủy phân saccharose:
+a) X có tự nhiên trong nhiều loại quả chín đặc biệt là quả nho.
+b) Y (fructose) không có phản ứng tráng bạc với thuốc thử Tollens.
+c) Y không bị thủy phân trong môi trường kiềm vì là monosaccharide.
+d) Fructose (Y) có độ ngọt cao hơn Glucose (X).
+Câu 2. Về quá trình quang hợp ở cây xanh tạo tinh bột:
+a) Động vật cũng có khả năng tổng hợp tinh bột nhờ quang hợp.
+b) Chất diệp lục (chlorophyll) đóng vai trò chất xúc tác hấp thụ năng lượng ánh sáng.
+c) Phương trình quang hợp: 6 CO2 + 6 H2O → C6H12O6 + 6 O2.
+d) Khí O2 sinh ra từ quang hợp cần thiết cho sự hô hấp của sinh vật.
+Câu 3. Năng lượng từ chất béo cung cấp 20% tổng nhu cầu 9120 kJ/ngày của học sinh. 1g chất béo tỏa 38 kJ:
+a) Năng lượng do chất béo cung cấp mỗi ngày cho học sinh là 1824 kJ.
+b) Chất béo là nguồn dự trữ và cung cấp năng lượng quan trọng cho cơ thể.
+c) Lượng chất béo tối thiểu cần cho học sinh mỗi ngày là 48 gam.
+d) Nếu đã ăn 32g chất béo ở buổi sáng và trưa thì buổi chiều cần bổ sung thêm 16g chất béo.
+Câu 4. Cho các hợp chất hữu cơ có công thức C2H4O2 (gồm CH3COOH, HCOOCH3, HO-CH2-CHO):
+a) Có 2 chất có khả năng tham gia phản ứng tráng bạc (HCOOCH3 và HO-CH2-CHO).
+b) Số chất tác dụng với dung dịch NaOH là 2 (CH3COOH và HCOOCH3).
+c) Chất làm quỳ tím hóa đỏ là acetic acid CH3COOH.
+d) Chất vừa tác dụng với Na vừa tác dụng với NaOH là acetic acid.
+PHẦN III. Câu trắc nghiệm trả lời ngắn (2,5 điểm)
+Câu 1. Vị trí nhóm C=C đầu tiên tính từ nhóm -CH3 (đuôi ω) trong acid béo Omega-3 là carbon số mấy?
+Câu 2. Tính thời gian (phút) để cây xanh (20 lá, mỗi lá 12 cm2, hấp thụ 0,6 cal/cm2.phút, hiệu suất 20%) tổng hợp 0,36g glucose. Đổi 675 kcal/mol glucose. Thời gian cần là bao nhiêu phút (làm tròn đến hàng phần mười)?
+Câu 3. Lấy 0,12 mol phenyl acetate CH3COOC6H5 tác dụng vừa đủ với KOH. Cô cạn thu được m gam muối. Giá trị m bằng bao nhiêu gam?
+Câu 4. Đun nóng 4,45 kg chất béo tristearin chứa 20% tạp chất với NaOH dư. Khối lượng glycerol thu được là bao nhiêu gam?
+Câu 5. Cần bao nhiêu mL dung dịch NaOH 1M để phản ứng hoàn toàn với 0,1 mol Glutamic acid?
+Câu 6. Tripeptide Gly-Ala-Val có phân tử khối bằng bao nhiêu amu?
+ĐÁP ÁN VÀ HƯỚNG DẪN GIẢI ĐỀ SỐ 4
+PHẦN I: 1.A | 2.A | 3.A | 4.A | 5.A | 6.A | 7.A | 8.A | 9.A | 10.A | 11.A | 12.A | 13.A | 14.A | 15.A | 16.A | 17.A | 18.A
+PHẦN II: Câu 1: [ĐSĐĐ] | Câu 2: [SĐĐĐ] | Câu 3: [ĐĐĐĐ] | Câu 4: [ĐĐĐĐ]
+PHẦN III: Câu 1: 3 | Câu 2: 46,9 | Câu 3: 27,6 | Câu 4: 368 | Câu 5: 200 | Câu 6: 245
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+ĐỀ SỐ 5
+PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn (4,5 điểm)
+Câu 1. Ester nào sau đây tác dụng với dung dịch NaOH thu được sản phẩm có aldehyde?
+A. CH3COOCH=CH2.      B. CH3COOCH2CH3.      C. HCOOCH3.      D. CH2=CHCOOCH3.
+Câu 2. Chất nào sau đây là chất béo bão hòa (rắn ở điều kiện thường)?
+A. Tristearin.      B. Triolein.      C. Trilinolein.      D. Glycerol.
+Câu 3. Chất nào sau đây có nhiệt độ sôi thấp nhất?
+A. CH3COOH.      B. C2H5OH.      C. HCOOCH3.      D. C3H7OH.
+Câu 4. Trong dung dịch, glucose tồn tại chủ yếu ở dạng
+A. Mạch hở 6 carbon.      B. Mạch vòng 6 cạnh (α và β).      C. Mạch vòng 5 cạnh.      D. Mạch nhánh.
+Câu 5. Carbohydrate nào sau đây bị thủy phân hoàn toàn chỉ thu được α-glucose?
+A. Tinh bột.      B. Cellulose.      C. Saccharose.      D. Fructose.
+Câu 6. Phát biểu nào sau đây đúng về fructose?
+A. Có nhóm -CHO trong cấu tạo mạch hở.      B. Bị oxi hóa bởi dung dịch nước bromine.      C. Là đồng phân của glucose.      D. Không tan trong nước.
+Câu 7. Amine CH3-NH-CH2-CH3 có tên gốc - chức là
+A. Ethyl methyl amine.      B. Dimethyl amine.      C. Propyl amine.      D. Diethyl amine.
+Câu 8. Thuốc thử dùng để nhận biết hồ tinh bột là
+A. Dung dịch iodine.      B. Dung dịch AgNO3/NH3.      C. Cu(OH)2.      D. Quỳ tím.
+Câu 9. Phản ứng trùng ngưng amino acid thu được polymer thuộc loại
+A. Polyamide.      B. Polyester.      C. Polyether.      D. Polyalkene.
+Câu 10. Dung dịch chất nào sau đây làm quỳ tím chuyển sang màu xanh?
+A. Methylamine.      B. Aniline.      C. Glycine.      D. Phenol.
+Câu 11. Peptide Gly-Ala-Val có số gốc α-amino acid là
+A. 3.      B. 2.      C. 4.      D. 1.
+Câu 12. Khi đun nóng albumin lòng trắng trứng bị đông tụ lại. Hiện tượng này gọi là
+A. Sự đông tụ protein.      B. Sự thủy phân.      C. Phản ứng màu biuret.      D. Sự xà phòng hóa.
+Câu 13. Công thức phân tử của ethyl acetate là
+A. C4H8O2.      B. C3H6O2.      C. C2H4O2.      D. C5H10O2.
+Câu 14. Chất béo lỏng (dầu thực vật) chuyển thành chất béo rắn (bơ nhân tạo) nhờ phản ứng
+A. Hydrogen hóa (cộng H2, Ni, t°).      B. Xà phòng hóa.      C. Ester hóa.      D. Thủy phân.
+Câu 15. Polymer nào sau đây là thành phần chính của sợi bông, gỗ?
+A. Cellulose.      B. Tinh bột.      C. Protein.      D. Nylon-6,6.
+Câu 16. Amino acid Alanine có công thức phân tử là
+A. C3H7NO2.      B. C2H5NO2.      C. C5H11NO2.      D. C4H9NO2.
+Câu 17. Cho dung dịch glucose vào ống nghiệm chứa AgNO3 trong NH3 đun nóng thu được kim loại
+A. Ag.      B. Cu.      C. Na.      D. Fe.
+Câu 18. Peptide Ala-Ala có phản ứng biuret không?
+A. Không.      B. Có.      C. Tùy nhiệt độ.      D. Chỉ khi thêm NaOH.
+PHẦN II. Câu trắc nghiệm đúng sai (3,0 điểm)
+Câu 1. Xét tính chất của ester Methyl methacrylate CH2=C(CH3)COOCH3:
+a) Methyl methacrylate là ester không no có 1 liên kết C=C.
+b) Trùng hợp methyl methacrylate thu được poly(methyl methacrylate) dùng làm thủy tinh hữu cơ plexiglas.
+c) Ester này làm mất màu dung dịch nước bromine.
+d) Thủy phân trong NaOH thu được CH2=C(CH3)COONa và CH3OH.
+Câu 2. Về các monosaccharide và disaccharide:
+a) Glucose và fructose đều phản ứng với AgNO3/NH3 tạo tráng Ag.
+b) Saccharose không tham gia phản ứng tráng bạc vì không có nhóm -CHO hoặc -OH hemiacetal tự do.
+c) Thủy phân saccharose thu được glucose và fructose tỉ lệ mol 1:1.
+d) Glucose bị oxi hóa bởi nước bromine tạo gluconic acid.
+Câu 3. Về amine và amino acid:
+a) Methylamine có tính base mạnh hơn ammonia NH3.
+b) Aniline ít tan trong nước lạnh nhưng tan tốt trong dung dịch HCl dư.
+c) Glycine tồn tại ở dạng ion lưỡng cực H3N+-CH2-COO- ở nhiệt độ thường.
+d) Lysine làm xanh quỳ tím, Glutamic acid làm đỏ quỳ tím.
+Câu 4. Về phản ứng thủy phân ester và chất béo:
+a) Thủy phân ester trong môi trường acid là phản ứng thuận nghịch.
+b) Thủy phân ester trong môi trường kiềm (xà phòng hóa) là phản ứng một chiều.
+c) Thủy phân chất béo luôn sinh ra glycerol.
+d) Đun nóng chất béo với dung dịch NaOH thu được xà phòng và glycerol.
+PHẦN III. Câu trắc nghiệm trả lời ngắn (2,5 điểm)
+Câu 1. Đốt cháy hoàn toàn 0,1 mol ester đơn chức no X thu được 0,3 mol CO2. Số nguyên tử H trong X là bao nhiêu?
+Câu 2. Thủy phân 34,2 gam saccharose với hiệu suất 75% thu được m gam glucose. Giá trị m bằng bao nhiêu gam?
+Câu 3. Cho 9 gam ethylamine C2H5NH2 tác dụng hoàn toàn với dung dịch HCl dư. Khối lượng muối thu được là bao nhiêu gam?
+Câu 4. Cần bao nhiêu gram dung dịch NaOH 10% để xà phòng hóa hoàn toàn 8,9 gam tristearin?
+Câu 5. Cho tripeptide Val-Ala-Gly tác dụng với NaOH dư đun nóng. Số mol NaOH phản ứng với 0,1 mol tripeptide này là bao nhiêu?
+Câu 6. Phân tử khối của cellulose triacetate [C6H7O2(OCOCH3)3]n ứng với 1 mắt xích là bao nhiêu amu?
+ĐÁP ÁN VÀ HƯỚNG DẪN GIẢI ĐỀ SỐ 5
+PHẦN I: 1.A | 2.A | 3.C | 4.B | 5.A | 6.C | 7.A | 8.A | 9.A | 10.A | 11.A | 12.A | 13.A | 14.A | 15.A | 16.A | 17.A | 18.A
+PHẦN II: Câu 1: [ĐĐĐĐ] | Câu 2: [ĐĐĐĐ] | Câu 3: [ĐĐĐĐ] | Câu 4: [ĐĐĐĐ]
+PHẦN III: Câu 1: 6 | Câu 2: 13,5 | Câu 3: 16,3 | Câu 4: 12 | Câu 5: 0,3 | Câu 6: 288
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+ĐỀ SỐ 6 
+PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn (4,5 điểm)
+Thí sinh trả lời từ câu 1 đến câu 18. Mỗi câu hỏi thí sinh chỉ chọn một phương án.
+Câu 1. Isoamyl acetate là ester có mùi thơm đặc trưng của chuối chín. Công thức phân tử của isoamyl acetate là
+A. C7H14O2.      B. C6H12O2.      C. C5H10O2.      D. C8H16O2.
+Câu 2. Chất béo triolein có công thức cấu tạo là
+A. (C17H33COO)3C3H5.      B. (C17H35COO)3C3H5.      C. (C15H31COO)3C3H5.      D. (C17H31COO)3C3H5.
+Câu 3. Chất giặt rửa tổng hợp sodium lauryl sulfate có chứa nhóm chức đặc trưng nào trong cấu tạo?
+A. -OSO3Na.      B. -COONa.      C. -OH.      D. -NH2.
+Câu 4. Đun nóng ester CH3COOC2H5 với dung dịch NaOH thu được sản phẩm gồm
+A. CH3COONa và C2H5OH.      B. C2H5COONa và CH3OH.      C. CH3COOH và C2H5ONa.      D. CH3COONa và CH3OH.
+Câu 5. Nhiệt độ sôi của ethyl acetate (77 °C) thấp hơn nhiều so với acetic acid (118 °C) chủ yếu là do
+A. Phân tử ethyl acetate không tạo được liên kết hydrogen liên phân tử.      B. Ethyl acetate có khối lượng phân tử nhỏ hơn.      C. Ethyl acetate không tan trong nước.      D. Formic acid có tính acid mạnh hơn.
+Câu 6. Phát biểu nào sau đây đúng khi nói về xà phòng?
+A. Xà phòng bị giảm khả năng giặt rửa trong nước cứng do tạo kết tủa với Ca2+ và Mg2+.      B. Xà phòng được sản xuất chủ yếu từ dầu mỏ.      C. Xà phòng không thể phân hủy sinh học trong môi trường.      D. Xà phòng chứa các muối alkylsulfate.
+Câu 7. Thủy phân hoàn toàn 1 mol triolein trong dung dịch NaOH đun nóng thu được bao nhiêu mol glycerol?
+A. 1 mol.      B. 2 mol.      C. 3 mol.      D. 0,5 mol.
+Câu 8. Phản ứng giữa carboxylic acid và alcohol với xúc tác H2SO4 đặc, đun nóng gọi là phản ứng
+A. Ester hóa.      B. Xà phòng hóa.      C. Trùng hợp.      D. Trùng ngưng.
+Câu 9. Chất nào sau đây là chất béo lỏng ở nhiệt độ phòng?
+A. Triolein.      B. Tristearin.      C. Tripalmitin.      D. Sodium stearate.
+Câu 10. Chất béo là thức ăn quan trọng của con người, khi tiêu hóa trong cơ thể chất béo bị thủy phân nhờ enzyme
+A. Lipase.      B. Amylase.      C. Pepsin.      D. Maltase.
+Câu 11. Đuôi hydrocarbon dài trong phân tử xà phòng hoặc chất giặt rửa có đặc tính
+A. Kị nước (ưa mỡ).      B. Ưa nước (kị mỡ).      C. Mang điện tích âm.      D. Tan vô hạn trong nước.
+Câu 12. Cho ester HCOOCH=CH2 phản ứng với dung dịch NaOH thu được
+A. HCOONa và CH3CHO.      B. HCOONa và CH2=CHOH.      C. CH3COONa và HCHO.      D. HCOONa và C2H5OH.
+Câu 13. Khối lượng phân tử (amu) của chất béo Tripalmitin (C15H31COO)3C3H5 là
+A. 806.      B. 890.      C. 884.      D. 858.
+Câu 14. Trong thành phần của dầu mỡ động thực vật bị ôi thiu thường xuất hiện hợp chất nào gây mùi hôi độc hại?
+A. Peroxide và aldehyde.      B. Ester bão hòa.      C. Glycerol.      D. Glucose.
+Câu 15. Phản ứng xà phòng hóa chất béo là phản ứng
+A. Một chiều trong môi trường kiềm.      B. Thuận nghịch trong môi trường kiềm.      C. Một chiều trong môi trường acid.      D. Thuận nghịch trong môi trường acid.
+Câu 16. Ester phenyl acetate (CH3COOC6H5) tác dụng với dung dịch NaOH dư (t°) theo tỉ lệ mol 1 :
+A. 2.      B. 1.      C. 3.      D. 4.
+Câu 17. Chỉ số acid của chất béo là số mg KOH cần dùng để trung hòa acid béo tự do có trong
+A. 1 gam chất béo.      B. 100 gam chất béo.      C. 1 kg chất béo.      D. 10 gam chất béo.
+Câu 18. Biên độ làm sạch của chất giặt rửa tổng hợp nổi bật hơn xà phòng truyền thống ở điểm
+A. Giặt rửa được trong nước cứng và môi trường acid.      B. Giá thành đắt hơn nhiều lần.      C. Không gây kích ứng da.      D. Làm từ dầu mỡ động vật.
+PHẦN II. Câu trắc nghiệm đúng sai (3,0 điểm)
+Câu 1. Cho cơ chế giặt rửa của xà phòng và chất giặt rửa tổng hợp:
+a) Phân tử xà phòng gồm phần đầu phân cực ưa nước và phần đuôi không phân cực ưa dầu mỡ.
+b) Khi giặt rửa, đuôi ưa dầu mỡ quay vào trong vết bẩn, đầu ưa nước hướng ra ngoài dung dịch.
+c) Các hạt keo vết bẩn cùng mang điện tích âm nên đẩy nhau và phân tán vào nước.
+d) Xà phòng tổng hợp tan tốt hơn và không tạo kết tủa với Ca2+, Mg2+ trong nước cứng.
+Câu 2. Cho các phát biểu về ứng dụng và tính chất của chất béo:
+a) Hydrogen hóa chất béo lỏng thu được chất béo rắn dùng làm bơ nhân tạo.
+b) Chất béo cung cấp năng lượng nhiều hơn carbohydrate có cùng khối lượng.
+c) Đun nóng chất béo với dung dịch H2SO4 loãng là phản ứng xà phòng hóa.
+d) Chất béo nhẹ hơn nước và không tan trong nước nhưng tan nhiều trong dung dịch muối.
+Câu 3. Tiến hành thí nghiệm điều chế ethyl acetate: Cho 2 mL C2H5OH, 2 mL CH3COOH nguyên chất và 1 mL H2SO4 đặc vào ống nghiệm. Đun nhẹ 5 - 7 phút, làm lạnh rồi thêm dung dịch NaCl bão hòa:
+a) Dung dịch NaCl bão hòa giúp ethyl acetate tách lớp và nổi lên trên.
+b) Vai trò của H2SO4 đặc là xúc tác và hút nước để chuyển dịch cân bằng.
+c) Thay dung dịch NaCl bão hòa bằng dung dịch HCl đặc thì hiện tượng phân lớp diễn ra rõ hơn.
+d) Phản ứng ester hóa giữa alcohol và carboxylic acid là phản ứng một chiều.
+Câu 4. Cho chất béo X có công thức (C17H33COO)2(C15H31COO)C3H5:
+a) X thuộc loại chất béo không no, ở điều kiện thường tồn tại ở trạng thái lỏng.
+b) 1 mol X cộng tối đa được 2 mol H2 (xúc tác Ni, t°).
+c) Thủy phân hoàn toàn X trong NaOH thu được 2 loại muối acid béo khác nhau.
+d) Khối lượng phân tử của X là 858 amu.
+PHẦN III. Câu trắc nghiệm trả lời ngắn (2,5 điểm)
+Câu 1. Thủy phân hoàn toàn 17,8 gam tristearin (C17H35COO)3C3H5 trong dung dịch NaOH dư. Khối lượng xà phòng (sodium stearate) thu được là bao nhiêu gam? (Làm tròn đến hàng phần mười)
+Câu 2. Để xà phòng hóa 10 kg chất béo có chỉ số acid bằng 7 cần dùng bao nhiêu gam KOH để trung hòa lượng acid béo tự do?
+Câu 3. Đốt cháy hoàn toàn 0,1 mol ester X đơn chức thu được 8,8 gam CO2 và 3,6 gam H2O. Số nguyên tử O trong X là bao nhiêu?
+Câu 4. Tính thể tích alcohol 96° (ml) cần dùng để sản xuất 88 gam ethyl acetate với hiệu suất phản ứng đạt 80% (biết khối lượng riêng D của C2H5OH nguyên chất là 0,8 g/ml). (Làm tròn đến hàng phần mười)
+Câu 5. Cho 0,1 mol methyl methacrylate phản ứng vừa đủ với dung dịch bromine. Khối lượng bromine Br2 đã tham gia phản ứng là bao nhiêu gam?
+Câu 6. Thủy phân hoàn toàn 13,6 gam phenyl acetate trong 200 mL dung dịch NaOH 1,5M. Sau phản ứng cô cạn dung dịch thu được m gam chất rắn khô. Giá trị của m là bao nhiêu gam?
+ĐÁP ÁN VÀ HƯỚNG DẪN GIẢI ĐỀ SỐ 6
+PHẦN I: 1.A | 2.A | 3.A | 4.A | 5.A | 6.A | 7.A | 8.A | 9.A | 10.A | 11.A | 12.A | 13.A | 14.A | 15.A | 16.A | 17.A | 18.A
+PHẦN II: Câu 1: [ĐĐĐĐ] | Câu 2: [ĐĐSS] | Câu 3: [ĐĐSS] | Câu 4: [ĐĐĐĐ]
+PHẦN III: Câu 1: 18,4 | Câu 2: 70 | Câu 3: 2 | Câu 4: 74,9 | Câu 5: 16 | Câu 6: 23,8
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+ĐỀ SỐ 7 
+PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn (4,5 điểm)
+Thí sinh trả lời từ câu 1 đến câu 18. Mỗi câu hỏi thí sinh chỉ chọn một phương án.
+Câu 1. Cấu trúc dạng mạch vòng của glucose được tạo thành do sự tương tác giữa nhóm carbonyl (-CHO) với nhóm -OH ở vị trí carbon số mấy?
+A. C5.      B. C4.      C. C6.      D. C3.
+Câu 2. Trong tự nhiên, carbohydrate nào có nhiều nhất trong củ cải đường, hoa thốt nốt và cây mía?
+A. Saccharose.      B. Fructose.      C. Glucose.      D. Cellulose.
+Câu 3. Tinh bột gồm hai thành phần chính là amylose và amylopectin. Phân tử amylose có cấu trúc
+A. Chuỗi xoắn không phân nhánh liên kết α-1,4-glycosidic.
+B. Chuỗi phân nhánh liên kết α-1,6-glycosidic.
+C. Chuỗi thẳng không xoắn liên kết β-1,4-glycosidic.
+D. Mạch mạng không gian.
+Câu 4. Phản ứng màu đặc trưng giữa hồ tinh bột với dung dịch iodine sinh ra phức chất có màu
+A. Xanh tím.      B. Đỏ gạch.      C. Tím thẫm.      D. Vàng nhạt.
+Câu 5. Để phân biệt hai dung dịch mất nhãn glucose và fructose trong phòng thí nghiệm, người ta dùng thuốc thử là
+A. Dung dịch nước bromine.      B. Thuốc thử Tollens.      C. Cu(OH)2 ở nhiệt độ thường.      D. Quỳ tím.
+Câu 6. Cellulose không phản ứng với chất nào sau đây?
+A. Dung dịch NaOH loãng đun nóng.      B. HNO3 đặc / H2SO4 đặc.      C. Nước Svayze (dung dịch Cu(OH)2 trong NH3).      D. Dung dịch H2SO4 70% đun nóng.
+Câu 7. Trong quá trình sản xuất bánh mì, sự nở của bột bánh chủ yếu là do khí nào sinh ra từ quá trình lên men tinh bột?
+A. CO2.      B. O2.      C. H2.      D. N2.
+Câu 8. Thuốc súng không khói được sản xuất từ phản ứng giữa cellulose với chất nào?
+A. HNO3 đặc (xúc tác H2SO4 đặc).      B. CH3COOH.      C. H2 (Ni, t°).      D. Cl2.
+Câu 9. Phân tử saccharose được cấu tạo bởi 1 gốc α-glucose và 1 gốc β-fructose liên kết với nhau qua nguyên tử oxygen giữa
+A. C1 của glucose và C2 của fructose.
+B. C1 của glucose và C4 của fructose.
+C. C1 của glucose và C1 của fructose.
+D. C2 của glucose và C1 của fructose.
+Câu 10. Chất nào sau đây là disaccharide có nhiều trong mầm lúa mạch (đường mạch nha)?
+A. Maltose.      B. Saccharose.      C. Lactose.      D. Fructose.
+Câu 11. Hiện tượng phản ứng tráng bạc của glucose xảy ra do glucose có chứa nhóm chức nào trong dạng mạch hở?
+A. Aldehyde (-CHO).      B. Ketone (-CO-).      C. Ester (-COO-).      D. Alcohol (-OH).
+Câu 12. Khi đun nóng glucose với dung dịch Cu(OH)2 trong NaOH xuất hiện kết tủa Cu2O có màu
+A. Đỏ gạch.      B. Xanh lam.      C. Trắng.      D. Vàng.
+Câu 13. Thuốc thử Svayze dùng để hòa tan cellulose là dung dịch phức chất của
+A. Cu(OH)2 trong ammonia.      B. AgNO3 trong NH3.      C. Zn(OH)2 trong NaOH.      D. FeCl3 trong nước.
+Câu 14. Carbohydrate nào sau đây đóng vai trò là màng tế bào thực vật, tạo nên khung xương cho cây cối?
+A. Cellulose.      B. Tinh bột.      C. Glucose.      D. Glycogen.
+Câu 15. Dạng glycogen dự trữ năng lượng trong gan và cơ bắp động vật thuộc loại carbohydrate nào?
+A. Polysaccharide.      B. Monosaccharide.      C. Disaccharide.      D. Oligosaccharide.
+Câu 16. Phản ứng thủy phân saccharose trong môi trường acid đun nóng tạo ra sản phẩm gồm
+A. Glucose và Fructose.      B. Chỉ thu được Glucose.      C. Chỉ thu được Fructose.      D. Glucose và Galactose.
+Câu 17. Nhận định nào sau đây SAI về fructose?
+A. Fructose làm mất màu dung dịch nước bromine.      B. Fructose có vị ngọt hơn glucose và mật ong.      C. Fructose có công thức C6H12O6.      D. Trong môi trường kiềm, fructose chuyển hóa thành glucose.
+Câu 18. Ứng dụng nào sau đây KHÔNG phải của cellulose?
+A. Tráng ruột phích, tráng gương.      B. Sản xuất tơ visco, tơ acetate.      C. Sản xuất giấy, vật liệu xây dựng.      D. Sản xuất thuốc súng không khói.
+PHẦN II. Câu trắc nghiệm đúng sai (3,0 điểm)
+Câu 1. Cho thông tin về cấu tạo và tính chất của glucose và fructose:
+a) Trong dung dịch, glucose tồn tại chủ yếu ở hai dạng vòng 6 cạnh α-glucose và β-glucose.
+b) Trong môi trường kiềm, glucose và fructose có thể chuyển hóa lẫn nhau.
+c) Cả glucose và fructose đều tác dụng với H2 (Ni, t°) tạo ra cùng một sản phẩm là sorbitol.
+d) Glucose và fructose đều có phản ứng thủy phân trong môi trường acid.
+Câu 2. Về chu trình chuyển hóa carbohydrate trong đời sống:
+a) Tinh bột bị thủy phân trong cơ thể nhờ enzyme amylase tạo thành glucose.
+b) Glucose vận chuyển qua máu cung cấp năng lượng cho tế bào thông qua quá trình oxi hóa.
+c) Nồng độ glucose trong máu người bình thường luôn duy trì ổn định khoảng 0,1% (khoảng 4,4 - 7,2 mmol/L).
+d) Cellulose là nguồn thức ăn cung cấp năng lượng chính cho con người vì người tiêu hóa được cellulose.
+Câu 3. Về ứng dụng thực tiễn của carbohydrate:
+a) Dung dịch glucose 5% được dùng làm dịch truyền tĩnh mạch cho người suy nhược.
+b) Saccharose dùng làm nguyên liệu trong công nghiệp bánh kẹo, đồ uống và pha chế thuốc.
+c) Cellulose acetate được dùng làm phim ảnh và sản xuất tơ nhân tạo.
+d) Pha loãng tinh bột trong nước lạnh thu được dung dịch hồ tinh bột đồng nhất.
+Câu 4. Cho sơ đồ phản ứng chuyển hóa: Tinh bột -> X -> Y -> Z -> Ethyl acetate.
+a) Chất X là glucose C6H12O6.
+b) Chất Y là ethanol C2H5OH sinh ra từ phản ứng lên men glucose.
+c) Phản ứng chuyển Z (CH3COOH) thành ethyl acetate là phản ứng ester hóa.
+d) Toàn bộ các chất X, Y, Z đều có khả năng hòa tan Cu(OH)2 ở nhiệt độ thường tạo dung dịch màu xanh lam.
+PHẦN III. Câu trắc nghiệm trả lời ngắn (2,5 điểm)
+Câu 1. Lên men m gam glucose thành ethanol với hiệu suất 80%. Bẫy toàn bộ khí CO2 thoát ra vào dung dịch Ca(OH)2 dư thu được 40 gam kết tủa. Giá trị m là bao nhiêu gam?
+Câu 2. Từ 1,62 tấn cellulose chứa 10% tạp chất trơ, điều chế cellulose trinitrate với hiệu suất 90%. Khối lượng cellulose trinitrate thu được là bao nhiêu tấn? (Làm tròn đến hàng phần trăm)
+Câu 3. Thủy phân hoàn toàn 68,4 gam saccharose thu được hỗn hợp X. Cho X tác dụng hoàn toàn với lượng dư dung dịch AgNO3/NH3 đun nóng. Khối lượng kim loại Ag thu được là bao nhiêu gam?
+Câu 4. Cần bao nhiêu kg gỗ chứa 50% cellulose để sản xuất 1 tấn glucose biết hiệu suất toàn bộ quá trình chế biến đạt 70%? (Làm tròn đến hàng đơn vị)
+Câu 5. Khối lượng phân tử của phân đoạn amylose gồm 1000 mắt xích glucose (C6H10O5) là bao nhiêu amu?
+Câu 6. Đốt cháy hoàn toàn một lượng saccharose C12H22O11 cần vừa đủ V lít khí O2 (đkc ở 25 °C, 1 bar có V_mol = 24,79 L) thu được 0,24 mol CO2. Giá trị của V là bao nhiêu lít? (Làm tròn đến hàng phần trăm)
+ĐÁP ÁN VÀ HƯỚNG DẪN GIẢI ĐỀ SỐ 7
+PHẦN I: 1.A | 2.A | 3.A | 4.A | 5.A | 6.A | 7.A | 8.A | 9.A | 10.A | 11.A | 12.A | 13.A | 14.A | 15.A | 16.A | 17.A | 18.A
+PHẦN II: Câu 1: [ĐĐĐS] | Câu 2: [ĐĐĐS] | Câu 3: [ĐĐĐS] | Câu 4: [ĐĐĐS]
+PHẦN III: Câu 1: 45 | Câu 2: 2,41 | Câu 3: 86,4 | Câu 4: 2571 | Câu 5: 162000 | Câu 6: 5,95
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+ĐỀ SỐ 8 
+PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn (4,5 điểm)
+Thí sinh trả lời từ câu 1 đến câu 18. Mỗi câu hỏi thí sinh chỉ chọn một phương án.
+Câu 1. Amine nào sau đây thuộc loại bậc ba?
+A. (CH3)3N.      B. CH3-NH-C2H5.      C. C2H5NH2.      D. C6H5NH2.
+Câu 2. Tên thay thế của amine CH3-CH2-NH2 là
+A. Ethanamine.      B. Ethylamine.      C. Methanamine.      D. Dimethylamine.
+Câu 3. Hợp chất H2N-CH2-COOH có tên gọi thông thường là
+A. Glycine.      B. Alanine.      C. Valine.      D. Lysine.
+Câu 4. Trong dung dịch, amino acid tồn tại chủ yếu ở dạng
+A. Ion lưỡng cực.      B. Phân tử trung hòa.      C. Cation đơn điện tích.      D. Anion đơn điện tích.
+Câu 5. Nhỏ dung dịch nước bromine vào dung dịch aniline thấy xuất hiện kết tủa màu
+A. Trắng.      B. Vàng.      C. Đỏ gạch.      D. Xanh lam.
+Câu 6. Dung dịch amino acid nào sau đây làm cho quỳ tím chuyển sang màu đỏ?
+A. Glutamic acid.      B. Lysine.      C. Glycine.      D. Alanine.
+Câu 7. Liên kết hình thành giữa nhóm carboxyl (-COOH) của α-amino acid này với nhóm amino (-NH2) của α-amino acid kia kèm giải phóng H2O gọi là
+A. Liên kết peptide.      B. Liên kết hydrogen.      C. Liên kết glycosidic.      D. Liên kết ester.
+Câu 8. Cho dipeptide Gly-Ala phản ứng với thuốc thử Cu(OH)2 trong môi trường kiềm thu được hiện tượng gì?
+A. Không xuất hiện màu tím (không có phản ứng màu biuret).
+B. Dung dịch chuyển sang màu tím đặc trưng.
+C. Kết tủa đỏ gạch Cu2O.
+D. Dung dịch chuyển sang màu vàng đậm.
+Câu 9. Điểm đẳng điện (pI) của một amino acid là giá trị pH mà tại đó amino acid
+A. Tồn tại dạng ion lưỡng cực có tổng điện tích bằng 0 và không di chuyển trong điện trường.
+B. Di chuyển mạnh nhất về cực âm.
+C. Di chuyển mạnh nhất về cực dương.
+D. Bị phân hủy hoàn toàn thành CO2 và NH3.
+Câu 10. Dung dịch chất nào sau đây làm quỳ tím hóa xanh?
+A. Lysine.      B. Glycine.      C. Valine.      D. Glutamic acid.
+Câu 11. Chất nào sau đây là amine thơm (arylamine)?
+A. Aniline (C6H5NH2).      B. Benzylamine (C6H5CH2NH2).      C. Methylamine (CH3NH2).      D. Dimethylamine ((CH3)2NH).
+Câu 12. Amine nào sau đây là chất khí ở nhiệt độ phòng, có mùi khai độc hại?
+A. Methylamine.      B. Aniline.      C. Diphenylamine.      D. Toluidine.
+Câu 13. Phản ứng nào chứng minh tính amphoteric (lưỡng tính) của amino acid?
+A. Tác dụng được với cả dung dịch HCl và dung dịch NaOH.
+B. Tác dụng với alcohol có H2SO4 đặc làm xúc tác.
+C. Tham gia phản ứng trùng ngưng.
+D. Làm đổi màu quỳ tím thành màu xanh.
+Câu 14. Số liên kết peptide có trong phân tử tetrapeptide Gly-Ala-Val-Gly là
+A. 3.      B. 4.      C. 2.      D. 5.
+Câu 15. Thuốc thử dùng để rửa sạch vết aniline dính vào dụng cụ thủy tinh trong phòng thí nghiệm là
+A. Dung dịch HCl.      B. Dung dịch NaOH.      C. Nước cất.      D. Dung dịch NaCl.
+Câu 16. Phân tử khối (amu) của amino acid Valine [(CH3)2CH-CH(NH2)-COOH] là
+A. 117.      B. 89.      C. 75.      D. 147.
+Câu 17. Cho chuỗi peptide: H2N-CH2-CONH-CH(CH3)-COOH. Amino acid đầu C của dipeptide này là
+A. Alanine.      B. Glycine.      C. Valine.      D. Lysine.
+Câu 18. Khả năng phản ứng đổi màu biuret đặc trưng của peptide với Cu(OH)2/OH- bắt đầu áp dụng cho các peptide chứa từ mấy liên kết peptide trở lên?
+A. 2 liên kết peptide (tripeptide trở lên).
+B. 1 liên kết peptide (dipeptide trở lên).
+C. 3 liên kết peptide (tetrapeptide trở lên).
+D. Tất cả các loại peptide.
+PHẦN II. Câu trắc nghiệm đúng sai (3,0 điểm)
+Câu 1. Xét các tính chất của Aniline (C6H5NH2):
+a) Aniline có tính base nhưng yếu hơn ammonia (NH3) do ảnh hưởng hút electron của vòng benzene.
+b) Dung dịch aniline không làm đổi màu quỳ tím hoặc phenolphthalein.
+c) Aniline phản ứng với acid mạnh sinh ra muối phenylammonium chloride tan tốt trong nước.
+d) Tác dụng của aniline với nước bromine chứng tỏ nhóm -NH2 làm tăng khả năng thế vào vòng benzene ở các vị trí ortho và para.
+Câu 2. Về đặc điểm của Amino acid và điểm đẳng điện (pI):
+a) Tại pH < pI, amino acid tích điện dương (cation) và di chuyển về cực âm trong điện trường.
+b) Tại pH > pI, amino acid tích điện âm (anion) và di chuyển về cực dương trong điện trường.
+c) Glutamic acid có pI = 3,2, trong môi trường pH = 7,0 nó di chuyển về cực dương.
+d) Tất cả các amino acid thiên nhiên đều làm đổi màu quỳ tím.
+Câu 3. Cho peptide X có công thức: Gly-Ala-Val-Lys:
+a) X thuộc loại tetrapeptide gồm 4 gốc α-amino acid liên kết với nhau.
+b) Thủy phân không hoàn toàn X thu được tối đa 3 loại dipeptide khác nhau.
+c) X có phản ứng màu biuret tạo dung dịch màu tím đặc trưng với Cu(OH)2/OH-.
+d) Phân tử X chứa 4 liên kết peptide.
+Câu 4. Về phản ứng ứng dụng của Amine và Peptide trong thực tiễn:
+a) Nicotine trong thuốc lá, morphine trong thuốc phiện đều là các alkaloid có chứa nguyên tử nitrogen có tính base.
+b) Khử mùi tanh của cá (do các amine béo gây ra) bằng các acid thực phẩm như giấm ăn hoặc chanh.
+c) Bột ngọt (mì chính) là muối monosodium glutamate của glutamic acid.
+d) Thủy phân hoàn toàn peptide thu được các β-amino acid.
+PHẦN III. Câu trắc nghiệm trả lời ngắn (2,5 điểm)
+Câu 1. Cho 0,1 mol glycine H2N-CH2-COOH phản ứng vừa đủ với dung dịch HCl. Khối lượng muối thu được là bao nhiêu gam?
+Câu 2. Trung hòa hoàn toàn 11,8 gam một amine đơn chức X cần dùng 200 mL dung dịch HCl 1M. Phân tử khối của X là bao nhiêu amu?
+Câu 3. Đốt cháy hoàn toàn 0,1 mol một α-amino acid X no, chứa 1 nhóm -NH2 và 1 nhóm -COOH thu được 0,3 mol CO2. Tên thông thường của X là gì? (Viết tên viết tắt 3 chữ cái, ví dụ: Gly, Ala, Val...)
+Câu 4. Cho 14,7 gam glutamic acid tác dụng với 300 mL dung dịch NaOH 1M. Cô cạn dung dịch sau phản ứng thu được m gam chất rắn khô. Giá trị m là bao nhiêu gam?
+Câu 5. Thủy phân hoàn toàn 0,1 mol tripeptide Gly-Ala-Val trong dung dịch NaOH dư, đun nóng. Số mol NaOH đã tham gia phản ứng là bao nhiêu mol?
+Câu 6. Phân tử khối của tetrapeptide Gly-Ala-Gly-Ala là bao nhiêu amu?
+ĐÁP ÁN VÀ HƯỚNG DẪN GIẢI ĐỀ SỐ 8
+PHẦN I: 1.A | 2.A | 3.A | 4.A | 5.A | 6.A | 7.A | 8.A | 9.A | 10.A | 11.A | 12.A | 13.A | 14.A | 15.A | 16.A | 17.A | 18.A
+PHẦN II: Câu 1: [ĐĐĐĐ] | Câu 2: [ĐĐĐS] | Câu 3: [ĐĐĐS] | Câu 4: [ĐĐĐS]
+PHẦN III: Câu 1: 11,15 | Câu 2: 59 | Câu 3: Ala | Câu 4: 23,1 | Câu 5: 0,3 | Câu 6: 274
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+ĐỀ SỐ 9 
+PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn (4,5 điểm)
+Thí sinh trả lời từ câu 1 đến câu 18. Mỗi câu hỏi thí sinh chỉ chọn một phương án.
+Câu 1. Protein được cấu tạo từ các chuỗi polypeptide do loại monomer nào sau đây liên kết với nhau?
+A. α-amino acid.      B. β-amino acid.      C. Monosaccharide.      D. Fatty acid.
+Câu 2. Loại protein nào sau đây có dạng hình sợi, không tan trong nước và có vai trò cấu tạo nên tóc, móng, sừng?
+A. Keratin.      B. Albumin.      C. Hemoglobin.      D. Myoglobin.
+Câu 3. Protein Albumin trong lòng trắng trứng gà có đặc tính vật lý nổi bật là
+A. Tan trong nước tạo thành dung dịch keo và bị đông tụ khi đun nóng.
+B. Không tan trong nước ở mọi nhiệt độ.
+C. Tan tốt trong các dung môi hữu cơ không phân cực.
+D. Bền vững ở nhiệt độ cao không bị biến tính.
+Câu 4. Hiện tượng protein bị đông tụ và mất đi tính chất sinh học ban đầu dưới tác dụng của nhiệt độ, acid, base hoặc muối kim loại nặng gọi là
+A. Sự biến tính protein.      B. Sự thủy phân protein.      C. Sự trùng hợp protein.      D. Phản ứng màu biuret.
+Câu 5. Phản ứng màu biuret dùng để nhận biết peptide (từ tripeptide trở lên) và protein bằng thuốc thử
+A. Cu(OH)2 trong môi trường kiềm.
+B. AgNO3 trong dung dịch NH3.
+C. Dung dịch HNO3 đặc.
+D. Dung dịch nước bromine.
+Câu 6. Nhỏ dung dịch HNO3 đặc vào dung dịch lòng trắng trứng (albumin) thấy xuất hiện kết tủa màu
+A. Vàng.      B. Tím.      C. Xanh lam.      D. Đỏ gạch.
+Câu 7. Enzyme đóng vai trò gì trong các phản ứng sinh hóa của cơ thể sinh vật?
+A. Chất xúc tác sinh học có tính chọn lọc cao.
+B. Chất tham gia phản ứng bị tiêu hao.
+C. Chất ức chế tốc độ phản ứng.
+D. Nguồn cung cấp năng lượng trực tiếp.
+Câu 8. Bản chất hóa học chính của hầu hết các enzyme là
+A. Protein cầu phức tạp.      B. Lipid.      C. Carbohydrate.      D. Nucleic acid.
+Câu 9. Yếu tố nào sau đây KHÔNG làm biến tính hoặc giảm hoạt tính của đa số enzyme?
+A. Nhiệt độ ấm vừa phải (37 °C - 40 °C).
+B. Đun sôi ở 100 °C.
+C. Thêm dung dịch acid hoặc base mạnh.
+D. Thêm muối kim loại nặng như Pb2+, Hg2+.
+Câu 10. Enzyme amylase có trong nước bọt có khả năng xúc tác cho phản ứng thủy phân hợp chất nào?
+A. Tinh bột.      B. Cellulose.      C. Protein.      D. Chất béo.
+Câu 11. Protein Hemoglobin trong hồng cầu giữ chức năng sinh học quan trọng nào?
+A. Vận chuyển oxygen và carbon dioxide trong cơ thể.
+B. Xúc tác cho các phản ứng tiêu hóa.
+C. Co bóp cơ bắp.
+D. Bảo vệ cơ thể chống lại bệnh tật (kháng thể).
+Câu 12. Chuỗi polypeptide thu được từ quá trình tổng hợp protein được giữ vững cấu trúc không gian nhờ yếu tố liên kết nào?
+A. Liên kết hydrogen, tương tác van der Waals và cầu nối disulfide (-S-S-).
+B. Liên kết cộng hóa trị ion.
+C. Liên kết glycosidic.
+D. Liên kết metallic.
+Câu 13. Khi thủy phân hoàn toàn protein đơn giản thu được sản phẩm duy nhất là
+A. Hỗn hợp các α-amino acid.
+B. Glucose và fructose.
+C. Amine và CO2.
+D. Glycerol và acid béo.
+Câu 14. Phản ứng thủy phân protein trong cơ thể người diễn ra nhờ sự xúc tác của enzyme tiêu hóa nào ở dạ dày?
+A. Pepsin.      B. Amylase.      C. Lipase.      D. Zymase.
+Câu 15. Lĩnh vực ứng dụng nào sử dụng enzyme để sản xuất bột giặt sinh học giúp tẩy sạch vết bẩn protein và mỡ?
+A. Công nghiệp chất tẩy rửa.
+B. Công nghiệp dược phẩm.
+C. Công nghiệp dệt may.
+D. Công nghiệp xây dựng.
+Câu 16. Liên kết peptide (-CO-NH-) trong phân tử protein có thể bị cắt đứt trong môi trường
+A. Cả môi trường acid và môi trường kiềm đun nóng.
+B. Chỉ trong môi trường acid.
+C. Chỉ trong môi trường trung tính.
+D. Không bị thủy phân ở bất kì điều kiện nào.
+Câu 17. Cho các chất: Albumin, Glycine, Glucose, Tinh bột. Chất hòa tan được Cu(OH)2 ở nhiệt độ thường tạo dung dịch màu tím là
+A. Albumin.      B. Glucose.      C. Glycine.      D. Tinh bột.
+Câu 18. Vai trò chính của protein trong chế độ dinh dưỡng của con người là
+A. Xây dựng, tái tạo tế bào và cung cấp nguyên liệu phát triển cơ thể.
+B. Dùng để tích trữ chất béo dưới da.
+C. Cung cấp năng lượng tức thì giống đường glucose.
+D. Hòa tan các vitamin A, D, E, K.
+PHẦN II. Câu trắc nghiệm đúng sai (3,0 điểm)
+Câu 1. Cho thông tin về cấu trúc và tính chất của Protein:
+a) Protein đơn giản chỉ chứa các gốc α-amino acid, trong khi protein phức tạp còn chứa thêm thành phần phi protein (như lipid, carbohydrate, heme...).
+b) Cấu trúc bậc 1 của protein là thứ tự sắp xếp các gốc α-amino acid trong chuỗi polypeptide.
+c) Sự đông tụ protein do nhiệt là phản ứng không thuận nghịch làm thay đổi cấu trúc không gian của protein.
+d) Tơ tằm (fibroin) và tóc (keratin) đều thuộc loại protein cầu dễ tan trong nước.
+Câu 2. Về đặc điểm hoạt động của Enzyme:
+a) Hoạt tính của enzyme phụ thuộc chặt chẽ vào nhiệt độ và pH của môi trường.
+b) Enzyme có tính chọn lọc (đặc hiệu) cao, mỗi enzyme chỉ xúc tác cho một hoặc một số phản ứng nhất định.
+c) Tốc độ phản ứng do enzyme xúc tác thường nhanh hơn rất nhiều so với xúc tác hóa học thông thường.
+d) Đun sôi dung dịch enzyme sẽ làm gia tăng hoạt tính xúc tác của enzyme lên tối đa.
+Câu 3. Về các phản ứng màu đặc trưng của Protein:
+a) Thuốc thử biuret phản ứng với protein tạo sản phẩm màu tím do sự hình thành phức chất giữa Cu2+ và các liên kết peptide.
+b) Khi nhỏ HNO3 đặc vào protein có chứa nhân thơm (như tyrosine, phenylalanine), xuất hiện kết tủa màu vàng.
+c) Đun nóng albumin với dung dịch NaOH đậm đặc và Pb(NO3)2 thấy xuất hiện kết tủa màu đen do có nguyên tử S trong protein.
+d) Tất cả các loại dipeptide đều cho phản ứng màu biuret giống protein.
+Câu 4. Ứng dụng công nghệ enzyme và protein trong thực tiễn:
+a) Ứng dụng định lượng đường glucose trong máu bằng que thử chứa enzyme glucose oxidase.
+b) Sử dụng enzyme rennet trong công nghiệp sản xuất phô mai để làm đông tụ protein sữa (casein).
+c) Ứng dụng tơ tằm nhân tạo để làm chỉ khâu phẫu thuật tự tiêu trong y tế.
+d) Đun chanh với sữa đậu nành thấy xuất hiện kết tủa là do sự đông tụ protein trong môi trường acid.
+PHẦN III. Câu trắc nghiệm trả lời ngắn (2,5 điểm)
+Câu 1. Một chuỗi polypeptide ngắn gồm 10 gốc α-amino acid. Số liên kết peptide có trong chuỗi polypeptide này là bao nhiêu?
+Câu 2. Thủy phân hoàn toàn 100 gam một protein đơn giản X thu được 100% khối lượng là các α-amino acid. Nếu đốt cháy hoàn toàn 10 gam X thu được 1,4 gam khí N2. Hàm lượng % khối lượng của nguyên tử Nitrogen trong X là bao nhiêu %?
+Câu 3. Có bao nhiêu chất trong dãy sau đây làm xuất hiện màu tím khi tác dụng với Cu(OH)2/OH-: Gly-Ala, Albumin, Tripeptide Gly-Ala-Val, Glucose, Insulin?
+Câu 4. Một enzyme pepsin hoạt động tối ưu ở pH = 2 trong dạ dày. Khi xuống ruột non có pH = 8, hoạt tính của pepsin sẽ giảm về bao nhiêu %?
+Câu 5. Thủy phân không hoàn toàn 1 mol pentapeptide X thu được 2 mol Gly, 1 mol Ala, 1 mol Val, 1 mol Phe. Biết phân tử khối của các amino acid là Gly=75, Ala=89, Val=117, Phe=165. Phân tử khối của pentapeptide X là bao nhiêu amu?
+Câu 6. Để xác định hàm lượng protein trong thực phẩm theo phương pháp Kjeldahl, người ta đo hàm lượng Nitrogen thu được là 2,4%. Biết lượng Nitrogen trung bình trong protein chiếm 16% khối lượng. Hàm lượng % protein có trong mẫu thực phẩm đó là bao nhiêu %?
+ĐÁP ÁN VÀ HƯỚNG DẪN GIẢI ĐỀ SỐ 9
+PHẦN I: 1.A | 2.A | 3.A | 4.A | 5.A | 6.A | 7.A | 8.A | 9.A | 10.A | 11.A | 12.A | 13.A | 14.A | 15.A | 16.A | 17.A | 18.A
+PHẦN II: Câu 1: [ĐĐĐS] | Câu 2: [ĐĐĐS] | Câu 3: [ĐĐĐS] | Câu 4: [ĐĐĐĐ]
+PHẦN III: Câu 1: 9 | Câu 2: 14 | Câu 3: 3 | Câu 4: 0 | Câu 5: 449 | Câu 6: 15
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+ĐỀ SỐ 10 
+PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn (4,5 điểm)
+Thí sinh trả lời từ câu 1 đến câu 18. Mỗi câu hỏi thí sinh chỉ chọn một phương án.
+Câu 1. Chất nào sau đây là ester no, đơn chức, mạch hở?
+A. C3H6O2.      B. C3H4O2.      C. C4H6O2.      D. C2H2O2.
+Câu 2. Xà phòng hóa triolein thu được muối sodium oleate có công thức là
+A. C17H33COONa.      B. C17H35COONa.      C. C15H31COONa.      D. C17H31COONa.
+Câu 3. Chất giặt rửa tổng hợp phân hủy sinh học chậm gây ô nhiễm môi trường là do chứa gốc hydrocarbon
+A. Có nhánh kéo dài.      B. Mạch thẳng không nhánh.      C. Vòng benzene.      D. Dải ngắn.
+Câu 4. Đường glucose có công thức phân tử là
+A. C6H12O6.      B. C12H22O11.      C. C6H10O5.      D. C5H10O5.
+Câu 5. Polymer nào sau đây có cấu trúc mạch phân nhánh?
+A. Amylopectin.      B. Amylose.      C. Cellulose.      D. Polyethylene.
+Câu 6. Phát biểu nào sau đây ĐÚNG về saccharose?
+A. Không có phản ứng tráng bạc.      B. Làm mất màu nước bromine.      C. Thủy phân tạo thành 2 gốc glucose.      D. Thuộc loại monosaccharide.
+Câu 7. Dung dịch chất nào sau đây làm quỳ tím chuyển sang màu hồng/đỏ?
+A. Glutamic acid.      B. Lysine.      C. Glycine.      D. Methylamine.
+Câu 8. Công thức phân tử của ethylamine là
+A. C2H7N.      B. CH5N.      C. C3H9N.      D. C6H7N.
+Câu 9. Hợp chất nào sau đây là α-amino acid?
+A. CH3-CH(NH2)-COOH.      B. H2N-CH2-CH2-COOH.      C. H2N-CH2-COOH2.      D. CH3-NH-CH2-COOH.
+Câu 10. Peptide Gly-Ala có bao nhiêu nguyên tử oxygen trong phân tử?
+A. 3.      B. 4.      C. 2.      D. 5.
+Câu 11. Protein bị đông tụ khi đun nóng là do
+A. Cấu trúc không gian bậc cao bị phá hủy.      B. Các liên kết peptide bị thủy phân hết.      C. Các amino acid bị cháy đen.      D. Mất đi nguyên tử Nitrogen.
+Câu 12. Tơ visco và tơ acetate thuộc loại
+A. Tơ bán tổng hợp (tơ nhân tạo).      B. Tơ thiên nhiên.      C. Tơ tổng hợp.      D. Protein dạng sợi.
+Câu 13. Thuốc thử Tollens (dung dịch AgNO3/NH3) dùng để nhận biết hợp chất chứa nhóm
+A. Aldehyde (-CHO).      B. Carboxyl (-COOH).      C. Ester (-COO-).      D. Hydroxyl (-OH).
+Câu 14. Phản ứng ester hóa giữa CH3COOH và C2H5OH có hiệu suất phụ thuộc vào
+A. Lượng xúc tác H2SO4 đặc và việc loại bỏ nước khỏi hệ phản ứng.
+B. Áp suất khí quyển.
+C. Mùa trong năm.
+D. Thể tích ống nghiệm.
+Câu 15. Thủy phân hoàn toàn chất béo luôn thu được
+A. Glycerol.      B. Ethylene glycol.      C. Ethanol.      D. Methanol.
+Câu 16. Amino acid duy nhất không có tính bất đối (không có carbon bất đối C*) là
+A. Glycine.      B. Alanine.      C. Valine.      D. Glutamic acid.
+Câu 17. Nhiệt độ sôi của chất nào sau đây cao nhất?
+A. CH3COOH.      B. CH3COOCH3.      C. C2H5OH.      D. CH3CHO.
+Câu 18. Enzyme zymase xúc tác cho phản ứng lên men glucose tạo thành
+A. C2H5OH và CO2.      B. CH3COOH và H2O.      C. C3H7OH và CO2.      D. CH3CHO và H2.
+PHẦN II. Câu trắc nghiệm đúng sai (3,0 điểm)
+Câu 1. Tiến hành thí nghiệm điều chế xà phòng: Cho 2 mL dầu ăn và 4 mL dung dịch NaOH 20% vào bát sứ. Đun sôi nhẹ 8-10 phút và khuấy liên tục, thêm nước cất giữ thể tích không đổi. Sau đó rót 5 mL dung dịch NaCl bão hòa nóng vào, để nguội:
+a) Sau bước rót NaCl bão hòa, chất rắn màu trắng nổi lên trên là xà phòng.
+b) Thêm NaCl bão hòa nhằm mục đích tăng khối lượng riêng dung dịch và giảm độ tan của xà phòng.
+c) Nước cất thêm vào để tránh hỗn hợp bị cạn khô và đảm bảo phản ứng thủy phân xảy ra.
+d) Sản phẩm thu được trong bát sứ là dung dịch hoàn toàn đồng nhất không phân lớp.
+Câu 2. Về tính chất của carbohydrate:
+a) Tinh bột và cellulose là hai đồng phân của nhau vì đều có công thức (C6H10O5)n.
+b) Thủy phân hoàn toàn tinh bột thu được α-glucose.
+c) Cellulose tan tốt trong nước đun sôi tạo thành dung dịch keo.
+d) Glucose phản ứng với H2 (xúc tác Ni, t°) sinh ra polyalcohol sorbitol.
+Câu 3. Xét 3 dung dịch amino acid có nồng độ 0,1M: Glycine (pH1), Glutamic acid (pH2), Lysine (pH3):
+a) Thứ tự giá trị pH tăng dần là pH2 < pH1 < pH3.
+b) Dung dịch Glutamic acid có pH < 7 do số nhóm -COOH nhiều hơn số nhóm -NH2.
+c) Nhúng giấy quỳ tím vào dung dịch Lysine thấy quỳ tím hóa xanh.
+d) Cho dung dịch Glycine tác dụng với HCl thu được muối ClH3N-CH2-COOH.
+Câu 4. Về peptide và protein:
+a) Tất cả các peptide đều có phản ứng hòa tan Cu(OH)2 tạo dung dịch màu tím đặc trưng.
+b) Protein bị vón cục đông tụ khi thêm acid, base hoặc dung dịch muối kim loại nặng.
+c) Insulin là một hormone protein có chức năng điều hòa lượng đường trong máu.
+d) Liên kết peptide là liên kết amide (-CO-NH-) giữa các đơn vị α-amino acid.
+PHẦN III. Câu trắc nghiệm trả lời ngắn (2,5 điểm)
+Câu 1. Thủy phân hoàn toàn 0,1 mol tripeptide Gly-Ala-Ala bằng 400 mL dung dịch NaOH 1M. Sau khi phản ứng kết thúc, cô cạn dung dịch thu được m gam chất rắn khô. Giá trị m là bao nhiêu gam?
+Câu 2. Để điều chế 4,4 gam ethyl acetate cần dùng bao nhiêu gam acetic acid nguyên chất (biết H = 80%)?
+Câu 3. Nhiệt phân 162 kg tinh bột thu được V m3 khí CO2 (đkc ở 25 °C, 1 bar có V_mol = 24,79 L) khi lên men hoàn toàn thành ethanol. Giá trị của V là bao nhiêu m3? (Làm tròn đến hàng phần mười)
+Câu 4. Một mẫu chất béo có chỉ số ester là 180 và chỉ số acid là 7. Số mg KOH cần dùng để xà phòng hóa hoàn toàn 1 gam mẫu chất béo này là bao nhiêu mg?
+Câu 5. Thể tích dung dịch HCl 1M cần dùng để phản ứng vừa đủ với 0,1 mol Lysine là bao nhiêu mL?
+Câu 6. Khối lượng phân tử của hợp chất methyl formate HCOOCH3 là bao nhiêu amu?
+ĐÁP ÁN VÀ HƯỚNG DẪN GIẢI ĐỀ SỐ 10
+PHẦN I: 1.A | 2.A | 3.A | 4.A | 5.A | 6.A | 7.A | 8.A | 9.A | 10.A | 11.A | 12.A | 13.A | 14.A | 15.A | 16.A | 17.A | 18.A
+PHẦN II: Câu 1: [ĐĐĐS] | Câu 2: [SĐSĐ] | Câu 3: [ĐĐĐĐ] | Câu 4: [SĐĐĐ]
+PHẦN III: Câu 1: 35,9 | Câu 2: 3,75 | Câu 3: 49,6 | Câu 4: 187 | Câu 5: 200 | Câu 6: 60
