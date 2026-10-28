@@ -1,0 +1,295 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{geometry}
+\geometry{top=1.5cm,bottom=1.2cm,left=1.4cm,right=1.4cm,headheight=28pt,headsep=12pt,footskip=18pt}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\definecolor{hfRed}{HTML}{D32F2F}
+\definecolor{hfGreen}{HTML}{8BC390}
+\definecolor{mainGreen}{HTML}{2E7D32}
+
+\usepackage{ex_test}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.75pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0.75pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+
+\fancyhead[L]{\small\itshape\color{hfRed}Tài liệu lưu hành nội bộ}
+\fancyhead[R]{\small\color{hfRed}Thầy \textbf{TRẦN VĂN THẠNH} - 0777.470.803}
+
+\fancyfoot[L]{\footnotesize\itshape\color{hfRed}CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+\fancyfoot[R]{\small\textbf{\color{hfRed}Trang \thepage}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+
+\begin{document}
+
+\begin{minipage}[t]{0.45\textwidth}
+\textbf{TRƯỜNG THCS \dots\dots\dots\dots\dots\dots\dots\dots\dots}\\
+\textbf{ĐỀ KIỂM TRA ĐÁNH GIÁ}\\
+\textit{ĐỀ CHÍNH THỨC}\\
+\textit{(Đề thi có 02 trang)}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.52\textwidth}
+\raggedleft
+\textbf{\color{hfRed}ĐỀ KIỂM TRA GIỮA HỌC KÌ I -- NĂM HỌC 2025 -- 2026}\\
+\textbf{MÔN: KHOA HỌC TỰ NHIÊN 7}\\
+\textit{Thời gian làm bài: 60 phút}\\
+\textbf{MÃ ĐỀ THI: 01}
+\end{minipage}
+
+\vspace{3pt}
+\noindent
+\textit{Họ, tên thí sinh:} \dotfill \textit{Lớp:} \dotfill \textit{SBD:} \dotfill
+
+\vspace{2pt}
+\noindent
+\textit{\footnotesize (Cho biết nguyên tử khối của các nguyên tố: H = 1; Na = 23; S = 32; P = 31; O = 16; K = 39 amu).}
+
+
+\vspace{3pt}
+\noindent
+\textbf{\color{mainGreen}PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn.}\\
+\textit{Mỗi câu hỏi học sinh chỉ chọn 1 phương án.}
+
+\Opensolutionfile{ans}[ans-khtn7-hs]
+
+\begin{ex}
+Cho dãy các kí hiệu các nguyên tố sau: He, Ca, K, Fe, Cu, S. Theo thứ tự tên của các nguyên tố lần lượt là:
+\choice
+{Helium, Caesium, Potassium, Copper, Iron, Silicon.}
+{\True Helium, Calcium, Potassium, Iron, Copper, Sulfur.}
+{Helium, Calcium, Krypton, Iron, Copper, Silicon.}
+{Hydogen, Caesium, Krypton, Iron, Cobalt, Sulfur.}
+\end{ex}
+
+\begin{ex}
+Các nguyên tố trong cùng 1 chu kì thì có cùng:
+\choice
+{Số electron lớp ngoài cùng.}
+{Khối lượng nguyên tử}
+{Số điện tích hạt nhân.}
+{\True Số lớp electron.}
+\end{ex}
+
+\begin{ex}
+Đơn chất là những chất được tạo nên từ bao nhiêu nguyên tố hóa học?
+\choice
+{Từ 2 nguyên tố.}
+{Từ 3 nguyên tố.}
+{Từ 4 nguyên tố trở lên.}
+{\True Từ 1 nguyên tố.}
+\end{ex}
+
+\begin{ex}
+Hạt nhân một nguyên tử fluorine có 9 proton và 10 neutron. Khối lượng của nguyên tử fluorine xấp xỉ bằng:
+\choice
+{9 amu}
+{10 amu.}
+{\True 19 amu}
+{28 amu.}
+\end{ex}
+
+\begin{ex}
+Một bình khí oxygen chứa:
+\choice
+{\True Các phân tử O$_{2}$.}
+{Các nguyên tử oxygen riêng rẽ không liên kết với nhau.}
+{Một phân tử O$_{2}$}
+{Một đại phân tử khổng lồ chứa rất nhiều nguyên tử oxygen.}
+\end{ex}
+
+\begin{ex}
+Loại hạt nào sau đây đặc trưng cho 1 nguyên tố hóa học?
+\choice
+{hạt electron}
+{\True hạt proton}
+{Hạt electron và proton}
+{hạt electron và neutron}
+\end{ex}
+
+\begin{ex}
+Một nguyên tử carbon có khối lượng là 1,9926 $\times$  10$^{-23}$ gam. Khối lượng nguyên tử carbon tính theo đơn vị amu là: (biết 1 amu = 1,6605 $\times$  10$^{-24}$ gam).
+\choice
+{\True 12 amu.}
+{24 amu.}
+{6 amu.}
+{48 amu.}
+\end{ex}
+
+\begin{ex}
+Thời tiết nồm ẩm vào cuối mùa xuân có bản chất là hiện tượng:
+\choice
+{\True ngưng tụ hơi nước.}
+{bay hơi nước ở thể lỏng.}
+{đông đặc nước ở thể lỏng.}
+{nóng chảy nước ở thể rắn.}
+\end{ex}
+
+\begin{ex}
+Chất nào sau đây không phải là hợp chất cộng hóa trị?
+\choice
+{SO$_{2}$.}
+{CO$_{2}$.}
+{\True NaCl.}
+{H$_{2}$O.}
+\end{ex}
+
+\begin{ex}
+Cho biết tổng số hạt trong hạt nhân nguyên tử Nitrogen là 14, số đơn vị điện tích hạt nhân là 7. Số hạt neutron và electron của nguyên tử Nitrogen:
+\choice
+{7 và 14}
+{14 và 7}
+{\True 7 và 7.}
+{14 và 14.}
+\end{ex}
+
+\begin{ex}
+Cho các phát biểu:\\ (I) Nguyên tử trung hoà về điện.\\ (II) Khối lượng của nguyên tử tập trung chủ yếu ở hạt nhân.\\ (III) Trong nguyên tử, số hạt mang điện tích dương bằng số hạt mang điện tích âm nên số hạt electron bằng số hạt neutron.\\ (IV) Vỏ nguyên tử, gồm các lớp electron có khoảng cách khác nhau đối với hạt nhân.\\ Trong các phát biểu trên, số phát biểu đúng là:
+\choice
+{1.}
+{2.}
+{\True 3.}
+{4.}
+\end{ex}
+
+\begin{ex}
+Cho các hợp chất sau: MgCl$_{2}$, Na$_{2}$O, NH$_{3}$, HCl, KCl. Hợp chất nào sau đây có liên kết cộng hóa trị?
+\choice
+{\True NH$_{3}$ và HCl}
+{Na$_{2}$O và NH$_{3}$.}
+{MgCl$_{2}$ và Na$_{2}$O.}
+{HCl và KCl}
+\end{ex}
+
+\begin{ex}
+Hợp chất Na$_{x}$SO$_{4}$ có khối lượng phân tử là 142 amu. Giá trị của x là:
+\choice
+{1.}
+{\True 2.}
+{3.}
+{4.}
+\end{ex}
+
+\begin{ex}
+Nguyên tố X có 12 proton, 3 lớp electron, có 2 e lớp ngoài cùng. Vị trí của nguyên tố X trong bảng tuần hoàn là:
+\choice
+{X ở ô số 12, chu kì 3, nhóm III}
+{X ở ô số 12, chu kì 2, nhóm I.}
+{\True X ở ô số 12, chu kì 3, nhóm II}
+{X ở ô số 12, chu kì 2, nhóm III}
+\end{ex}
+
+\begin{ex}
+Trong phân tử nước, cứ 16,0 g oxygen có tương ứng 2,0 g hydrogen. Một giọt nước chứa 0,1 g hydrogen thì khối lượng của oxygen có trong giọt nước đó là:
+\choice
+{1,6 g.}
+{1,2 g.}
+{0,9g.}
+{\True 0,8 g.}
+\end{ex}
+
+\begin{ex}
+Khối lượng phân tử sulfur dioxide (SO$_{2}$) là:
+\choice
+{\True 64 amu}
+{48 amu}
+{16 amu}
+{80 amu}
+\end{ex}
+
+\Closesolutionfile{ans}
+
+\vspace{4pt}
+\noindent
+\textbf{\color{mainGreen}PHẦN II. Câu trắc nghiệm đúng sai.}\\
+\textit{Trong mỗi ý a, b, c, d học sinh chọn đúng (Đ) hoặc sai (S).}
+
+\setcounter{ex}{0}
+
+\begin{ex}
+Một số đặc điểm của đơn chất:
+\choiceTF
+{\True Các nguyên tử trong đơn chất kim loại sắp xếp khít nhau theo một trật tự xác định và có vai trò như phân tử.}
+{\True Các đơn chất kim loại có tính chất vật lí chung như: Dẫn điện, dẫn nhiệt, có ánh kim,\dots }
+{Đơn chất khí hiếm tồn tại trong tự nhiên ở dạng phân tử.}
+{\True Các đơn chất phi kim có tính chất khác với các đơn chất kim loại.}
+\end{ex}
+
+\begin{ex}
+Nếu một nguyên tử có 14 electron thì:
+\choiceTF
+{\True Nguyên tử đó có 14 proton.}
+{Nguyên tử đó có 2 lớp electron.}
+{\True Nguyên tử có số đơn vị điện tích hạt nhân là 14.}
+{Nguyên tử có số electron lớp ngoài cùng là 3.}
+\end{ex}
+
+\begin{ex}
+Cấu tạo nguyên tử
+\choiceTF
+{\True Nguyên tử gồm 3 loại hạt cơ bản là proton, neutron và electron.}
+{Lớp vỏ nguyên tử gồm 2 loại hạt là electron và neutron.}
+{\True Hạt nhân nguyên tử gồm 2 loại hạt là proton và neutron.}
+{Nguyên tử luôn trung hòa về điện nên số hạt proton luôn bằng số hạt neutron.}
+\end{ex}
+
+
+\vspace{4pt}
+\noindent
+\textbf{\color{mainGreen}PHẦN III. Câu trắc nghiệm trả lời ngắn.}\\
+\textit{Thí sinh ghi câu trả lời ngắn vào dòng tương ứng.}
+
+\setcounter{ex}{0}
+
+\begin{ex}
+Cho hợp chất P$_{2}$O$_{5}$. Khối lượng phân tử của hợp chất trên là bao nhiêu amu?
+\par\textbf{Trả lời:} \dotfill
+\end{ex}
+
+\begin{ex}
+Thành phần phần trăm theo khối lượng của nguyên tố P trong hợp chất P$_{2}$O$_{5}$ là bao nhiêu phần trăm ? (Tính ra kết quả số thập phân và làm tròn đến 2 chữ số sau dấu phẩy ).
+\par\textbf{Trả lời:} \dotfill
+\end{ex}
+
+\begin{ex}
+Nguyên tử Aluminium có điện tích hạt nhân là 13+. Trong nguyên tử, số hạt mang điện nhiều hơn số hạt không mang điện là 12 hạt. Số hạt neutron của nguyên tử Aluminium là bao nhiêu ?
+\par\textbf{Trả lời:} \dotfill
+\end{ex}
+
+\begin{ex}
+Trong hạt nhân nguyên tử fluorine có 9 proton. Số electron ở lớp ngoài cùng của vỏ nguyên tử fluorine là bao nhiêu?
+\par\textbf{Trả lời:} \dotfill
+\end{ex}
+
+\begin{ex}
+Cho hợp chất K$_{2}$S. Khối lượng phân tử của hợp chất trên là bao nhiêu amu?
+\par\textbf{Trả lời:} \dotfill
+\end{ex}
+
+\begin{ex}
+Một nguyên tử có 10 proton trong hạt nhân. Theo mô hình nguyên tử của Rơ- dơ- pho- Bo, nguyên tử trên có bao nhiêu lớp electron ?
+\par\textbf{Trả lời:} \dotfill
+\end{ex}
+
+
+\vspace{8pt}
+\begin{center}
+\textit{------------------ Chúc các em làm bài thi tốt ! ------------------}
+\end{center}
+
+\end{document}
