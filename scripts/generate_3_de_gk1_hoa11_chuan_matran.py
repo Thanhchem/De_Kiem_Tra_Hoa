@@ -7,6 +7,7 @@ Mã đề: 101 (Đề 01), 102 (Đề 02), 103 (Đề 03)
 - Phần II (2,0 điểm): 2 câu trắc nghiệm Đúng - Sai (8 ý: 4 Biết - 4 Hiểu)
 - Phần III (2,0 điểm): 4 câu trắc nghiệm Trả lời ngắn (2 Biết - 2 Hiểu)
 - Phần IV (3,0 điểm): 3 câu Tự luận (1 Hiểu - 2 Vận dụng)
+- CUỐI TRANG FILE GIÁO VIÊN: Có BẢNG ĐÁP ÁN & BIỂU ĐIỂM TỔNG HỢP chuyên nghiệp, trang trọng.
 Tổng điểm: 10,0 điểm (40% NB - 30% TH - 30% VD).
 Xuất đủ 6 file Word (3 bản Học Sinh + 3 bản Giáo Viên) chuẩn "FORM ĐỀ KIỂM TRA".
 """
@@ -18,6 +19,8 @@ import docx
 from docx.shared import Cm, Pt, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_TAB_ALIGNMENT
 from docx.enum.table import WD_TABLE_ALIGNMENT
+from docx.oxml import parse_xml
+from docx.oxml.ns import nsdecls
 
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
@@ -27,11 +30,37 @@ from form_de_kiem_tra import (
     setup_header_footer, build_title_block, add_section_header,
     render_question_prompt, render_options_no_table, render_statement,
     add_solution_no_table, add_student_writing_lines, render_rich_text,
+    add_p_border_bottom,
     COLOR_HF_RED, COLOR_PRIMARY, COLOR_SOLUTION, COLOR_CORRECT
 )
 
 OUT_DIR = r"c:\Antigravity_Thanh\San_Pham"
 os.makedirs(OUT_DIR, exist_ok=True)
+
+# Helper styling cho bảng đáp án cuối trang
+def set_cell_background(cell, hex_color):
+    tcPr = cell._element.get_or_add_tcPr()
+    tcPr.append(parse_xml(f'<w:shd {nsdecls("w")} w:fill="{hex_color}"/>'))
+
+def set_cell_margins(cell, top=100, bottom=100, left=150, right=150):
+    tcPr = cell._element.get_or_add_tcPr()
+    tcMar = parse_xml(f'<w:tcMar {nsdecls("w")}><w:top w:w="{top}" w:type="dxa"/><w:bottom w:w="{bottom}" w:type="dxa"/><w:left w:w="{left}" w:type="dxa"/><w:right w:w="{right}" w:type="dxa"/></w:tcMar>')
+    tcPr.append(tcMar)
+
+def set_table_borders(tbl, color="B0BEC5", sz="4"):
+    tblPr = tbl._element.xpath('w:tblPr')
+    if tblPr:
+        tblBorders = parse_xml(
+            f'<w:tblBorders {nsdecls("w")}>'
+            f'<w:top w:val="single" w:sz="{sz}" w:space="0" w:color="{color}"/>'
+            f'<w:left w:val="single" w:sz="{sz}" w:space="0" w:color="{color}"/>'
+            f'<w:bottom w:val="single" w:sz="{sz}" w:space="0" w:color="{color}"/>'
+            f'<w:right w:val="single" w:sz="{sz}" w:space="0" w:color="{color}"/>'
+            f'<w:insideH w:val="single" w:sz="{sz}" w:space="0" w:color="{color}"/>'
+            f'<w:insideV w:val="single" w:sz="{sz}" w:space="0" w:color="{color}"/>'
+            f'</w:tblBorders>'
+        )
+        tblPr[0].append(tblBorders)
 
 # ==============================================================================
 # DỮ LIỆU ĐỀ 01 - MÃ ĐỀ 101
@@ -49,6 +78,7 @@ DE01_DATA = {
                 "C. có phương trình hóa học được biểu diễn bằng mũi tên một chiều.",
                 "D. xảy ra hoàn toàn giữa các chất tham gia ở thể khí."
             ],
+            "correct_letter": "A",
             "solution": "Theo định nghĩa SGK Hóa học 11, phản ứng thuận nghịch là phản ứng hóa học xảy ra theo hai chiều trái ngược nhau trong cùng một điều kiện xác định."
         },
         {
@@ -60,6 +90,7 @@ DE01_DATA = {
                 "C. v~t~ = 0,5v~n~.",
                 "D. v~t~ = v~n~ = 0."
             ],
+            "correct_letter": "B",
             "solution": "Tại trạng thái cân bằng hóa học, phản ứng vẫn liên tục diễn ra nhưng với tốc độ thuận bằng chính xác tốc độ nghịch (v~t~ = v~n~ > 0). Cân bằng hóa học là cân bằng động."
         },
         {
@@ -71,6 +102,7 @@ DE01_DATA = {
                 "C. Áp suất chung của hệ.",
                 "D. Chất xúc tác."
             ],
+            "correct_letter": "A",
             "solution": "Hằng số cân bằng K~C~ là đại lượng nhiệt động lực học, chỉ phụ thuộc vào bản chất của phản ứng và nhiệt độ môi trường, không phụ thuộc vào nồng độ, áp suất hay chất xúc tác."
         },
         {
@@ -82,6 +114,7 @@ DE01_DATA = {
                 "*C. tăng áp suất chung của hệ phản ứng.*",
                 "D. thêm chất xúc tác bột iron vào hệ."
             ],
+            "correct_letter": "C",
             "solution": "Theo nguyên lí Le Chatelier: Phản ứng có tổng mol khí vế trái (4 mol) lớn hơn vế phải (2 mol). Khi tăng áp suất, cân bằng sẽ chuyển dịch theo chiều làm giảm số mol khí, tức là chiều thuận."
         },
         {
@@ -93,6 +126,7 @@ DE01_DATA = {
                 "C. C~2~H~5~OH.",
                 "D. H~2~O."
             ],
+            "correct_letter": "B",
             "solution": "NaCl là muối tan hoàn toàn trong nước, phân li 100% thành ion Na^+^ và Cl^-^ nên là chất điện li mạnh. CH~3~COOH và H~2~O là chất điện li yếu, C~2~H~5~OH là chất không điện li."
         },
         {
@@ -104,6 +138,7 @@ DE01_DATA = {
                 "C. NH~4~^+^.",
                 "D. Cl^-^."
             ],
+            "correct_letter": "A",
             "solution": "Ion HCO~3~^-^ là chất lưỡng tính vì vừa có khả năng nhường proton H^+^ (thể hiện tính acid: HCO~3~^-^ + H~2~O ⇌ CO~3~^2-^ + H~3~O^+^), vừa có khả năng nhận proton H^+^ (thể hiện tính base: HCO~3~^-^ + H~2~O ⇌ H~2~CO~3~ + OH^-^)."
         },
         {
@@ -115,6 +150,7 @@ DE01_DATA = {
                 "C. 1%.",
                 "D. 0,04%."
             ],
+            "correct_letter": "B",
             "solution": "Trong không khí khô, khí nitrogen chiếm khoảng 78% về thể tích, khí oxygen chiếm khoảng 21%, còn lại là argon, carbon dioxide và các khí hiếm khác."
         },
         {
@@ -126,6 +162,7 @@ DE01_DATA = {
                 "*C. trong phân tử có chứa liên kết ba N≡N rất bền vững.*",
                 "D. nguyên tử nitrogen có độ âm điện lớn."
             ],
+            "correct_letter": "C",
             "solution": "Phân tử N~2~ có chứa liên kết ba N≡N với năng lượng liên kết khổng lồ (945 kJ/mol), đòi hỏi năng lượng rất lớn để bẻ gãy, do đó nitrogen rất trơ ở nhiệt độ phòng."
         },
         {
@@ -137,6 +174,7 @@ DE01_DATA = {
                 "*C. Hình chóp tam giác.*",
                 "D. Hình tứ diện đều."
             ],
+            "correct_letter": "C",
             "solution": "Nguyên tử N ở trạng thái lai hóa sp^3^, trên nguyên tử N còn 1 cặp electron tự do đẩy 3 liên kết N–H xuống dưới tạo thành cấu trúc hình chóp tam giác (góc liên kết khoảng 107°)."
         },
         {
@@ -148,6 +186,7 @@ DE01_DATA = {
                 "*C. xuất hiện làn khói trắng dày đặc.*",
                 "D. dung dịch chuyển sang màu hồng."
             ],
+            "correct_letter": "C",
             "solution": "Hơi NH~3~ và hơi HCl bay ra tiếp xúc với nhau xảy ra phản ứng: NH~3~(g) + HCl(g) → NH~4~Cl(s). Muối ammonium chloride sinh ra dưới dạng các hạt tinh thể li ti lơ lửng tạo thành làn khói trắng."
         },
         {
@@ -159,6 +198,7 @@ DE01_DATA = {
                 "*C. Màu nâu đỏ, có mùi xốc độc hại.*",
                 "D. Màu xanh lam nhạt."
             ],
+            "correct_letter": "C",
             "solution": "Khí NO~2~ có màu nâu đỏ đặc trưng, mùi hắc và độc hại đối với hệ hô hấp. Khí NO thì không màu nhưng dễ bị oxi hóa trong không khí biến thành NO~2~."
         },
         {
@@ -170,6 +210,7 @@ DE01_DATA = {
                 "C. Zn và Mg.",
                 "D. Fe và Cu."
             ],
+            "correct_letter": "B",
             "solution": "Kim loại Fe, Al (và Cr) bị thụ động hóa trong dung dịch HNO~3~ đặc nguội do tạo lớp màng oxide đặc khít bảo vệ bề mặt kim loại."
         }
     ],
@@ -227,16 +268,19 @@ DE01_DATA = {
         {
             "num": 1, "topic": "Bài 1", "level": "VD", "points": "1,0 điểm",
             "stem": "Một bình phản ứng kín có dung tích không đổi 1,0 lít được nạp hỗn hợp gồm 0,50 mol khí carbon monoxide (CO) và 0,50 mol khí chlorine (Cl~2~). Đun nóng bình để phản ứng xảy ra theo phương trình hóa học:\nCO(g) + Cl~2~(g) ⇌ COCl~2~(g)\nKhi hệ phản ứng đạt đến trạng thái cân bằng ở nhiệt độ T, nồng độ của khí phosgene (COCl~2~) đo được là 0,40 mol/L.\na) Hãy lập bảng biến thiên nồng độ và xác định nồng độ của khí CO và Cl~2~ ở trạng thái cân bằng.\nb) Tính giá trị hằng số cân bằng K~C~ của phản ứng ở nhiệt độ T.",
+            "summary_ans": "a) [CO] = [Cl₂] = 0,10 M (0,5 đ); b) Kc = 40 (0,5 đ)",
             "solution": "a) Lập bảng biến thiên nồng độ (dung tích bình V = 1,0 L nên nồng độ mol bằng số mol):\nPhương trình hóa học:   CO(g)  +  Cl~2~(g)   ⇌   COCl~2~(g)\nBan đầu (M):            0,50      0,50           0\nPhản ứng (M):           0,40      0,40          0,40\nCân bằng (M):           0,10      0,10          0,40\n- Nồng độ của CO tại thời điểm cân bằng: [CO] = 0,50 – 0,40 = 0,10 (M).\n- Nồng độ của Cl~2~ tại thời điểm cân bằng: [Cl~2~] = 0,50 – 0,40 = 0,10 (M).\nb) Giá trị hằng số cân bằng K~C~:\nK~C~ = [COCl~2~] / ([CO] . [Cl~2~]) = 0,40 / (0,10 . 0,10) = 40."
         },
         {
             "num": 2, "topic": "Bài 2", "level": "VD", "points": "1,0 điểm",
             "stem": "Trộn 100 mL dung dịch hydrochloric acid (HCl) nồng độ 0,15 M với 100 mL dung dịch barium hydroxide (Ba(OH)~2~) nồng độ 0,10 M thu được 200 mL dung dịch X.\na) Viết phương trình ion rút gọn của phản ứng trung hòa xảy ra.\nb) Tính nồng độ mol của ion OH^-^ dư và giá trị pH của dung dịch X ở 25 °C.",
+            "summary_ans": "a) H⁺ + OH⁻ → H₂O (0,25 đ); b) [OH⁻ dư] = 0,025 M (0,5 đ); pH = 12,40 (0,25 đ)",
             "solution": "a) Phương trình ion rút gọn của phản ứng trung hòa:\nH^+^ + OH^-^ → H~2~O\nb) Tính toán số mol:\n- Số mol H^+^ ban đầu = n(HCl) = 0,1 . 0,15 = 0,015 (mol).\n- Số mol OH^-^ ban đầu = 2 . n(Ba(OH)~2~) = 2 . (0,1 . 0,10) = 0,020 (mol).\n- Vì n(OH^-^) > n(H^+^) nên sau phản ứng OH^-^ còn dư:\nn(OH^-^ dư) = 0,020 – 0,015 = 0,005 (mol).\n- Thể tích dung dịch sau trộn: V = 100 + 100 = 200 mL = 0,2 L.\n- Nồng độ ion OH^-^ trong dung dịch X: [OH^-^] = 0,005 / 0,2 = 0,025 (M).\n- Ta có: pOH = –log[OH^-^] = –log(0,025) ≈ 1,60.\n⇒ pH = 14 – pOH = 14 – 1,60 = 12,40."
         },
         {
             "num": 3, "topic": "Bài 5", "level": "TH", "points": "1,0 điểm",
             "stem": "Có ba mẫu phân đạm vô cơ dạng bột màu trắng được đựng riêng biệt trong ba lọ mất nhãn gồm: NaNO~3~, NH~4~Cl và (NH~4~)~2~SO~4~.\nBằng phương pháp hóa học, hãy trình bày cách sử dụng một thuốc thử duy nhất là dung dịch barium hydroxide (Ba(OH)~2~) để phân biệt ba mẫu phân đạm trên. Viết các phương trình hóa học xảy ra.",
+            "summary_ans": "Nhận biết đúng 3 mẫu (0,5 đ); Viết đúng 2 PTHH (0,5 đ)",
             "solution": "Phương pháp nhận biết:\n- Lấy mỗi chất một lượng nhỏ vào 3 ống nghiệm riêng biệt, hòa tan vào nước cất để tạo thành dung dịch mẫu thử.\n- Nhỏ dung dịch Ba(OH)~2~ vào từng ống nghiệm rồi đun nóng nhẹ:\n  + Mẫu thử không có hiện tượng gì là NaNO~3~.\n  + Mẫu thử sinh ra chất khí có mùi khai, làm xanh giấy quỳ tím ẩm là NH~4~Cl:\n    Ba(OH)~2~ + 2NH~4~Cl → BaCl~2~ + 2NH~3~↑ + 2H~2~O\n  + Mẫu thử vừa xuất hiện kết tủa trắng (BaSO~4~), vừa sinh ra chất khí có mùi khai làm xanh quỳ tím ẩm là (NH~4~)~2~SO~4~:\n    Ba(OH)~2~ + (NH~4~)~2~SO~4~ → BaSO~4~↓ + 2NH~3~↑ + 2H~2~O"
         }
     ]
@@ -258,6 +302,7 @@ DE02_DATA = {
                 "C. có phương trình hóa học được biểu diễn bằng dấu hai chiều ⇌.",
                 "D. luôn luôn xảy ra với tốc độ rất nhanh và tỏa nhiều nhiệt."
             ],
+            "correct_letter": "A",
             "solution": "Phản ứng một chiều là phản ứng hóa học chỉ xảy ra theo một chiều nhất định từ chất tham gia tạo thành chất sản phẩm trong điều kiện xác định, phương trình biểu diễn bằng mũi tên một chiều (→)."
         },
         {
@@ -269,6 +314,7 @@ DE02_DATA = {
                 "*C. tốc độ phản ứng thuận bằng tốc độ phản ứng nghịch.*",
                 "D. số mol của các chất tham gia bằng số mol của các sản phẩm."
             ],
+            "correct_letter": "C",
             "solution": "Trạng thái cân bằng là trạng thái của phản ứng thuận nghịch khi tốc độ phản ứng thuận bằng tốc độ phản ứng nghịch (v~t~ = v~n~). Ở trạng thái này, phản ứng vẫn xảy ra nhưng nồng độ các chất trong hệ không thay đổi."
         },
         {
@@ -280,6 +326,7 @@ DE02_DATA = {
                 "C. K~C~ = (c.[C] + d.[D]) / (a.[A] + b.[B]).",
                 "D. K~C~ = (a.[A] . b.[B]) / (c.[C] . d.[D])."
             ],
+            "correct_letter": "B",
             "solution": "Theo định luật tác dụng khối lượng, hằng số cân bằng nồng độ K~C~ bằng tích số nồng độ cân bằng của các chất sản phẩm với lũy thừa là hệ số tỉ lượng tương ứng, chia cho tích số nồng độ cân bằng của các chất tham gia với lũy thừa tương ứng."
         },
         {
@@ -291,6 +338,7 @@ DE02_DATA = {
                 "C. Giảm nhiệt độ của hệ phản ứng.",
                 "D. Tăng thêm lượng đá vôi rắn CaCO~3~."
             ],
+            "correct_letter": "A",
             "solution": "Phản ứng nung đá vôi có ΔH > 0 là phản ứng thu nhiệt. Khi tăng nhiệt độ, cân bằng sẽ chuyển dịch theo chiều thu nhiệt (chiều thuận) để chống lại sự tăng nhiệt độ."
         },
         {
@@ -302,6 +350,7 @@ DE02_DATA = {
                 "*C. CH~3~COOH.*",
                 "D. KNO~3~."
             ],
+            "correct_letter": "C",
             "solution": "CH~3~COOH (acetic acid) là một acid hữu cơ yếu, trong dung dịch nước chỉ có một phần nhỏ số phân tử phân li ra ion, phần lớn còn lại vẫn tồn tại dưới dạng phân tử phân tán trong nước."
         },
         {
@@ -313,6 +362,7 @@ DE02_DATA = {
                 "C. chất khử vì số oxi hóa tăng sau phản ứng.",
                 "D. chất lưỡng tính vì vừa nhận vừa nhường proton."
             ],
+            "correct_letter": "B",
             "solution": "Trong phản ứng trên, phân tử NH~3~ đã nhận một proton H^+^ từ phân tử nước để biến thành ion NH~4~^+^. Theo thuyết Brønsted – Lowry, chất nhận proton là một base."
         },
         {
@@ -324,6 +374,7 @@ DE02_DATA = {
                 "C. làm tăng khối lượng tịnh của sản phẩm.",
                 "D. giúp thực phẩm lên men nhanh chóng."
             ],
+            "correct_letter": "B",
             "solution": "Khí nitrogen rất trơ về mặt hóa học, không màu, không mùi, không độc hại. Khi nạp khí N~2~ vào bao bì giúp đẩy khí oxygen ra ngoài, ngăn ngừa quá trình oxi hóa chất béo và chống ẩm mốc."
         },
         {
@@ -335,6 +386,7 @@ DE02_DATA = {
                 "C. +2.",
                 "D. +5."
             ],
+            "correct_letter": "B",
             "solution": "Trong mọi đơn chất, số oxi hóa của nguyên tố luôn luôn bằng 0. Do đó trong đơn chất nitrogen (N~2~), số oxi hóa của nitrogen là 0."
         },
         {
@@ -346,6 +398,7 @@ DE02_DATA = {
                 "C. Màu vàng.",
                 "D. Không đổi màu."
             ],
+            "correct_letter": "B",
             "solution": "Khi tan trong nước, ammonia phản ứng một phần với nước tạo ra các ion OH^-^ (NH~3~ + H~2~O ⇌ NH~4~^+^ + OH^-^). Dung dịch có tính base yếu nên làm quỳ tím hóa xanh."
         },
         {
@@ -357,6 +410,7 @@ DE02_DATA = {
                 "*C. Tính khử.*",
                 "D. Tính oxi hóa."
             ],
+            "correct_letter": "C",
             "solution": "Trong phản ứng này, số oxi hóa của nguyên tố nitrogen tăng từ –3 (trong NH~3~) lên 0 (trong N~2~). Chất nhường electron có số oxi hóa tăng là chất khử."
         },
         {
@@ -368,6 +422,7 @@ DE02_DATA = {
                 "C. O~2~ và N~2~.",
                 "D. H~2~ và Cl~2~."
             ],
+            "correct_letter": "B",
             "solution": "Khí SO~2~ (sinh ra từ đốt than đá, dầu mỏ) và các oxide của nitrogen NO~x~ (từ khí thải động cơ đốt trong) khi hòa tan vào nước mưa bị oxi hóa tạo thành H~2~SO~4~ và HNO~3~ gây hiện tượng mưa acid."
         },
         {
@@ -379,6 +434,7 @@ DE02_DATA = {
                 "*C. Cu.*",
                 "D. Al (ở trạng thái nguội)."
             ],
+            "correct_letter": "C",
             "solution": "Dung dịch HNO~3~ đặc nóng là chất oxi hóa rất mạnh, hòa tan được hầu hết các kim loại (kể cả Cu, Ag; trừ Au, Pt): Cu + 4HNO~3~(đặc) → Cu(NO~3~)~2~ + 2NO~2~↑ + 2H~2~O. Khí NO~2~ có màu nâu đỏ."
         }
     ],
@@ -436,16 +492,19 @@ DE02_DATA = {
         {
             "num": 1, "topic": "Bài 1", "level": "VD", "points": "1,0 điểm",
             "stem": "Ở 430 °C, hằng số cân bằng K~C~ của phản ứng tổng hợp hydrogen iodide:\nH~2~(g) + I~2~(g) ⇌ 2HI(g) có giá trị bằng 54,0.\nNạp vào bình phản ứng kín dung tích 2,0 lít hỗn hợp gồm 0,40 mol khí H~2~ và 0,40 mol hơi I~2~, sau đó nung nóng bình ở 430 °C đến khi phản ứng đạt trạng thái cân bằng.\na) Xác định nồng độ mol ban đầu của H~2~ và I~2~ trong bình.\nb) Tính nồng độ mol của các chất H~2~, I~2~ và HI ở trạng thái cân bằng.",
+            "summary_ans": "a) [H₂]₀ = [I₂]₀ = 0,20 M (0,25 đ); b) [H₂] = [I₂] = 0,043 M; [HI] = 0,314 M (0,75 đ)",
             "solution": "a) Nồng độ ban đầu của các chất:\n[H~2~]~0~ = 0,40 / 2,0 = 0,20 (M).\n[I~2~]~0~ = 0,40 / 2,0 = 0,20 (M).\nb) Gọi x (mol/L) là nồng độ H~2~ đã tham gia phản ứng (0 < x < 0,20).\nPhương trình hóa học:   H~2~(g)  +  I~2~(g)   ⇌   2HI(g)\nBan đầu (M):            0,20      0,20            0\nPhản ứng (M):             x         x            2x\nCân bằng (M):         0,20 – x   0,20 – x        2x\nBiểu thức hằng số cân bằng:\nK~C~ = [HI]^2^ / ([H~2~] . [I~2~]) = (2x)^2^ / (0,20 – x)^2^ = 54,0\nLấy căn bậc hai hai vế:\n2x / (0,20 – x) = √54 ≈ 7,348\n⇒ 2x = 7,348 . (0,20 – x) = 1,470 – 7,348x\n⇒ 9,348x = 1,470 ⇒ x ≈ 0,157 (M).\nVậy tại thời điểm cân bằng:\n- [H~2~] = [I~2~] = 0,20 – 0,157 = 0,043 (M).\n- [HI] = 2 . 0,157 = 0,314 (M)."
         },
         {
             "num": 2, "topic": "Bài 2", "level": "VD", "points": "1,0 điểm",
             "stem": "Để xác định nồng độ mol của một mẫu dung dịch acetic acid (CH~3~COOH), người ta tiến hành phương pháp chuẩn độ bằng dung dịch chuẩn NaOH 0,10 M với chỉ thị phenolphthalein. Dùng burette nhỏ từ từ từng giọt dung dịch NaOH vào bình tam giác chứa 10,0 mL mẫu dung dịch acid. Khi dung dịch xuất hiện màu hồng nhạt bền trong khoảng 30 giây thì ghi nhận thể tích NaOH đã tiêu tốn trung bình qua 3 lần chuẩn độ là 12,5 mL.\na) Viết phương trình hóa học của phản ứng chuẩn độ.\nb) Tính nồng độ mol của acetic acid trong mẫu đem thử.",
+            "summary_ans": "a) CH₃COOH + NaOH → CH₃COONa + H₂O (0,25 đ); b) CM = 0,125 M (0,75 đ)",
             "solution": "a) Phương trình hóa học của phản ứng chuẩn độ:\nCH~3~COOH + NaOH → CH~3~COONa + H~2~O\nb) Tính toán nồng độ:\n- Thể tích dung dịch NaOH tiêu tốn: V(NaOH) = 12,5 mL = 0,0125 L.\n- Số mol NaOH đã phản ứng: n(NaOH) = 0,0125 . 0,10 = 0,00125 (mol).\n- Theo phương trình hóa học: n(CH~3~COOH) = n(NaOH) = 0,00125 (mol).\n- Nồng độ mol của dung dịch acetic acid mẫu:\nC~M~(CH~3~COOH) = n / V = 0,00125 / 0,010 = 0,125 (M)."
         },
         {
             "num": 3, "topic": "Bài 5", "level": "TH", "points": "1,0 điểm",
             "stem": "Dẫn từ từ dòng khí ammonia (NH~3~) đi qua ống sứ chịu nhiệt đựng bột copper(II) oxide (CuO) màu đen nung nóng đỏ.\na) Nêu hiện tượng quan sát được đối với chất rắn trong ống sứ và chất lỏng đọng lại ở thành ống sứ.\nb) Viết phương trình hóa học của phản ứng xảy ra và cho biết ammonia đóng vai trò là chất gì trong phản ứng này.",
+            "summary_ans": "a) Nêu đúng 2 hiện tượng (0,5 đ); b) Viết đúng PTHH & nêu vai trò chất khử (0,5 đ)",
             "solution": "a) Hiện tượng quan sát được:\n- Bột CuO màu đen trong ống sứ dần dần chuyển sang màu đỏ gạch của kim loại đồng (Cu).\n- Ở thành ống sứ nguội phía sau xuất hiện những giọt chất lỏng không màu ngưng tụ (nước H~2~O).\nb) Phương trình hóa học:\n2NH~3~ + 3CuO --(t°)-> N~2~ + 3Cu + 3H~2~O\nTrong phản ứng trên, số oxi hóa của nitrogen tăng từ –3 (trong NH~3~) lên 0 (trong N~2~), do đó ammonia đóng vai trò là chất khử (khử oxide kim loại thành kim loại tự do)."
         }
     ]
@@ -467,6 +526,7 @@ DE03_DATA = {
                 "C. các chất phản ứng không thể tái tạo lại được sau khi phản ứng xảy ra.",
                 "D. chỉ xảy ra khi có mặt chất xúc tác kim loại chuyển tiếp."
             ],
+            "correct_letter": "A",
             "solution": "Phản ứng thuận nghịch có đặc điểm là trong cùng điều kiện xác định, phản ứng diễn ra đồng thời theo hai chiều ngược nhau: chiều thuận tạo sản phẩm và chiều nghịch tái tạo lại chất đầu."
         },
         {
@@ -478,6 +538,7 @@ DE03_DATA = {
                 "C. Áp suất, diện tích tiếp xúc và chất xúc tác.",
                 "D. Khối lượng chất rắn, thể tích bình và chất xúc tác."
             ],
+            "correct_letter": "B",
             "solution": "Ba yếu tố ảnh hưởng trực tiếp đến trạng thái cân bằng hóa học là: nhiệt độ, nồng độ và áp suất (đối với hệ có chất khí tham gia). Chất xúc tác và diện tích bề mặt chất rắn không làm chuyển dịch cân bằng."
         },
         {
@@ -489,6 +550,7 @@ DE03_DATA = {
                 "C. Toàn bộ lượng chất phản ứng ban đầu đã chuyển hết thành sản phẩm.",
                 "D. Nồng độ của các chất sản phẩm luôn lớn hơn nồng độ các chất phản ứng."
             ],
+            "correct_letter": "B",
             "solution": "Cân bằng hóa học là cân bằng động, phản ứng vẫn liên tục diễn ra nhưng do tốc độ phản ứng thuận bằng tốc độ phản ứng nghịch nên nồng độ các chất trong hệ không còn biến đổi."
         },
         {
@@ -500,6 +562,7 @@ DE03_DATA = {
                 "C. màu sắc của hỗn hợp khí trong bình hoàn toàn không thay đổi.",
                 "D. trong bình xuất hiện kết tủa trắng bám vào thành bình."
             ],
+            "correct_letter": "A",
             "solution": "Phản ứng có ΔH < 0 là phản ứng tỏa nhiệt theo chiều thuận. Khi ngâm vào nước đá (hạ nhiệt độ), cân bằng chuyển dịch theo chiều tỏa nhiệt để chống lại việc làm lạnh, tức là chuyển dịch theo chiều thuận tạo thêm N~2~O~4~ không màu làm màu nâu đỏ của khí nhạt dần."
         },
         {
@@ -511,6 +574,7 @@ DE03_DATA = {
                 "C. Dung dịch sodium chloride (NaCl).",
                 "*D. Dung dịch đường saccharose (C~12~H~22~O~11~).*"
             ],
+            "correct_letter": "D",
             "solution": "Dung dịch đường saccharose khi tan trong nước chỉ phân tán thành các phân tử trung hòa C~12~H~22~O~11~, không phân li ra các ion mang điện tích tự do nên không dẫn được điện."
         },
         {
@@ -522,6 +586,7 @@ DE03_DATA = {
                 "*C. Dung dịch có pH = 11,2.*",
                 "D. Dung dịch có [H^+^] = 10^-5^ M."
             ],
+            "correct_letter": "C",
             "solution": "Ở 25 °C: Dung dịch trung tính có pH = 7; dung dịch acid có pH < 7; dung dịch kiềm (base) có pH > 7. Với pH = 11,2 > 7 thì dung dịch có môi trường kiềm."
         },
         {
@@ -533,6 +598,7 @@ DE03_DATA = {
                 "C. làm nhiên liệu thay thế cho cồn y tế.",
                 "D. điều trị các bệnh về tiêu hóa."
             ],
+            "correct_letter": "B",
             "solution": "Do có nhiệt độ sôi cực thấp (–196 °C) và không độc hại, nitrogen lỏng được dùng làm chất làm lạnh sâu để bảo quản lâu dài mẫu máu, tinh trùng, phôi ghép và các mô sinh học."
         },
         {
@@ -544,6 +610,7 @@ DE03_DATA = {
                 "C. Khí nitrogen tan rất nhiều tạo dung dịch acid mạnh.",
                 "D. Khí nitrogen phản ứng mãnh liệt với nước tạo bọt khí."
             ],
+            "correct_letter": "B",
             "solution": "Ở điều kiện chuẩn 20 °C, 1 lít nước chỉ hòa tan được khoảng 15 mL khí nitrogen. Phân tử N~2~ không phân cực nên rất khó tan trong dung môi phân cực như nước."
         },
         {
@@ -555,6 +622,7 @@ DE03_DATA = {
                 "C. Na^+^.",
                 "D. NO~2~^-^."
             ],
+            "correct_letter": "B",
             "solution": "Muối ammonium là muối tạo bởi cation ammonium (NH~4~^+^) và anion gốc acid (như Cl^-^, SO~4~^2-^, NO~3~^-^, CO~3~^2-^...)."
         },
         {
@@ -566,6 +634,7 @@ DE03_DATA = {
                 "C. Cho tác dụng với dung dịch BaCl~2~ xuất hiện kết tủa trắng không tan trong acid.",
                 "D. Cho tác dụng với dung dịch HCl sinh ra bọt khí không màu, không mùi."
             ],
+            "correct_letter": "B",
             "solution": "Ion NH~4~^+^ tác dụng với OH^-^ sinh ra khí ammonia (NH~3~) có mùi khai đặc trưng và làm đổi màu giấy quỳ tím ẩm sang màu xanh: NH~4~^+^ + OH^-^ --(t°)-> NH~3~↑ + H~2~O."
         },
         {
@@ -577,6 +646,7 @@ DE03_DATA = {
                 "C. 4,0.",
                 "D. 8,2."
             ],
+            "correct_letter": "B",
             "solution": "Nước mưa bình thường hòa tan CO~2~ có pH ≈ 5,6. Khi nước mưa có pH < 5,6 do bị nhiễm các acid mạnh (H~2~SO~4~, HNO~3~) thì được gọi là hiện tượng mưa acid."
         },
         {
@@ -588,6 +658,7 @@ DE03_DATA = {
                 "*C. NO.*",
                 "D. N~2~O."
             ],
+            "correct_letter": "C",
             "solution": "Phản ứng giữa Cu và HNO~3~ loãng: 3Cu + 8HNO~3~(loãng) → 3Cu(NO~3~)~2~ + 2NO↑ + 4H~2~O. Khí sinh ra là nitrogen monoxide (NO) không màu, khi gặp oxygen trong không khí lập tức kết hợp tạo NO~2~ có màu nâu đỏ."
         }
     ],
@@ -645,20 +716,283 @@ DE03_DATA = {
         {
             "num": 1, "topic": "Bài 1", "level": "VD", "points": "1,0 điểm",
             "stem": "Phản ứng nhiệt phân phosphorus pentachloride trong bình kín dung tích không đổi 1,0 lít ở 250 °C xảy ra theo phương trình hóa học:\nPCl~5~(g) ⇌ PCl~3~(g) + Cl~2~(g)\nBan đầu nạp vào bình 0,20 mol khí PCl~5~ rồi đun nóng đến 250 °C. Khi phản ứng đạt trạng thái cân bằng, người ta đo được nồng độ của khí chlorine (Cl~2~) sinh ra trong bình là 0,08 mol/L.\na) Xác định nồng độ mol của PCl~5~ và PCl~3~ ở trạng thái cân bằng.\nb) Tính giá trị hằng số cân bằng K~C~ của phản ứng ở 250 °C.",
+            "summary_ans": "a) [PCl₅] = 0,12 M; [PCl₃] = 0,08 M (0,5 đ); b) Kc ≈ 0,0533 (0,5 đ)",
             "solution": "a) Lập bảng biến thiên nồng độ (dung tích bình V = 1,0 L nên nồng độ mol bằng số mol):\nPhương trình hóa học:   PCl~5~(g)  ⇌  PCl~3~(g)  +  Cl~2~(g)\nBan đầu (M):             0,20           0            0\nPhản ứng (M):            0,08          0,08         0,08\nCân bằng (M):            0,12          0,08         0,08\n- Nồng độ của PCl~5~ ở trạng thái cân bằng: [PCl~5~] = 0,20 – 0,08 = 0,12 (M).\n- Nồng độ của PCl~3~ ở trạng thái cân bằng: [PCl~3~] = 0,08 (M).\nb) Giá trị hằng số cân bằng K~C~ ở 250 °C:\nK~C~ = ([PCl~3~] . [Cl~2~]) / [PCl~5~] = (0,08 . 0,08) / 0,12 ≈ 0,0533."
         },
         {
             "num": 2, "topic": "Bài 2", "level": "VD", "points": "1,0 điểm",
             "stem": "Trộn 100 mL dung dịch sulfuric acid (H~2~SO~4~) nồng độ 0,05 M với 100 mL dung dịch barium hydroxide (Ba(OH)~2~) nồng độ 0,10 M thu được kết tủa trắng và dung dịch Y.\na) Tính khối lượng kết tủa trắng thu được sau khi phản ứng xảy ra hoàn toàn (Biết Ba = 137, S = 32, O = 16).\nb) Tính nồng độ mol của ion OH^-^ dư và giá trị pH của dung dịch Y ở 25 °C (coi thể tích dung dịch Y bằng 200 mL).",
+            "summary_ans": "a) m(BaSO₄) = 1,165 gam (0,5 đ); b) [OH⁻ dư] = 0,05 M; pH = 12,70 (0,5 đ)",
             "solution": "a) Tính toán số mol các chất ban đầu:\n- n(H~2~SO~4~) = 0,1 . 0,05 = 0,005 (mol) ⇒ n(H^+^) = 0,010 mol; n(SO~4~^2-^) = 0,005 mol.\n- n(Ba(OH)~2~) = 0,1 . 0,10 = 0,010 (mol) ⇒ n(Ba^2+^) = 0,010 mol; n(OH^-^) = 0,020 mol.\nPhản ứng tạo kết tủa: Ba^2+^ + SO~4~^2-^ → BaSO~4~↓\nVì n(Ba^2+^) = 0,010 > n(SO~4~^2-^) = 0,005 nên SO~4~^2-^ phản ứng hết, kết tủa tính theo SO~4~^2-^:\nn(BaSO~4~) = 0,005 (mol).\nKhối lượng kết tủa: m(BaSO~4~) = 0,005 . 233 = 1,165 (gam).\nb) Phản ứng trung hòa: H^+^ + OH^-^ → H~2~O\n- Số mol OH^-^ đã phản ứng = n(H^+^) = 0,010 (mol).\n- Số mol OH^-^ còn dư trong dung dịch Y: n(OH^-^ dư) = 0,020 – 0,010 = 0,010 (mol).\n- Nồng độ mol của ion OH^-^ trong dung dịch Y (V = 200 mL = 0,2 L):\n[OH^-^] = 0,010 / 0,2 = 0,05 (M).\n- Tính pH:\npOH = –log[OH^-^] = –log(0,05) ≈ 1,30.\n⇒ pH = 14 – pOH = 14 – 1,30 = 12,70."
         },
         {
             "num": 3, "topic": "Bài 5", "level": "TH", "points": "1,0 điểm",
             "stem": "Trong thí nghiệm đài phun nước của ammonia: Người ta nạp đầy khí ammonia (NH~3~) khô vào một bình cầu thủy tinh rồi đậy kín bằng nút cao su có cắm ống thủy tinh vuốt nhọn xuyên qua. Nhúng đầu dưới của ống thủy tinh vào chậu nước có pha sẵn vài giọt chỉ thị phenolphthalein. Sau khi bóp một lượng nhỏ nước vào bình cầu để khởi động thí nghiệm:\na) Nêu hiện tượng quan sát được trong bình cầu.\nb) Giải thích nguyên nhân xuất hiện hiện tượng trên.",
+            "summary_ans": "a) Nêu đúng hiện tượng đài phun nước màu hồng (0,5 đ); b) Giải thích đúng do tính tan và tính kiềm (0,5 đ)",
             "solution": "a) Hiện tượng quan sát được:\n- Nước từ trong chậu thủy tinh phun mạnh lên thành các tia nước màu hồng bắn tung tóe trong bình cầu giống như một đài phun nước rực rỡ.\nb) Giải thích nguyên nhân:\n- Khí ammonia tan cực kì nhiều trong nước (1 lít nước hòa tan khoảng 700 lít NH~3~). Khi một lượng nhỏ nước vào bình cầu, lượng lớn khí NH~3~ lập tức bị hòa tan làm áp suất trong bình giảm đột ngột so với áp suất khí quyển bên ngoài.\n- Áp suất khí quyển ép nước từ chậu phun mạnh qua ống vuốt nhọn vào bình cầu.\n- Dung dịch ammonia tạo ra có môi trường kiềm (NH~3~ + H~2~O ⇌ NH~4~^+^ + OH^-^) làm chỉ thị phenolphthalein lập tức chuyển sang màu hồng đặc trưng."
         }
     ]
 }
+
+# ==============================================================================
+# HÀM XÂY DỰNG TRANG BẢNG ĐÁP ÁN VÀ BIỂU ĐIỂM (CUỐI FILE GIÁO VIÊN)
+# ==============================================================================
+def add_answer_key_page(doc, exam_data):
+    """
+    Thêm trang Bảng đáp án & Biểu điểm tổng hợp ở cuối file Bản Giáo Viên.
+    Trình bày gọn gàng, trang trọng, chuẩn mực 100% các phần I, II, III, IV.
+    """
+    doc.add_page_break()
+
+    code = exam_data["exam_code"]
+    exam_num = exam_data["exam_num"]
+
+    # Tiêu đề bảng đáp án
+    p_title = doc.add_paragraph()
+    p_title.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    p_title.paragraph_format.space_before = Pt(0)
+    p_title.paragraph_format.space_after = Pt(2)
+    r_t = p_title.add_run(f"BẢNG ĐÁP ÁN VÀ BIỂU ĐIỂM CHI TIẾT – ĐỀ SỐ {exam_num}")
+    r_t.bold = True
+    r_t.font.name = "Times New Roman"
+    r_t.font.size = Pt(13)
+    r_t.font.color.rgb = COLOR_HF_RED
+
+    p_sub = doc.add_paragraph()
+    p_sub.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    p_sub.paragraph_format.space_before = Pt(0)
+    p_sub.paragraph_format.space_after = Pt(6)
+    r_sub = p_sub.add_run(f"MÔN: HOÁ HỌC 11 – ĐỀ KIỂM TRA GIỮA HỌC KÌ I (MÃ ĐỀ: {code})")
+    r_sub.bold = True
+    r_sub.font.name = "Times New Roman"
+    r_sub.font.size = Pt(11)
+    r_sub.font.color.rgb = COLOR_PRIMARY
+
+    p_div = doc.add_paragraph()
+    p_div.paragraph_format.space_before = Pt(0)
+    p_div.paragraph_format.space_after = Pt(6)
+    add_p_border_bottom(p_div, color="8BC390", sz="6")
+
+    # --------------------------------------------------------------------------
+    # 1. BẢNG ĐÁP ÁN PHẦN I (12 CÂU)
+    # --------------------------------------------------------------------------
+    p_h1 = doc.add_paragraph()
+    p_h1.paragraph_format.space_before = Pt(4)
+    p_h1.paragraph_format.space_after = Pt(2)
+    r_h1 = p_h1.add_run("1. PHẦN I – TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN LỰA CHỌN (12 câu – 3,0 điểm; 0,25 đ/câu)")
+    r_h1.bold = True
+    r_h1.font.name = "Times New Roman"
+    r_h1.font.size = Pt(11)
+    r_h1.font.color.rgb = COLOR_PRIMARY
+
+    tbl1 = doc.add_table(rows=2, cols=12)
+    tbl1.alignment = WD_TABLE_ALIGNMENT.CENTER
+    set_table_borders(tbl1, color="8BC390", sz="4")
+
+    col_w = Cm(18.0 / 12)
+    for i in range(12):
+        # Header: Câu 1 .. 12
+        c_h = tbl1.cell(0, i)
+        c_h.width = col_w
+        set_cell_background(c_h, "E8F5E9")
+        set_cell_margins(c_h, top=80, bottom=80, left=50, right=50)
+        p = c_h.paragraphs[0]
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        p.paragraph_format.space_before = Pt(0)
+        p.paragraph_format.space_after = Pt(0)
+        r = p.add_run(f"Câu {i+1}")
+        r.bold = True
+        r.font.name = "Times New Roman"
+        r.font.size = Pt(9.5)
+
+        # Body: Đáp án
+        c_b = tbl1.cell(1, i)
+        c_b.width = col_w
+        set_cell_margins(c_b, top=80, bottom=80, left=50, right=50)
+        p2 = c_b.paragraphs[0]
+        p2.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        p2.paragraph_format.space_before = Pt(0)
+        p2.paragraph_format.space_after = Pt(0)
+        ans_letter = exam_data["p1"][i]["correct_letter"]
+        r2 = p2.add_run(ans_letter)
+        r2.bold = True
+        r2.font.name = "Times New Roman"
+        r2.font.size = Pt(11)
+        r2.font.color.rgb = COLOR_CORRECT
+
+    # --------------------------------------------------------------------------
+    # 2. BẢNG ĐÁP ÁN PHẦN II (2 CÂU ĐÚNG - SAI)
+    # --------------------------------------------------------------------------
+    p_h2 = doc.add_paragraph()
+    p_h2.paragraph_format.space_before = Pt(8)
+    p_h2.paragraph_format.space_after = Pt(2)
+    r_h2 = p_h2.add_run("2. PHẦN II – TRẮC NGHIỆM ĐÚNG / SAI (2 câu – 2,0 điểm)")
+    r_h2.bold = True
+    r_h2.font.name = "Times New Roman"
+    r_h2.font.size = Pt(11)
+    r_h2.font.color.rgb = COLOR_PRIMARY
+
+    p_rule = doc.add_paragraph()
+    p_rule.paragraph_format.space_before = Pt(0)
+    p_rule.paragraph_format.space_after = Pt(3)
+    r_rl = p_rule.add_run("*(Quy chế chấm: Thí sinh trả lời đúng 1 ý: 0,1 đ | Đúng 2 ý: 0,25 đ | Đúng 3 ý: 0,5 đ | Đúng cả 4 ý: 1,0 đ)*")
+    r_rl.font.name = "Times New Roman"
+    r_rl.font.size = Pt(9.5)
+    r_rl.italic = True
+
+    tbl2 = doc.add_table(rows=3, cols=5)
+    tbl2.alignment = WD_TABLE_ALIGNMENT.CENTER
+    set_table_borders(tbl2, color="8BC390", sz="4")
+
+    headers2 = ["Câu hỏi", "Lệnh hỏi a)", "Lệnh hỏi b)", "Lệnh hỏi c)", "Lệnh hỏi d)"]
+    widths2 = [Cm(3.0), Cm(3.75), Cm(3.75), Cm(3.75), Cm(3.75)]
+
+    for j, h_txt in enumerate(headers2):
+        c = tbl2.cell(0, j)
+        c.width = widths2[j]
+        set_cell_background(c, "E8F5E9")
+        set_cell_margins(c, top=80, bottom=80, left=100, right=100)
+        p = c.paragraphs[0]
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        p.paragraph_format.space_before = Pt(0)
+        p.paragraph_format.space_after = Pt(0)
+        r = p.add_run(h_txt)
+        r.bold = True
+        r.font.name = "Times New Roman"
+        r.font.size = Pt(10)
+
+    for row_idx, q_p2 in enumerate(exam_data["p2"]):
+        q_label = f"Câu {13 + row_idx}"
+        c_q = tbl2.cell(row_idx + 1, 0)
+        c_q.width = widths2[0]
+        set_cell_margins(c_q, top=80, bottom=80, left=100, right=100)
+        p = c_q.paragraphs[0]
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        r = p.add_run(q_label)
+        r.bold = True
+        r.font.name = "Times New Roman"
+        r.font.size = Pt(10)
+
+        for col_idx, (it_l, it_txt, val) in enumerate(q_p2["items"]):
+            c_val = tbl2.cell(row_idx + 1, col_idx + 1)
+            c_val.width = widths2[col_idx + 1]
+            set_cell_margins(c_val, top=80, bottom=80, left=100, right=100)
+            p_v = c_val.paragraphs[0]
+            p_v.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            r_v = p_v.add_run(val.upper())
+            r_v.bold = True
+            r_v.font.name = "Times New Roman"
+            r_v.font.size = Pt(10)
+            if val.strip().lower().startswith("đ"):
+                r_v.font.color.rgb = COLOR_CORRECT
+            else:
+                r_v.font.color.rgb = COLOR_PRIMARY
+
+    # --------------------------------------------------------------------------
+    # 3. BẢNG ĐÁP ÁN PHẦN III (4 CÂU TRẢ LỜI NGẮN)
+    # --------------------------------------------------------------------------
+    p_h3 = doc.add_paragraph()
+    p_h3.paragraph_format.space_before = Pt(8)
+    p_h3.paragraph_format.space_after = Pt(2)
+    r_h3 = p_h3.add_run("3. PHẦN III – TRẮC NGHIỆM TRẢ LỜI NGẮN (4 câu – 2,0 điểm; 0,5 đ/câu)")
+    r_h3.bold = True
+    r_h3.font.name = "Times New Roman"
+    r_h3.font.size = Pt(11)
+    r_h3.font.color.rgb = COLOR_PRIMARY
+
+    tbl3 = doc.add_table(rows=2, cols=4)
+    tbl3.alignment = WD_TABLE_ALIGNMENT.CENTER
+    set_table_borders(tbl3, color="8BC390", sz="4")
+    col_w3 = Cm(18.0 / 4)
+
+    for i in range(4):
+        # Header
+        c_h = tbl3.cell(0, i)
+        c_h.width = col_w3
+        set_cell_background(c_h, "E8F5E9")
+        set_cell_margins(c_h, top=80, bottom=80, left=100, right=100)
+        p = c_h.paragraphs[0]
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        r = p.add_run(f"Câu {15 + i}")
+        r.bold = True
+        r.font.name = "Times New Roman"
+        r.font.size = Pt(10)
+
+        # Body
+        c_b = tbl3.cell(1, i)
+        c_b.width = col_w3
+        set_cell_margins(c_b, top=80, bottom=80, left=100, right=100)
+        p2 = c_b.paragraphs[0]
+        p2.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        ans_txt = exam_data["p3"][i]["answer"]
+        r2 = p2.add_run(ans_txt)
+        r2.bold = True
+        r2.font.name = "Times New Roman"
+        r2.font.size = Pt(11)
+        r2.font.color.rgb = COLOR_CORRECT
+
+    # --------------------------------------------------------------------------
+    # 4. HƯỚNG DẪN CHẤM & BIỂU ĐIỂM PHẦN IV (TỰ LUẬN)
+    # --------------------------------------------------------------------------
+    p_h4 = doc.add_paragraph()
+    p_h4.paragraph_format.space_before = Pt(8)
+    p_h4.paragraph_format.space_after = Pt(2)
+    r_h4 = p_h4.add_run("4. PHẦN IV – HƯỚNG DẪN CHẤM & BIỂU ĐIỂM TỰ LUẬN (3 câu – 3,0 điểm)")
+    r_h4.bold = True
+    r_h4.font.name = "Times New Roman"
+    r_h4.font.size = Pt(11)
+    r_h4.font.color.rgb = COLOR_PRIMARY
+
+    tbl4 = doc.add_table(rows=4, cols=3)
+    tbl4.alignment = WD_TABLE_ALIGNMENT.CENTER
+    set_table_borders(tbl4, color="8BC390", sz="4")
+
+    headers4 = ["Câu", "Nội dung yêu cầu & Đáp số chuẩn", "Điểm"]
+    widths4 = [Cm(2.2), Cm(14.0), Cm(1.8)]
+
+    for j, h_txt in enumerate(headers4):
+        c = tbl4.cell(0, j)
+        c.width = widths4[j]
+        set_cell_background(c, "E8F5E9")
+        set_cell_margins(c, top=80, bottom=80, left=100, right=100)
+        p = c.paragraphs[0]
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        r = p.add_run(h_txt)
+        r.bold = True
+        r.font.name = "Times New Roman"
+        r.font.size = Pt(10)
+
+    for i, q_p4 in enumerate(exam_data["p4"]):
+        c_q = tbl4.cell(i + 1, 0)
+        c_q.width = widths4[0]
+        set_cell_margins(c_q, top=80, bottom=80, left=100, right=100)
+        p_q = c_q.paragraphs[0]
+        p_q.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        r_q = p_q.add_run(f"Câu {19 + i}")
+        r_q.bold = True
+        r_q.font.name = "Times New Roman"
+        r_q.font.size = Pt(10)
+
+        c_c = tbl4.cell(i + 1, 1)
+        c_c.width = widths4[1]
+        set_cell_margins(c_c, top=80, bottom=80, left=120, right=120)
+        p_c = c_c.paragraphs[0]
+        p_c.alignment = WD_ALIGN_PARAGRAPH.LEFT
+        r_c = p_c.add_run(q_p4.get("summary_ans", q_p4["stem"][:80]))
+        r_c.font.name = "Times New Roman"
+        r_c.font.size = Pt(10)
+
+        c_pt = tbl4.cell(i + 1, 2)
+        c_pt.width = widths4[2]
+        set_cell_margins(c_pt, top=80, bottom=80, left=50, right=50)
+        p_pt = c_pt.paragraphs[0]
+        p_pt.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        r_pt = p_pt.add_run("1,0 đ")
+        r_pt.bold = True
+        r_pt.font.name = "Times New Roman"
+        r_pt.font.size = Pt(10)
+        r_pt.font.color.rgb = COLOR_CORRECT
+
 
 # ==============================================================================
 # HÀM XUẤT FILE WORD CHO MỘT ĐỀ THI
@@ -801,7 +1135,7 @@ def export_single_exam_word(exam_data, is_teacher=False):
 
         q_global_num += 1
 
-    # Dòng kết thúc
+    # Dòng kết thúc phần đề
     p_end = doc.add_paragraph()
     p_end.paragraph_format.space_before = Pt(8)
     p_end.paragraph_format.space_after = Pt(4)
@@ -810,6 +1144,10 @@ def export_single_exam_word(exam_data, is_teacher=False):
     r_end.font.name = "Times New Roman"
     r_end.font.size = Pt(11)
     r_end.bold = True
+
+    # NẾU LÀ BẢN GIÁO VIÊN: THÊM TRANG BẢNG ĐÁP ÁN & BIỂU ĐIỂM Ở CUỐI TRANG
+    if is_teacher:
+        add_answer_key_page(doc, exam_data)
 
     role_suffix = "GiaoVien" if is_teacher else "HocSinh"
     out_name = f"De_Kiem_Tra_GK1_Hoa_11_De{exam_num}_Ma{code}_{role_suffix}.docx"
@@ -821,7 +1159,7 @@ def export_single_exam_word(exam_data, is_teacher=False):
 
 def main():
     print("=" * 70)
-    print("TIẾN HÀNH XUẤT 3 ĐỀ KIỂM TRA HÓA HỌC 11 THEO MA TRẬN CHUẨN")
+    print("CẬP NHẬT 3 ĐỀ KIỂM TRA HÓA HỌC 11: THÊM BẢNG ĐÁP ÁN CUỐI FILE GIÁO VIÊN")
     print("=" * 70)
 
     exams = [DE01_DATA, DE02_DATA, DE03_DATA]
@@ -836,7 +1174,7 @@ def main():
         created_files.extend([f_hs, f_gv])
 
     print("\n" + "=" * 70)
-    print(f"HOÀN THÀNH TOÀN BỘ 6 FILE WORD ({len(created_files)} files) TẠI THƯ MỤC:")
+    print(f"HOÀN THÀNH XUẤT {len(created_files)} FILE WORD TẠI THƯ MỤC:")
     print(f"{OUT_DIR}")
     for f in created_files:
         print(f"  * {os.path.basename(f)}")
