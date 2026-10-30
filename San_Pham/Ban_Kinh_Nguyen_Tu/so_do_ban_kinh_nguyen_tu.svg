@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 180" width="620" height="180">
+  <defs>
+    <!-- Hiệu ứng chuyển màu 3D Sphere bóng đỏ cao cấp -->
+    <radialGradient id="sphereGrad" cx="35%" cy="35%" r="65%" fx="28%" fy="26%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="15%" stop-color="#ffb8be" />
+      <stop offset="38%" stop-color="#ff1e32" />
+      <stop offset="78%" stop-color="#c80012" />
+      <stop offset="100%" stop-color="#7a000a" />
+    </radialGradient>
+  </defs>
+
+  <!-- Đáy tiếp xúc của các quả cầu tại y = 110 -->
+  <!-- Quả cầu (Y): bán kính r = 48, tâm (80, 62) -->
+  <circle cx="80" cy="62" r="48" fill="url(#sphereGrad)" stroke="#a0000e" stroke-width="0.8" />
+  <text x="80" y="152" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-size="28" fill="#000000">(Y)</text>
+
+  <!-- Quả cầu (R): bán kính r = 37, tâm (260, 73) -->
+  <circle cx="260" cy="73" r="37" fill="url(#sphereGrad)" stroke="#a0000e" stroke-width="0.8" />
+  <text x="260" y="152" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-size="28" fill="#000000">(R)</text>
+
+  <!-- Quả cầu (X): bán kính r = 27, tâm (425, 83) -->
+  <circle cx="425" cy="83" r="27" fill="url(#sphereGrad)" stroke="#a0000e" stroke-width="0.8" />
+  <text x="425" y="152" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-size="28" fill="#000000">(X)</text>
+
+  <!-- Quả cầu (T): bán kính r = 19, tâm (550, 91) -->
+  <circle cx="550" cy="91" r="19" fill="url(#sphereGrad)" stroke="#a0000e" stroke-width="0.8" />
+  <text x="550" y="152" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-size="28" fill="#000000">(T)</text>
+</svg>

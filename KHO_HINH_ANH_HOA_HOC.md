@@ -180,13 +180,66 @@ Script tái tạo: `scripts/ve_so_do_salicin.py`.
 
 ---
 
-## 7. CÁC SCRIPTS TỰ ĐỘNG SINH HÌNH ẢNH
+## 7. SƠ ĐỒ BÁN KÍNH NGUYÊN TỬ CÁC NGUYÊN TỐ TRONG CÙNG MỘT CHU KÌ (Y, R, X, T)
+
+- **Ý nghĩa Hóa học:** Minh họa quy luật biến đổi bán kính nguyên tử trong cùng một chu kì:
+  - Khi đi từ trái sang phải theo chiều tăng dần của điện tích hạt nhân ($Z$), bán kính nguyên tử giảm dần:
+    $$r_{\text{Y}} > r_{\text{R}} > r_{\text{X}} > r_{\text{T}}$$
+  - Thứ tự vị trí các nguyên tố từ trái sang phải trong chu kì: $\text{Y} \to \text{R} \to \text{X} \to \text{T}$.
+  - Tính kim loại giảm dần: $\text{Y} > \text{R} > \text{X} > \text{T}$.
+  - Độ âm điện tăng dần: $\text{Y} < \text{R} < \text{X} < \text{T}$.
+
+### 7.1. Danh mục file hình ảnh độ nét cao
+- **Bản tiêu chuẩn (300 DPI, nền trắng):** `San_Pham/Ban_Kinh_Nguyen_Tu/so_do_ban_kinh_nguyen_tu.png`
+- **Bản trong suốt (Transparent, chèn Word không nền):** `San_Pham/Ban_Kinh_Nguyen_Tu/so_do_ban_kinh_nguyen_tu_transparent.png`
+- **Bản cực nét Ultra HD (600 DPI in ấn):** `San_Pham/Ban_Kinh_Nguyen_Tu/so_do_ban_kinh_nguyen_tu_hd.png`
+- **Bản Vector PDF (chèn LaTeX sắc nét tuyệt đối):** `San_Pham/Ban_Kinh_Nguyen_Tu/so_do_ban_kinh_nguyen_tu.pdf`
+- **Bản Vector SVG (dùng cho Web/HTML):** `San_Pham/Ban_Kinh_Nguyen_Tu/so_do_ban_kinh_nguyen_tu.svg`
+
+### 7.2. Mã nguồn LaTeX TikZ
+```latex
+\documentclass[tikz,border=8pt]{standalone}
+\usepackage{tikz}
+\usepackage{mathptmx}
+\usetikzlibrary{shadings}
+
+\begin{document}
+\begin{tikzpicture}
+  % Quả cầu (Y): r = 1.25 cm
+  \shadedraw[shading=ball, ball color=red!92!white, draw=red!75!black, line width=0.55pt] 
+    (1.4, 1.25) circle (1.25);
+  \node[below, font=\fontsize{14}{17}\selectfont] at (1.4, -0.15) {(Y)};
+
+  % Quả cầu (R): r = 0.98 cm
+  \shadedraw[shading=ball, ball color=red!92!white, draw=red!75!black, line width=0.55pt] 
+    (4.6, 0.98) circle (0.98);
+  \node[below, font=\fontsize{14}{17}\selectfont] at (4.6, -0.15) {(R)};
+
+  % Quả cầu (X): r = 0.72 cm
+  \shadedraw[shading=ball, ball color=red!92!white, draw=red!75!black, line width=0.55pt] 
+    (7.4, 0.72) circle (0.72);
+  \node[below, font=\fontsize{14}{17}\selectfont] at (7.4, -0.15) {(X)};
+
+  % Quả cầu (T): r = 0.50 cm
+  \shadedraw[shading=ball, ball color=red!92!white, draw=red!75!black, line width=0.55pt] 
+    (9.6, 0.50) circle (0.50);
+  \node[below, font=\fontsize{14}{17}\selectfont] at (9.6, -0.15) {(T)};
+\end{tikzpicture}
+\end{document}
+```
+- **Script sinh hình ảnh:** `scripts/ve_ban_kinh_nguyen_tu.py`.
+
+---
+
+## 8. CÁC SCRIPTS TỰ ĐỘNG SINH HÌNH ẢNH
+- `scripts/ve_ban_kinh_nguyen_tu.py`: Tự động biên dịch và trích xuất sơ đồ bán kính nguyên tử 3D chuẩn vector.
 - `scripts/ve_cong_thuc_alanine.py`: Tự động biên dịch và trích xuất ảnh PNG/PDF cho các công thức amino acid.
 - `scripts/ve_so_do_aniline.py`: Tự động biên dịch và trích xuất sơ đồ phản ứng điều chế aniline.
 - `scripts/ve_so_do_salicin.py`: Tự động biên dịch và trích xuất sơ đồ thủy phân salicin và oxi hóa salicylic alcohol.
 - `San_Pham/Thi_Nghiem_Binh_Tam_Giac_Bong_Bay/thi_nghiem_binh_tam_giac_bong_bay.tex`: Mã nguồn TikZ vẽ thí nghiệm bình tam giác gắn bóng bay.
 - `San_Pham/Thi_Nghiem_Co_Le_Bu_Long/thi_nghiem_co_le_bu_long.tex`: Mã nguồn TikZ vẽ 3 cờ lê và bu lông minh họa mômen lực.
 - `San_Pham/Cong_Thuc_NH3/cong_thuc_lewis_nh3_refined.tex`: Mã nguồn TikZ vẽ bộ 4 công thức Lewis của NH3.
+
 
 
 
