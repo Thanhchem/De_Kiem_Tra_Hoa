@@ -12,6 +12,7 @@ bám sát 100% Ma trận đặc tả của Thầy:
 
 import os
 import re
+import copy
 import docx
 from docx.shared import Cm, Pt, RGBColor
 from docx.enum.text import WD_TAB_ALIGNMENT, WD_ALIGN_PARAGRAPH

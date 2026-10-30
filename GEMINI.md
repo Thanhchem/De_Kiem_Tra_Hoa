@@ -181,9 +181,9 @@ Khi người dùng nhắc đến **"kho đề 12"**, **"ngân hàng câu hỏi H
   `c:\Antigravity_Thanh\San_Pham\Ngan_Hang_Hoa_12\Ngan_Hang_Hoa_12_Tron_Bo_9_Chuong.json`
 - **18 file Word Ngân hàng từng chương (Chương 1 → Chương 8 & Chuyên đề học tập, gồm bản `_HocSinh.docx` và `_GiaoVien.docx`):**
   `c:\Antigravity_Thanh\San_Pham\Ngan_Hang_Hoa_12\Ngan_Hang_Hoa_12_Chuong_*.docx`
-- **Bộ 10 Đề Kiểm tra Giữa Học kì I – Hóa 12 (Đề 01 → Đề 10, Mã đề 101 → 110, 280 câu không trùng lặp):**
-  - Lưu tại `c:\Antigravity_Thanh\San_Pham\De_Kiem_Tra_GK1_Hoa_12_De01..10_*.docx` và `c:\Antigravity_Thanh\San_Pham\Ngan_Hang_Hoa_12\`.
-  - Script rút đề và kiểm tra trùng lặp: `c:\Antigravity_Thanh\scripts\generate_5_de_gk1_hoa12.py`.
+- **Bộ 20 Đề Kiểm tra Giữa Học kì I – Hóa 12 (Đề 01 → Đề 20, Mã đề 101 → 120, 560 câu không trùng lặp):**
+  - Lưu tại `c:\Antigravity_Thanh\San_Pham\De_Kiem_Tra_GK1_Hoa_12_De01..20_*.docx` và `c:\Antigravity_Thanh\San_Pham\Ngan_Hang_Hoa_12\` (gồm đủ 3 bản cho mỗi đề: `_HocSinh.docx`, `_GiaoVien.docx` và `_Azota.docx`).
+  - Script rút đề và xuất Azota: `c:\Antigravity_Thanh\scripts\generate_5_de_gk1_hoa12.py`, `c:\Antigravity_Thanh\scripts\generate_de11_to_de20_gk1_hoa12.py`, `c:\Antigravity_Thanh\scripts\generate_azota_gk1_hoa12.py`.
   - Kho hình ảnh trích xuất theo câu hỏi: `c:\Antigravity_Thanh\San_Pham\images_gk1_hoa12\`.
 
 ---
