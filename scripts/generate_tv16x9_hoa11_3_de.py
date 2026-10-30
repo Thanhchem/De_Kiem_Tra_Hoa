@@ -6,13 +6,12 @@ Mã đề: 101 (Đề 01), 102 (Đề 02), 103 (Đề 03)
 - Kích thước: paperwidth=29.7cm, paperheight=16.706cm (100% tràn viền không viền đen).
 - Margins: top=1.0cm, bottom=1.0cm, left=1.2cm, right=1.2cm, pagestyle=empty.
 - Không khung viền, nền trắng tinh, chữ đen tuyền font Times New Roman.
-- Phân bổ slide CHÍNH XÁC 16 SLIDE / ĐỀ (KHÔNG TRÀN TRANG):
-  + Phần I (12 câu): 2 câu / slide (6 slide, cỡ chữ 24pt/32pt).
-  + Phần II (2 câu Đúng/Sai): 1 câu / slide (2 slide, cỡ chữ 25pt/33pt).
-  + Phần III (4 câu Trả lời ngắn): 1 câu / slide (4 slide, cỡ chữ 30pt/40pt).
-  + Phần IV (3 câu Tự luận): 1 câu / slide (3 slide, cỡ chữ 24pt/32pt).
-  + Bảng đáp án: 1 slide cuối cùng (1 slide, cỡ chữ 13.5pt/16.5pt).
-- Tổng cộng đúng 16 slide / đề.
+- Cấu trúc CHUẨN XÁC 16 SLIDE / ĐỀ (KHÔNG TRÀN TRANG, BỐ CỤC TUYỆT ĐẸP):
+  + Slide 1 - 6 (Phần I - 12 câu): 2 câu / slide, cỡ chữ 24pt/32pt.
+  + Slide 7 - 8 (Phần II - 2 câu Đúng/Sai): 1 câu / slide, cỡ chữ 22.5pt/30pt.
+  + Slide 9 - 12 (Phần III - 4 câu Trả lời ngắn): 1 câu / slide, cỡ chữ 28pt/38pt.
+  + Slide 13 - 15 (Phần IV - 3 câu Tự luận): 1 câu / slide, cỡ chữ 23pt/31pt.
+  + Slide 16 (Bảng đáp án chính thức): 1 slide duy nhất, cỡ chữ 13.5pt/16.5pt.
 """
 
 import os
@@ -35,7 +34,12 @@ os.makedirs(OUT_DIR, exist_ok=True)
 def tex_clean(text):
     """Chuyển đổi cú pháp hóa học và ký tự đặc biệt sang mã LaTeX chuẩn."""
     t = text
-    # Các ký tự đặc thù
+    # 1. Ký tự & trong văn bản tiếng Việt
+    t = t.replace(' & ', ' và ')
+    t = t.replace('&', r'\&')
+
+    # 2. Các ký tự đặc thù
+    t = t.replace('≈', r'$\approx$')
     t = t.replace('Δ~r~H^o^~298~', r'$\Delta_{\text{r}}H^{\circ}_{298}$')
     t = t.replace('ΔrH°298', r'$\Delta_{\text{r}}H^{\circ}_{298}$')
     t = t.replace('ΔrH', r'$\Delta_{\text{r}}H$')
@@ -61,6 +65,10 @@ def tex_clean(text):
 
     # Chỉ số trên o
     t = t.replace('^o^', r'$^{\circ}$')
+
+    # Xử lý mũ trong biểu thức KC, vd: [A]^a -> $[\text{A}]^a$
+    t = re.sub(r'\[([A-D])\]\^([a-d2])', r'$[\\text{\1}]^{\2}$', t)
+    t = re.sub(r'([a-d])\.\[([A-D])\]', r'$\1 \\cdot [\\text{\2}]$', t)
 
     # Chỉ số trên và dưới chuẩn
     t = re.sub(r'~([0-9a-zA-Z\+\-]+)~', r'$_{\1}$', t)
@@ -132,83 +140,87 @@ def build_latex_exam(exam_data):
 
         # Câu 1 của slide
         stem1 = tex_clean(q1["stem"])
-        lines.append(f"\\textbf{{Câu {q1['num']}.}} {stem1}")
-        lines.append(r"\vspace{4pt}")
+        lines.append(f"\\textbf{{Câu {q1['num']}.}} {stem1}\\par")
+        lines.append(r"\vspace{6pt}")
+        lines.append("")
         lines.append(r"\begin{tabularx}{\linewidth}{@{}X X@{}}")
         optA1 = clean_opt_text(q1["opts"][0])
         optB1 = clean_opt_text(q1["opts"][1])
         optC1 = clean_opt_text(q1["opts"][2])
         optD1 = clean_opt_text(q1["opts"][3])
-        lines.append(f"\\textbf{{A.}} {optA1} & \\textbf{{B.}} {optB1}\\\\[6pt]")
+        lines.append(f"\\textbf{{A.}} {optA1} & \\textbf{{B.}} {optB1}\\\\[8pt]")
         lines.append(f"\\textbf{{C.}} {optC1} & \\textbf{{D.}} {optD1}")
         lines.append(r"\end{tabularx}")
-
+        lines.append("")
         lines.append(r"\vspace*{\fill}")
+        lines.append("")
 
         # Câu 2 của slide
         stem2 = tex_clean(q2["stem"])
-        lines.append(f"\\textbf{{Câu {q2['num']}.}} {stem2}")
-        lines.append(r"\vspace{4pt}")
+        lines.append(f"\\textbf{{Câu {q2['num']}.}} {stem2}\\par")
+        lines.append(r"\vspace{6pt}")
+        lines.append("")
         lines.append(r"\begin{tabularx}{\linewidth}{@{}X X@{}}")
         optA2 = clean_opt_text(q2["opts"][0])
         optB2 = clean_opt_text(q2["opts"][1])
         optC2 = clean_opt_text(q2["opts"][2])
         optD2 = clean_opt_text(q2["opts"][3])
-        lines.append(f"\\textbf{{A.}} {optA2} & \\textbf{{B.}} {optB2}\\\\[6pt]")
+        lines.append(f"\\textbf{{A.}} {optA2} & \\textbf{{B.}} {optB2}\\\\[8pt]")
         lines.append(f"\\textbf{{C.}} {optC2} & \\textbf{{D.}} {optD2}")
         lines.append(r"\end{tabularx}")
-
+        lines.append("")
         lines.append(r"\newpage")
         lines.append("")
 
     # ==========================================================================
-    # PHẦN II: 2 CÂU ĐÚNG - SAI (2 SLIDE - 1 CÂU / SLIDE - CỠ CHỮ 25PT/33PT)
+    # PHẦN II: 2 CÂU ĐÚNG - SAI (2 SLIDE - 1 CÂU / SLIDE - CỠ CHỮ 22.5PT/30PT)
     # ==========================================================================
     p2_qs = exam_data["p2"]
     for idx, q in enumerate(p2_qs):
-        lines.append(r"\fontsize{25}{33}\selectfont")
+        lines.append(r"\fontsize{22.5}{30}\selectfont")
         lines.append(f"% --- SLIDE PHẦN II: CÂU {13 + idx} ---")
         stem_p2 = tex_clean(q["stem"])
-        lines.append(f"\\textbf{{Câu {13 + idx} (Đúng/Sai).}} {stem_p2}")
-        lines.append(r"\vspace{12pt}")
+        lines.append(f"\\textbf{{Câu {13 + idx} (Đúng/Sai).}} {stem_p2}\\par")
+        lines.append(r"\vspace{10pt}")
+        lines.append("")
 
-        lines.append(r"\begin{tabularx}{\linewidth}{@{}p{0.88\linewidth} c@{}}")
+        lines.append(r"\begin{tabularx}{\linewidth}{@{}p{0.90\linewidth} c@{}}")
         for it_idx, (lbl, text_it, ans_val) in enumerate(q["items"]):
             clean_it = tex_clean(text_it)
-            end_row = r"\\[10pt]" if it_idx < 3 else ""
+            end_row = r"\\[9pt]" if it_idx < 3 else ""
             lines.append(f"\\textbf{{{lbl})}} {clean_it} & $[\\quad]${end_row}")
         lines.append(r"\end{tabularx}")
-
+        lines.append("")
         lines.append(r"\newpage")
         lines.append("")
 
     # ==========================================================================
-    # PHẦN III: 4 CÂU TRẢ LỜI NGẮN (4 SLIDE - 1 CÂU / SLIDE - CỠ CHỮ 30PT/40PT)
+    # PHẦN III: 4 CÂU TRẢ LỜI NGẮN (4 SLIDE - 1 CÂU / SLIDE - CỠ CHỮ 28PT/38PT)
     # ==========================================================================
     p3_qs = exam_data["p3"]
     for idx, q in enumerate(p3_qs):
-        lines.append(r"\fontsize{30}{40}\selectfont")
+        lines.append(r"\fontsize{28}{38}\selectfont")
         lines.append(f"% --- SLIDE PHẦN III: CÂU {15 + idx} ---")
-        stem_p3 = tex_clean(q["stem"]).replace("\n", r"\par\vspace{4pt}")
-        lines.append(f"\\textbf{{Câu {15 + idx} (Trả lời ngắn).}} {stem_p3}")
-        lines.append(r"\vspace{24pt}")
+        stem_p3 = tex_clean(q["stem"]).replace("\n", r"\par\vspace{6pt}")
+        lines.append(f"\\textbf{{Câu {15 + idx} (Trả lời ngắn).}} {stem_p3}\\par")
+        lines.append(r"\vspace{26pt}")
         lines.append(r"\textbf{Trả lời:} $\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots$")
-
+        lines.append("")
         lines.append(r"\newpage")
         lines.append("")
 
     # ==========================================================================
-    # PHẦN IV: 3 CÂU TỰ LUẬN (3 SLIDE - 1 CÂU / SLIDE - CỠ CHỮ 24PT/32PT)
+    # PHẦN IV: 3 CÂU TỰ LUẬN (3 SLIDE - 1 CÂU / SLIDE - CỠ CHỮ 23PT/31PT)
     # ==========================================================================
     p4_qs = exam_data["p4"]
     for idx, q in enumerate(p4_qs):
-        lines.append(r"\fontsize{24}{32}\selectfont")
+        lines.append(r"\fontsize{23}{31}\selectfont")
         lines.append(f"% --- SLIDE PHẦN IV: CÂU {19 + idx} ---")
-        stem_p4 = tex_clean(q["stem"]).replace("\n", r"\par\vspace{4pt}")
-        lines.append(f"\\textbf{{Câu {19 + idx} (Tự luận -- {q['points']}).}} {stem_p4}")
-        lines.append(r"\vspace{16pt}")
+        stem_p4 = tex_clean(q["stem"]).replace("\n", r"\par\vspace{5pt}")
+        lines.append(f"\\textbf{{Câu {19 + idx} (Tự luận -- {q['points']}).}} {stem_p4}\\par")
+        lines.append(r"\vspace{18pt}")
         lines.append(r"\textit{(Thí sinh trình bày chi tiết lời giải vào giấy làm bài)}")
-
+        lines.append("")
         lines.append(r"\newpage")
         lines.append("")
 
@@ -292,9 +304,9 @@ def compile_exam_to_pdf(exam_data):
         cmd = ["pdflatex", "-interaction=nonstopmode", f"-output-directory={SCRATCH_DIR}", tex_path]
         res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, encoding="utf-8", errors="ignore")
         if res.returncode != 0 and pass_num == 1:
-            print(f"  [!] Cảnh báo biên dịch ở lần {pass_num+1}: {res.returncode}")
-            for line in res.stdout.split("\n")[-30:]:
-                if "!" in line or "Error" in line:
+            print(f"  [!] Lỗi biên dịch: {res.returncode}")
+            for line in res.stdout.split("\n"):
+                if line.startswith("!"):
                     print("     ", line)
 
     pdf_temp = os.path.join(SCRATCH_DIR, f"De_Kiem_Tra_GK1_Hoa_11_De{exam_num}_Ma{code}_Tivi.pdf")
@@ -320,7 +332,7 @@ def compile_exam_to_pdf(exam_data):
 
 def main():
     print("=" * 70)
-    print("BẮT ĐẦU TẠO FILE PDF TRÌNH CHIẾU TIVI 16:9 CHO 3 ĐỀ HÓA HỌC 11")
+    print("TẠO LẠI FILE PDF TRÌNH CHIẾU TIVI 16:9 CHO 3 ĐỀ HÓA HỌC 11")
     print("=" * 70)
 
     exams = [DE01_DATA, DE02_DATA, DE03_DATA]
