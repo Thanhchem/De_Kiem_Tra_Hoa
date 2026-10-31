@@ -47,6 +47,7 @@ COLOR_AZOTA_BLUE = RGBColor(0, 0, 255)  # #0000FF chuẩn Azota trong ảnh mẫ
 
 # Bổ sung bản vá lỗi mất công thức Equation cho Đề 02 và các câu liên quan
 EXTRA_OPT_PATCHES = {
+    ("C2", 220): ["A. Rau răm.\tB. Hạt gạo.\tC. Hạt óc chó.\tD. Quả nho chín."],
     ("C2", 39): [
         "A. dung dịch [Ag(NH3)2]OH, to.\tB. Cu(OH)2.\tC. H2 (xúc tác Ni, to).\tD. Nước bromine."
     ]

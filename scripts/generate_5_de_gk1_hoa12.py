@@ -293,7 +293,13 @@ MATRIX_SLOTS = {
 }
 
 # Bổ sung đầy đủ các công thức/sơ đồ nằm trong đối tượng Equation (OMML) hoặc bảng 2 cột của file gốc
+
+OPT_PATCHES = {
+    ("C2", 220): ["A. Rau răm.\tB. Hạt gạo.\tC. Hạt óc chó.\tD. Quả nho chín."]
+}
+
 STEM_PATCHES = {
+    ("C2", 220): ["Tinh bột là sản phẩm quang hóa của cây xanh và được dự trữ trong các loại hạt, củ, quả,... Loại nông sản nào sau đây có chứa hàm lượng tinh bột cao nhất?"],
     ("C1", 112): [
         "Ethyl acetate được điều chế bằng cách đun nóng hỗn hợp gồm acetic acid, ethanol và dung dịch H2SO4 98% (xúc tác) trong bình cầu có nhánh, phản ứng tổng hợp xảy ra theo phương trình hoá học sau:",
         "CH3COOH + C2H5OH ⇌ CH3COOC2H5 + H2O (1) (xt: H2SO4 đặc, to)",
@@ -840,6 +846,8 @@ def generate_single_test_docx(test_cfg, bank_map, assets_map, is_teacher):
         q = copy.deepcopy(bank_map[(ch_code, orig_qnum)])
         if (ch_code, orig_qnum) in STEM_PATCHES:
             q["stem_lines"] = STEM_PATCHES[(ch_code, orig_qnum)]
+        if (ch_code, orig_qnum) in OPT_PATCHES:
+            q["opt_lines"] = OPT_PATCHES[(ch_code, orig_qnum)]
         if (ch_code, orig_qnum) in P2_ITEM_PATCHES:
             q["p2_items"] = P2_ITEM_PATCHES[(ch_code, orig_qnum)]
         if (ch_code, orig_qnum) in ANSWER_PATCHES:

@@ -15780,17 +15780,20 @@
         "topic": "Tinh bột – Cellulose",
         "source_tag": "[THPT Châu Văn Liêm – 2026]",
         "stem_lines": [
-          "Tinh bột là sản phẩm quang hóa của cây xanh và được dự trữ trong các loại hạt, củ, quả,… Trong các loại nông sản: hạt gạo, hạt lúa mạch, củ khoai lang, củ sắn, loại nào có chứa hàm lượng tinh bột cao nhất?"
+          "Tinh bột là sản phẩm quang hóa của cây xanh và được dự trữ trong các loại hạt, củ, quả,... Loại nông sản nào sau đây có chứa hàm lượng tinh bột cao nhất?"
         ],
         "opt_lines": [
-          "A. Hạt lúa mạch.\tB. Hạt gạo.\tC. Củ khoai lang.\tD. Củ sắn."
+          "A. Rau răm.\tB. Hạt gạo.\tC. Hạt óc chó.\tD. Quả nho chín."
         ],
         "p2_items": {},
         "item_levels": {},
         "answer": "B",
-        "solution": "",
+        "solution": "Chọn đáp án B (Hạt gạo).",
         "image_paths": [],
-        "tables": []
+        "tables": [],
+        "sol_lines": [
+          "Chọn đáp án B (Hạt gạo)."
+        ]
       },
       {
         "q_num": 221,
