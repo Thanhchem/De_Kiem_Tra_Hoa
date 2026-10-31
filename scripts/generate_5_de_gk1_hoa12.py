@@ -524,6 +524,14 @@ ANSWER_PATCHES = {
 }
 
 SOLUTION_PATCHES = {
+    ("C1", 117): """a) Sai vì liên kết O-H của carboxylic acid có số sóng hấp thụ đặc trưng trong khoảng 3300 – 2500 cm^-1 (tín hiệu ở 1721 cm^-1 là đặc trưng cho liên kết C=O của nhóm carbonyl trong carboxylic acid).
+b) Sai vì:
+   - n(benzyl alcohol) = 16,2 / 108 = 0,15 mol; n(hexanoic acid) = 23,2 / 116 = 0,20 mol.
+   - Do n(alcohol) < n(acid) (tỉ lệ mol phản ứng 1 : 1) nên lượng ester lí thuyết tính theo benzyl alcohol.
+   - Khối lượng benzyl hexanoate lí thuyết (H = 100%): m(lí thuyết) = 0,15 × 206 = 30,9 gam.
+   - Hiệu suất phản ứng: h% = (18,54 / 30,9) × 100% = 60% => h = 60 (không phải 75).
+c) Sai vì trong phản ứng ester hoá, benzyl alcohol đóng vai trò là tác nhân nucleophile tấn công vào carbon mang điện tích dương của nhóm carbonyl, không đóng vai trò acid theo thuyết Brønsted–Lowry.
+d) Sai vì phản ứng ester hoá là phản ứng thế nhóm acyl, số oxi hoá của các nguyên tố đều không thay đổi nên hexanoic acid không đóng vai trò là chất oxi hoá.""",
     ("C2", 42): (
         "a) Đúng: 2NaOH + CuSO4 → Cu(OH)2↓ (xanh) + Na2SO4.\n"
         "b) Đúng: Glucose hòa tan Cu(OH)2 ở nhiệt độ thường tạo phức đồng-glucose [Cu(C6H11O6)2] màu xanh lam.\n"
@@ -965,23 +973,36 @@ def generate_single_test_docx(test_cfg, bank_map, assets_map, is_teacher):
             r_tag.font.color.rgb = COLOR_TAG
 
         stem_lines = q["stem_lines"]
+        c_int = int(ch_code[1])
+        q_assets = assets_map.get(c_int, {}).get(orig_qnum, {"images": [], "tables": []})
+        img_placed_early = False
+        img_triggers = ("như sau:", "dưới đây:", "hình vẽ sau:", "hình sau:", "sơ đồ sau:", "phương trình hoá học sau:", "phương trình sau:")
+
         if stem_lines:
             add_chem_runs(p_q, stem_lines[0], size=11.5)
+            if any(trig in stem_lines[0].lower() for trig in img_triggers) and q_assets["images"]:
+                for img_path in q_assets["images"]:
+                    if os.path.exists(img_path):
+                        p_img = doc.add_paragraph()
+                        p_img.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                        p_img.paragraph_format.space_before = Pt(2)
+                        p_img.paragraph_format.space_after = Pt(2)
+                        p_img.add_run().add_picture(img_path, width=Cm(12.5) if "Q117" in img_path else Cm(8.5))
+                img_placed_early = True
             for extra_ln in stem_lines[1:]:
                 p_ex = doc.add_paragraph()
                 p_ex.paragraph_format.space_before = Pt(1)
                 p_ex.paragraph_format.space_after = Pt(1)
                 add_chem_runs(p_ex, extra_ln, size=11.5)
 
-        c_int = int(ch_code[1])
-        q_assets = assets_map.get(c_int, {}).get(orig_qnum, {"images": [], "tables": []})
-        for img_path in q_assets["images"]:
-            if os.path.exists(img_path):
-                p_img = doc.add_paragraph()
-                p_img.alignment = WD_ALIGN_PARAGRAPH.CENTER
-                p_img.paragraph_format.space_before = Pt(2)
-                p_img.paragraph_format.space_after = Pt(2)
-                p_img.add_run().add_picture(img_path, width=Cm(8.5))
+        if not img_placed_early:
+            for img_path in q_assets["images"]:
+                if os.path.exists(img_path):
+                    p_img = doc.add_paragraph()
+                    p_img.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                    p_img.paragraph_format.space_before = Pt(2)
+                    p_img.paragraph_format.space_after = Pt(2)
+                    p_img.add_run().add_picture(img_path, width=Cm(8.5))
         for tbl_data in q_assets["tables"]:
             add_data_table_to_doc(doc, tbl_data)
 

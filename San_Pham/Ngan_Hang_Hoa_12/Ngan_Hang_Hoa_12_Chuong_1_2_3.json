@@ -3195,7 +3195,26 @@
         },
         "answer": "a:S - b:S - c:S - d:S",
         "id": "C1-P2-TH-117",
-        "solution": "a) Sai vì O-H (carboxylic acid) có số sóng trong khoảng 3300 – 2500.\nb) Sai vì:\nGiả sử H = 100%, khi đó alcohol hết, sản phẩm lí thuyết tính theo alcohol.\nc) Sai vì benzyl alcohol đóng vai trò là một tác nhân nucleophile, không có sự nhường proton trong phản ứng này.\nd) Sai vì phản ứng ester hóa không có sự thay đổi số oxi hóa."
+        "solution": "a) Sai vì liên kết O-H của carboxylic acid có số sóng hấp thụ đặc trưng trong khoảng 3300 – 2500 cm^-1 (tín hiệu ở 1721 cm^-1 là đặc trưng cho liên kết C=O của nhóm carbonyl trong carboxylic acid).\nb) Sai vì:\n   - n(benzyl alcohol) = 16,2 / 108 = 0,15 mol; n(hexanoic acid) = 23,2 / 116 = 0,20 mol.\n   - Do n(alcohol) < n(acid) (tỉ lệ mol phản ứng 1 : 1) nên lượng ester lí thuyết tính theo benzyl alcohol.\n   - Khối lượng benzyl hexanoate lí thuyết (H = 100%): m(lí thuyết) = 0,15 × 206 = 30,9 gam.\n   - Hiệu suất phản ứng: h% = (18,54 / 30,9) × 100% = 60% => h = 60 (không phải 75).\nc) Sai vì trong phản ứng ester hoá, benzyl alcohol đóng vai trò là tác nhân nucleophile tấn công vào carbon mang điện tích dương của nhóm carbonyl, không đóng vai trò acid theo thuyết Brønsted–Lowry.\nd) Sai vì phản ứng ester hoá là phản ứng thế nhóm acyl, số oxi hoá của các nguyên tố đều không thay đổi nên hexanoic acid không đóng vai trò là chất oxi hoá.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\C1_Q117_1.png"
+        ],
+        "tables": [
+          [
+            [
+              "Liên kết",
+              "O-H (alcohol)",
+              "O-H (carboxylic acid)",
+              "C=O (ester, carboxylic acid)"
+            ],
+            [
+              "Số sóng (cm-1)",
+              "3650 - 3200",
+              "3300 - 2500",
+              "1780 - 1650"
+            ]
+          ]
+        ]
       },
       {
         "q_num": 118,
