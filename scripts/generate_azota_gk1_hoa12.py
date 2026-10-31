@@ -228,23 +228,36 @@ def generate_azota_docx(test_cfg, bank_map, assets_map):
         r_qnum.font.color.rgb = COLOR_AZOTA_BLUE
 
         stem_lines = q["stem_lines"]
+        c_int = int(ch_code[1])
+        q_assets = assets_map.get(c_int, {}).get(orig_qnum, {"images": [], "tables": []})
+        img_placed_early = False
+        img_triggers = ("như sau:", "dưới đây:", "hình vẽ sau:", "hình sau:", "sơ đồ sau:")
+
         if stem_lines:
             add_chem_runs(p_q, stem_lines[0], size=12)
+            if any(trig in stem_lines[0].lower() for trig in img_triggers) and q_assets["images"]:
+                for img_path in q_assets["images"]:
+                    if os.path.exists(img_path):
+                        p_img = doc.add_paragraph()
+                        p_img.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                        p_img.paragraph_format.space_before = Pt(2)
+                        p_img.paragraph_format.space_after = Pt(2)
+                        p_img.add_run().add_picture(img_path, width=Cm(6.5))
+                img_placed_early = True
             for extra_ln in stem_lines[1:]:
                 p_ex = doc.add_paragraph()
                 p_ex.paragraph_format.space_before = Pt(1)
                 p_ex.paragraph_format.space_after = Pt(2)
                 add_chem_runs(p_ex, extra_ln, size=12)
 
-        c_int = int(ch_code[1])
-        q_assets = assets_map.get(c_int, {}).get(orig_qnum, {"images": [], "tables": []})
-        for img_path in q_assets["images"]:
-            if os.path.exists(img_path):
-                p_img = doc.add_paragraph()
-                p_img.alignment = WD_ALIGN_PARAGRAPH.CENTER
-                p_img.paragraph_format.space_before = Pt(2)
-                p_img.paragraph_format.space_after = Pt(2)
-                p_img.add_run().add_picture(img_path, width=Cm(6.5))
+        if not img_placed_early:
+            for img_path in q_assets["images"]:
+                if os.path.exists(img_path):
+                    p_img = doc.add_paragraph()
+                    p_img.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                    p_img.paragraph_format.space_before = Pt(2)
+                    p_img.paragraph_format.space_after = Pt(2)
+                    p_img.add_run().add_picture(img_path, width=Cm(6.5))
         for tbl_data in q_assets["tables"]:
             add_data_table_to_doc(doc, tbl_data)
 

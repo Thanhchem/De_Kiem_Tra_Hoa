@@ -1652,13 +1652,22 @@
         "underlined_ans": "A",
         "underlined_p2": {},
         "sol_lines": [
-          "a) Sai Ester không tạo liên kết hydrogen mạnh với nước."
+          "- Công thức cấu tạo của ester X là CH3COOCH2CH(CH3)CH2CH3 (2-methylbutyl acetate).",
+          "- Phân tích từng nhận định:",
+          "  • (a) ĐÚNG. Phân tử X gồm 7C, 14H, 2O, mạch hở chứa 1 nhóm -COO- và gốc no nên là ester no, đơn chức (C7H14O2).",
+          "  • (b) ĐÚNG. Ester bị thuỷ phân trong cả môi trường acid (thuận nghịch) và môi trường base (xà phòng hoá một chiều).",
+          "  • (c) SAI. Giữa các phân tử ester không tạo liên kết hydrogen mạnh với nước (do không có nguyên tử H linh động).",
+          "  • (d) ĐÚNG. X được tổng hợp từ CH3COOH và 2-methylbutan-1-ol: CH3COOH + CH3CH2CH(CH3)CH2OH <=> X + H2O.",
+          "➔ Số nhận định đúng là 3 gồm (a), (b), (d). Chọn đáp án A."
         ],
         "in_sol": true,
         "topic": "Ester",
         "answer": "A",
         "id": "C1-P1-TH-069",
-        "solution": "a) Sai Ester không tạo liên kết hydrogen mạnh với nước."
+        "solution": "Công thức cấu tạo của ester X là CH3COOCH2CH(CH3)CH2CH3 (2-methylbutyl acetate).\nPhân tích từng nhận định:\n(a) ĐÚNG. Phân tử X gồm 7C, 14H và 2O, mạch hở chứa 1 nhóm ester (-COO-) và gốc hydrocarbon no nên X là ester no, đơn chức, có công thức phân tử là C7H14O2.\n(b) ĐÚNG. Ester X bị thuỷ phân thuận nghịch trong môi trường acid (H2SO4 loãng, t°) và thuỷ phân một chiều (xà phòng hoá) trong môi trường base (dung dịch kiềm NaOH, t°).\n(c) SAI. Do phân tử không có liên kết O-H linh động nên X không tạo được liên kết hydrogen mạnh với nước, khiến ester rất ít tan trong nước.\n(d) ĐÚNG. Trong phòng thí nghiệm, X được tổng hợp bằng phản ứng ester hoá giữa acetic acid (CH3COOH) và 2-methylbutan-1-ol (CH3CH2CH(CH3)CH2OH) với xúc tác H2SO4 đặc, đun nóng:\n    CH3COOH + CH3CH2CH(CH3)CH2OH <=> CH3COOCH2CH(CH3)CH2CH3 + H2O.\n➔ Số nhận định đúng là 3 gồm (a), (b), (d).\n➔ Chọn đáp án A.",
+        "image_paths": [
+          "c:\\Antigravity_Thanh\\San_Pham\\images_gk1_hoa12\\C1_Q069_1.png"
+        ]
       },
       {
         "seq_num": 70,

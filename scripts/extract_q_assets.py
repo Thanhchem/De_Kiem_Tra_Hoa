@@ -43,6 +43,23 @@ def extract_chapter_assets(cnum):
                     assets[q]["images"].append(fpath)
                 except Exception:
                     pass
+        # Find all VML imagedata r:id attributes (ChemDraw)
+        v_imgs = p._element.xpath('.//*[local-name()="imagedata"]')
+        for v in v_imgs:
+            rId = v.get(qn('r:id'))
+            if rId and rId in doc.part.related_parts:
+                part = doc.part.related_parts[rId]
+                idx = len(assets[q]["images"]) + 1
+                fname = f"C{cnum}_Q{q:03d}_{idx}.png"
+                fpath = os.path.join(IMG_OUT, fname)
+                try:
+                    import io
+                    from PIL import Image
+                    im = Image.open(io.BytesIO(part.blob))
+                    im.save(fpath, format="PNG")
+                    assets[q]["images"].append(fpath)
+                except Exception:
+                    pass
 
     for btype, block in iter_block_items(doc):
         if btype == 'p':
