@@ -736,3 +736,49 @@ Hệ thống tự động theo dõi, chuyển đổi và quản lý toàn bộ c
   - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\`
   - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\KHTN9-DEKIEMTRADINHKI\`
 
+
+---
+
+### Đợt 52: Số hóa và Chuyển đổi Đề Kiểm Tra Giữa Học Kì I – KHTN 9 (Mã đề 101) Trường THCS Nguyễn Tri Phương – TP Huế (Năm học 2025 – 2026)
+
+- **Thời gian thực hiện:** 04/11/2026
+- **Tài liệu nguồn:** 4 ảnh chụp đề kiểm tra chính thức (Mã đề 101, 90 phút, 4 trang) của Trường THCS Nguyễn Tri Phương – Sở GD&ĐT TP Huế.
+- **Nội dung cấu trúc đề thi:**
+  - **PHẦN I (3,0 điểm) - 12 câu trắc nghiệm nhiều lựa chọn:**
+    * Câu 1: Công thức thế năng trọng trường $\to W_t = Ph$ (A).
+    * Câu 2: Phát biểu đúng về công suất $\to$ Đại lượng đặc trưng cho tốc độ thực hiện công (B).
+    * Câu 3: Định luật khúc xạ ánh sáng $\to n_1 \sin i = n_2 \sin r$ (C).
+    * Câu 4: Vật không có động năng $\to$ Quả bóng nằm yên trên mặt sàn (C).
+    * Câu 5: Kim loại không tác dụng oxygen và nước ở mọi nhiệt độ $\to$ Gold (Au) (B).
+    * Câu 6: Dãy kim loại đẩy được H ra khỏi acid $\to$ Sodium, iron, zinc, magnesium (C).
+    * Câu 7: Phương pháp tách kim loại hoạt động mạnh (Na, K, Al) $\to$ Điện phân nóng chảy (A).
+    * Câu 8: Phản ứng nhiệt luyện tách Fe $\to Fe_2O_3 + 3CO \xrightarrow{t^\circ} 2Fe + 3CO_2$ (D).
+    * Câu 9: Cặp tính trạng tương phản ở đậu hà lan $\to$ Hạt trơn và hạt nhăn (D).
+    * Câu 10: Kiểu gene AA tạo giao tử $\to$ Chỉ tạo 100% giao tử A (D).
+    * Câu 11: Nucleic acid bao gồm $\to$ DNA, RNA (A).
+    * Câu 12: Đột biến gene từ 7 cặp xuống 6 cặp $\to$ Mất 1 cặp nucleotide GC (B).
+  - **PHẦN II (2,0 điểm) - 2 câu trắc nghiệm Đúng - Sai (8 ý hỏi):**
+    * Câu 1 (Hóa học kim loại): a) Đ; b) S (TN2 xảy ra với nước trước, không trực tiếp đẩy Cu); c) S (Khí $H_2$ không màu không mùi, không phải mùi hắc); d) S ($AgNO_3$ không màu chuyển xanh lam, Ag trắng bám ngoài Cu).
+    * Câu 2 (Sinh học phân tử - Hình vẽ DNA, RNA và phiên mã): a) Đ (Hình 1 là DNA, Hình 2 là RNA); b) Đ (DNA gồm 4 loại A, T, C, G); c) S (Phiên mã chỉ diễn ra trên 1 mạch khuôn 3'-5'); d) S (Một lần phiên mã chỉ tạo 1 phân tử RNA).
+  - **PHẦN III (2,0 điểm) - 4 câu trả lời ngắn:**
+    * Câu 1 (Công suất cần cẩu nâng 27000 N lên 5 m trong 1 phút) $\to \mathcal{P} = 2,25\text{ kW}$.
+    * Câu 2 (Góc khúc xạ ánh sáng từ không khí vào nước với $i = 40^\circ, n_1 = 1, n_2 = 1,33$) $\to r \approx 28,9^\circ$.
+    * Câu 3 (1 DNA nhân đôi liên tiếp 2 lần) $\to 4$ phân tử DNA con.
+    * Câu 4 (Số nucleotide loại Thymine trên cả 2 mạch của gene khi biết mạch khuôn) $\to T = T_1 + A_1 = 5 + 5 = 10\text{ nucleotide}$.
+  - **PHẦN IV (3,0 điểm) - 3 câu tự luận:**
+    * Câu 1 (0,5 đ): Biểu thức tính cơ năng $W = W_đ + W_t = \frac{1}{2}mv^2 + Ph$; giải thích đầy đủ các đại lượng và đơn vị đo chuẩn trong hệ SI.
+    * Câu 2 (0,5 đ): Dự đoán hiện tượng và viết phương trình khi cho Ba vào dung dịch $CuSO_4$ (Ba tan, sủi bọt khí $H_2$, xuất hiện đồng thời kết tủa trắng $BaSO_4$ và kết tủa xanh lam $Cu(OH)_2$, dung dịch nhạt màu).
+    * Câu 3a (1,0 đ): Khái niệm phép lai phân tích; viết 2 sơ đồ lai minh họa kiểm tra cây hạt trơn thuần chủng ($AA \times aa \to 100\%\text{ trơn}$) hoặc không thuần chủng ($Aa \times aa \to 1\text{ trơn} : 1\text{ nhăn}$).
+    * Câu 3b (1,0 đ): Xác định trình tự mRNA phiên mã ($5'\text{-AGGGGUAAACUUAUUU-}3'$) và dịch mã ra chuỗi 5 amino acid: Arginine - Glycine - Asparagine - Leucine - Phenylalanine.
+- **Quy chuẩn kỹ thuật theo FORM ĐỀ KIỂM TRA:**
+  - Định dạng chuẩn A4, lề 1.5 cm; Header & Footer Coral Red (`#D32F2F`) & Sage Green (`#8BC390`), định danh Thầy TRẦN VĂN THẠNH - 0777.470.803, 2 cơ sở tại Huế, số trang tự động `PAGE`.
+  - **Tuyệt đối không dùng bảng (Table) trong nội dung đề thi**: Phương án A, B, C, D sử dụng Tab stops căn lề chuẩn Word; Lời giải chi tiết thụt lề 0.6 cm in đậm màu xanh `#1565C0`.
+  - Hình vẽ cấu trúc DNA, RNA và quá trình phiên mã được cắt trích xuất độ nét cao, căn giữa trang trọng.
+- **Trọn bộ sản phẩm xuất bản:**
+  1. `San_Pham/De_Kiem_Tra_KHTN_9_Giua_HK1_Nguyen_Tri_Phuong_HocSinh.docx`: Bản Học sinh chuẩn in ấn làm bài, có dòng kẻ chấm làm bài tự luận.
+  2. `San_Pham/De_Kiem_Tra_KHTN_9_Giua_HK1_Nguyen_Tri_Phuong_GiaoVien.docx`: Bản Giáo viên đầy đủ đáp án in đậm màu đỏ, lời giải chi tiết sư phạm từng câu.
+  3. `San_Pham/De_Kiem_Tra_KHTN_9_Giua_HK1_Nguyen_Tri_Phuong_DayTrenManHinh.docx`: Bản Dạy trên màn hình có khung chừa chỗ trống tương tác màu tím rộng rãi phục vụ giảng dạy máy chiếu / tivi thông minh.
+  4. `PDF_Goc/De_Kiem_Tra_KHTN_9_Giua_HK1_Nguyen_Tri_Phuong_Ma101.pdf`: File PDF gốc ghép từ 4 ảnh chụp.
+- **Đồng bộ tự động sang OneDrive:**
+  - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\`
+  - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\KHTN9-DEKIEMTRADINHKI\`
