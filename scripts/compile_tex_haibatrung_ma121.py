@@ -2,6 +2,7 @@
 """
 Script sinh file LaTeX (.tex) và biên dịch ra PDF cho Đề kiểm tra GK1 Hóa 12 - THPT Hai Bà Trưng (Mã 121)
 Gồm cả 2 bản: Học sinh và Giáo viên.
+Bản Giáo viên có thêm BẢNG ĐÁP ÁN THU GỌN đầy đủ 4 phần.
 """
 
 import os
@@ -669,6 +670,72 @@ $m = n_{\text{Ala}_4} \times M_{\text{Ala}_4} = 0{,}35 \times 302 = \mathbf{105{
 \end{enumerate}}
 \end{ex}
 
+% ==============================================================================
+% BẢNG ĐÁP ÁN THU GỌN DÀNH CHO BẢN GIÁO VIÊN
+% ==============================================================================
+\vspace{10pt}
+\begin{center}
+{\color{hfRed}\large\textbf{BẢNG ĐÁP ÁN THU GỌN -- MÃ ĐỀ 121}}
+\end{center}
+
+\vspace{3pt}
+\noindent
+\textbf{\color{mainGreen}1. PHẦN I: Trắc nghiệm nhiều lựa chọn (12 câu)}
+\begin{center}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{|*{12}{>{\centering\arraybackslash}p{0.055\textwidth}|}}
+\hline
+\textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{\color{hfRed}A} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}C} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{3pt}
+\noindent
+\textbf{\color{mainGreen}2. PHẦN II: Trắc nghiệm Đúng -- Sai (2 câu)}
+\begin{center}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Câu} & \textbf{Lệnh hỏi a} & \textbf{Lệnh hỏi b} & \textbf{Lệnh hỏi c} & \textbf{Lệnh hỏi d} \\
+\hline
+\textbf{Câu 1} & \textbf{\color{hfRed}S} & \textbf{\color{hfRed}Đ} & \textbf{\color{hfRed}S} & \textbf{\color{hfRed}S} \\
+\hline
+\textbf{Câu 2} & \textbf{\color{hfRed}S} & \textbf{\color{hfRed}Đ} & \textbf{\color{hfRed}S} & \textbf{\color{hfRed}S} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{3pt}
+\noindent
+\textbf{\color{mainGreen}3. PHẦN III: Trắc nghiệm trả lời ngắn (4 câu)}
+\begin{center}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Câu 1} & \textbf{Câu 2} & \textbf{Câu 3} & \textbf{Câu 4} \\
+\hline
+\textbf{\color{hfRed}51} & \textbf{\color{hfRed}245} & \textbf{\color{hfRed}11,1} & \textbf{\color{hfRed}1} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{3pt}
+\noindent
+\textbf{\color{mainGreen}4. PHẦN IV: Tự luận (Đáp số tóm tắt)}
+\begin{center}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Câu 1 (Hiệu suất ester hóa)} & \textbf{Câu 2 (Mở vòng saccharose)} & \textbf{Câu 3 (Khối lượng peptide $m$)} \\
+\hline
+\textbf{\color{hfRed}$H \approx 63,06\%$ (hay $63,1\%$)} & \textbf{\color{hfRed}Không mở vòng} & \textbf{\color{hfRed}$m = 105,7\text{ gam}$} \\
+\hline
+\end{tabular}
+\end{center}
+
 \begin{center}
 \textbf{---------- HẾT ----------}
 \end{center}
@@ -701,7 +768,6 @@ def compile_tex(tex_path):
         print(f"Biên dịch thành công: {base_name}.pdf")
     else:
         print(f"Cảnh báo/Lỗi khi biên dịch {base_name}.tex (code {res.returncode}):")
-        # In các dòng lỗi cuối
         lines = res.stdout.splitlines()
         for l in lines[-25:]:
             print(l)
@@ -714,7 +780,6 @@ def compile_tex(tex_path):
         junk = os.path.join(cwd, base_name + ext)
         if os.path.exists(junk):
             os.remove(junk)
-    # Xóa file ans
     for f in os.listdir(cwd):
         if f.startswith("ans-hbt-") and (f.endswith(".tex") or f.endswith(".ans")):
             try:
