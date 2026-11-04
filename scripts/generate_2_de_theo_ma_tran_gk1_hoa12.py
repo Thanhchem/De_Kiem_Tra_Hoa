@@ -10,6 +10,8 @@ Chuẩn xác 100% theo Ma Trận Đề Kiểm Tra do người dùng cung cấp:
   + PHẦN IV: 3 câu Tự luận Vận dụng (3,0 điểm)
 - Chuẩn FORM ĐỀ KIỂM TRA (Thầy TRẦN VĂN THẠNH):
   + Xuất bản Học Sinh & Giáo Viên có giải chi tiết cho mỗi đề.
+  + ĐẶC BIỆT: Bổ sung BẢNG ĐÁP ÁN & THANG ĐIỂM CHI TIẾT TỰ LUẬN vào bản Giáo Viên
+    và xuất thêm 01 file Word tổng hợp riêng BẢNG ĐIỂM ĐÁP ÁN TỰ LUẬN TRỌN BỘ 2 ĐỀ.
 """
 
 import os
@@ -17,6 +19,9 @@ import sys
 import docx
 from docx.shared import Pt, Cm, RGBColor
 from docx.enum.text import WD_TAB_ALIGNMENT, WD_ALIGN_PARAGRAPH
+from docx.enum.table import WD_TABLE_ALIGNMENT, WD_ALIGN_VERTICAL
+from docx.oxml import parse_xml
+from docx.oxml.ns import nsdecls
 
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
@@ -40,6 +45,24 @@ from form_de_kiem_tra import (
 )
 
 OUT_DIR = r"C:\Antigravity_Thanh\San_Pham"
+SUB_DIR = os.path.join(OUT_DIR, "2_De_Rut_Theo_Ma_Tran_GK1_Hoa12")
+os.makedirs(SUB_DIR, exist_ok=True)
+
+# Helper styling bảng
+def set_cell_background(cell, hex_color):
+    tcPr = cell._tc.get_or_add_tcPr()
+    shd = parse_xml(f'<w:shd {nsdecls("w")} w:fill="{hex_color}"/>')
+    tcPr.append(shd)
+
+def set_cell_margins(cell, top=120, bottom=120, left=150, right=150):
+    tcPr = cell._tc.get_or_add_tcPr()
+    tcMar = parse_xml(f'<w:tcMar {nsdecls("w")}><w:top w:w="{top}" w:type="dxa"/><w:bottom w:w="{bottom}" w:type="dxa"/><w:left w:w="{left}" w:type="dxa"/><w:right w:w="{right}" w:type="dxa"/></w:tcMar>')
+    tcPr.append(tcMar)
+
+def set_table_borders(table, color="B0BEC5", sz="4"):
+    tblPr = table._tbl.tblPr
+    borders = parse_xml(f'<w:tblBorders {nsdecls("w")}><w:top w:val="single" w:sz="{sz}" w:space="0" w:color="{color}"/><w:bottom w:val="single" w:sz="{sz}" w:space="0" w:color="{color}"/><w:insideH w:val="single" w:sz="{sz}" w:space="0" w:color="{color}"/><w:insideV w:val="single" w:sz="{sz}" w:space="0" w:color="{color}"/><w:left w:val="single" w:sz="{sz}" w:space="0" w:color="{color}"/><w:right w:val="single" w:sz="{sz}" w:space="0" w:color="{color}"/></w:tblBorders>')
+    tblPr.append(borders)
 
 # ==============================================================================
 # DỮ LIỆU ĐỀ 01 (MÃ ĐỀ 101)
@@ -48,7 +71,6 @@ EXAM_01 = {
     "de_num": 1,
     "made": "101",
     "title": "ĐỀ KIỂM TRA GIỮA HỌC KỲ I - ĐỀ SỐ 01",
-    # PHẦN I: 12 CÂU
     "part1": [
         {
             "idx": 1,
@@ -207,8 +229,6 @@ EXAM_01 = {
             "sol": "Nước cốt chanh chứa citric acid (môi trường acid, pH thấp). Khi thay đổi pH đến gần điểm đẳng điện, protein bị mất lớp vỏ hydrate và trung hòa điện tích dẫn tới đông tụ, vón cục."
         }
     ],
-
-    # PHẦN II: 2 CÂU ĐÚNG - SAI
     "part2": [
         {
             "idx": 1,
@@ -235,8 +255,6 @@ EXAM_01 = {
             "sol": "• a) ĐÚNG: CH~3~NH~2~ là chất khí ở nhiệt độ thường, tan vô hạn trong nước nhờ tạo liên kết hydrogen mạnh với nước.\n• b) ĐÚNG: Amino acid có cấu trúc ion lưỡng cực nên có tính chất giống hợp chất ion: thể rắn, nhiệt độ nóng chảy cao, tan tốt trong nước.\n• c) ĐÚNG: Phân tử lysine có số nhóm -NH~2~ (2) nhiều hơn số nhóm -COOH (1), môi trường base làm quỳ tím hóa xanh.\n• d) ĐÚNG: Albumin chứa các gốc amino acid có vòng benzene (phenylalanine, tyrosine), phản ứng nitro hóa tạo hợp chất nitro thơm màu vàng."
         }
     ],
-
-    # PHẦN III: 4 CÂU TRẢ LỜI NGẮN
     "part3": [
         {
             "idx": 1,
@@ -267,26 +285,39 @@ EXAM_01 = {
             "sol": "Chỉ các peptide có từ 2 liên kết peptide trở lên (tripeptide trở lên) và protein mới có phản ứng màu biuret.\n- Glycerol hòa tan Cu(OH)~2~ tạo dung dịch màu xanh lam (không phải màu tím biuret).\n- Saccharose tạo dung dịch màu xanh lam.\n- Gly-Ala là dipeptide (chỉ 1 liên kết peptide) → không phản ứng màu biuret.\n- Lòng trắng trứng (albumin) và tripeptide Gly-Ala-Val có phản ứng màu biuret → Tổng có 2 chất."
         }
     ],
-
-    # PHẦN IV: 3 CÂU TỰ LUẬN
     "part4": [
         {
             "idx": 1,
             "topic": "Bài 1: Ester - Lipit (Vận dụng)",
             "prompt": "Thủy phân hoàn toàn 17,24 gam một loại chất béo X (triglyceride) cần dùng vừa đủ 0,06 mol NaOH trong dung dịch, đun nóng, thu được glycerol và m gam hỗn hợp muối của các acid béo (xà phòng).\na) Viết phương trình hóa học tổng quát của phản ứng xà phòng hóa chất béo X.\nb) Tính khối lượng glycerol thu được (theo gam).\nc) Tính khối lượng xà phòng m (theo gam) thu được sau phản ứng.",
-            "sol": "a) Phương trình hóa học tổng quát:\n(RCOO)~3~C~3~H~5~ + 3NaOH → 3RCOONa + C~3~H~5~(OH)~3~\n\nb) Theo phương trình phản ứng:\nn_glycerol = (1/3) × n_NaOH = (1/3) × 0,06 = 0,02 mol.\nKhối lượng glycerol thu được:\nm_glycerol = 0,02 × 92 = 1,84 gam.\n\nc) Áp dụng định luật bảo toàn khối lượng:\nm_chất béo + m_NaOH = m_muối + m_glycerol\n⇒ m_muối = 17,24 + (0,06 × 40) - 1,84 = 17,24 + 2,40 - 1,84 = 17,80 gam.\nVậy khối lượng xà phòng m = 17,80 gam."
+            "rubric": [
+                ("Ý a", "Viết đúng PTHH tổng quát: (RCOO)~3~C~3~H~5~ + 3NaOH ──(t°)──> 3RCOONa + C~3~H~5~(OH)~3~", "0,25 đ"),
+                ("Ý b", "Tính đúng số mol glycerol: n_glycerol = (1/3) × n_NaOH = (1/3) × 0,06 = 0,02 mol.\nTính đúng khối lượng glycerol: m_glycerol = 0,02 × 92 = 1,84 gam.", "0,25 đ"),
+                ("Ý c (bước 1)", "Nêu đúng định luật bảo toàn khối lượng:\nm_chất béo + m_NaOH = m_muối + m_glycerol", "0,25 đ"),
+                ("Ý c (bước 2)", "Thay số và tính đúng khối lượng xà phòng m:\nm_muối = 17,24 + (0,06 × 40) - 1,84 = 17,24 + 2,40 - 1,84 = 17,80 gam.", "0,25 đ")
+            ]
         },
         {
             "idx": 2,
             "topic": "Bài 4: Glucose và fructose (Vận dụng)",
             "prompt": "Lên men m gam glucose để sản xuất ethylic alcohol (rượu vang) với hiệu suất của quá trình đạt 75%. Toàn bộ lượng khí CO~2~ sinh ra được dẫn hấp thụ hoàn toàn vào dung dịch nước vôi trong dư, sau phản ứng thu được 50 gam kết tủa trắng.\na) Viết phương trình hóa học của phản ứng lên men glucose và phản ứng tạo kết tủa.\nb) Tính giá trị của m.",
-            "sol": "a) Các phương trình hóa học:\n(1) C~6~H~12~O~6~ ──(men rượu, 30-35°C)──> 2C~2~H~5~OH + 2CO~2~↑\n(2) CO~2~ + Ca(OH)~2~ dư → CaCO~3~↓ + H~2~O\n\nb) Số mol kết tủa CaCO~3~: n_CaCO3 = 50 / 100 = 0,5 mol.\nTheo phương trình (2): n_CO2 = n_CaCO3 = 0,5 mol.\nTheo phương trình (1): n_glucose(phản ứng) = (1/2) × n_CO2 = 0,25 mol.\nKhối lượng glucose phản ứng trên lí thuyết:\nm_lí thuyết = 0,25 × 180 = 45 gam.\nDo hiệu suất lên men chỉ đạt H = 75%, khối lượng glucose m thực tế cần lấy là:\nm = m_lí thuyết / H% = 45 / 75% = 60 gam."
+            "rubric": [
+                ("Ý a (PT 1)", "Viết đúng PTHH lên men glucose:\nC~6~H~12~O~6~ ──(men rượu, 30-35°C)──> 2C~2~H~5~OH + 2CO~2~↑", "0,25 đ"),
+                ("Ý a (PT 2)", "Viết đúng PTHH dẫn CO~2~ vào nước vôi trong dư tạo kết tủa:\nCO~2~ + Ca(OH)~2~ dư → CaCO~3~↓ + H~2~O", "0,25 đ"),
+                ("Ý b (bước 1)", "Tính số mol kết tủa: n_CaCO3 = 50 / 100 = 0,5 mol ⇒ n_CO2 = 0,5 mol.\nTính số mol glucose phản ứng theo lí thuyết: n_glucose(lt) = (1/2) × n_CO2 = 0,25 mol.", "0,25 đ"),
+                ("Ý b (bước 2)", "Khối lượng glucose lí thuyết: m_lt = 0,25 × 180 = 45 gam.\nDo hiệu suất H = 75%, khối lượng glucose thực tế m cần lấy là:\nm = m_lt / H% = 45 / 75% = 60 gam.", "0,25 đ")
+            ]
         },
         {
             "idx": 3,
             "topic": "Bài 8: Amine (Vận dụng)",
             "prompt": "Cho 9,0 gam một amine đơn chức no, mạch hở X tác dụng vừa đủ với dung dịch chứa 0,2 mol HCl.\na) Xác định công thức phân tử của amine X.\nb) Viết các công thức cấu tạo có thể có của X và gọi tên theo danh pháp thay thế.\nc) Cho chất X tác dụng với dung dịch nitrous acid (HNO~2~) ở nhiệt độ phòng thấy có bọt khí N~2~ thoát ra. Xác định chính xác công thức cấu tạo của X.",
-            "sol": "a) Đặt công thức của amine đơn chức là RNH~2~ (hoặc R~1~R~2~NH, R~1~R~2~R~3~N).\nPhương trình phản ứng: Amine + HCl → Muối amonium chloride\nn_amine = n_HCl = 0,2 mol.\nKhối lượng mol của X: M_X = 9,0 / 0,2 = 45 g/mol.\nAmine no, đơn chức, mạch hở có công thức chung là C~n~H~2n+3~N:\n14n + 17 = 45 ⇒ 14n = 28 ⇒ n = 2.\nCông thức phân tử của X là C~2~H~7~N.\n\nb) Các công thức cấu tạo của C~2~H~7~N:\n- Bậc 1: CH~3~-CH~2~-NH~2~ (ethanamine).\n- Bậc 2: CH~3~-NH-CH~3~ (N-methylmethanamine).\n\nc) Amine tác dụng với HNO~2~ ở nhiệt độ thường giải phóng khí N~2~ là amine bậc một mạch hở:\nCH~3~CH~2~NH~2~ + HNO~2~ → CH~3~CH~2~OH + N~2~↑ + H~2~O.\nVậy công thức cấu tạo chính xác của X là CH~3~-CH~2~-NH~2~ (ethanamine)."
+            "rubric": [
+                ("Ý a (bước 1)", "Phương trình: Amine + HCl → Muối amonium chloride\nn_amine = n_HCl = 0,2 mol ⇒ Phân tử khối: M_X = 9,0 / 0,2 = 45 g/mol.", "0,25 đ"),
+                ("Ý a (bước 2)", "Amine no, đơn chức, mạch hở có CTPT là C~n~H~2n+3~N:\n14n + 17 = 45 ⇒ 14n = 28 ⇒ n = 2 ⇒ CTPT của X là C~2~H~7~N.", "0,25 đ"),
+                ("Ý b", "Viết đúng 2 công thức cấu tạo và gọi tên thay thế IUPAC:\n• Bậc 1: CH~3~-CH~2~-NH~2~ (ethanamine).\n• Bậc 2: CH~3~-NH-CH~3~ (N-methylmethanamine).", "0,25 đ"),
+                ("Ý c", "Giải thích X tác dụng với HNO~2~ giải phóng khí N~2~ là amine bậc một mạch hở:\nCH~3~CH~2~NH~2~ + HNO~2~ → CH~3~CH~2~OH + N~2~↑ + H~2~O.\nKết luận đúng CTCT chính xác của X là: CH~3~-CH~2~-NH~2~.", "0,25 đ")
+            ]
         }
     ]
 }
@@ -298,7 +329,6 @@ EXAM_02 = {
     "de_num": 2,
     "made": "102",
     "title": "ĐỀ KIỂM TRA GIỮA HỌC KỲ I - ĐỀ SỐ 02",
-    # PHẦN I: 12 CÂU
     "part1": [
         {
             "idx": 1,
@@ -457,8 +487,6 @@ EXAM_02 = {
             "sol": "Albumin (lòng trắng trứng) và hemoglobin là các protein hình cầu, tan được trong nước tạo dung dịch keo. Keratin, collagen, fibroin là protein hình sợi không tan trong nước."
         }
     ],
-
-    # PHẦN II: 2 CÂU ĐÚNG - SAI
     "part2": [
         {
             "idx": 1,
@@ -485,8 +513,6 @@ EXAM_02 = {
             "sol": "• a) ĐÚNG: Aniline là chất lỏng ít tan trong nước, nặng hơn nước, dung dịch không làm đổi màu quỳ tím do tính base rất yếu.\n• b) ĐÚNG: Đa số amino acid thiên nhiên là α-amino acid và tồn tại dạng ion lưỡng cực ở pH sinh lí.\n• c) ĐÚNG: Dipeptide Gly-Ala có 1 liên kết peptide và 1 nhóm -COOH đầu C: Gly-Ala + 2NaOH → Gly-Na + Ala-Na + H~2~O (tỉ lệ 1 : 2).\n• d) ĐÚNG: Nhiệt độ, dung môi hữu cơ (cồn), acid, kiềm đều phá vỡ cấu trúc bậc 2, 3, 4 của protein gây hiện tượng đông tụ và biến tính."
         }
     ],
-
-    # PHẦN III: 4 CÂU TRẢ LỜI NGẮN
     "part3": [
         {
             "idx": 1,
@@ -517,29 +543,233 @@ EXAM_02 = {
             "sol": "Pentapeptide là peptide được cấu tạo từ 5 gốc α-amino acid. Số liên kết peptide trong oligopeptide mạch hở bằng (số gốc amino acid - 1) = 5 - 1 = 4 liên kết peptide."
         }
     ],
-
-    # PHẦN IV: 3 CÂU TỰ LUẬN
     "part4": [
         {
             "idx": 1,
             "topic": "Bài 1: Ester - Lipit (Vận dụng)",
             "prompt": "Đun sôi 80,6 gam một loại triglyceride X (chất béo) với dung dịch KOH vừa đủ, thu được 9,2 gam glycerol và hỗn hợp muối potassium của các acid béo dùng để sản xuất xà phòng mềm.\na) Viết phương trình hóa học tổng quát của phản ứng.\nb) Tính số mol KOH cần dùng cho phản ứng xà phòng hóa.\nc) Tính khối lượng hỗn hợp muối xà phòng thu được sau phản ứng.",
-            "sol": "a) Phương trình hóa học tổng quát:\n(RCOO)~3~C~3~H~5~ + 3KOH → 3RCOOK + C~3~H~5~(OH)~3~\n\nb) Số mol glycerol thu được: n_glycerol = 9,2 / 92 = 0,1 mol.\nTheo phương trình phản ứng: n_KOH = 3 × n_glycerol = 3 × 0,1 = 0,3 mol.\n\nc) Áp dụng định luật bảo toàn khối lượng:\nm_chất béo + m_KOH = m_muối + m_glycerol\n⇒ m_muối = 80,6 + (0,3 × 56) - 9,2 = 80,6 + 16,8 - 9,2 = 88,2 gam.\nVậy khối lượng xà phòng mềm thu được là 88,2 gam."
+            "rubric": [
+                ("Ý a", "Viết đúng PTHH tổng quát: (RCOO)~3~C~3~H~5~ + 3KOH ──(t°)──> 3RCOOK + C~3~H~5~(OH)~3~", "0,25 đ"),
+                ("Ý b", "Tính số mol glycerol: n_glycerol = 9,2 / 92 = 0,1 mol.\nTheo phương trình: n_KOH = 3 × n_glycerol = 3 × 0,1 = 0,3 mol.", "0,25 đ"),
+                ("Ý c (bước 1)", "Nêu đúng định luật bảo toàn khối lượng:\nm_chất béo + m_KOH = m_muối + m_glycerol", "0,25 đ"),
+                ("Ý c (bước 2)", "Thay số và tính đúng khối lượng xà phòng mềm:\nm_muối = 80,6 + (0,3 × 56) - 9,2 = 80,6 + 16,8 - 9,2 = 88,2 gam.", "0,25 đ")
+            ]
         },
         {
             "idx": 2,
             "topic": "Bài 4: Glucose và fructose (Vận dụng)",
             "prompt": "Để tráng một lớp bạc mỏng lên bề mặt của 100 chiếc ruột phích nước, người ta đun nóng dung dịch chứa 36 gam glucose với lượng dư dung dịch AgNO~3~ trong NH~3~. Biết hiệu suất của phản ứng tráng bạc đạt 80% và toàn bộ lượng bạc sinh ra bám đều lên các ruột phích.\na) Viết phương trình hóa học của phản ứng tráng bạc của glucose.\nb) Tính tổng khối lượng bạc kim loại (Ag) sinh ra bám trên các ruột phích.\nc) Tính khối lượng bạc trung bình bám trên mỗi chiếc ruột phích (theo gam).",
-            "sol": "a) Phương trình hóa học:\nCH~2~OH[CHOH]~4~CHO + 2[Ag(NH~3~)~2~]OH ──(t°)──> CH~2~OH[CHOH]~4~COONH~4~ + 2Ag↓ + 3NH~3~ + H~2~O\n\nb) Số mol glucose ban đầu: n_glucose = 36 / 180 = 0,2 mol.\nTheo phương trình: n_Ag(lí thuyết) = 2 × n_glucose = 0,4 mol.\nVì hiệu suất phản ứng đạt 80%: n_Ag(thực tế) = 0,4 × 80% = 0,32 mol.\nTổng khối lượng bạc kim loại bám trên ruột phích:\nm_Ag = 0,32 × 108 = 34,56 gam.\n\nc) Khối lượng bạc trung bình bám trên mỗi chiếc ruột phích:\nm_trung bình = 34,56 / 100 = 0,3456 gam."
+            "rubric": [
+                ("Ý a", "Viết đúng PTHH tráng bạc của glucose:\nCH~2~OH[CHOH]~4~CHO + 2[Ag(NH~3~)~2~]OH ──(t°)──> CH~2~OH[CHOH]~4~COONH~4~ + 2Ag↓ + 3NH~3~ + H~2~O", "0,25 đ"),
+                ("Ý b (bước 1)", "Số mol glucose ban đầu: n_glucose = 36 / 180 = 0,2 mol.\nTheo phương trình: n_Ag(lí thuyết) = 2 × n_glucose = 0,4 mol.", "0,25 đ"),
+                ("Ý b (bước 2)", "Vì hiệu suất H = 80%: n_Ag(thực tế) = 0,4 × 80% = 0,32 mol.\nTổng khối lượng bạc sinh ra bám trên ruột phích:\nm_Ag = 0,32 × 108 = 34,56 gam.", "0,25 đ"),
+                ("Ý c", "Khối lượng bạc trung bình bám trên mỗi chiếc ruột phích:\nm_trung bình = 34,56 / 100 = 0,3456 gam.", "0,25 đ")
+            ]
         },
         {
             "idx": 3,
             "topic": "Bài 8: Amine (Vận dụng)",
             "prompt": "Cho 18,6 gam aniline (C~6~H~5~NH~2~) phản ứng hoàn toàn với lượng dư dung dịch nước bromine (Br~2~).\na) Nêu hiện tượng quan sát được và viết phương trình hóa học của phản ứng xảy ra.\nb) Tính khối lượng kết tủa trắng thu được sau phản ứng.\nc) Giải thích vì sao aniline dễ tham gia phản ứng thế nguyên tử H trên vòng benzene hơn benzene.",
-            "sol": "a) Hiện tượng: Dung dịch nước bromine bị mất màu da cam và xuất hiện kết tủa trắng đục.\nPhương trình hóa học:\nC~6~H~5~NH~2~ + 3Br~2~ → C~6~H~2~Br~3~NH~2~↓ + 3HBr\n(Sản phẩm kết tủa là 2,4,6-tribromoaniline).\n\nb) Số mol aniline: n_aniline = 18,6 / 93 = 0,2 mol.\nTheo phương trình phản ứng: n_kết tủa = n_aniline = 0,2 mol.\nKhối lượng mol của 2,4,6-tribromoaniline (C~6~H~4~Br~3~N): M = 12×6 + 4×1 + 80×3 + 14 = 330 g/mol.\nKhối lượng kết tủa trắng thu được:\nm_kết tủa = 0,2 × 330 = 66,0 gam.\n\nc) Giải thích: Do đôi electron tự do trên nguyên tử nitrogen của nhóm -NH~2~ liên hợp với hệ electron π của vòng benzene (+C), làm tăng mật độ electron trong vòng, đặc biệt ở các vị trí ortho và para. Do đó, aniline phản ứng thế halogen dễ dàng hơn nhiều so với benzene."
+            "rubric": [
+                ("Ý a", "Nêu đúng hiện tượng: Dung dịch nước bromine bị mất màu da cam và xuất hiện kết tủa trắng đục.\nViết đúng PTHH: C~6~H~5~NH~2~ + 3Br~2~ → C~6~H~2~Br~3~NH~2~↓ + 3HBr", "0,25 đ"),
+                ("Ý b (bước 1)", "Tính số mol aniline: n_aniline = 18,6 / 93 = 0,2 mol.\nTheo phương trình phản ứng: n_kết tủa = n_aniline = 0,2 mol.", "0,25 đ"),
+                ("Ý b (bước 2)", "Phân tử khối 2,4,6-tribromoaniline: M = 330 g/mol.\nKhối lượng kết tủa trắng thu được: m_kết tủa = 0,2 × 330 = 66,0 gam.", "0,25 đ"),
+                ("Ý c", "Giải thích chính xác: Đôi electron tự do trên nguyên tử N của nhóm -NH~2~ liên hợp với hệ π của vòng benzene (+C), làm tăng mật độ electron trong vòng benzene (nhất là vị trí ortho và para), làm vòng được hoạt hóa, phản ứng thế halogen dễ dàng hơn nhiều so với benzene.", "0,25 đ")
+            ]
         }
     ]
 }
+
+# ==============================================================================
+# HÀM THÊM BẢNG ĐÁP ÁN & THANG ĐIỂM CHI TIẾT
+# ==============================================================================
+def add_rubric_table_to_doc(doc, exam):
+    made = exam["made"]
+    
+    # Tiêu đề mục
+    p_title = doc.add_paragraph()
+    p_title.paragraph_format.space_before = Pt(14)
+    p_title.paragraph_format.space_after = Pt(4)
+    p_title.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    r_title = p_title.add_run(f"HƯỚNG DẪN CHẤM VÀ THANG ĐIỂM CHI TIẾT - MÃ ĐỀ {made}")
+    set_run_style(r_title, font_size=12, bold=True, color=COLOR_PRIMARY)
+
+    # 1. BẢNG TỔNG HỢP TRẮC NGHIỆM (PHẦN I, II, III)
+    p_sub1 = doc.add_paragraph()
+    p_sub1.paragraph_format.space_before = Pt(6)
+    p_sub1.paragraph_format.space_after = Pt(2)
+    r_sub1 = p_sub1.add_run("A. ĐÁP ÁN PHẦN TRẮC NGHIỆM (7,0 ĐIỂM)")
+    set_run_style(r_sub1, font_size=11, bold=True, color=COLOR_SOLUTION)
+
+    # Bảng Phần I: 12 câu (2 hàng x 6 cột)
+    p_p1_note = doc.add_paragraph()
+    p_p1_note.paragraph_format.space_before = Pt(2)
+    p_p1_note.paragraph_format.space_after = Pt(2)
+    render_rich_text(p_p1_note, "*1. Phần I (12 câu - mỗi câu đúng 0,25 điểm = 3,0 điểm):*")
+
+    table_p1 = doc.add_table(rows=2, cols=12)
+    table_p1.alignment = WD_TABLE_ALIGNMENT.CENTER
+    set_table_borders(table_p1, color="90A4AE", sz="4")
+
+    # Header row
+    for col_idx in range(12):
+        cell = table_p1.cell(0, col_idx)
+        cell.width = Cm(1.5)
+        set_cell_background(cell, "E3F2FD")
+        set_cell_margins(cell, top=60, bottom=60, left=40, right=40)
+        p = cell.paragraphs[0]
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        r = p.add_run(f"C{col_idx+1}")
+        set_run_style(r, font_size=9.5, bold=True, color=COLOR_PRIMARY)
+
+    # Answer row
+    for col_idx, q in enumerate(exam["part1"]):
+        cell = table_p1.cell(1, col_idx)
+        cell.width = Cm(1.5)
+        set_cell_margins(cell, top=60, bottom=60, left=40, right=40)
+        p = cell.paragraphs[0]
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        r = p.add_run(q["correct"])
+        set_run_style(r, font_size=10, bold=True, color=COLOR_CORRECT)
+
+    # Bảng Phần II: 2 câu (8 ý - mỗi ý 0,25 điểm = 2,0 điểm)
+    p_p2_note = doc.add_paragraph()
+    p_p2_note.paragraph_format.space_before = Pt(6)
+    p_p2_note.paragraph_format.space_after = Pt(2)
+    render_rich_text(p_p2_note, "*2. Phần II (Trắc nghiệm Đúng/Sai - mỗi ý đúng 0,25 điểm = 2,0 điểm):*")
+
+    table_p2 = doc.add_table(rows=3, cols=5)
+    table_p2.alignment = WD_TABLE_ALIGNMENT.CENTER
+    set_table_borders(table_p2, color="90A4AE", sz="4")
+
+    headers_p2 = ["Câu", "Lệnh a)", "Lệnh b)", "Lệnh c)", "Lệnh d)"]
+    for j, h in enumerate(headers_p2):
+        cell = table_p2.cell(0, j)
+        set_cell_background(cell, "E3F2FD")
+        set_cell_margins(cell, top=60, bottom=60, left=60, right=60)
+        p = cell.paragraphs[0]
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        r = p.add_run(h)
+        set_run_style(r, font_size=9.5, bold=True, color=COLOR_PRIMARY)
+
+    for i, q in enumerate(exam["part2"]):
+        row_idx = i + 1
+        cell_c = table_p2.cell(row_idx, 0)
+        set_cell_margins(cell_c, top=60, bottom=60, left=60, right=60)
+        p_c = cell_c.paragraphs[0]
+        p_c.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        r_c = p_c.add_run(f"Câu {q['idx']}")
+        set_run_style(r_c, font_size=9.5, bold=True)
+
+        for col_j, item in enumerate(q["items"]):
+            cell_ans = table_p2.cell(row_idx, col_j + 1)
+            set_cell_margins(cell_ans, top=60, bottom=60, left=60, right=60)
+            p_ans = cell_ans.paragraphs[0]
+            p_ans.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            r_ans = p_ans.add_run(item[1])
+            set_run_style(r_ans, font_size=9.5, bold=True, color=COLOR_CORRECT)
+
+    # Bảng Phần III: 4 câu (mỗi câu đúng 0,5 điểm = 2,0 điểm)
+    p_p3_note = doc.add_paragraph()
+    p_p3_note.paragraph_format.space_before = Pt(6)
+    p_p3_note.paragraph_format.space_after = Pt(2)
+    render_rich_text(p_p3_note, "*3. Phần III (Trả lời ngắn - mỗi câu đúng 0,5 điểm = 2,0 điểm):*")
+
+    table_p3 = doc.add_table(rows=2, cols=4)
+    table_p3.alignment = WD_TABLE_ALIGNMENT.CENTER
+    set_table_borders(table_p3, color="90A4AE", sz="4")
+
+    for col_j, q in enumerate(exam["part3"]):
+        cell_h = table_p3.cell(0, col_j)
+        cell_h.width = Cm(4.5)
+        set_cell_background(cell_h, "E3F2FD")
+        set_cell_margins(cell_h, top=60, bottom=60, left=60, right=60)
+        p_h = cell_h.paragraphs[0]
+        p_h.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        r_h = p_h.add_run(f"Câu {q['idx']}")
+        set_run_style(r_h, font_size=9.5, bold=True, color=COLOR_PRIMARY)
+
+        cell_a = table_p3.cell(1, col_j)
+        cell_a.width = Cm(4.5)
+        set_cell_margins(cell_a, top=60, bottom=60, left=60, right=60)
+        p_a = cell_a.paragraphs[0]
+        p_a.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        r_a = p_a.add_run(q["ans"])
+        set_run_style(r_a, font_size=10.5, bold=True, color=COLOR_CORRECT)
+
+    # 2. BẢNG THANG ĐIỂM CHI TIẾT TỰ LUẬN (PHẦN IV - 3,0 ĐIỂM)
+    p_sub2 = doc.add_paragraph()
+    p_sub2.paragraph_format.space_before = Pt(12)
+    p_sub2.paragraph_format.space_after = Pt(4)
+    r_sub2 = p_sub2.add_run("B. THANG ĐIỂM VÀ BIỂU ĐIỂM CHẤM PHẦN TỰ LUẬN (3,0 ĐIỂM)")
+    set_run_style(r_sub2, font_size=11, bold=True, color=COLOR_SOLUTION)
+
+    # Đếm tổng số dòng rubric
+    total_rubric_rows = sum(len(q["rubric"]) for q in exam["part4"])
+    # Bảng gồm 1 dòng Header + số dòng rubric
+    table_tl = doc.add_table(rows=total_rubric_rows + 1, cols=3)
+    table_tl.alignment = WD_TABLE_ALIGNMENT.CENTER
+    set_table_borders(table_tl, color="78909C", sz="6")
+
+    # Header
+    col_widths = [Cm(2.2), Cm(13.6), Cm(2.2)]
+    headers_tl = ["Câu / Ý", "Nội dung đáp án & Yêu cầu cần đạt", "Điểm"]
+    for j in range(3):
+        cell = table_tl.cell(0, j)
+        cell.width = col_widths[j]
+        set_cell_background(cell, "DCE775" if j == 2 else "CFD8DC")
+        set_cell_margins(cell, top=100, bottom=100, left=100, right=100)
+        p = cell.paragraphs[0]
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        r = p.add_run(headers_tl[j])
+        set_run_style(r, font_size=10, bold=True, color=RGBColor(0x26, 0x32, 0x38))
+
+    current_row = 1
+    for q in exam["part4"]:
+        q_idx = q["idx"]
+        rubric_items = q["rubric"]
+        
+        for k, (sub_name, content_text, score_text) in enumerate(rubric_items):
+            cell_c = table_tl.cell(current_row, 0)
+            cell_cnt = table_tl.cell(current_row, 1)
+            cell_sc = table_tl.cell(current_row, 2)
+
+            cell_c.width = col_widths[0]
+            cell_cnt.width = col_widths[1]
+            cell_sc.width = col_widths[2]
+
+            set_cell_margins(cell_c, top=80, bottom=80, left=80, right=80)
+            set_cell_margins(cell_cnt, top=80, bottom=80, left=100, right=100)
+            set_cell_margins(cell_sc, top=80, bottom=80, left=80, right=80)
+
+            # Cột 1: Nhãn
+            p_c = cell_c.paragraphs[0]
+            p_c.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            if k == 0:
+                r_c1 = p_c.add_run(f"Câu {q_idx}\n")
+                set_run_style(r_c1, font_size=10, bold=True, color=COLOR_PRIMARY)
+            r_sub = p_c.add_run(sub_name)
+            set_run_style(r_sub, font_size=9.5, bold=True)
+
+            # Cột 2: Nội dung
+            p_cnt = cell_cnt.paragraphs[0]
+            p_cnt.alignment = WD_ALIGN_PARAGRAPH.LEFT
+            render_rich_text(p_cnt, content_text)
+
+            # Cột 3: Điểm
+            p_sc = cell_sc.paragraphs[0]
+            p_sc.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            r_sc = p_sc.add_run(score_text)
+            set_run_style(r_sc, font_size=10, bold=True, color=COLOR_CORRECT)
+
+            current_row += 1
+
+    # Dòng ghi chú chung
+    p_note = doc.add_paragraph()
+    p_note.paragraph_format.space_before = Pt(6)
+    p_note.paragraph_format.space_after = Pt(4)
+    r_note = p_note.add_run("• Ghi chú chấm bài: Học sinh giải theo cách khác đúng bản chất hóa học và ra kết quả chính xác vẫn được trọn vẹn điểm theo từng ý tương ứng. Thiếu hoặc sai điều kiện, cân bằng phản ứng trừ 0,125đ/lần.")
+    set_run_style(r_note, font_size=9.5, italic=True, color=RGBColor(0x55, 0x55, 0x55))
 
 # ==============================================================================
 # HÀM XUẤT FILE WORD CHO MỖI ĐỀ
@@ -557,7 +787,7 @@ def render_exam_doc(exam, is_teacher=False):
         school_line="SỞ GD&ĐT THỪA THIÊN HUẾ\nTRƯỜNG THPT CHUYÊN QUỐC HỌC",
         exam_title="ĐỀ KIỂM TRA GIỮA HỌC KỲ I - NĂM HỌC 2026 - 2027",
         subject_line="MÔN: HOÁ HỌC - LỚP 12",
-        num_pages="03",
+        num_pages="03" if not is_teacher else "04",
         duration="50 phút (không kể thời gian phát đề)",
         exam_code=made,
         atomic_masses="H = 1; C = 12; N = 14; O = 16; Na = 23; Mg = 24; S = 32; Cl = 35,5; K = 39; Ca = 40; Fe = 56; Cu = 64; Br = 80; Ag = 108",
@@ -657,9 +887,11 @@ def render_exam_doc(exam, is_teacher=False):
         if not is_teacher:
             add_student_writing_lines(doc, num_lines=7)
         else:
-            add_solution_no_table(doc, q["sol"])
+            # Lời giải mẫu
+            rubric_full = "\n".join([f"• {item[0]}: {item[1]} ({item[2]})" for item in q["rubric"]])
+            add_solution_no_table(doc, rubric_full)
 
-    # Kết thúc đề
+    # Dòng kết thúc đề
     p_end = doc.add_paragraph()
     p_end.paragraph_format.space_before = Pt(8)
     p_end.paragraph_format.space_after = Pt(8)
@@ -667,10 +899,70 @@ def render_exam_doc(exam, is_teacher=False):
     r_end = p_end.add_run(f"-------------------------- HẾT ĐỀ THI MÃ {made} --------------------------")
     set_run_style(r_end, font_size=10.5, bold=True)
 
+    # 6. NẾU LÀ BẢN GIÁO VIÊN: THÊM BẢNG ĐÁP ÁN & THANG ĐIỂM CHI TIẾT
+    if is_teacher:
+        add_rubric_table_to_doc(doc, exam)
+
     return doc
 
+# ==============================================================================
+# TẠO FILE RIÊNG BẢNG ĐIỂM ĐÁP ÁN TỰ LUẬN CẢ 2 ĐỀ
+# ==============================================================================
+
+def safe_save(doc, path):
+    try:
+        doc.save(path)
+        print(f'   + Đã lưu: {path}')
+        return path
+    except PermissionError:
+        base, ext = os.path.splitext(path)
+        alt = base + '_CapNhat' + ext
+        doc.save(alt)
+        print(f'   [!] File đang mở trong Word, đã lưu sang: {alt}')
+        return alt
+
+def create_standalone_rubric_file():
+    doc = docx.Document()
+    setup_header_footer(doc)
+
+    # Khối tiêu đề
+    build_title_block(
+        doc,
+        school_line="SỞ GD&ĐT THỪA THIÊN HUẾ\nTRƯỜNG THPT CHUYÊN QUỐC HỌC",
+        exam_title="HƯỚNG DẪN CHẤM VÀ THANG ĐIỂM CHI TIẾT ĐỀ KIỂM TRA GIỮA HỌC KỲ I",
+        subject_line="MÔN: HOÁ HỌC - LỚP 12 (NĂM HỌC 2026 - 2027)",
+        num_pages="02",
+        duration="Áp dụng chấm thi Đề 01 (Mã 101) & Đề 02 (Mã 102)",
+        exam_code="HD-CHẤM",
+        atomic_masses="H = 1; C = 12; N = 14; O = 16; Na = 23; K = 39; Br = 80; Ag = 108",
+        is_teacher=True
+    )
+
+    # Đề 1
+    add_rubric_table_to_doc(doc, EXAM_01)
+
+    # Phân cách giữa 2 đề
+    p_div = doc.add_paragraph()
+    p_div.paragraph_format.space_before = Pt(16)
+    p_div.paragraph_format.space_after = Pt(16)
+    p_div.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    r_div = p_div.add_run("==================================================================================")
+    set_run_style(r_div, font_size=10, bold=True, color=COLOR_PRIMARY)
+
+    # Đề 2
+    add_rubric_table_to_doc(doc, EXAM_02)
+
+    rubric_path1 = os.path.join(SUB_DIR, "Bang_Dap_An_Va_Thang_Diem_Tu_Luan_2_De_GK1_Hoa12.docx")
+    rubric_path2 = os.path.join(OUT_DIR, "Bang_Dap_An_Va_Thang_Diem_Tu_Luan_2_De_GK1_Hoa12.docx")
+    safe_save(doc, rubric_path1)
+    safe_save(doc, rubric_path2)
+    print(f"Đã tạo file riêng Bảng đáp án & Thang điểm: {rubric_path1}")
+
+# ==============================================================================
+# HÀM CHÍNH
+# ==============================================================================
 def main():
-    print("=== ĐANG KHỞI TẠO 2 ĐỀ KIỂM TRA THEO MA TRẬN GIỮA KÌ I HÓA 12 ===")
+    print("=== ĐANG KHỞI TẠO 2 ĐỀ KIỂM TRA KÈM BẢNG ĐIỂM ĐÁP ÁN TỰ LUẬN ===")
     
     exams = [EXAM_01, EXAM_02]
     
@@ -682,18 +974,21 @@ def main():
         # 1. Bản Học Sinh
         doc_hs = render_exam_doc(ex, is_teacher=False)
         hs_name = f"De_Kiem_Tra_GK1_Hoa_12_De{num:02d}_Ma{made}_HocSinh.docx"
-        hs_path = os.path.join(OUT_DIR, hs_name)
-        doc_hs.save(hs_path)
-        print(f"   + Đã lưu Học Sinh: {hs_path}")
+        safe_save(doc_hs, os.path.join(SUB_DIR, hs_name))
+        safe_save(doc_hs, os.path.join(OUT_DIR, hs_name))
+        print(f"   + Đã lưu Học Sinh: {hs_name}")
 
-        # 2. Bản Giáo Viên
+        # 2. Bản Giáo Viên (kèm Bảng điểm đáp án tự luận)
         doc_gv = render_exam_doc(ex, is_teacher=True)
         gv_name = f"De_Kiem_Tra_GK1_Hoa_12_De{num:02d}_Ma{made}_GiaoVien.docx"
-        gv_path = os.path.join(OUT_DIR, gv_name)
-        doc_gv.save(gv_path)
-        print(f"   + Đã lưu Giáo Viên: {gv_path}")
+        safe_save(doc_gv, os.path.join(SUB_DIR, gv_name))
+        safe_save(doc_gv, os.path.join(OUT_DIR, gv_name))
+        print(f"   + Đã lưu Giáo Viên (kèm Bảng điểm đáp án): {gv_name}")
 
-    print("=== HOÀN TẤT TẠO 4 FILE WORD CHUẨN FORM ĐỀ KIỂM TRA! ===")
+    # 3. Tạo file riêng Bảng điểm đáp án tự luận 2 đề
+    create_standalone_rubric_file()
+
+    print("=== HOÀN TẤT TẠO TOÀN BỘ FILE WORD KÈM BẢNG ĐIỂM TỰ LUẬN! ===")
 
 if __name__ == "__main__":
     main()
