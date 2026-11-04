@@ -690,3 +690,49 @@ Hệ thống tự động theo dõi, chuyển đổi và quản lý toàn bộ c
 - **Sao lưu tự động vào OneDrive:**
   - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\12\`
   - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\12\kiem-tra-dinh-ky\`
+
+---
+
+### Đợt 60: Hoàn thành Số hóa và Chuyển đổi ĐỀ KIỂM TRA GIỮA HỌC KỲ I - KHTN 9 (TRƯỜNG THCS TRẦN CAO VÂN - NH 2026 - 2027) thành Bộ 3 Bản Word Chuẩn FORM ĐỀ KIỂM TRA
+
+- **Thời gian thực hiện:** 04/11/2026
+- **Tài liệu nguồn:** 3 trang ảnh chụp quét đề thi thực tế của học sinh Trần Nhật Khang (Lớp 9/9) - Trường THCS Trần Cao Vân (UBND Phường Phú Xuân).
+- **Cấu trúc & Nội dung đề kiểm tra:**
+  - **Phần I: Trắc nghiệm khách quan (7,0 điểm)**
+    + *1. Trắc nghiệm nhiều lựa chọn (3,0 điểm - 12 câu):*
+      * Câu 1: Dụng cụ phát hiện dòng điện cảm ứng $\to$ Điện kế (B).
+      * Câu 2: Dụng cụ chiết $\to$ Phễu chiết (A).
+      * Câu 3: Bảo quản hóa chất $\to$ Trong chai hoặc lọ có nắp đậy và dán nhãn (D).
+      * Câu 4: Công thức tính động năng $\to$ $W_đ = \frac{1}{2}mv^2$ (B).
+      * Câu 5: Đơn vị công suất trong SI $\to$ W (C).
+      * Câu 6: Kim loại dẻo nhất $\to$ Vàng (Au) (C).
+      * Câu 7: Kim loại không tác dụng $H_2SO_4$ loãng $\to$ Bạc (Ag) (D).
+      * Câu 8: Mẩu dây Copper vào dung dịch $AgNO_3 \to$ Dung dịch không màu hóa xanh, dây Copper bám bạc (A).
+      * Câu 9: Hàm lượng carbon trong thép $\to$ Dưới 2% (B).
+      * Câu 10: Bản chất cốt lõi chuyển gang thành thép $\to$ Giảm tạp chất C, Si, Mn thành oxide (C).
+      * Câu 11: Than hoạt tính ứng dụng khử độc $\to$ Hấp phụ cao (D).
+      * Câu 12: Hai trạng thái biểu hiện trái ngược $\to$ Cặp tính trạng tương phản (A).
+    + *2. Trắc nghiệm Đúng - Sai (2,0 điểm - 2 câu / 8 ý):*
+      * Câu 13 (Vật lí - Cơ năng cần cẩu nâng 400kg lên 15m): a) Đ; b) S; c) S (A = 60 000 J); d) Đ (P = 3 000 W).
+      * Câu 14 (Hóa học - Bột Zn dư vào dung dịch $CuSO_4$): a) S (Zn đứng trước Cu); b) Đ; c) S (Zn mạnh hơn Cu); d) Đ.
+    + *3. Trắc nghiệm trả lời ngắn (2,0 điểm - 2 câu / 4 ý):*
+      * Câu 15a: Số kim loại đẩy được Ag ra khỏi $AgNO_3 \to 3$ (Mg, Cu, Fe).
+      * Câu 15b: Phương pháp tách Aluminium và Zinc $\to$ (2); (1) (Điện phân nóng chảy, Nhiệt luyện).
+      * Câu 16a: Số lỗi sai trong kí hiệu thí nghiệm lai Menđen của bạn Bình $\to 3$.
+      * Câu 16b: Tỉ lệ cây hạt xanh, vỏ nhăn ở $F_2 \to 1/16$.
+  - **Phần II: Tự luận (3,0 điểm - 3 câu):**
+    + Câu 17 (1,0 đ): Liệt kê 2 đơn vị công cơ học (J, kJ) và 2 đơn vị công suất (W, kW); Giải thích sự biến đổi thế năng và động năng của vật rơi tự do.
+    + Câu 18 (1,0 đ): 4 tính chất vật lí chung của kim loại (dẻo, dẫn điện, dẫn nhiệt, ánh kim); Tính khối lượng Fe thu được từ 2 kg quặng hematite (80% $Fe_2O_3$, $H=60\% \to m = 672\text{ g}$).
+    + Câu 19 (1,0 đ): Kết quả phép lai phân tích cơ thể trội dị hợp ($Aa \times aa \to 1\text{ trội} : 1\text{ lặn}$); Giải thích tính đa dạng và đặc thù của DNA ứng dụng trong giám định pháp y.
+- **Quy chuẩn kỹ thuật áp dụng theo FORM ĐỀ KIỂM TRA:**
+  - Khổ giấy A4, lề trên = dưới = trái = phải = 1.5 cm; Header & Footer 0.6 cm.
+  - Header & Footer chuẩn: Coral Red (`#D32F2F`) - Sage Green (`#8BC390`), `Thầy TRẦN VĂN THẠNH - 0777.470.803`, số trang tự động `PAGE`.
+  - **Tuyệt đối KHÔNG dùng dạng bảng (Table) trong nội dung đề thi**: Các phương án A, B, C, D sử dụng Tab stops căn lề chuẩn; Lời giải chi tiết thụt lề 0.6 cm in đậm màu xanh `#1565C0`.
+- **Trọn bộ sản phẩm hoàn thành:**
+  1. `San_Pham/De_Kiem_Tra_KHTN_9_Giua_HK1_Tran_Cao_Van_HocSinh.docx`: Bản Học sinh chuẩn in ấn làm bài, có dòng kẻ chấm làm bài tự luận.
+  2. `San_Pham/De_Kiem_Tra_KHTN_9_Giua_HK1_Tran_Cao_Van_GiaoVien.docx`: Bản Giáo viên có đáp án in đậm màu đỏ, lời giải chi tiết và bảng tổng hợp đáp án cuối tài liệu.
+  3. `San_Pham/De_Kiem_Tra_KHTN_9_Giua_HK1_Tran_Cao_Van_DayTrenManHinh.docx`: Bản Dạy trên màn hình cỡ chữ 11.5pt - 12pt, khoảng cách dòng thoáng, có khung ghi chú bài dạy trực quan.
+- **Sao lưu tự động vào OneDrive:**
+  - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\`
+  - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\KHTN9-DEKIEMTRADINHKI\`
+
