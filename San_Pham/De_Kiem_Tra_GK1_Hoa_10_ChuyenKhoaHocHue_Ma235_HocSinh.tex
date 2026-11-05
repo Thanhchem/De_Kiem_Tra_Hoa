@@ -1,0 +1,295 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{geometry}
+\geometry{top=1.5cm,bottom=1.2cm,left=1.4cm,right=1.4cm,headheight=28pt,headsep=12pt,footskip=18pt}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{multido}
+\usepackage{tcolorbox}
+
+\definecolor{hfRed}{HTML}{D32F2F}
+\definecolor{hfGreen}{HTML}{8BC390}
+\definecolor{mainGreen}{HTML}{2E7D32}
+\definecolor{solBlue}{HTML}{1565C0}
+\definecolor{tableGreen}{HTML}{E8F5E9}
+
+\usepackage{ex_test}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.75pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0.75pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+
+\fancyhead[L]{\small\itshape\color{hfRed}Tài liệu lưu hành nội bộ}
+\fancyhead[R]{\small\color{hfRed}Thầy \textbf{TRẦN VĂN THẠNH} - 0777.470.803}
+
+\fancyfoot[L]{\footnotesize\itshape\color{hfRed}CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+\fancyfoot[R]{\small\textbf{\color{hfRed}Trang \thepage}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+
+\begin{document}
+
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{TRƯỜNG ĐẠI HỌC KHOA HỌC}\\
+\textbf{TRƯỜNG THPT CHUYÊN KHOA HỌC HUẾ}\\
+\textit{ĐỀ CHÍNH THỨC}\\
+\textit{(Đề thi có 04 trang)}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\raggedleft
+\textbf{\color{hfRed}ĐỀ KIỂM TRA GIỮA HỌC KỲ I, NĂM HỌC 2026 - 2027}\\
+\textbf{Môn: Hóa học -- Lớp 10 (CHUNG)}\\
+\textit{Thời gian làm bài: 45 phút (không kể thời gian giao đề)}\\
+\textbf{MÃ ĐỀ: 235}
+\end{minipage}
+
+\vspace{4pt}
+\noindent
+\textit{Họ và tên học sinh:} \dotfill \textit{Lớp:} \dotfill \textit{Số báo danh:} \dotfill
+
+\vspace{3pt}
+\noindent
+\textit{\footnotesize Cho nguyên tử khối: $\ce{H}=1; \ce{Li}=7; \ce{Be}=9; \ce{N}=14; \ce{O}=16; \ce{Na}=23; \ce{Mg}=24; \ce{Al}=27; \ce{P}=31; \ce{S}=32; \ce{Cl}=35,5; \ce{K}=39; \ce{Ca}=40; \ce{Ba}=137$.}
+
+\vspace{3pt}
+\hrule color{hfGreen} height 0.5pt
+
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\Large A. TRẮC NGHIỆM (7 điểm)}}
+
+\vspace{3pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN I. (3 điểm) Câu trắc nghiệm nhiều phương án lựa chọn.}}\\
+\textit{\small Học sinh trả lời từ câu 1 đến câu 12. Mỗi câu hỏi học sinh chỉ chọn một phương án.}
+\vspace{2pt}
+
+\begin{ex}
+Biết rằng nguyên tố argon có ba đồng vị khác nhau, ứng với số khối 36; 38 và A. Phần trăm các đồng vị tương ứng lần lượt bằng: 0,34\%; 0,06\% và 99,6\%. Số khối của đồng vị A của nguyên tố argon là bao nhiêu? (cho biết nguyên tử khối trung bình của argon bằng 39,98).
+\choice
+{39}
+{\True 40}
+{41}
+{42}
+\end{ex}
+\begin{ex}
+Sắp xếp các orbital sau 3s, 3p, 3d, 4s theo thứ tự mức năng lượng tăng dần:
+\choice
+{3s < 3p < 3d < 4s}
+{3p < 3s < 3d < 4s}
+{\True 3s < 3p < 4s < 3d}
+{3s < 4s < 3p < 3d}
+\end{ex}
+\begin{ex}
+Hạt nhân của nguyên tử nguyên tố $\ce{X}$ có 35 hạt, trong đó số hạt không mang điện là 18. Số hạt electron trong nguyên tử nguyên tố $\ce{X}$ là
+\choice
+{34}
+{18}
+{35}
+{\True 17}
+\end{ex}
+\begin{ex}
+Nhà khoa học nào đã phát hiện ra neutron?
+\choice
+{Thomson}
+{\True Chadwick}
+{Rutherford}
+{Bohr}
+\end{ex}
+\begin{ex}
+Nguyên tử $\ce{M}$ có cấu hình electron $\ce{1s^2 2s^2 2p^4}$. Phân bố electron trên các orbital là :
+\begin{center}
+\includegraphics[width=9.5cm]{c:/Antigravity_Thanh/San_Pham/images_chuyenkhoahoc_hoa10_235/hinh_cau5_orbital_abcd.png}
+\end{center}
+\choice
+{[$\uparrow\downarrow$] [$\uparrow\downarrow$] [$\uparrow\downarrow$][$\uparrow\downarrow$][\quad]}
+{[$\uparrow\downarrow$] [$\uparrow\downarrow$] [$\uparrow\downarrow$][$\uparrow$ ][$\downarrow$ ]}
+{[$\uparrow\downarrow$] [$\uparrow\uparrow$] [$\uparrow\downarrow$][$\uparrow$ ][$\uparrow$ ]}
+{\True [$\uparrow\downarrow$] [$\uparrow\downarrow$] [$\uparrow\downarrow$][$\uparrow$ ][$\uparrow$ ]}
+\end{ex}
+\begin{ex}
+Cấu hình electron ở trạng thái cơ bản nào sau đây được viết đúng?
+\choice
+{$\ce{1s^2 2s^3 2p^6}$}
+{\True $\ce{1s^2 2s^2 2p^6 3s^1}$}
+{$\ce{1s^2 2s^2 2p^6 2d^1}$}
+{$\ce{1s^2 1p^6 2s^2}$}
+\end{ex}
+\begin{ex}
+$\ce{X}$ là nguyên tố hoá học có trong thành phần của chất có tác dụng oxi hoá và sát khuẩn cực mạnh, thường được sử dụng với mục đích khử trùng và tẩy trắng trong lĩnh vực thuỷ sản, dệt nhuộm, xử lí nước cấp, nước thải, nước bể bơi. Nguyên tử $\ce{X}$ có tổng số các loại hạt bằng 52, trong đó số hạt mang điện nhiều hơn số hạt không mang điện là 16 hạt. Số khối của nguyên tử $\ce{X}$ là:
+\choice
+{31}
+{32}
+{\True 35}
+{40}
+\end{ex}
+\begin{ex}
+Cho hình vẽ mô phỏng các nguyên tử với số liệu như sau:
+\begin{center}
+\includegraphics[width=9.5cm]{c:/Antigravity_Thanh/San_Pham/images_chuyenkhoahoc_hoa10_235/hinh_cau8_mo_phong_nguyen_tu.png}
+\end{center}
+Nhận xét nào sau đây Sai? \textit{\small (Xem phân tích sư phạm)}
+\choice
+{\True 1 và 2 là các đồng vị của cùng một nguyên tố hóa học}
+{1 và 3 là các đồng vị của cùng một nguyên tố hóa học}
+{1 và 2 là nguyên tử của hai nguyên tố hóa học khác nhau}
+{1 và 3 có cùng số proton trong hạt nhân}
+\end{ex}
+\begin{ex}
+Để đo kích thước của hạt nhân, nguyên tử... hay các hệ vi mô khác, người ta không dùng các đơn vị đo phổ biến đối với các hệ vĩ mô như cm, m, km... mà thường dùng đơn vị đo nanomet (nm) hay angstrom (\AA). Cách đổi đơn vị đúng là:
+\choice
+{$1\text{ nm} = 10^{-10}\text{ m}$}
+{$1\text{ \AA} = 10^{-9}\text{ m}$}
+{\True $1\text{ nm} = 10^{-7}\text{ cm}$}
+{$1\text{ \AA} = 10\text{ nm}$}
+\end{ex}
+\begin{ex}
+Trong các nguyên tử có kí hiệu như sau : $^{50}_{23}\ce{X}, ^{50}_{22}\ce{Y}, ^{114}_{48}\ce{Z}, ^{48}_{22}\ce{T}, ^{116}_{50}\ce{R}$, các nguyên tử thuộc cùng một nguyên tố hoá học là
+\choice
+{$\ce{Z}$ và $\ce{T}$}
+{$\ce{X}$ và $\ce{Y}$}
+{$\ce{X}, \ce{Y}$ và $\ce{R}$}
+{\True $\ce{Y}$ và $\ce{T}$}
+\end{ex}
+\begin{ex}
+Nội dung nào dưới đây không thuộc đối tượng nghiên cứu của Hóa học?
+\choice
+{Sự chuyển hóa thức ăn trong hệ tiêu hóa}
+{Giải pháp nhằm giảm thiểu tác hại của mưa acid}
+{\True Sự vận chuyển của máu trong hệ tuần hoàn}
+{Cấu tạo của chất và sự biến đổi của chất}
+\end{ex}
+\begin{ex}
+Hình dạng orbital s là
+\begin{center}
+\includegraphics[width=9.0cm]{c:/Antigravity_Thanh/San_Pham/images_chuyenkhoahoc_hoa10_235/hinh_cau12_orbital_abcd.png}
+\end{center}
+\choice
+{\True Hình A (orbital s dạng hình cầu đối xứng)}
+{Hình B (orbital $p_x$)}
+{Hình C (orbital $p_y$)}
+{Hình D (orbital $p_z$)}
+\end{ex}
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\Large PHẦN II (2 điểm). Câu trắc nghiệm đúng sai.}}\\
+\textit{\small Học sinh trả lời từ câu 1 đến câu 2. Trong mỗi ý a), b), c), d) ở mỗi câu, học sinh chọn đúng hoặc sai.}
+\vspace{2pt}
+
+\begin{ex}
+Trong nguyên tử, các electron được sắp xếp thành từng lớp. Mỗi lớp electron được chia thành các phân lớp.
+\choiceTF
+{\True Các electron trên cùng một phân lớp có năng lượng bằng nhau}
+{Lớp K có 1 orbital, lớp L có tổng số orbital là 3}
+{\True Lớp L có 2 phân lớp, được kí hiệu là 2s, 2p nên tổng số electron tối đa có trong lớp L là 8}
+{\True Các phân lớp được kí hiệu bằng chữ cái viết thường s, p, d, f}
+\end{ex}
+\begin{ex}
+Nguyên tố $\ce{Y}$ là một khoáng chất thiết yếu đối với sự phát triển của xương và răng, trong cơ thể $\ce{Y}$ tham gia vào quá trình co cơ, đông máu, điều hòa chức năng thần kinh, thân nhiệt, tái tạo mô, trẻ bảo đảm vận hành của quá trình hoạt động của tim. Trong nguyên tử của nguyên tố $\ce{Y}$ có tổng số các hạt là 46. Biết số hạt mang điện dương ít hơn số hạt không mang điện là 1. Biết điện tích của 1 hạt electron bằng $-1,6 \cdot 10^{-19}\text{ C}$.
+\choiceTF
+{Nguyên tử $\ce{Y}$ có 30 hạt mang điện và 1 electron độc thân ở trạng thái cơ bản}
+{\True Nguyên tử $\ce{Y}$ có 30 hạt mang điện và 3 electron độc thân ở trạng thái cơ bản}
+{\True $\ce{Y}$ là nguyên tố phi kim, có số hiệu nguyên tử là 15, có 9 electron ở phân lớp p}
+{\True Nguyên tử $\ce{Y}$ có điện tích hạt nhân của $\ce{Y}$ là $+2,4 \cdot 10^{-18}\text{ C}$}
+\end{ex}
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\Large PHẦN III (2 điểm). Câu trắc nghiệm trả lời ngắn.}}\\
+\textit{\small Học sinh trả lời từ câu 1 đến câu 4.}
+\vspace{2pt}
+
+\begin{ex}
+Cho nguyên tố $\ce{X}$ có 3 lớp electron, lớp thứ 3 có 5 electron. Nguyên tử $\ce{X}$ có bao nhiêu electron ở phân lớp p?
+
+\noindent\textit{Trả lời:} \dotfill
+\end{ex}
+\begin{ex}
+Khí carbon dioxide ($\ce{CO2}$) là nguyên nhân chính gây nên hiệu ứng nhà kính. Carbon có 2 đồng vị: $^{12}\ce{C}, ^{13}\ce{C}$; oxygen có 3 đồng vị: $^{16}\ce{O}, ^{17}\ce{O}, ^{18}\ce{O}$. Số loại phân tử $\ce{CO2}$ được tạo thành từ các đồng vị trên là bao nhiêu?
+
+\noindent\textit{Trả lời:} \dotfill
+\end{ex}
+\begin{ex}
+Boron là nguyên tố có nhiều tác dụng đối với cơ thể người như: làm lành vết thương, điều hòa nội tiết sinh dục, chống viêm khớp,... Do ngọn lửa cháy có màu đặc biệt nên boron vô định hình được dùng làm pháo hoa. Boron có hai đồng vị là $^{10}\ce{B}$ và $^{11}\ce{B}$, nguyên tử khối trung bình là 10,81. Tính phần trăm đồng vị $^{10}\ce{B}$?
+
+\noindent\textit{Trả lời:} \dotfill
+\end{ex}
+\begin{ex}
+Cho các cấu hình electron của một số nguyên tử nguyên tố như sau:\\
+(1) $\ce{1s^2 2s^2 2p^6}$\\
+(2) $\ce{1s^2 2s^2 2p^6 3s^2}$\\
+(3) $\ce{1s^2 2s^2 2p^6 3s^2 3p^6 3d^6 4s^2}$\\
+(4) $\ce{1s^2 2s^2 2p^6 3s^2 3p^6 3d^{10} 4s^2}$\\
+(5) $\ce{1s^2 2s^2 2p^6 3s^2 3p^4}$\\
+(6) $\ce{1s^2 2s^2 2p^6 3s^2 3p^5}$\\
+Số lượng các nguyên tố kim loại trong số các nguyên tố ở trên là bao nhiêu?
+
+\noindent\textit{Trả lời:} \dotfill
+\end{ex}
+\vspace{6pt}
+\noindent
+{\color{mainGreen}\textbf{\Large B. TỰ LUẬN (3 điểm)}}
+\vspace{2pt}
+
+\noindent
+\textbf{Câu 1. (1,0 điểm)} Cho cấu hình electron của:\\
+- Nguyên tử $\ce{X}$: $\ce{1s^2 2s^2 2p^6 3s^2}$\\
+- Nguyên tử $\ce{Y}$: $\ce{1s^2 2s^2 2p^5}$\\
+a. Mỗi nguyên tử $\ce{X}$ và $\ce{Y}$ chứa bao nhiêu electron?\\
+b. Hãy cho biết số hiệu nguyên tử của $\ce{X}$ và $\ce{Y}$.\\
+c. Lớp electron nào trong nguyên tử $\ce{X}$ và $\ce{Y}$ có mức năng lượng cao nhất?\\
+d. $\ce{X}$ và $\ce{Y}$ là nguyên tố kim loại, phi kim hay khí hiếm?
+
+\vspace{1pt}
+\noindent
+\multido{\n=1+1}{6}{\dotfill\\[4pt]}
+
+\vspace{4pt}
+\noindent
+\textbf{Câu 2. (1,0 điểm)} Một mẫu sulfur có ba đồng vị: $^{32}\ce{S}$, $^{33}\ce{S}$ và $^{34}\ce{S}$ với tỷ lệ phần trăm các đồng vị như sau:
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Tỷ lệ} & \textbf{95,02\%} & \textbf{0,76\%} & \textbf{4,22\%} \\
+\hline
+\textbf{Khối lượng đồng vị} & \textbf{32} & \textbf{33} & \textbf{34} \\
+\hline
+\end{tabular}
+\end{center}
+a) Tính nguyên tử khối trung bình của sulfur (S).\\
+b) Nếu có 1000 nguyên tử $^{32}\ce{S}$ thì số nguyên tử $^{34}\ce{S}$ là bao nhiêu? (làm tròn đến hàng đơn vị).
+
+\vspace{1pt}
+\noindent
+\multido{\n=1+1}{6}{\dotfill\\[4pt]}
+
+\vspace{4pt}
+\noindent
+\textbf{Câu 3. (1,0 điểm)} Trong thi đấu thể dục thể thao, có một số vận động viên sử dụng các loại chất kích thích trong thi đấu, gọi là doping, dẫn đến thành tích đạt được của họ không thật sự phù hợp với năng lực vốn có. Một trong các loại doping thường gặp nhất là testosterone tổng hợp. Tỉ lệ giữa hai đồng vị $^{12}\ce{C}$ (98,98\%) và $^{13}\ce{C}$ (1,02\%) là không đổi với testosterone tự nhiên trong cơ thể. Trong khi testosterone tổng hợp (doping) có phần trăm số nguyên tử đồng vị $^{13}\ce{C}$ ít hơn testosterone tự nhiên. Đây chính là mấu chốt xác định xem vận động viên có sử dụng doping hay không.\\
+Trong một xét nghiệm với mục đích xác định xem vận động viên có sử dụng doping hay không, xét nghiệm phân tích theo CIR đối với một vận động viên thu được kết quả phần trăm số nguyên tử đồng vị $^{12}\ce{C}$ là x\% và $^{13}\ce{C}$ là y\%. Từ tỉ lệ này, người ta tính ra được khối lượng nguyên tử trung bình của carbon trong testosterone tổng hợp là 12,0098. Với kết quả nguyên tử khối trung bình của carbon trong mẫu phân tích có giá trị là 12,0098 thu được, em có nghi ngờ vận động viên này sử dụng doping không? Vì sao?
+
+\vspace{1pt}
+\noindent
+\multido{\n=1+1}{8}{\dotfill\\[4pt]}
+
+\vspace{6pt}
+\begin{center}
+\textbf{\large ---------- HẾT ----------}\\
+\textit{\small - Học sinh không được sử dụng tài liệu; Giám thị không giải thích gì thêm. -}
+\end{center}
+
+\end{document}

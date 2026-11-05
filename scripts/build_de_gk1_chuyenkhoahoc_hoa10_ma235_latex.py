@@ -1,0 +1,759 @@
+# -*- coding: utf-8 -*-
+"""
+Script tạo file LaTeX và biên dịch PDF cho Đề Kiểm Tra Giữa Kì 1 Hóa Học 10 - THPT Chuyên Khoa Học Huế (Mã đề 235)
+Chuẩn FORM ĐỀ KIỂM TRA (Thầy TRẦN VĂN THẠNH)
+Sinh cả 2 phiên bản:
+1. Bản Học sinh: De_Kiem_Tra_GK1_Hoa_10_ChuyenKhoaHocHue_Ma235_HocSinh.pdf
+2. Bản Giáo viên: De_Kiem_Tra_GK1_Hoa_10_ChuyenKhoaHocHue_Ma235_GiaoVien.pdf (Kèm bảng đáp án rút gọn và lời giải chi tiết)
+"""
+
+import os
+import sys
+import subprocess
+import glob
+
+if sys.stdout.encoding.lower() != 'utf-8':
+    try:
+        sys.stdout.reconfigure(encoding='utf-8')
+    except Exception:
+        pass
+
+SAN_PHAM_DIR = r"C:\Antigravity_Thanh\San_Pham"
+IMG_DIR_TEX = "c:/Antigravity_Thanh/San_Pham/images_chuyenkhoahoc_hoa10_235"
+
+def build_latex_content(is_teacher=False):
+    tex = []
+    tex.append(r"""\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{geometry}
+\geometry{top=1.5cm,bottom=1.2cm,left=1.4cm,right=1.4cm,headheight=28pt,headsep=12pt,footskip=18pt}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{multido}
+\usepackage{tcolorbox}
+
+\definecolor{hfRed}{HTML}{D32F2F}
+\definecolor{hfGreen}{HTML}{8BC390}
+\definecolor{mainGreen}{HTML}{2E7D32}
+\definecolor{solBlue}{HTML}{1565C0}
+\definecolor{tableGreen}{HTML}{E8F5E9}
+
+\usepackage{ex_test}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.75pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0.75pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+
+\fancyhead[L]{\small\itshape\color{hfRed}Tài liệu lưu hành nội bộ}
+\fancyhead[R]{\small\color{hfRed}Thầy \textbf{TRẦN VĂN THẠNH} - 0777.470.803}
+
+\fancyfoot[L]{\footnotesize\itshape\color{hfRed}CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+\fancyfoot[R]{\small\textbf{\color{hfRed}Trang \thepage}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+
+\begin{document}
+
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{TRƯỜNG ĐẠI HỌC KHOA HỌC}\\
+\textbf{TRƯỜNG THPT CHUYÊN KHOA HỌC HUẾ}\\
+\textit{ĐỀ CHÍNH THỨC}\\
+\textit{(Đề thi có 04 trang)}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\raggedleft
+\textbf{\color{hfRed}ĐỀ KIỂM TRA GIỮA HỌC KỲ I, NĂM HỌC 2026 - 2027}\\
+\textbf{Môn: Hóa học -- Lớp 10 (CHUNG)}\\
+\textit{Thời gian làm bài: 45 phút (không kể thời gian giao đề)}\\
+\textbf{MÃ ĐỀ: 235}
+\end{minipage}
+
+\vspace{4pt}
+\noindent
+\textit{Họ và tên học sinh:} \dotfill \textit{Lớp:} \dotfill \textit{Số báo danh:} \dotfill
+
+\vspace{3pt}
+\noindent
+\textit{\footnotesize Cho nguyên tử khối: $\ce{H}=1; \ce{Li}=7; \ce{Be}=9; \ce{N}=14; \ce{O}=16; \ce{Na}=23; \ce{Mg}=24; \ce{Al}=27; \ce{P}=31; \ce{S}=32; \ce{Cl}=35,5; \ce{K}=39; \ce{Ca}=40; \ce{Ba}=137$.}
+
+\vspace{3pt}
+\hrule color{hfGreen} height 0.5pt
+""")
+
+    if is_teacher:
+        tex.append(r"""
+\vspace{4pt}
+\begin{center}
+\textbf{\color{hfRed}\large (BẢN GIÁO VIÊN -- CÓ LỜI GIẢI CHI TIẾT)}
+\end{center}
+
+\vspace{2pt}
+\begin{center}
+{\color{hfRed}\textbf{\large BẢNG ĐÁP ÁN RÚT GỌN (DÀNH CHO GIÁO VIÊN - MÃ ĐỀ 235)}}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}1. Phần I: Trắc nghiệm nhiều lựa chọn (3,0 điểm - mỗi câu đúng 0,25 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đ/A} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}A*} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}A} \\
+\hline
+\end{tabular}
+\end{center}
+\textit{\footnotesize * Câu 8: Đề gốc in nhầm 'Sai' thay vì 'Đúng'; A là nhận xét đúng duy nhất, xem phân tích chi tiết ở phần bài giải.}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}2. Phần II: Trắc nghiệm Đúng / Sai (2,0 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|l|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Nội dung câu hỏi} & \textbf{Lệnh a} & \textbf{Lệnh b} & \textbf{Lệnh c} & \textbf{Lệnh d} \\
+\hline
+\textbf{Câu 1} & Lớp và phân lớp electron & \textbf{\color{hfRed}ĐÚNG} & \textbf{SAI} & \textbf{\color{hfRed}ĐÚNG} & \textbf{\color{hfRed}ĐÚNG} \\
+\hline
+\textbf{Câu 2} & Nguyên tử khoáng chất $\ce{Y} (Z = 15)$ & \textbf{SAI} & \textbf{\color{hfRed}ĐÚNG} & \textbf{\color{hfRed}ĐÚNG} & \textbf{\color{hfRed}ĐÚNG} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}3. Phần III: Trả lời ngắn (2,0 điểm - mỗi câu đúng 0,5 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Câu 1} & \textbf{Câu 2} & \textbf{Câu 3} & \textbf{Câu 4} \\
+\hline
+\textbf{Đáp án} & \textbf{\color{hfRed}9} & \textbf{\color{hfRed}12} & \textbf{\color{hfRed}19\%} (19) & \textbf{\color{hfRed}3} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}4. Tóm tắt đáp số Phần Tự luận (3,0 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|p{11.5cm}|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Điểm} & \textbf{Đáp số cốt lõi} \\
+\hline
+\textbf{Câu 1} & 1,0 đ & a) $\ce{X}$: 12e; $\ce{Y}$: 9e. \quad b) $Z_{\ce{X}} = 12$; $Z_{\ce{Y}} = 9$. \quad c) $\ce{X}$: lớp M; $\ce{Y}$: lớp L. \quad d) $\ce{X}$: Kim loại; $\ce{Y}$: Phi kim. \\
+\hline
+\textbf{Câu 2} & 1,0 đ & a) $\overline{A}_{\ce{S}} = 32,092\text{ amu}$. \quad b) Có 1000 nguyên tử $^{32}\ce{S}$ thì có $\approx 44$ nguyên tử $^{34}\ce{S}$. \\
+\hline
+\textbf{Câu 3} & 1,0 đ & Có nghi ngờ. Do $\overline{A}_{\text{mẫu}} = 12,0098 < 12,0102$ (chuẩn) $\implies$ \% $^{13}\ce{C}$ giảm, đặc trưng của doping tổng hợp. \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{4pt}
+\hrule color{hfGreen} height 0.5pt
+""")
+
+    # NỘI DUNG ĐỀ THI
+    tex.append(r"""
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\Large A. TRẮC NGHIỆM (7 điểm)}}
+
+\vspace{3pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN I. (3 điểm) Câu trắc nghiệm nhiều phương án lựa chọn.}}\\
+\textit{\small Học sinh trả lời từ câu 1 đến câu 12. Mỗi câu hỏi học sinh chỉ chọn một phương án.}
+\vspace{2pt}
+""")
+
+    # Câu 1
+    tex.append(r"""
+\begin{ex}
+Biết rằng nguyên tố argon có ba đồng vị khác nhau, ứng với số khối 36; 38 và A. Phần trăm các đồng vị tương ứng lần lượt bằng: 0,34\%; 0,06\% và 99,6\%. Số khối của đồng vị A của nguyên tố argon là bao nhiêu? (cho biết nguyên tử khối trung bình của argon bằng 39,98).
+\choice
+{39}
+{\True 40}
+{41}
+{42}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+$\overline{A} = \dfrac{36 \times 0,34 + 38 \times 0,06 + A \times 99,6}{100} = 39,98$\\
+$\iff 12,24 + 2,28 + 99,6A = 3998 \iff 99,6A = 3983,48 \iff A = 40$.\\
+\textbf{Chọn B.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 2
+    tex.append(r"""
+\begin{ex}
+Sắp xếp các orbital sau 3s, 3p, 3d, 4s theo thứ tự mức năng lượng tăng dần:
+\choice
+{3s < 3p < 3d < 4s}
+{3p < 3s < 3d < 4s}
+{\True 3s < 3p < 4s < 3d}
+{3s < 4s < 3p < 3d}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Theo trật tự mức năng lượng Klechkowski: 1s < 2s < 2p < 3s < 3p < 4s < 3d < 4p...\\
+$\implies$ 3s < 3p < 4s < 3d.\\
+\textbf{Chọn C.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 3
+    tex.append(r"""
+\begin{ex}
+Hạt nhân của nguyên tử nguyên tố $\ce{X}$ có 35 hạt, trong đó số hạt không mang điện là 18. Số hạt electron trong nguyên tử nguyên tố $\ce{X}$ là
+\choice
+{34}
+{18}
+{35}
+{\True 17}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Trong hạt nhân: $p + n = 35$, số hạt không mang điện $n = 18 \implies p = 35 - 18 = 17$.\\
+Trong nguyên tử trung hòa điện: số $e = p = 17$.\\
+\textbf{Chọn D.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 4
+    tex.append(r"""
+\begin{ex}
+Nhà khoa học nào đã phát hiện ra neutron?
+\choice
+{Thomson}
+{\True Chadwick}
+{Rutherford}
+{Bohr}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Năm 1932, James Chadwick đã phát hiện ra hạt neutron khi bắn phá berylium bằng hạt alpha.\\
+\textbf{Chọn B.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 5
+    tex.append(r"""
+\begin{ex}
+Nguyên tử $\ce{M}$ có cấu hình electron $\ce{1s^2 2s^2 2p^4}$. Phân bố electron trên các orbital là :
+\begin{center}
+\includegraphics[width=9.5cm]{""" + IMG_DIR_TEX + r"""/hinh_cau5_orbital_abcd.png}
+\end{center}
+\choice
+{[$\uparrow\downarrow$] [$\uparrow\downarrow$] [$\uparrow\downarrow$][$\uparrow\downarrow$][\quad]}
+{[$\uparrow\downarrow$] [$\uparrow\downarrow$] [$\uparrow\downarrow$][$\uparrow$ ][$\downarrow$ ]}
+{[$\uparrow\downarrow$] [$\uparrow\uparrow$] [$\uparrow\downarrow$][$\uparrow$ ][$\uparrow$ ]}
+{\True [$\uparrow\downarrow$] [$\uparrow\downarrow$] [$\uparrow\downarrow$][$\uparrow$ ][$\uparrow$ ]}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Theo nguyên lí Pauli và quy tắc Hund: Phân lớp $\ce{2p^4}$ có 3 AO, phân bố 3 electron độc thân cùng chiều spin vào 3 AO rồi electron thứ 4 ghép đôi vào AO đầu tiên $\implies$ [$\uparrow\downarrow$][$\uparrow$ ][$\uparrow$ ].\\
+\textbf{Chọn D.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 6
+    tex.append(r"""
+\begin{ex}
+Cấu hình electron ở trạng thái cơ bản nào sau đây được viết đúng?
+\choice
+{$\ce{1s^2 2s^3 2p^6}$}
+{\True $\ce{1s^2 2s^2 2p^6 3s^1}$}
+{$\ce{1s^2 2s^2 2p^6 2d^1}$}
+{$\ce{1s^2 1p^6 2s^2}$}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+- A sai vì phân lớp s chứa tối đa 2e ($\ce{2s^3}$ sai).\\
+- C sai vì lớp 2 không có phân lớp 2d.\\
+- D sai vì lớp 1 không có phân lớp 1p.\\
+- B đúng ($\ce{Na}$, $Z = 11$).\\
+\textbf{Chọn B.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 7
+    tex.append(r"""
+\begin{ex}
+$\ce{X}$ là nguyên tố hoá học có trong thành phần của chất có tác dụng oxi hoá và sát khuẩn cực mạnh, thường được sử dụng với mục đích khử trùng và tẩy trắng trong lĩnh vực thuỷ sản, dệt nhuộm, xử lí nước cấp, nước thải, nước bể bơi. Nguyên tử $\ce{X}$ có tổng số các loại hạt bằng 52, trong đó số hạt mang điện nhiều hơn số hạt không mang điện là 16 hạt. Số khối của nguyên tử $\ce{X}$ là:
+\choice
+{31}
+{32}
+{\True 35}
+{40}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Hệ phương trình: $\begin{cases} 2Z + N = 52 \\ 2Z - N = 16 \end{cases} \implies Z = 17, N = 18 \implies A = Z + N = 35\ (\ce{Cl})$.\\
+\textbf{Chọn C.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 8
+    tex.append(r"""
+\begin{ex}
+Cho hình vẽ mô phỏng các nguyên tử với số liệu như sau:
+\begin{center}
+\includegraphics[width=9.5cm]{""" + IMG_DIR_TEX + r"""/hinh_cau8_mo_phong_nguyen_tu.png}
+\end{center}
+Nhận xét nào sau đây Sai? \textit{\small (Xem phân tích sư phạm)}
+\choice
+{\True 1 và 2 là các đồng vị của cùng một nguyên tố hóa học}
+{1 và 3 là các đồng vị của cùng một nguyên tố hóa học}
+{1 và 2 là nguyên tử của hai nguyên tố hóa học khác nhau}
+{1 và 3 có cùng số proton trong hạt nhân}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+- Nguyên tử 1 ($8p, 8n$) và nguyên tử 2 ($8p, 9n$) đều có $Z = 8$ (Oxygen) $\implies$ 1 và 2 là đồng vị của cùng một nguyên tố hóa học.\\
+- Nguyên tử 3 có $9p, 10n$ ($Z = 9$, Fluorine).\\
+\textbf{Phân tích sư phạm:} Đề gốc in nhầm câu hỏi \"Sai?\" thay vì \"Đúng?\". Trong 4 phương án, A là nhận xét đúng duy nhất về mặt khoa học, các phương án B, C, D đều sai. Do đó phương án đúng chọn A.\\
+\textbf{Chọn A.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 9
+    tex.append(r"""
+\begin{ex}
+Để đo kích thước của hạt nhân, nguyên tử... hay các hệ vi mô khác, người ta không dùng các đơn vị đo phổ biến đối với các hệ vĩ mô như cm, m, km... mà thường dùng đơn vị đo nanomet (nm) hay angstrom (\AA). Cách đổi đơn vị đúng là:
+\choice
+{$1\text{ nm} = 10^{-10}\text{ m}$}
+{$1\text{ \AA} = 10^{-9}\text{ m}$}
+{\True $1\text{ nm} = 10^{-7}\text{ cm}$}
+{$1\text{ \AA} = 10\text{ nm}$}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+$1\text{ nm} = 10^{-9}\text{ m} = 10^{-7}\text{ cm}$. $1\text{ \AA} = 10^{-10}\text{ m} = 0,1\text{ nm}$.\\
+\textbf{Chọn C.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 10
+    tex.append(r"""
+\begin{ex}
+Trong các nguyên tử có kí hiệu như sau : $^{50}_{23}\ce{X}, ^{50}_{22}\ce{Y}, ^{114}_{48}\ce{Z}, ^{48}_{22}\ce{T}, ^{116}_{50}\ce{R}$, các nguyên tử thuộc cùng một nguyên tố hoá học là
+\choice
+{$\ce{Z}$ và $\ce{T}$}
+{$\ce{X}$ và $\ce{Y}$}
+{$\ce{X}, \ce{Y}$ và $\ce{R}$}
+{\True $\ce{Y}$ và $\ce{T}$}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Các nguyên tử thuộc cùng một nguyên tố hóa học phải có cùng số hiệu nguyên tử $Z$. $\ce{Y}$ và $\ce{T}$ đều có $Z = 22$ (Titanium - Ti).\\
+\textbf{Chọn D.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 11
+    tex.append(r"""
+\begin{ex}
+Nội dung nào dưới đây không thuộc đối tượng nghiên cứu của Hóa học?
+\choice
+{Sự chuyển hóa thức ăn trong hệ tiêu hóa}
+{Giải pháp nhằm giảm thiểu tác hại của mưa acid}
+{\True Sự vận chuyển của máu trong hệ tuần hoàn}
+{Cấu tạo của chất và sự biến đổi của chất}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Sự vận chuyển của máu trong hệ tuần hoàn là hiện tượng sinh lí - cơ học chất lưu, đối tượng nghiên cứu của Sinh học và Vật lí học.\\
+\textbf{Chọn C.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 12
+    tex.append(r"""
+\begin{ex}
+Hình dạng orbital s là
+\begin{center}
+\includegraphics[width=9.0cm]{""" + IMG_DIR_TEX + r"""/hinh_cau12_orbital_abcd.png}
+\end{center}
+\choice
+{\True Hình A (orbital s dạng hình cầu đối xứng)}
+{Hình B (orbital $p_x$)}
+{Hình C (orbital $p_y$)}
+{Hình D (orbital $p_z$)}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Orbital s có dạng hình cầu đối xứng trong không gian (Hình A).\\
+\textbf{Chọn A.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # PHẦN II
+    tex.append(r"""
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\Large PHẦN II (2 điểm). Câu trắc nghiệm đúng sai.}}\\
+\textit{\small Học sinh trả lời từ câu 1 đến câu 2. Trong mỗi ý a), b), c), d) ở mỗi câu, học sinh chọn đúng hoặc sai.}
+\vspace{2pt}
+""")
+
+    # Câu 1 Đúng/Sai
+    tex.append(r"""
+\begin{ex}
+Trong nguyên tử, các electron được sắp xếp thành từng lớp. Mỗi lớp electron được chia thành các phân lớp.
+\choiceTF
+{\True Các electron trên cùng một phân lớp có năng lượng bằng nhau}
+{Lớp K có 1 orbital, lớp L có tổng số orbital là 3}
+{\True Lớp L có 2 phân lớp, được kí hiệu là 2s, 2p nên tổng số electron tối đa có trong lớp L là 8}
+{\True Các phân lớp được kí hiệu bằng chữ cái viết thường s, p, d, f}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+a) \textbf{Đúng}: Các electron trên cùng phân lớp có năng lượng bằng nhau.\\
+b) \textbf{Sai}: Lớp L ($n=2$) có $1\text{ AO } (2s) + 3\text{ AO } (2p) = 4\text{ AO}$ (không phải 3).\\
+c) \textbf{Đúng}: Lớp L gồm 2s (tối đa 2e) và 2p (tối đa 6e) $\implies$ tối đa 8 electron ($2n^2 = 8$).\\
+d) \textbf{Đúng}: Kí hiệu phân lớp là chữ cái thường s, p, d, f.
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 2 Đúng/Sai
+    tex.append(r"""
+\begin{ex}
+Nguyên tố $\ce{Y}$ là một khoáng chất thiết yếu đối với sự phát triển của xương và răng, trong cơ thể $\ce{Y}$ tham gia vào quá trình co cơ, đông máu, điều hòa chức năng thần kinh, thân nhiệt, tái tạo mô, trẻ bảo đảm vận hành của quá trình hoạt động của tim. Trong nguyên tử của nguyên tố $\ce{Y}$ có tổng số các hạt là 46. Biết số hạt mang điện dương ít hơn số hạt không mang điện là 1. Biết điện tích của 1 hạt electron bằng $-1,6 \cdot 10^{-19}\text{ C}$.
+\choiceTF
+{Nguyên tử $\ce{Y}$ có 30 hạt mang điện và 1 electron độc thân ở trạng thái cơ bản}
+{\True Nguyên tử $\ce{Y}$ có 30 hạt mang điện và 3 electron độc thân ở trạng thái cơ bản}
+{\True $\ce{Y}$ là nguyên tố phi kim, có số hiệu nguyên tử là 15, có 9 electron ở phân lớp p}
+{\True Nguyên tử $\ce{Y}$ có điện tích hạt nhân của $\ce{Y}$ là $+2,4 \cdot 10^{-18}\text{ C}$}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+$\begin{cases} 2Z + N = 46 \\ N - Z = 1 \end{cases} \implies Z = 15\ (\ce{P}), N = 16$.\\
+Cấu hình electron của $\ce{Y} (Z = 15)$: $\ce{1s^2 2s^2 2p^6 3s^2 3p^3}$.\\
+a) \textbf{Sai}: Có 3 electron độc thân ở phân lớp 3p (không phải 1).\\
+b) \textbf{Đúng}: Tổng số hạt mang điện $p + e = 15 + 15 = 30$, có 3 electron độc thân.\\
+c) \textbf{Đúng}: Phi kim, $Z = 15$, số electron ở các phân lớp p: $6 + 3 = 9$.\\
+d) \textbf{Đúng}: Điện tích hạt nhân $q = +15 \times 1,6 \cdot 10^{-19}\text{ C} = +2,4 \cdot 10^{-18}\text{ C}$.
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # PHẦN III
+    tex.append(r"""
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\Large PHẦN III (2 điểm). Câu trắc nghiệm trả lời ngắn.}}\\
+\textit{\small Học sinh trả lời từ câu 1 đến câu 4.}
+\vspace{2pt}
+""")
+
+    # Câu 1 Trả lời ngắn
+    tex.append(r"""
+\begin{ex}
+Cho nguyên tố $\ce{X}$ có 3 lớp electron, lớp thứ 3 có 5 electron. Nguyên tử $\ce{X}$ có bao nhiêu electron ở phân lớp p?
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Cấu hình: $\ce{1s^2 2s^2 2p^6 3s^2 3p^3}$.\\
+Số electron ở các phân lớp p: $2p^6 + 3p^3 = 6 + 3 = 9$.\\
+\textbf{Đáp số: 9}
+}
+""")
+    else:
+        tex.append(r"""
+\noindent\textit{Trả lời:} \dotfill
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 2 Trả lời ngắn
+    tex.append(r"""
+\begin{ex}
+Khí carbon dioxide ($\ce{CO2}$) là nguyên nhân chính gây nên hiệu ứng nhà kính. Carbon có 2 đồng vị: $^{12}\ce{C}, ^{13}\ce{C}$; oxygen có 3 đồng vị: $^{16}\ce{O}, ^{17}\ce{O}, ^{18}\ce{O}$. Số loại phân tử $\ce{CO2}$ được tạo thành từ các đồng vị trên là bao nhiêu?
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Phân tử $\ce{CO2}$: 1 nguyên tử C kết hợp với 2 nguyên tử O.\\
+- Số cách chọn C: 2 cách ($^{12}\ce{C}, ^{13}\ce{C}$).\\
+- Số cách chọn cặp 2 nguyên tử O từ 3 đồng vị: $3 + C_3^2 = 3 + 3 = 6$ cách.\\
+$\implies$ Tổng số loại phân tử $\ce{CO2} = 2 \times 6 = 12$ loại.\\
+\textbf{Đáp số: 12}
+}
+""")
+    else:
+        tex.append(r"""
+\noindent\textit{Trả lời:} \dotfill
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 3 Trả lời ngắn
+    tex.append(r"""
+\begin{ex}
+Boron là nguyên tố có nhiều tác dụng đối với cơ thể người như: làm lành vết thương, điều hòa nội tiết sinh dục, chống viêm khớp,... Do ngọn lửa cháy có màu đặc biệt nên boron vô định hình được dùng làm pháo hoa. Boron có hai đồng vị là $^{10}\ce{B}$ và $^{11}\ce{B}$, nguyên tử khối trung bình là 10,81. Tính phần trăm đồng vị $^{10}\ce{B}$?
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+$\overline{A} = \dfrac{10x + 11(100 - x)}{100} = 10,81 \implies 1100 - x = 1081 \implies x = 19\%$.\\
+\textbf{Đáp số: 19\% (hoặc 19)}
+}
+""")
+    else:
+        tex.append(r"""
+\noindent\textit{Trả lời:} \dotfill
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 4 Trả lời ngắn
+    tex.append(r"""
+\begin{ex}
+Cho các cấu hình electron của một số nguyên tử nguyên tố như sau:\\
+(1) $\ce{1s^2 2s^2 2p^6}$\\
+(2) $\ce{1s^2 2s^2 2p^6 3s^2}$\\
+(3) $\ce{1s^2 2s^2 2p^6 3s^2 3p^6 3d^6 4s^2}$\\
+(4) $\ce{1s^2 2s^2 2p^6 3s^2 3p^6 3d^{10} 4s^2}$\\
+(5) $\ce{1s^2 2s^2 2p^6 3s^2 3p^4}$\\
+(6) $\ce{1s^2 2s^2 2p^6 3s^2 3p^5}$\\
+Số lượng các nguyên tố kim loại trong số các nguyên tố ở trên là bao nhiêu?
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+- (1) Khí hiếm ($\ce{Ne}$).\\
+- (2) Kim loại ($\ce{Mg}$).\\
+- (3) Kim loại chuyển tiếp ($\ce{Fe}$).\\
+- (4) Kim loại chuyển tiếp ($\ce{Zn}$).\\
+- (5) Phi kim ($\ce{S}$).\\
+- (6) Phi kim ($\ce{Cl}$).\\
+$\implies$ Có 3 nguyên tố kim loại: (2), (3), (4).\\
+\textbf{Đáp số: 3}
+}
+""")
+    else:
+        tex.append(r"""
+\noindent\textit{Trả lời:} \dotfill
+""")
+    tex.append(r"\end{ex}")
+
+    # PHẦN TỰ LUẬN
+    tex.append(r"""
+\vspace{6pt}
+\noindent
+{\color{mainGreen}\textbf{\Large B. TỰ LUẬN (3 điểm)}}
+\vspace{2pt}
+""")
+
+    # Câu 1 Tự luận
+    tex.append(r"""
+\noindent
+\textbf{Câu 1. (1,0 điểm)} Cho cấu hình electron của:\\
+- Nguyên tử $\ce{X}$: $\ce{1s^2 2s^2 2p^6 3s^2}$\\
+- Nguyên tử $\ce{Y}$: $\ce{1s^2 2s^2 2p^5}$\\
+a. Mỗi nguyên tử $\ce{X}$ và $\ce{Y}$ chứa bao nhiêu electron?\\
+b. Hãy cho biết số hiệu nguyên tử của $\ce{X}$ và $\ce{Y}$.\\
+c. Lớp electron nào trong nguyên tử $\ce{X}$ và $\ce{Y}$ có mức năng lượng cao nhất?\\
+d. $\ce{X}$ và $\ce{Y}$ là nguyên tố kim loại, phi kim hay khí hiếm?
+""")
+    if is_teacher:
+        tex.append(r"""
+\begin{tcolorbox}[colback=white,colframe=solBlue,title=\textbf{Lời giải chi tiết và Biểu điểm Câu 1:}]
+\begin{itemize}[leftmargin=1.2cm]
+\item \textbf{a. (0,25 đ):} Số electron của $\ce{X} = 2 + 2 + 6 + 2 = 12\text{ e}$; số electron của $\ce{Y} = 2 + 2 + 5 = 9\text{ e}$.
+\item \textbf{b. (0,25 đ):} Vì nguyên tử trung hòa điện nên $Z = e$: $Z_{\ce{X}} = 12\ (\ce{Mg})$; $Z_{\ce{Y}} = 9\ (\ce{F})$.
+\item \textbf{c. (0,25 đ):} Lớp xa hạt nhân nhất có mức năng lượng cao nhất: $\ce{X}$ có mức năng lượng cao nhất ở lớp thứ 3 (lớp M); $\ce{Y}$ ở lớp thứ 2 (lớp L).
+\item \textbf{d. (0,25 đ):} $\ce{X}$ có 2e lớp ngoài cùng $\implies$ Kim loại; $\ce{Y}$ có 7e lớp ngoài cùng $\implies$ Phi kim.
+\end{itemize}
+\end{tcolorbox}
+""")
+    else:
+        tex.append(r"""
+\vspace{1pt}
+\noindent
+\multido{\n=1+1}{6}{\dotfill\\[4pt]}
+""")
+
+    # Câu 2 Tự luận
+    tex.append(r"""
+\vspace{4pt}
+\noindent
+\textbf{Câu 2. (1,0 điểm)} Một mẫu sulfur có ba đồng vị: $^{32}\ce{S}$, $^{33}\ce{S}$ và $^{34}\ce{S}$ với tỷ lệ phần trăm các đồng vị như sau:
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Tỷ lệ} & \textbf{95,02\%} & \textbf{0,76\%} & \textbf{4,22\%} \\
+\hline
+\textbf{Khối lượng đồng vị} & \textbf{32} & \textbf{33} & \textbf{34} \\
+\hline
+\end{tabular}
+\end{center}
+a) Tính nguyên tử khối trung bình của sulfur (S).\\
+b) Nếu có 1000 nguyên tử $^{32}\ce{S}$ thì số nguyên tử $^{34}\ce{S}$ là bao nhiêu? (làm tròn đến hàng đơn vị).
+""")
+    if is_teacher:
+        tex.append(r"""
+\begin{tcolorbox}[colback=white,colframe=solBlue,title=\textbf{Lời giải chi tiết và Biểu điểm Câu 2:}]
+\textbf{a) (0,5 điểm)}
+\begin{itemize}[leftmargin=1.2cm]
+\item Áp dụng công thức nguyên tử khối trung bình:
+$$\overline{A} = \dfrac{32 \times 95,02 + 33 \times 0,76 + 34 \times 4,22}{100} = \dfrac{3209,20}{100} = 32,092\text{ amu} \approx 32,09\text{ amu}. \hfill \textit{(0,5 đ)}$$
+\end{itemize}
+\textbf{b) (0,5 điểm)}
+\begin{itemize}[leftmargin=1.2cm]
+\item Tỉ lệ số nguyên tử của $^{34}\ce{S}$ so với $^{32}\ce{S}$ là: $\dfrac{N(^{34}\ce{S})}{N(^{32}\ce{S})} = \dfrac{4,22\%}{95,02\%}$.
+\item Khi có 1000 nguyên tử $^{32}\ce{S}$:
+$$N(^{34}\ce{S}) = 1000 \times \dfrac{4,22}{95,02} \approx 44,41 \approx 44\text{ nguyên tử}. \hfill \textit{(0,5 đ)}$$
+\end{itemize}
+\end{tcolorbox}
+""")
+    else:
+        tex.append(r"""
+\vspace{1pt}
+\noindent
+\multido{\n=1+1}{6}{\dotfill\\[4pt]}
+""")
+
+    # Câu 3 Tự luận
+    tex.append(r"""
+\vspace{4pt}
+\noindent
+\textbf{Câu 3. (1,0 điểm)} Trong thi đấu thể dục thể thao, có một số vận động viên sử dụng các loại chất kích thích trong thi đấu, gọi là doping, dẫn đến thành tích đạt được của họ không thật sự phù hợp với năng lực vốn có. Một trong các loại doping thường gặp nhất là testosterone tổng hợp. Tỉ lệ giữa hai đồng vị $^{12}\ce{C}$ (98,98\%) và $^{13}\ce{C}$ (1,02\%) là không đổi với testosterone tự nhiên trong cơ thể. Trong khi testosterone tổng hợp (doping) có phần trăm số nguyên tử đồng vị $^{13}\ce{C}$ ít hơn testosterone tự nhiên. Đây chính là mấu chốt xác định xem vận động viên có sử dụng doping hay không.\\
+Trong một xét nghiệm với mục đích xác định xem vận động viên có sử dụng doping hay không, xét nghiệm phân tích theo CIR đối với một vận động viên thu được kết quả phần trăm số nguyên tử đồng vị $^{12}\ce{C}$ là x\% và $^{13}\ce{C}$ là y\%. Từ tỉ lệ này, người ta tính ra được khối lượng nguyên tử trung bình của carbon trong testosterone tổng hợp là 12,0098. Với kết quả nguyên tử khối trung bình của carbon trong mẫu phân tích có giá trị là 12,0098 thu được, em có nghi ngờ vận động viên này sử dụng doping không? Vì sao?
+""")
+    if is_teacher:
+        tex.append(r"""
+\begin{tcolorbox}[colback=white,colframe=solBlue,title=\textbf{Lời giải chi tiết và Biểu điểm Câu 3:}]
+\begin{itemize}[leftmargin=1.2cm]
+\item \textbf{Tính nguyên tử khối carbon tự nhiên:}
+$$\overline{A}_{\text{tự nhiên}} = \dfrac{12 \times 98,98 + 13 \times 1,02}{100} = 12,0102\text{ amu}. \hfill \textit{(0,3 đ)}$$
+\item \textbf{So sánh với mẫu phân tích:}
+$$\overline{A}_{\text{mẫu}} = 12,0098 < \overline{A}_{\text{tự nhiên}} = 12,0102. \hfill \textit{(0,2 đ)}$$
+\item \textbf{Phân tích bản chất đồng vị:}
+Do đồng vị $^{13}\ce{C}$ nặng hơn $^{12}\ce{C}$, khi nguyên tử khối trung bình giảm từ 12,0102 xuống 12,0098 chứng tỏ hàm lượng đồng vị $^{13}\ce{C}$ trong mẫu đã bị giảm sút:
+$$\%^{13}\ce{C}_{\text{mẫu}} = \dfrac{12,0098 - 12}{13 - 12} \times 100\% = 0,98\% < 1,02\%. \hfill \textit{(0,2 đ)}$$
+\item \textbf{Kết luận:} \textbf{CÓ NGHI NGỜ} vận động viên này sử dụng doping, vì hàm lượng đồng vị $^{13}\ce{C}$ trong mẫu thấp hơn tỉ lệ tự nhiên trong cơ thể người, dẫn đến nguyên tử khối trung bình giảm, phù hợp với đặc tính của testosterone tổng hợp ngoại sinh. \hfill \textit{(0,3 đ)}
+\end{itemize}
+\end{tcolorbox}
+""")
+    else:
+        tex.append(r"""
+\vspace{1pt}
+\noindent
+\multido{\n=1+1}{8}{\dotfill\\[4pt]}
+""")
+
+    tex.append(r"""
+\vspace{6pt}
+\begin{center}
+\textbf{\large ---------- HẾT ----------}\\
+\textit{\small - Học sinh không được sử dụng tài liệu; Giám thị không giải thích gì thêm. -}
+\end{center}
+
+\end{document}
+""")
+
+    return "".join(tex)
+
+def compile_pdf(tex_path):
+    out_dir = os.path.dirname(tex_path)
+    base_name = os.path.splitext(os.path.basename(tex_path))[0]
+    
+    for i in range(2):
+        cmd = ["pdflatex", "-interaction=nonstopmode", f"-output-directory={out_dir}", tex_path]
+        res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, cwd=out_dir)
+        if res.returncode != 0 and i == 1:
+            print(f"[CẢNH BÁO] pdflatex kết thúc với mã {res.returncode}")
+            log_file = os.path.join(out_dir, f"{base_name}.log")
+            if os.path.exists(log_file):
+                with open(log_file, "r", encoding="utf-8", errors="ignore") as f:
+                    lines = f.readlines()
+                    print("".join(lines[-30:]))
+    
+    for ext in [".aux", ".log", ".thm", ".out", ".synctex.gz"]:
+        f_junk = os.path.join(out_dir, base_name + ext)
+        if os.path.exists(f_junk):
+            try:
+                os.remove(f_junk)
+            except Exception:
+                pass
+    for f in glob.glob(os.path.join(out_dir, "ans-*.tex")):
+        try:
+            os.remove(f)
+        except Exception:
+            pass
+    print(f"[OK] Đã biên dịch xong PDF: {os.path.join(out_dir, base_name + '.pdf')}")
+
+def main():
+    tex_hs = os.path.join(SAN_PHAM_DIR, "De_Kiem_Tra_GK1_Hoa_10_ChuyenKhoaHocHue_Ma235_HocSinh.tex")
+    tex_gv = os.path.join(SAN_PHAM_DIR, "De_Kiem_Tra_GK1_Hoa_10_ChuyenKhoaHocHue_Ma235_GiaoVien.tex")
+
+    print("Đang tạo mã nguồn LaTeX Bản Học sinh THPT Chuyên Khoa Học Huế (Mã đề 235)...")
+    with open(tex_hs, "w", encoding="utf-8") as f:
+        f.write(build_latex_content(is_teacher=False))
+
+    print("Đang tạo mã nguồn LaTeX Bản Giáo viên THPT Chuyên Khoa Học Huế (Mã đề 235)...")
+    with open(tex_gv, "w", encoding="utf-8") as f:
+        f.write(build_latex_content(is_teacher=True))
+
+    print("\nĐang biên dịch PDF Bản Học sinh THPT Chuyên Khoa Học Huế (Mã đề 235)...")
+    compile_pdf(tex_hs)
+
+    print("\nĐang biên dịch PDF Bản Giáo viên THPT Chuyên Khoa Học Huế (Mã đề 235)...")
+    compile_pdf(tex_gv)
+
+    print("\n[HOÀN TẤT] Toàn bộ file .tex và .pdf đã được tạo và biên dịch thành công!")
+
+if __name__ == "__main__":
+    main()
