@@ -782,3 +782,54 @@ Hệ thống tự động theo dõi, chuyển đổi và quản lý toàn bộ c
 - **Đồng bộ tự động sang OneDrive:**
   - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\`
   - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\KHTN9-DEKIEMTRADINHKI\`
+
+---
+
+### Đợt 61: Hoàn thành Số hóa và Chuyển đổi ĐỀ KIỂM TRA GIỮA HỌC KÌ I - KHTN 8 (TRƯỜNG THCS NGUYỄN THỊ MINH KHAI - NH 2026 - 2027) thành Bộ 3 Bản Word Chuẩn FORM ĐỀ KIỂM TRA
+
+- **Thời gian thực hiện:** 05/11/2026
+- **Tài liệu nguồn:** 4 trang ảnh chụp đề kiểm tra chính thức (Thời gian làm bài: 90 phút, 4 trang) của học sinh Lê Bảo Long - Trường THCS Nguyễn Thị Minh Khai (UBND Phường Thủy Xuân - TP Huế).
+- **Cấu trúc & Nội dung đề kiểm tra:**
+  - **A. TRẮC NGHIỆM (7,0 điểm)**
+    + *Phần I: 12 câu trắc nghiệm nhiều phương án lựa chọn (3,0 điểm - mỗi câu 0,25 đ):*
+      * Câu 1: Dụng cụ đo thể tích chất lỏng phổ biến $\to$ Bình chia độ (B).
+      * Câu 2: Thiết bị đo cường độ dòng điện $\to$ Ampe kế (C).
+      * Câu 3: Thu gom, xử lý hóa chất thải lỏng $\to$ Gom vào bình chứa riêng có dán nhãn phân loại (C).
+      * Câu 4: Quy tắc an toàn điện trong phòng thực hành $\to$ Nguồn điện dưới 24 V (D).
+      * Câu 5: Trường hợp diễn ra sự biến đổi hóa học $\to$ Đốt cháy ngọn nến tạo $CO_2$ và hơi nước (D).
+      * Câu 6: Khái niệm Mol $\to$ Lượng chất chứa $6,022 \times 10^{23}$ nguyên tử hoặc phân tử chất đó (A).
+      * Câu 7: Thể tích ở đkc của 0,2 mol khí $CO_2 \to 0,2 \times 24,79 = 4,958\text{ lít}$ (A).
+      * Câu 8: Khối lượng riêng hòn sỏi ($m = 27\text{ g}, V = 10\text{ cm}^3) \to D = 2700\text{ kg/m}^3$ (A).
+      * Câu 9: Khối lượng riêng khối gỗ $10 \times 5 \times 2\text{ cm}, m = 80\text{ g} \to D = 800\text{ kg/m}^3$ (A).
+      * Câu 10: Lồng thêm ống sắt vào cán búa $\to$ Tăng cánh tay đòn, tăng moment lực kéo (B).
+      * Câu 11: Hệ cơ quan vận chuyển oxygen, dinh dưỡng và chất thải $\to$ Hệ tuần hoàn (B).
+      * Câu 12: Enzyme amylase trong nước bọt $\to$ Thủy phân tinh bột chín thành đường maltose (B).
+    + *Phần II: 2 câu trắc nghiệm Đúng - Sai (2,0 điểm - 8 ý):*
+      * Câu 13 (Hóa học & Đo lường - Dung dịch và nồng độ): a) Đ; b) Đ ($m_{NaCl} = 5,85\text{ g}$); c) S (Cần 2 cổng quang điện đo tốc độ trung bình toàn quãng đường); d) S (Phải hòa tan chất tan trước rồi mới thêm nước đến vạch định mức).
+      * Câu 14 (Vật lí - Tác dụng làm quay của lực và đòn bẩy): a) Đ; b) S (Lực đi qua trục quay hoặc song song không làm quay vật); c) Đ ($OO_2 > OO_1 \to F_2 < P$); d) Đ (Lồng ống thép làm tăng cánh tay đòn và moment lực).
+    + *Phần III: 8 câu trắc nghiệm trả lời ngắn (2,0 điểm - mỗi câu 0,25 đ):*
+      * Câu 15: Hệ số của chất sản phẩm $P_2O_5$ trong $4P + 5O_2 \xrightarrow{t^\circ} 2P_2O_5 \to 2$.
+      * Câu 16: Tỉ lệ số nguyên tử Zn : số phân tử $H_2$ trong $Zn + 2HCl \to ZnCl_2 + H_2 \to 1:1$.
+      * Câu 17: Dãy chữ số tăng dần nhận định đúng thí nghiệm $CaCO_3 + 2HCl$ bình kín $\to 123$.
+      * Câu 18: Tổng hệ số cân bằng $a+b+c$ của $4Al + 3O_2 \xrightarrow{t^\circ} 2Al_2O_3 \to 9$.
+      * Câu 19: Lực nâng đòn bẩy $P = 5000\text{ N}, OO_1 = 0,2\text{ m}, OO_2 = 0,8\text{ m} \to F = 1250\text{ N}$.
+      * Câu 20: Tỉ số cánh tay đòn $OO_1/OO_2 = 1/4 \to F_2/P = 0,25$.
+      * Câu 21: Khoảng cách $OO_1$ khi $P = 200\text{ N}, F_2 = 50\text{ N}, OO_2 = 1,0\text{ m} \to OO_1 = 0,25\text{ m}$.
+      * Câu 22: Khoảng cách $OO_2$ khi $P = 8000\text{ N}, F = 2000\text{ N}, OO_1 = 0,5\text{ m} \to OO_2 = 2\text{ m}$.
+  - **B. TỰ LUẬN (3,0 điểm - 4 câu):**
+    + Câu 23 (0,75 đ): Phân biệt biến đổi vật lí (không tạo chất mới) và biến đổi hoá học (có tạo chất mới); Lấy ví dụ minh họa trong đời sống.
+    + Câu 24 (0,75 đ): Định nghĩa khối lượng riêng; Công thức $D = m / V$; giải thích đầy đủ tên gọi, ký hiệu và đơn vị chuẩn trong hệ SI ($kg/m^3, kg, m^3$).
+    + Câu 25 (0,75 đ): Ứng dụng áp suất $p = F / S$: a) Mũi đinh, kim khâu, lưỡi dao mài nhọn giảm $S$ để tăng áp suất $p$; b) Bánh xích xe tăng, tà vẹt đường ray tăng diện tích $S$ để giảm áp suất $p$ tránh sụt lún.
+    + Câu 26 (0,75 đ): Sinh học hệ vận động: 2 biện pháp bảo vệ hệ vận động (dinh dưỡng, thể thao, tư thế); Hậu quả của ngồi học sai tư thế (cong vẹo cột sống, gù lưng, đau mỏi) và biện pháp phòng tránh.
+- **Quy chuẩn kỹ thuật áp dụng theo FORM ĐỀ KIỂM TRA:**
+  - Khổ giấy A4, lề trên = dưới = trái = phải = 1.5 cm; Header & Footer 0.6 cm.
+  - Header & Footer chuẩn: Coral Red (`#D32F2F`) - Sage Green (`#8BC390`), `Thầy TRẦN VĂN THẠNH - 0777.470.803`, số trang tự động `PAGE`.
+  - **Tuyệt đối KHÔNG dùng dạng bảng (Table) trong nội dung đề thi**: Các phương án A, B, C, D sử dụng Tab stops căn lề chuẩn; Lời giải chi tiết thụt lề 0.6 cm in đậm màu xanh `#1565C0`.
+- **Trọn bộ sản phẩm hoàn thành:**
+  1. `San_Pham/De_Kiem_Tra_KHTN_8_Giua_HK1_Minh_Khai_HocSinh.docx`: Bản Học sinh chuẩn in ấn làm bài, có dòng kẻ chấm làm bài tự luận.
+  2. `San_Pham/De_Kiem_Tra_KHTN_8_Giua_HK1_Minh_Khai_GiaoVien.docx`: Bản Giáo viên có đáp án in đậm màu đỏ, lời giải chi tiết và bảng tổng hợp đáp án cuối tài liệu.
+  3. `San_Pham/De_Kiem_Tra_KHTN_8_Giua_HK1_Minh_Khai_DayTrenManHinh.docx`: Bản Dạy trên màn hình cỡ chữ 11.5pt - 12pt, khoảng cách dòng thoáng, có khung ghi chú bài dạy trực quan.
+- **Sao lưu tự động vào OneDrive:**
+  - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn8\`
+  - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn8\KHTN8-IN-DEKIEMTRADINHKI\`
+
