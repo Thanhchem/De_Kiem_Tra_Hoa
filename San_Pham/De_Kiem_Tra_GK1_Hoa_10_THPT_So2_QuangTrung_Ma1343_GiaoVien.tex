@@ -1,0 +1,557 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{geometry}
+\geometry{top=1.5cm,bottom=1.2cm,left=1.4cm,right=1.4cm,headheight=28pt,headsep=12pt,footskip=18pt}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{multido}
+\usepackage{tcolorbox}
+
+\definecolor{hfRed}{HTML}{D32F2F}
+\definecolor{hfGreen}{HTML}{8BC390}
+\definecolor{mainGreen}{HTML}{2E7D32}
+\definecolor{solBlue}{HTML}{1565C0}
+\definecolor{tableGreen}{HTML}{E8F5E9}
+
+\usepackage{ex_test}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.75pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0.75pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+
+\fancyhead[L]{\small\itshape\color{hfRed}Tài liệu lưu hành nội bộ}
+\fancyhead[R]{\small\color{hfRed}Thầy \textbf{TRẦN VĂN THẠNH} - 0777.470.803}
+
+\fancyfoot[L]{\footnotesize\itshape\color{hfRed}CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+\fancyfoot[R]{\small\textbf{\color{hfRed}Trang \thepage}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+
+\begin{document}
+
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{SỞ GD \& ĐT GIA LAI}\\
+\textbf{TRƯỜNG THPT SỐ 2 QUANG TRUNG}\\
+\textit{ĐỀ CHÍNH THỨC}\\
+\textit{(Đề thi có 04 trang)}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\raggedleft
+\textbf{\color{hfRed}ĐỀ KIỂM TRA GIỮA KỲ I, NĂM HỌC 2026 - 2027}\\
+\textbf{MÔN HÓA HỌC -- KHỐI 10}\\
+\textit{Thời gian làm bài: 45 phút (không kể thời gian phát đề)}\\
+\textbf{MÃ ĐỀ: 1343}
+\end{minipage}
+
+\vspace{4pt}
+\noindent
+\textit{Họ và tên:} \dotfill \textit{Số báo danh:} \dotfill
+
+\vspace{3pt}
+\noindent
+\textit{\footnotesize Cho nguyên tử khối của các nguyên tố: $\ce{C} = 12; \ce{H} = 1; \ce{O} = 16; \ce{Na} = 23; \ce{Br} = 80; \ce{N} = 14$.}
+
+\vspace{3pt}
+\hrule color{hfGreen} height 0.5pt
+
+\vspace{4pt}
+\begin{center}
+\textbf{\color{hfRed}\large (BẢN GIÁO VIÊN -- CÓ LỜI GIẢI CHI TIẾT)}
+\end{center}
+
+\vspace{2pt}
+\begin{center}
+{\color{hfRed}\textbf{\large BẢNG ĐÁP ÁN RÚT GỌN (DÀNH CHO GIÁO VIÊN - MÃ ĐỀ 1343)}}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}1. Phần I: Trắc nghiệm nhiều lựa chọn (4,0 điểm - mỗi câu đúng 0,25 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} \\
+\hline
+\textbf{Đ/A} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}B} \\
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} & \textbf{13} & \textbf{14} & \textbf{15} & \textbf{16} \\
+\hline
+\textbf{Đ/A} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}A} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}2. Phần II: Trắc nghiệm Đúng / Sai (2,0 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|l|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Nội dung câu hỏi} & \textbf{Lệnh a} & \textbf{Lệnh b} & \textbf{Lệnh c} & \textbf{Lệnh d} \\
+\hline
+\textbf{Câu 1} & Cấu tạo nguyên tử Lithium & \textbf{SAI} & \textbf{\color{hfRed}ĐÚNG} & \textbf{SAI} & \textbf{SAI} \\
+\hline
+\textbf{Câu 2} & Bảng tuần hoàn \& Bán kính (Na, Mg, K) & \textbf{\color{hfRed}ĐÚNG} & \textbf{\color{hfRed}ĐÚNG} & \textbf{SAI} & \textbf{SAI} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}3. Phần III: Trả lời ngắn (2,0 điểm - mỗi câu đúng 0,5 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Câu 1} & \textbf{Câu 2} & \textbf{Câu 3} & \textbf{Câu 4} \\
+\hline
+\textbf{Đáp án} & \textbf{\color{hfRed}35,5} & \textbf{\color{hfRed}3} (hoặc \textbf{2*}) & \textbf{\color{hfRed}2} & \textbf{\color{hfRed}2} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}4. Tóm tắt đáp số Phần Tự luận (2,0 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|p{11.5cm}|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Điểm} & \textbf{Đáp số cốt lõi} \\
+\hline
+\textbf{Câu 1} & 1,0 đ & a) Lớp ngoài cùng gồm phân lớp 2s và 2p; tổng số $\text{AO} = 4$. \quad b) Ô orbital $\ce{F}$: $\ce{1s^2 2s^2 2p^5}$. \\
+\hline
+\textbf{Câu 2} & 1,0 đ & a) \% số nguyên tử $^{14}\ce{N}$ ($\ce{X_1}$) = $99,63\%$. \quad b) Khối lượng đồng vị $\ce{X_2}$ ($^{15}\ce{N}$) = $3,81\text{ gam}$. \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{4pt}
+\hrule color{hfGreen} height 0.5pt
+
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\Large PHẦN I. TRẮC NGHIỆM NHIỀU LỰA CHỌN (4,0 điểm)}}\\
+\textit{\small Học sinh trả lời từ câu 1 đến câu 16. Mỗi câu học sinh chỉ chọn một phương án đúng.}
+\vspace{2pt}
+
+\begin{ex}
+Nguyên tử của một nguyên tố có bốn lớp electron như hình vẽ dưới đây:
+\begin{center}
+\includegraphics[width=6.5cm]{c:/Antigravity_Thanh/San_Pham/images_thpt_so2_quangtrung/hinh_cau1_lop_e.png}
+\end{center}
+Trong nguyên tử đã cho, electron thuộc lớp nào có mức năng lượng thấp nhất?
+\choice
+{\True Lớp K}
+{Lớp M}
+{Lớp L}
+{Lớp N}
+
+\loigiai{
+Trong nguyên tử, các electron ở lớp càng gần hạt nhân liên kết càng chặt chẽ và có mức năng lượng càng thấp. Lớp K ($n = 1$) ở gần hạt nhân nhất nên có mức năng lượng thấp nhất.\\
+\textbf{Chọn A.}
+}
+\end{ex}
+\begin{ex}
+Để so sánh độ acid của nước ép, một nhóm học sinh đưa ra giả thuyết: \textit{''Nước cam tươi có độ acid cao hơn nước táo''}. Để kiểm chứng giả thuyết, học sinh đo pH để xác định độ acid của hai mẫu nước ép bằng cùng một thiết bị đã hiệu chuẩn, trong cùng điều kiện thí nghiệm. Kết quả cho thấy pH của hai mẫu bằng nhau trong phạm vi độ chính xác của phép đo. Dựa trên kết quả thực nghiệm, nhận định nào sau đây là phù hợp nhất?
+\choice
+{Cần điều chỉnh kết quả đo để chứng minh nước cam có độ acid cao hơn nước táo}
+{Hai mẫu nước ép có thành phần hóa học và hàm lượng acid hoàn toàn giống nhau}
+{Giả thuyết ban đầu được xác nhận vì nước cam thường có vị chua}
+{\True Kết quả chưa ủng hộ giả thuyết ban đầu; cần đánh giá độ tin cậy của phép đo và tiến hành kiểm chứng thêm nếu cần}
+
+\loigiai{
+Theo phương pháp thực nghiệm khoa học: Không được tự ý sửa đổi số liệu; không thể kết luận hai mẫu giống nhau hoàn toàn chỉ qua một phép đo pH; và không dùng cảm tính vị giác. Kết quả thực nghiệm chưa ủng hộ giả thuyết ban đầu, do đó cần đánh giá độ tin cậy của thiết bị và quy trình đo, đồng thời tiến hành thêm các thí nghiệm kiểm chứng.\\
+\textbf{Chọn D.}
+}
+\end{ex}
+\begin{ex}
+Nội dung nào dưới đây thuộc đối tượng nghiên cứu của hóa học?
+\choice
+{Quá trình phát triển của loài người}
+{Tốc độ ánh sáng trong chân không}
+{\True Cấu tạo của chất và sự biến đổi của chất}
+{Sự hình thành hệ Mặt Trời}
+
+\loigiai{
+Hóa học là ngành khoa học tự nhiên nghiên cứu về thành phần, cấu trúc, tính chất và sự biến đổi của các chất cũng như ứng dụng của chúng.\\
+\textbf{Chọn C.}
+}
+\end{ex}
+\begin{ex}
+Các hạt cấu tạo nên hầu hết hạt nhân của nguyên tử (trừ $^1\ce{H}$) là:
+\choice
+{\True Proton và neutron}
+{Electron và neutron}
+{Electron, proton và neutron}
+{Electron và proton}
+
+\loigiai{
+Hạt nhân của hầu hết các nguyên tử cấu tạo từ 2 loại hạt: proton và neutron.\\
+\textbf{Chọn A.}
+}
+\end{ex}
+\begin{ex}
+Cơ sở tái chế chai nhựa tạo nguyên liệu cho sản xuất. Vai trò trực tiếp của hóa học trong hoạt động này là
+\choice
+{xác định tuổi cây}
+{đo độ cao địa hình}
+{\True xử lí và tái sử dụng vật liệu}
+{dự báo lượng mưa}
+
+\loigiai{
+Tái chế chai nhựa là quá trình xử lí, tinh chế và tái sử dụng vật liệu polymer bảo vệ môi trường.\\
+\textbf{Chọn C.}
+}
+\end{ex}
+\begin{ex}
+Cho các nguyên tử $_{11}\ce{X}, _{13}\ce{Y}, _{15}\ce{Z}$ và $_{17}\ce{T}$ có giá trị độ âm điện theo biểu đồ dưới:
+\begin{center}
+\includegraphics[width=8.0cm]{c:/Antigravity_Thanh/San_Pham/images_thpt_so2_quangtrung/hinh_cau6_do_am_dien.png}
+\end{center}
+Nhận định nào sau đây đúng?
+\choice
+{$\ce{X}$ có tính kim loại yếu nhất vì có độ âm điện nhỏ nhất}
+{$\ce{Y}$ có khả năng hút electron trong liên kết hóa học mạnh hơn $\ce{Z}$}
+{$\ce{T}$ có xu hướng nhường electron mạnh hơn $\ce{X}$ vì có độ âm điện lớn hơn}
+{\True $\ce{T}$ có tính phi kim mạnh nhất trong 4 nguyên tố}
+
+\loigiai{
+Độ âm điện đặc trưng cho khả năng hút electron khi tạo liên kết hóa học. Độ âm điện càng lớn thì tính phi kim càng mạnh. $\ce{T}$ có độ âm điện lớn nhất ($3,16$) nên $\ce{T}$ có tính phi kim mạnh nhất trong 4 nguyên tố.\\
+\textbf{Chọn D.}
+}
+\end{ex}
+\begin{ex}
+Việc sản xuất phân bón hóa học (phân đạm, phân lân, phân kali) thể hiện vai trò nào sau đây của hóa học đối với đời sống và sản xuất?
+\choice
+{Chế tạo thiết bị chẩn đoán hình ảnh trong y học}
+{\True Góp phần tăng năng suất cây trồng, đảm bảo nguồn lương thực}
+{Dự báo chính xác thời tiết cho mùa vụ}
+{Tạo ra nguồn điện cung cấp cho các nhà máy}
+
+\loigiai{
+Phân bón hóa học cung cấp chất dinh dưỡng khoáng cho cây trồng, góp phần tăng năng suất và sản lượng lương thực.\\
+\textbf{Chọn B.}
+}
+\end{ex}
+\begin{ex}
+Một cách tính tương đối khối lượng nguyên tử gần bằng khối lượng hạt nhân là do
+\choice
+{khối lượng hạt nhân bằng khối lượng proton}
+{\True Khối lượng electron rất nhỏ nên bỏ qua}
+{Hạt nhân không mang điện}
+{Khối lượng proton gần bằng khối lượng neutron}
+
+\loigiai{
+Khối lượng electron rất nhỏ ($m_e \approx 0,00055\text{ amu}$) so với proton và neutron ($\approx 1\text{ amu}$), chiếm chưa tới 0,05\% khối lượng nguyên tử nên được bỏ qua khi tính tương đối.\\
+\textbf{Chọn B.}
+}
+\end{ex}
+\begin{ex}
+Hình dạng sau là của
+\begin{center}
+\includegraphics[width=9.5cm]{c:/Antigravity_Thanh/San_Pham/images_thpt_so2_quangtrung/hinh_cau9_orbital_p.png}
+\end{center}
+\choice
+{\True Orbital p}
+{Orbital f}
+{Orbital d}
+{Orbital s}
+
+\loigiai{
+Hình vẽ biểu diễn các orbital p gồm hai phần đối xứng dạng hình số 8 nổi định hướng dọc theo các trục tọa độ $p_x, p_y, p_z$.\\
+\textbf{Chọn A.}
+}
+\end{ex}
+\begin{ex}
+Calcium ($\ce{Ca}$) là nguyên tố khoáng đa lượng cần thiết cho cơ thể, góp phần hình thành và duy trì độ chắc khỏe của xương, răng. Nguyên tử calcium có 20 electron. Vị trí của calcium trong bảng tuần hoàn là
+\choice
+{ô số 20, chu kì 4, nhóm IIB}
+{\True ô số 20, chu kì 4, nhóm IIA}
+{ô số 20, chu kì 3, nhóm VIA}
+{ô số 20, chu kì 4, nhóm VIB}
+
+\loigiai{
+$\ce{Ca} (Z = 20)$: $\ce{1s^2 2s^2 2p^6 3s^2 3p^6 4s^2}$.\\
+- Số electron = 20 $\implies$ Ô 20.\\
+- Có 4 lớp electron $\implies$ Chu kì 4.\\
+- Có 2 electron hóa trị ở phân lớp $4s$, nguyên tố s $\implies$ Nhóm IIA.\\
+\textbf{Chọn B.}
+}
+\end{ex}
+\begin{ex}
+Phát biểu nào sau đây không đúng ?
+\choice
+{Trong nguyên tử, các electron được sắp xếp thành từng lớp, lớp lại được chia thành các phân lớp}
+{Các electron trong cùng một lớp có mức năng lượng gần bằng nhau}
+{Các phân lớp được kí hiệu bằng chữ cái viết thường s, p, d, f}
+{\True Các electron trong cùng một phân lớp có mức năng lượng khác nhau}
+
+\loigiai{
+Các electron trong cùng một phân lớp có mức năng lượng bằng nhau (không phải khác nhau).\\
+\textbf{Chọn D.}
+}
+\end{ex}
+\begin{ex}
+Magnesium ($\ce{Mg}$) là một trong những nguyên tố đa lượng đóng vai trò quan trọng của cơ thể, giúp xương chắc khỏe, tim khỏe mạnh và lượng đường trong máu bình thường. Tỉ lệ phần trăm số nguyên tử các đồng vị của magnesium được xác định theo phổ khối lượng như hình dưới đây (biết rằng điện tích $z$ của các ion đồng vị của magnesium đều bằng $+2$ và quy ước nguyên tử khối bằng số khối).
+\begin{center}
+\includegraphics[width=8.0cm]{c:/Antigravity_Thanh/San_Pham/images_thpt_so2_quangtrung/hinh_cau12_pho_khoi_mg.png}
+\end{center}
+Nhận định nào sau đây là sai
+\choice
+{Dựa vào phương pháp phổ khối lượng trên để xác định được phần trăm số nguyên tử đồng vị trong tự nhiên của magnesium có 3 đồng vị bền}
+{Ba đồng vị của magnesium trên phổ có số khối lần lượt là 24, 25 và 26}
+{\True Nguyên tử khối trung bình của magnesium bằng 27,31}
+{Số hạt neutron có trong 3 đồng vị lần lượt là 12, 13, 14}
+
+\loigiai{
+Số khối $m = (m/z) \times 2 \implies$ 3 đồng vị là $^{24}\ce{Mg} (78,99\%)$, $^{25}\ce{Mg} (10\%)$, $^{26}\ce{Mg} (11,01\%)$.\\
+Nguyên tử khối trung bình của $\ce{Mg}$: $\overline{A} = \dfrac{24 \times 78,99 + 25 \times 10 + 26 \times 11,01}{100} = 24,32\text{ amu} \ne 27,31$.\\
+\textbf{Chọn C.}
+}
+\end{ex}
+\begin{ex}
+Nguyên tử $\ce{M}$ cho 3 electron để tạo ion $\ce{M^{3+}}$. Ion $\ce{M^{3+}}$ có cấu hình electron được biểu diễn dưới dạng orbital (AO) như sau :
+\begin{center}
+\includegraphics[width=9.5cm]{c:/Antigravity_Thanh/San_Pham/images_thpt_so2_quangtrung/hinh_cau13_orbital_m3.png}
+\end{center}
+Nhận định nào sau đây là đúng
+\choice
+{Ở dạng bền nhất và trạng thái cơ bản, nguyên tử $\ce{M}$ có 5 electron độc thân}
+{\True $\ce{M}$ là một kim loại}
+{Trong ion $\ce{M^{3+}}$ có số proton bằng số electron}
+{Ở dạng bền nhất, nguyên tử $\ce{M}$ có 23 electron ở lớp vỏ}
+
+\loigiai{
+Ion $\ce{M^{3+}}$ có 23 electron, cấu hình $\ce{[Ar] 3d^5}$.\\
+Nguyên tử $\ce{M}$ có số electron = $23 + 3 = 26$ ($\ce{Fe}$): cấu hình $\ce{[Ar] 3d^6 4s^2}$.\\
+$\ce{M}$ là kim loại chuyển tiếp ($\ce{Fe}$).\\
+\textbf{Chọn B.}
+}
+\end{ex}
+\begin{ex}
+Quá trình nào sau đây là sự biến đổi hóa học?
+\choice
+{Đường tan vào nước}
+{Cồn bay hơi trong không khí}
+{Nước đá tan chảy thành nước lỏng}
+{\True Đinh sắt để lâu ngày trong không khí ẩm bị gỉ}
+
+\loigiai{
+Đinh sắt bị oxi hóa tạo gỉ sắt là quá trình hóa học sinh ra chất mới.\\
+\textbf{Chọn D.}
+}
+\end{ex}
+\begin{ex}
+Những nguyên tử có cùng số proton nhưng khác nhau về số neutron được gọi là
+\choice
+{các đồng vị của cùng nhiều nguyên tố hóa học}
+{các đồng vị của cùng một nguyên tử hóa học}
+{\True các đồng vị của cùng một nguyên tố hóa học}
+{các đồng phân của cùng một nguyên tố hóa học}
+
+\loigiai{
+Định nghĩa đồng vị: các nguyên tử của cùng một nguyên tố hóa học có cùng số proton nhưng khác nhau về số neutron.\\
+\textbf{Chọn C.}
+}
+\end{ex}
+\begin{ex}
+Orbital nguyên tử là
+\choice
+{\True khu vực không gian xung quanh hạt nhân mà tại đó xác suất có mặt electron lớn nhất}
+{đám mây chứa electron có dạng hình cầu}
+{đám mây chứa electron có dạng hình số 8 nổi}
+{quỹ đạo chuyển động của electron quay quanh hạt nhân có kích thước năng lượng xác định}
+
+\loigiai{
+Orbital nguyên tử là vùng không gian quanh hạt nhân mà tại đó xác suất tìm thấy electron là lớn nhất ($\approx 90\%$).\\
+\textbf{Chọn A.}
+}
+\end{ex}
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\Large PHẦN II. TRẮC NGHIỆM ĐÚNG - SAI (2,0 điểm)}}\\
+\textit{\small Học sinh trả lời từ câu 1 đến câu 2. Trong mỗi ý a), b), c), d) ở mỗi câu, học sinh chọn đúng hoặc sai.}
+\vspace{2pt}
+
+\begin{ex}
+Lithium ($\ce{Li}$) và các hợp chất của nó được dùng trong pin, sản xuất thủy tinh, gốm và một số hợp kim nhẹ. Hình dưới đây mô phỏng cấu tạo của nguyên tử $\ce{Li}$ (hạt đỏ là proton, hạt xám là neutron, hạt xanh là electron).
+\begin{center}
+\includegraphics[width=6.0cm]{c:/Antigravity_Thanh/San_Pham/images_thpt_so2_quangtrung/hinh_p2_cau1_lithium.png}
+\end{center}
+Biết $m_{\text{proton}} \approx 1\text{ amu}, m_{\text{neutron}} \approx 1\text{ amu}$ và $1\text{ amu} = 1,661 \cdot 10^{-24}\text{ g}$. Hãy cho biết những phát biểu sau là đúng hay sai?
+\choiceTF
+{Điện tích hạt nhân của nguyên tử Lithium bằng -3}
+{\True Trong hạt nhân nguyên tử Lithium có 3 proton}
+{Khối lượng hạt nhân bằng $1,1627 \cdot 10^{-26}\text{ kg}$ và nhỏ hơn rất nhiều khối lượng nguyên tử}
+{Lithium là nguyên tố kim loại vì nguyên tử có 3 electron lớp ngoài cùng}
+
+\loigiai{
+a) \textbf{Sai}: Điện tích hạt nhân mang dấu dương: $+3$ (hoặc $+3e$).\\
+b) \textbf{Đúng}: Hạt nhân có 3 hạt proton (hạt đỏ có dấu $+$).\\
+c) \textbf{Sai}: Khối lượng hạt nhân tập trung gần như toàn bộ khối lượng nguyên tử nên xấp xỉ bằng khối lượng nguyên tử (không thể \"nhỏ hơn rất nhiều\").\\
+d) \textbf{Sai}: Cấu hình electron của $\ce{Li} (Z = 3)$ là $\ce{1s^2 2s^1}$, lớp ngoài cùng chỉ có 1 electron (không phải 3e).
+}
+\end{ex}
+\begin{ex}
+Bảng tuần hoàn các nguyên tố hóa học được xây dựng dựa trên cấu tạo nguyên tử, giúp hệ thống hóa các nguyên tố và dự đoán sự biến đổi tính chất của chúng. Cho ba nguyên tố $\ce{Na} (Z = 11), \ce{Mg} (Z = 12)$ và $\ce{K} (Z = 19)$. Hãy xác định các phát biểu sau đây là đúng hay sai.
+\choiceTF
+{\True Trong bảng tuần hoàn, mỗi nguyên tố được xếp vào một ô nguyên tố theo chiều tăng dần của điện tích hạt nhân}
+{\True Trong một chu kì, theo chiều tăng dần của điện tích hạt nhân, bán kính nguyên tử nhìn chung giảm vì số lớp electron không đổi, lực hút của hạt nhân đối với electron ngoài cùng tăng}
+{Các nguyên tố được sắp xếp theo chiều tăng dần của điện tích hạt nhân, các nguyên tố có cùng số lớp electron được xếp vào cùng một nhóm nguyên tố}
+{Bán kính nguyên tử tăng dần theo thứ tự $\ce{K < Na < Mg}$}
+
+\loigiai{
+a) \textbf{Đúng}: Nguyên tắc sắp xếp theo chiều tăng $Z$.\\
+b) \textbf{Đúng}: Trong chu kì, số lớp e không đổi, $Z$ tăng làm lực hút hạt nhân với electron lớp ngoài cùng tăng $\implies$ bán kính giảm.\\
+c) \textbf{Sai}: Các nguyên tố có cùng số lớp electron được xếp vào cùng một chu kì (hàng), không phải nhóm.\\
+d) \textbf{Sai}: Trong chu kì 3, bán kính $\ce{Mg < Na}$; trong nhóm IA, bán kính $\ce{Na < K} \implies$ Thứ tự tăng dần đúng: $\ce{Mg < Na < K}$.
+}
+\end{ex}
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\Large PHẦN III. TRẮC NGHIỆM TRẢ LỜI NGẮN (2,0 điểm)}}\\
+\textit{\small Học sinh trả lời từ câu 1 đến câu 4.}
+\vspace{2pt}
+
+\begin{ex}
+Trong tự nhiên, chlorine có hai đồng vị bền $^{35}_{17}\ce{Cl}$ (chiếm 75,5\% số nguyên tử) và $^{37}_{17}\ce{Cl}$ (chiếm 24,5\% số nguyên tử). Tính nguyên tử khối trung bình của chlorine (làm tròn kết quả đến hàng phần mười).
+
+\loigiai{
+$\overline{A} = \dfrac{35 \times 75,5 + 37 \times 24,5}{100} = 35,49 \approx 35,5$.\\
+\textbf{Đáp số: 35,5}
+}
+\end{ex}
+\begin{ex}
+Cho các phát biểu sau:\\
+(1) Nguyên tố hóa học là tập hợp các nguyên tử có cùng số proton trong hạt nhân.\\
+(2) Số hiệu nguyên tử bằng tổng số proton và neutron trong hạt nhân.\\
+(3) Trong kí hiệu nguyên tử $^A_Z\ce{X}$ trong đó $Z$ là số hiệu nguyên tử, $A$ là số khối.\\
+(4) Nguyên tử khối cho biết khối lượng của nguyên tử đó nặng gấp bao nhiêu lần đơn vị khối lượng nguyên tử.\\
+(5) Hai nguyên tử có cùng số khối luôn thuộc cùng một nguyên tố hóa học.\\
+Có bao nhiêu phát biểu đúng?
+
+\loigiai{
+Phát biểu đúng gồm (1), (3), (4) $\implies$ Có 3 phát biểu đúng.\\
+(2 sai vì $Z$ bằng số proton; 5 sai vì cùng số khối khác $Z$ là hai nguyên tố khác nhau).\\
+\textit{Ghi chú: Nếu theo một số tài liệu cũ không coi (4) là chuẩn thì có 2 phát biểu đúng.}\\
+\textbf{Đáp số: 3}
+}
+\end{ex}
+\begin{ex}
+Cho bốn nguyên tố $\ce{X, Y, Z}$ và $\ce{T}$ thuộc các nhóm A:\\
+- $\ce{X}$ thuộc chu kì 3, có 1 electron ở lớp ngoài cùng.\\
+- $\ce{Y}$ có số hiệu nguyên tử lớn hơn $\ce{X}$ hai đơn vị.\\
+- $\ce{Z}$ cùng nhóm với $\ce{X}$ và có nhiều hơn $\ce{X}$ một lớp electron.\\
+- $\ce{T}$ cùng chu kì với $\ce{X}$, có 5 electron ở lớp ngoài cùng.\\
+Xét các nhận định sau:\\
+(1) Bán kính nguyên tử giảm dần theo thứ tự $\ce{Z > X > Y > T}$.\\
+(2) Độ âm điện tăng dần theo thứ tự $\ce{Z < X < Y < T}$.\\
+(3) $\ce{Y}$ có tính kim loại mạnh hơn $\ce{X}$ vì có điện tích hạt nhân lớn hơn.\\
+Có bao nhiêu nhận định đúng?
+
+\loigiai{
+$\ce{X}$: $\ce{Na} (Z=11)$; $\ce{Y}$: $\ce{Al} (Z=13)$; $\ce{Z}$: $\ce{K} (Z=19)$; $\ce{T}$: $\ce{P} (Z=15)$.\\
+- (1) Bán kính giảm: $\ce{K (Z) > Na (X) > Al (Y) > P (T)} \implies$ Đúng.\\
+- (2) Độ âm điện tăng: $\ce{K (Z) < Na (X) < Al (Y) < P (T)} \implies$ Đúng.\\
+- (3) Trong chu kì 3, tính kim loại $\ce{Na (X) > Al (Y)} \implies$ Sai.\\
+$\implies$ Có 2 nhận định đúng: (1), (2).\\
+\textbf{Đáp số: 2}
+}
+\end{ex}
+\begin{ex}
+Có bao nhiêu nguyên tố là kim loại trong dãy sau: (1) $\ce{X} (Z = 7)$; (2) $\ce{Y} (Z = 11)$; (3) $\ce{T} (Z = 13)$; (4) $\ce{L} (Z = 9)$; (5) $\ce{M} (Z = 10)$?
+
+\loigiai{
+- (1) $\ce{X} (Z=7)$: phi kim ($\ce{N}$);\\
+- (2) $\ce{Y} (Z=11)$: kim loại ($\ce{Na}$);\\
+- (3) $\ce{T} (Z=13)$: kim loại ($\ce{Al}$);\\
+- (4) $\ce{L} (Z=9)$: phi kim ($\ce{F}$);\\
+- (5) $\ce{M} (Z=10)$: khí hiếm ($\ce{Ne}$).\\
+$\implies$ Có 2 kim loại: $\ce{Y}$ và $\ce{T}$.\\
+\textbf{Đáp số: 2}
+}
+\end{ex}
+\vspace{6pt}
+\noindent
+{\color{mainGreen}\textbf{\Large PHẦN IV. TỰ LUẬN (2,0 điểm)}}\\
+\textit{\small Học sinh trả lời từ câu 1 đến câu 2. Học sinh trình bày lời giải trên giấy bài thi.}
+\vspace{2pt}
+
+\noindent
+\textbf{Câu 1: (1,0 điểm)} Fluorine ($\ce{F}$) là nguyên tố halogen có độ âm điện lớn nhất trong bảng tuần hoàn. Một số hợp chất chứa fluorine được sử dụng trong kem đánh răng để hỗ trợ phòng ngừa sâu răng. Nguyên tử fluorine có số hiệu nguyên tử $Z = 9$.\\
+a. Lớp electron ngoài cùng của nguyên tử fluorine gồm những phân lớp nào và có tổng số AO là bao nhiêu?\\
+b. Viết cấu hình electron bằng ô orbital của nguyên tử fluorine ở trạng thái cơ bản.
+
+\begin{tcolorbox}[colback=white,colframe=solBlue,title=\textbf{Lời giải chi tiết và Biểu điểm Câu 1:}]
+\textbf{a. (0,5 điểm)}
+\begin{itemize}[leftmargin=1.2cm]
+\item Cấu hình electron của $\ce{F} (Z = 9)$: $\ce{1s^2 2s^2 2p^5}$. \hfill \textit{(0,25 đ)}
+\item Lớp electron ngoài cùng (lớp 2) gồm 2 phân lớp: phân lớp $\ce{2s}$ và phân lớp $\ce{2p}$. \hfill \textit{(0,15 đ)}
+\item Phân lớp $\ce{2s}$ có 1 AO, phân lớp $\ce{2p}$ có 3 AO $\implies$ Tổng số AO ở lớp ngoài cùng là $1 + 3 = 4\text{ AO}$. \hfill \textit{(0,1 đ)}
+\end{itemize}
+\textbf{b. (0,5 điểm)}
+\begin{itemize}[leftmargin=1.2cm]
+\item Biểu diễn ô orbital:
+\begin{center}
+\includegraphics[width=6.0cm]{c:/Antigravity_Thanh/San_Pham/images_thpt_so2_quangtrung/hinh_tl_cau1b_fluorine.png}
+\end{center}
+$\ce{1s}$ gồm 1 cặp electron ghép đôi [$\uparrow\downarrow$]; $\ce{2s}$ gồm 1 cặp electron ghép đôi [$\uparrow\downarrow$]; $\ce{2p}$ gồm 2 cặp electron ghép đôi và 1 electron độc thân [$\uparrow\downarrow$][$\uparrow\downarrow$][$\uparrow$ ]. \hfill \textit{(0,5 đ)}
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{4pt}
+\noindent
+\textbf{Câu 2: (1,0 điểm)} Nitrogen ($\ce{N}$) là nguyên tố dinh dưỡng thiết yếu đối với thực vật, tham gia cấu tạo protein và nucleic acid. Trong tự nhiên, nitrogen có hai đồng vị bền $\ce{X_1}$ và $\ce{X_2}$. Nguyên tử $\ce{X_1}$ có số proton, neutron và electron đều bằng 7, nguyên tử $\ce{X_2}$ có nhiều hơn nguyên tử $\ce{X_1}$ một neutron. Coi nguyên tử khối của mỗi đồng vị bằng số khối.\\
+a) Tính phần trăm số nguyên tử đồng vị $\ce{X_1}$, biết nguyên tử khối trung bình của nitrogen bằng $14,0037$.\\
+b) Để nghiên cứu khả năng hấp thụ phân đạm của cây trồng, người ta chuẩn bị $100\text{ gam}$ ammonium nitrate ($\ce{NH4NO3}$) tinh khiết. Nitrogen trong ion $\ce{NH4^+}$ có thành phần đồng vị giống mẫu nitrogen ở ý a; nitrogen trong ion $\ce{NO3^-}$ có đồng vị $\ce{X_2}$ chiếm 20\% số nguyên tử. Tính khối lượng đồng vị $\ce{X_2}$ trong $100\text{ gam}$ mẫu phân bón này. Biết hydrogen chỉ gồm đồng vị $^1\ce{H}$, oxygen chỉ gồm đồng vị $^{16}\ce{O}$. (Làm tròn kết quả theo đơn vị gam đến hàng phần trăm).
+
+\begin{tcolorbox}[colback=white,colframe=solBlue,title=\textbf{Lời giải chi tiết và Biểu điểm Câu 2:}]
+\textbf{a) (0,5 điểm)}
+\begin{itemize}[leftmargin=1.2cm]
+\item Đồng vị $\ce{X_1}$ có số khối $A_1 = 7 + 7 = 14$ ($^{14}\ce{N}$); đồng vị $\ce{X_2}$ có số khối $A_2 = 7 + 8 = 15$ ($^{15}\ce{N}$). \hfill \textit{(0,2 đ)}
+\item Gọi $x$ là \% số nguyên tử đồng vị $^{14}\ce{N}$:
+$$\overline{A} = \dfrac{14x + 15(100 - x)}{100} = 14,0037 \implies 1500 - x = 1400,37 \implies x = 99,63\%.$$
+\item Vậy phần trăm số nguyên tử đồng vị $\ce{X_1}$ là $99,63\%$ (và $\ce{X_2}$ chiếm $0,37\%$). \hfill \textit{(0,3 đ)}
+\end{itemize}
+\textbf{b) (0,5 điểm)}
+\begin{itemize}[leftmargin=1.2cm]
+\item Khối lượng mol các ion trong mẫu phân đạm:
+$$M_{\ce{NH4^+}} = 14,0037 + 4 \times 1 = 18,0037\text{ g/mol}$$
+$$M_{\ce{NO3^-}} = (14 \times 0,8 + 15 \times 0,2) + 3 \times 16 = 14,2 + 48 = 62,2\text{ g/mol} \hfill \textit{(0,15 đ)}$$
+\item Khối lượng mol của $\ce{NH4NO3}$: $M = 18,0037 + 62,2 = 80,2037\text{ g/mol}$.
+\item Số mol $\ce{NH4NO3}$ trong $100\text{ gam}$: $n = \dfrac{100}{80,2037} \approx 1,246825\text{ mol}$. \hfill \textit{(0,1 đ)}
+\item Tổng số mol đồng vị $\ce{X_2}$ ($^{15}\ce{N}$) trong 100 gam mẫu:
+$$n_{\ce{X_2}} = 1,246825 \times 0,37\% + 1,246825 \times 20\% = 1,246825 \times 0,2037 \approx 0,253978\text{ mol}. \hfill \textit{(0,15 đ)}$$
+\item Khối lượng đồng vị $\ce{X_2}$:
+$$m_{\ce{X_2}} = 0,253978 \times 15 \approx 3,80967\text{ g} \approx 3,81\text{ gam}. \hfill \textit{(0,1 đ)}$$
+\item Vậy khối lượng đồng vị $\ce{X_2}$ trong 100 gam mẫu là $\mathbf{3,81\text{ gam}}$.
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{6pt}
+\begin{center}
+\textbf{\large ---------- HẾT ----------}
+\end{center}
+
+\end{document}
