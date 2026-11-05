@@ -929,3 +929,46 @@ Hệ thống tự động theo dõi, chuyển đổi và quản lý toàn bộ c
   - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn8\KHTN8-IN-DEKIEMTRADINHKI\`
 
 
+
+
+---
+
+## Đợt 63: Hoàn thành Số hóa và Giải Chi tiết ĐỀ KIỂM TRA GIỮA HỌC KỲ I - HÓA HỌC 12 - TRƯỜNG THPT CHUYÊN KHOA HỌC HUẾ (MÃ ĐỀ 102 - NĂM HỌC 2026 - 2027) chuẩn FORM ĐỀ KIỂM TRA (Word + LaTeX + PDF)
+
+- **Thời gian thực hiện:** 05/11/2026.
+- **Nguồn tài liệu gốc:** 4 ảnh chụp đề thi chính thức Giữa học kì 1 Hóa học 12 (Chung) - Trường THPT Chuyên Khoa Học Huế - Mã đề 102 (Năm học 2026 - 2027), thời gian làm bài 45 phút.
+- **Cấu trúc đề thi:**
+  - **A. PHẦN TRẮC NGHIỆM (7,0 điểm):**
+    + *PHẦN I (3,0 điểm):* 12 câu trắc nghiệm nhiều phương án lựa chọn (mỗi câu 0,25 điểm):
+      * Câu 1: Công thức phân tử của Maltose $\to \ce{C12H22O11}$ (A).
+      * Câu 2: Thí nghiệm glucose bị oxi hóa bởi thuốc thử Tollens $\to$ Phát biểu sai: Thí nghiệm chứng minh glucose có tính chất polyalcohol (thực chất chứng minh có nhóm aldehyde $-\ce{CHO}$) (C).
+      * Câu 3: Công thức thu gọn của Ethyl acetate $\to \ce{CH3COOC2H5}$ (B).
+      * Câu 4: Dầu mỡ để lâu bị ôi $\to$ Liên kết đôi $\ce{C=C}$ trong chất béo bị oxi hóa chậm bởi oxygen không khí tạo chất có mùi khó chịu (B).
+      * Câu 5: Phản ứng của saccharose $\to$ Phản ứng với $\ce{Cu(OH)2}$ tạo dung dịch màu xanh lam (A).
+      * Câu 6: Thủy phân 34,2 g saccharose $\to m_{\text{glucose + fructose}} = 34,2 + 0,1 \times 18 = 36,0\text{ gam}$ (A).
+      * Câu 7: Xà phòng vào nước cứng ($\ce{Ca^2+, Mg^2+}) \to$ Xà phòng tạo kết tủa với các ion $\ce{Ca^2+, Mg^2+}$ (B).
+      * Câu 8: Chất béo bão hòa ở trạng thái rắn $\to$ Tristearin (B).
+      * Câu 9: 8,8 g ethyl acetate + 100 mL NaOH 1M $\to m_{\ce{CH3COONa}} = 0,1 \times 82 = 8,2\text{ gam}$ (D).
+      * Câu 10: Hợp chất làm chất giặt rửa tổng hợp $\to \ce{CH3[CH2]11OSO3Na}$ (Sodium lauryl sulfate) (A).
+      * Câu 11: Tinh thể X (saccharose) chuyển hóa thành Y (glucose) tráng gương $\to$ Saccharose và glucose (A).
+      * Câu 12: Vai trò $\ce{H2SO4}$ đặc trong điều chế ethyl acetate $\to$ Chất xúc tác và hút nước để chuyển dịch cân bằng (A).
+    + *PHẦN II (2,0 điểm):* 2 câu trắc nghiệm Đúng / Sai:
+      * Câu 1 (Ester táo tây X - $\ce{C4H8O2}$): a) Đ (Alcohol Z là $\ce{C2H5OH}$ có liên kết hydrogen nên nhiệt độ sôi cao hơn ester X); b) S (CTPT là $\ce{C4H8O2}$, không phải $\ce{C4H6O2}$); c) S (Tên gọi là ethyl acetate, không phải methyl acetate); d) S (Ở $140^\circ\text{C}$ tạo ether, ở $170^\circ\text{C}$ mới tạo alkene).
+      * Câu 2 (Sản xuất ethanol từ cellulose): a) Đ (Đơn vị $\beta$-glucose, liên kết $\beta$-1,4-glycoside); b) S (0,81 tấn cellulose $\to$ hiệu suất thực tế là 60\%, không phải 70\%); c) S (Cellulose không có nhiều trong trái cây chín); d) Đ (Cellulose là polymer mạch không phân nhánh).
+    + *PHẦN III (2,0 điểm):* 4 câu trắc nghiệm trả lời ngắn (mỗi câu 0,5 điểm):
+      * Câu 1: Linoleic acid là acid béo omega-6 ($x = 6$), phân tử khối $y = 280 \to 10y + x = \mathbf{2806}$.
+      * Câu 2: Sản xuất 3,8 triệu tuýp thuốc Methocylat (2,8 g methyl salicylate/tuýp, $H = 80\%$) $\to m = \mathbf{12,1\text{ tấn}}$ axit salixylic.
+      * Câu 3: Phân tử khối potassium stearate ($\ce{C17H35COOK}) = 17 \times 12 + 35 + 12 + 32 + 39 = \mathbf{322}$.
+      * Câu 4: Tráng bạc $15\,000\text{ m}^2$ gương phẳng ($0,8\text{ g/m}^2, H = 80\%$) $\to m_{\text{glucose}} = 12,5\text{ kg} \to$ làm tròn hàng đơn vị: $\mathbf{13\text{ kg}}$.
+  - **B. PHẦN TỰ LUẬN (3,0 điểm):**
+    + *Câu 1 (1,0 đ):* Quang hợp cây xanh ($n_{\ce{O2}} = n_{\ce{CO2}} = 0,5\text{ kmol/cây/năm} \implies 16\text{ kg \ce{O2}/cây/năm}$). Lượng oxygen cần cho 7,8 tỉ người là $9,36 \cdot 10^{12}\text{ kg} \implies \mathbf{585\text{ tỉ cây xanh}}$.
+    + *Câu 2 (1,0 đ):* 4 đồng phân ester của $\ce{C4H8O2}$: $\ce{HCOOCH2CH2CH3}$ (propyl formate), $\ce{HCOOCH(CH3)2}$ (isopropyl formate), $\ce{CH3COOCH2CH3}$ (ethyl acetate), $\ce{CH3CH2COOCH3}$ (methyl propionate).
+    + *Câu 3 (1,0 đ):* Sản xuất 1,0 tấn saccharose từ mía tươi (chứa 13,5\% saccharose, hiệu suất thu hồi $H = 82\%$) $\implies m_{\text{mía}} = \dfrac{1,0}{0,82 \times 0,135} \approx \mathbf{9,03\text{ tấn mía tươi}}$.
+- **Quy cách định dạng:**
+  - Áp dụng đầy đủ chuẩn FORM ĐỀ KIỂM TRA (Thầy TRẦN VĂN THẠNH): Header Coral Red `#D32F2F` kẻ Sage Green `#8BC390`, Footer địa chỉ & Trang tự động `PAGE`.
+  - **Tuyệt đối không dùng Table trong nội dung đề thi**: Sử dụng Tab stops 4.5 cm, 9.0 cm, 13.5 cm; Lời giải thụt lề 0.8 cm có tiêu đề xanh `#1565C0`.
+- **Trọn bộ sản phẩm hoàn thành:**
+  1. `San_Pham/De_Kiem_Tra_GK1_Hoa_12_ChuyenKHHue_Ma102.docx` (Bản Học sinh Word)
+  2. `San_Pham/De_Kiem_Tra_GK1_Hoa_12_ChuyenKHHue_Ma102_GiaoVien.docx` (Bản Giáo viên Word)
+  3. `San_Pham/De_Kiem_Tra_GK1_Hoa_12_ChuyenKHHue_Ma102_HocSinh.pdf` (Bản Học sinh PDF LaTeX)
+  4. `San_Pham/De_Kiem_Tra_GK1_Hoa_12_ChuyenKHHue_Ma102_GiaoVien.pdf` (Bản Giáo viên PDF LaTeX)

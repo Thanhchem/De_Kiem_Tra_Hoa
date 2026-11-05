@@ -1,0 +1,564 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{geometry}
+\geometry{top=1.5cm,bottom=1.2cm,left=1.4cm,right=1.4cm,headheight=28pt,headsep=12pt,footskip=18pt}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\definecolor{hfRed}{HTML}{D32F2F}
+\definecolor{hfGreen}{HTML}{8BC390}
+\definecolor{mainGreen}{HTML}{2E7D32}
+\definecolor{solBlue}{HTML}{1565C0}
+\definecolor{tableGreen}{HTML}{E8F5E9}
+
+\usepackage{ex_test}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.75pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0.75pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+
+\fancyhead[L]{\small\itshape\color{hfRed}Tài liệu lưu hành nội bộ}
+\fancyhead[R]{\small\color{hfRed}Thầy \textbf{TRẦN VĂN THẠNH} - 0777.470.803}
+
+\fancyfoot[L]{\footnotesize\itshape\color{hfRed}CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+\fancyfoot[R]{\small\textbf{\color{hfRed}Trang \thepage}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+
+\begin{document}
+
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{TRƯỜNG ĐẠI HỌC KHOA HỌC}\\
+\textbf{TRƯỜNG THPT CHUYÊN KHOA HỌC HUẾ}\\
+\textit{ĐỀ CHÍNH THỨC}\\
+\textit{(Đề thi có 04 trang)}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\raggedleft
+\textbf{\color{hfRed}ĐỀ KIỂM TRA GIỮA HỌC KỲ I -- NĂM HỌC 2026-2027}\\
+\textbf{Môn: Hóa học -- Lớp 12 (CHUNG)}\\
+\textit{Thời gian: 45 phút (không kể thời gian giao đề)}\\
+\textbf{MÃ ĐỀ: 102}
+\end{minipage}
+
+\vspace{4pt}
+\noindent
+\textit{Họ và tên học sinh:} \dotfill \textit{Lớp:} \dotfill \textit{Số báo danh:} \dotfill
+
+\vspace{3pt}
+\noindent
+\textit{\footnotesize (Cho nguyên tử khối: H = 1; C = 12; O = 16; Na = 23; Ag = 108)}
+
+\vspace{3pt}
+\hrule color{hfGreen} height 0.5pt
+
+
+\vspace{4pt}
+\begin{center}
+\textbf{\color{hfRed}\large (BẢN GIÁO VIÊN -- CÓ LỜI GIẢI CHI TIẾT)}
+\end{center}
+
+\vspace{2pt}
+\begin{center}
+{\color{hfRed}\textbf{\large BẢNG ĐÁP ÁN RÚT GỌN (DÀNH CHO GIÁO VIÊN - MÃ ĐỀ 102)}}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}1. Phần I: Trắc nghiệm nhiều lựa chọn (3,0 điểm - mỗi câu đúng 0,25 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đ/A} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}A} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}2. Phần II: Trắc nghiệm Đúng / Sai (2,0 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|l|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Chủ đề} & \textbf{Lệnh a} & \textbf{Lệnh b} & \textbf{Lệnh c} & \textbf{Lệnh d} \\
+\hline
+\textbf{Câu 1} & Ester mùi táo tây (X) & \textbf{\color{hfRed}ĐÚNG} & \textbf{SAI} & \textbf{SAI} & \textbf{SAI} \\
+\hline
+\textbf{Câu 2} & Thủy phân Cellulose & \textbf{\color{hfRed}ĐÚNG} & \textbf{SAI} & \textbf{SAI} & \textbf{\color{hfRed}ĐÚNG} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}3. Phần III: Trả lời ngắn (2,0 điểm - mỗi câu đúng 0,5 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Câu 1} & \textbf{Câu 2} & \textbf{Câu 3} & \textbf{Câu 4} \\
+\hline
+\textbf{Đáp số} & \textbf{\color{hfRed}2806} & \textbf{\color{hfRed}12,1} & \textbf{\color{hfRed}322} & \textbf{\color{hfRed}13} (hoặc 12,5) \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}4. Tóm tắt kết quả Phần Tự luận (3,0 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|p{11.5cm}|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Điểm} & \textbf{Kết quả chính} \\
+\hline
+\textbf{Câu 1} & 1,0 đ & $n_{\ce{O2}} = n_{\ce{CO2}} = 0,5\text{ kmol/cây/năm} \implies 16\text{ kg \ce{O2}/cây/năm}$. Tổng lượng: $9,36\cdot 10^{12}\text{ kg} \implies \mathbf{585\text{ tỉ cây xanh}}$. \\
+\hline
+\textbf{Câu 2} & 1,0 đ & \textbf{4 đồng phân ester}: $\ce{HCOOCH2CH2CH3}$, $\ce{HCOOCH(CH3)2}$, $\ce{CH3COOCH2CH3}$, $\ce{C2H5COOCH3}$. \\
+\hline
+\textbf{Câu 3} & 1,0 đ & Khối lượng mía tươi: $m = \dfrac{1,0}{0,82 \times 0,135} \approx \mathbf{9,03\text{ tấn mía tươi}}$. \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{4pt}
+\hrule color{hfGreen} height 0.5pt
+
+
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\Large A. TRẮC NGHIỆM (7,0 điểm)}}
+
+\vspace{3pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN I (3,0 điểm). Câu trắc nghiệm nhiều phương án lựa chọn}}\\
+\textit{\small Học sinh trả lời từ câu 1 đến câu 12. Mỗi câu hỏi chỉ chọn một phương án.}
+\vspace{2pt}
+
+
+\begin{ex}
+Maltose là một loại disaccharide có nhiều trong mạch nha. Công thức phân tử của maltose là:
+\choice
+{\True $\ce{C12H22O11}$}
+{$\ce{C6H12O6}$}
+{$(\ce{C6H10O5})_n$}
+{$\ce{C3H6O2}$}
+
+
+\loigiai{
+Maltose là disaccharide tạo bởi hai gốc $\alpha$-glucose liên kết qua liên kết $\alpha$-1,4-glycosidic.\\
+Công thức phân tử của maltose là $\ce{C12H22O11}$.\\
+\textbf{Chọn A.}
+}
+
+\end{ex}
+
+\begin{ex}
+Tiến hành thí nghiệm glucose bị oxi hóa bởi thuốc thử Tollens theo các bước sau:\\
+\textit{Bước 1:} Cho khoảng 2 mL dung dịch $\ce{AgNO3}$ 1\% vào ống nghiệm sạch.\\
+\textit{Bước 2:} Thêm từ từ từng giọt dung dịch ammonia 5\%, lắc đều cho đến khi kết tủa tan hết. Dung dịch thu được là thuốc thử Tollens.\\
+\textit{Bước 3:} Thêm tiếp khoảng 2 mL dung dịch glucose 2\% lắc đều. Sau đó, ngâm ống nghiệm vào cốc thuỷ tinh chứa nước nóng trong vài phút.\\
+Phát biểu nào sau đây sai?
+\choice
+{Sản phẩm hữu cơ thu được sau bước 3 là ammonium gluconate}
+{Sau bước 3, có lớp bạc (silver) kim loại bám trên thành ống nghiệm}
+{\True Thí nghiệm trên chứng minh glucose có tính chất của polyalcohol}
+{Trong phản ứng ở bước 3, glucose đóng vai trò là chất khử}
+
+
+\loigiai{
+Phản ứng tráng bạc bằng thuốc thử Tollens chứng minh phân tử glucose có nhóm chức aldehyde ($\ce{-CHO}$) có tính khử.\\
+Tính chất của polyalcohol được chứng minh bằng phản ứng hòa tan $\ce{Cu(OH)2}$ ở nhiệt độ phòng tạo dung dịch xanh lam.\\
+Do đó phát biểu C sai.\\
+\textbf{Chọn C.}
+}
+
+\end{ex}
+
+\begin{ex}
+Ethyl acetate được viết tắt là EtOAc, được sản xuất ở quy mô khá lớn để làm dung môi, là một loại hoá chất được sử dụng rất nhiều trong nước hoa, trong các loại sơn móng tay, hóa chất này rất phổ biến trong đời sống sinh hoạt hằng ngày. Ethyl acetate có công thức thu gọn nào sau đây?
+\choice
+{$\ce{CH3COOC6H5}$}
+{\True $\ce{CH3COOC2H5}$}
+{$\ce{CH3COOCH2CH2CH3}$}
+{$\ce{CH3COOCH=CH2}$}
+
+
+\loigiai{
+Ethyl acetate là ester của acetic acid ($\ce{CH3COOH}$) và ethyl alcohol ($\ce{C2H5OH}$).\\
+Công thức thu gọn: $\ce{CH3COOC2H5}$.\\
+\textbf{Chọn B.}
+}
+
+\end{ex}
+
+\begin{ex}
+Dầu mỡ để lâu bị ôi là do
+\choice
+{chất béo bị rữa ra}
+{\True liên kết đôi C=C trong chất béo bị oxi hóa chậm bởi oxygen không khí tạo chất có mùi khó chịu}
+{chất béo bị oxygen hoá chậm bởi oxygen không khí}
+{chất béo bị thủy phân với nước trong không khí}
+
+
+\loigiai{
+Dầu mỡ để lâu bị ôi do các gốc acid béo không no (chứa liên kết đôi $\ce{C=C}$) bị oxygen không khí oxi hóa chậm tạo hydroperoxide, sau đó phân hủy thành các aldehyde và ketone có mùi hôi tanh khó chịu và độc hại.\\
+\textbf{Chọn B.}
+}
+
+\end{ex}
+
+\begin{ex}
+Saccharose tham gia phản ứng nào sau đây?
+\choice
+{\True Phản ứng với $\ce{Cu(OH)2}$ tạo dung dịch màu xanh lam}
+{Phản ứng với thuốc thử Tollens}
+{Phản ứng với nước bromine}
+{Phản ứng thuỷ phân trong môi trường kiềm}
+
+
+\loigiai{
+Phân tử saccharose có nhiều nhóm hydroxy liền kề nên hòa tan được $\ce{Cu(OH)2}$ ở nhiệt độ thường tạo phức xanh lam.\\
+Saccharose không có nhóm $\ce{-OH}$ hemiacetal/hemiketal tự do nên không mở vòng tạo aldehyde $\implies$ không tráng bạc và không làm mất màu nước bromine. Saccharose không bị thủy phân trong môi trường kiềm.\\
+\textbf{Chọn A.}
+}
+
+\end{ex}
+
+\begin{ex}
+Thủy phân hoàn toàn 34,2 g saccharose trong môi trường acid. Khối lượng tổng glucose và fructose tạo thành (coi hiệu suất 100\%) là
+\choice
+{\True 36,0 g}
+{18,0 g}
+{34,2 g}
+{68,4 g}
+
+
+\loigiai{
+Phương trình phản ứng: $\ce{C12H22O11 + H2O ->[H^+, t^o] C6H12O6 (glucose) + C6H12O6 (fructose)}$.\\
+$n_{\text{saccharose}} = \dfrac{34,2}{342} = 0,1\text{ mol} \implies n_{\ce{H2O}} = 0,1\text{ mol}$.\\
+Theo định luật bảo toàn khối lượng: $m = 34,2 + 0,1 \times 18 = 36,0\text{ gam}$.\\
+\textbf{Chọn A.}
+}
+
+\end{ex}
+
+\begin{ex}
+Khi cho xà phòng vào nước cứng chứa ion $\ce{Ca^2+}$ và $\ce{Mg^2+}$, hiện tượng nào thường xảy ra?
+\choice
+{Nước cứng chuyển thành nước mềm ngay lập tức}
+{\True Xà phòng tạo kết tủa với các ion $\ce{Ca^2+}$, $\ce{Mg^2+}$}
+{Xà phòng bị oxi hóa thành chất béo}
+{Xà phòng phân hủy hoàn toàn thành glycerol}
+
+
+\loigiai{
+Muối của acid béo trong xà phòng tác dụng với ion $\ce{Ca^2+}, \ce{Mg^2+}$ tạo kết tủa calcium/magnesium stearate, palmitate không tan:\\
+$\ce{2RCOONa + Ca^2+ -> (RCOO)2Ca v + 2Na^+}$.\\
+\textbf{Chọn B.}
+}
+
+\end{ex}
+
+\begin{ex}
+Chất nào sau đây là chất béo bão hòa (ở trạng thái rắn ở nhiệt độ phòng)?
+\choice
+{Triolein}
+{\True Tristearin}
+{Trilinolein}
+{Trioleate}
+
+
+\loigiai{
+Tristearin $(\ce{C17H35COO})_3\ce{C3H5}$ là chất béo bão hòa (no), có nhiệt độ nóng chảy cao nên ở trạng thái rắn ở nhiệt độ phòng.\\
+\textbf{Chọn B.}
+}
+
+\end{ex}
+
+\begin{ex}
+Đun nóng 8,8 g ethyl acetate với 100 mL $\ce{NaOH}$ 1,00 M, phản ứng hoàn toàn. Khối lượng muối tạo thành là
+\choice
+{4,1 g}
+{10,0 g}
+{16,4 g}
+{\True 8,2 g}
+
+
+\loigiai{
+$n_{\text{ester}} = \dfrac{8,8}{88} = 0,1\text{ mol}$; $n_{\ce{NaOH}} = 0,100 \times 1,00 = 0,1\text{ mol}$.\\
+$\ce{CH3COOC2H5 + NaOH -> CH3COONa + C2H5OH}$.\\
+Phản ứng vừa đủ, muối thu được là $\ce{CH3COONa}$ ($0,1\text{ mol}$).\\
+$m_{\text{muối}} = 0,1 \times 82 = 8,2\text{ gam}$.\\
+\textbf{Chọn D.}
+}
+
+\end{ex}
+
+\begin{ex}
+Hợp chất nào sau đây được sử dụng làm chất giặt rửa tổng hợp?
+\choice
+{\True $\ce{CH3[CH2]11OSO3Na}$}
+{$\ce{CH3COONa}$}
+{$\ce{CH3[CH2]12COOCH3}$}
+{$\ce{CH3[CH2]12COONa}$}
+
+
+\loigiai{
+$\ce{CH3[CH2]11OSO3Na}$ (Sodium lauryl sulfate / Sodium dodecyl sulfate) là chất hoạt động bề mặt được sử dụng phổ biến làm chất giặt rửa tổng hợp.\\
+\textbf{Chọn A.}
+}
+
+\end{ex}
+
+\begin{ex}
+Tinh thể chất rắn X không màu, vị ngọt, dễ tan trong nước. X có nhiều trong cây mía, củ cải đường và hoa thốt nốt. Trong công nghiệp, X được chuyển hóa thành chất Y dùng để tráng gương, tráng ruột phích. Tên gọi của X và Y lần lượt là
+\choice
+{\True Saccharose và glucose}
+{Glucose và saccharose}
+{Saccharose và cellulose}
+{Glucose và fructose}
+
+
+\loigiai{
+Chất X có trong cây mía, củ cải đường, thốt nốt là saccharose.\\
+Thủy phân saccharose thu được glucose (Y) dùng để tráng gương, tráng ruột phích.\\
+\textbf{Chọn A.}
+}
+
+\end{ex}
+
+\begin{ex}
+Trong thí nghiệm điều chế ethyl acetate trong phòng thí nghiệm (cho ethanol, acetic acid và $\ce{H2SO4}$ đặc vào ống nghiệm rồi đun nhẹ), vai trò của $\ce{H2SO4}$ đặc là:
+\choice
+{\True chất xúc tác và hút nước để chuyển dịch cân bằng}
+{chất môi trường kiềm để hòa tan ester}
+{chất chỉ thị màu để nhận biết ester}
+{chất oxi hóa alcohol thành aldehyde}
+
+
+\loigiai{
+$\ce{H2SO4}$ đặc vừa là chất xúc tác cho phản ứng ester hóa, vừa có tính háo nước mạnh giúp hút nước sinh ra, làm cân bằng chuyển dịch theo chiều thuận (tăng hiệu suất).\\
+\textbf{Chọn A.}
+}
+
+\end{ex}
+
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN II (2,0 điểm). Câu trắc nghiệm đúng sai}}\\
+\textit{\small Học sinh trả lời từ câu 1 đến câu 2. Trong mỗi ý a), b), c), d) ở mỗi câu, học sinh chọn Đúng hoặc Sai.}
+\vspace{2pt}
+
+
+\begin{ex}
+Một ester no, đơn chức, mạch hở X có nguồn gốc từ quả táo tây có mùi thơm dễ chịu. Kết quả phân tích nguyên tố cho thấy X chứa 54,55\,\% carbon, 9,09\,\% hydrogen và 36,36\,\% oxygen về khối lượng. Từ phổ khối lượng (MS), xác định được tín hiệu ion phân tử $[\ce{M^+}]$ có $m/z = 88$. Cho 8,8 gam X tác dụng vừa đủ với 100 mL dung dịch $\ce{NaOH}$ 1 M, thu được muối Y và alcohol Z. Cho các nhận định sau:
+\choiceTF
+{\True Alcohol Z sinh ra là ethanol ($\ce{C2H5OH}$), có nhiệt độ sôi cao hơn ester X}
+{Công thức phân tử của ester X là $\ce{C4H6O2}$}
+{Tên gọi của X là methyl acetate}
+{Đun nóng alcohol Z với $\ce{H2SO4}$ đặc ở $140^\circ\text{C}$ thu được alkene làm mất màu dung dịch nước bromine}
+
+
+\loigiai{
+- Tỉ lệ số mol: $n_{\ce{C}} : n_{\ce{H}} : n_{\ce{O}} = \dfrac{54,55}{12} : \dfrac{9,09}{1} : \dfrac{36,36}{16} = 4,546 : 9,09 : 2,2725 = 2 : 4 : 1 \implies (\ce{C2H4O})_n$.\\
+- Tín hiệu $[\ce{M^+}]$ có $m/z = 88 \implies 44n = 88 \implies n = 2 \implies$ CTPT của X là $\ce{C4H8O2}$. (b sai)\\
+- $n_{\text{X}} = \dfrac{8,8}{88} = 0,1\text{ mol} = n_{\ce{NaOH}} \implies$ X là $\ce{CH3COOC2H5}$ (ethyl acetate, c sai).\\
+- Z là $\ce{C2H5OH}$ (ethanol). Ethanol có liên kết hydrogen liên phân tử nên nhiệt độ sôi ($78,3^\circ\text{C}$) cao hơn ester X ($77,1^\circ\text{C}$). (a đúng)\\
+- Đun ethanol với $\ce{H2SO4}$ đặc ở $140^\circ\text{C}$ sinh ra diethyl ether $\ce{C2H5OC2H5}$, ở $170^\circ\text{C}$ mới tạo alkene (ethylene). (d sai)\\
+\textbf{Kết luận: a - Đ, b - S, c - S, d - S.}
+}
+
+\end{ex}
+
+\begin{ex}
+Ngô và mía là hai nguyên liệu chính được sử dụng trong sản xuất ethanol. Tuy nhiên, chúng là những loại cây lương thực quan trọng. Trong khi đó, cellulose -- một nguồn nguyên liệu dồi dào và dễ tìm -- cũng có thể dùng để sản xuất ethanol. Tuy giá thành sản xuất ethanol từ cellulose còn cao, do quá trình nuôi cấy nấm sản sinh enzyme cellulase để thuỷ phân cellulose thành glucose tốn kém nhiều năng lượng, nhưng đây vẫn là một hướng đi đầy hứa hẹn trong tương lai.
+
+\begin{center}
+\includegraphics[width=6.5cm]{images_chuyen_khoa_hoc_hue_102/cellulose_clean.png}\\
+\textit{\small Cấu trúc cellulose}
+\end{center}
+
+\choiceTF
+{\True Phân tử cellulose được tạo thành từ nhiều đơn vị $\beta$-glucose, nối với nhau qua liên kết $\beta$-1,4-glycoside}
+{Với những tiến bộ công nghệ đạt được, người ta tin rằng 0,81 tấn cellulose có thể sản xuất được 345 (L) ethanol. Khi đó, hiệu suất của quá trình đạt 70\,\% (cho biết khối lượng riêng của ethanol là 0,8 g/mL)}
+{Cellulose có nhiều trong trái cây chín}
+{\True Cellulose là một polymer mạch không phân nhánh}
+
+
+\loigiai{
+- Ý a) ĐÚNG: Phân tử cellulose cấu tạo từ các gốc $\beta$-glucose nối với nhau qua liên kết $\beta$-1,4-glycosidic.\\
+- Ý b) SAI: Sơ đồ: $(\ce{C6H10O5})_n \to n\,\ce{C6H12O6} \to 2n\,\ce{C2H5OH}$.\\
+Cứ 162 gam cellulose theo lý thuyết sinh ra $2 \times 46 = 92\text{ g}$ ethanol.\\
+Từ 0,81 tấn ($810\text{ kg}$) cellulose $\implies m_{\text{lí thuyết}} = \dfrac{810 \times 92}{162} = 460\text{ kg}$.\\
+Thể tích ethanol lý thuyết: $V = \dfrac{460}{0,8} = 575\text{ lít}$.\\
+Hiệu suất thực tế: $H = \dfrac{345}{575} \times 100\% = 60\%$ (không phải 70\%).\\
+- Ý c) SAI: Trái cây chín chứa nhiều glucose và fructose; cellulose là thành phần tạo nên màng tế bào thực vật (gỗ, bông, nứa...).\\
+- Ý d) ĐÚNG: Cellulose là polymer mạch không phân nhánh.\\
+\textbf{Kết luận: a - Đ, b - S, c - S, d - Đ.}
+}
+
+\end{ex}
+
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN III (2,0 điểm). Câu trắc nghiệm trả lời ngắn}}\\
+\textit{\small Học sinh trả lời từ câu 1 đến câu 4. Viết đáp số tương ứng vào bài làm.}
+\vspace{2pt}
+
+
+\begin{ex}
+Acid béo omega-3 và omega-6 là các acid béo không no với liên kết đôi đầu tiên ở vị trí số 3 và 6 khi đánh số từ nhóm methyl. Acid béo omega-3 và omega-6 đều có vai trò quan trọng đối với cơ thể, giúp phòng ngừa nhiều loại bệnh. Linoleic acid có công thức cấu tạo như sau:
+
+\begin{center}
+\includegraphics[width=9.0cm]{images_chuyen_khoa_hoc_hue_102/linoleic_clean.png}
+\end{center}
+
+Linoleic acid thuộc loại acid béo omega-x và có phân tử khối là y. Số có giá trị 10y+x là bao nhiêu?
+
+
+\loigiai{
+Linoleic acid có CTCT: $\ce{CH3-(CH2)4-CH=CH-CH2-CH=CH-(CH2)7-COOH}$.\\
+Đánh số từ nhóm methyl ($-\ce{CH3}$ là C số 1): liên kết đôi đầu tiên nằm ở vị trí carbon số 6 $\implies x = 6$ (acid béo omega-6).\\
+Công thức phân tử: $\ce{C18H32O2} \implies$ Phân tử khối $y = 18 \times 12 + 32 + 32 = 280$.\\
+Giá trị: $10y + x = 10 \times 280 + 6 = \mathbf{2806}$.\\
+\textbf{Đáp số: 2806}
+}
+
+\end{ex}
+
+\begin{ex}
+Methyl salicylate dùng làm thuốc xoa bóp giảm đau, được điều chế theo phản ứng sau:
+$$\ce{HOC6H4COOH + CH3OH <=>[\ce{H2SO4}, t^o] HOC6H4COOCH3 + H2O}$$
+
+\begin{center}
+\includegraphics[width=4.5cm]{images_chuyen_khoa_hoc_hue_102/methocylat.png}
+\end{center}
+
+Để sản xuất 3,8 triệu tuýp thuốc xoa bóp giảm đau cần tối thiểu m tấn axit salixylic. Biết mỗi tuýp thuốc chứa 2,8 gam methyl salicylate và hiệu suất phản ứng tính theo axit salixylic là 80\,\%. Tính giá trị của m ? (Kết quả làm tròn đến con số thứ nhất sau dấu phẩy).
+
+
+\loigiai{
+Khối lượng methyl salicylate ($\ce{C8H8O3}, M = 152$) cần cho 3,8 triệu tuýp:\\
+$m_{\text{este}} = 3,8 \cdot 10^6 \times 2,8\text{ g} = 10.640.000\text{ gam} = 10,64\text{ tấn}$.\\
+$n_{\text{este}} = \dfrac{10.640.000}{152} = 70.000\text{ mol} = 70\text{ kmol}$.\\
+Axit salixylic ($\ce{C7H6O3}$) có $M = 138\text{ g/mol}$.\\
+Với hiệu suất $H = 80\%$, lượng axit salixylic tối thiểu cần dùng là:\\
+$n_{\text{acid}} = \dfrac{70.000}{0,8} = 87.500\text{ mol} = 87,5\text{ kmol}$.\\
+$m = 87,5\text{ kmol} \times 138\text{ kg/kmol} = 12.075\text{ kg} = 12,075\text{ tấn} \approx \mathbf{12,1\text{ tấn}}$.\\
+\textbf{Đáp số: 12,1}
+}
+
+\end{ex}
+
+\begin{ex}
+Đun nóng một loại mỡ động vật với dung dịch $\ce{KOH}$, sản phẩm thu được có chứa muối potassium stearate ($\ce{C17H35COOK}$). Phân tử khối của potassium stearate là bao nhiêu ?
+
+
+\loigiai{
+Phân tử khối của potassium stearate ($\ce{C17H35COOK}$):\\
+$M = 17 \times 12 + 35 \times 1 + 12 + 32 + 39 = 204 + 35 + 12 + 32 + 39 = \mathbf{322}$.\\
+\textbf{Đáp số: 322}
+}
+
+\end{ex}
+
+\begin{ex}
+Một xưởng sản xuất gương phẳng cần tráng bạc lên $15\,000\text{ m}^2$ bề mặt kính. Biết khối lượng bạc cần phủ trên mỗi mét vuông bề mặt kính là 0,8 gam. Lớp bạc được tạo thành bằng phản ứng tráng bạc của glucose với thuốc thử Tollens (được điều chế từ dung dịch $\ce{AgNO3}$ và $\ce{NH3}$). Giả sử $\ce{AgNO3}$ được sử dụng dư và hiệu suất tạo bạc bám trên bề mặt kính tính theo glucose đạt 80\,\%. Tính khối lượng glucose tối thiểu (theo kg) cần dùng để sản xuất số gương trên (làm tròn đến hàng đơn vị).
+
+
+\loigiai{
+Tổng khối lượng bạc phủ trên $15\,000\text{ m}^2$ kính: $m_{\ce{Ag}} = 15\,000 \times 0,8\text{ g} = 12\,000\text{ gam} = 12\text{ kg}$.\\
+$n_{\ce{Ag}} = \dfrac{12\,000}{108} = \dfrac{1000}{9}\text{ mol}$.\\
+Phản ứng tráng bạc của glucose: $\ce{C6H12O6 -> 2Ag} \implies n_{\text{glucose lí thuyết}} = \dfrac{1}{2} n_{\ce{Ag}} = \dfrac{500}{9}\text{ mol}$.\\
+Với hiệu suất bám bạc đạt 80\%: $n_{\text{glucose thực tế}} = \dfrac{500/9}{0,8} = \dfrac{625}{9}\text{ mol}$.\\
+Khối lượng glucose cần dùng: $m = \dfrac{625}{9} \times 180 = 12\,500\text{ gam} = 12,5\text{ kg}$.\\
+Làm tròn đến hàng đơn vị theo yêu cầu: $\mathbf{13\text{ kg}}$ (hoặc 12,5).\\
+\textbf{Đáp số: 13}
+}
+
+\end{ex}
+
+\vspace{6pt}
+\noindent
+{\color{mainGreen}\textbf{\Large B. TỰ LUẬN (3,0 điểm)}}
+\vspace{2pt}
+
+
+\begin{ex}
+\textbf{(1,0 điểm)} Cây xanh nhả khí oxygen sau khi hoàn tất quá trình quang hợp, con người và nhiều loài động vật khác cần khí oxygen để duy trì sự sống. Phản ứng quang hợp được mô tả theo phương trình sau:
+$$n\,\ce{CO2} + m\,\ce{H2O} \xrightarrow{\text{ánh sáng / chất diệp lục}} \ce{C_n(H2O)_m} + n\,\ce{O2}$$
+Giả sử một cây xanh trưởng thành tiêu thụ lượng $\ce{CO2}$ trung bình khoảng 22 kg/năm để thực hiện quá trình quang hợp và trung bình một năm mỗi người cần tối thiểu 1,2 tấn oxygen để duy trì sự sống. Để cung cấp đủ lượng oxygen cho 7,8 tỉ người trên Trái đất trong một năm thì cần bao nhiêu tỉ cây xanh như trên?
+
+
+\loigiai{
+1. Tỉ lệ mol từ phương trình quang hợp: $n_{\ce{O2}} = n_{\ce{CO2}}$.\\
+2. Một cây xanh trưởng thành tiêu thụ $22\text{ kg \ce{CO2}/năm} \implies n_{\ce{CO2}} = \dfrac{22}{44} = 0,5\text{ kmol}$.\\
+$\implies$ Lượng oxygen một cây tạo ra trong 1 năm: $n_{\ce{O2}} = 0,5\text{ kmol} \implies m_{\ce{O2}} = 0,5 \times 32 = 16\text{ kg/cây/năm}$.\\
+3. Tổng lượng oxygen cần cho 7,8 tỉ người trong 1 năm:\\
+$m_{\text{tổng}} = 7,8 \times 10^9 \times 1,2\text{ tấn} = 9,36 \times 10^9\text{ tấn} = 9,36 \times 10^{12}\text{ kg}$.\\
+4. Số cây xanh trưởng thành cần thiết:\\
+$N = \dfrac{9,36 \times 10^{12}}{16} = 5,85 \times 10^{11}\text{ cây} = \mathbf{585\text{ tỉ cây xanh}}$.\\
+\textbf{Đáp số: 585 tỉ cây xanh.}
+}
+
+\end{ex}
+
+\begin{ex}
+\textbf{(1,0 điểm)} Viết công thức cấu tạo và gọi tên các đồng phân ester có công thức phân tử $\ce{C4H8O2}$.
+
+
+\loigiai{
+Ester no, đơn chức, mạch hở $\ce{C4H8O2}$ có dạng $\ce{RCOOR'}$ với tổng 4 nguyên tử carbon.\\
+Có 4 đồng phân ester:\\
+1) $\ce{HCOOCH2CH2CH3}$: propyl formate (propyl methanoate)\\
+2) $\ce{HCOOCH(CH3)2}$: isopropyl formate (1-methylethyl methanoate)\\
+3) $\ce{CH3COOCH2CH3}$: ethyl acetate (ethyl ethanoate)\\
+4) $\ce{CH3CH2COOCH3}$: methyl propionate (methyl propanoate)
+}
+
+\end{ex}
+
+\begin{ex}
+\textbf{(1,0 điểm)} Một nhà máy đường sản xuất saccharose tinh khiết từ cây mía tươi. Biết rằng trong mía tươi chứa 13,5\,\% saccharose về khối lượng và hiệu suất thu hồi saccharose của toàn bộ quy trình sản xuất đạt 82\,\%. Tính khối lượng mía tươi (theo tấn) tối thiểu cần cung cấp cho nhà máy để sản xuất được 1,0 tấn đường saccharose tinh khiết (làm tròn đến hàng phần trăm).
+
+
+\loigiai{
+1. Lượng saccharose có trong lượng mía cần dùng với hiệu suất thu hồi 82\%:\\
+$m_{\text{saccharose trong mía}} = \dfrac{1,0}{82\%} = \dfrac{1,0}{0,82} \approx 1,2195\text{ tấn}$.\\
+2. Khối lượng mía tươi tối thiểu cần cung cấp (chứa 13,5\% saccharose):\\
+$m_{\text{mía}} = \dfrac{1,2195}{13,5\%} = \dfrac{1,0}{0,82 \times 0,135} = \dfrac{1,0}{0,1107} \approx 9,0334\text{ tấn}$.\\
+3. Làm tròn đến hàng phần trăm theo yêu cầu: $\mathbf{9,03\text{ tấn mía tươi}}$.\\
+\textbf{Đáp số: 9,03 tấn.}
+}
+
+\end{ex}
+
+\vspace{8pt}
+\begin{center}
+\textbf{-------------------- HẾT --------------------}\\
+\textit{\small (Học sinh không được sử dụng tài liệu -- Giám thị không giải thích gì thêm)}
+\end{center}
+
+\end{document}
