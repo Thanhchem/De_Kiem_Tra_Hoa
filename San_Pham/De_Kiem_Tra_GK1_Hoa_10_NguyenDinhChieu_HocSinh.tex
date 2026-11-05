@@ -1,0 +1,271 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{geometry}
+\geometry{top=1.5cm,bottom=1.2cm,left=1.4cm,right=1.4cm,headheight=28pt,headsep=12pt,footskip=18pt}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{multido}
+\usepackage{tcolorbox}
+
+\definecolor{hfRed}{HTML}{D32F2F}
+\definecolor{hfGreen}{HTML}{8BC390}
+\definecolor{mainGreen}{HTML}{2E7D32}
+\definecolor{solBlue}{HTML}{1565C0}
+\definecolor{tableGreen}{HTML}{E8F5E9}
+
+\usepackage{ex_test}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.75pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0.75pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+
+\fancyhead[L]{\small\itshape\color{hfRed}Tài liệu lưu hành nội bộ}
+\fancyhead[R]{\small\color{hfRed}Thầy \textbf{TRẦN VĂN THẠNH} - 0777.470.803}
+
+\fancyfoot[L]{\footnotesize\itshape\color{hfRed}CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+\fancyfoot[R]{\small\textbf{\color{hfRed}Trang \thepage}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+
+\begin{document}
+
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{SỞ GD\&ĐT THỪA THIÊN HUẾ}\\
+\textbf{TRƯỜNG THPT NGUYỄN ĐÌNH CHIỂU}\\
+\textit{ĐỀ CHÍNH THỨC}\\
+\textit{(Đề thi có 02 trang)}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\raggedleft
+\textbf{\color{hfRed}KIỂM TRA GIỮA HỌC KỲ I}\\
+\textbf{MÔN: HOÁ HỌC -- LỚP 10}\\
+\textit{Thời gian làm bài: 45 phút (không kể thời gian giao đề)}\\
+\textbf{MÃ ĐỀ: ĐỀ GỐC}
+\end{minipage}
+
+\vspace{4pt}
+\noindent
+\textit{Họ, tên thí sinh:} \dotfill \textit{Lớp:} \dotfill \textit{Số báo danh:} \dotfill
+
+\vspace{3pt}
+\noindent
+\textit{\footnotesize Cho nguyên tử khối: $\ce{H} = 1; \ce{C} = 12; \ce{N} = 14; \ce{O} = 16; \ce{Na} = 23; \ce{Mg} = 24; \ce{Al} = 27; \ce{P} = 31; \ce{S} = 32; \ce{Cl} = 35,5; \ce{K} = 39; \ce{Cr} = 52; \ce{Fe} = 55,85; \ce{Cu} = 64; \ce{Br} = 80; \ce{Ba} = 137$. Số Avogadro $N_A = 6,022 \times 10^{23}\text{ mol}^{-1}$.}
+
+\vspace{3pt}
+\hrule color{hfGreen} height 0.5pt
+
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\Large A. PHẦN TRẮC NGHIỆM (7 điểm)}}
+
+\vspace{3pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN I (3 điểm). CÂU TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN LỰA CHỌN}}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 12. Mỗi câu hỏi thí sinh chỉ chọn 1 phương án.}
+\vspace{2pt}
+
+\begin{ex}
+Nguyên tử của nguyên tố $\ce{X}$ có tổng số hạt cơ bản (p, n, e) là 52, trong đó số hạt mang điện nhiều hơn số hạt không mang điện là 16. Số khối của nguyên tử $\ce{X}$ là
+\choice
+{\True 35}
+{36}
+{34}
+{37}
+\end{ex}
+\begin{ex}
+Hợp chất khí với hydrogen của nguyên tố $\ce{R}$ có dạng $\ce{RH3}$. Trong oxide cao nhất của $\ce{R}$, oxygen chiếm 74,07\% về khối lượng. Phát biểu nào sau đây sai?
+\choice
+{Nguyên tố $\ce{R}$ thuộc chu kì 2, nhóm VA}
+{\True Phân tử oxide cao nhất của $\ce{R}$ có công thức $\ce{R2O3}$}
+{Độ âm điện của $\ce{R}$ lớn hơn của phosphorus}
+{Hydroxide ứng với hóa trị cao nhất của $\ce{R}$ là $\ce{HNO3}$}
+\end{ex}
+\begin{ex}
+Nguyên tử của nguyên tố chromium ($\ce{Cr}$) có số hiệu nguyên tử $Z = 24$. Cấu hình electron ở trạng thái cơ bản của nguyên tử $\ce{Cr}$ là
+\choice
+{\True $\ce{[Ar] 3d^5 4s^1}$}
+{$\ce{[Ar] 3d^5 4s^2}$}
+{$\ce{[Ar] 3d^4 4s^2}$}
+{$\ce{[Ar] 3d^6}$}
+\end{ex}
+\begin{ex}
+Ở trạng thái cơ bản, phân lớp 3d chứa tối đa bao nhiêu electron?
+\choice
+{\True 10}
+{6}
+{18}
+{14}
+\end{ex}
+\begin{ex}
+Cho các nguyên tố: $\ce{C} (Z = 6), \ce{N} (Z = 7), \ce{Si} (Z = 14), \ce{P} (Z = 15)$. Chiều bán kính nguyên tử tăng dần là
+\choice
+{$\ce{Si < P < C < N}$}
+{$\ce{N < P < C < Si}$}
+{\True $\ce{N < C < P < Si}$}
+{$\ce{C < N < Si < P}$}
+\end{ex}
+\begin{ex}
+Cho các nguyên tố $\ce{Na} (Z = 11), \ce{Mg} (Z = 12), \ce{Al} (Z = 13), \ce{K} (Z = 19)$. Chiều tính base của các hydroxide tăng dần là
+\choice
+{$\ce{Al(OH)3 < Mg(OH)2 < KOH < NaOH}$}
+{$\ce{Mg(OH)2 < Al(OH)3 < NaOH < KOH}$}
+{$\ce{KOH < NaOH < Mg(OH)2 < Al(OH)3}$}
+{\True $\ce{Al(OH)3 < Mg(OH)2 < NaOH < KOH}$}
+\end{ex}
+\begin{ex}
+Trong tự nhiên, nguyên tố bromine ($\ce{Br}$) có hai đồng vị bền là $^{79}\ce{Br}$ và $^{81}\ce{Br}$. Biết nguyên tử khối trung bình của bromine là 79,91. Phần trăm số nguyên tử của đồng vị $^{79}\ce{Br}$ là
+\choice
+{49,5\%}
+{\True 54,5\%}
+{50,5\%}
+{45,5\%}
+\end{ex}
+\begin{ex}
+Theo chiều tăng dần của điện tích hạt nhân trong một chu kì, xu hướng nào sau đây là đúng đối với các nguyên tố nhóm A?
+\choice
+{Độ âm điện giảm dần}
+{\True Tính kim loại giảm dần, tính phi kim tăng dần}
+{Bán kính nguyên tử tăng dần}
+{Tính base tăng dần}
+\end{ex}
+\begin{ex}
+Nguyên tử của nguyên tố $\ce{Y}$ ở trạng thái cơ bản có tổng số electron ở các phân lớp p là 11. Vị trí của $\ce{Y}$ trong bảng tuần hoàn là
+\choice
+{chu kì 3, nhóm VIA}
+{chu kì 4, nhóm IA}
+{chu kì 3, nhóm VA}
+{\True chu kì 3, nhóm VIIA}
+\end{ex}
+\begin{ex}
+Hạt nhân của hầu hết các nguyên tử được cấu tạo từ các loại hạt nào sau đây?
+\choice
+{Electron và neutron}
+{Proton và electron}
+{\True Proton và neutron}
+{Proton, neutron và electron}
+\end{ex}
+\begin{ex}
+Trong bảng tuần hoàn các nguyên tố hóa học, số thứ tự của nhóm A bằng
+\choice
+{\True số electron ở lớp ngoài cùng}
+{tổng số hạt proton và neutron}
+{số electron ở phân lớp ngoài cùng}
+{số lớp electron trong nguyên tử}
+\end{ex}
+\begin{ex}
+Cặp kí hiệu nguyên tử nào sau đây là đồng vị của cùng một nguyên tố hóa học?
+\choice
+{\True $^{35}_{17}\ce{X}$ và $^{37}_{17}\ce{Y}$}
+{$^{40}_{19}\ce{X}$ và $^{40}_{20}\ce{Y}$}
+{$^{16}_{8}\ce{X}$ và $^{14}_{7}\ce{Y}$}
+{$^{23}_{11}\ce{X}$ và $^{24}_{12}\ce{Y}$}
+\end{ex}
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN II (3 điểm). CÂU TRẮC NGHIỆM ĐÚNG / SAI}}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 3. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}
+\vspace{2pt}
+
+\begin{ex}
+Trong tự nhiên, nguyên tố chlorine ($\ce{Cl}$) có hai đồng vị bền là $^{35}\ce{Cl}$ (75,77\%) và $^{37}\ce{Cl}$ (24,23\%). Nguyên tố copper ($\ce{Cu}$) có hai đồng vị bền là $^{63}\ce{Cu}$ và $^{65}\ce{Cu}$ với nguyên tử khối trung bình là 63,54. (Khi tính khối lượng mol của $\ce{CuCl2}$, dùng nguyên tử khối trung bình của $\ce{Cl}$ tính từ phần trăm các đồng vị ở trên.)
+\choiceTF
+{\True Hạt nhân nguyên tử đồng vị $^{37}\ce{Cl}$ có 17 proton và 20 neutron}
+{\True Trong hợp chất $\ce{CuCl2}$, phần trăm khối lượng của đồng vị $^{63}\ce{Cu}$ xấp xỉ bằng 34,19\%}
+{\True Nguyên tử khối trung bình của chlorine là 35,4846}
+{Nếu lấy 13,45092 gam $\ce{CuCl2}$ thì tổng số hạt neutron trong các nguyên tử $^{37}\ce{Cl}$ là $2,91826 \times 10^{23}$ hạt}
+\end{ex}
+\begin{ex}
+Cho các nguyên tố thuộc chu kì 3 trong bảng tuần hoàn: $\ce{Na, Mg, Al, P, S, Cl}$.
+\choiceTF
+{\True Trong số các nguyên tố trên, $\ce{Na}$ là nguyên tố có bán kính nguyên tử lớn nhất và $\ce{Cl}$ có độ âm điện lớn nhất}
+{Các oxide cao nhất gồm $\ce{Na2O, MgO, Al2O3}$ đều là các basic oxide, còn $\ce{P2O5, SO3, Cl2O7}$ đều là các acidic oxide}
+{\True Theo chiều tăng dần của điện tích hạt nhân, hóa trị cao nhất của các nguyên tố với oxygen tăng dần từ I đến VII, đồng thời hóa trị với hydrogen của $\ce{P, S, Cl}$ giảm dần từ III xuống I}
+{\True Cho một lượng dư dung dịch $\ce{NaOH}$ vào hỗn hợp gồm $\ce{Al(OH)3}$ và $\ce{Mg(OH)2}$, sau phản ứng chỉ có $\ce{Al(OH)3}$ bị hòa tan}
+\end{ex}
+\begin{ex}
+Cho bốn nguyên tố $\ce{X, Y, Z, T}$ có số hiệu nguyên tử lần lượt là $7, 14, 24, 26$.
+\choiceTF
+{\True Khi biểu diễn cấu hình electron theo ô orbital ở trạng thái cơ bản, nguyên tử $\ce{T} (Z = 26)$ có tổng cộng 15 orbital chứa electron, trong đó có 4 AO chứa 1 electron độc thân}
+{\True Nguyên tử $\ce{Y}$ ở trạng thái cơ bản có 4 electron ở lớp ngoài cùng và thuộc chu kì 3, nhóm IVA}
+{Ở trạng thái cơ bản, nguyên tử $\ce{Z} (Z = 24)$ có 6 electron độc thân và có 2 electron ở lớp ngoài cùng}
+{\True Ở trạng thái cơ bản, nguyên tử $\ce{X}$ có 3 electron độc thân ở phân lớp 2p}
+\end{ex}
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN III (1 điểm). CÂU TRẮC NGHIỆM YÊU CẦU TRẢ LỜI NGẮN}}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 4.}
+\vspace{2pt}
+
+\begin{ex}
+Hòa tan hoàn toàn 6,85 gam một kim loại nhóm IIA ($\ce{M}$) vào 200 gam dung dịch $\ce{HCl}$ 3,65\%, cô cạn dung dịch thu được 10,4 gam chất rắn khan. Xác định nguyên tử khối của $\ce{M}$.
+
+\noindent\textit{Trả lời:} \dotfill
+\end{ex}
+\begin{ex}
+Ở 20~$^\circ\text{C}$, khối lượng riêng của $\ce{Fe}$ ($M = 55,85\text{ g/mol}$) là $7,87\text{ g/cm}^3$. Giả thiết nguyên tử $\ce{Fe}$ là hình cầu chiếm 68\% thể tích tinh thể. Tính bán kính nguyên tử $\ce{Fe}$ theo đơn vị pm (làm tròn kết quả đến hàng đơn vị).
+
+\noindent\textit{Trả lời:} \dotfill
+\end{ex}
+\begin{ex}
+Trong tự nhiên, $\ce{H}$ có 2 đồng vị bền ($^1\ce{H}, ^2\ce{H}$), $\ce{S}$ có 1 đồng vị bền ($^{32}\ce{S}$), $\ce{O}$ có 3 đồng vị bền ($^{16}\ce{O}, ^{17}\ce{O}, ^{18}\ce{O}$). Có tối đa bao nhiêu loại phân tử $\ce{H2SO4}$ khác nhau về phân tử khối được tạo thành từ các đồng vị trên?
+
+\noindent\textit{Trả lời:} \dotfill
+\end{ex}
+\begin{ex}
+Hai nguyên tố $\ce{X, Y}$ thuộc nhóm A, kế tiếp nhau trong một chu kì, tổng số proton trong hai hạt nhân là 31. Ở trạng thái cơ bản, nguyên tử có độ âm điện lớn hơn có bao nhiêu electron độc thân?
+
+\noindent\textit{Trả lời:} \dotfill
+\end{ex}
+\vspace{6pt}
+\noindent
+{\color{mainGreen}\textbf{\Large B. PHẦN TỰ LUẬN (3,0 điểm)}}
+\vspace{2pt}
+
+\noindent
+\textbf{Câu 1: (1,0 điểm)} Nguyên tử của nguyên tố $\ce{X}$ có tổng số các loại hạt cơ bản (proton, neutron, electron) là 36. Trong đó, số hạt mang điện gấp đôi số hạt không mang điện.\\
+a) Tính số hạt proton, neutron và electron của nguyên tử $\ce{X}$.\\
+b) Viết cấu hình electron của nguyên tử $\ce{X}$ và cho biết $\ce{X}$ là kim loại, phi kim hay khí hiếm? Vì sao?
+
+\vspace{1pt}
+\noindent
+\multido{\n=1+1}{6}{\dotfill\\[4pt]}
+
+\vspace{4pt}
+\noindent
+\textbf{Câu 2: (1,0 điểm)} Cho hai nguyên tố $\ce{X}$ có số hiệu nguyên tử $Z = 11$ (Sodium) và $\ce{Y}$ có số hiệu nguyên tử $Z = 12$ (Magnesium).\\
+a) Viết cấu hình electron của $\ce{X, Y}$ và xác định vị trí của chúng (chu kì, nhóm) trong bảng tuần hoàn.\\
+b) Viết công thức hydroxide tương ứng của $\ce{X, Y}$. Theo quy luật tuần hoàn, hãy so sánh tính base của hai hydroxide này.
+
+\vspace{1pt}
+\noindent
+\multido{\n=1+1}{6}{\dotfill\\[4pt]}
+
+\vspace{4pt}
+\noindent
+\textbf{Câu 3: (1,0 điểm)} Nguyên tố $\ce{R}$ thuộc nhóm VIA trong bảng tuần hoàn. Trong phân tử oxide cao nhất của $\ce{R}$, nguyên tố oxygen chiếm 60\% về khối lượng.\\
+a) Xác định tên và kí hiệu hóa học của nguyên tố $\ce{R}$.\\
+b) Hòa tan hoàn toàn 8,0 gam oxide cao nhất của $\ce{R}$ vào nước dư, thu được dung dịch chứa $m$ gam acid. Tính giá trị của $m$.
+
+\vspace{1pt}
+\noindent
+\multido{\n=1+1}{6}{\dotfill\\[4pt]}
+
+\vspace{6pt}
+\begin{center}
+\textbf{\large ---------- HẾT ----------}
+\end{center}
+
+\end{document}

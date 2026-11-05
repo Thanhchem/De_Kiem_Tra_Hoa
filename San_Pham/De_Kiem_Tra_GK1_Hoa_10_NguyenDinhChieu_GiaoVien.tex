@@ -1,0 +1,522 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{geometry}
+\geometry{top=1.5cm,bottom=1.2cm,left=1.4cm,right=1.4cm,headheight=28pt,headsep=12pt,footskip=18pt}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{multido}
+\usepackage{tcolorbox}
+
+\definecolor{hfRed}{HTML}{D32F2F}
+\definecolor{hfGreen}{HTML}{8BC390}
+\definecolor{mainGreen}{HTML}{2E7D32}
+\definecolor{solBlue}{HTML}{1565C0}
+\definecolor{tableGreen}{HTML}{E8F5E9}
+
+\usepackage{ex_test}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.75pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0.75pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+
+\fancyhead[L]{\small\itshape\color{hfRed}Tài liệu lưu hành nội bộ}
+\fancyhead[R]{\small\color{hfRed}Thầy \textbf{TRẦN VĂN THẠNH} - 0777.470.803}
+
+\fancyfoot[L]{\footnotesize\itshape\color{hfRed}CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+\fancyfoot[R]{\small\textbf{\color{hfRed}Trang \thepage}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+
+\begin{document}
+
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{SỞ GD\&ĐT THỪA THIÊN HUẾ}\\
+\textbf{TRƯỜNG THPT NGUYỄN ĐÌNH CHIỂU}\\
+\textit{ĐỀ CHÍNH THỨC}\\
+\textit{(Đề thi có 02 trang)}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\raggedleft
+\textbf{\color{hfRed}KIỂM TRA GIỮA HỌC KỲ I}\\
+\textbf{MÔN: HOÁ HỌC -- LỚP 10}\\
+\textit{Thời gian làm bài: 45 phút (không kể thời gian giao đề)}\\
+\textbf{MÃ ĐỀ: ĐỀ GỐC}
+\end{minipage}
+
+\vspace{4pt}
+\noindent
+\textit{Họ, tên thí sinh:} \dotfill \textit{Lớp:} \dotfill \textit{Số báo danh:} \dotfill
+
+\vspace{3pt}
+\noindent
+\textit{\footnotesize Cho nguyên tử khối: $\ce{H} = 1; \ce{C} = 12; \ce{N} = 14; \ce{O} = 16; \ce{Na} = 23; \ce{Mg} = 24; \ce{Al} = 27; \ce{P} = 31; \ce{S} = 32; \ce{Cl} = 35,5; \ce{K} = 39; \ce{Cr} = 52; \ce{Fe} = 55,85; \ce{Cu} = 64; \ce{Br} = 80; \ce{Ba} = 137$. Số Avogadro $N_A = 6,022 \times 10^{23}\text{ mol}^{-1}$.}
+
+\vspace{3pt}
+\hrule color{hfGreen} height 0.5pt
+
+\vspace{4pt}
+\begin{center}
+\textbf{\color{hfRed}\large (BẢN GIÁO VIÊN -- CÓ LỜI GIẢI CHI TIẾT)}
+\end{center}
+
+\vspace{2pt}
+\begin{center}
+{\color{hfRed}\textbf{\large BẢNG ĐÁP ÁN RÚT GỌN (DÀNH CHO GIÁO VIÊN)}}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}1. Phần I: Trắc nghiệm nhiều lựa chọn (3,0 điểm - mỗi câu đúng 0,25 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đ/A} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}A} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}2. Phần II: Trắc nghiệm Đúng / Sai (3,0 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|l|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Nội dung câu hỏi} & \textbf{Lệnh a} & \textbf{Lệnh b} & \textbf{Lệnh c} & \textbf{Lệnh d} \\
+\hline
+\textbf{Câu 1} & Đồng vị $\ce{Cl}$ và $\ce{Cu}$ & \textbf{\color{hfRed}ĐÚNG} & \textbf{\color{hfRed}ĐÚNG} & \textbf{\color{hfRed}ĐÚNG} & \textbf{SAI} \\
+\hline
+\textbf{Câu 2} & Các nguyên tố chu kì 3 & \textbf{\color{hfRed}ĐÚNG} & \textbf{SAI} & \textbf{\color{hfRed}ĐÚNG} & \textbf{\color{hfRed}ĐÚNG} \\
+\hline
+\textbf{Câu 3} & Cấu hình e và ô orbital & \textbf{\color{hfRed}ĐÚNG} & \textbf{\color{hfRed}ĐÚNG} & \textbf{SAI} & \textbf{\color{hfRed}ĐÚNG} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}3. Phần III: Trả lời ngắn (1,0 điểm - mỗi câu đúng 0,25 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Câu 1} & \textbf{Câu 2} & \textbf{Câu 3} & \textbf{Câu 4} \\
+\hline
+\textbf{Đáp án} & \textbf{\color{hfRed}137} & \textbf{\color{hfRed}124} & \textbf{\color{hfRed}11} & \textbf{\color{hfRed}2} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}4. Tóm tắt đáp số Phần Tự luận (3,0 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|p{11.5cm}|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Điểm} & \textbf{Đáp số cốt lõi} \\
+\hline
+\textbf{Câu 1} & 1,0 đ & a) $p = e = 12$; $n = 12$. \quad b) Cấu hình: $\ce{1s^2 2s^2 2p^6 3s^2}$; là kim loại. \\
+\hline
+\textbf{Câu 2} & 1,0 đ & a) $\ce{X}$ ($Z = 11$, CK 3, nhóm IA); $\ce{Y}$ ($Z = 12$, CK 3, nhóm IIA). \quad b) Base: $\ce{NaOH} > \ce{Mg(OH)2}$. \\
+\hline
+\textbf{Câu 3} & 1,0 đ & a) Tên: Sulfur (Lưu huỳnh), KHHH: $\ce{S}$. \quad b) $m = 9,8\text{ gam acid } (\ce{H2SO4})$. \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{4pt}
+\hrule color{hfGreen} height 0.5pt
+
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\Large A. PHẦN TRẮC NGHIỆM (7 điểm)}}
+
+\vspace{3pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN I (3 điểm). CÂU TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN LỰA CHỌN}}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 12. Mỗi câu hỏi thí sinh chỉ chọn 1 phương án.}
+\vspace{2pt}
+
+\begin{ex}
+Nguyên tử của nguyên tố $\ce{X}$ có tổng số hạt cơ bản (p, n, e) là 52, trong đó số hạt mang điện nhiều hơn số hạt không mang điện là 16. Số khối của nguyên tử $\ce{X}$ là
+\choice
+{\True 35}
+{36}
+{34}
+{37}
+
+\loigiai{
+Gọi $p, n, e$ lần lượt là số proton, neutron, electron của $\ce{X}$ ($p = e = Z$).\\
+Ta có hệ phương trình:
+$\begin{cases} 2Z + N = 52 \\ 2Z - N = 16 \end{cases} \implies 4Z = 68 \implies Z = 17, N = 18$.\\
+Số khối của $\ce{X}$: $A = Z + N = 17 + 18 = 35$.\\
+\textbf{Chọn A.}
+}
+\end{ex}
+\begin{ex}
+Hợp chất khí với hydrogen của nguyên tố $\ce{R}$ có dạng $\ce{RH3}$. Trong oxide cao nhất của $\ce{R}$, oxygen chiếm 74,07\% về khối lượng. Phát biểu nào sau đây sai?
+\choice
+{Nguyên tố $\ce{R}$ thuộc chu kì 2, nhóm VA}
+{\True Phân tử oxide cao nhất của $\ce{R}$ có công thức $\ce{R2O3}$}
+{Độ âm điện của $\ce{R}$ lớn hơn của phosphorus}
+{Hydroxide ứng với hóa trị cao nhất của $\ce{R}$ là $\ce{HNO3}$}
+
+\loigiai{
+Hợp chất khí với hydrogen có dạng $\ce{RH3} \implies \ce{R}$ thuộc nhóm VA.\\
+Oxide cao nhất của $\ce{R}$ có dạng $\ce{R2O5}$.\\
+$\%O = \dfrac{16 \times 5}{2M_{\ce{R}} + 16 \times 5} \times 100\% = 74,07\% \implies \dfrac{80}{2M_{\ce{R}} + 80} = 0,7407 \implies M_{\ce{R}} = 14 \text{ (Nitrogen - N)}$.\\
+- A đúng: $\ce{N}$ ($Z = 7$) thuộc chu kì 2, nhóm VA.\\
+- B sai: Công thức oxide cao nhất là $\ce{R2O5}$ ($\ce{N2O5}$), không phải $\ce{R2O3}$.\\
+- C đúng: $\ce{N}$ và $\ce{P}$ cùng nhóm VA, chu kì nhỏ hơn có độ âm điện lớn hơn $\implies$ độ âm điện của $\ce{N} > \ce{P}$.\\
+- D đúng: Hydroxide cao nhất là $\ce{HNO3}$.\\
+\textbf{Chọn B.}
+}
+\end{ex}
+\begin{ex}
+Nguyên tử của nguyên tố chromium ($\ce{Cr}$) có số hiệu nguyên tử $Z = 24$. Cấu hình electron ở trạng thái cơ bản của nguyên tử $\ce{Cr}$ là
+\choice
+{\True $\ce{[Ar] 3d^5 4s^1}$}
+{$\ce{[Ar] 3d^5 4s^2}$}
+{$\ce{[Ar] 3d^4 4s^2}$}
+{$\ce{[Ar] 3d^6}$}
+
+\loigiai{
+$\ce{Cr}$ ($Z = 24$): Theo trật tự năng lượng là $\ce{1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^4}$.\\
+Do hiện tượng bán bão hòa phân lớp d bền vững hơn, 1 electron chuyển từ $4s$ sang $3d$, cấu hình electron trạng thái cơ bản là: $\ce{1s^2 2s^2 2p^6 3s^2 3p^6 3d^5 4s^1}$ hay $\ce{[Ar] 3d^5 4s^1}$.\\
+\textbf{Chọn A.}
+}
+\end{ex}
+\begin{ex}
+Ở trạng thái cơ bản, phân lớp 3d chứa tối đa bao nhiêu electron?
+\choice
+{\True 10}
+{6}
+{18}
+{14}
+
+\loigiai{
+Phân lớp d gồm 5 orbital (AO), mỗi orbital chứa tối đa 2 electron.\\
+Do đó, phân lớp 3d chứa tối đa $5 \times 2 = 10$ electron.\\
+\textbf{Chọn A.}
+}
+\end{ex}
+\begin{ex}
+Cho các nguyên tố: $\ce{C} (Z = 6), \ce{N} (Z = 7), \ce{Si} (Z = 14), \ce{P} (Z = 15)$. Chiều bán kính nguyên tử tăng dần là
+\choice
+{$\ce{Si < P < C < N}$}
+{$\ce{N < P < C < Si}$}
+{\True $\ce{N < C < P < Si}$}
+{$\ce{C < N < Si < P}$}
+
+\loigiai{
+- Chu kì 2: $\ce{C}$ (nhóm IVA), $\ce{N}$ (nhóm VA). Trong chu kì: bán kính $\ce{N < C}$.\\
+- Chu kì 3: $\ce{Si}$ (nhóm IVA), $\ce{P}$ (nhóm VA). Trong chu kì: bán kính $\ce{P < Si}$.\\
+- Trong nhóm: bán kính chu kì 2 nhỏ hơn chu kì 3: $\ce{C < Si}$ và $\ce{N < P}$.\\
+$\implies$ Thứ tự tăng dần bán kính: $\ce{N < C < P < Si}$.\\
+\textbf{Chọn C.}
+}
+\end{ex}
+\begin{ex}
+Cho các nguyên tố $\ce{Na} (Z = 11), \ce{Mg} (Z = 12), \ce{Al} (Z = 13), \ce{K} (Z = 19)$. Chiều tính base của các hydroxide tăng dần là
+\choice
+{$\ce{Al(OH)3 < Mg(OH)2 < KOH < NaOH}$}
+{$\ce{Mg(OH)2 < Al(OH)3 < NaOH < KOH}$}
+{$\ce{KOH < NaOH < Mg(OH)2 < Al(OH)3}$}
+{\True $\ce{Al(OH)3 < Mg(OH)2 < NaOH < KOH}$}
+
+\loigiai{
+- Trong chu kì 3: tính kim loại $\ce{Al < Mg < Na} \implies$ tính base: $\ce{Al(OH)3 < Mg(OH)2 < NaOH}$.\\
+- Trong nhóm IA: $\ce{K}$ ở chu kì 4 có tính kim loại mạnh hơn $\ce{Na} \implies \ce{KOH > NaOH}$.\\
+$\implies$ Chiều tính base tăng dần: $\ce{Al(OH)3 < Mg(OH)2 < NaOH < KOH}$.\\
+\textbf{Chọn D.}
+}
+\end{ex}
+\begin{ex}
+Trong tự nhiên, nguyên tố bromine ($\ce{Br}$) có hai đồng vị bền là $^{79}\ce{Br}$ và $^{81}\ce{Br}$. Biết nguyên tử khối trung bình của bromine là 79,91. Phần trăm số nguyên tử của đồng vị $^{79}\ce{Br}$ là
+\choice
+{49,5\%}
+{\True 54,5\%}
+{50,5\%}
+{45,5\%}
+
+\loigiai{
+Gọi $x$ là phần trăm của đồng vị $^{79}\ce{Br}$, suy ra $^{81}\ce{Br}$ chiếm $(100 - x)\%$.\\
+Ta có: $\overline{A} = \dfrac{79x + 81(100 - x)}{100} = 79,91 \implies 8100 - 2x = 7991 \implies 2x = 109 \implies x = 54,5\%$.\\
+\textbf{Chọn B.}
+}
+\end{ex}
+\begin{ex}
+Theo chiều tăng dần của điện tích hạt nhân trong một chu kì, xu hướng nào sau đây là đúng đối với các nguyên tố nhóm A?
+\choice
+{Độ âm điện giảm dần}
+{\True Tính kim loại giảm dần, tính phi kim tăng dần}
+{Bán kính nguyên tử tăng dần}
+{Tính base tăng dần}
+
+\loigiai{
+Trong một chu kì, theo chiều tăng của điện tích hạt nhân (từ trái sang phải):\\
+- Bán kính nguyên tử giảm dần;\\
+- Độ âm điện tăng dần;\\
+- Tính kim loại giảm dần, tính phi kim tăng dần;\\
+- Tính base của oxide/hydroxide giảm dần, tính acid tăng dần.\\
+\textbf{Chọn B.}
+}
+\end{ex}
+\begin{ex}
+Nguyên tử của nguyên tố $\ce{Y}$ ở trạng thái cơ bản có tổng số electron ở các phân lớp p là 11. Vị trí của $\ce{Y}$ trong bảng tuần hoàn là
+\choice
+{chu kì 3, nhóm VIA}
+{chu kì 4, nhóm IA}
+{chu kì 3, nhóm VA}
+{\True chu kì 3, nhóm VIIA}
+
+\loigiai{
+Tổng số electron ở các phân lớp p là 11 $\implies$ gồm $\ce{2p^6}$ và $\ce{3p^5}$.\\
+Cấu hình electron đầy đủ của $\ce{Y}$: $\ce{1s^2 2s^2 2p^6 3s^2 3p^5}$ ($Z = 17$).\\
+- Có 3 lớp electron $\implies$ Chu kì 3.\\
+- Lớp ngoài cùng có 7 electron ($2 + 5 = 7$), nguyên tố p $\implies$ Nhóm VIIA.\\
+\textbf{Chọn D.}
+}
+\end{ex}
+\begin{ex}
+Hạt nhân của hầu hết các nguyên tử được cấu tạo từ các loại hạt nào sau đây?
+\choice
+{Electron và neutron}
+{Proton và electron}
+{\True Proton và neutron}
+{Proton, neutron và electron}
+
+\loigiai{
+Hạt nhân của hầu hết các nguyên tử được cấu tạo từ hai loại hạt cơ bản: proton (mang điện tích dương) và neutron (không mang điện). Electron chuyển động ở lớp vỏ.\\
+\textbf{Chọn C.}
+}
+\end{ex}
+\begin{ex}
+Trong bảng tuần hoàn các nguyên tố hóa học, số thứ tự của nhóm A bằng
+\choice
+{\True số electron ở lớp ngoài cùng}
+{tổng số hạt proton và neutron}
+{số electron ở phân lớp ngoài cùng}
+{số lớp electron trong nguyên tử}
+
+\loigiai{
+Đối với các nguyên tố nhóm A, số thứ tự của nhóm bằng số electron ở lớp ngoài cùng.\\
+\textbf{Chọn A.}
+}
+\end{ex}
+\begin{ex}
+Cặp kí hiệu nguyên tử nào sau đây là đồng vị của cùng một nguyên tố hóa học?
+\choice
+{\True $^{35}_{17}\ce{X}$ và $^{37}_{17}\ce{Y}$}
+{$^{40}_{19}\ce{X}$ và $^{40}_{20}\ce{Y}$}
+{$^{16}_{8}\ce{X}$ và $^{14}_{7}\ce{Y}$}
+{$^{23}_{11}\ce{X}$ và $^{24}_{12}\ce{Y}$}
+
+\loigiai{
+Đồng vị là các nguyên tử có cùng số proton (cùng $Z$) nhưng khác số neutron (khác $A$).\\
+Cặp $^{35}_{17}\ce{X}$ và $^{37}_{17}\ce{Y}$ có cùng $Z = 17$, số khối khác nhau (35 và 37) nên là đồng vị của cùng một nguyên tố (Chlorine).\\
+\textbf{Chọn A.}
+}
+\end{ex}
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN II (3 điểm). CÂU TRẮC NGHIỆM ĐÚNG / SAI}}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 3. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}
+\vspace{2pt}
+
+\begin{ex}
+Trong tự nhiên, nguyên tố chlorine ($\ce{Cl}$) có hai đồng vị bền là $^{35}\ce{Cl}$ (75,77\%) và $^{37}\ce{Cl}$ (24,23\%). Nguyên tố copper ($\ce{Cu}$) có hai đồng vị bền là $^{63}\ce{Cu}$ và $^{65}\ce{Cu}$ với nguyên tử khối trung bình là 63,54. (Khi tính khối lượng mol của $\ce{CuCl2}$, dùng nguyên tử khối trung bình của $\ce{Cl}$ tính từ phần trăm các đồng vị ở trên.)
+\choiceTF
+{\True Hạt nhân nguyên tử đồng vị $^{37}\ce{Cl}$ có 17 proton và 20 neutron}
+{\True Trong hợp chất $\ce{CuCl2}$, phần trăm khối lượng của đồng vị $^{63}\ce{Cu}$ xấp xỉ bằng 34,19\%}
+{\True Nguyên tử khối trung bình của chlorine là 35,4846}
+{Nếu lấy 13,45092 gam $\ce{CuCl2}$ thì tổng số hạt neutron trong các nguyên tử $^{37}\ce{Cl}$ là $2,91826 \times 10^{23}$ hạt}
+
+\loigiai{
+a) \textbf{Đúng}: Đồng vị $^{37}_{17}\ce{Cl}$ có $Z = 17$ (17 proton) và $N = 37 - 17 = 20$ neutron.\\
+b) \textbf{Đúng}: Gọi $x$ là \% số nguyên tử $^{63}\ce{Cu}$: $\overline{A}_{\ce{Cu}} = \dfrac{63x + 65(100 - x)}{100} = 63,54 \implies x = 73\%$.\\
+Khối lượng mol của $\ce{CuCl2} = 63,54 + 2 \times 35,4846 = 134,5092\text{ g/mol}$.\\
+Trong 1 mol $\ce{CuCl2}$ có 0,73 mol $^{63}\ce{Cu} \implies m_{^{63}\ce{Cu}} = 0,73 \times 63 = 45,99\text{ g}$.\\
+$\%m_{^{63}\ce{Cu}} = \dfrac{45,99}{134,5092} \times 100\% \approx 34,19\%$.\\
+c) \textbf{Đúng}: $\overline{A}_{\ce{Cl}} = \dfrac{35 \times 75,77 + 37 \times 24,23}{100} = 35,4846$.\\
+d) \textbf{Sai}: $n_{\ce{CuCl2}} = \dfrac{13,45092}{134,5092} = 0,1\text{ mol} \implies n_{\ce{Cl}} = 0,1 \times 2 = 0,2\text{ mol}$.\\
+$n_{^{37}\ce{Cl}} = 0,2 \times 24,23\% = 0,04846\text{ mol}$.\\
+Số hạt neutron trong $^{37}\ce{Cl} = 0,04846 \times 20 \times 6,022 \times 10^{23} \approx 5,8365 \times 10^{23}\text{ hạt}$ (khác $2,91826 \times 10^{23}$).
+}
+\end{ex}
+\begin{ex}
+Cho các nguyên tố thuộc chu kì 3 trong bảng tuần hoàn: $\ce{Na, Mg, Al, P, S, Cl}$.
+\choiceTF
+{\True Trong số các nguyên tố trên, $\ce{Na}$ là nguyên tố có bán kính nguyên tử lớn nhất và $\ce{Cl}$ có độ âm điện lớn nhất}
+{Các oxide cao nhất gồm $\ce{Na2O, MgO, Al2O3}$ đều là các basic oxide, còn $\ce{P2O5, SO3, Cl2O7}$ đều là các acidic oxide}
+{\True Theo chiều tăng dần của điện tích hạt nhân, hóa trị cao nhất của các nguyên tố với oxygen tăng dần từ I đến VII, đồng thời hóa trị với hydrogen của $\ce{P, S, Cl}$ giảm dần từ III xuống I}
+{\True Cho một lượng dư dung dịch $\ce{NaOH}$ vào hỗn hợp gồm $\ce{Al(OH)3}$ và $\ce{Mg(OH)2}$, sau phản ứng chỉ có $\ce{Al(OH)3}$ bị hòa tan}
+
+\loigiai{
+a) \textbf{Đúng}: Đi từ trái sang phải trong chu kì 3, bán kính giảm dần ($\ce{Na}$ lớn nhất) và độ âm điện tăng dần ($\ce{Cl}$ lớn nhất).\\
+b) \textbf{Sai}: $\ce{Al2O3}$ là oxide lưỡng tính (amphoteric oxide), không phải basic oxide.\\
+c) \textbf{Đúng}: Hóa trị cao nhất với oxygen tăng từ I đến VII ($\ce{Na2O}$ đến $\ce{Cl2O7}$). Hóa trị với hydrogen của $\ce{P, S, Cl}$ lần lượt là III ($\ce{PH3}$), II ($\ce{H2S}$), I ($\ce{HCl}$) giảm dần từ III xuống I.\\
+d) \textbf{Đúng}: $\ce{Al(OH)3}$ là hydroxide lưỡng tính phản ứng tan trong kiềm: $\ce{Al(OH)3 + NaOH -> NaAlO2 + 2H2O}$. $\ce{Mg(OH)2}$ là base không tan trong $\ce{NaOH}$.
+}
+\end{ex}
+\begin{ex}
+Cho bốn nguyên tố $\ce{X, Y, Z, T}$ có số hiệu nguyên tử lần lượt là $7, 14, 24, 26$.
+\choiceTF
+{\True Khi biểu diễn cấu hình electron theo ô orbital ở trạng thái cơ bản, nguyên tử $\ce{T} (Z = 26)$ có tổng cộng 15 orbital chứa electron, trong đó có 4 AO chứa 1 electron độc thân}
+{\True Nguyên tử $\ce{Y}$ ở trạng thái cơ bản có 4 electron ở lớp ngoài cùng và thuộc chu kì 3, nhóm IVA}
+{Ở trạng thái cơ bản, nguyên tử $\ce{Z} (Z = 24)$ có 6 electron độc thân và có 2 electron ở lớp ngoài cùng}
+{\True Ở trạng thái cơ bản, nguyên tử $\ce{X}$ có 3 electron độc thân ở phân lớp 2p}
+
+\loigiai{
+a) \textbf{Đúng}: $\ce{T} (Z = 26, \ce{Fe})$: $\ce{1s^2 2s^2 2p^6 3s^2 3p^6 3d^6 4s^2}$. Số AO chứa e = $1 + 1 + 3 + 1 + 3 + 5 + 1 = 15$ AO. Phân lớp $\ce{3d^6}$ có 1 cặp ghép đôi và 4 electron độc thân.\\
+b) \textbf{Đúng}: $\ce{Y} (Z = 14, \ce{Si})$: $\ce{1s^2 2s^2 2p^6 3s^2 3p^2}$, có 3 lớp e $\implies$ chu kì 3, có 4e lớp ngoài cùng $\implies$ nhóm IVA.\\
+c) \textbf{Sai}: $\ce{Z} (Z = 24, \ce{Cr})$: $\ce{[Ar] 3d^5 4s^1}$ có 6e độc thân, nhưng lớp ngoài cùng (lớp 4) chỉ có 1 electron ($\ce{4s^1}$), không phải 2 electron.\\
+d) \textbf{Đúng}: $\ce{X} (Z = 7, \ce{N})$: $\ce{1s^2 2s^2 2p^3}$, 3 electron ở $\ce{2p}$ phân bố vào 3 AO nên có 3 electron độc thân.
+}
+\end{ex}
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN III (1 điểm). CÂU TRẮC NGHIỆM YÊU CẦU TRẢ LỜI NGẮN}}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 4.}
+\vspace{2pt}
+
+\begin{ex}
+Hòa tan hoàn toàn 6,85 gam một kim loại nhóm IIA ($\ce{M}$) vào 200 gam dung dịch $\ce{HCl}$ 3,65\%, cô cạn dung dịch thu được 10,4 gam chất rắn khan. Xác định nguyên tử khối của $\ce{M}$.
+
+\loigiai{
+Phương trình phản ứng: $\ce{M + 2HCl -> MCl2 + H2}$\\
+$n_{\ce{HCl}} = \dfrac{200 \times 3,65\%}{36,5} = 0,2\text{ mol}$.\\
+Cô cạn dung dịch thu được muối khan $\ce{MCl2}$:\\
+$m_{\ce{MCl2}} = n_{\ce{M}} \times (M_{\ce{M}} + 71) = 6,85 + 71 \times n_{\ce{M}} = 10,4\text{ g} \implies n_{\ce{M}} = \dfrac{10,4 - 6,85}{71} = 0,05\text{ mol}$.\\
+$M_{\ce{M}} = \dfrac{6,85}{0,05} = 137\text{ (Barium - Ba)}$.\\
+\textbf{Đáp số: 137}
+}
+\end{ex}
+\begin{ex}
+Ở 20~$^\circ\text{C}$, khối lượng riêng của $\ce{Fe}$ ($M = 55,85\text{ g/mol}$) là $7,87\text{ g/cm}^3$. Giả thiết nguyên tử $\ce{Fe}$ là hình cầu chiếm 68\% thể tích tinh thể. Tính bán kính nguyên tử $\ce{Fe}$ theo đơn vị pm (làm tròn kết quả đến hàng đơn vị).
+
+\loigiai{
+Thể tích thực của 1 mol nguyên tử $\ce{Fe}$:\\
+$V_{\text{thực}} = \dfrac{55,85}{7,87} \times 68\% \approx 4,82567\text{ cm}^3$.\\
+Thể tích 1 nguyên tử $\ce{Fe}$:\\
+$V_1 = \dfrac{4,82567}{6,022 \times 10^{23}} \approx 8,0134 \times 10^{-24}\text{ cm}^3$.\\
+$r = \sqrt[3]{\dfrac{3V_1}{4\pi}} = \sqrt[3]{\dfrac{3 \times 8,0134 \times 10^{-24}}{4 \times 3,14159}} \approx 1,2413 \times 10^{-8}\text{ cm} = 124,13\text{ pm} \approx 124\text{ pm}$.\\
+\textbf{Đáp số: 124}
+}
+\end{ex}
+\begin{ex}
+Trong tự nhiên, $\ce{H}$ có 2 đồng vị bền ($^1\ce{H}, ^2\ce{H}$), $\ce{S}$ có 1 đồng vị bền ($^{32}\ce{S}$), $\ce{O}$ có 3 đồng vị bền ($^{16}\ce{O}, ^{17}\ce{O}, ^{18}\ce{O}$). Có tối đa bao nhiêu loại phân tử $\ce{H2SO4}$ khác nhau về phân tử khối được tạo thành từ các đồng vị trên?
+
+\loigiai{
+$M_{\ce{H2SO4}} = m(\ce{H2}) + 32 + m(\ce{O4})$.\\
+- $m(\ce{H2})$ nhận các giá trị: $1+1=2, 1+2=3, 2+2=4 \implies \{2, 3, 4\}$.\\
+- $m(\ce{O4})$ nhận các giá trị nguyên liên tiếp từ $16 \times 4 = 64$ đến $18 \times 4 = 72$ (9 giá trị).\\
+$\implies M_{\ce{H2SO4}}$ quét qua toàn bộ các số nguyên liên tiếp từ $2 + 32 + 64 = 98$ đến $4 + 32 + 72 = 108$.\\
+Số loại phân tử khối khác nhau = $108 - 98 + 1 = 11$ loại.\\
+\textbf{Đáp số: 11}
+}
+\end{ex}
+\begin{ex}
+Hai nguyên tố $\ce{X, Y}$ thuộc nhóm A, kế tiếp nhau trong một chu kì, tổng số proton trong hai hạt nhân là 31. Ở trạng thái cơ bản, nguyên tử có độ âm điện lớn hơn có bao nhiêu electron độc thân?
+
+\loigiai{
+$Z_{\ce{X}} + Z_{\ce{Y}} = 31$ và $|Z_{\ce{Y}} - Z_{\ce{X}}| = 1 \implies Z_{\ce{X}} = 15\ (\ce{P}), Z_{\ce{Y}} = 16\ (\ce{S})$.\\
+Trong chu kì 3, độ âm điện $\ce{S} > \ce{P}$.\\
+Cấu hình e của $\ce{S} (Z = 16)$: $\ce{1s^2 2s^2 2p^6 3s^2 3p^4}$.\\
+Phân lớp $\ce{3p^4}$ có 3 AO: 1 AO ghép đôi và 2 AO chứa electron độc thân $\implies$ Có 2 electron độc thân.\\
+\textbf{Đáp số: 2}
+}
+\end{ex}
+\vspace{6pt}
+\noindent
+{\color{mainGreen}\textbf{\Large B. PHẦN TỰ LUẬN (3,0 điểm)}}
+\vspace{2pt}
+
+\noindent
+\textbf{Câu 1: (1,0 điểm)} Nguyên tử của nguyên tố $\ce{X}$ có tổng số các loại hạt cơ bản (proton, neutron, electron) là 36. Trong đó, số hạt mang điện gấp đôi số hạt không mang điện.\\
+a) Tính số hạt proton, neutron và electron của nguyên tử $\ce{X}$.\\
+b) Viết cấu hình electron của nguyên tử $\ce{X}$ và cho biết $\ce{X}$ là kim loại, phi kim hay khí hiếm? Vì sao?
+
+\begin{tcolorbox}[colback=white,colframe=solBlue,title=\textbf{Lời giải chi tiết và Biểu điểm Câu 1:}]
+\textbf{a) (0,5 điểm)}
+\begin{itemize}[leftmargin=1.2cm]
+\item Gọi $p, n, e$ là số hạt của $\ce{X}$ ($p = e$).
+\item Hệ phương trình: $\begin{cases} 2p + n = 36 \\ 2p = 2n \iff p = n \end{cases} \hfill \textit{(0,25 đ)}$
+\item Giải hệ: $3n = 36 \implies n = 12 \implies p = e = 12$.
+\item Vậy số hạt proton là 12, electron là 12, neutron là 12. \hfill \textit{(0,25 đ)}
+\end{itemize}
+\textbf{b) (0,5 điểm)}
+\begin{itemize}[leftmargin=1.2cm]
+\item Cấu hình electron của $\ce{X} (Z = 12)$: $\ce{1s^2 2s^2 2p^6 3s^2}$ (hoặc $\ce{[Ne] 3s^2}$). \hfill \textit{(0,25 đ)}
+\item Nguyên tử $\ce{X}$ có 2 electron ở lớp ngoài cùng nên $\ce{X}$ là kim loại (Magnesium - Mg). \hfill \textit{(0,25 đ)}
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{4pt}
+\noindent
+\textbf{Câu 2: (1,0 điểm)} Cho hai nguyên tố $\ce{X}$ có số hiệu nguyên tử $Z = 11$ (Sodium) và $\ce{Y}$ có số hiệu nguyên tử $Z = 12$ (Magnesium).\\
+a) Viết cấu hình electron của $\ce{X, Y}$ và xác định vị trí của chúng (chu kì, nhóm) trong bảng tuần hoàn.\\
+b) Viết công thức hydroxide tương ứng của $\ce{X, Y}$. Theo quy luật tuần hoàn, hãy so sánh tính base của hai hydroxide này.
+
+\begin{tcolorbox}[colback=white,colframe=solBlue,title=\textbf{Lời giải chi tiết và Biểu điểm Câu 2:}]
+\textbf{a) (0,5 điểm)}
+\begin{itemize}[leftmargin=1.2cm]
+\item Nguyên tố $\ce{X} (Z = 11)$: Cấu hình $\ce{1s^2 2s^2 2p^6 3s^1}$. Vị trí: Ô 11, chu kì 3, nhóm IA. \hfill \textit{(0,25 đ)}
+\item Nguyên tố $\ce{Y} (Z = 12)$: Cấu hình $\ce{1s^2 2s^2 2p^6 3s^2}$. Vị trí: Ô 12, chu kì 3, nhóm IIA. \hfill \textit{(0,25 đ)}
+\end{itemize}
+\textbf{b) (0,5 điểm)}
+\begin{itemize}[leftmargin=1.2cm]
+\item Công thức hydroxide tương ứng: của $\ce{X}$ là $\ce{NaOH}$; của $\ce{Y}$ là $\ce{Mg(OH)2}$. \hfill \textit{(0,25 đ)}
+\item So sánh: $\ce{Na}$ và $\ce{Mg}$ cùng thuộc chu kì 3, từ trái sang phải theo chiều tăng $Z$, tính kim loại giảm dần $\implies$ tính base giảm dần: $\ce{NaOH > Mg(OH)2}$. \hfill \textit{(0,25 đ)}
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{4pt}
+\noindent
+\textbf{Câu 3: (1,0 điểm)} Nguyên tố $\ce{R}$ thuộc nhóm VIA trong bảng tuần hoàn. Trong phân tử oxide cao nhất của $\ce{R}$, nguyên tố oxygen chiếm 60\% về khối lượng.\\
+a) Xác định tên và kí hiệu hóa học của nguyên tố $\ce{R}$.\\
+b) Hòa tan hoàn toàn 8,0 gam oxide cao nhất của $\ce{R}$ vào nước dư, thu được dung dịch chứa $m$ gam acid. Tính giá trị của $m$.
+
+\begin{tcolorbox}[colback=white,colframe=solBlue,title=\textbf{Lời giải chi tiết và Biểu điểm Câu 3:}]
+\textbf{a) (0,5 điểm)}
+\begin{itemize}[leftmargin=1.2cm]
+\item $\ce{R}$ thuộc nhóm VIA $\implies$ oxide cao nhất là $\ce{RO3}$. \hfill \textit{(0,25 đ)}
+\item $\%O = \dfrac{3 \times 16}{M_{\ce{R}} + 48} \times 100\% = 60\% \implies M_{\ce{R}} + 48 = \dfrac{48}{0,6} = 80 \implies M_{\ce{R}} = 32\text{ g/mol}$.
+\item Vậy nguyên tố $\ce{R}$ là Sulfur (Lưu huỳnh), kí hiệu hóa học là $\ce{S}$. \hfill \textit{(0,25 đ)}
+\end{itemize}
+\textbf{b) (0,5 điểm)}
+\begin{itemize}[leftmargin=1.2cm]
+\item Oxide cao nhất là $\ce{SO3}$ ($M = 80\text{ g/mol}$). Số mol $\ce{SO3}$: $n_{\ce{SO3}} = \dfrac{8,0}{80} = 0,1\text{ mol}$. \hfill \textit{(0,15 đ)}
+\item PTHH: $\ce{SO3 + H2O -> H2SO4}$. \hfill \textit{(0,15 đ)}
+\item Theo phương trình: $n_{\ce{H2SO4}} = n_{\ce{SO3}} = 0,1\text{ mol}$.
+\item Khối lượng acid $\ce{H2SO4}$: $m = 0,1 \times 98 = 9,8\text{ gam}$. Vậy $m = 9,8$. \hfill \textit{(0,2 đ)}
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{6pt}
+\begin{center}
+\textbf{\large ---------- HẾT ----------}
+\end{center}
+
+\end{document}
