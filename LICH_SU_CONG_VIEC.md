@@ -581,6 +581,54 @@ Hệ thống tự động theo dõi, chuyển đổi và quản lý toàn bộ c
   - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn8\`
   - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn8\KHTN8-IN-DEKIEMTRADINHKI\`
 
+---
+
+### Đợt 62: Hoàn thành Số hóa và Chuyển đổi ĐỀ KIỂM TRA GIỮA KÌ I - KHTN 8 (TRƯỜNG THCS NGUYỄN DU - NH 2026 - 2027) thành Bộ 3 Bản Word Chuẩn FORM ĐỀ KIỂM TRA
+
+- **Thời gian thực hiện:** 05/11/2026
+- **Tài liệu nguồn:** 2 ảnh chụp quét đề kiểm tra chính thức (Thời gian làm bài: 60 phút) của Trường THCS Nguyễn Du (UBND Phường Phú Xuân - TP Huế).
+- **Cấu trúc & Nội dung đề kiểm tra:**
+  - **PHẦN A. TRẮC NGHIỆM KHÁCH QUAN (7,0 điểm)**
+    + *I. 12 câu trắc nghiệm nhiều phương án lựa chọn (3,0 điểm - mỗi câu 0,25 đ):*
+      * Câu 1: Sử dụng acid an toàn $\to$ Mang phương tiện bảo hộ phù hợp, nghe theo giáo viên (D).
+      * Câu 2: Quy tắc sử dụng hóa chất $\to$ Đọc kĩ nhãn hóa chất và tuân thủ hướng dẫn (B).
+      * Câu 3: Yếu tố thay đổi trước và sau phản ứng $\to$ Liên kết giữa các nguyên tử (C).
+      * Câu 4: Phản ứng thu nhiệt $\to$ Hấp thụ năng lượng dưới dạng nhiệt từ môi trường (B).
+      * Câu 5: Đơn vị của áp suất $\to$ Pa (B).
+      * Câu 6: Không phải ví dụ áp suất chất lỏng $\to$ Vỏ chai móp khi hút bớt không khí (áp suất khí quyển) (D).
+      * Câu 7: Tật cong vẹo cột sống ở học sinh $\to$ Ngồi học không đúng tư thế kéo dài (A).
+      * Câu 8: Cơ quan tiêu hóa và hấp thụ phần lớn chất dinh dưỡng $\to$ Ruột non (B).
+      * Câu 9: Tập thể dục thường xuyên không có ý nghĩa nào $\to$ Cơ thể mệt mỏi (B).
+      * Câu 10: Nguyên tắc lập khẩu phần ăn $\to$ Cân đối các thành phần dinh dưỡng (D).
+      * Câu 11: Sơ cứu tại chỗ khi gãy xương cẳng tay $\to$ Dùng nẹp cố định đoạn xương bị gãy (C).
+      * Câu 12: Sơ cứu đứt tay chảy máu nhẹ $\to$ Dùng gạc sạch ép trực tiếp lên vết thương (C).
+    + *II. 2 câu trắc nghiệm Đúng - Sai (2,0 điểm - 8 ý):*
+      * Câu 1 (Vệ sinh răng miệng & Bệnh đường tiêu hóa): a) Đ; b) Đ; c) S (Đau bụng tiêu chảy kéo dài phải đi khám bác sĩ); d) S (Không chỉ hạn chế đồ ngọt mà cần ăn uống điều độ, vệ sinh an toàn thực phẩm).
+      * Câu 2 (Đại dịch cúm & Bệnh đường hô hấp): a) S (Bệnh đường hô hấp, không phải tuần hoàn); b) S (Miễn dịch suy yếu và ô nhiễm làm tăng nguy cơ mắc bệnh); c) Đ (Triệu chứng đau đầu, sốt, mỏi cơ, chảy nước mũi); d) Đ (Đeo khẩu trang, giữ ấm, nâng cao đề kháng).
+    + *III. 4 câu trắc nghiệm trả lời ngắn (2,0 điểm - mỗi câu 0,5 đ):*
+      * Câu 1: Khối lượng 2 lít dầu ăn ($D = 800\text{ kg/m}^3, V = 0,002\text{ m}^3) \to m = 1,6\text{ kg}$.
+      * Câu 2: Mài nhọn mũi đinh làm áp suất thay đổi $\to$ Tăng lên (hoặc Tăng).
+      * Câu 3: Quá trình biến đổi hóa học của đường $\to$ Giai đoạn (4) (Đường nóng chảy thành Than).
+      * Câu 4: Khí $CO_2$ nặng hơn không khí xấp xỉ bao nhiêu lần $\to 44 / 29 \approx 1,5\text{ lần}$.
+  - **PHẦN B. TỰ LUẬN (3,0 điểm - 3 câu):**
+    + Câu 1 (1,0 đ):
+      * a) Khái niệm thể tích mol của chất khí ($V = 24,79\text{ lít}$ ở đkc).
+      * b) Tính thể tích ở đkc của 14 gam khí $N_2$: $n = 14 / 28 = 0,5\text{ mol} \to V = 0,5 \times 24,79 = 12,395\text{ lít}$.
+    + Câu 2 (1,0 đ): 3 bước xác định khối lượng riêng khối gỗ hộp chữ nhật: Bước 1 (dùng cân điện tử đo khối lượng $m$); Bước 2 (dùng thước kẻ đo 3 kích thước $a, b, c \to V = abc$); Bước 3 (tính $D = m / V$).
+    + Câu 3 (1,0 đ): Tình huống ngộ độc thực phẩm: Đề xuất xử lí trước mắt (ngừng ăn, giữ mẫu thức ăn, bù nước bằng oresol, đưa đến cơ sở y tế); Biện pháp phòng tránh lâu dài (ăn chín uống sôi, bảo quản thực phẩm, vệ sinh tay và dụng cụ chế biến).
+- **Quy chuẩn kỹ thuật áp dụng theo FORM ĐỀ KIỂM TRA:**
+  - Khổ giấy A4, lề trên = dưới = trái = phải = 1.5 cm; Header & Footer 0.6 cm.
+  - Header & Footer chuẩn: Coral Red (`#D32F2F`) - Sage Green (`#8BC390`), `Thầy TRẦN VĂN THẠNH - 0777.470.803`, số trang tự động `PAGE`.
+  - **Tuyệt đối KHÔNG dùng dạng bảng (Table) trong nội dung đề thi**: Các phương án A, B, C, D sử dụng Tab stops căn lề chuẩn; Lời giải chi tiết thụt lề 0.6 cm in đậm màu xanh `#1565C0`.
+- **Trọn bộ sản phẩm hoàn thành:**
+  1. `San_Pham/De_Kiem_Tra_KHTN_8_Giua_HK1_Nguyen_Du_HocSinh.docx`: Bản Học sinh chuẩn in ấn làm bài, có dòng kẻ chấm làm bài tự luận.
+  2. `San_Pham/De_Kiem_Tra_KHTN_8_Giua_HK1_Nguyen_Du_GiaoVien.docx`: Bản Giáo viên có đáp án in đậm màu đỏ, lời giải chi tiết và bảng tổng hợp đáp án cuối tài liệu.
+  3. `San_Pham/De_Kiem_Tra_KHTN_8_Giua_HK1_Nguyen_Du_DayTrenManHinh.docx`: Bản Dạy trên màn hình cỡ chữ 11.5pt - 12pt, khoảng cách dòng thoáng, có khung ghi chú bài dạy trực quan.
+- **Sao lưu tự động vào OneDrive:**
+  - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn8\`
+  - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn8\KHTN8-IN-DEKIEMTRADINHKI\`
+
+
 
 ---
 
@@ -832,4 +880,52 @@ Hệ thống tự động theo dõi, chuyển đổi và quản lý toàn bộ c
 - **Sao lưu tự động vào OneDrive:**
   - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn8\`
   - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn8\KHTN8-IN-DEKIEMTRADINHKI\`
+
+---
+
+### Đợt 62: Hoàn thành Số hóa và Chuyển đổi ĐỀ KIỂM TRA GIỮA KÌ I - KHTN 8 (TRƯỜNG THCS NGUYỄN DU - NH 2026 - 2027) thành Bộ 3 Bản Word Chuẩn FORM ĐỀ KIỂM TRA
+
+- **Thời gian thực hiện:** 05/11/2026
+- **Tài liệu nguồn:** 2 ảnh chụp quét đề kiểm tra chính thức (Thời gian làm bài: 60 phút) của Trường THCS Nguyễn Du (UBND Phường Phú Xuân - TP Huế).
+- **Cấu trúc & Nội dung đề kiểm tra:**
+  - **PHẦN A. TRẮC NGHIỆM KHÁCH QUAN (7,0 điểm)**
+    + *I. 12 câu trắc nghiệm nhiều phương án lựa chọn (3,0 điểm - mỗi câu 0,25 đ):*
+      * Câu 1: Sử dụng acid an toàn $\to$ Mang phương tiện bảo hộ phù hợp, nghe theo giáo viên (D).
+      * Câu 2: Quy tắc sử dụng hóa chất $\to$ Đọc kĩ nhãn hóa chất và tuân thủ hướng dẫn (B).
+      * Câu 3: Yếu tố thay đổi trước và sau phản ứng $\to$ Liên kết giữa các nguyên tử (C).
+      * Câu 4: Phản ứng thu nhiệt $\to$ Hấp thụ năng lượng dưới dạng nhiệt từ môi trường (B).
+      * Câu 5: Đơn vị của áp suất $\to$ Pa (B).
+      * Câu 6: Không phải ví dụ áp suất chất lỏng $\to$ Vỏ chai móp khi hút bớt không khí (áp suất khí quyển) (D).
+      * Câu 7: Tật cong vẹo cột sống ở học sinh $\to$ Ngồi học không đúng tư thế kéo dài (A).
+      * Câu 8: Cơ quan tiêu hóa và hấp thụ phần lớn chất dinh dưỡng $\to$ Ruột non (B).
+      * Câu 9: Tập thể dục thường xuyên không có ý nghĩa nào $\to$ Cơ thể mệt mỏi (B).
+      * Câu 10: Nguyên tắc lập khẩu phần ăn $\to$ Cân đối các thành phần dinh dưỡng (D).
+      * Câu 11: Sơ cứu tại chỗ khi gãy xương cẳng tay $\to$ Dùng nẹp cố định đoạn xương bị gãy (C).
+      * Câu 12: Sơ cứu đứt tay chảy máu nhẹ $\to$ Dùng gạc sạch ép trực tiếp lên vết thương (C).
+    + *II. 2 câu trắc nghiệm Đúng - Sai (2,0 điểm - 8 ý):*
+      * Câu 1 (Vệ sinh răng miệng & Bệnh đường tiêu hóa): a) Đ; b) Đ; c) S (Đau bụng tiêu chảy kéo dài phải đi khám bác sĩ); d) S (Không chỉ hạn chế đồ ngọt mà cần ăn uống điều độ, vệ sinh an toàn thực phẩm).
+      * Câu 2 (Đại dịch cúm & Bệnh đường hô hấp): a) S (Bệnh đường hô hấp, không phải tuần hoàn); b) S (Miễn dịch suy yếu và ô nhiễm làm tăng nguy cơ mắc bệnh); c) Đ (Triệu chứng đau đầu, sốt, mỏi cơ, chảy nước mũi); d) Đ (Đeo khẩu trang, giữ ấm, nâng cao đề kháng).
+    + *III. 4 câu trắc nghiệm trả lời ngắn (2,0 điểm - mỗi câu 0,5 đ):*
+      * Câu 1: Khối lượng 2 lít dầu ăn ($D = 800\text{ kg/m}^3, V = 0,002\text{ m}^3) \to m = 1,6\text{ kg}$.
+      * Câu 2: Mài nhọn mũi đinh làm áp suất thay đổi $\to$ Tăng lên (hoặc Tăng).
+      * Câu 3: Quá trình biến đổi hóa học của đường $\to$ Giai đoạn (4) (Đường nóng chảy thành Than).
+      * Câu 4: Khí $CO_2$ nặng hơn không khí xấp xỉ bao nhiêu lần $\to 44 / 29 \approx 1,5\text{ lần}$.
+  - **PHẦN B. TỰ LUẬN (3,0 điểm - 3 câu):**
+    + Câu 1 (1,0 đ):
+      * a) Khái niệm thể tích mol của chất khí ($V = 24,79\text{ lít}$ ở đkc).
+      * b) Tính thể tích ở đkc của 14 gam khí $N_2$: $n = 14 / 28 = 0,5\text{ mol} \to V = 0,5 \times 24,79 = 12,395\text{ lít}$.
+    + Câu 2 (1,0 đ): 3 bước xác định khối lượng riêng khối gỗ hộp chữ nhật: Bước 1 (dùng cân điện tử đo khối lượng $m$); Bước 2 (dùng thước kẻ đo 3 kích thước $a, b, c \to V = abc$); Bước 3 (tính $D = m / V$).
+    + Câu 3 (1,0 đ): Tình huống ngộ độc thực phẩm: Đề xuất xử lí trước mắt (ngừng ăn, giữ mẫu thức ăn, bù nước bằng oresol, đưa đến cơ sở y tế); Biện pháp phòng tránh lâu dài (ăn chín uống sôi, bảo quản thực phẩm, vệ sinh tay và dụng cụ chế biến).
+- **Quy chuẩn kỹ thuật áp dụng theo FORM ĐỀ KIỂM TRA:**
+  - Khổ giấy A4, lề trên = dưới = trái = phải = 1.5 cm; Header & Footer 0.6 cm.
+  - Header & Footer chuẩn: Coral Red (`#D32F2F`) - Sage Green (`#8BC390`), `Thầy TRẦN VĂN THẠNH - 0777.470.803`, số trang tự động `PAGE`.
+  - **Tuyệt đối KHÔNG dùng dạng bảng (Table) trong nội dung đề thi**: Các phương án A, B, C, D sử dụng Tab stops căn lề chuẩn; Lời giải chi tiết thụt lề 0.6 cm in đậm màu xanh `#1565C0`.
+- **Trọn bộ sản phẩm hoàn thành:**
+  1. `San_Pham/De_Kiem_Tra_KHTN_8_Giua_HK1_Nguyen_Du_HocSinh.docx`: Bản Học sinh chuẩn in ấn làm bài, có dòng kẻ chấm làm bài tự luận.
+  2. `San_Pham/De_Kiem_Tra_KHTN_8_Giua_HK1_Nguyen_Du_GiaoVien.docx`: Bản Giáo viên có đáp án in đậm màu đỏ, lời giải chi tiết và bảng tổng hợp đáp án cuối tài liệu.
+  3. `San_Pham/De_Kiem_Tra_KHTN_8_Giua_HK1_Nguyen_Du_DayTrenManHinh.docx`: Bản Dạy trên màn hình cỡ chữ 11.5pt - 12pt, khoảng cách dòng thoáng, có khung ghi chú bài dạy trực quan.
+- **Sao lưu tự động vào OneDrive:**
+  - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn8\`
+  - `C:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn8\KHTN8-IN-DEKIEMTRADINHKI\`
+
 
