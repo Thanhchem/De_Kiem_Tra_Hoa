@@ -1,0 +1,774 @@
+# -*- coding: utf-8 -*-
+"""
+Script tạo file LaTeX và biên dịch PDF cho Đề Kiểm Tra Giữa Kì 1 Hóa Học 10 - THPT Hai Bà Trưng (Mã Đề 485)
+Chuẩn FORM ĐỀ KIỂM TRA (Thầy TRẦN VĂN THẠNH)
+Sinh cả 2 phiên bản:
+1. Bản Học sinh: De_Kiem_Tra_Hoa_10_Ma485_HocSinh.pdf
+2. Bản Giáo viên: De_Kiem_Tra_Hoa_10_Ma485_GiaoVien.pdf (Kèm bảng đáp án rút gọn)
+"""
+
+import os
+import sys
+import subprocess
+import glob
+
+if sys.stdout.encoding.lower() != 'utf-8':
+    try:
+        sys.stdout.reconfigure(encoding='utf-8')
+    except Exception:
+        pass
+
+SAN_PHAM_DIR = r"C:\Antigravity_Thanh\San_Pham"
+
+def build_latex_content(is_teacher=False):
+    tex = []
+    tex.append(r"""\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{geometry}
+\geometry{top=1.5cm,bottom=1.2cm,left=1.4cm,right=1.4cm,headheight=28pt,headsep=12pt,footskip=18pt}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\definecolor{hfRed}{HTML}{D32F2F}
+\definecolor{hfGreen}{HTML}{8BC390}
+\definecolor{mainGreen}{HTML}{2E7D32}
+\definecolor{solBlue}{HTML}{1565C0}
+\definecolor{tableGreen}{HTML}{E8F5E9}
+
+\usepackage{ex_test}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.75pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0.75pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+
+\fancyhead[L]{\small\itshape\color{hfRed}Tài liệu lưu hành nội bộ}
+\fancyhead[R]{\small\color{hfRed}Thầy \textbf{TRẦN VĂN THẠNH} - 0777.470.803}
+
+\fancyfoot[L]{\footnotesize\itshape\color{hfRed}CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+\fancyfoot[R]{\small\textbf{\color{hfRed}Trang \thepage}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+
+\begin{document}
+
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{SỞ GD\&ĐT THÀNH PHỐ HUẾ}\\
+\textbf{TRƯỜNG THPT HAI BÀ TRƯNG}\\
+\textit{ĐỀ CHÍNH THỨC}\\
+\textit{(Đề thi có 03 trang)}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\raggedleft
+\textbf{\color{hfRed}KIỂM TRA GIỮA KÌ 1 NĂM HỌC 2026 - 2027}\\
+\textbf{MÔN HÓA HỌC -- Khối lớp 10}\\
+\textit{Thời gian làm bài: 45 phút (không kể thời gian giao đề)}\\
+\textbf{MÃ ĐỀ: 485}
+\end{minipage}
+
+\vspace{4pt}
+\noindent
+\textit{Họ, tên thí sinh:} \dotfill \textit{Lớp:} \dotfill \textit{Số báo danh:} \dotfill
+
+\vspace{3pt}
+\noindent
+\textit{\footnotesize Cho nguyên tử khối (amu): H = 1; C = 12; N = 14; O = 16; Si = 28; P = 31; S = 32; Li = 7; Na = 23; K = 39; Be = 9; Mg = 24; Ca = 40; Ba = 137.\\
+Cho số hiệu nguyên tử: H: 1; N: 7; C: 6; Cl: 17; O: 8; S: 16; Li: 3; Na: 11; K: 19; Be: 4; Mg: 12; Ca: 20.\\
+(Học sinh không sử dụng bảng hệ thống tuần hoàn các nguyên tố hóa học)}
+
+\vspace{3pt}
+\hrule color{hfGreen} height 0.5pt
+""")
+
+    if is_teacher:
+        tex.append(r"""
+\vspace{4pt}
+\begin{center}
+\textbf{\color{hfRed}\large (BẢN GIÁO VIÊN -- CÓ LỜI GIẢI CHI TIẾT)}
+\end{center}
+
+\vspace{2pt}
+\begin{center}
+{\color{hfRed}\textbf{\large BẢNG ĐÁP ÁN RÚT GỌN (DÀNH CHO GIÁO VIÊN)}}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}1. Phần I: Trắc nghiệm nhiều lựa chọn (3,0 điểm - mỗi câu đúng 0,25 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đ/A} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}B} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}2. Phần II: Trắc nghiệm Đúng / Sai (2,0 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|l|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Nội dung câu hỏi} & \textbf{Lệnh a} & \textbf{Lệnh b} & \textbf{Lệnh c} & \textbf{Lệnh d} \\
+\hline
+\textbf{Câu 1} & Cấu tạo hạt \& Kí hiệu nguyên tử & \textbf{\color{hfRed}ĐÚNG} & \textbf{SAI} & \textbf{SAI} & \textbf{SAI} \\
+\hline
+\textbf{Câu 2} & Nguyên tử Chromium ($^{52}_{24}\ce{Cr}$) & \textbf{SAI} & \textbf{\color{hfRed}ĐÚNG} & \textbf{\color{hfRed}ĐÚNG} & \textbf{\color{hfRed}ĐÚNG} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}3. Phần III: Trả lời ngắn (2,0 điểm - mỗi câu đúng 0,5 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Câu 1} & \textbf{Câu 2} & \textbf{Câu 3} & \textbf{Câu 4} \\
+\hline
+\textbf{Đáp án} & \textbf{\color{hfRed}4} (chu kì 4) & \textbf{\color{hfRed}2} & \textbf{\color{hfRed}3} & \textbf{\color{hfRed}17} (amu) \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}4. Tóm tắt đáp số Phần Tự luận (3,0 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|p{11.5cm}|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Điểm} & \textbf{Đáp số cốt lõi} \\
+\hline
+\textbf{Câu 1} & 1,0 đ & a) $\ce{1s^2 2s^2 2p^6 3s^2 3p^3}$, phi kim (5e lớp ngoài cùng). \quad b) 3 electron độc thân. \\
+\hline
+\textbf{Câu 2} & 1,0 đ & a) $\overline{A}_{\ce{K}} = 39,135\text{ amu}$. \quad b) $m_{\text{dd HCl 10\%}} = 3,65\text{ gam}$. \\
+\hline
+\textbf{Câu 3} & 1,0 đ & a) Hai kim loại nhóm IIA là $\ce{Mg}$ (24) và $\ce{Ca}$ (40). \quad b) $V_{\text{dd HCl 30\%}} = 3,04\text{ mL}$. \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{4pt}
+\hrule color{hfGreen} height 0.5pt
+""")
+
+    # NỘI DUNG ĐỀ THI
+    tex.append(r"""
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\Large A. PHẦN TRẮC NGHIỆM: (7 điểm)}}
+
+\vspace{3pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN I (3 điểm). TRẮC NGHIỆM NHIỀU LỰA CHỌN}}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 12. Mỗi câu hỏi thí sinh chỉ chọn một phương án.}
+\vspace{2pt}
+""")
+
+    # 12 câu Phần I
+    # Câu 1
+    tex.append(r"""
+\begin{ex}
+Đồng (Copper) là kim loại dễ dát mỏng và uốn lượn, có khả năng dẫn điện và dẫn nhiệt tốt. Vì thế đồng được sử dụng rất nhiều trong sản xuất các nguyên liệu. Các đồ dùng từ đồng như: dây điện, que hàn đồng, tay cầm và các đồ dùng nội thất trong nhà, các tượng đúc, nam châm điện từ, các động cơ máy móc, ... Trong tự nhiên, nguyên tố Copper có hai đồng vị là $^{63}\ce{Cu}$ và $^{65}\ce{Cu}$. Nguyên tử khối trung bình của Copper là 63,54. Thành phần \% số nguyên tử của đồng vị $^{65}\ce{Cu}$ là
+\choice
+{50\%}
+{73\%}
+{\True 27\%}
+{54\%}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Gọi \% số nguyên tử của $^{65}\ce{Cu}$ là $x$ (\%), suy ra \% của $^{63}\ce{Cu}$ là $100 - x$ (\%).\\
+Ta có công thức: $\overline{A}_{\ce{Cu}} = \dfrac{65x + 63(100 - x)}{100} = 63,54 \iff 6300 + 2x = 6354 \iff x = 27\%$.\\
+\textbf{Chọn C.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 2
+    tex.append(r"""
+\begin{ex}
+Nguyên tố X và hợp kim của nó nhẹ và bền, dùng chế tạo vỏ máy bay, tên lửa, còn được sử dụng trong xây dựng, ngành điện và đồ gia dụng. Nguyên tử của nguyên tố X có tổng số hạt proton, electron, neutron là 40, trong đó số hạt mang điện nhiều hơn tổng số hạt không mang điện là 12. Tổng số electron trên các orbital d của X là
+\choice
+{\True 0}
+{6}
+{3}
+{4}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Hệ phương trình số hạt:
+$\begin{cases} 2p + n = 40 \\ 2p - n = 12 \end{cases} \implies 4p = 52 \implies p = 13$ (Aluminium - Al).\\
+Cấu hình electron: $\ce{1s^2 2s^2 2p^6 3s^2 3p^1}$.\\
+Nguyên tử Al không có electron nào phân bố trên phân lớp d (orbital d).\\
+Vậy tổng số electron trên các orbital d của X là 0.\\
+\textbf{Chọn A.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 3
+    tex.append(r"""
+\begin{ex}
+Trong số những quá trình kể dưới đây, cho biết đâu là hiện tượng hóa học?
+\choice
+{Hòa tan muối ăn vào nước thu được dung dịch nước muối}
+{\True Khử mùi tanh của cá bằng nước giấm ăn}
+{Mở nút chai nước giải khát loại có gas thấy có bọt sủi lên}
+{Sự đông đặc ở mỡ động vật}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Mùi tanh của cá gây ra bởi các amine (tính base yếu). Acid acetic ($\ce{CH3COOH}$) trong giấm ăn phản ứng với amine tạo thành muối, làm mất mùi tanh $\to$ Hiện tượng hóa học.\\
+Các trường hợp A, C, D đều là hiện tượng vật lí.\\
+\textbf{Chọn B.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 4
+    tex.append(r"""
+\begin{ex}
+Aluminium là kim loại phổ biến nhất trong vỏ Trái Đất và có trong thành phần của đất sét, khoáng vật cryolit,... Trong bảng tuần hoàn, aluminium thuộc chu kì 3, nhóm IIIA. Cấu hình electron lớp ngoài cùng của nguyên tử aluminium ở trạng thái cơ bản là
+\choice
+{$\ce{3s^2 3p^2}$}
+{\True $\ce{3s^2 3p^1}$}
+{$\ce{3s^1 3p^2}$}
+{$\ce{3s^2 3p^5}$}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Aluminium thuộc chu kì 3 (có 3 lớp e), nhóm IIIA (có 3 electron hóa trị lớp ngoài cùng).\\
+Cấu hình e đầy đủ: $\ce{1s^2 2s^2 2p^6 3s^2 3p^1} \implies$ Lớp ngoài cùng là $\ce{3s^2 3p^1}$.\\
+\textbf{Chọn B.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 5
+    tex.append(r"""
+\begin{ex}
+Số electron tối đa có trong lớp M là
+\choice
+{\True 18}
+{28}
+{32}
+{8}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Lớp M ứng với $n = 3$. Số electron tối đa là $2n^2 = 2 \times 3^2 = 18$ electron.\\
+\textbf{Chọn A.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 6
+    tex.append(r"""
+\begin{ex}
+X là nguyên tố hóa học có trong thành phần của chất có tác dụng oxi hóa và sát khuẩn cực mạnh, thường được sử dụng với mục đích khử trùng và tẩy trắng trong lĩnh vực thủy sản, dệt nhuộm, xử lí nước cấp, nước thải, nước bể bơi. Nguyên tử X có số hiệu nguyên tử $Z = 17$. Số electron độc thân có trong nguyên tử X ở trạng thái cơ bản là
+\choice
+{\True 1}
+{2}
+{3}
+{4}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+$Z = 17$ (Chlorine). Cấu hình e: $\ce{1s^2 2s^2 2p^6 3s^2 3p^5}$.\\
+Phân lớp $\ce{3p^5}$ có 5 electron phân bố trên 3 orbital: 2 cặp ghép đôi và 1 electron độc thân.\\
+\textbf{Chọn A.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 7
+    tex.append(r"""
+\begin{ex}
+Phát biểu nào sau đây đúng?
+\choice
+{Đồng vị là các nguyên tố có cùng số proton nhưng khác nhau số neutron}
+{Số hiệu nguyên tử bằng điện tích hạt nhân nguyên tử}
+{\True Nguyên tố hoá học là những nguyên tử có cùng số đơn vị điện tích hạt nhân}
+{Số khối của nguyên tử bằng tổng số proton và số electron}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+A sai vì đồng vị là các NGUYÊN TỬ của cùng một nguyên tố.\\
+B sai vì số hiệu nguyên tử bằng SỐ ĐƠN VỊ điện tích hạt nhân.\\
+C đúng: Nguyên tố hoá học là tập hợp các nguyên tử có cùng số đơn vị điện tích hạt nhân.\\
+D sai vì số khối $A = Z + N$ (proton + neutron).\\
+\textbf{Chọn C.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 8
+    tex.append(r"""
+\begin{ex}
+Nội dung nào dưới đây thuộc đối tượng nghiên cứu của hóa học?
+\choice
+{Sự chuyển động các hành tinh trong thái dương hệ}
+{\True Tính chất và sự biến đổi của chất}
+{Sự vận chuyển của máu trong hệ tuần hoàn}
+{Sự lớn lên và sinh sản của tế bào}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Hóa học là ngành khoa học tự nhiên nghiên cứu về chất, tính chất và sự biến đổi của chất.\\
+\textbf{Chọn B.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 9
+    tex.append(r"""
+\begin{ex}
+Phát biểu nào dưới đây không đúng?
+\choice
+{Hạt nhân nguyên tử có điện tích dương}
+{Tia âm cực là chùm tia mang điện tích âm chứa các hạt electron}
+{\True Tất cả các hạt nhân nguyên tử của mọi nguyên tố đều chứa proton và neutron}
+{Nguyên tử có cấu trúc rỗng, gồm vỏ nguyên tử và hạt nhân nguyên tử}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Nguyên tử hydrogen phổ biến ($^1_1\ce{H}$) chỉ chứa 1 proton trong hạt nhân và không có neutron.\\
+Do đó phát biểu C không đúng.\\
+\textbf{Chọn C.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 10
+    tex.append(r"""
+\begin{ex}
+Cho dãy chất được biểu diễn bằng công thức hóa học như sau: $\ce{H2O, O3, KOH, He, Cl2, CuO, Fe, NaOH, O2, NaBr, Zn, CH4}$. Số đơn chất trong dãy trên là
+\choice
+{4}
+{\True 6}
+{5}
+{3}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Các đơn chất gồm 6 chất: $\ce{O3, He, Cl2, Fe, O2, Zn}$.\\
+Các hợp chất gồm 6 chất: $\ce{H2O, KOH, CuO, NaOH, NaBr, CH4}$.\\
+\textbf{Chọn B.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 11
+    tex.append(r"""
+\begin{ex}
+Các hạt nhân của hầu hết các nguyên tử được tạo nên từ hạt
+\choice
+{electron, proton và neutron}
+{electron và neutron}
+{electron và proton}
+{\True proton và neutron}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Hạt nhân của hầu hết các nguyên tử được cấu tạo từ 2 loại hạt: proton và neutron.\\
+\textbf{Chọn D.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 12
+    tex.append(r"""
+\begin{ex}
+Khái niệm nào sau đây đúng: Nhóm nguyên tố là
+\choice
+{tập hợp các nguyên tố mà nguyên tử có cấu hình electron gần giống nhau, do đó có tính chất hóa học giống nhau và được xếp thành một cột}
+{\True tập hợp các nguyên tố mà nguyên tử có cấu hình electron tương tự nhau, do đó có tính chất hóa học gần giống nhau và được xếp thành một cột}
+{tập hợp các nguyên tố mà nguyên tử có cấu hình electron giống nhau, được xếp ở cùng một cột}
+{tập hợp các nguyên tố mà nguyên tử có tính chất hóa học giống nhau và được xếp thành một cột}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Định nghĩa chuẩn SGK: Nhóm nguyên tố là tập hợp các nguyên tố mà nguyên tử có cấu hình electron tương tự nhau, do đó có tính chất hóa học gần giống nhau và được xếp thành một cột.\\
+\textbf{Chọn B.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # PHẦN II
+    tex.append(r"""
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN II (2 điểm). CÂU TRẮC NGHIỆM ĐÚNG / SAI}}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 2. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng (Đ) hoặc sai (S).}
+\vspace{2pt}
+""")
+
+    # Câu 1 Đúng/Sai
+    tex.append(r"""
+\begin{ex}
+Các phát biểu sau đây là đúng hay sai?
+\choiceTF
+{\True Nguyên tử có kích thước lớn hơn nhiều so với hạt nhân, nhưng có khối lượng gần bằng khối lượng hạt nhân}
+{Proton là hạt mang mang điện tích âm, có khối lượng gần bằng 1 amu}
+{Nguyên tử R có điện tích hạt nhân là $+41,6\cdot 10^{-19}\text{ C}$ thì hạt nhân nguyên tử R có 24 proton}
+{Nguyên tử X có 16 electron và 16 neutron, kí hiệu nguyên tử X là $^{16}_{32}\ce{S}$}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+a) \textbf{Đúng}: Kích thước nguyên tử gấp khoảng 10.000 lần hạt nhân, nhưng khối lượng tập trung ở hạt nhân.\\
+b) \textbf{Sai}: Proton mang điện tích dương (+1), không mang điện tích âm.\\
+c) \textbf{Sai}: Số proton $= \dfrac{41,6\cdot 10^{-19}}{1,6\cdot 10^{-19}} = 26$ (Fe), không phải 24.\\
+d) \textbf{Sai}: $Z = 16, A = 16+16=32 \implies$ Kí hiệu chuẩn là $^{32}_{16}\ce{S}$. Kí hiệu trong đề $^{16}_{32}\ce{S}$ bị đảo ngược.
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 2 Đúng/Sai
+    tex.append(r"""
+\begin{ex}
+Nguyên tử Chromium (Cr) có kí hiệu là $^{52}_{24}\ce{Cr}$. Cho các phát biểu sau:
+\choiceTF
+{Cr là nguyên tố s}
+{\True Nguyên tử Cr có 6 electron hoá trị}
+{\True Trong bảng tuần hoàn Cr thuộc nhóm VIB}
+{\True Trong nguyên tử Cr số hạt không mang điện chiếm khoảng 53,85\% về khối lượng nguyên tử}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Cr có $Z = 24$, $A = 52 \implies p = 24, e = 24, n = 52 - 24 = 28$.\\
+Cấu hình e của Cr: $\ce{[Ar] 3d^5 4s^1}$.\\
+a) \textbf{Sai}: Electron cuối cùng điền vào phân lớp 3d nên Cr là nguyên tố d.\\
+b) \textbf{Đúng}: Cr có $5 + 1 = 6$ electron hóa trị.\\
+c) \textbf{Đúng}: Cr thuộc nhóm VIB, chu kì 4.\\
+d) \textbf{Đúng}: Hạt không mang điện là neutron (28 hạt). Tỉ lệ khối lượng hạt neutron: $\%m_n \approx \dfrac{28}{52}\cdot 100\% \approx 53,85\%$.
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # PHẦN III
+    tex.append(r"""
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN III (2 điểm). TRẮC NGHIỆM TRẢ LỜI NGẮN}}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 4. Viết câu trả lời vào ô quy định.}
+\vspace{2pt}
+""")
+
+    # Câu 1 Trả lời ngắn
+    tex.append(r"""
+\begin{ex}
+Nguyên tử của nguyên tố calcium nằm ở ô thứ 20 trong bảng HTTH các nguyên tố. Calcium thuộc chu kì ?
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Calcium ($Z = 20$): Cấu hình electron $\ce{[Ar] 4s^2}$ (có 4 lớp electron) $\implies$ thuộc chu kì 4.\\
+\textbf{Đáp số: 4}
+}
+""")
+    else:
+        tex.append(r"""
+\noindent\textit{Trả lời:} \dotfill
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 2 Trả lời ngắn
+    tex.append(r"""
+\begin{ex}
+Các electron của nguyên tử nguyên tố X được phân bố trên ba lớp, lớp thứ ba có 6 electron. Số electron độc thân của nguyên tử X là bao nhiêu?
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Lớp 1: $\ce{1s^2}$; Lớp 2: $\ce{2s^2 2p^6}$; Lớp 3: $\ce{3s^2 3p^4}$.\\
+Cấu hình e đầy đủ: $\ce{1s^2 2s^2 2p^6 3s^2 3p^4}$ ($Z = 16$).\\
+Phân lớp $\ce{3p^4}$ có 3 orbital gồm 1 cặp ghép đôi và 2 electron độc thân.\\
+\textbf{Đáp số: 2}
+}
+""")
+    else:
+        tex.append(r"""
+\noindent\textit{Trả lời:} \dotfill
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 3 Trả lời ngắn
+    tex.append(r"""
+\begin{ex}
+Cho các phát biểu sau:\\
+(1) Ở trạng thái cơ bản, trong một nguyên tử luôn có số proton bằng số electron.\\
+(2) Tổng số proton và số neutron trong hạt nhân được gọi là số khối.\\
+(3) Các đồng vị có tính chất vật lí giống nhau nhưng tính chất hoá học khác nhau.\\
+(4) Số neutron bằng số đơn vị điện tích hạt nhân nguyên tử.\\
+(5) Trong nguyên tử, hạt electron có khối lượng không đáng kể so với các hạt còn lại.\\
+Trong các phát biểu trên có bao nhiêu phát biểu đúng?
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+- (1) Đúng: Nguyên tử trung hòa về điện.\\
+- (2) Đúng: $A = Z + N$.\\
+- (3) Sai: Các đồng vị có tính chất hóa học tương tự nhau, tính chất vật lí khác nhau.\\
+- (4) Sai: $N$ không nhất thiết bằng $Z$.\\
+- (5) Đúng: $m_e \approx 0,00055\text{ amu}$ rất nhỏ so với proton và neutron.\\
+Các phát biểu đúng: (1), (2), (5) $\implies$ Có 3 phát biểu đúng.\\
+\textbf{Đáp số: 3}
+}
+""")
+    else:
+        tex.append(r"""
+\noindent\textit{Trả lời:} \dotfill
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 4 Trả lời ngắn
+    tex.append(r"""
+\begin{ex}
+Một nguyên tố tạo hợp chất khí với hydrogen có công thức $\ce{RH3}$, được sử dụng để trung hòa các thành phần acid của dầu thô, bảo vệ thiết bị không bị ăn mòn trong ngành công nghiệp dầu khí. Nguyên tố này chiếm 25,93\% về khối lượng trong oxide cao nhất. Phân tử khối của $\ce{RH3}$ có giá trị bao nhiêu amu?
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Hợp chất khí $\ce{RH3} \implies$ Hóa trị của R với H là 3.\\
+Hóa trị cao nhất với oxygen: $8 - 3 = 5 \implies$ Oxide cao nhất là $\ce{R2O5}$.\\
+$\%m_{\ce{R}} = \dfrac{2R}{2R + 80}\cdot 100\% = 25,93\% \iff 2R = 0,2593(2R + 80) \iff R \approx 14\text{ amu}$ (Nitrogen).\\
+Hợp chất khí là $\ce{NH3} \implies M_{\ce{NH3}} = 14 + 3 = 17\text{ amu}$.\\
+\textbf{Đáp số: 17}
+}
+""")
+    else:
+        tex.append(r"""
+\noindent\textit{Trả lời:} \dotfill
+""")
+    tex.append(r"\end{ex}")
+
+    # PHẦN TỰ LUẬN
+    tex.append(r"""
+\vspace{6pt}
+\noindent
+{\color{mainGreen}\textbf{\Large B. PHẦN TỰ LUẬN: (3 điểm)}}
+\vspace{2pt}
+""")
+
+    # Câu 1 Tự luận
+    tex.append(r"""
+\noindent
+\textbf{Câu 1: (1,0 điểm)} Cho nguyên tử của nguyên tố phosphorus có $Z = 15$.\\
+a) Viết cấu hình electron nguyên tử phosphorus; cho biết phosphorus là kim loại, phi kim hay khí hiếm. Giải thích?\\
+b) Biểu diễn cấu hình electron của phosphorus theo ô orbital. Cho biết số electron độc thân của nguyên tử phosphorus.
+""")
+    if is_teacher:
+        tex.append(r"""
+\begin{tcolorbox}[colback=white,colframe=solBlue,title=\textbf{Lời giải chi tiết và Biểu điểm Câu 1:}]
+\textbf{a) (0,5 điểm)}
+\begin{itemize}[leftmargin=1.2cm]
+\item Cấu hình electron: $\ce{1s^2 2s^2 2p^6 3s^2 3p^3}$ (hoặc $\ce{[Ne] 3s^2 3p^3}$). \hfill \textit{(0,25 đ)}
+\item Lớp ngoài cùng (lớp 3) có $2 + 3 = 5$ electron. Vì có 5 electron ở lớp ngoài cùng nên phosphorus là phi kim. \hfill \textit{(0,25 đ)}
+\end{itemize}
+\textbf{b) (0,5 điểm)}
+\begin{itemize}[leftmargin=1.2cm]
+\item Biểu diễn theo ô orbital:
+\begin{center}
+\begin{tikzpicture}[scale=0.55]
+\draw (0,0) rectangle (1,1); \node at (0.5,0.5) {$\uparrow\downarrow$}; \node[below] at (0.5,0) {\footnotesize $1s$};
+\draw (2,0) rectangle (3,1); \node at (2.5,0.5) {$\uparrow\downarrow$}; \node[below] at (2.5,0) {\footnotesize $2s$};
+\draw (3.5,0) rectangle (6.5,1); \draw (4.5,0)--(4.5,1); \draw (5.5,0)--(5.5,1);
+\node at (4,0.5) {$\uparrow\downarrow$}; \node at (5,0.5) {$\uparrow\downarrow$}; \node at (6,0.5) {$\uparrow\downarrow$};
+\node[below] at (5,0) {\footnotesize $2p$};
+\draw (7.5,0) rectangle (8.5,1); \node at (8,0.5) {$\uparrow\downarrow$}; \node[below] at (8,0) {\footnotesize $3s$};
+\draw (9,0) rectangle (12,1); \draw (10,0)--(10,1); \draw (11,0)--(11,1);
+\node at (9.5,0.5) {$\uparrow$}; \node at (10.5,0.5) {$\uparrow$}; \node at (11.5,0.5) {$\uparrow$};
+\node[below] at (10.5,0) {\footnotesize $3p$};
+\end{tikzpicture}
+\end{center}
+\hfill \textit{(0,25 đ)}
+\item Nguyên tử phosphorus có 3 electron độc thân nằm ở 3 orbital của phân lớp 3p. \hfill \textit{(0,25 đ)}
+\end{itemize}
+\end{tcolorbox}
+""")
+    else:
+        tex.append(r"""
+\vspace{1pt}
+\noindent
+\multido{\n=1+1}{6}{\dotfill\\[4pt]}
+""")
+
+    # Câu 2 Tự luận
+    tex.append(r"""
+\vspace{4pt}
+\noindent
+\textbf{Câu 2: (1,0 điểm)}\\
+a. Nguyên tố potassium (kí hiệu: K) có các đồng vị: $^{39}_{19}\ce{K}$ (chiếm 93,258\%), $^{40}_{19}\ce{K}$ (chiếm 0,012\%) và $^{41}_{19}\ce{K}$ (chiếm 6,730\%). Tính nguyên tử khối trung bình của potassium.\\
+b. Cần bao nhiêu gam dung dịch $\ce{HCl}$ 10\% để trung hoà 100 ml dung dịch có chứa 0,56 gam potassium hydroxide?
+""")
+    if is_teacher:
+        tex.append(r"""
+\begin{tcolorbox}[colback=white,colframe=solBlue,title=\textbf{Lời giải chi tiết và Biểu điểm Câu 2:}]
+\textbf{a) (0,5 điểm)}
+\begin{itemize}[leftmargin=1.2cm]
+\item Nguyên tử khối trung bình của potassium:
+$$\overline{A}_{\ce{K}} = \dfrac{39\times 93,258 + 40\times 0,012 + 41\times 6,730}{100} = \dfrac{3913,472}{100} = 39,135\text{ amu (hoặc } 39,13\text{ amu)} \hfill \textit{(0,5 đ)}$$
+\end{itemize}
+\textbf{b) (0,5 điểm)}
+\begin{itemize}[leftmargin=1.2cm]
+\item Phương trình phản ứng: $\ce{KOH + HCl -> KCl + H2O}$ \hfill \textit{(0,15 đ)}
+\item Số mol $\ce{KOH}$: $n_{\ce{KOH}} = \dfrac{0,56}{56} = 0,01\text{ mol}$. \hfill \textit{(0,1 đ)}
+\item Theo PTHH: $n_{\ce{HCl}} = n_{\ce{KOH}} = 0,01\text{ mol} \implies m_{\ce{HCl}} = 0,01\times 36,5 = 0,365\text{ g}$. \hfill \textit{(0,1 đ)}
+\item Khối lượng dung dịch $\ce{HCl}$ 10\%:
+$$m_{\text{dd HCl}} = \dfrac{0,365\times 100}{10} = 3,65\text{ gam}. \hfill \textit{(0,15 đ)}$$
+\end{itemize}
+\end{tcolorbox}
+""")
+    else:
+        tex.append(r"""
+\vspace{1pt}
+\noindent
+\multido{\n=1+1}{7}{\dotfill\\[4pt]}
+""")
+
+    # Câu 3 Tự luận
+    tex.append(r"""
+\vspace{4pt}
+\noindent
+\textbf{Câu 3: (1,0 điểm)} Hoà tan hoàn toàn 6,9081 g hỗn hợp muối cacbonat của 2 kim loại kế tiếp nhau trong nhóm IIA vào dd HCl dư. Lượng khí sinh ra đem sục từ từ vào dung dịch nước vôi trong (lấy dư) sau kết thúc thấy có 7,5 gam chất kết tủa trắng.\\
+a. Xác định Hai kim loại trong muối.\\
+b. Cần dùng bao nhiêu ml dung dịch HCl 30\%, $d = 1,5\text{ gam/ml}$ để phản ứng hết 1,727 gam hỗn hợp muối trên.
+""")
+    if is_teacher:
+        tex.append(r"""
+\begin{tcolorbox}[colback=white,colframe=solBlue,title=\textbf{Lời giải chi tiết và Biểu điểm Câu 3:}]
+\textbf{a) (0,5 điểm)}
+\begin{itemize}[leftmargin=1.2cm]
+\item Gọi công thức chung 2 muối cacbonat là $\overline{\ce{M}}\ce{CO3}$.
+\item Phương trình hóa học:
+$$\overline{\ce{M}}\ce{CO3} + 2\ce{HCl} \to \overline{\ce{M}}\ce{Cl2} + \ce{CO2}\uparrow + \ce{H2O} \quad (1)$$
+$$\ce{CO2} + \ce{Ca(OH)2} \text{ (dư)} \to \ce{CaCO3}\downarrow + \ce{H2O} \quad (2) \hfill \textit{(0,15 đ)}$$
+\item Số mol kết tủa: $n_{\ce{CaCO3}} = \dfrac{7,5}{100} = 0,075\text{ mol}$.
+\item Theo (1) và (2): $n_{\ce{CO2}} = n_{\overline{\ce{M}}\ce{CO3}} = n_{\ce{CaCO3}} = 0,075\text{ mol}$. \hfill \textit{(0,1 đ)}
+\item Khối lượng mol trung bình của muối:
+$$M_{\text{muối}} = \overline{M} + 60 = \dfrac{6,9081}{0,075} = 92,108\text{ g/mol} \implies \overline{M} = 32,108\text{ g/mol}. \hfill \textit{(0,15 đ)}$$
+\item Vì 2 kim loại thuộc nhóm IIA kế tiếp nhau: $M_{\ce{A}} < 32,108 < M_{\ce{B}}$.\\
+Mà các kim loại nhóm IIA là $\ce{Be}(9) < \ce{Mg}(24) < \ce{Ca}(40) < \ce{Sr}(88) < \ce{Ba}(137)$.\\
+$\implies$ Hai kim loại kế tiếp là Magnesium ($\ce{Mg} = 24$) và Calcium ($\ce{Ca} = 40$). \hfill \textit{(0,1 đ)}
+\end{itemize}
+\textbf{b) (0,5 điểm)}
+\begin{itemize}[leftmargin=1.2cm]
+\item Nhận thấy $1,727\text{ gam} = \dfrac{6,9081}{4}\text{ gam} \implies n_{\text{muối}} = \dfrac{0,075}{4} = 0,01875\text{ mol}$. \hfill \textit{(0,15 đ)}
+\item Theo PTHH (1): $n_{\ce{HCl}} = 2\cdot n_{\text{muối}} = 2 \times 0,01875 = 0,0375\text{ mol}$. \hfill \textit{(0,1 đ)}
+\item Khối lượng $\ce{HCl}$ nguyên chất: $m_{\ce{HCl}} = 0,0375 \times 36,5 = 1,36875\text{ g}$.
+\item Khối lượng dung dịch $\ce{HCl}$ 30\%:
+$$m_{\text{dd HCl}} = \dfrac{1,36875 \times 100}{30} = 4,5625\text{ gam}. \hfill \textit{(0,15 đ)}$$
+\item Thể tích dung dịch $\ce{HCl}$ 30\% cần dùng:
+$$V_{\text{dd HCl}} = \dfrac{m_{\text{dd}}}{d} = \dfrac{4,5625}{1,5} \approx 3,0417\text{ mL} \approx 3,04\text{ mL}. \hfill \textit{(0,1 đ)}$$
+\end{itemize}
+\end{tcolorbox}
+""")
+    else:
+        tex.append(r"""
+\vspace{1pt}
+\noindent
+\multido{\n=1+1}{8}{\dotfill\\[4pt]}
+""")
+
+    tex.append(r"""
+\vspace{6pt}
+\begin{center}
+\textbf{\large ---------- HẾT ----------}
+\end{center}
+
+\end{document}
+""")
+
+    return "".join(tex)
+
+def compile_pdf(tex_path):
+    out_dir = os.path.dirname(tex_path)
+    base_name = os.path.splitext(os.path.basename(tex_path))[0]
+    
+    # Chạy pdflatex 2 lần để cập nhật số trang và tham chiếu
+    for i in range(2):
+        cmd = ["pdflatex", "-interaction=nonstopmode", f"-output-directory={out_dir}", tex_path]
+        res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, cwd=out_dir)
+        if res.returncode != 0 and i == 1:
+            print(f"[CẢNH BÁO] pdflatex kết thúc với mã {res.returncode}")
+            # in vài dòng cuối log
+            log_file = os.path.join(out_dir, f"{base_name}.log")
+            if os.path.exists(log_file):
+                with open(log_file, "r", encoding="utf-8", errors="ignore") as f:
+                    lines = f.readlines()
+                    print("".join(lines[-30:]))
+    
+    # Dọn dẹp file rác
+    for ext in [".aux", ".log", ".thm", ".out", ".synctex.gz"]:
+        f_junk = os.path.join(out_dir, base_name + ext)
+        if os.path.exists(f_junk):
+            try:
+                os.remove(f_junk)
+            except Exception:
+                pass
+    for f in glob.glob(os.path.join(out_dir, "ans-*.tex")):
+        try:
+            os.remove(f)
+        except Exception:
+            pass
+    print(f"[OK] Đã biên dịch xong PDF: {os.path.join(out_dir, base_name + '.pdf')}")
+
+def main():
+    tex_hs = os.path.join(SAN_PHAM_DIR, "De_Kiem_Tra_Hoa_10_Ma485_HocSinh.tex")
+    tex_gv = os.path.join(SAN_PHAM_DIR, "De_Kiem_Tra_Hoa_10_Ma485_GiaoVien.tex")
+
+    print("Đang tạo mã nguồn LaTeX Bản Học sinh...")
+    with open(tex_hs, "w", encoding="utf-8") as f:
+        f.write(build_latex_content(is_teacher=False))
+
+    print("Đang tạo mã nguồn LaTeX Bản Giáo viên...")
+    with open(tex_gv, "w", encoding="utf-8") as f:
+        f.write(build_latex_content(is_teacher=True))
+
+    print("\nĐang biên dịch PDF Bản Học sinh...")
+    compile_pdf(tex_hs)
+
+    print("\nĐang biên dịch PDF Bản Giáo viên...")
+    compile_pdf(tex_gv)
+
+    print("\n[HOÀN TẤT] Toàn bộ file .tex và .pdf đã được tạo và biên dịch thành công!")
+
+if __name__ == "__main__":
+    main()
