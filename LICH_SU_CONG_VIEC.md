@@ -972,3 +972,48 @@ Hệ thống tự động theo dõi, chuyển đổi và quản lý toàn bộ c
   2. `San_Pham/De_Kiem_Tra_GK1_Hoa_12_ChuyenKHHue_Ma102_GiaoVien.docx` (Bản Giáo viên Word)
   3. `San_Pham/De_Kiem_Tra_GK1_Hoa_12_ChuyenKHHue_Ma102_HocSinh.pdf` (Bản Học sinh PDF LaTeX)
   4. `San_Pham/De_Kiem_Tra_GK1_Hoa_12_ChuyenKHHue_Ma102_GiaoVien.pdf` (Bản Giáo viên PDF LaTeX)
+
+---
+
+### Đợt 53: Số hóa và Chuyển đổi Đề Kiểm Tra Cuối Học Kì I – KHTN 9 Trường THCS Chu Văn An (Năm học 2024 – 2025)
+
+- **Thời gian thực hiện:** 06/11/2026
+- **Tài liệu nguồn:** 2 ảnh chụp đề thi chính thức (`1.jpg` và `2.jpg`, 60 phút, ĐỀ CHÍNH THỨC) tại thư mục `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\KHTN9-DEKIEMTRADINHKI\gk1-chuvanan-2425\`.
+- **Cấu trúc nội dung đề thi:**
+  - **I. PHẦN TRẮC NGHIỆM (4,0 điểm - 16 câu hỏi trắc nghiệm nhiều lựa chọn):**
+    * Câu 1: Bốn loại đơn phân của DNA $\to$ A, T, G, C (B).
+    * Câu 2: Đột biến thay thế 1 cặp A - T bằng 1 cặp G - C $\to$ tăng 1 liên kết hydrogen (C).
+    * Câu 3: Kết thúc tái bản DNA $\to$ Hai phân tử DNA mới có cấu tạo giống hoàn toàn so với DNA mẹ ban đầu (D).
+    * Câu 4: Enzyme tham gia phiên mã $\to$ Enzyme RNA polymerase (B).
+    * Câu 5: Trình tự mạch bổ sung với 5'-ATGCGGATTTAA-3' $\to$ 3'-TACGCCTAAATT-5' (A).
+    * Câu 6: Trình tự gene quy định trình tự mRNA $\to$ thông qua phiên mã (C).
+    * Câu 7: Sơ đồ mối quan hệ gene - protein biểu hiện tính trạng $\to$ gene (DNA) $\to$ mRNA $\to$ protein $\to$ tính trạng (A).
+    * Câu 8: Cặp nhiễm sắc thể tương đồng $\to$ Hai NST giống nhau về hình thái và kích thước, một chiếc có nguồn gốc từ bố, một chiếc có nguồn gốc từ mẹ (D).
+    * Câu 9: Phân tử biểu hiện thành tính trạng $\to$ Protein (C).
+    * Câu 10: Cấu trúc nhiễm sắc thể gồm $\to$ Phân tử DNA và protein histone (B).
+    * Câu 11: Các chất $\ce{C6H12O6, H2CO3, CH4, CCl4}$ đều là $\to$ Hợp chất chứa carbon (D).
+    * Câu 12: Ngâm viên kẽm vào dung dịch $\ce{CuSO4} \to$ Có chất rắn màu đỏ bám ngoài viên kẽm và màu xanh lam của dung dịch nhạt dần (B).
+    * Câu 13: Dãy kim loại phản ứng với nước ở nhiệt độ thường $\to$ Na, K, Ca (C).
+    * Câu 14: Các kim loại đều phản ứng với dung dịch $\ce{H2SO4}$ loãng $\to$ Al, Zn, Fe (B).
+    * Câu 15: Dựa vào trạng thái, nhiên liệu được chia thành $\to$ 3 loại (rắn, lỏng, khí) (B).
+    * Câu 16: Dãy kim loại theo chiều hoạt động hóa học giảm dần $\to$ Na, Mg, Zn (A).
+  - **II. PHẦN TỰ LUẬN (6,0 điểm - 4 câu hỏi):**
+    * Câu 17 (1,5 đ): Định nghĩa hợp chất hữu cơ và nhiên liệu; Phương pháp hóa học phân biệt 3 khí $\ce{CH4, H2, C2H4}$ (dùng dung dịch $\ce{Br2}$ nhận ra $\ce{C2H4}$; đốt cháy và dẫn sản phẩm qua nước vôi trong nhận ra $\ce{CH4}$ và $\ce{H2}$).
+    * Câu 18 (2,0 đ): Đốt cháy 14,4 g hỗn hợp $\ce{C2H6}$ và $\ce{C4H8}$ cần 39,664 L $\ce{O2}$ (đkc).
+      + 18.1: Lập hệ phương trình tính $x = 0,2\text{ mol } \ce{C2H6}$ và $y = 0,15\text{ mol } \ce{C4H8} \implies \%m_{\ce{C2H6}} = \mathbf{41,67\%}$, $\%m_{\ce{C4H8}} = \mathbf{58,33\%}$.
+      + 18.2: $n_{\ce{CO2}} = 1,0\text{ mol}$, $n_{\ce{H2O}} = 1,2\text{ mol}$. Khối lượng bình tăng $a = m_{\ce{CO2}} + m_{\ce{H2O}} = \mathbf{65,6\text{ gam}}$; khối lượng kết tủa $\ce{CaCO3}$ là $b = \mathbf{100\text{ gam}}$.
+    * Câu 19 (0,75 đ): Định nghĩa thế năng và viết biểu thức thế năng trọng trường $W_t = Ph = mgh$ cùng chú thích các đại lượng.
+    * Câu 20 (1,75 đ): Định nghĩa hiện tượng khúc xạ ánh sáng; Tính chiết suất chất lỏng $n = \sqrt{3} \approx 1,732$ và điều kiện xảy ra phản xạ toàn phần khi chiếu từ chất lỏng ra không khí: $i \ge i_{\text{gh}} \approx \mathbf{35,3^\circ}$ (hay $\sin i \ge \dfrac{1}{\sqrt{3}}$).
+- **Quy chuẩn kỹ thuật FORM ĐỀ KIỂM TRA:**
+  - Khổ giấy A4, margins Top=1.5cm, Bottom=1.5cm, Left=1.5cm, Right=1.5cm.
+  - Header & Footer Coral Red (`#D32F2F`) & Sage Green (`#8BC390`), định danh Thầy TRẦN VĂN THẠNH - 0777.470.803, địa chỉ 2 cơ sở tại Huế, số trang tự động `PAGE`.
+  - **Tuyệt đối KHÔNG dùng dạng bảng (Table) trong nội dung đề thi**: Sử dụng Tab stops chuẩn Word; Lời giải chi tiết thụt lề 0.6cm in đậm màu xanh `#1565C0`.
+- **Trọn bộ sản phẩm hoàn thành:**
+  1. `San_Pham/De_Kiem_Tra_KHTN_9_Cuoi_HK1_Chu_Van_An_HocSinh.docx`: Bản Học sinh chuẩn in ấn làm bài, có dòng kẻ chấm làm bài tự luận.
+  2. `San_Pham/De_Kiem_Tra_KHTN_9_Cuoi_HK1_Chu_Van_An_GiaoVien.docx`: Bản Giáo viên đầy đủ đáp án in đậm màu đỏ, lời giải chi tiết sư phạm từng câu.
+  3. `San_Pham/De_Kiem_Tra_KHTN_9_Cuoi_HK1_Chu_Van_An_DayTrenManHinh.docx`: Bản Dạy trên màn hình có khung chừa chỗ trống tương tác màu tím rộng rãi phục vụ giảng dạy máy chiếu / tivi thông minh.
+  4. `PDF_Goc/De_Kiem_Tra_KHTN_9_Cuoi_HK1_Chu_Van_An_2425.pdf`: File PDF gốc lưu trữ 2 trang đề thi.
+- **Đồng bộ tự động sang OneDrive:**
+  - `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\KHTN9-DEKIEMTRADINHKI\gk1-chuvanan-2425\`
+  - `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\KHTN9-DEKIEMTRADINHKI\`
+  - `c:\Users\Admin\OneDrive\Tệp đính kèm\2026-2027\khtn9\`
