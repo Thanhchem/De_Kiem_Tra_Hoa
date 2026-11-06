@@ -1,0 +1,560 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{geometry}
+\geometry{top=1.5cm,bottom=1.2cm,left=1.4cm,right=1.4cm,headheight=28pt,headsep=12pt,footskip=18pt}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{colortbl}
+\usepackage{tcolorbox}
+\usepackage{multido}
+
+\definecolor{hfRed}{HTML}{D32F2F}
+\definecolor{hfGreen}{HTML}{8BC390}
+\definecolor{mainGreen}{HTML}{2E7D32}
+\definecolor{solBlue}{HTML}{1565C0}
+\definecolor{tableGreen}{HTML}{E8F5E9}
+
+\usepackage{ex_test}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.75pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0.75pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+
+\fancyhead[L]{\small\itshape\color{hfRed}Tài liệu lưu hành nội bộ}
+\fancyhead[R]{\small\color{hfRed}Thầy \textbf{TRẦN VĂN THẠNH} - 0777.470.803}
+
+\fancyfoot[L]{\footnotesize\itshape\color{hfRed}CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+\fancyfoot[R]{\small\textbf{\color{hfRed}Trang \thepage}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+
+\begin{document}
+
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{SỞ GD\&ĐT THÀNH PHỐ HUẾ}\\
+\textbf{TRƯỜNG THPT BÙI THỊ XUÂN}\\
+\textit{ĐỀ CHÍNH THỨC}\\
+\textit{(Đề thi có 02 trang)}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\raggedleft
+\textbf{\color{hfRed}KIỂM TRA ĐÁNH GIÁ GIỮA KÌ}\\
+\textbf{HỌC KÌ I, NĂM HỌC 2024 - 2025}\\
+\textbf{MÔN: HOÁ HỌC\_LỚP 10}\\
+\textit{Thời gian làm bài: 45 phút (không kể thời gian phát đề)}\\
+\textbf{MÃ ĐỀ: 1004}
+\end{minipage}
+
+\vspace{4pt}
+\noindent
+\textit{Họ, tên thí sinh:} \dotfill \textit{Lớp:} \dotfill \textit{Số báo danh:} \dotfill
+
+\vspace{3pt}
+\hrule color{hfGreen} height 0.5pt
+
+\vspace{4pt}
+\begin{center}
+\textbf{\color{hfRed}\large (BẢN GIÁO VIÊN -- CÓ LỜI GIẢI CHI TIẾT)}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{hfRed}\large BẢNG ĐÁP ÁN RÚT GỌN (DÀNH CHO GIÁO VIÊN)}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}1. Phần I: Trắc nghiệm nhiều lựa chọn (3,0 điểm - mỗi câu đúng 0,25 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}D} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}2. Phần II: Trắc nghiệm Đúng / Sai (2,0 điểm - 1 ý: 0,1đ; 2 ý: 0,25đ; 3 ý: 0,5đ; 4 ý: 1,0đ)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|p{4.2cm}|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Nội dung câu hỏi} & \textbf{Lệnh a} & \textbf{Lệnh b} & \textbf{Lệnh c} & \textbf{Lệnh d} \\
+\hline
+\textbf{Câu 1} & Nguyên tử Mg và Ca & \textbf{SAI} & \textbf{\color{hfRed}ĐÚNG} & \textbf{\color{hfRed}ĐÚNG} & \textbf{SAI} \\
+\hline
+\textbf{Câu 2} & Cấu hình electron X, Y & \textbf{\color{hfRed}ĐÚNG} & \textbf{\color{hfRed}ĐÚNG} & \textbf{SAI} & \textbf{SAI} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}3. Phần III: Trắc nghiệm trả lời ngắn (2,0 điểm - mỗi câu đúng 0,5 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Câu 1} & \textbf{Câu 2} & \textbf{Câu 3} & \textbf{Câu 4} \\
+\hline
+\textbf{Đáp án} & \textbf{\color{hfRed}24} & \textbf{\color{hfRed}3} & \textbf{\color{hfRed}21} & \textbf{\color{hfRed}27} (hoặc 27\%) \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}4. Tóm tắt đáp số Phần Tự luận (3,0 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|p{11.5cm}|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Điểm} & \textbf{Đáp số cốt lõi} \\
+\hline
+\textbf{Câu 1} & 1,0 đ & a) $p = 3, e = 3, n = 4$; Kí hiệu: $^{7}_{3}\ce{Y}$ (hoặc $^{7}_{3}\ce{Li}$). \quad b) Y và T là đồng vị vì cùng $Z = 3$. \\
+\hline
+\textbf{Câu 2} & 1,0 đ & a) $Z = 16$, $\ce{1s^2 2s^2 2p^6 3s^2 3p^4}$ (2, 8, 6). \quad b) Có 2e độc thân; $\ce{X^2-}$ giống khí hiếm Argon ($\ce{Ar}$). \\
+\hline
+\textbf{Câu 3} & 1,0 đ & a) $Z_{\ce{X}} = 12$ (Mg), $Z_{\ce{Y}} = 13$ (Al). \quad b) Vị trí: X ô 12, CK 3, IIA; Y ô 13, CK 3, IIIA. \quad c) Cả 2 là kim loại; X là nguyên tố s, Y là nguyên tố p. \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{4pt}
+\hrule color{hfGreen} height 0.5pt
+
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN I. Câu trắc nghiệm nhiều lựa chọn (3,0 điểm)}}\\
+\textit{\small Học sinh trả lời từ câu 1 đến câu 12. Mỗi câu hỏi học sinh chỉ chọn một phương án.}
+\vspace{2pt}
+
+\begin{ex}
+Phát biểu nào sau đây không đúng?
+\choice
+{Nguyên tử được cấu thành từ các hạt cơ bản là proton, neutron và electron}
+{Hạt nhân nguyên tử cấu thành từ các hạt proton và neutron}
+{\True Nguyên tử có cấu trúc đặc khít, gồm vỏ nguyên tử và hạt nhân nguyên tử}
+{Vỏ nguyên tử cấu thành từ các hạt electron}
+
+\loigiai{
+Nguyên tử có cấu trúc rỗng (đường kính nguyên tử lớn hơn đường kính hạt nhân khoảng 10.000 lần), ở giữa là hạt nhân mang điện tích dương và vỏ electron mang điện tích âm, không phải cấu trúc đặc khít.\\
+\textbf{Chọn C.}
+}
+\end{ex}
+\begin{ex}
+Hạt có khối lượng xấp xỉ 1 amu trong hạt nhân nguyên tử là
+\choice
+{proton và electron}
+{neutron và electron}
+{electron}
+{\True proton và neutron}
+
+\loigiai{
+Trong hạt nhân nguyên tử gồm các hạt proton và neutron. Khối lượng của hạt proton $m_p \approx 1{,}0073\text{ amu}$ và neutron $m_n \approx 1{,}0087\text{ amu}$ đều xấp xỉ 1 amu (trong khi electron có khối lượng rất nhỏ $m_e \approx 0{,}00055\text{ amu}$).\\
+\textbf{Chọn D.}
+}
+\end{ex}
+\begin{ex}
+Đường kính nguyên tử khoảng $10^{-1}\text{ nm}$, đường kính hạt nhân khoảng $10^{-5}\text{ nm}$. Đường kính nguyên tử gấp khoảng bao nhiêu lần đường kính hạt nhân?
+\choice
+{10 lần}
+{100 lần}
+{1 000 lần}
+{\True 10 000 lần}
+
+\loigiai{
+Tỉ số kích thước giữa đường kính nguyên tử và đường kính hạt nhân:
+$$\dfrac{d_{\text{nguyên tử}}}{d_{\text{hạt nhân}}} = \dfrac{10^{-1}\text{ nm}}{10^{-5}\text{ nm}} = 10^4 = 10\,000\text{ (lần)}.$$
+\textbf{Chọn D.}
+}
+\end{ex}
+\begin{ex}
+Hoạt động nào sau đây thuộc phương pháp thực nghiệm trong học tập và nghiên cứu hóa học?
+\choice
+{Đọc tài liệu và ghi nhớ nội dung lí thuyết}
+{\True Tiến hành thí nghiệm, quan sát hiện tượng và rút ra kết luận}
+{Xem video bài giảng của giáo viên}
+{Trao đổi nhóm để tóm tắt nội dung bài học}
+
+\loigiai{
+Phương pháp thực nghiệm là phương pháp thu thập dữ liệu khách quan thông qua việc trực tiếp thực hiện thí nghiệm, quan sát hiện tượng và rút ra kết luận.\\
+\textbf{Chọn B.}
+}
+\end{ex}
+\begin{ex}
+Để kiểm tra một giả thuyết (dự đoán) trong nghiên cứu hóa học, người ta thường
+\choice
+{chỉ dựa vào ý kiến của số đông}
+{chỉ đọc lại kết luận có sẵn trong sách}
+{\True tiến hành thí nghiệm, quan sát hiện tượng, thu thập số liệu rồi đối chiếu với dự đoán}
+{chọn những kết quả phù hợp với dự đoán và bỏ qua những kết quả khác}
+
+\loigiai{
+Để kiểm tra giả thuyết khoa học, người nghiên cứu tiến hành thí nghiệm kiểm chứng, quan sát hiện tượng, thu thập số liệu thực nghiệm rồi đối chiếu với dự đoán ban đầu.\\
+\textbf{Chọn C.}
+}
+\end{ex}
+\begin{ex}
+Cho ba nguyên tử: $^{12}_6\ce{X}$, $^{14}_6\ce{Y}$ và $^{14}_7\ce{Z}$. Nhận định nào sau đây đúng?
+\choice
+{Y và Z là hai đồng vị của cùng một nguyên tố vì có cùng số khối}
+{\True X và Y là hai đồng vị của cùng một nguyên tố hóa học}
+{X và Z có cùng số neutron}
+{X và Z có cùng số khối}
+
+\loigiai{
+Phân tích ba nguyên tử:
+\begin{itemize}[leftmargin=1.0cm]
+\item $^{12}_6\ce{X}$: $Z = 6$, số khối $A = 12 \implies N = 12 - 6 = 6$.
+\item $^{14}_6\ce{Y}$: $Z = 6$, số khối $A = 14 \implies N = 14 - 6 = 8$.
+\item $^{14}_7\ce{Z}$: $Z = 7$, số khối $A = 14 \implies N = 14 - 7 = 7$.
+\end{itemize}
+X và Y có cùng số proton ($Z = 6$) nhưng khác số neutron ($N = 6$ và $N = 8$) nên X và Y là hai đồng vị của cùng một nguyên tố hóa học (carbon).\\
+\textbf{Chọn B.}
+}
+\end{ex}
+\begin{ex}
+Mô hình nguyên tử hiện đại mô tả chuyển động của electron là
+\choice
+{theo quỹ đạo hình tròn hay bầu dục}
+{theo quỹ đạo đường thẳng}
+{\True không theo quỹ đạo xác định}
+{theo quỹ đạo hình cầu}
+
+\loigiai{
+Theo mô hình hiện đại (cơ học lượng tử), trong nguyên tử, các electron chuyển động rất nhanh xung quanh hạt nhân và không theo những quỹ đạo xác định.\\
+\textbf{Chọn C.}
+}
+\end{ex}
+\begin{ex}
+Nhà khoa học nào sau đây đã công bố bảng tuần hoàn các nguyên tố hóa học đầu tiên vào năm 1869?
+\choice
+{\True D. I. Mendeleev}
+{E. Rutherford}
+{J. J. Thomson}
+{N. Bohr}
+
+\loigiai{
+Năm 1869, nhà hóa học người Nga D. I. Mendeleev đã công bố bảng tuần hoàn các nguyên tố hóa học đầu tiên.\\
+\textbf{Chọn A.}
+}
+\end{ex}
+\begin{ex}
+Nguyên tử của nguyên tố X có tổng số electron trong các phân lớp p là 10. Vị trí của X trong bảng tuần hoàn là
+\choice
+{ô số 10, chu kì 2, nhóm VIIIA}
+{\True ô số 16, chu kì 3, nhóm VIA}
+{ô số 14, chu kì 3, nhóm IVA}
+{ô số 16, chu kì 3, nhóm IVA}
+
+\loigiai{
+Tổng số electron trên các phân lớp p là 10: gồm 6e ở phân lớp 2p và 4e ở phân lớp 3p.\\
+$\implies$ Cấu hình electron: $\ce{1s^2 2s^2 2p^6 3s^2 3p^4}$.\\
+Tổng số electron = $2 + 2 + 6 + 2 + 4 = 16 \implies Z = 16$.\\
+Vị trí của X:
+\begin{itemize}[leftmargin=1.0cm]
+\item Ô số 16 (do $Z = 16$).
+\item Chu kì 3 (do có 3 lớp electron).
+\item Nhóm VIA (nguyên tố p, có $2 + 4 = 6$ electron ở lớp ngoài cùng).
+\end{itemize}
+\textbf{Chọn B.}
+}
+\end{ex}
+\begin{ex}
+Cho các nguyên tố $\ce{X}\ (Z = 13)$, $\ce{Y}\ (Z = 17)$ và $\ce{T}\ (Z = 20)$. Phát biểu nào sau đây đúng?
+\choice
+{X, Y đều là phi kim}
+{\True X, T là kim loại; Y là phi kim}
+{X là phi kim; Y, T là kim loại}
+{X, Y, T đều là kim loại}
+
+\loigiai{
+Xét cấu hình electron:
+\begin{itemize}[leftmargin=1.0cm]
+\item $\ce{X}\ (Z = 13)$: $\ce{1s^2 2s^2 2p^6 3s^2 3p^1} \implies$ có 3e lớp ngoài cùng $\to$ kim loại ($\ce{Al}$).
+\item $\ce{Y}\ (Z = 17)$: $\ce{1s^2 2s^2 2p^6 3s^2 3p^5} \implies$ có 7e lớp ngoài cùng $\to$ phi kim ($\ce{Cl}$).
+\item $\ce{T}\ (Z = 20)$: $\ce{1s^2 2s^2 2p^6 3s^2 3p^6 4s^2} \implies$ có 2e lớp ngoài cùng $\to$ kim loại ($\ce{Ca}$).
+\end{itemize}
+Vậy X, T là kim loại; Y là phi kim.\\
+\textbf{Chọn B.}
+}
+\end{ex}
+\begin{ex}
+Số hiệu nguyên tử của nguyên tố hóa học bằng
+\choice
+{\True số thứ tự của ô nguyên tố}
+{số thứ tự của chu kì}
+{số thứ tự của nhóm}
+{số electron lớp ngoài cùng của nguyên tử}
+
+\loigiai{
+Trong bảng tuần hoàn, số thứ tự của ô nguyên tố bằng số hiệu nguyên tử ($Z$) của nguyên tố đó.\\
+\textbf{Chọn A.}
+}
+\end{ex}
+\begin{ex}
+Nhóm A bao gồm các nguyên tố
+\choice
+{s}
+{p}
+{d và f}
+{\True s và p}
+
+\loigiai{
+Nhóm A (nhóm chính) bao gồm các nguyên tố s (nhóm IA, IIA) và các nguyên tố p (nhóm IIIA đến VIIIA).\\
+\textbf{Chọn D.}
+}
+\end{ex}
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN II. Câu trắc nghiệm đúng – sai (2,0 điểm)}}\\
+\textit{\small Học sinh trả lời câu 1 và câu 2. Trong mỗi ý a), b), c), d) ở mỗi câu, học sinh chọn đúng hoặc sai.}
+\vspace{2pt}
+
+\begin{ex}
+Magnesium được dùng để chế tạo hợp kim nhẹ, calcium được dùng trong sản xuất vôi và xi măng. Cho nguyên tử magnesium ($\ce{Mg}, Z = 12$) và calcium ($\ce{Ca}, Z = 20$).
+\choiceTF
+{Mg là nguyên tố s, còn Ca là nguyên tố p}
+{\True Từ cấu hình electron, xác định được Ca nằm ở ô số 20, chu kì 4, nhóm IIA}
+{\True Bảng tuần hoàn hiện nay có 8 nhóm A và 8 nhóm B}
+{Mg và Ca thuộc cùng một chu kì vì nguyên tử của chúng đều có 2 electron ở lớp ngoài cùng}
+
+\loigiai{
+Phân tích chi tiết Câu 1:
+\begin{itemize}[leftmargin=1.0cm]
+\item Cấu hình electron của $\ce{Mg}\ (Z = 12)$: $\ce{1s^2 2s^2 2p^6 3s^2} \implies$ nguyên tố s.
+\item Cấu hình electron của $\ce{Ca}\ (Z = 20)$: $\ce{1s^2 2s^2 2p^6 3s^2 3p^6 4s^2} \implies$ nguyên tố s.
+\item \textbf{Ý a) SAI:} Cả Mg và Ca đều là nguyên tố s (electron cuối cùng điền vào phân lớp s).
+\item \textbf{Ý b) ĐÚNG:} Ca có $Z = 20 \to$ ô 20; có 4 lớp electron $\to$ chu kì 4; có 2e lớp ngoài cùng và là nguyên tố s $\to$ nhóm IIA.
+\item \textbf{Ý c) ĐÚNG:} Bảng tuần hoàn hiện nay có 18 cột, gồm 8 nhóm A và 8 nhóm B.
+\item \textbf{Ý d) SAI:} Mg ở chu kì 3, Ca ở chu kì 4. Chúng thuộc cùng một \textbf{nhóm} (nhóm IIA) do có 2 electron lớp ngoài cùng, không phải cùng chu kì.
+\end{itemize}
+$\implies$ Kết luận: a - SAI, b - ĐÚNG, c - ĐÚNG, d - SAI.
+}
+\end{ex}
+\begin{ex}
+Nguyên tử của nguyên tố X có cấu hình electron kết thúc bằng $3p^2$. Nguyên tử của nguyên tố Y có cấu hình electron kết thúc bằng $3p^5$.
+\choiceTF
+{\True Nguyên tử Y có 1 electron độc thân ở trạng thái cơ bản}
+{\True Nguyên tử Y có 7 electron ở lớp ngoài cùng nên Y là phi kim}
+{Phân lớp 3p có 3 orbital và chứa tối đa 3 electron}
+{Cấu hình electron theo lớp của X là (2,8,2)}
+
+\loigiai{
+Phân tích chi tiết Câu 2:
+\begin{itemize}[leftmargin=1.0cm]
+\item Cấu hình electron của X: $\ce{1s^2 2s^2 2p^6 3s^2 3p^2}$ ($Z = 14$, Silicon). Cấu hình theo lớp là (2, 8, 4).
+\item Cấu hình electron của Y: $\ce{1s^2 2s^2 2p^6 3s^2 3p^5}$ ($Z = 17$, Chlorine).
+\item \textbf{Ý a) ĐÚNG:} Phân lớp $3p^5$ có 3 orbital: $[\uparrow\downarrow][\uparrow\downarrow][\uparrow]$, do đó Y có 1 electron độc thân.
+\item \textbf{Ý b) ĐÚNG:} Lớp ngoài cùng của Y có $2 + 5 = 7$ electron nên Y là phi kim điển hình.
+\item \textbf{Ý c) SAI:} Phân lớp 3p có 3 orbital và chứa tối đa 6 electron.
+\item \textbf{Ý d) SAI:} Cấu hình theo lớp của X là (2, 8, 4), không phải (2, 8, 2).
+\end{itemize}
+$\implies$ Kết luận: a - ĐÚNG, b - ĐÚNG, c - SAI, d - SAI.
+}
+\end{ex}
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN III. Câu trắc nghiệm trả lời ngắn (2,0 điểm)}}\\
+\textit{\small Học sinh trả lời từ câu 1 đến câu 4.}
+\vspace{2pt}
+
+\begin{ex}
+Cho các nguyên tố có số hiệu nguyên tử lần lượt là 8, 12, 14, 16 và 19. Trong số đó có hai nguyên tố thuộc cùng một nhóm. Tổng số hiệu nguyên tử của hai nguyên tố này là bao nhiêu?
+
+\loigiai{
+Xác định vị trí nhóm của từng nguyên tố:
+\begin{itemize}[leftmargin=1.0cm]
+\item $Z = 8$: $\ce{1s^2 2s^2 2p^4} \implies$ nhóm VIA (chu kì 2).
+\item $Z = 12$: $\ce{1s^2 2s^2 2p^6 3s^2} \implies$ nhóm IIA (chu kì 3).
+\item $Z = 14$: $\ce{1s^2 2s^2 2p^6 3s^2 3p^2} \implies$ nhóm IVA (chu kì 3).
+\item $Z = 16$: $\ce{1s^2 2s^2 2p^6 3s^2 3p^4} \implies$ nhóm VIA (chu kì 3).
+\item $Z = 19$: $\ce{[Ar] 4s^1} \implies$ nhóm IA (chu kì 4).
+\end{itemize}
+Hai nguyên tố thuộc cùng một nhóm là $Z = 8$ (Oxygen) và $Z = 16$ (Sulfur) đều thuộc nhóm VIA.\\
+Tổng số hiệu nguyên tử: $8 + 16 = 24$.\\
+\textbf{Đáp số: 24}
+}
+\end{ex}
+\begin{ex}
+Nguyên tử Y có lớp electron thứ nhất đã bão hòa và lớp electron thứ hai chứa 5 electron. Số electron độc thân của Y là bao nhiêu?
+
+\loigiai{
+\begin{itemize}[leftmargin=1.0cm]
+\item Lớp thứ nhất ($n = 1$) bão hòa: $\ce{1s^2}$ (2 electron).
+\item Lớp thứ hai ($n = 2$) chứa 5 electron: $\ce{2s^2 2p^3}$.
+\end{itemize}
+$\implies$ Cấu hình electron của Y: $\ce{1s^2 2s^2 2p^3}$ ($Z = 7$, Nitrogen).\\
+Ở phân lớp $\ce{2p^3}$, theo quy tắc Hund, 3 electron phân bố vào 3 orbital riêng biệt với spin song song: $[\uparrow][\uparrow][\uparrow]$.\\
+Do đó, nguyên tử Y có 3 electron độc thân.\\
+\textbf{Đáp số: 3}
+}
+\end{ex}
+\begin{ex}
+Nguyên tử R có điện tích lớp vỏ là $-33{,}642\cdot 10^{-19}\text{ C}$. Biết điện tích của một electron là $-1{,}602\cdot 10^{-19}\text{ C}$. Nguyên tử R có bao nhiêu electron?
+
+\loigiai{
+Điện tích lớp vỏ nguyên tử bằng tổng điện tích của các electron:\\
+$$q_{\text{vỏ}} = N_e \cdot q_e$$
+Số electron trong nguyên tử R là:
+$$N_e = \dfrac{-33{,}642\cdot 10^{-19}\text{ C}}{-1{,}602\cdot 10^{-19}\text{ C}} = 21\text{ electron}.$$
+\textbf{Đáp số: 21}
+}
+\end{ex}
+\begin{ex}
+Trong tự nhiên, đồng có hai đồng vị bền là $^{63}\ce{Cu}$ và $^{65}\ce{Cu}$, nguyên tử khối trung bình của đồng là 63,54. Phần trăm số nguyên tử của đồng vị $^{65}\ce{Cu}$ là bao nhiêu?
+
+\loigiai{
+Gọi phần trăm số nguyên tử của đồng vị $^{65}\ce{Cu}$ là $x\text{ (\%) } (0 < x < 100)$.\\
+Phần trăm số nguyên tử của $^{63}\ce{Cu}$ là $(100 - x)\text{ (\%)}$.\\
+Áp dụng công thức tính nguyên tử khối trung bình:
+$$\overline{A}_{\ce{Cu}} = \dfrac{63\cdot (100 - x) + 65\cdot x}{100} = 63{,}54$$
+$$\iff 6300 + 2x = 6354 \iff 2x = 54 \iff x = 27\%.$$
+Vậy phần trăm số nguyên tử của đồng vị $^{65}\ce{Cu}$ là 27\% (hoặc 27).\\
+\textbf{Đáp số: 27}
+}
+\end{ex}
+\vspace{6pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN IV. Tự luận (3,0 điểm)}}\\
+\textit{\small Học sinh trình bày lời giải chi tiết cho các câu hỏi sau.}
+\vspace{2pt}
+
+\noindent
+\textbf{Câu 1. (1,0 điểm)} Nguyên tử của nguyên tố Y có tổng số hạt là 10 và số khối bằng 7.\\
+a) Xác định số proton, số neutron, số electron của Y và viết kí hiệu nguyên tử của Y.\\
+b) Cho thêm hai nguyên tố T và V có kí hiệu lần lượt là $^{6}_{3}\ce{T}$ và $^{7}_{4}\ce{V}$. Trong ba nguyên tử Y, T, V, những nguyên tử nào là đồng vị của cùng một nguyên tố? Giải thích.
+
+\begin{tcolorbox}[colback=white,colframe=solBlue,title=\textbf{Hướng dẫn giải chi tiết Câu 1 (1,0 điểm):}]
+\textbf{a) (0,5 điểm)}
+\begin{itemize}[leftmargin=1.0cm]
+\item Trong nguyên tử Y, gọi $p, n, e$ lần lượt là số hạt proton, neutron và electron ($p = e$).
+\item Tổng số hạt: $p + n + e = 10 \iff 2p + n = 10$ \quad (1) \hfill \textit{(0,15 đ)}
+\item Số khối: $A = p + n = 7$ \quad (2) \hfill \textit{(0,15 đ)}
+\item Lấy (1) trừ (2): $p = 10 - 7 = 3 \implies e = p = 3$. \hfill \textit{(0,1 đ)}
+\item Từ (2) suy ra: $n = 7 - 3 = 4$.
+\item Kí hiệu nguyên tử của Y: $^{7}_{3}\ce{Y}$ (hoặc $^{7}_{3}\ce{Li}$). \hfill \textit{(0,1 đ)}
+\end{itemize}
+\textbf{b) (0,5 điểm)}
+\begin{itemize}[leftmargin=1.0cm]
+\item Ba nguyên tử: Y ($Z = 3, A = 7$), T ($Z = 3, A = 6$), V ($Z = 4, A = 7$). \hfill \textit{(0,15 đ)}
+\item Trong ba nguyên tử trên, hai nguyên tử \textbf{Y và T là đồng vị của cùng một nguyên tố hóa học} (Lithium). \hfill \textit{(0,2 đ)}
+\item Giải thích: Vì Y và T có cùng số proton ($Z = 3$) nhưng khác nhau về số neutron (Y có 4 neutron, T có 3 neutron) nên số khối khác nhau ($A_{\ce{Y}} = 7, A_{\ce{T}} = 6$). \hfill \textit{(0,15 đ)}
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{4pt}
+\noindent
+\textbf{Câu 2. (1,0 điểm)} Nguyên tử của nguyên tố X có 3 lớp electron và lớp thứ ba chứa 6 electron.\\
+a) Xác định số hiệu nguyên tử của X và viết cấu hình electron nguyên tử của X (theo lớp và phân lớp).\\
+b) Biểu diễn sự phân bố electron của X theo ô orbital và cho biết X có bao nhiêu electron độc thân. Nếu nguyên tử X nhận thêm electron để đạt cấu hình bền thì cấu hình electron của ion tạo thành giống cấu hình của nguyên tử khí hiếm nào?
+
+\begin{tcolorbox}[colback=white,colframe=solBlue,title=\textbf{Hướng dẫn giải chi tiết Câu 2 (1,0 điểm):}]
+\textbf{a) (0,5 điểm)}
+\begin{itemize}[leftmargin=1.0cm]
+\item Nguyên tử X có 3 lớp electron và lớp thứ ba có 6 electron:
+  \begin{itemize}
+    \item Lớp 1 ($n = 1$): 2 electron ($\ce{1s^2}$).
+    \item Lớp 2 ($n = 2$): 8 electron ($\ce{2s^2 2p^6}$).
+    \item Lớp 3 ($n = 3$): 6 electron ($\ce{3s^2 3p^4}$). \hfill \textit{(0,2 đ)}
+  \end{itemize}
+\item Cấu hình electron theo phân lớp: $\ce{1s^2 2s^2 2p^6 3s^2 3p^4}$ (hoặc $\ce{[Ne] 3s^2 3p^4}$). \hfill \textit{(0,15 đ)}
+\item Cấu hình electron theo lớp: (2, 8, 6). \hfill \textit{(0,1 đ)}
+\item Tổng số electron = $2 + 8 + 6 = 16 \implies$ Số hiệu nguyên tử $Z = 16$ (Sulfur, S). \hfill \textit{(0,05 đ)}
+\end{itemize}
+\textbf{b) (0,5 điểm)}
+\begin{itemize}[leftmargin=1.0cm]
+\item Biểu diễn phân bố electron lớp ngoài cùng ($\ce{3s^2 3p^4}$) theo ô orbital:
+\begin{center}
+\begin{tikzpicture}[line cap=round, line join=round]
+  \def\s{0.6}
+  % 3s
+  \draw[thick] (0,0) rectangle (\s,\s);
+  \node[below] at (0.5*\s, 0) {\small $3s$};
+  \draw[thick, ->] (0.35*\s, 0.1*\s) -- (0.35*\s, 0.9*\s);
+  \draw[thick, <-] (0.65*\s, 0.1*\s) -- (0.65*\s, 0.9*\s);
+  % 3p
+  \begin{scope}[xshift=1.2cm]
+    \draw[thick] (0,0) rectangle (3*\s,\s);
+    \draw[thick] (\s,0) -- (\s,\s);
+    \draw[thick] (2*\s,0) -- (2*\s,\s);
+    \node[below] at (1.5*\s, 0) {\small $3p$};
+    \draw[thick, ->] (0.35*\s, 0.1*\s) -- (0.35*\s, 0.9*\s);
+    \draw[thick, <-] (0.65*\s, 0.1*\s) -- (0.65*\s, 0.9*\s);
+    \draw[thick, ->] (1.5*\s, 0.1*\s) -- (1.5*\s, 0.9*\s);
+    \draw[thick, ->] (2.5*\s, 0.1*\s) -- (2.5*\s, 0.9*\s);
+  \end{scope}
+\end{tikzpicture}
+\end{center}
+\item Sơ đồ ô orbital cho thấy nguyên tử X có \textbf{2 electron độc thân}. \hfill \textit{(0,2 đ)}
+\item Nguyên tử X có xu hướng nhận thêm 2 electron để đạt cấu hình bền vững của khí hiếm:
+$$\ce{X + 2e -> X^2-} \quad (\text{hoặc } \ce{S + 2e -> S^2-})$$
+Cấu hình electron của ion $\ce{X^2-}$: $\ce{1s^2 2s^2 2p^6 3s^2 3p^6}$ (18 electron).
+\item Cấu hình này giống cấu hình electron của nguyên tử khí hiếm \textbf{Argon} ($_{18}\ce{Ar}$). \hfill \textit{(0,15 đ)}
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{4pt}
+\noindent
+\textbf{Câu 3. (1,0 điểm)} X và Y là hai nguyên tố thuộc cùng một chu kì và thuộc hai nhóm A liên tiếp trong bảng tuần hoàn, $Z_{\ce{X}} < Z_{\ce{Y}}$. Tổng số hiệu nguyên tử của X và Y bằng 25.\\
+a) Hãy xác định số hiệu nguyên tử của X và Y.\\
+b) Viết cấu hình electron của X, Y và xác định vị trí của mỗi nguyên tố trong bảng tuần hoàn.\\
+c) Dựa vào cấu hình electron lớp ngoài cùng, cho biết X, Y là kim loại hay phi kim và thuộc loại nguyên tố s, p, d hay f.
+
+\begin{tcolorbox}[colback=white,colframe=solBlue,title=\textbf{Hướng dẫn giải chi tiết Câu 3 (1,0 điểm):}]
+\textbf{a) (0,3 điểm)}
+\begin{itemize}[leftmargin=1.0cm]
+\item Vì X và Y thuộc cùng chu kì, ở 2 nhóm A liên tiếp và $Z_{\ce{X}} < Z_{\ce{Y}}$ nên:
+$$Z_{\ce{Y}} - Z_{\ce{X}} = 1 \iff Z_{\ce{Y}} = Z_{\ce{X}} + 1 \quad (1)$$
+\item Tổng số hiệu nguyên tử: $Z_{\ce{X}} + Z_{\ce{Y}} = 25 \quad (2)$
+\item Thay (1) vào (2): $Z_{\ce{X}} + (Z_{\ce{X}} + 1) = 25 \iff 2Z_{\ce{X}} = 24 \iff Z_{\ce{X}} = 12$.
+\item Suy ra: $Z_{\ce{Y}} = 12 + 1 = 13$.
+\item Vậy $Z_{\ce{X}} = 12$ (Magnesium, Mg) và $Z_{\ce{Y}} = 13$ (Aluminium, Al). \hfill \textit{(0,3 đ)}
+\end{itemize}
+\textbf{b) (0,4 điểm)}
+\begin{itemize}[leftmargin=1.0cm]
+\item Nguyên tố X ($Z = 12$):
+  \begin{itemize}
+    \item Cấu hình electron: $\ce{1s^2 2s^2 2p^6 3s^2}$ (hoặc $\ce{[Ne] 3s^2}$).
+    \item Vị trí: Ô số 12; Chu kì 3 (có 3 lớp e); Nhóm IIA (nguyên tố s, có 2e hóa trị lớp ngoài cùng). \hfill \textit{(0,2 đ)}
+  \end{itemize}
+\item Nguyên tố Y ($Z = 13$):
+  \begin{itemize}
+    \item Cấu hình electron: $\ce{1s^2 2s^2 2p^6 3s^2 3p^1}$ (hoặc $\ce{[Ne] 3s^2 3p^1}$).
+    \item Vị trí: Ô số 13; Chu kì 3 (có 3 lớp e); Nhóm IIIA (nguyên tố p, có 3e hóa trị lớp ngoài cùng). \hfill \textit{(0,2 đ)}
+  \end{itemize}
+\end{itemize}
+\textbf{c) (0,3 điểm)}
+\begin{itemize}[leftmargin=1.0cm]
+\item Nguyên tố X ($Z = 12$): Có 2 electron ở lớp ngoài cùng ($\ce{3s^2}$) $\implies$ X là kim loại. Electron cuối cùng điền vào phân lớp s $\implies$ X là nguyên tố s. \hfill \textit{(0,15 đ)}
+\item Nguyên tố Y ($Z = 13$): Có 3 electron ở lớp ngoài cùng ($\ce{3s^2 3p^1}$) $\implies$ Y là kim loại. Electron cuối cùng điền vào phân lớp p $\implies$ Y là nguyên tố p. \hfill \textit{(0,15 đ)}
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{6pt}
+\begin{center}
+\textbf{\large ---------- HẾT ----------}
+\end{center}
+
+\end{document}
