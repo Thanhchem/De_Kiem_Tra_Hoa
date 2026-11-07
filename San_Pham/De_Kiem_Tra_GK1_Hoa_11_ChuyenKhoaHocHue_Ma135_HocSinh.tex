@@ -1,0 +1,286 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{geometry}
+\geometry{top=1.5cm,bottom=1.2cm,left=1.4cm,right=1.4cm,headheight=28pt,headsep=12pt,footskip=18pt}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{multido}
+\usepackage{tcolorbox}
+\usepackage{colortbl}
+
+\definecolor{hfRed}{HTML}{D32F2F}
+\definecolor{hfGreen}{HTML}{8BC390}
+\definecolor{mainGreen}{HTML}{2E7D32}
+\definecolor{solBlue}{HTML}{1565C0}
+\definecolor{tableGreen}{HTML}{E8F5E9}
+
+\usepackage{ex_test}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.75pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0.75pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+
+\fancyhead[L]{\small\itshape\color{hfRed}Tài liệu lưu hành nội bộ}
+\fancyhead[R]{\small\color{hfRed}Thầy \textbf{TRẦN VĂN THẠNH} - 0777.470.803}
+
+\fancyfoot[L]{\footnotesize\itshape\color{hfRed}CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+\fancyfoot[R]{\small\textbf{\color{hfRed}Trang \thepage}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+
+\begin{document}
+
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{TRƯỜNG ĐẠI HỌC KHOA HỌC}\\
+\textbf{TRƯỜNG THPT CHUYÊN KHOA HỌC HUẾ}\\
+\textit{ĐỀ CHÍNH THỨC}\\
+\textit{(Đề thi có 03 trang)}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\raggedleft
+\textbf{\color{hfRed}ĐỀ KIỂM TRA GIỮA HỌC KỲ I - NĂM HỌC 2026 - 2027}\\
+\textbf{Môn: Hóa học -- Lớp 11 (CHUNG)}\\
+\textit{Thời gian làm bài: 45 phút (không kể thời gian giao đề)}\\
+\textbf{Mã đề: 135}
+\end{minipage}
+
+\vspace{4pt}
+\noindent
+\textit{Họ và tên học sinh:} \dotfill \textit{Lớp:} \dotfill \textit{Số báo danh:} \dotfill
+
+\vspace{3pt}
+\noindent
+\textit{\footnotesize Cho nguyên tử khối: $\ce{H}=1; \ce{Li}=7; \ce{Be}=9; \ce{N}=14; \ce{O}=16; \ce{Na}=23; \ce{Mg}=24; \ce{Al}=27; \ce{P}=31; \ce{S}=32; \ce{Cl}=35,5; \ce{K}=39; \ce{Ca}=40; \ce{Ba}=137$.}
+
+\vspace{3pt}
+\hrule color{hfGreen} height 0.5pt
+
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\Large A. TRẮC NGHIỆM (7 điểm)}}
+
+\vspace{3pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN I. (3 điểm) Câu trắc nghiệm nhiều phương án lựa chọn.}}\\
+\textit{\small Học sinh trả lời từ câu 1 đến câu 12. Mỗi câu hỏi học sinh chỉ chọn một phương án.}
+\vspace{2pt}
+
+\begin{ex}
+Có thể nhận biết muối ammonium bằng cách cho muối tác dụng với dung dịch kiềm thấy thoát ra một chất khí làm xanh quỳ tím ẩm. Chất khí đó là
+\choice
+{$\ce{NO2}$}
+{$\ce{NO}$}
+{\True $\ce{NH3}$}
+{$\ce{H2}$}
+\end{ex}
+\begin{ex}
+Trong các dung dịch có cùng nồng độ $0,10\text{ mol/L}$ dưới đây, dung dịch nào dẫn điện kém nhất?
+\choice
+{\True $\ce{HF}$}
+{$\ce{HI}$}
+{$\ce{HCl}$}
+{$\ce{HBr}$}
+\end{ex}
+\begin{ex}
+Acid trong dạ dày giúp kích hoạt enzyme pepsin, hỗ trợ tiêu hóa protein và bảo vệ cơ thể khỏi vi khuẩn có hại. Nếu trong dạ dày có $\text{pH} = 2$ thì nồng độ $\ce{H+}$ bằng bao nhiêu?
+\choice
+{$10\text{ M}$}
+{$10^2\text{ M}$}
+{\True $10^{-2}\text{ M}$}
+{$2\text{ M}$}
+\end{ex}
+\begin{ex}
+Nhận xét nào dưới đây về nitrogen \textbf{không đúng}?
+\choice
+{\True Khí nitrogen duy trì sự cháy}
+{$\ce{N2}$ phản ứng với $\ce{O2}$ ở nhiệt độ rất cao}
+{Khí nitrogen rất ít tan trong nước}
+{$\ce{N2}$ vừa có tính oxi hóa vừa có tính khử}
+\end{ex}
+\begin{ex}
+Phản ứng thuận nghịch là phản ứng
+\choice
+{có phương trình hoá học được biểu diễn bằng mũi tên một chiều}
+{chỉ xảy ra theo một chiều nhất định}
+{\True trong cùng điều kiện, phản ứng xảy ra theo hai chiều trái ngược nhau}
+{xảy ra giữa hai chất khí}
+\end{ex}
+\begin{ex}
+Các yếu tố ảnh hưởng đến cân bằng hoá học là :
+\choice
+{nồng độ, nhiệt độ và chất xúc tác}
+{nồng độ, áp suất và diện tích bề mặt}
+{\True nồng độ, nhiệt độ và áp suất}
+{áp suất, nhiệt độ và chất xúc tác}
+\end{ex}
+\begin{ex}
+Hành động nào của con người \textbf{không phải} nguyên nhân chính gây nên hiện tượng phú dưỡng?
+\choice
+{Sử dụng dư thừa lượng phân bón chứa ion $\ce{PO4^3-}$}
+{\True Quá trình đánh bắt cá bằng chích điện và thuốc nổ của con người}
+{Sử dụng dư thừa lượng phân bón chứa ion $\ce{NO2^-}, \ce{NO3^-}$}
+{Nước thải chăn nuôi, nước thải công nghiệp chứa nhiều các nguyên tố dinh dưỡng như N, P}
+\end{ex}
+\begin{ex}
+Trong phản ứng sau đây, những chất, ion nào đóng vai trò là acid theo thuyết Bronsted-Lowry?
+$$\ce{H2S(aq) + H2O <=> HS^-(aq) + H3O^+(aq)}$$
+\choice
+{$\ce{H2S}$ và $\ce{HS^-}$}
+{$\ce{H2O}$ và $\ce{H3O^+}$}
+{$\ce{H2S}$ và $\ce{H2O}$}
+{\True $\ce{H2S}$ và $\ce{H3O^+}$}
+\end{ex}
+\begin{ex}
+Nitrogen tương đối trơ về mặt hoá học ở nhiệt độ thường là do
+\choice
+{\True phân tử $\ce{N2}$ có liên kết ba với năng lượng liên kết lớn}
+{nitrogen có độ âm điện lớn}
+{phân tử $\ce{N2}$ có liên kết cộng hoá trị không phân cực}
+{phân tử $\ce{N2}$ có liên kết ion}
+\end{ex}
+\begin{ex}
+Khi tăng áp suất, những cân bằng hóa học nào dưới đây chuyển dịch theo chiều thuận?\\
+(1) $\ce{H2(g) + Cl2(g) <=> 2HCl(g)}$\\
+(2) $\ce{NH4Cl(s) <=> NH3(g) + HCl(g)}$\\
+(3) $\ce{2H2O2(aq) <=> 2H2O(l) + O2(g)}$\\
+(4) $\ce{3O2(g) <=> 2O3(g)}$
+\choice
+{(1) và (2)}
+{(1) và (4)}
+{(2) và (3)}
+{\True Chỉ có (4)}
+\end{ex}
+\begin{ex}
+Dãy chất nào sau đây đều là chất điện li yếu?
+\choice
+{$\ce{H2S}, \ce{H2SO3}, \ce{H2SO4}$}
+{$\ce{H2CO3}, \ce{H3PO4}, \ce{CH3COOH}, \ce{Ba(OH)2}$}
+{\True $\ce{H2S}, \ce{CH3COOH}, \ce{HClO}$}
+{$\ce{H2CO3}, \ce{H2SO3}, \ce{HClO}, \ce{Al2(SO4)3}$}
+\end{ex}
+\begin{ex}
+Dung dịch nào sau đây có $\text{pH} > 7$?
+\choice
+{\True $\ce{NaOH}$}
+{$\ce{H2SO4}$}
+{$\ce{NaCl}$}
+{$\ce{HNO3}$}
+\end{ex}
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\Large PHẦN II (2 điểm). Câu trắc nghiệm đúng sai.}}\\
+\textit{\small Học sinh trả lời từ câu 1 đến câu 2. Trong mỗi ý a), b), c), d) ở mỗi câu, học sinh chọn đúng hoặc sai.}
+\vspace{2pt}
+
+\begin{ex}
+Trong khí thải của quy trình sản xuất thuốc trừ sâu, phân bón hóa học có lẫn khí $\ce{NH3}$. Khí này rất độc đối với sức khoẻ của con người và gây ô nhiễm môi trường. Con người hít phải khí này với lượng lớn sẽ gây ngộ độc: ho, đau ngực (nặng: đau thắt ngực, khó thở, thở nhanh, thở khò khè; chảy nước mắt và bỏng mắt, mù mắt, đau họng nặng, đau miệng; mạch nhanh, yếu, sốc; lẫn lộn, đi lại khó khăn, chóng mặt, thiếu sự phối hợp, bồn chồn, ngẩn ngơ).
+\choiceTF
+{\True Để xử lí $\ce{NH3}$ lẫn trong khí thải, người ta có thể dẫn khí thải qua một bể lọc chứa dung dịch $\ce{HCl}$}
+{Tất cả các muối của $\ce{NH3}$ đều bền với nhiệt}
+{$\ce{NH3}$ có tính base mạnh và tính khử mạnh}
+{\True Đưa hai đũa thuỷ tinh có nhúng $\ce{NH3}$ đặc và $\ce{HCl}$ đặc lại gần thấy khói màu trắng xuất hiện}
+\end{ex}
+\begin{ex}
+Trong bình kín có hệ cân bằng hóa học sau:
+$$\ce{CO2(g) + H2(g) <=> CO(g) + H2O(g)};\quad \Delta_{\mathrm{r}}H^{\circ}_{298} > 0$$
+Cho các phát biểu về sự tác động đến hệ cân bằng dưới đây, hãy xét tính đúng sai của các phát biểu đó.
+\choiceTF
+{\True Tăng nhiệt độ của hệ thì cân bằng chuyển dịch theo chiều thuận}
+{Thêm chất xúc tác thì cân bằng chuyển dịch theo chiều thuận}
+{Giảm áp suất chung của hệ thì cân bằng chuyển dịch theo chiều nghịch}
+{Nếu nồng độ ban đầu $\ce{CO2}$ và $\ce{H2}$ đều là $0,03\text{ M}$; tại cân bằng $[\ce{CO}] = 0,018\text{ M}$ thì giá trị $K_c$ là $1,5$}
+\end{ex}
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\Large PHẦN III (2 điểm). Câu trắc nghiệm trả lời ngắn.}}\\
+\textit{\small Học sinh trả lời từ câu 1 đến câu 4.}
+\vspace{2pt}
+
+\begin{ex}
+Trong công nghiệp ammonia được tổng hợp từ nitrogen và hydrogen. Cho $14,874\text{ lít }\ce{N2}$ (đkc) tác dụng với lượng dư khí $\ce{H2}$. Biết hiệu suất của phản ứng là $30\%$, khối lượng $\ce{NH3}$ tạo thành là bao nhiêu gam? \textit{(Kết quả làm tròn đến hàng phần trăm)}
+
+\noindent\textit{Trả lời:} \dotfill
+\end{ex}
+\begin{ex}
+Cho các chất dưới đây: $\ce{HClO4}, \ce{HClO}, \ce{HF}, \ce{HNO3}, \ce{H2S}, \ce{H2SO3}, \ce{NaOH}, \ce{NaCl}, \ce{CuSO4}, \ce{CH3COOH}$. Số chất thuộc loại chất điện li mạnh là bao nhiêu?
+
+\noindent\textit{Trả lời:} \dotfill
+\end{ex}
+\begin{ex}
+Thực hiện thí nghiệm chuẩn độ dung dịch $\ce{HCl}$ chưa biết nồng độ bằng dung dịch chuẩn $\ce{NaOH}\ 0,5\text{M}$ và thuốc thử phenolphthalein. Cho $10,00\text{ mL}$ dung dịch $\ce{HCl}$ vào bình tam giác cùng với 1 -- 2 giọt thuốc thử. Thể tích dung dịch $\ce{NaOH}$ ở các lần chuẩn độ được ghi lại như sau:
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Lần 1} & \textbf{Lần 2} & \textbf{Lần 3} \\
+\hline
+$15,1\text{ mL}$ & $14,7\text{ mL}$ & $15,2\text{ mL}$ \\
+\hline
+\end{tabular}
+\end{center}
+Dung dịch $\ce{HCl}$ có nồng độ bằng bao nhiêu mol/L? \textit{(Kết quả làm tròn đến hàng phần trăm)}
+
+\noindent\textit{Trả lời:} \dotfill
+\end{ex}
+\begin{ex}
+Cho phản ứng: $\ce{CO(g) + H2O(g) <=> CO2(g) + H2(g)}\quad \Delta_{\mathrm{r}}H^{\circ}_{298} = -41\text{ kJ}$.\\
+Các phát biểu sau đây, có bao nhiêu phát biểu \textbf{đúng} về phản ứng trên?\\
+(1) Phản ứng theo chiều thuận là phản ứng thu nhiệt.\\
+(2) Tăng nhiệt độ cân bằng chuyển dịch theo chiều nghịch.\\
+(3) Thêm khí $\ce{H2}$ vào hệ cân bằng chuyển dịch theo chiều nghịch.\\
+(4) Tăng áp suất chung bằng cách nén cho thể tích của hệ giảm xuống cân bằng chuyển dịch theo chiều thuận.
+
+\noindent\textit{Trả lời:} \dotfill
+\end{ex}
+\vspace{6pt}
+\noindent
+{\color{mainGreen}\textbf{\Large B. TỰ LUẬN (3 điểm)}}
+\vspace{2pt}
+
+\noindent
+\textbf{Câu 1. (1,0 điểm)} Viết phương trình điện li của các chất sau trong nước: $\ce{KOH}$, $\ce{Al2(SO4)3}$, $\ce{CH3COOH}$, $\ce{(NH4)3PO4}$.
+
+\vspace{1pt}
+\noindent
+\multido{\n=1+1}{6}{\dotfill\\[4pt]}
+
+\vspace{4pt}
+\noindent
+\textbf{Câu 2. (1,0 điểm)} Trong công nghiệp, người ta sản xuất nitric acid ($\ce{HNO3}$) từ ammonia theo sơ đồ chuyển hoá sau:
+$$\ce{NH3 ->[+O2, t^\circ, xt] NO ->[+O2] NO2 ->[+O2 + H2O] HNO3}$$
+a) Viết các phương trình hoá học xảy ra.\\
+b) Để điều chế $200\,000\text{ tấn}$ nitric acid có nồng độ $60\%$ cần dùng bao nhiêu tấn ammonia? Biết rằng hiệu suất của quá trình sản xuất nitric acid theo sơ đồ trên là $96,2\%$.
+
+\vspace{1pt}
+\noindent
+\multido{\n=1+1}{8}{\dotfill\\[4pt]}
+
+\vspace{4pt}
+\noindent
+\textbf{Câu 3. (1,0 điểm)} Trộn $80\text{ mL}$ dung dịch $\ce{HCl}\ 0,5\text{M}$ với $120\text{ mL}$ dung dịch $\ce{NaOH}\ 0,6\text{M}$. Tính pH của dung dịch thu được. \textit{(Kết quả làm tròn đến hàng phần mười)}.
+
+\vspace{1pt}
+\noindent
+\multido{\n=1+1}{6}{\dotfill\\[4pt]}
+
+\vspace{6pt}
+\begin{center}
+\textbf{\large ---------- HẾT ----------}\\
+\textit{\small - Học sinh không được sử dụng tài liệu; Giám thị không giải thích gì thêm. -}
+\end{center}
+
+\end{document}
