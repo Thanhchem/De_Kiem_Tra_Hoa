@@ -61,6 +61,62 @@ TEX_STUDENT = r'''\documentclass[10.5pt,a4paper]{article}
 \noindent{\color{gray!50}\hrule height 0.8pt}
 \vspace{6pt}
 
+% --- BẢNG ĐÁP ÁN RÚT GỌN ---
+\begin{center}
+{\color{myRed}\large\bfseries BẢNG ĐÁP ÁN RÚT GỌN (DÀNH CHO GIÁO VIÊN -- MÃ ĐỀ 1202)}\par\vspace{4pt}
+\end{center}
+
+{\color{myGreen}\bfseries PHẦN I: TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN LỰA CHỌN (16 CÂU -- 4,0 ĐIỂM)}\par\vspace{2pt}
+\noindent\begin{tabularx}{\textwidth}{|c|*{8}{>{\centering\arraybackslash}X|}}
+\hline
+\rowcolor{green!10}\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} \\
+\hline
+\textbf{Đ/A} & \textbf{\color{myRed}B} & \textbf{\color{myRed}A} & \textbf{\color{myRed}A} & \textbf{\color{myRed}D} & \textbf{\color{myRed}B} & \textbf{\color{myRed}B} & \textbf{\color{myRed}A} & \textbf{\color{myRed}C} \\
+\hline
+\rowcolor{green!10}\textbf{Câu} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} & \textbf{13} & \textbf{14} & \textbf{15} & \textbf{16} \\
+\hline
+\textbf{Đ/A} & \textbf{\color{myRed}B} & \textbf{\color{myRed}C} & \textbf{\color{myRed}C} & \textbf{\color{myRed}B} & \textbf{\color{myRed}D} & \textbf{\color{myRed}D} & \textbf{\color{myRed}A} & \textbf{\color{myRed}D} \\
+\hline
+\end{tabularx}
+
+\vspace{4pt}
+{\color{myGreen}\bfseries PHẦN II: TRẮC NGHIỆM ĐÚNG -- SAI (2 CÂU -- 2,0 ĐIỂM)}\par\vspace{2pt}
+\noindent\begin{tabularx}{\textwidth}{|c|*{4}{>{\centering\arraybackslash}X|}}
+\hline
+\rowcolor{green!10}\textbf{Câu} & \textbf{Lệnh hỏi a} & \textbf{Lệnh hỏi b} & \textbf{Lệnh hỏi c} & \textbf{Lệnh hỏi d} \\
+\hline
+\textbf{Câu 1} & \textbf{\color{myRed}Đ} & \textbf{\color{myRed}S} & \textbf{\color{myRed}S} & \textbf{\color{myRed}Đ} \\
+\hline
+\textbf{Câu 2} & \textbf{\color{myRed}Đ} & \textbf{\color{myRed}Đ} & \textbf{\color{myRed}Đ} & \textbf{\color{myRed}S} \\
+\hline
+\end{tabularx}
+
+\vspace{4pt}
+{\color{myGreen}\bfseries PHẦN III: TRẮC NGHIỆM TRẢ LỜI NGẮN (4 CÂU -- 2,0 ĐIỂM)}\par\vspace{2pt}
+\noindent\begin{tabularx}{\textwidth}{|c|*{4}{>{\centering\arraybackslash}X|}}
+\hline
+\rowcolor{green!10}\textbf{Câu} & \textbf{Câu 1} & \textbf{Câu 2} & \textbf{Câu 3} & \textbf{Câu 4} \\
+\hline
+\textbf{Đáp án} & \textbf{\color{myRed}4} & \textbf{\color{myRed}2} & \textbf{\color{myRed}-3} & \textbf{\color{myRed}3} \\
+\hline
+\end{tabularx}
+
+\vspace{4pt}
+{\color{myGreen}\bfseries PHẦN IV: TỰ LUẬN TÓM TẮT ĐÁP SỐ (2 CÂU -- 2,0 ĐIỂM)}\par\vspace{2pt}
+\noindent\begin{tabularx}{\textwidth}{|c|X|}
+\hline
+\rowcolor{green!10}\textbf{Câu} & \textbf{Tóm tắt kết quả / Đáp số chính} \\
+\hline
+\textbf{Câu 1} & a) Chiều thuận: Giảm $, Tăng $, Tăng [$\ce{SO2}$, $\ce{O2}$] hoặc Giảm [$\ce{SO3}$].\par b) Hằng số cân bằng  = \dfrac{80}{3}V \approx 26,67 V$ (với  = 1\text{ bar}, 450^\circ\text{C} \implies K_C \approx 2565,3\text{ M}^{-1}$;  = 42,67\text{ bar}^{-1}$;  = 80\%$). \\
+\hline
+\textbf{Câu 2} & a) \ce{Fe + S ->[t^\circ] FeS} (\ce{Fe}: chất khử, \ce{S}: chất oxi hóa).\par b) \ce{Fe} phản ứng hết, \ce{S} dư. Khối lượng muối sulfide tạo thành: {\ce{FeS}} = 8,8\text{ gam}$. \\
+\hline
+\end{tabularx}
+\vspace{6pt}
+\noindent{\color{gray!50}\hrule height 0.8pt}
+\vspace{8pt}
+
+
 % =========================================================================
 % PHẦN I
 % =========================================================================
@@ -325,6 +381,7 @@ TEX_TEACHER = r'''\documentclass[10.5pt,a4paper]{article}
 \usepackage{tabularx}
 \usepackage{enumitem}
 \usepackage{tcolorbox}
+\usepackage{colortbl}
 \usepackage[version=4]{mhchem}
 
 \renewcommand{\baselinestretch}{1.12}
