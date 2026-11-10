@@ -1,0 +1,353 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{geometry}
+\geometry{top=1.5cm,bottom=1.2cm,left=1.4cm,right=1.4cm,headheight=28pt,headsep=12pt,footskip=18pt}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{multido}
+\usepackage{tcolorbox}
+\usepackage{colortbl}
+
+\definecolor{hfRed}{HTML}{D32F2F}
+\definecolor{hfGreen}{HTML}{8BC390}
+\definecolor{mainGreen}{HTML}{2E7D32}
+\definecolor{solBlue}{HTML}{1565C0}
+\definecolor{tableGreen}{HTML}{E8F5E9}
+
+\usepackage{ex_test}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.75pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0.75pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+
+\fancyhead[L]{\small\itshape\color{hfRed}Tài liệu lưu hành nội bộ}
+\fancyhead[R]{\small\color{hfRed}Thầy \textbf{TRẦN VĂN THẠNH} - 0777.470.803}
+
+\fancyfoot[L]{\footnotesize\itshape\color{hfRed}CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+\fancyfoot[R]{\small\textbf{\color{hfRed}Trang \thepage}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+
+\begin{document}
+
+\noindent
+\begin{tabularx}{\textwidth}{@{}X r@{}}
+\textbf{TRƯỜNG THPT NGUYỄN TRƯỜNG TỘ} & \textbf{ĐỀ KIỂM TRA GIỮA KỲ I} \\
+\textbf{TỔ HÓA - TIN} & \textbf{NĂM HỌC 2026 - 2027} \\
+\textbf{ĐỀ CHÍNH THỨC} & \textbf{Môn: Hóa học lớp 12} \\
+\textit{(Đề có 04 trang)} & \textbf{Thời gian làm bài: 45 phút} \\
+& \textbf{Mã đề: 103}
+\end{tabularx}
+
+\vspace{2pt}
+\noindent\textbf{Họ và tên:} \dotfill \textbf{Số báo danh:} \dots\dots\dots\dots
+
+\vspace{2pt}
+\noindent\textit{Cho biết nguyên tử khối của các nguyên tố: H = 1; C = 12; N = 14; O = 16; Na = 23; Br = 80; Cu = 64; Ag = 108.}
+\vspace{2pt}
+\hrule height 0.5pt
+\vspace{6pt}
+
+\noindent{\color{mainGreen}\textbf{\Large TRẮC NGHIỆM KHÁCH QUAN (7,0 ĐIỂM)}}
+\vspace{4pt}
+
+\noindent{\color{mainGreen}\textbf{\large PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn.}} \\
+\textit{Thí sinh trả lời từ câu 1 đến câu 16. Mỗi câu hỏi thí sinh chỉ chọn một phương án.}
+\vspace{4pt}
+\begin{ex}
+Dipeptide có công thức: \ce{H2NCH2CONHCH(CH3)COOH}. Tên viết tắt của X là
+\choice
+{Ala-Val.}
+{Gly-Ala.}
+{Ala-Gly.}
+{Gly-Val.}
+\loigiai{}
+\end{ex}
+\begin{ex}
+Chất nào sau đây là thành phần chủ yếu của xà phòng?
+\choice
+{\ce{CH3COONa}.}
+{\ce{C15H31COOK}.}
+{\ce{CH2=CHCOONa}.}
+{\ce{CH3(CH2)3COOK}.}
+\loigiai{}
+\end{ex}
+\begin{ex}
+Công thức cấu tạo của ethylamine là
+\choice
+{\ce{CH3NH2}.}
+{\ce{CH3NHCH3}.}
+{\ce{C2H5NH2}.}
+{\ce{(CH3)3N}.}
+\loigiai{}
+\end{ex}
+\begin{ex}
+Cơ thể người mã hoá được loại amino acid nào sau đây trong tổng hợp protein cho cơ thể?
+\choice
+{\ce{H2N-CH2-CH2-OH}.}
+{\ce{^+NH3-CH2-CH2-COO^-}.}
+{\ce{^+NH3-CH2-COO^-}.}
+{\ce{^+NH3-(CH2)3-COO^-}.}
+\loigiai{}
+\end{ex}
+\begin{ex}
+Carbohydrate nào dưới đây không có nhóm -OH hemiacetal hoặc nhóm -OH hemiketal?
+\choice
+{Maltose.}
+{Fructose.}
+{Glucose.}
+{Saccharose.}
+\loigiai{}
+\end{ex}
+\begin{ex}
+Giá trị pH mà khi đó amino acid có nồng độ ion lưỡng cực là cực đại được gọi là điểm đẳng điện (pI). Cho các giá trị pI: glycine ($6{,}0$); glutamic acid ($3{,}2$); lysine ($9{,}7$). Giá trị pH tối ưu nhất để tách ba chất trên ra khỏi dung dịch hỗn hợp là
+\choice
+{$\text{pH} = 3{,}2$.}
+{$\text{pH} = 9{,}7$.}
+{$\text{pH} = 6{,}0$.}
+{$\text{pH} = 14{,}0$.}
+\loigiai{}
+\end{ex}
+\begin{ex}
+Polymer thiên nhiên X được sinh ra trong quá trình quang hợp của cây xanh. Ở nhiệt độ thường, X tạo với dung dịch iodine hợp chất có màu xanh tím. Polymer X là
+\choice
+{tinh bột.}
+{cellulose.}
+{saccharose.}
+{glycogen.}
+\loigiai{}
+\end{ex}
+\begin{ex}
+Cho các chất: glycerol, glucose, maltose, acetic acid, fructose và cellulose. Có bao nhiêu chất thuộc loại carbohydrate?
+\choice
+{2.}
+{3.}
+{4.}
+{5.}
+\loigiai{}
+\end{ex}
+\begin{ex}
+Một ester có công thức phân tử là \ce{C3H6O2}, có tham gia phản ứng tráng bạc. Công thức cấu tạo thu gọn của ester đó là
+\choice
+{\ce{HCOOC3H7}.}
+{\ce{CH3COOCH3}.}
+{\ce{C2H5COOCH3}.}
+{\ce{HCOOC2H5}.}
+\loigiai{}
+\end{ex}
+\begin{ex}
+Để chứng minh trong phân tử của glucose có nhiều nhóm hydroxyl kề nhau, người ta cho dung dịch glucose phản ứng với
+\choice
+{\ce{Cu(OH)2} ở nhiệt độ thường.}
+{kim loại Na.}
+{\ce{AgNO3} trong dung dịch \ce{NH3}, đun nóng.}
+{\ce{Cu(OH)2} trong \ce{NaOH}, đun nóng.}
+\loigiai{}
+\end{ex}
+\begin{ex}
+Polysaccharide X là chất rắn, màu trắng, dạng sợi. Trong bông nõn có gần 98\% chất X. Thủy phân X, thu được monosaccharide Y. Phát biểu nào sau đây là đúng?
+\choice
+{X có tính chất của aldehyde.}
+{X dễ tan trong nước và có vị ngọt.}
+{Y là nguồn lương thực chính của con người và một số động vật.}
+{X được sử dụng làm vật liệu xây dựng, sản xuất giấy và sợi nhân tạo.}
+\loigiai{}
+\end{ex}
+\begin{ex}
+Glucose là một loại monosaccharide có nhiều trong quả nho chín. Công thức phân tử của glucose là
+\choice
+{\ce{C12H22O11}.}
+{\ce{C2H4O2}.}
+{\ce{C6H12O6}.}
+{\ce{(C6H10O5)_n}.}
+\loigiai{}
+\end{ex}
+\begin{ex}
+Methyl acetate có công thức cấu tạo là
+\choice
+{\ce{HCOOCH3}.}
+{\ce{HCOOC2H5}.}
+{\ce{CH3COOCH3}.}
+{\ce{CH3COOC2H5}.}
+\loigiai{}
+\end{ex}
+\begin{ex}
+Mùi tanh của cá là hỗn hợp các amine và một số tạp chất khác. Để khử mùi tanh của cá trước khi chế biến thực phẩm, nên áp dụng cách nào sau đây?
+\choice
+{Ngâm cá trong nước để amine tan vào nước.}
+{Rửa cá bằng giấm ăn.}
+{Rửa cá bằng dung dịch nước muối.}
+{Rửa cá bằng dung dịch soda.}
+\loigiai{}
+\end{ex}
+\begin{ex}
+Cho các chất sau: \ce{CH3COOCH3}, \ce{HCOOCH3}, \ce{HCOOC6H5}, \ce{CH3COOC2H5}. Chất có nhiệt độ sôi thấp nhất là
+\choice
+{\ce{HCOOC6H5}.}
+{\ce{CH3COOC2H5}.}
+{\ce{HCOOCH3}.}
+{\ce{CH3COOCH3}.}
+\loigiai{}
+\end{ex}
+\begin{ex}
+Khi nấu canh cua thấy các mảng ``gạch cua'' nổi lên là do
+\choice
+{sự đông tụ lipid.}
+{phản ứng thủy phân protein.}
+{sự đông tụ protein.}
+{phản ứng màu biuret.}
+\loigiai{}
+\end{ex}
+
+\vspace{6pt}
+\noindent{\color{mainGreen}\textbf{\large PHẦN II. Câu trắc nghiệm đúng sai.}} \\
+\textit{Thí sinh trả lời từ câu 1 đến câu 2. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}
+\vspace{4pt}
+
+\begin{ex}
+Ethyl acetate là một chất lỏng không màu, dễ bay hơi, ít độc hại, không hút ẩm, có mùi ngọt và dễ chịu, thường được sử dụng trong việc sản xuất chất tẩy sơn móng tay, mực in, keo dán, thuốc lá, nước hoa.
+\choiceTF
+\True Đun nóng hỗn hợp gồm với 9,0 gam acetic acid và 9,2 gam ethyl alcohol có \ce{H2SO4} đặc làm chất xúc tác, thu được 10,56 gam este. Biết hiệu suất phản ứng đạt 80\%.
+Ethyl acetate có khả năng tham gia phản ứng tráng bạc.
+\True Ethyl acetate thuộc loại ester no, mạch hở, đơn chức.
+Công thức cấu tạo của ethyl acetate là \ce{CH3CH2COOCH3}.
+\loigiai{}
+\end{ex}
+
+\begin{ex}
+Trong công nghiệp sản xuất bia có các bước chính sau:\\
+\centerline{Hạt đại mạch $\xrightarrow[\text{enzyme}]{\ce{H2O}, t^o}$ Dịch nấu (maltose, glucose) $\xrightarrow{\text{enzyme}}$ Ethanol}
+\choiceTF
+\True Để biết được thời điểm kết thúc quá trình thủy phân tinh bột ta có thể kiểm tra bằng thuốc thử là dung dịch \ce{I2} trong \ce{KI}.
+Maltose và glucose thuộc nhóm monosaccharide, khi lên men thu được ethanol.
+\True Thành phần trong hạt đại mạch bị thủy phân tạo ra maltose, glucose là tinh bột.
+Sản phẩm thủy phân của tinh bột (hạt đại mạch), ngoài maltose và glucose còn thu được sản phẩm phụ là fructose.
+\loigiai{}
+\end{ex}
+
+\vspace{6pt}
+\noindent{\color{mainGreen}\textbf{\large PHẦN III: Câu trắc nghiệm yêu cầu trả lời ngắn.}} \\
+\textit{Thí sinh trả lời từ câu 1 đến câu 4.}
+\vspace{4pt}
+
+\begin{ex}
+Cho các chất sau: ethyl acetate, tripalmitin, saccharose, ethylamine, Gly-Ala, fibroin, Ala-Ala-Val. Số chất tham gia phản ứng thủy phân trong môi trường kiềm là bao nhiêu?
+\shortans{5}
+\loigiai{
+\textbf{Trả lời: 5}\\
+Gồm 5 chất: ethyl acetate, tripalmitin, Gly-Ala, fibroin, Ala-Ala-Val.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu đồng phân cấu tạo amine bậc 1 ứng với công thức phân tử \ce{C4H11N}?
+\shortans{4}
+\loigiai{
+\textbf{Trả lời: 4}\\
+Gốc butyl \ce{C4H9-} có 4 đồng phân cấu tạo gắn nhóm \ce{-NH2}:
+\begin{enumerate}[noitemsep,topsep=1pt]
+\item \ce{CH3-CH2-CH2-CH2-NH2} (butan-1-amine)
+\item \ce{CH3-CH2-CH(NH2)-CH3} (butan-2-amine)
+\item \ce{(CH3)2CH-CH2-NH2} (2-methylpropan-1-amine)
+\item \ce{(CH3)3C-NH2} (2-methylpropan-2-amine)
+\end{enumerate}
+}
+\end{ex}
+
+\begin{ex}
+Để sản xuất ethanol, người ta dùng nguyên liệu là mùn cưa và vỏ bao từ gỗ chứa 50\% cellulose. Nếu muốn điều chế 1 tấn ethanol, hiệu suất cả quá trình là 80\% thì khối lượng nguyên liệu cần dùng là bao nhiêu kg? \textit{(Kết quả làm tròn đến hàng đơn vị)}.
+\shortans{4402}
+\loigiai{
+\textbf{Trả lời: 4402}\\
+$m_{\text{cellulose, lt}} = 1000 \times \frac{162}{92} = 1760{,}87\text{ kg}$.\\
+Với $H = 80\% \Rightarrow m_{\text{cellulose, tt}} = \frac{1760{,}87}{80\%} = 2201{,}087\text{ kg}$.\\
+Khối lượng nguyên liệu: $m = \frac{2201{,}087}{50\%} \approx \mathbf{4402\text{ kg}}$.
+}
+\end{ex}
+
+\begin{ex}
+Saccharose có công thức phân tử \ce{C12H22O11}, cấu tạo từ một đơn vị $\alpha$-glucose và một đơn vị $\beta$-fructose qua liên kết $\alpha$-1,2-glycoside. Tổng số nhóm -OH trong phân tử saccharose là bao nhiêu?
+\shortans{8}
+\loigiai{
+\textbf{Trả lời: 8}\\
+Gốc glucose còn 4 nhóm -OH, gốc fructose còn 4 nhóm -OH. Tổng cộng có: $4 + 4 = \mathbf{8}$ nhóm -OH.
+}
+\end{ex}
+
+\vspace{6pt}
+\noindent{\color{mainGreen}\textbf{\Large B. PHẦN TỰ LUẬN (3,0 ĐIỂM)}}
+\vspace{4pt}
+
+\noindent\textbf{Câu 1.} Một loại chất béo có chứa 80\% tristearin về khối lượng. Để sản xuất 9,2 triệu chai nước rửa tay (có chứa chất dưỡng ẩm glycerol) cần dùng tối thiểu x tấn loại chất béo trên cho phản ứng với dung dịch \ce{NaOH}, đun nóng. Biết rằng trong mỗi chai nước rửa tay có chứa 6 gam glycerol. Tính x?
+
+\vspace{6pt}
+\multido{\i=1+1}{6}{\noindent\dotfill\\[4pt]}
+
+\vspace{6pt}
+\noindent\textbf{Câu 2.} Glucose tồn tại đồng thời dạng mạch hở và mạch vòng ($\alpha$ và $\beta$). Glucose có tính chất của aldehyde và của polyalcohol. Cho các chất sau: \ce{Cu(OH)2}, nước bromine, dung dịch \ce{I2} trong \ce{KI}, thuốc thử Tollens và \ce{CH3OH}/\ce{HCl} khan. Ở điều kiện thích hợp, liệt kê các chất tác dụng được với glucose?
+
+\vspace{6pt}
+\multido{\i=1+1}{5}{\noindent\dotfill\\[4pt]}
+
+\vspace{6pt}
+\noindent\textbf{Câu 3.} Thực hiện phản ứng theo sơ đồ sau: $\text{Ala} + \ce{NaOH -> X + H2O}$.\\
+Viết công thức cấu tạo và tính phân tử khối của X?
+
+\vspace{6pt}
+\multido{\i=1+1}{4}{\noindent\dotfill\\[4pt]}
+
+\vspace{6pt}
+\noindent\textbf{Câu 4.} Cây xanh nhả khí oxygen sau khi hoàn tất quá trình quang hợp, con người và nhiều loài động vật khác cần khí oxygen để duy trì sự sống. Phản ứng quang hợp được mô tả theo phương trình sau:\\
+\centerline{$n\ce{CO2} + m\ce{H2O} \xrightarrow[\text{diệp lục}]{\text{ánh sáng}} \ce{C_n(H2O)_m} + n\ce{O2}$}\\
+Giả sử một cây xanh trưởng thành tiêu thụ lượng \ce{CO2} trung bình khoảng 22 kg/năm để thực hiện quá trình quang hợp và trung bình một năm mỗi người cần tối thiểu 1,2 tấn oxygen để duy trì sự sống. Để cung cấp đủ lượng oxygen cho 8 tỉ người trên Trái đất trong một năm thì cần bao nhiêu tỉ cây xanh như trên?
+
+\vspace{6pt}
+\multido{\i=1+1}{6}{\noindent\dotfill\\[4pt]}
+
+\vspace{6pt}
+\noindent\textbf{Câu 5.} Tiến hành thí nghiệm theo các bước sau:\\
+- Bước 1: Cho khoảng 1 mL nước bromine vào ống nghiệm.\\
+- Bước 2: Thêm từ từ vài giọt dung dịch aniline loãng vào ống nghiệm.\\
+Nêu hiện tượng và viết phương trình phản ứng?
+
+\vspace{6pt}
+\multido{\i=1+1}{5}{\noindent\dotfill\\[4pt]}
+
+\vspace{6pt}
+\noindent\textbf{Câu 6.} Tiến hành thí nghiệm với các chất X, Y, Z là một trong các chất sau: hồ tinh bột, albumin, triolein, vinyl acetate. Kết quả được ghi ở bảng sau:
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|p{8.5cm}|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Mẫu thử} & \textbf{Thí nghiệm} & \textbf{Hiện tượng} \\
+\hline
+\textbf{X} & Đun nóng với dung dịch \ce{NaOH} (loãng, dư), để nguội. Thêm tiếp vài giọt dung dịch \ce{CuSO4} & Tạo dung dịch màu xanh lam \\
+\hline
+\textbf{Y} & Đun nóng với dung dịch \ce{NaOH} loãng (vừa đủ). Thêm tiếp dung dịch \ce{AgNO3} trong \ce{NH3}, đun nóng & Tạo kết tủa Ag \\
+\hline
+\textbf{Z} & Tác dụng với dung dịch \ce{I2} loãng & Có màu xanh tím \\
+\hline
+\end{tabular}
+\end{center}
+Tìm các chất X, Y, Z.
+
+\vspace{6pt}
+\multido{\i=1+1}{5}{\noindent\dotfill\\[4pt]}
+
+\begin{center}
+\textbf{--- HẾT ---}
+\end{center}
+\end{document}
