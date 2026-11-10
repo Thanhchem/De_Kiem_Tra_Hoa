@@ -1,0 +1,509 @@
+# -*- coding: utf-8 -*-
+"""
+Script tạo file LaTeX và biên dịch PDF cho Đề Kiểm Tra Giữa Kỳ I Hóa Học 12 - THPT Lương Vinh - Mã Đề 1204
+Chuẩn FORM ĐỀ KIỂM TRA (Thầy TRẦN VĂN THẠNH)
+Sinh cả 2 phiên bản:
+1. Bản Học sinh: De_Kiem_Tra_GK1_Hoa_12_LuongVinh_Ma1204_HocSinh.pdf
+2. Bản Giáo viên: De_Kiem_Tra_GK1_Hoa_12_LuongVinh_Ma1204_GiaoVien.pdf
+"""
+
+import os
+import sys
+import subprocess
+import glob
+
+if sys.stdout.encoding.lower() != 'utf-8':
+    try:
+        sys.stdout.reconfigure(encoding='utf-8')
+    except Exception:
+        pass
+
+SAN_PHAM_DIR = r"C:\Antigravity_Thanh\San_Pham"
+
+
+def build_latex_content(is_teacher=False):
+    tex = []
+    tex.append(r"""\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{geometry}
+\geometry{top=1.5cm,bottom=1.2cm,left=1.4cm,right=1.4cm,headheight=28pt,headsep=12pt,footskip=18pt}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{multido}
+\usepackage{tcolorbox}
+\usepackage{colortbl}
+
+\definecolor{hfRed}{HTML}{D32F2F}
+\definecolor{hfGreen}{HTML}{8BC390}
+\definecolor{mainGreen}{HTML}{2E7D32}
+\definecolor{solBlue}{HTML}{1565C0}
+\definecolor{tableGreen}{HTML}{E8F5E9}
+
+\usepackage{ex_test}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.75pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0.75pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+
+\fancyhead[L]{\small\itshape\color{hfRed}Tài liệu lưu hành nội bộ}
+\fancyhead[R]{\small\color{hfRed}Thầy \textbf{TRẦN VĂN THẠNH} - 0777.470.803}
+
+\fancyfoot[L]{\footnotesize\itshape\color{hfRed}CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+\fancyfoot[R]{\small\textbf{\color{hfRed}Trang \thepage}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+
+\begin{document}
+""")
+
+    # Tiêu đề
+    tex.append(r"""
+\noindent
+\begin{tabularx}{\textwidth}{@{}X r@{}}
+\textbf{TRƯỜNG THPT LƯƠNG VINH} & \textbf{ĐỀ KIỂM TRA GIỮA HỌC KỲ I} \\
+\textbf{ĐỀ CHÍNH THỨC} & \textbf{MÔN: HOÁ HỌC 12} \\
+\textit{(Đề có 04 trang)} & \textbf{Thời gian làm bài: 45 PHÚT} \\
+& \textbf{Mã đề 1204}
+\end{tabularx}
+""")
+
+    if is_teacher:
+        tex.append(r"""
+\begin{center}
+{\color{hfRed}\textbf{\large (BẢN GIÁO VIÊN -- CÓ LỜI GIẢI CHI TIẾT)}}
+\end{center}
+""")
+
+    tex.append(r"""
+\vspace{2pt}
+\noindent\textbf{Họ và tên:} \dotfill \textbf{Lớp:} \dots\dots\dots\dots
+
+\vspace{2pt}
+\noindent\textit{* Cho biết nguyên tử khối của các nguyên tố: H = 1; C = 12; N = 14; O = 16.}
+\vspace{2pt}
+\hrule height 0.5pt
+\vspace{6pt}
+""")
+
+    if is_teacher:
+        tex.append(r"""
+\begin{center}
+{\color{hfRed}\textbf{\large BẢNG ĐÁP ÁN RÚT GỌN (DÀNH CHO GIÁO VIÊN - MÃ ĐỀ 1204)}}
+\end{center}
+
+\noindent{\color{mainGreen}\textbf{1. Phần I: Trắc nghiệm nhiều lựa chọn (12 câu)}}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|*{12}{>{\centering\arraybackslash}m{0.95cm}|}}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}D} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{3pt}
+\noindent{\color{mainGreen}\textbf{2. Phần II: Trắc nghiệm Đúng / Sai}}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Lệnh hỏi} & \textbf{Ý a)} & \textbf{Ý b)} & \textbf{Ý c)} & \textbf{Ý d)} \\
+\hline
+\textbf{Câu 1} & Đúng / Sai & \textbf{\color{hfRed}Đ} & \textbf{\color{hfRed}Đ} & \textbf{\color{hfRed}Đ} & \textbf{\color{hfRed}Đ} \\
+\hline
+\textbf{Câu 2} & Đúng / Sai & \textbf{\color{hfRed}Đ} & \textbf{S} & \textbf{\color{hfRed}Đ} & \textbf{S} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{3pt}
+\noindent{\color{mainGreen}\textbf{3. Phần III: Trắc nghiệm Trả lời ngắn}}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Câu 1} & \textbf{Câu 2} & \textbf{Câu 3} & \textbf{Câu 4} \\
+\hline
+\textbf{Đáp án} & \textbf{\color{hfRed}25} & \textbf{\color{hfRed}4} & \textbf{\color{hfRed}2} & \textbf{\color{hfRed}200} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+\hrule height 0.5pt
+\vspace{6pt}
+""")
+
+    # PHẦN I
+    tex.append(r"""
+\noindent{\color{mainGreen}\textbf{\large PHẦN I. Câu hỏi trắc nghiệm nhiều phương án lựa chọn.}} \\
+\textit{Thí sinh trả lời từ câu 1 đến câu 12. Mỗi câu hỏi thí sinh chỉ chọn một phương án.}
+\vspace{4pt}
+""")
+
+    p1_items = [
+        ("Glucose và fructose đều",
+         [r"có nhóm \ce{-CH=O} trong phân tử.", "thuộc loại disaccharide.", "có phản ứng tráng bạc.", r"có công thức phân tử \ce{C6H10O5}."],
+         2,
+         "Cả glucose và fructose đều tham gia phản ứng tráng bạc (trong môi trường kiềm ammonia, fructose đồng hóa chuyển thành glucose)."),
+
+        ("Hợp chất \ce{C2H5NHC2H5} có tên là",
+         ["diethylamine.", "dimethylamine.", "ethylmethylamine.", "propylamine."],
+         0,
+         r"Hợp chất gồm 2 gốc ethyl gắn vào nguyên tử N: diethylamine."),
+
+        ("Tinh bột thuộc loại polysaccharide, có nhiều trong các loại ngũ cốc như hạt lúa, hạt ngô, củ khoai, củ sắn, .... Công thức của tinh bột là",
+         [r"\ce{C12H22O11}.", r"\ce{C2H4O2}.", r"\ce{C6H12O6}.", r"\ce{(C6H10O5)_n}."],
+         3,
+         r"Công thức tinh bột là \ce{(C6H10O5)_n}."),
+
+        (r"Ester \ce{HCOOCH3} phản ứng với dung dịch \ce{NaOH} (đun nóng), sinh ra các sản phẩm hữu cơ là",
+         [r"\ce{HCOOH} và \ce{CH3ONa}.", r"\ce{CH3ONa} và \ce{HCOONa}.", r"\ce{HCOONa} và \ce{CH3OH}.", r"\ce{CH3COOH} và \ce{CH3OH}."],
+         2,
+         r"$\ce{HCOOCH3 + NaOH -> HCOONa + CH3OH}$."),
+
+        (r"Cho các chất: \ce{H2NCH2COOH} (1); \ce{C2H5COOH} (2); \ce{C2H5NH2} (3); \ce{H2NCH2CH2CH(NH2)COOH} (4); \ce{C6H5NH2} (5). Những chất vừa phản ứng được với acid vừa phản ứng được với base là",
+         ["(1), (2).", "(2), (3).", "(4), (5).", "(1), (4)."],
+         3,
+         "Các amino acid (1) và (4) mang tính chất lưỡng tính do chứa đồng thời nhóm amino và carboxyl."),
+
+        ("Hợp chất nào sau đây được sử dụng làm chất giặt rửa tổng hợp?",
+         [r"\ce{CH3[CH2]12COONa}.", r"\ce{CH3[CH2]11OSO3Na}.", r"\ce{CH3COONa}.", r"\ce{CH3[CH2]12COOCH3}."],
+         1,
+         r"\ce{CH3[CH2]11OSO3Na} là muối alkyl sulfate mạch dài (sodium lauryl sulfate), được dùng làm chất giặt rửa tổng hợp."),
+
+        ("Số nguyên tử hydrogen trong phân tử methyl formate là",
+         ["2.", "6.", "4.", "8."],
+         2,
+         r"Methyl formate là \ce{HCOOCH3} (\ce{C2H4O2}) chứa đúng 4 nguyên tử hydrogen."),
+
+        ("Phần trăm khối lượng nitrogen trong phân tử aniline bằng",
+         ["15,73\%.", "15,05\%.", "18,67\%.", "12,96\%."],
+         1,
+         r"Aniline là \ce{C6H7N} ($M = 93\text{ g/mol}$): $\%N = \frac{14}{93} \times 100\% = 15{,}05\%$."),
+
+        (r"Dung dịch chất nào sau đây hòa tan \ce{Cu(OH)2}, thu được dung dịch có màu xanh lam?",
+         ["Propyl alcohol.", "Propan-1,3-diol.", "Albumin.", "Fructose."],
+         3,
+         r"Fructose có nhiều nhóm -OH kề nhau hòa tan \ce{Cu(OH)2} ở nhiệt độ thường tạo phức màu xanh lam."),
+
+        ("Một phân tử saccharose có",
+         [r"một đơn vị $\beta$-glucose và một đơn vị $\alpha$-fructose.",
+          r"hai đơn vị $\alpha$-glucose.",
+          r"một đơn vị $\alpha$-glucose và một đơn vị $\beta$-fructose.",
+          r"một đơn vị $\beta$-glucose và một đơn vị $\beta$-fructose."],
+         2,
+         r"Saccharose gồm một gốc $\alpha$-glucose và một gốc $\beta$-fructose qua cầu nối $\alpha$-1,2-glycoside."),
+
+        ("Phát biểu nào sau đây đúng?",
+         [r"Hai đơn vị glucose trong maltose liên kết với nhau bằng liên kết $\alpha-1,2-$glycoside.",
+          "Saccharose và maltose có cùng công thức phân tử.",
+          r"Một phân tử saccharose gồm hai đơn vị $\alpha-$glucose.",
+          "Maltose không có nhóm -OH hemiacetal."],
+         1,
+         r"Cả saccharose và maltose đều là disaccharide có cùng công thức phân tử \ce{C12H22O11}."),
+
+        (r"Phát biểu nào sau đây là \textbf{sai}?",
+         ["Dung dịch lysine làm xanh quỳ tím.",
+          "Aniline tác dụng với nước bromine tạo thành kết tủa trắng.",
+          "Dung dịch glycine không làm đổi màu quỳ tím.",
+          r"Cho \ce{Cu(OH)2} vào dung dịch lòng trắng trứng thấy xuất hiện màu vàng."],
+         3,
+         r"Cho \ce{Cu(OH)2} vào lòng trắng trứng (protein) xuất hiện màu tím đặc trưng của phản ứng biuret, không phải màu vàng.")
+    ]
+
+    for idx, (q_text, opts, correct_idx, sol) in enumerate(p1_items, 1):
+        tex.append(f"\\begin{{ex}}\n{q_text}\n\\choice\n")
+        opts_formatted = []
+        for o_idx, opt in enumerate(opts):
+            if is_teacher and o_idx == correct_idx:
+                opts_formatted.append(f"\\textbf{{\\color{{hfRed}}{opt}}}")
+            else:
+                opts_formatted.append(opt)
+        tex.append(f"{{{opts_formatted[0]}}}\n{{{opts_formatted[1]}}}\n{{{opts_formatted[2]}}}\n{{{opts_formatted[3]}}}\n")
+        if is_teacher:
+            labels = ["A", "B", "C", "D"]
+            tex.append(f"\\loigiai{{\\textbf{{Chọn {labels[correct_idx]}.}} {sol}}}\n")
+        else:
+            tex.append("\\loigiai{}\n")
+        tex.append("\\end{ex}\n")
+
+    # PHẦN II
+    tex.append(r"""
+\vspace{6pt}
+\noindent{\color{mainGreen}\textbf{\large PHẦN II. Câu trắc nghiệm đúng sai.}} \\
+\textit{Thí sinh trả lời từ câu 1 đến câu 2. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}
+\vspace{4pt}
+""")
+
+    # CÂU 1 PHẦN II
+    tex.append(r"""
+\begin{ex}
+Cho các carbohydrate: glucose, fructose, saccharose, maltose.
+\choiceTF
+""")
+    tf1 = [
+        ("Cả 4 chất ở điều kiện thường đều là chất rắn, vị ngọt, tan tốt trong nước.", True),
+        ("Có 2 chất có nhóm -OH hemiacetal.", True),
+        ("Có 2 cặp chất là đồng phân của nhau.", True),
+        ("Có 3 chất vừa có cấu tạo dạng mạch hở, vừa có cấu tạo dạng mạch vòng.", True)
+    ]
+    for stmt, val in tf1:
+        if val:
+            tex.append(f"\\True {stmt}\n")
+        else:
+            tex.append(f"{stmt}\n")
+    if is_teacher:
+        tex.append(r"""\loigiai{
+\textbf{Ý a) ĐÚNG.} 4 chất monosaccharide và disaccharide này đều kết tinh màu trắng, vị ngọt, tan tốt trong nước.\\
+\textbf{Ý b) ĐÚNG.} Glucose (ở C1) và maltose (ở C1 của gốc glucose thứ 2) chứa nhóm -OH hemiacetal. (Fructose chứa nhóm -OH hemiketal, saccharose không có).\\
+\textbf{Ý c) ĐÚNG.} Cặp 1: glucose và fructose (\ce{C6H12O6}); Cặp 2: saccharose và maltose (\ce{C12H22O11}).\\
+\textbf{Ý d) ĐÚNG.} Glucose, fructose và maltose đều có thể mở vòng tồn tại ở dạng mạch hở cân bằng với dạng mạch vòng. Riêng saccharose chỉ có dạng mạch vòng.
+}
+""")
+    else:
+        tex.append("\\loigiai{}\n")
+    tex.append("\\end{ex}\n")
+
+    # CÂU 2 PHẦN II
+    tex.append(r"""
+\begin{ex}
+Cho công thức cấu tạo của peptide Y như sau:\\
+\centerline{\ce{HOOC-CH2-CH2-CH(NH2)-CO-NH-CH2-CO-NH-CH(CH3)-COOH}}
+\choiceTF
+""")
+    tf2 = [
+        ("Tên gọi của Y là Glu-Gly-Ala.", True),
+        (r"1 mol Y phản ứng tối đa được với 3 mol \ce{NaOH}.", False),
+        ("Thủy phân hoàn toàn Y thu được glutamic acid, glycine và alanine.", True),
+        ("Phần trăm khối lượng của nitrogen (N) trong Y là 15,38\%.", False)
+    ]
+    for stmt, val in tf2:
+        if val:
+            tex.append(f"\\True {stmt}\n")
+        else:
+            tex.append(f"{stmt}\n")
+    if is_teacher:
+        tex.append(r"""\loigiai{
+\textbf{Ý a) ĐÚNG.} Đầu N là Glu, giữa là Gly, đầu C là Ala: Glu-Gly-Ala.\\
+\textbf{Ý b) SAI.} Y có 2 liên kết peptide và 2 nhóm -COOH tự do $\Rightarrow 1\text{ mol Y}$ phản ứng tối đa với $2 + 2 = 4\text{ mol NaOH}$.\\
+\textbf{Ý c) ĐÚNG.} Thủy phân hoàn toàn tạo 3 amino acid Glu, Gly, Ala.\\
+\textbf{Ý d) SAI.} $M_Y = 147 + 75 + 89 - 36 = 275\text{ g/mol} \Rightarrow \%N = \frac{3 \times 14}{275} \times 100\% = 15{,}27\% \neq 15{,}38\%$.
+}
+""")
+    else:
+        tex.append("\\loigiai{}\n")
+    tex.append("\\end{ex}\n")
+
+    # PHẦN III
+    tex.append(r"""
+\vspace{6pt}
+\noindent{\color{mainGreen}\textbf{\large PHẦN III. Câu trắc nghiệm yêu cầu trả lời ngắn.}} \\
+\textit{Thí sinh trả lời từ câu 1 đến câu 4.}
+\vspace{4pt}
+""")
+
+    # CÂU 1 PHẦN III
+    tex.append(r"""
+\begin{ex}
+Tiến hành thí nghiệm sau:\\
+- Bước 1: Cho vào ống nghiệm 2 mL nước cất.\\
+- Bước 2: Nhỏ tiếp vài giọt aniline vào ống nghiệm, sau đó nhúng giấy quỳ tím vào dung dịch trong ống nghiệm.\\
+- Bước 3: Nhỏ tiếp 1 mL dung dịch \ce{HCl} đặc vào ống nghiệm.\\
+Cho các phát biểu sau:\\
+(1) Sau bước 2, chất lỏng bị phân thành 2 lớp, lớp dưới là aniline.\\
+(2) Sau bước 2, giấy quỳ tím chuyển thành màu xanh.\\
+(3) Sau bước 3, dung dịch thu được trong suốt.\\
+(4) Sau bước 3, trong dung dịch có chứa muối phenylammonium chloride tan tốt trong nước.\\
+(5) Ở bước 3, nếu thay \ce{HCl} bằng \ce{Br2} thì sẽ thấy xuất hiện kết tủa màu vàng.\\
+Liệt kê các phát biểu \textbf{sai} theo thứ tự tăng dần (ví dụ 12, 13, ...).
+\shortans{25}
+\loigiai{
+\textbf{Trả lời: 25}\\
+- (2) Sai: Aniline có tính base rất yếu không đổi màu quỳ tím.\\
+- (5) Sai: Tác dụng với bromine tạo kết tủa màu trắng, không phải màu vàng.\\
+$\Rightarrow$ Phát biểu sai là (2) và (5) $\rightarrow$ 25.
+}
+\end{ex}
+""")
+
+    # CÂU 2 PHẦN III
+    tex.append(r"""
+\begin{ex}
+Cho các chất: methylamine, glycine, aniline, acetic acid, lysine, valine. Có bao nhiêu chất phản ứng với dung dịch \ce{NaOH} tạo muối?
+\shortans{4}
+\loigiai{
+\textbf{Trả lời: 4}\\
+Gồm 4 chất: glycine, acetic acid, lysine, valine (đều chứa nhóm carboxyl -COOH).
+}
+\end{ex}
+""")
+
+    # CÂU 3 PHẦN III
+    tex.append(r"""
+\begin{ex}
+Cho các chất: \ce{CH3[CH2]14COONa}, \ce{CH3[CH2]10CH2OSO3Na}, \ce{C2H5OSO3Na}, \ce{CH3[CH2]16COOK}, \ce{CH3[CH2]11C6H4SO3Na}. Có bao nhiêu chất là chất giặt rửa tổng hợp?
+\shortans{2}
+\loigiai{
+\textbf{Trả lời: 2}\\
+Gồm 2 chất: \ce{CH3[CH2]10CH2OSO3Na} (muối alkyl sulfate) và \ce{CH3[CH2]11C6H4SO3Na} (muối alkylbenzene sulfonate).
+}
+\end{ex}
+""")
+
+    # CÂU 4 PHẦN III
+    tex.append(r"""
+\begin{ex}
+Từ m kg mùn cưa chứa 60\% cellulose (còn lại là tạp chất trơ) sản xuất được 100 kg glucose với hiệu suất toàn bộ quá trình là 75\%. Giá trị của m là bao nhiêu?
+\shortans{200}
+\loigiai{
+\textbf{Trả lời: 200}\\
+$m_{\text{cellulose, lt}} = 100 \times \frac{162}{180} = 90\text{ kg}$.\\
+Với $H = 75\% \Rightarrow m_{\text{cellulose, tt}} = \frac{90}{75\%} = 120\text{ kg}$.\\
+Khối lượng mùn cưa: $m = \frac{120}{60\%} = \mathbf{200\text{ kg}}$.
+}
+\end{ex}
+""")
+
+    # PHẦN IV
+    tex.append(r"""
+\vspace{6pt}
+\noindent{\color{mainGreen}\textbf{\Large PHẦN IV. TỰ LUẬN}}
+\vspace{4pt}
+
+\noindent\textbf{Câu 1.} Hoàn thành dãy chuyển hóa sau (ghi rõ điều kiện nếu có):\\
+\centerline{Tinh bột $\rightarrow$ Glucose $\rightarrow$ Ethanol $\rightarrow$ Acetic acid $\rightarrow$ Methyl acetate}
+""")
+    if is_teacher:
+        tex.append(r"""
+\begin{tcolorbox}[colback=white,colframe=solBlue,arc=1mm,boxrule=0.5pt,top=2mm,bottom=2mm,left=3mm,right=3mm]
+{\color{solBlue}\textbf{► Lời giải chi tiết:}}\\
+1. $\ce{(C6H10O5)_n + nH2O ->[t^o, H^+] nC6H12O6}$\\
+2. $\ce{C6H12O6 ->[men rượu][30-35^\circ C] 2C2H5OH + 2CO2\uparrow}$\\
+3. $\ce{C2H5OH + O2 ->[men giấm][25-30^\circ C] CH3COOH + H2O}$\\
+4. $\ce{CH3COOH + CH3OH <=>[H2SO4\text{ đ}, t^o] CH3COOCH3 + H2O}$
+\end{tcolorbox}
+""")
+    else:
+        tex.append(r"""
+\vspace{6pt}
+\multido{\i=1+1}{5}{\noindent\dotfill\\[4pt]}
+""")
+
+    tex.append(r"""
+\vspace{6pt}
+\noindent\textbf{Câu 2.} Phản ứng tổng hợp glucose trong cây xanh cần được cung cấp năng lượng từ ánh sáng mặt trời:\\
+\centerline{$6\ce{CO2} + 6\ce{H2O} + 673\text{ kcal} \xrightarrow[\text{diệp lục}]{\text{as}} \ce{C6H12O6} + 6\ce{O2}$}\\
+Cứ trong một phút, mỗi $\text{cm}^2$ lá xanh nhận được $0{,}5\text{ cal}$ năng lượng mặt trời, nhưng chỉ có $10\%$ được sử dụng vào phản ứng tổng hợp glucose. Thời gian để một cây có 1000 lá xanh (diện tích mỗi lá $10\text{ cm}^2$) sản sinh được 18 gam glucose là bao lâu?
+""")
+    if is_teacher:
+        tex.append(r"""
+\begin{tcolorbox}[colback=white,colframe=solBlue,arc=1mm,boxrule=0.5pt,top=2mm,bottom=2mm,left=3mm,right=3mm]
+{\color{solBlue}\textbf{► Lời giải chi tiết:}}\\
+- $n_{\text{glucose}} = \frac{18}{180} = 0{,}1\text{ mol}$.\\
+- Năng lượng cần dùng: $E_{\text{cần}} = 0{,}1 \times 673\,000\text{ cal} = 67\,300\text{ cal}$.\\
+- Diện tích 1000 lá: $S = 1000 \times 10 = 10\,000\text{ cm}^2$.\\
+- Năng lượng hữu ích hấp thụ trong 1 phút: $E_{\text{1 phút}} = 10\,000 \times 0{,}5 \times 10\% = 500\text{ cal/phút}$.\\
+- Thời gian cần thiết: $t = \frac{67\,300}{500} = \mathbf{134{,}6\text{ phút}}$ (hoặc 2 giờ 14 phút 36 giây).
+\end{tcolorbox}
+""")
+    else:
+        tex.append(r"""
+\vspace{6pt}
+\multido{\i=1+1}{6}{\noindent\dotfill\\[4pt]}
+""")
+
+    tex.append(r"""
+\vspace{6pt}
+\noindent\textbf{Câu 3.} Cho X là hexapeptide Ala-Gly-Ala-Val-Gly-Val và Y là tetrapeptide Gly-Ala-Gly-Glu. Thủy phân hoàn toàn m gam hỗn hợp gồm X và Y thu được 4 amino acid, trong đó có 30 gam glycine và 28,48 gam alanine. Giá trị của m là bao nhiêu?
+""")
+    if is_teacher:
+        tex.append(r"""
+\begin{tcolorbox}[colback=white,colframe=solBlue,arc=1mm,boxrule=0.5pt,top=2mm,bottom=2mm,left=3mm,right=3mm]
+{\color{solBlue}\textbf{► Lời giải chi tiết:}}\\
+- $n_{\text{Gly}} = \frac{30}{75} = 0{,}4\text{ mol}; \quad n_{\text{Ala}} = \frac{28{,}48}{89} = 0{,}32\text{ mol}$.\\
+- X: $\text{Ala}_2\text{Gly}_2\text{Val}_2 \Rightarrow M_X = 2 \times 89 + 2 \times 75 + 2 \times 117 - 5 \times 18 = 472\text{ g/mol}$.\\
+- Y: $\text{Gly}_2\text{AlaGlu} \Rightarrow M_Y = 2 \times 75 + 89 + 147 - 3 \times 18 = 332\text{ g/mol}$.\\
+- Gọi $n_X = x; n_Y = y$:
+  $$\begin{cases} n_{\text{Gly}} = 2x + 2y = 0{,}4 \Rightarrow x + y = 0{,}2 \\ n_{\text{Ala}} = 2x + y = 0{,}32 \end{cases} \Rightarrow \begin{cases} x = 0{,}12\text{ mol} \\ y = 0{,}08\text{ mol} \end{cases}$$
+- Khối lượng $m = 0{,}12 \times 472 + 0{,}08 \times 332 = 56{,}64 + 26{,}56 = \mathbf{83{,}2\text{ gam}}$.
+\end{tcolorbox}
+""")
+    else:
+        tex.append(r"""
+\vspace{6pt}
+\multido{\i=1+1}{7}{\noindent\dotfill\\[4pt]}
+""")
+
+    tex.append(r"""
+\begin{center}
+\textbf{--- HẾT ---}
+\end{center}
+\end{document}
+""")
+
+    return "".join(tex)
+
+
+def compile_latex(tex_path, output_pdf):
+    work_dir = os.path.dirname(tex_path)
+    base_name = os.path.splitext(os.path.basename(tex_path))[0]
+    cmd = ["pdflatex", "-interaction=nonstopmode", f"{base_name}.tex"]
+    subprocess.run(cmd, cwd=work_dir, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    subprocess.run(cmd, cwd=work_dir, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
+    pdf_temp = os.path.join(work_dir, f"{base_name}.pdf")
+    if os.path.exists(pdf_temp) and pdf_temp != output_pdf:
+        if os.path.exists(output_pdf):
+            os.remove(output_pdf)
+        os.rename(pdf_temp, output_pdf)
+
+    # Dọn dẹp rác
+    for ext in [".aux", ".log", ".thm", ".out", ".toc"]:
+        junk = os.path.join(work_dir, f"{base_name}{ext}")
+        if os.path.exists(junk):
+            os.remove(junk)
+    for ans_f in glob.glob(os.path.join(work_dir, "ans-*.tex")):
+        os.remove(ans_f)
+
+
+def main():
+    os.makedirs(SAN_PHAM_DIR, exist_ok=True)
+
+    # 1. Bản Học sinh
+    tex_hs = build_latex_content(is_teacher=False)
+    tex_hs_path = os.path.join(SAN_PHAM_DIR, "De_Kiem_Tra_GK1_Hoa_12_LuongVinh_Ma1204_HocSinh.tex")
+    with open(tex_hs_path, "w", encoding="utf-8") as f:
+        f.write(tex_hs)
+    pdf_hs_path = os.path.join(SAN_PHAM_DIR, "De_Kiem_Tra_GK1_Hoa_12_LuongVinh_Ma1204_HocSinh.pdf")
+    compile_latex(tex_hs_path, pdf_hs_path)
+    print(f"[OK] Đã biên dịch xong PDF Học sinh: {pdf_hs_path}")
+
+    # 2. Bản Giáo viên
+    tex_gv = build_latex_content(is_teacher=True)
+    tex_gv_path = os.path.join(SAN_PHAM_DIR, "De_Kiem_Tra_GK1_Hoa_12_LuongVinh_Ma1204_GiaoVien.tex")
+    with open(tex_gv_path, "w", encoding="utf-8") as f:
+        f.write(tex_gv)
+    pdf_gv_path = os.path.join(SAN_PHAM_DIR, "De_Kiem_Tra_GK1_Hoa_12_LuongVinh_Ma1204_GiaoVien.pdf")
+    compile_latex(tex_gv_path, pdf_gv_path)
+    print(f"[OK] Đã biên dịch xong PDF Giáo viên: {pdf_gv_path}")
+
+
+if __name__ == "__main__":
+    main()
