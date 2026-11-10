@@ -1,0 +1,280 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{geometry}
+\geometry{top=1.5cm,bottom=1.2cm,left=1.4cm,right=1.4cm,headheight=28pt,headsep=12pt,footskip=18pt}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\definecolor{hfRed}{HTML}{D32F2F}
+\definecolor{hfGreen}{HTML}{8BC390}
+\definecolor{mainGreen}{HTML}{2E7D32}
+\definecolor{solBlue}{HTML}{1565C0}
+\definecolor{tableGreen}{HTML}{E8F5E9}
+
+\usepackage{ex_test}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.75pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0.75pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+
+\fancyhead[L]{\small\itshape\color{hfRed}Tài liệu lưu hành nội bộ}
+\fancyhead[R]{\small\color{hfRed}Thầy \textbf{TRẦN VĂN THẠNH} - 0777.470.803}
+
+\fancyfoot[L]{\footnotesize\itshape\color{hfRed}CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+\fancyfoot[R]{\small\textbf{\color{hfRed}Trang \thepage}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+
+\begin{document}
+
+\noindent
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{TRƯỜNG THPT NGUYỄN HUỆ}\\
+\textbf{TỔ LÍ -- HÓA -- CÔNG NGHỆ}\\
+\textbf{ĐỀ CHÍNH THỨC}\\
+\textit{(Đề thi có 03 trang)}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\raggedleft
+\textbf{\color{hfRed}ĐỀ KIỂM TRA GIỮA KÌ I -- NĂM HỌC 2026 -- 2027}\\
+\textbf{MÔN: HOÁ HỌC -- LỚP 12}\\
+\textit{Thời gian làm bài: 45 phút (không kể thời gian phát đề)}\\
+\textbf{MÃ ĐỀ: 101}
+\end{minipage}
+
+\vspace{4pt}
+\noindent
+\textit{Họ, tên thí sinh:} \dotfill \textit{Lớp:} \dots\dots\dots \textit{Số báo danh:} \dotfill
+
+\vspace{3pt}
+\noindent
+\textit{\footnotesize (Cho biết nguyên tử khối: H = 1; C = 12; N = 14; O = 16; Na = 23; Mg = 24; S = 32; Cl = 35,5; K = 39; Ca = 40; Ag = 108).}
+
+\vspace{2pt}
+\hrule height 0.5pt
+
+\vspace{6pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN I. CÂU TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN LỰA CHỌN (3,0 điểm)}}
+
+\textit{Thí sinh trả lời từ câu 1 đến câu 12. Mỗi câu hỏi thí sinh chỉ chọn một phương án.}
+
+\vspace{2pt}
+
+\begin{ex}
+Chất nào sau đây là ester?
+\choice
+{$\ce{CH3COOH}$}
+{\True $\ce{CH3COOC2H5}$}
+{$\ce{C2H5OH}$}
+{$\ce{CH3CHO}$}
+\end{ex}
+\begin{ex}
+Thủy phân hoàn toàn ethyl acetate trong dung dịch $\ce{NaOH}$ đun nóng, thu được sản phẩm gồm
+\choice
+{$\ce{CH3COONa}$ và $\ce{CH3OH}$}
+{\True $\ce{CH3COONa}$ và $\ce{C2H5OH}$}
+{$\ce{C2H5COONa}$ và $\ce{CH3OH}$}
+{$\ce{HCOONa}$ và $\ce{C2H5OH}$}
+\end{ex}
+\begin{ex}
+Phát biểu nào sau đây \textbf{không đúng} về xà phòng và chất giặt rửa tổng hợp?
+\choice
+{Xà phòng thường là muối sodium hoặc potassium của các acid béo}
+{Khi giặt rửa trong nước cứng, xà phòng bị giảm tác dụng tẩy rửa do tạo muối kết tủa}
+{\True Phân tử chất giặt rửa tổng hợp không có đầu ưa nước và đuôi kị nước như xà phòng}
+{Chất giặt rửa tổng hợp có ưu điểm là có thể sử dụng được trong nước cứng và môi trường acid nhẹ}
+\end{ex}
+\begin{ex}
+Carbohydrate nào sau đây thuộc loại monosaccharide?
+\choice
+{\True Glucose}
+{Saccharose}
+{Maltose}
+{Tinh bột}
+\end{ex}
+\begin{ex}
+Trong điều kiện thường, chất nào sau đây là chất rắn màu trắng, dạng sợi, không mùi, không tan trong nước và là thành phần chính tạo nên màng tế bào thực vật?
+\choice
+{Glucose}
+{Saccharose}
+{\True Cellulose}
+{Amylose}
+\end{ex}
+\begin{ex}
+Thuốc thử dùng để nhận biết hồ tinh bột bằng phản ứng tạo dung dịch màu xanh tím đặc trưng là
+\choice
+{\True dung dịch iodine ($\ce{I2}$)}
+{thuốc thử Tollens}
+{dung dịch $\ce{Cu(OH)2}$}
+{nước bromine}
+\end{ex}
+\begin{ex}
+Trong các chất sau, chất nào có lực base \textbf{yếu nhất}?
+\choice
+{Methylamine}
+{Dimethylamine}
+{Ammonia}
+{\True Aniline}
+\end{ex}
+\begin{ex}
+Amino acid đơn giản nhất có tên gọi là glycine. Công thức phân tử của glycine là
+\choice
+{\True $\ce{C2H5NO2}$}
+{$\ce{C3H7NO2}$}
+{$\ce{C4H9NO2}$}
+{$\ce{C5H9NO4}$}
+\end{ex}
+\begin{ex}
+Số liên kết peptide trong một phân tử tripeptide Gly-Ala-Val là
+\choice
+{1}
+{\True 2}
+{3}
+{4}
+\end{ex}
+\begin{ex}
+Hiện tượng protein bị đông tụ và tách ra khỏi dung dịch xảy ra khi
+\choice
+{\True đun nóng dung dịch lòng trắng trứng}
+{hòa tan lòng trắng trứng vào nước lạnh}
+{thêm nước cất vào dung dịch lòng trắng trứng}
+{khuấy đều dung dịch lòng trắng trứng ở nhiệt độ thường}
+\end{ex}
+\begin{ex}
+Thuốc thử dùng để phân biệt tripeptide với dipeptide bằng phản ứng màu biuret là
+\choice
+{dung dịch $\ce{AgNO3/NH3}$}
+{\True $\ce{Cu(OH)2}$ trong môi trường kiềm}
+{nước bromine}
+{dung dịch $\ce{I2}$ trong $\ce{KI}$}
+\end{ex}
+\begin{ex}
+Phát biểu nào sau đây về enzyme là \textbf{không đúng}?
+\choice
+{Hầu hết các enzyme có bản chất là protein}
+{Enzyme là chất xúc tác sinh học có tính đặc hiệu rất cao}
+{\True Enzyme xúc tác cho các phản ứng sinh hóa ở nhiệt độ rất cao (trên $150^\circ\text{C}$) để tăng tốc độ phản ứng}
+{Tốc độ của phản ứng do enzyme xúc tác thường lớn hơn rất nhiều so với chất xúc tác hóa học thông thường}
+\end{ex}
+\vspace{6pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN II. CÂU TRẮC NGHIỆM ĐÚNG SAI (2,0 điểm)}}
+
+\textit{Thí sinh trả lời từ câu 1 đến câu 2. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}
+
+\vspace{2pt}
+
+\begin{ex}
+Glucose và cellulose là hai carbohydrate phổ biến trong tự nhiên, đóng vai trò quan trọng trong sự sống và sản xuất công nghiệp. Cho các phát biểu sau:
+\choiceTF
+{\True Glucose có công thức phân tử là $\ce{C6H12O6}$, ở dạng mạch hở phân tử có chứa 5 nhóm hydroxy ($\ce{-OH}$) và 1 nhóm aldehyde ($\ce{-CHO}$).}
+{Phân tử cellulose được cấu tạo từ các đơn vị $\alpha$-glucose liên kết với nhau qua liên kết $\alpha$-1,4-glycoside tạo thành mạch phân nhánh.}
+{\True Thủy phân hoàn toàn cellulose trong môi trường acid vô cơ đun nóng thu được sản phẩm duy nhất là glucose, dung dịch sản phẩm có phản ứng tráng bạc với thuốc thử Tollens.}
+{\True Đun nóng $32{,}4\text{ kg}$ cellulose với lượng dư hỗn hợp $\ce{HNO3}$ đặc trong $\ce{H2SO4}$ đặc, thu được cellulose trinitrate $[\ce{C6H7O2(ONO2)3}]_n$ dùng làm thuốc súng không khói. Biết hiệu suất phản ứng đạt $80\%$, khối lượng cellulose trinitrate thu được là $47{,}52\text{ kg}$.}
+\end{ex}
+\begin{ex}
+Cho các hợp chất hữu cơ chứa nitrogen gồm: methylamine ($\ce{CH3NH2}$), aniline ($\ce{C6H5NH2}$), glycine ($\ce{H2N-CH2-COOH}$), glutamic acid và tripeptide Gly-Ala-Val. Cho các phát biểu sau:
+\choiceTF
+{\True Ở điều kiện thường, methylamine là chất khí có mùi khai khó chịu, độc, tan nhiều trong nước và làm quỳ tím ẩm hóa xanh.}
+{\True Glycine là amino acid đơn giản nhất, ở trạng thái tinh thể tồn tại chủ yếu dưới dạng ion lưỡng cực ($\ce{^+H3N-CH2-COO^-}$).}
+{Dung dịch glutamic acid làm đổi màu quỳ tím sang màu xanh tương tự như dung dịch lysine.}
+{\True Thủy phân hoàn toàn $0{,}1\text{ mol}$ peptide Gly-Ala-Val trong dung dịch chứa $0{,}4\text{ mol}$ $\ce{NaOH}$ đun nóng. Sau khi phản ứng xảy ra hoàn toàn, cô cạn dung dịch thu được $38{,}7\text{ gam}$ chất rắn khan.}
+\end{ex}
+\vspace{6pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN III. CÂU TRẮC NGHIỆM TRẢ LỜI NGẮN (2,0 điểm)}}
+
+\textit{Thí sinh trả lời từ câu 1 đến câu 4. Mỗi câu trả lời đúng được 0,5 điểm.}
+
+\vspace{2pt}
+
+\begin{ex}
+Cho các chất sau: sodium stearate, sodium dodecylbenzenesulfonate, saccharose, glycerol, potassium palmitate, ethyl acetate. Có bao nhiêu chất là thành phần chính của xà phòng hoặc chất giặt rửa tổng hợp?
+\par\noindent\textbf{Trả lời:} \dotfill
+\end{ex}
+\begin{ex}
+Trong các amine sau: methylamine, dimethylamine, trimethylamine, ethylamine, aniline; có bao nhiêu amine ở thể khí ở điều kiện thường?
+\par\noindent\textbf{Trả lời:} \dotfill
+\end{ex}
+\begin{ex}
+Nhỏ từng giọt dung dịch của mỗi chất sau vào các mẩu giấy quỳ tím riêng biệt: glycine, ethylamine, aniline, lysine, glutamic acid. Có bao nhiêu chất làm quỳ tím chuyển sang màu xanh?
+\par\noindent\textbf{Trả lời:} \dotfill
+\end{ex}
+\begin{ex}
+Cho $9{,}0\text{ gam}$ ethylamine ($\ce{C2H5NH2}$) tác dụng vừa đủ với dung dịch hydrochloric acid ($\ce{HCl}$). Sau khi phản ứng hoàn toàn, khối lượng muối ethylammonium chloride ($\ce{C2H5NH3Cl}$) thu được là bao nhiêu gam?
+\par\noindent\textbf{Trả lời:} \dotfill
+\end{ex}
+\vspace{6pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN IV. TỰ LUẬN (3,0 điểm)}}
+
+\textit{Thí sinh làm bài trực tiếp vào đề thi hoặc giấy làm bài thi. Điểm tối đa: 3,0 điểm.}
+
+\vspace{2pt}
+
+\begin{ex}
+\textbf{(1,0 điểm)} Có hai ống nghiệm chứa dung dịch saccharose không màu. Tiến hành hai thí nghiệm sau:
+\begin{itemize}[leftmargin=1.5cm,itemsep=1pt]
+\item \textit{Ống nghiệm 1:} Thêm lượng dư thuốc thử Tollens $[\ce{Ag(NH3)2}]\ce{OH}$, sau đó ngâm ống nghiệm trong cốc nước nóng (khoảng $70 - 80^\circ\text{C}$) trong 5 phút.
+\item \textit{Ống nghiệm 2:} Thêm $1\text{ mL}$ dung dịch $\ce{H2SO4}$ $10\%$ rồi đun nóng nhẹ trong 5 phút. Để nguội, trung hòa acid dư bằng dung dịch $\ce{NaOH}$ loãng, sau đó thêm lượng dư thuốc thử Tollens và ngâm trong cốc nước nóng.
+\end{itemize}
+a) Hãy nêu hiện tượng quan sát được ở mỗi ống nghiệm.\\
+b) Viết phương trình hóa học của phản ứng thủy phân xảy ra ở ống nghiệm 2 và phản ứng tráng bạc giải thích hiện tượng quan sát được.
+
+\vspace{0.2cm}
+\dotfill\\
+\dotfill\\
+\dotfill\\
+\dotfill\\
+\dotfill\\
+\dotfill
+\end{ex}
+\begin{ex}
+\textbf{(1,0 điểm)} Một cơ sở sản xuất xà phòng thủ công tiến hành xà phòng hóa hoàn toàn $17{,}8\text{ kg}$ một loại chất béo chứa $90\%$ khối lượng là tristearin $\ce{(C17H35COO)3C3H5}$ (còn lại là tạp chất trơ không phản ứng) bằng một lượng vừa đủ dung dịch $\ce{NaOH}$, đun nóng.\\
+a) Viết phương trình hóa học của phản ứng xà phòng hóa tristearin bằng dung dịch $\ce{NaOH}$.\\
+b) Tính khối lượng glycerol thu được sau phản ứng (giả sử hiệu suất phản ứng xà phòng hóa đạt $100\%$).\\
+c) Toàn bộ lượng muối sodium stearate ($\ce{C17H35COONa}$) thu được sau khi cô đặc và phối trộn phụ gia (chiếm $25\%$ khối lượng bánh xà phòng thương phẩm) được ép thành các bánh xà phòng. Mỗi bánh xà phòng có khối lượng $100\text{ gam}$ và hiệu suất thu hồi xà phòng đạt $95\%$. Tính số bánh xà phòng tối đa mà cơ sở trên sản xuất được.
+
+\vspace{0.2cm}
+\dotfill\\
+\dotfill\\
+\dotfill\\
+\dotfill\\
+\dotfill\\
+\dotfill
+\end{ex}
+\begin{ex}
+\textbf{(1,0 điểm)} Để sản xuất cồn y tế $70^\circ$ (dung dịch ethanol $70\%$ theo thể tích) phục vụ sát trùng trong y tế, người ta sử dụng nguyên liệu ban đầu là 1 tấn hạt ngô chứa $64{,}8\%$ tinh bột (còn lại là chất xơ và tạp chất trơ không sinh cồn). Quá trình sản xuất trải qua hai giai đoạn theo sơ đồ sau:
+\[ \ce{(C6H10O5)_n ->[+\ce{H2O},\, \text{enzyme/acid}] nC6H12O6 ->[\text{lên men}] 2nC2H5OH + 2nCO2} \]
+a) Tính khối lượng ethanol lý thuyết thu được từ 1 tấn hạt ngô trên.\\
+b) Biết hiệu suất của toàn bộ quá trình sản xuất trên đạt $80\%$ và khối lượng riêng của ethanol nguyên chất là $D = 0{,}8\text{ g/mL}$. Tính thể tích (lít) dung dịch cồn y tế $70^\circ$ tối đa pha chế được từ lượng ethanol thực tế thu được.
+
+\vspace{0.2cm}
+\dotfill\\
+\dotfill\\
+\dotfill\\
+\dotfill\\
+\dotfill\\
+\dotfill
+\end{ex}
+\vspace{8pt}
+\begin{center}
+\textbf{---------- HẾT ----------}
+\end{center}
+
+\end{document}
