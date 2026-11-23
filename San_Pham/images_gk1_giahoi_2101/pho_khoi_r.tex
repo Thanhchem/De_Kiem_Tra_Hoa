@@ -1,0 +1,33 @@
+\documentclass[tikz,border=10pt]{standalone}
+\usepackage[utf8]{vietnam}
+\usepackage{tgheros}
+\usepackage{sansmath}
+\sansmath
+\renewcommand{\familydefault}{\sfdefault}
+\begin{document}
+\begin{tikzpicture}[x=1cm, y=1cm, line cap=round, line join=round]
+  \draw[->, >=latex, line width=1.2pt] (0,0) -- (8.5,0) node[right, font=\bfseries\small] {m/z};
+  \draw[->, >=latex, line width=1.2pt] (0,0) -- (0,5.5) node[above, font=\bfseries\small, align=center] {Phần trăm số\\ nguyên tử đồng vị (\%)};
+  
+  % Trục tung chia vạch 0, 20, ..., 100
+  \foreach \y/\val in {1/20, 2/40, 3/60, 4/80, 5/100} {
+    \draw[line width=0.8pt] (0,\y) -- (-0.15,\y);
+    \node[left, font=\small] at (-0.15,\y) {\val};
+  }
+  \node[left, font=\small] at (-0.15,0) {0};
+
+  % Vạch phổ 1 tại m/z = 6 (7,59%) -> y = 7.59/20 = 0.3795
+  \draw[line width=2.5pt, blue!80!black] (3.0, 0) -- (3.0, 0.38);
+  \node[above, font=\bfseries\small] at (3.0, 0.45) {7,59};
+  \draw[line width=0.8pt] (3.0, 0) -- (3.0, -0.15);
+  \node[below, font=\bfseries\small] at (3.0, -0.15) {6};
+
+  % Vạch phổ 2 tại m/z = x (92,41%) -> y = 92.41/20 = 4.62
+  \draw[line width=2.5pt, blue!80!black] (6.0, 0) -- (6.0, 4.62);
+  \node[above, font=\bfseries\small] at (6.0, 4.65) {92,41};
+  \draw[line width=0.8pt] (6.0, 0) -- (6.0, -0.15);
+  \node[below, font=\bfseries\small] at (6.0, -0.15) {x};
+
+  \node[below, font=\bfseries\small, align=center] at (4.5, -0.8) {Tỉ số nguyên tử khối/điện tích};
+\end{tikzpicture}
+\end{document}
