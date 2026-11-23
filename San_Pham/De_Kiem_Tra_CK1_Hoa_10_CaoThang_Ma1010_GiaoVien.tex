@@ -1,0 +1,531 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{geometry}
+\geometry{top=1.5cm,bottom=1.2cm,left=1.4cm,right=1.4cm,headheight=28pt,headsep=12pt,footskip=18pt}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{multido}
+\usepackage{tcolorbox}
+
+\definecolor{hfRed}{HTML}{D32F2F}
+\definecolor{hfGreen}{HTML}{8BC390}
+\definecolor{mainGreen}{HTML}{2E7D32}
+\definecolor{solBlue}{HTML}{1565C0}
+\definecolor{tableGreen}{HTML}{E8F5E9}
+
+\usepackage{ex_test}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.75pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0.75pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+
+\fancyhead[L]{\small\itshape\color{hfRed}Tài liệu lưu hành nội bộ}
+\fancyhead[R]{\small\color{hfRed}Thầy \textbf{TRẦN VĂN THẠNH} - 0777.470.803}
+
+\fancyfoot[L]{\footnotesize\itshape\color{hfRed}CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+\fancyfoot[R]{\small\textbf{\color{hfRed}Trang \thepage}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+
+\begin{document}
+
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{SỞ GIÁO DỤC VÀ ĐÀO TẠO}\\
+\textbf{TRƯỜNG THPT CAO THẮNG}\\
+\textit{ĐỀ CHÍNH THỨC}\\
+\textit{(Đề thi có 02 trang)}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\raggedleft
+\textbf{\color{hfRed}ĐỀ KIỂM TRA CUỐI KÌ 1}\\
+\textbf{NĂM HỌC 2025 -- 2026}\\
+\textbf{MÔN: HÓA HỌC 10}\\
+\textit{Thời gian làm bài: 45 phút (không kể thời gian phát đề)}\\
+\textbf{MÃ ĐỀ: 1010}
+\end{minipage}
+
+\vspace{4pt}
+\noindent
+\textit{Họ và tên:} \dotfill \textit{Số báo danh:} \dotfill
+
+\vspace{3pt}
+\noindent
+\textit{\footnotesize Cho biết:}\\
+\textit{\footnotesize - Số hiệu nguyên tử: $\ce{Na}=11; \ce{Cl}=17; \ce{H}=1; \ce{C}=6; \ce{O}=8; \ce{Mg}=12; \ce{P}=15; \ce{Be}=4; \ce{Al}=13; \ce{S}=16; \ce{K}=19; \ce{N}=14; \ce{F}=9$.}\\
+\textit{\footnotesize - Nguyên tử khối: $\ce{Mg}=24; \ce{P}=31; \ce{O}=16; \ce{S}=32; \ce{H}=1; \ce{Na}=23; \ce{K}=39$.}
+
+\vspace{3pt}
+\hrule color{hfGreen} height 0.5pt
+
+\vspace{4pt}
+\begin{center}
+\textbf{\color{hfRed}\large (BẢN GIÁO VIÊN -- CÓ LỜI GIẢI CHI TIẾT)}
+\end{center}
+
+\vspace{2pt}
+\begin{center}
+{\color{hfRed}\textbf{\large BẢNG ĐÁP ÁN RÚT GỌN (DÀNH CHO GIÁO VIÊN)}}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}1. Phần I: Trắc nghiệm nhiều lựa chọn (3,0 điểm - mỗi câu đúng 0,25 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đ/A} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}A} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}2. Phần II: Trắc nghiệm Đúng / Sai (2,0 điểm - mỗi câu 1,0 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|l|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Nội dung câu hỏi} & \textbf{Ý a} & \textbf{Ý b} & \textbf{Ý c} & \textbf{Ý d} \\
+\hline
+\textbf{Câu 1} & Liên kết trong $\ce{CO}$, $\ce{O2}$, $\ce{CO2}$ & \textbf{SAI} & \textbf{\color{hfRed}ĐÚNG} & \textbf{\color{hfRed}ĐÚNG} & \textbf{SAI} \\
+\hline
+\textbf{Câu 2} & Tính chất nguyên tố $\ce{X}(Z=12), \ce{Y}(Z=15)$ & \textbf{SAI} & \textbf{\color{hfRed}ĐÚNG} & \textbf{\color{hfRed}ĐÚNG} & \textbf{SAI} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}3. Phần III: Trả lời ngắn (2,0 điểm - mỗi câu đúng 0,5 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Câu 1} & \textbf{Câu 2} & \textbf{Câu 3} & \textbf{Câu 4} \\
+\hline
+\textbf{Đáp án} & \textbf{\color{hfRed}4312} & \textbf{\color{hfRed}50} & \textbf{\color{hfRed}10} & \textbf{\color{hfRed}1} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}4. Tóm tắt đáp số Phần Tự luận (3,0 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|p{11.5cm}|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Điểm} & \textbf{Đáp số cốt lõi} \\
+\hline
+\textbf{Câu 1} & 1,0 đ & $\ce{X}$ ($Z=16$, Sulfur): Ô 16, chu kì 3, nhóm VIA; là phi kim, oxide cao nhất $\ce{SO3}$, hydroxide $\ce{H2SO4}$, hợp chất khí $\ce{H2S}$. \\
+\hline
+\textbf{Câu 2} & 1,0 đ & $\ce{X}$ là $\ce{K} (Z=19)$, $\ce{Y}$ là $\ce{Cl} (Z=17)$. a) Công thức: $\ce{KCl}$. b) Liên kết ion; biểu diễn: $\ce{K -> K+ + 1e}$, $\ce{Cl + 1e -> Cl-}$, $\ce{K+ + Cl- -> KCl}$. \\
+\hline
+\textbf{Câu 3} & 1,0 đ & Phân tích 2 trường hợp: TH cùng CK ra $\ce{Na, Mg}$ (loại vì không phản ứng); TH khác CK ra $\ce{X}$ là Phosphorus ($\ce{P}, Z=15$) và $\ce{Y}$ là Oxygen ($\ce{O}, Z=8$). \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{4pt}
+\hrule color{hfGreen} height 0.5pt
+
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\Large I. TRẮC NGHIỆM (7,0 ĐIỂM)}}
+
+\vspace{3pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn.}}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 12. Mỗi câu hỏi thí sinh chỉ chọn một phương án.}
+\vspace{2pt}
+
+\begin{ex}
+Để đạt quy tắc Octet, nguyên tử của nguyên tố sodium ($Z=11$) có xu hướng
+\choice
+{\True nhường 1 electron.}
+{nhận 1 electron.}
+{nhận 7 electron.}
+{nhường 3 electron.}
+
+\loigiai{
+Cấu hình electron của sodium ($Z=11$) là $\ce{1s^2 2s^2 2p^6 3s^1}$ ($\ce{[Ne] 3s^1}$), có 1 electron ở lớp ngoài cùng. Để đạt cấu hình electron bền vững của khí hiếm neon (8 electron ở lớp ngoài cùng) theo quy tắc Octet, nguyên tử sodium có xu hướng nhường 1 electron ở phân lớp $\ce{3s^1}$ để tạo thành cation $\ce{Na+}$ ($\ce{1s^2 2s^2 2p^6}$).\\
+\textbf{Chọn A.}
+}
+\end{ex}
+\begin{ex}
+Nguyên tố $\ce{X}$ thuộc nhóm IVA trong Bảng tuần hoàn. Công thức oxide cao nhất của $\ce{X}$ là
+\choice
+{$\ce{X2O4}$}
+{$\ce{X2O}$}
+{$\ce{XO}$}
+{\True $\ce{XO2}$}
+
+\loigiai{
+Nguyên tố $\ce{X}$ thuộc nhóm IVA nên có hóa trị cao nhất với oxygen bằng số thứ tự nhóm là IV. Do đó, công thức oxide cao nhất của $\ce{X}$ là $\ce{XO2}$ (tối giản từ $\ce{X2O4}$).\\
+\textbf{Chọn D.}
+}
+\end{ex}
+\begin{ex}
+Nguyên tử có cấu tạo gồm hạt nhân và vỏ nguyên tử. Vỏ nguyên tử chứa loại hạt nào sau đây?
+\choice
+{Neutron}
+{\True Electron}
+{Proton}
+{Proton và neutron}
+
+\loigiai{
+Nguyên tử gồm hạt nhân nằm ở tâm (chứa proton mang điện tích dương và neutron không mang điện) và vỏ nguyên tử chứa các hạt electron mang điện tích âm chuyển động xung quanh hạt nhân.\\
+\textbf{Chọn B.}
+}
+\end{ex}
+\begin{ex}
+Đại lượng nào sau đây trong nguyên tử của các nguyên tố nhóm A biến đổi tuần hoàn theo chiều tăng của điện tích hạt nhân nguyên tử?
+\choice
+{Số electron trong nguyên tử}
+{Nguyên tử khối}
+{\True Số electron ở lớp ngoài cùng}
+{Số lớp electron}
+
+\loigiai{
+- Số electron trong nguyên tử và nguyên tử khối tăng dần liên tục theo chiều tăng của điện tích hạt nhân, không biến đổi tuần hoàn.\\
+- Số lớp electron giữ nguyên trong chu kì và tăng khi sang chu kì mới, không biến đổi tuần hoàn.\\
+- Số electron ở lớp ngoài cùng của các nguyên tố nhóm A biến đổi tuần hoàn lặp đi lặp lại từ 1 đến 8 (riêng chu kì 1 từ 1 đến 2) theo chiều tăng của điện tích hạt nhân.\\
+\textbf{Chọn C.}
+}
+\end{ex}
+\begin{ex}
+Nguyên tố $\ce{X}$ thuộc nhóm VA trong Bảng tuần hoàn. $\ce{X}$ thuộc khối nguyên tố
+\choice
+{s}
+{d}
+{\True p}
+{f}
+
+\loigiai{
+Các nguyên tố nhóm A gồm nguyên tố khối s (nhóm IA, IIA) và khối p (nhóm IIIA đến VIIIA). Nguyên tố $\ce{X}$ thuộc nhóm VA có cấu hình electron lớp ngoài cùng dạng $ns^2 np^3$, electron cuối cùng được điền vào phân lớp p nên $\ce{X}$ thuộc khối nguyên tố p.\\
+\textbf{Chọn C.}
+}
+\end{ex}
+\begin{ex}
+Lớp L có bao nhiêu phân lớp electron?
+\choice
+{4}
+{\True 2}
+{1}
+{3}
+
+\loigiai{
+Lớp L là lớp electron thứ hai ($n = 2$). Lớp thứ $n$ có $n$ phân lớp electron ($n \le 4$), do đó lớp L có 2 phân lớp electron là 2s và 2p.\\
+\textbf{Chọn B.}
+}
+\end{ex}
+\begin{ex}
+Trong một chu kì, theo chiều tăng của điện tích hạt nhân nguyên tử,
+\choice
+{bán kính nguyên tử và độ âm điện đều tăng.}
+{bán kính nguyên tử tăng, độ âm điện giảm.}
+{bán kính nguyên tử và độ âm điện đều giảm.}
+{\True bán kính nguyên tử giảm, độ âm điện tăng.}
+
+\loigiai{
+Trong một chu kì, đi từ trái sang phải theo chiều tăng của điện tích hạt nhân: số lớp electron không đổi, điện tích hạt nhân tăng làm tăng lực hút giữa hạt nhân với các electron lớp ngoài cùng nên bán kính nguyên tử giảm dần; đồng thời khả năng hút electron liên kết về phía mình tăng nên độ âm điện tăng dần.\\
+\textbf{Chọn D.}
+}
+\end{ex}
+\begin{ex}
+Cho độ âm điện của các nguyên tố sau: $\ce{O}: 3,44; \ce{Cl}: 3,16; \ce{Al}: 1,61; \ce{F}: 3,98$. Nguyên tố nào có tính phi kim mạnh nhất?
+\choice
+{$\ce{O}$}
+{$\ce{Cl}$}
+{\True $\ce{F}$}
+{$\ce{Al}$}
+
+\loigiai{
+Độ âm điện đặc trưng cho khả năng hút electron của nguyên tử trong liên kết hóa học. Độ âm điện càng lớn thì tính phi kim càng mạnh. So sánh: $\chi(\ce{F}) = 3,98 > \chi(\ce{O}) = 3,44 > \chi(\ce{Cl}) = 3,16 > \chi(\ce{Al}) = 1,61$. Do đó, Fluorine ($\ce{F}$) có tính phi kim mạnh nhất.\\
+\textbf{Chọn C.}
+}
+\end{ex}
+\begin{ex}
+Phân tử $\ce{O2}$ có công thức Lewis là $:\!\ddot{\ce{O}}=\ddot{\ce{O}}\!:$. Giữa 2 nguyên tử $\ce{O}$ có bao nhiêu cặp electron dùng chung?
+\choice
+{6}
+{1}
+{4}
+{\True 2}
+
+\loigiai{
+Mỗi nguyên tử $\ce{O}$ ($Z=8$, nhóm VIA) có 6 electron lớp ngoài cùng, cần thêm 2 electron để đạt bát tử. Hai nguyên tử $\ce{O}$ góp chung 2 cặp electron hình thành nên liên kết đôi $\ce{O=O}$ gồm 2 cặp electron dùng chung (tương ứng với 4 electron liên kết).\\
+\textbf{Chọn D.}
+}
+\end{ex}
+\begin{ex}
+Hợp chất nào sau đây là hợp chất ion?
+\choice
+{$\ce{Cl2}$}
+{$\ce{HCl}$}
+{$\ce{CO2}$}
+{\True $\ce{NaCl}$}
+
+\loigiai{
+- $\ce{Cl2}$ là đơn chất phi kim, liên kết cộng hóa trị không phân cực.\\
+- $\ce{HCl}$ và $\ce{CO2}$ tạo bởi các phi kim, liên kết cộng hóa trị phân cực.\\
+- $\ce{NaCl}$ được tạo bởi kim loại điển hình $\ce{Na}$ và phi kim điển hình $\ce{Cl}$, có hiệu độ âm điện $\Delta\chi = 3,16 - 0,93 = 2,23 > 1,7$ nên liên kết trong $\ce{NaCl}$ là liên kết ion và $\ce{NaCl}$ là hợp chất ion.\\
+\textbf{Chọn D.}
+}
+\end{ex}
+\begin{ex}
+Nguyên tố hóa học là tập hợp những nguyên tử có cùng
+\choice
+{\True điện tích hạt nhân}
+{nguyên tử khối}
+{số neutron}
+{số khối}
+
+\loigiai{
+Theo định nghĩa: Nguyên tố hóa học là tập hợp những nguyên tử có cùng điện tích hạt nhân (cùng số proton $Z$).\\
+\textbf{Chọn A.}
+}
+\end{ex}
+\begin{ex}
+Số nguyên tố có trong chu kì 3 của Bảng tuần hoàn là
+\choice
+{\True 8}
+{32}
+{18}
+{2}
+
+\loigiai{
+Chu kì 3 là chu kì nhỏ, bắt đầu từ nguyên tố sodium ($_{11}\ce{Na}: \ce{[Ne] 3s^1}$) đến nguyên tố argon ($_{18}\ce{Ar}: \ce{[Ne] 3s^2 3p^6}$), bao gồm tất cả 8 nguyên tố: $\ce{Na, Mg, Al, Si, P, S, Cl, Ar}$.\\
+\textbf{Chọn A.}
+}
+\end{ex}
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN II. Câu trắc nghiệm đúng sai.}}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 2. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}
+\vspace{2pt}
+
+\begin{ex}
+Cho $\ce{C} (Z=6)$ và $\ce{O} (Z=8)$; Độ âm điện của $\ce{C}$ là $2,55$ và $\ce{O}$ là $3,44$.
+\choiceTF
+{Liên kết hóa học trong phân tử $\ce{CO}$ là liên kết cộng hóa trị phân cực, trong đó 3 cặp electron dùng chung đều do 2 nguyên tử $\ce{C}$ và $\ce{O}$ cùng đóng góp bị lệch về phía nguyên tử $\ce{O}$}
+{\True $\ce{C}$ và $\ce{O}$ đều là các nguyên tố p}
+{\True Liên kết hóa học trong phân tử $\ce{O2}$ là liên kết cộng hóa trị không phân cực}
+{Phân tử $\ce{CO2}$ là phân tử phân cực do liên kết hóa học trong phân tử $\ce{CO2}$ là liên kết cộng hóa trị phân cực}
+
+\loigiai{
+a) \textbf{Sai}: Trong phân tử $\ce{CO}$, có liên kết ba $\ce{C#O}$ gồm 2 liên kết cộng hóa trị bình thường (mỗi nguyên tử góp 1e) và 1 liên kết cho - nhận (phối trí) trong đó cặp electron dùng chung do nguyên tử $\ce{O}$ đóng góp vào orbital trống của $\ce{C}$ ($\ce{C <- O}$). Do đó nói ``3 cặp electron dùng chung đều do 2 nguyên tử $\ce{C}$ và $\ce{O}$ cùng đóng góp'' là sai.\\
+b) \textbf{Đúng}: Cấu hình electron: $\ce{C} (Z=6): \ce{1s^2 2s^2 2p^2}$; $\ce{O} (Z=8): \ce{1s^2 2s^2 2p^4}$. Cả $\ce{C}$ và $\ce{O}$ đều có electron cuối cùng điền vào phân lớp p nên đều là các nguyên tố p.\\
+c) \textbf{Đúng}: Phân tử $\ce{O2}$ tạo bởi 2 nguyên tử oxygen giống nhau, $\Delta\chi = 0$ nên liên kết $\ce{O=O}$ là liên kết cộng hóa trị không phân cực.\\
+d) \textbf{Sai}: Phân tử $\ce{CO2}$ ($\ce{O=C=O}$) có cấu trúc dạng đường thẳng đối xứng. Mặc dù liên kết $\ce{C=O}$ phân cực ($\Delta\chi = 3,44 - 2,55 = 0,89$), nhưng hai vectơ mômen lưỡng cực cùng phương ngược chiều triệt tiêu lẫn nhau ($\mu = 0$), do đó phân tử $\ce{CO2}$ là phân tử không phân cực.
+}
+\end{ex}
+\begin{ex}
+Cho $\ce{X} (Z=12); \ce{Y} (Z=15)$.
+\choiceTF
+{Hydroxide ứng với hóa trị cao nhất của $\ce{X}$ có dạng $\ce{X(OH)2}$ và có tính base. Hydroxide ứng với hóa trị cao nhất của $\ce{Y}$ có dạng $\ce{HYO4}$ và có tính acid}
+{\True $\ce{X}$ là kim loại, $\ce{Y}$ là phi kim}
+{\True $\ce{X}$ và $\ce{Y}$ là 2 nguyên tố thuộc cùng 1 chu kì}
+{Trong công thức oxide cao nhất của $\ce{Y}$ có chứa thành phần phần trăm theo khối lượng của $\ce{Y}$ là 46,36\%}
+
+\loigiai{
+Cấu hình electron nguyên tử:\\
+- $\ce{X} (Z=12, \ce{Mg}): \ce{1s^2 2s^2 2p^6 3s^2}$ (chu kì 3, nhóm IIA).\\
+- $\ce{Y} (Z=15, \ce{P}): \ce{1s^2 2s^2 2p^6 3s^2 3p^3}$ (chu kì 3, nhóm VA).\\
+a) \textbf{Sai}: Hydroxide cao nhất của $\ce{X}$ ($\ce{Mg}$) là $\ce{Mg(OH)2}$ mang tính base. Còn hydroxide cao nhất của $\ce{Y}$ ($\ce{P}$, nhóm VA) là phosphoric acid $\ce{H3PO4}$ (dạng $\ce{H3YO4}$), không phải $\ce{HYO4}$ ($\ce{HYO4}$ ứng với nhóm VIIA như $\ce{HClO4}$).\\
+b) \textbf{Đúng}: $\ce{X}$ có 2e lớp ngoài cùng là kim loại; $\ce{Y}$ có 5e lớp ngoài cùng là phi kim.\\
+c) \textbf{Đúng}: Cả $\ce{X}$ và $\ce{Y}$ đều có 3 lớp electron nên đều thuộc cùng chu kì 3.\\
+d) \textbf{Sai}: Công thức oxide cao nhất của $\ce{Y}$ ($\ce{P}$, nhóm VA) là $\ce{Y2O5}$ ($\ce{P2O5}$).\\
+Phần trăm theo khối lượng của $\ce{Y}$:
+$\%m(\ce{Y}) = \dfrac{2 \times 31}{2 \times 31 + 5 \times 16} \times 100\% = \dfrac{62}{142} \times 100\% \approx 43,66\%$ (khác 46,36\%).
+}
+\end{ex}
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN III. Câu trắc nghiệm trả lời ngắn.}}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 4. Thí sinh điền kết quả vào ô trả lời tương ứng.}
+\vspace{2pt}
+
+\begin{ex}
+Cho các nguyên tố được đánh số thứ tự (1), (2), (3), (4) cùng số hiệu nguyên tử của các nguyên tố đó như sau: (1) ($Z=11$); (2) ($Z=19$); (3) ($Z=13$); (4) ($Z=17$). Hãy sắp xếp các nguyên tố trên theo chiều tăng dần tính kim loại. Biểu diễn kết quả bằng số thứ tự ứng với các nguyên tố (ví dụ: 1234, 3241,...).
+
+\loigiai{
+Vị trí các nguyên tố trong BTH:\\
+- (1) $\ce{Na} (Z=11)$: chu kì 3, nhóm IA.\\
+- (2) $\ce{K} (Z=19)$: chu kì 4, nhóm IA.\\
+- (3) $\ce{Al} (Z=13)$: chu kì 3, nhóm IIIA.\\
+- (4) $\ce{Cl} (Z=17)$: chu kì 3, nhóm VIIA.\\
+Quy luật biến đổi tính kim loại:\\
+- Trong cùng chu kì 3: theo chiều tăng của $Z$, tính kim loại giảm: $\ce{Na} > \ce{Al} > \ce{Cl}$.\\
+- Trong cùng nhóm IA: theo chiều tăng của $Z$, tính kim loại tăng: $\ce{K} > \ce{Na}$.\\
+$\implies$ Tính kim loại tăng dần: $\ce{Cl} < \ce{Al} < \ce{Na} < \ce{K}$.\\
+Theo số thứ tự: (4) < (3) < (1) < (2) $\implies$ Biểu diễn: \textbf{4312}.\\
+\textbf{Đáp số: 4312}
+}
+\end{ex}
+\begin{ex}
+Cho 2 nguyên tố: oxygen ($Z = 8$) và phosphorus ($Z = 15$). Số electron có trong anion $\ce{PO4^3-}$ là bao nhiêu?
+
+\loigiai{
+- Nguyên tử $\ce{P} (Z=15)$ có 15 electron.\\
+- Mỗi nguyên tử $\ce{O} (Z=8)$ có 8 electron, trong 4 nguyên tử $\ce{O}$ có $4 \times 8 = 32$ electron.\\
+- Anion $\ce{PO4^3-}$ mang điện tích 3- tức là đã nhận thêm 3 electron.\\
+$\implies$ Tổng số electron trong anion $\ce{PO4^3-}$ là:
+$N(e) = Z(\ce{P}) + 4 \times Z(\ce{O}) + 3 = 15 + 4 \times 8 + 3 = 50\text{ electron}$.\\
+\textbf{Đáp số: 50}
+}
+\end{ex}
+\begin{ex}
+Trong tự nhiên, magnesium có 3 đồng vị bền là $^{24}\ce{Mg}$, $^{25}\ce{Mg}$ và $^{26}\ce{Mg}$. Phương pháp phổ khối lượng xác nhận đồng vị $^{26}\ce{Mg}$ chiếm tỉ lệ phần trăm số nguyên tử là 11\%. Biết rằng nguyên tử khối trung bình của $\ce{Mg}$ là 24,32. Phần trăm số nguyên tử của đồng vị $^{25}\ce{Mg}$ là bao nhiêu?
+
+\loigiai{
+Gọi $x$ là phần trăm số nguyên tử của đồng vị $^{25}\ce{Mg}$ ($0 < x < 89$).\\
+Phần trăm số nguyên tử của đồng vị $^{24}\ce{Mg}$ là: $\%^{24}\ce{Mg} = 100\% - 11\% - x = (89 - x)\%$.\\
+Nguyên tử khối trung bình của $\ce{Mg}$:\\
+$\overline{A} = \dfrac{24 \times (89 - x) + 25x + 26 \times 11}{100} = 24,32$\\
+$\iff 2136 - 24x + 25x + 286 = 2432 \iff 2422 + x = 2432 \iff x = 10\ (\%)$.\\
+Vậy phần trăm số nguyên tử của $^{25}\ce{Mg}$ là 10\%.\\
+\textbf{Đáp số: 10}
+}
+\end{ex}
+\begin{ex}
+Cho các phân tử sau: $\ce{BeH2}$, $\ce{AlCl3}$, $\ce{PCl5}$, $\ce{HCl}$. Có bao nhiêu phân tử có các nguyên tử đều đạt cấu hình electron bão hòa theo quy tắc Octet?
+
+\loigiai{
+Xét cấu hình electron hóa trị xung quanh các nguyên tử trong từng phân tử:\\
+- $\ce{BeH2}$: Nguyên tử $\ce{Be}$ ở tâm chỉ có 2 cặp e liên kết xung quanh (tổng 4e hóa trị), chưa đạt octet (trường hợp thiếu octet).\\
+- $\ce{AlCl3}$: Nguyên tử $\ce{Al}$ ở tâm chỉ có 3 cặp e liên kết xung quanh (tổng 6e hóa trị), chưa đạt octet (trường hợp thiếu octet).\\
+- $\ce{PCl5}$: Nguyên tử $\ce{P}$ ở tâm có 5 cặp e liên kết xung quanh (tổng 10e hóa trị), vượt quá octet (trường hợp mở rộng octet).\\
+- $\ce{HCl}$: Nguyên tử $\ce{Cl}$ có 1 cặp e liên kết và 3 cặp e riêng (tổng 8 electron lớp ngoài cùng, đạt quy tắc octet). Nguyên tử $\ce{H}$ dùng chung 1 cặp e đạt cấu hình bền vững của khí hiếm $\ce{He}$ (2 electron, bão hòa lớp vỏ thứ nhất tương ứng quy tắc duplet/octet đối với chu kì 1).\\
+Do đó, chỉ có 1 phân tử ($\ce{HCl}$) thỏa mãn cấu hình electron bão hòa theo quy tắc octet.\\
+\textbf{Đáp số: 1}
+}
+\end{ex}
+\vspace{6pt}
+\noindent
+{\color{mainGreen}\textbf{\Large II. TỰ LUẬN (3,0 ĐIỂM)}}
+\vspace{2pt}
+
+\noindent
+\textbf{Câu 1: (1,0 điểm)} $\ce{X}$ là nguyên tố phổ biến thứ 17 trong vỏ Trái Đất, tồn tại ở bốn dạng đồng vị bền. Trong cơ thể người, $\ce{X}$ chiếm 0,2\% khối lượng và là thành phần quan trọng của nhiều protein và enzyme. Nguyên tử của nguyên tố $\ce{X}$ có cấu hình electron lớp ngoài cùng là $\ce{[Ne] 3s^2 3p^4}$. Hãy xác định vị trí của nguyên tố này trong bảng tuần hoàn (có giải thích) và cho biết tính chất của nó.
+
+\begin{tcolorbox}[colback=white,colframe=solBlue,title=\textbf{Lời giải chi tiết và Biểu điểm Câu 1:}]
+\textbf{1. Xác định vị trí của $\ce{X}$ trong bảng tuần hoàn: (0,5 điểm)}
+\begin{itemize}[leftmargin=1.2cm]
+\item Cấu hình electron nguyên tử: $\ce{[Ne] 3s^2 3p^4}$ hay $\ce{1s^2 2s^2 2p^6 3s^2 3p^4}$.
+\item Tổng số electron bằng 16 $\implies Z = 16$. $\ce{X}$ là Sulfur (kí hiệu: $\ce{S}$).
+\item \textbf{Ô số 16}: vì số hiệu nguyên tử $Z = 16$ (nguyên tử có 16 proton và 16 electron). \hfill \textit{(0,2 đ)}
+\item \textbf{Chu kì 3}: vì nguyên tử có 3 lớp electron ($n = 1, 2, 3$). \hfill \textit{(0,15 đ)}
+\item \textbf{Nhóm VIA}: vì là nguyên tố khối p (electron cuối cùng điền vào phân lớp p) và lớp ngoài cùng có 6 electron ($\ce{3s^2 3p^4}$). \hfill \textit{(0,15 đ)}
+\end{itemize}
+\textbf{2. Tính chất cơ bản của nguyên tố $\ce{X}$: (0,5 điểm)}
+\begin{itemize}[leftmargin=1.2cm]
+\item $\ce{X}$ là một phi kim điển hình. \hfill \textit{(0,1 đ)}
+\item Hóa trị cao nhất với oxygen là VI; công thức oxide cao nhất là $\ce{SO3}$ (sulfur trioxide), là một acidic oxide (oxide acid). \hfill \textit{(0,15 đ)}
+\item Hydroxide ứng với hóa trị cao nhất là $\ce{H2SO4}$ (sulfuric acid), là một acid mạnh. \hfill \textit{(0,15 đ)}
+\item Hợp chất khí với hydrogen là $\ce{H2S}$ (hydrogen sulfide). \hfill \textit{(0,1 đ)}
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{4pt}
+\noindent
+\textbf{Câu 2: (1,0 điểm)} Nguyên tố $\ce{X}$ tích lũy trong các tế bào thực vật nên rau và trái cây tươi là nguồn cung cấp tốt nguyên tố $\ce{X}$ cho cơ thể. Các nghiên cứu chỉ ra khẩu phần ăn chứa nhiều $\ce{X}$ có thể giảm nguy cơ cao huyết áp và đột quỵ. $\ce{Y}$ là nguyên tố hóa học có trong thành phần của chất có tác dụng oxi hóa và sát khuẩn cực mạnh, thường được sử dụng với mục đích khử trùng và tẩy trắng trong lĩnh vực thủy sản, dệt nhuộm, xử lí nước cấp, nước thải, nước bể bơi. Nguyên tử của nguyên tố $\ce{X}$ có 7 electron trên các phân lớp s; còn nguyên tử của nguyên tố $\ce{Y}$ có 3 lớp electron và có 7 electron ở lớp ngoài cùng.\\
+a. Phân tử tạo thành bởi $\ce{X}$ và $\ce{Y}$ có công thức là gì?\\
+b. Xác định loại liên kết và biểu diễn sự hình thành liên kết trong phân tử được tạo thành bởi $\ce{X}$ và $\ce{Y}$.
+
+\begin{tcolorbox}[colback=white,colframe=solBlue,title=\textbf{Lời giải chi tiết và Biểu điểm Câu 2:}]
+\textbf{* Xác định nguyên tố $\ce{X}$ và $\ce{Y}$: (0,4 điểm)}
+\begin{itemize}[leftmargin=1.2cm]
+\item Nguyên tử $\ce{X}$ có 7 electron s $\implies \ce{1s^2 2s^2 3s^2 4s^1} \implies$ Cấu hình đầy đủ: $\ce{1s^2 2s^2 2p^6 3s^2 3p^6 4s^1}$ ($\ce{[Ar] 4s^1}$) $\implies Z = 19$, $\ce{X}$ là Potassium ($\ce{K}$). \hfill \textit{(0,2 đ)}
+\item Nguyên tử $\ce{Y}$ có 3 lớp electron và 7 electron lớp ngoài cùng $\implies$ Cấu hình đầy đủ: $\ce{1s^2 2s^2 2p^6 3s^2 3p^5}$ ($\ce{[Ne] 3s^2 3p^5}$) $\implies Z = 17$, $\ce{Y}$ là Chlorine ($\ce{Cl}$). \hfill \textit{(0,2 đ)}
+\end{itemize}
+\textbf{a. Công thức phân tử tạo bởi $\ce{X}$ và $\ce{Y}$: (0,2 điểm)}
+\begin{itemize}[leftmargin=1.2cm]
+\item $\ce{K}$ hóa trị I, $\ce{Cl}$ hóa trị I trong muối halide $\implies$ Công thức phân tử là $\ce{KCl}$ (potassium chloride). \hfill \textit{(0,2 đ)}
+\end{itemize}
+\textbf{b. Loại liên kết và biểu diễn sự hình thành liên kết: (0,4 điểm)}
+\begin{itemize}[leftmargin=1.2cm]
+\item \textbf{Loại liên kết:} Liên kết ion (do chênh lệch độ âm điện lớn $\Delta\chi = 3,16 - 0,82 = 2,34 > 1,7$; liên kết giữa kim loại điển hình $\ce{K}$ và phi kim điển hình $\ce{Cl}$). \hfill \textit{(0,1 đ)}
+\item \textbf{Biểu diễn sự hình thành liên kết:}
+  \begin{align*}
+  \ce{K} &\longrightarrow \ce{K+} + 1e \quad (\ce{[Ar] 4s^1 -> [Ar] + 1e}) \hfill \textit{(0,1 đ)}\\
+  \ce{Cl} + 1e &\longrightarrow \ce{Cl-} \quad (\ce{[Ne] 3s^2 3p^5 + 1e -> [Ar]}) \hfill \textit{(0,1 đ)}\\
+  \ce{K+} + \ce{Cl-} &\longrightarrow \ce{KCl} \hfill \textit{(0,1 đ)}
+  \end{align*}
+  Hai ion $\ce{K+}$ và $\ce{Cl-}$ mang điện tích trái dấu hút nhau bằng lực hút tĩnh điện tạo thành hợp chất ion $\ce{KCl}$.
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{4pt}
+\noindent
+\textbf{Câu 3: (1,0 điểm)} $\ce{X}$ và $\ce{Y}$ là hai nguyên tố thuộc chu kì nhỏ, ở hai nhóm A kế tiếp nhau trong bảng tuần hoàn. Ở trạng thái đơn chất, $\ce{X}$ và $\ce{Y}$ phản ứng được với nhau. Tổng số proton trong hạt nhân nguyên tử của $\ce{X}$ và $\ce{Y}$ là 23. Biết rằng $\ce{X}$ đứng sau $\ce{Y}$ trong bảng tuần hoàn. Xác định tên nguyên tố $\ce{X}$ và $\ce{Y}$.
+
+\begin{tcolorbox}[colback=white,colframe=solBlue,title=\textbf{Lời giải chi tiết và Biểu điểm Câu 3:}]
+Chu kì nhỏ gồm các chu kì 1, 2 và 3 ($Z$ từ 1 đến 18).\\
+Theo giả thiết:
+- $\ce{X}$ đứng sau $\ce{Y}$ trong BTH $\implies Z_{\ce{X}} > Z_{\ce{Y}}$.
+- Tổng số proton: $Z_{\ce{X}} + Z_{\ce{Y}} = 23 \quad (1)$.\\
+- $\ce{X}$ và $\ce{Y}$ ở 2 nhóm A kế tiếp nhau và đơn chất của chúng phản ứng được với nhau. \hfill \textit{(0,2 đ)}
+
+\textbf{Biện luận các trường hợp: (0,6 điểm)}
+\begin{itemize}[leftmargin=1.2cm]
+\item \textbf{Trường hợp 1: $\ce{X, Y}$ cùng thuộc một chu kì nhỏ.}
+  Vì ở hai nhóm A kế tiếp và $Z_{\ce{X}} > Z_{\ce{Y}} \implies Z_{\ce{X}} - Z_{\ce{Y}} = 1 \quad (2)$.\\
+  Từ (1) và (2) suy ra: $Z_{\ce{X}} = 12\ (\ce{Mg})$ và $Z_{\ce{Y}} = 11\ (\ce{Na})$.\\
+  \textit{Kiểm tra tính chất:} Ở trạng thái đơn chất, hai kim loại $\ce{Na}$ và $\ce{Mg}$ không phản ứng hóa học với nhau. $\implies$ \textbf{Loại trường hợp này.} \hfill \textit{(0,2 đ)}
+
+\item \textbf{Trường hợp 2: $\ce{X, Y}$ thuộc hai chu kì nhỏ khác nhau (chu kì 2 và chu kì 3).}
+  Vì $Z_{\ce{X}} + Z_{\ce{Y}} = 23$ và $Z_{\ce{X}} > Z_{\ce{Y}} \implies Z_{\ce{Y}} < 11,5$ ($\ce{Y}$ thuộc chu kì 2) và $Z_{\ce{X}} > 11,5$ ($\ce{X}$ thuộc chu kì 3).\\
+  Do $\ce{X}$ và $\ce{Y}$ thuộc hai nhóm A kế tiếp nhau, có 2 khả năng:
+  \begin{itemize}
+  \item \textit{Khả năng 2a (Nhóm của $\ce{X}$ sau nhóm của $\ce{Y}$):}
+    $Z_{\ce{X}} = Z_{\ce{Y}} + 8 + 1 = Z_{\ce{Y}} + 9 \implies Z_{\ce{X}} - Z_{\ce{Y}} = 9$.\\
+    Kết hợp với (1) $\implies Z_{\ce{X}} = 16\ (\ce{S})$ và $Z_{\ce{Y}} = 7\ (\ce{N})$.\\
+    (Đơn chất $\ce{N2}$ và $\ce{S}$ rất trơ, không phản ứng trực tiếp ở điều kiện thông thường).
+  \item \textit{Khả năng 2b (Nhóm của $\ce{X}$ trước nhóm của $\ce{Y}$):}
+    $Z_{\ce{X}} = Z_{\ce{Y}} + 8 - 1 = Z_{\ce{Y}} + 7 \implies Z_{\ce{X}} - Z_{\ce{Y}} = 7$.\\
+    Kết hợp với (1) $\implies Z_{\ce{X}} = 15\ (\ce{P})$ và $Z_{\ce{Y}} = 8\ (\ce{O})$. \hfill \textit{(0,3 đ)}\\
+    \textit{Kiểm tra:}\\
+    + $\ce{Y}$ là Oxygen ($\ce{O}, Z=8$): chu kì 2, nhóm VIA.\\
+    + $\ce{X}$ là Phosphorus ($\ce{P}, Z=15$): chu kì 3, nhóm VA.\\
+    + Thuộc hai nhóm A kế tiếp nhau (nhóm VA và VIA) và đều thuộc chu kì nhỏ.\\
+    + $Z_{\ce{X}} (15) > Z_{\ce{Y}} (8)$, $\ce{X}$ đứng sau $\ce{Y}$ trong BTH.\\
+    + Đơn chất phản ứng mãnh liệt: $4\ce{P} + 5\ce{O2} \xrightarrow{t^\circ} 2\ce{P2O5}$.\\
+    $\implies$ Hoàn toàn thỏa mãn tất cả các điều kiện! \hfill \textit{(0,1 đ)}
+  \end{itemize}
+\end{itemize}
+
+\textbf{* Kết luận: (0,2 điểm)}
+\begin{itemize}[leftmargin=1.2cm]
+\item \textbf{Nguyên tố $\ce{X}$ là Phosphorus} (kí hiệu: $\ce{P}$, số hiệu nguyên tử $Z = 15$). \hfill \textit{(0,1 đ)}
+\item \textbf{Nguyên tố $\ce{Y}$ là Oxygen} (kí hiệu: $\ce{O}$, số hiệu nguyên tử $Z = 8$). \hfill \textit{(0,1 đ)}
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{6pt}
+\begin{center}
+\textbf{\large ---------- HẾT ----------}
+\end{center}
+
+\end{document}

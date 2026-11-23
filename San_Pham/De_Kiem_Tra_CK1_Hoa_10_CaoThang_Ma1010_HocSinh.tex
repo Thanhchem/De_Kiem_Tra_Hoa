@@ -1,0 +1,263 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{geometry}
+\geometry{top=1.5cm,bottom=1.2cm,left=1.4cm,right=1.4cm,headheight=28pt,headsep=12pt,footskip=18pt}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{multido}
+\usepackage{tcolorbox}
+
+\definecolor{hfRed}{HTML}{D32F2F}
+\definecolor{hfGreen}{HTML}{8BC390}
+\definecolor{mainGreen}{HTML}{2E7D32}
+\definecolor{solBlue}{HTML}{1565C0}
+\definecolor{tableGreen}{HTML}{E8F5E9}
+
+\usepackage{ex_test}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.75pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0.75pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+
+\fancyhead[L]{\small\itshape\color{hfRed}Tài liệu lưu hành nội bộ}
+\fancyhead[R]{\small\color{hfRed}Thầy \textbf{TRẦN VĂN THẠNH} - 0777.470.803}
+
+\fancyfoot[L]{\footnotesize\itshape\color{hfRed}CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+\fancyfoot[R]{\small\textbf{\color{hfRed}Trang \thepage}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+
+\begin{document}
+
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{SỞ GIÁO DỤC VÀ ĐÀO TẠO}\\
+\textbf{TRƯỜNG THPT CAO THẮNG}\\
+\textit{ĐỀ CHÍNH THỨC}\\
+\textit{(Đề thi có 02 trang)}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\raggedleft
+\textbf{\color{hfRed}ĐỀ KIỂM TRA CUỐI KÌ 1}\\
+\textbf{NĂM HỌC 2025 -- 2026}\\
+\textbf{MÔN: HÓA HỌC 10}\\
+\textit{Thời gian làm bài: 45 phút (không kể thời gian phát đề)}\\
+\textbf{MÃ ĐỀ: 1010}
+\end{minipage}
+
+\vspace{4pt}
+\noindent
+\textit{Họ và tên:} \dotfill \textit{Số báo danh:} \dotfill
+
+\vspace{3pt}
+\noindent
+\textit{\footnotesize Cho biết:}\\
+\textit{\footnotesize - Số hiệu nguyên tử: $\ce{Na}=11; \ce{Cl}=17; \ce{H}=1; \ce{C}=6; \ce{O}=8; \ce{Mg}=12; \ce{P}=15; \ce{Be}=4; \ce{Al}=13; \ce{S}=16; \ce{K}=19; \ce{N}=14; \ce{F}=9$.}\\
+\textit{\footnotesize - Nguyên tử khối: $\ce{Mg}=24; \ce{P}=31; \ce{O}=16; \ce{S}=32; \ce{H}=1; \ce{Na}=23; \ce{K}=39$.}
+
+\vspace{3pt}
+\hrule color{hfGreen} height 0.5pt
+
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\Large I. TRẮC NGHIỆM (7,0 ĐIỂM)}}
+
+\vspace{3pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn.}}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 12. Mỗi câu hỏi thí sinh chỉ chọn một phương án.}
+\vspace{2pt}
+
+\begin{ex}
+Để đạt quy tắc Octet, nguyên tử của nguyên tố sodium ($Z=11$) có xu hướng
+\choice
+{\True nhường 1 electron.}
+{nhận 1 electron.}
+{nhận 7 electron.}
+{nhường 3 electron.}
+\end{ex}
+\begin{ex}
+Nguyên tố $\ce{X}$ thuộc nhóm IVA trong Bảng tuần hoàn. Công thức oxide cao nhất của $\ce{X}$ là
+\choice
+{$\ce{X2O4}$}
+{$\ce{X2O}$}
+{$\ce{XO}$}
+{\True $\ce{XO2}$}
+\end{ex}
+\begin{ex}
+Nguyên tử có cấu tạo gồm hạt nhân và vỏ nguyên tử. Vỏ nguyên tử chứa loại hạt nào sau đây?
+\choice
+{Neutron}
+{\True Electron}
+{Proton}
+{Proton và neutron}
+\end{ex}
+\begin{ex}
+Đại lượng nào sau đây trong nguyên tử của các nguyên tố nhóm A biến đổi tuần hoàn theo chiều tăng của điện tích hạt nhân nguyên tử?
+\choice
+{Số electron trong nguyên tử}
+{Nguyên tử khối}
+{\True Số electron ở lớp ngoài cùng}
+{Số lớp electron}
+\end{ex}
+\begin{ex}
+Nguyên tố $\ce{X}$ thuộc nhóm VA trong Bảng tuần hoàn. $\ce{X}$ thuộc khối nguyên tố
+\choice
+{s}
+{d}
+{\True p}
+{f}
+\end{ex}
+\begin{ex}
+Lớp L có bao nhiêu phân lớp electron?
+\choice
+{4}
+{\True 2}
+{1}
+{3}
+\end{ex}
+\begin{ex}
+Trong một chu kì, theo chiều tăng của điện tích hạt nhân nguyên tử,
+\choice
+{bán kính nguyên tử và độ âm điện đều tăng.}
+{bán kính nguyên tử tăng, độ âm điện giảm.}
+{bán kính nguyên tử và độ âm điện đều giảm.}
+{\True bán kính nguyên tử giảm, độ âm điện tăng.}
+\end{ex}
+\begin{ex}
+Cho độ âm điện của các nguyên tố sau: $\ce{O}: 3,44; \ce{Cl}: 3,16; \ce{Al}: 1,61; \ce{F}: 3,98$. Nguyên tố nào có tính phi kim mạnh nhất?
+\choice
+{$\ce{O}$}
+{$\ce{Cl}$}
+{\True $\ce{F}$}
+{$\ce{Al}$}
+\end{ex}
+\begin{ex}
+Phân tử $\ce{O2}$ có công thức Lewis là $:\!\ddot{\ce{O}}=\ddot{\ce{O}}\!:$. Giữa 2 nguyên tử $\ce{O}$ có bao nhiêu cặp electron dùng chung?
+\choice
+{6}
+{1}
+{4}
+{\True 2}
+\end{ex}
+\begin{ex}
+Hợp chất nào sau đây là hợp chất ion?
+\choice
+{$\ce{Cl2}$}
+{$\ce{HCl}$}
+{$\ce{CO2}$}
+{\True $\ce{NaCl}$}
+\end{ex}
+\begin{ex}
+Nguyên tố hóa học là tập hợp những nguyên tử có cùng
+\choice
+{\True điện tích hạt nhân}
+{nguyên tử khối}
+{số neutron}
+{số khối}
+\end{ex}
+\begin{ex}
+Số nguyên tố có trong chu kì 3 của Bảng tuần hoàn là
+\choice
+{\True 8}
+{32}
+{18}
+{2}
+\end{ex}
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN II. Câu trắc nghiệm đúng sai.}}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 2. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}
+\vspace{2pt}
+
+\begin{ex}
+Cho $\ce{C} (Z=6)$ và $\ce{O} (Z=8)$; Độ âm điện của $\ce{C}$ là $2,55$ và $\ce{O}$ là $3,44$.
+\choiceTF
+{Liên kết hóa học trong phân tử $\ce{CO}$ là liên kết cộng hóa trị phân cực, trong đó 3 cặp electron dùng chung đều do 2 nguyên tử $\ce{C}$ và $\ce{O}$ cùng đóng góp bị lệch về phía nguyên tử $\ce{O}$}
+{\True $\ce{C}$ và $\ce{O}$ đều là các nguyên tố p}
+{\True Liên kết hóa học trong phân tử $\ce{O2}$ là liên kết cộng hóa trị không phân cực}
+{Phân tử $\ce{CO2}$ là phân tử phân cực do liên kết hóa học trong phân tử $\ce{CO2}$ là liên kết cộng hóa trị phân cực}
+\end{ex}
+\begin{ex}
+Cho $\ce{X} (Z=12); \ce{Y} (Z=15)$.
+\choiceTF
+{Hydroxide ứng với hóa trị cao nhất của $\ce{X}$ có dạng $\ce{X(OH)2}$ và có tính base. Hydroxide ứng với hóa trị cao nhất của $\ce{Y}$ có dạng $\ce{HYO4}$ và có tính acid}
+{\True $\ce{X}$ là kim loại, $\ce{Y}$ là phi kim}
+{\True $\ce{X}$ và $\ce{Y}$ là 2 nguyên tố thuộc cùng 1 chu kì}
+{Trong công thức oxide cao nhất của $\ce{Y}$ có chứa thành phần phần trăm theo khối lượng của $\ce{Y}$ là 46,36\%}
+\end{ex}
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN III. Câu trắc nghiệm trả lời ngắn.}}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 4. Thí sinh điền kết quả vào ô trả lời tương ứng.}
+\vspace{2pt}
+
+\begin{ex}
+Cho các nguyên tố được đánh số thứ tự (1), (2), (3), (4) cùng số hiệu nguyên tử của các nguyên tố đó như sau: (1) ($Z=11$); (2) ($Z=19$); (3) ($Z=13$); (4) ($Z=17$). Hãy sắp xếp các nguyên tố trên theo chiều tăng dần tính kim loại. Biểu diễn kết quả bằng số thứ tự ứng với các nguyên tố (ví dụ: 1234, 3241,...).
+
+\noindent\textit{Trả lời:} \dotfill
+\end{ex}
+\begin{ex}
+Cho 2 nguyên tố: oxygen ($Z = 8$) và phosphorus ($Z = 15$). Số electron có trong anion $\ce{PO4^3-}$ là bao nhiêu?
+
+\noindent\textit{Trả lời:} \dotfill
+\end{ex}
+\begin{ex}
+Trong tự nhiên, magnesium có 3 đồng vị bền là $^{24}\ce{Mg}$, $^{25}\ce{Mg}$ và $^{26}\ce{Mg}$. Phương pháp phổ khối lượng xác nhận đồng vị $^{26}\ce{Mg}$ chiếm tỉ lệ phần trăm số nguyên tử là 11\%. Biết rằng nguyên tử khối trung bình của $\ce{Mg}$ là 24,32. Phần trăm số nguyên tử của đồng vị $^{25}\ce{Mg}$ là bao nhiêu?
+
+\noindent\textit{Trả lời:} \dotfill
+\end{ex}
+\begin{ex}
+Cho các phân tử sau: $\ce{BeH2}$, $\ce{AlCl3}$, $\ce{PCl5}$, $\ce{HCl}$. Có bao nhiêu phân tử có các nguyên tử đều đạt cấu hình electron bão hòa theo quy tắc Octet?
+
+\noindent\textit{Trả lời:} \dotfill
+\end{ex}
+\vspace{6pt}
+\noindent
+{\color{mainGreen}\textbf{\Large II. TỰ LUẬN (3,0 ĐIỂM)}}
+\vspace{2pt}
+
+\noindent
+\textbf{Câu 1: (1,0 điểm)} $\ce{X}$ là nguyên tố phổ biến thứ 17 trong vỏ Trái Đất, tồn tại ở bốn dạng đồng vị bền. Trong cơ thể người, $\ce{X}$ chiếm 0,2\% khối lượng và là thành phần quan trọng của nhiều protein và enzyme. Nguyên tử của nguyên tố $\ce{X}$ có cấu hình electron lớp ngoài cùng là $\ce{[Ne] 3s^2 3p^4}$. Hãy xác định vị trí của nguyên tố này trong bảng tuần hoàn (có giải thích) và cho biết tính chất của nó.
+
+\vspace{1pt}
+\noindent
+\multido{\n=1+1}{6}{\dotfill\\[4pt]}
+
+\vspace{4pt}
+\noindent
+\textbf{Câu 2: (1,0 điểm)} Nguyên tố $\ce{X}$ tích lũy trong các tế bào thực vật nên rau và trái cây tươi là nguồn cung cấp tốt nguyên tố $\ce{X}$ cho cơ thể. Các nghiên cứu chỉ ra khẩu phần ăn chứa nhiều $\ce{X}$ có thể giảm nguy cơ cao huyết áp và đột quỵ. $\ce{Y}$ là nguyên tố hóa học có trong thành phần của chất có tác dụng oxi hóa và sát khuẩn cực mạnh, thường được sử dụng với mục đích khử trùng và tẩy trắng trong lĩnh vực thủy sản, dệt nhuộm, xử lí nước cấp, nước thải, nước bể bơi. Nguyên tử của nguyên tố $\ce{X}$ có 7 electron trên các phân lớp s; còn nguyên tử của nguyên tố $\ce{Y}$ có 3 lớp electron và có 7 electron ở lớp ngoài cùng.\\
+a. Phân tử tạo thành bởi $\ce{X}$ và $\ce{Y}$ có công thức là gì?\\
+b. Xác định loại liên kết và biểu diễn sự hình thành liên kết trong phân tử được tạo thành bởi $\ce{X}$ và $\ce{Y}$.
+
+\vspace{1pt}
+\noindent
+\multido{\n=1+1}{7}{\dotfill\\[4pt]}
+
+\vspace{4pt}
+\noindent
+\textbf{Câu 3: (1,0 điểm)} $\ce{X}$ và $\ce{Y}$ là hai nguyên tố thuộc chu kì nhỏ, ở hai nhóm A kế tiếp nhau trong bảng tuần hoàn. Ở trạng thái đơn chất, $\ce{X}$ và $\ce{Y}$ phản ứng được với nhau. Tổng số proton trong hạt nhân nguyên tử của $\ce{X}$ và $\ce{Y}$ là 23. Biết rằng $\ce{X}$ đứng sau $\ce{Y}$ trong bảng tuần hoàn. Xác định tên nguyên tố $\ce{X}$ và $\ce{Y}$.
+
+\vspace{1pt}
+\noindent
+\multido{\n=1+1}{7}{\dotfill\\[4pt]}
+
+\vspace{6pt}
+\begin{center}
+\textbf{\large ---------- HẾT ----------}
+\end{center}
+
+\end{document}
