@@ -239,6 +239,36 @@ Script tái tạo: `scripts/ve_so_do_salicin.py`.
 - `San_Pham/Thi_Nghiem_Binh_Tam_Giac_Bong_Bay/thi_nghiem_binh_tam_giac_bong_bay.tex`: Mã nguồn TikZ vẽ thí nghiệm bình tam giác gắn bóng bay.
 - `San_Pham/Thi_Nghiem_Co_Le_Bu_Long/thi_nghiem_co_le_bu_long.tex`: Mã nguồn TikZ vẽ 3 cờ lê và bu lông minh họa mômen lực.
 - `San_Pham/Cong_Thuc_NH3/cong_thuc_lewis_nh3_refined.tex`: Mã nguồn TikZ vẽ bộ 4 công thức Lewis của NH3.
+- `scripts/ve_bang_do_am_dien.py`: Tự động biên dịch và trích xuất bảng giá trị độ âm điện các nguyên tố (Pauling).
+
+---
+
+## 9. BẢNG GIÁ TRỊ ĐỘ ÂM ĐIỆN CỦA MỘT SỐ NGUYÊN TỐ (PAULING)
+- **Ý nghĩa Hóa học:** Bảng số liệu độ âm điện chuẩn của 10 nguyên tố phục vụ xác định loại liên kết hóa học (ion, cộng hóa trị phân cực, không phân cực):
+  - $\text{Na}: 0{,}93 \quad \text{H}: 2{,}20 \quad \text{Cl}: 3{,}16 \quad \text{C}: 2{,}55 \quad \text{O}: 3{,}44$
+  - $\text{S}: 2{,}58 \quad \text{N}: 3{,}04 \quad \text{Ca}: 1{,}00 \quad \text{Br}: 2{,}96 \quad \text{K}: 0{,}82$
+- **Đường dẫn ảnh & Vector:**
+  - Bản tiêu chuẩn (300 DPI): `San_Pham/Bang_Do_Am_Dien/bang_do_am_dien.png`
+  - Bản trong suốt (Transparent): `San_Pham/Bang_Do_Am_Dien/bang_do_am_dien_transparent.png`
+  - Bản cực nét (600 DPI): `San_Pham/Bang_Do_Am_Dien/bang_do_am_dien_hd.png`
+  - Bản vector PDF: `San_Pham/Bang_Do_Am_Dien/bang_do_am_dien.pdf`
+  - Bản vector SVG: `San_Pham/Bang_Do_Am_Dien/bang_do_am_dien.svg`
+  - Bản kèm chữ dẫn: `San_Pham/Bang_Do_Am_Dien/bang_do_am_dien_kem_chu.png`
+- **Mã nguồn LaTeX:**
+  ```latex
+  \newcolumntype{C}{>{\centering\arraybackslash}p{1.2cm}}
+  \renewcommand{\arraystretch}{1.55}
+  \setlength{\tabcolsep}{0pt}
+  \begin{tabular}{|*{10}{C|}}
+  \hline
+  \textbf{\large Na} & \textbf{\large H} & \textbf{\large Cl} & \textbf{\large C} & \textbf{\large O} & \textbf{\large S} & \textbf{\large N} & \textbf{\large Ca} & \textbf{\large Br} & \textbf{\large K} \\
+  \hline
+  \large 0,93 & \large 2,20 & \large 3,16 & \large 2,55 & \large 3,44 & \large 2,58 & \large 3,04 & \large 1,00 & \large 2,96 & \large 0,82 \\
+  \hline
+  \end{tabular}
+  ```
+- **Script sinh hình ảnh:** `scripts/ve_bang_do_am_dien.py`.
+
 
 
 

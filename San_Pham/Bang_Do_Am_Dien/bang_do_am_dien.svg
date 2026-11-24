@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 584 76" width="584" height="76">
+  <rect x="2" y="2" width="580" height="72" fill="#ffffff" stroke="#000000" stroke-width="1.2" />
+  <line x1="2" y1="38" x2="582" y2="38" stroke="#000000" stroke-width="1" />
+  <text x="31.0" y="27" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-weight="bold" font-size="20" fill="#000000">Na</text>
+  <text x="31.0" y="62" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-size="18" fill="#000000">0,93</text>
+  <line x1="60" y1="2" x2="60" y2="74" stroke="#000000" stroke-width="1" />
+  <text x="89.0" y="27" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-weight="bold" font-size="20" fill="#000000">H</text>
+  <text x="89.0" y="62" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-size="18" fill="#000000">2,20</text>
+  <line x1="118" y1="2" x2="118" y2="74" stroke="#000000" stroke-width="1" />
+  <text x="147.0" y="27" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-weight="bold" font-size="20" fill="#000000">Cl</text>
+  <text x="147.0" y="62" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-size="18" fill="#000000">3,16</text>
+  <line x1="176" y1="2" x2="176" y2="74" stroke="#000000" stroke-width="1" />
+  <text x="205.0" y="27" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-weight="bold" font-size="20" fill="#000000">C</text>
+  <text x="205.0" y="62" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-size="18" fill="#000000">2,55</text>
+  <line x1="234" y1="2" x2="234" y2="74" stroke="#000000" stroke-width="1" />
+  <text x="263.0" y="27" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-weight="bold" font-size="20" fill="#000000">O</text>
+  <text x="263.0" y="62" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-size="18" fill="#000000">3,44</text>
+  <line x1="292" y1="2" x2="292" y2="74" stroke="#000000" stroke-width="1" />
+  <text x="321.0" y="27" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-weight="bold" font-size="20" fill="#000000">S</text>
+  <text x="321.0" y="62" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-size="18" fill="#000000">2,58</text>
+  <line x1="350" y1="2" x2="350" y2="74" stroke="#000000" stroke-width="1" />
+  <text x="379.0" y="27" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-weight="bold" font-size="20" fill="#000000">N</text>
+  <text x="379.0" y="62" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-size="18" fill="#000000">3,04</text>
+  <line x1="408" y1="2" x2="408" y2="74" stroke="#000000" stroke-width="1" />
+  <text x="437.0" y="27" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-weight="bold" font-size="20" fill="#000000">Ca</text>
+  <text x="437.0" y="62" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-size="18" fill="#000000">1,00</text>
+  <line x1="466" y1="2" x2="466" y2="74" stroke="#000000" stroke-width="1" />
+  <text x="495.0" y="27" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-weight="bold" font-size="20" fill="#000000">Br</text>
+  <text x="495.0" y="62" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-size="18" fill="#000000">2,96</text>
+  <line x1="524" y1="2" x2="524" y2="74" stroke="#000000" stroke-width="1" />
+  <text x="553.0" y="27" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-weight="bold" font-size="20" fill="#000000">K</text>
+  <text x="553.0" y="62" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-size="18" fill="#000000">0,82</text>
+</svg>
