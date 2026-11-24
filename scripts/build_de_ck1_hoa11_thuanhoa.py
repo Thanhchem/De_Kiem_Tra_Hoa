@@ -2,7 +2,7 @@
 """
 Script tạo Đề Kiểm Tra Cuối Kì 1 - Hóa học 11 - Trường THPT Thuận Hóa (Năm học 2025-2026)
 Chuẩn theo Quy chuẩn Form Đề Kiểm Tra của Thầy TRẦN VĂN THẠNH
-Tạo 2 phiên bản: Bản Học Sinh & Bản Giáo Viên (có đáp án đậm đỏ & lời giải chi tiết)
+Tạo 2 phiên bản: Bản Học Sinh & Bản Giáo Viên (có BẢNG ĐÁP ÁN RÚT GỌN BAO GỒM CẢ TỰ LUẬN & lời giải chi tiết)
 """
 
 import os
@@ -10,6 +10,9 @@ import sys
 from docx import Document
 from docx.shared import Inches, Pt, Cm, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.enum.table import WD_TABLE_ALIGNMENT, WD_ALIGN_VERTICAL
+from docx.oxml import parse_xml
+from docx.oxml.ns import nsdecls
 
 # Import module form_de_kiem_tra
 sys.path.append(os.path.join(os.path.dirname(__file__)))
@@ -24,14 +27,231 @@ from form_de_kiem_tra import (
     add_student_writing_lines,
     render_rich_text,
     set_run_style,
+    add_p_border_bottom,
+    COLOR_PRIMARY,
     COLOR_CORRECT,
-    COLOR_SOLUTION
+    COLOR_SOLUTION,
+    COLOR_GRAY
 )
 
 # Thư mục lưu trữ hình ảnh và sản phẩm
 DIR_IMAGES = os.path.abspath("San_Pham/images_ck1_hoa11_thuanhoa")
 DIR_SAN_PHAM = os.path.abspath("San_Pham")
 os.makedirs(DIR_SAN_PHAM, exist_ok=True)
+
+def set_cell_border(cell, **kwargs):
+    """Cài đặt viền cho ô bảng."""
+    tcPr = cell._tc.get_or_add_tcPr()
+    tcBorders = parse_xml(f'<w:tcBorders {nsdecls("w")}/>')
+    for edge in ('top', 'left', 'bottom', 'right', 'insideH', 'insideV'):
+        edge_data = kwargs.get(edge)
+        if edge_data:
+            val, sz, space, color = edge_data
+            tag = f'<w:{edge} {nsdecls("w")} w:val="{val}" w:sz="{sz}" w:space="{space}" w:color="{color}"/>'
+            tcBorders.append(parse_xml(tag))
+    tcPr.append(tcBorders)
+
+def set_cell_shading(cell, color_hex):
+    """Tô màu nền cho ô bảng."""
+    tcPr = cell._tc.get_or_add_tcPr()
+    shd = parse_xml(f'<w:shd {nsdecls("w")} w:fill="{color_hex}"/>')
+    tcPr.append(shd)
+
+def add_quick_answer_table_thuanhoa(doc):
+    """
+    Thêm BẢNG ĐÁP ÁN RÚT GỌN (BAO GỒM CẢ TỰ LUẬN) cho Giáo viên ở đầu tài liệu Đề THPT Thuận Hóa.
+    Bố trí khoa học, trang nhã, đúng kích thước lề 18.0 cm.
+    """
+    p_title = doc.add_paragraph()
+    p_title.paragraph_format.space_before = Pt(6)
+    p_title.paragraph_format.space_after = Pt(4)
+    p_title.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    render_rich_text(p_title, "*BẢNG ĐÁP ÁN RÚT GỌN (DÀNH CHO GIÁO VIÊN - THPT THUẬN HÓA)*", base_size=12, base_bold=True, base_color=COLOR_CORRECT)
+
+    # 1. PHẦN I (18 câu - chia 2 bảng 9 câu để bố cục thoáng đẹp)
+    p_p1 = doc.add_paragraph()
+    p_p1.paragraph_format.space_before = Pt(4)
+    p_p1.paragraph_format.space_after = Pt(2)
+    render_rich_text(p_p1, "*1. PHẦN I: TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN LỰA CHỌN (4,5 ĐIỂM - MỖI CÂU 0,25 Đ)*", base_size=10.5, base_bold=True, base_color=COLOR_PRIMARY)
+
+    tbl1 = doc.add_table(rows=4, cols=10)
+    tbl1.alignment = WD_TABLE_ALIGNMENT.CENTER
+    tbl1.autofit = False
+
+    headers_row1 = ["Câu", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+    answers_row1 = ["Đ/A", "A", "D", "B", "B", "D", "C", "D", "D", "B"]
+    headers_row2 = ["Câu", "10", "11", "12", "13", "14", "15", "16", "17", "18"]
+    answers_row2 = ["Đ/A", "C", "C", "D", "B", "C", "B", "B", "B", "D"]
+
+    w1_c0 = Cm(1.8)
+    w1_c = Cm(1.8)
+
+    for r_idx, r_data in enumerate([headers_row1, answers_row1, headers_row2, answers_row2]):
+        row = tbl1.rows[r_idx]
+        is_header = (r_idx in [0, 2])
+        for c_idx, val in enumerate(r_data):
+            cell = row.cells[c_idx]
+            cell.width = w1_c0 if c_idx == 0 else w1_c
+            cell.vertical_alignment = WD_ALIGN_VERTICAL.CENTER
+            p = cell.paragraphs[0]
+            p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            p.paragraph_format.space_before = Pt(2)
+            p.paragraph_format.space_after = Pt(2)
+
+            if is_header:
+                set_cell_shading(cell, "E8F5E9")
+                render_rich_text(p, f"*{val}*", base_size=9.5, base_bold=True, base_color=COLOR_PRIMARY)
+            else:
+                is_label = (c_idx == 0)
+                set_cell_shading(cell, "F5F5F5" if is_label else "FFFFFF")
+                c_color = COLOR_PRIMARY if is_label else COLOR_CORRECT
+                render_rich_text(p, f"*{val}*", base_size=10, base_bold=True, base_color=c_color)
+
+            set_cell_border(cell,
+                            top=("single", "4", "0", "8BC390"),
+                            bottom=("single", "4", "0", "8BC390"),
+                            left=("single", "4", "0", "8BC390"),
+                            right=("single", "4", "0", "8BC390"))
+
+    # 2. PHẦN II (2 câu - 2,0 điểm)
+    p_p2 = doc.add_paragraph()
+    p_p2.paragraph_format.space_before = Pt(5)
+    p_p2.paragraph_format.space_after = Pt(2)
+    render_rich_text(p_p2, "*2. PHẦN II: TRẮC NGHIỆM ĐÚNG SAI (2,0 ĐIỂM - MỖI CÂU 1,0 Đ)*", base_size=10.5, base_bold=True, base_color=COLOR_PRIMARY)
+
+    tbl2 = doc.add_table(rows=3, cols=6)
+    tbl2.alignment = WD_TABLE_ALIGNMENT.CENTER
+    tbl2.autofit = False
+
+    tbl2_data = [
+        ["Câu hỏi", "Nội dung câu hỏi", "Lệnh a", "Lệnh b", "Lệnh c", "Lệnh d"],
+        ["Câu 1", "Tẩy rửa vết sơn móng tay và mực bút bi trên áo", "ĐÚNG", "SAI", "ĐÚNG", "SAI"],
+        ["Câu 2", "Thí nghiệm độ dẫn điện (Ethanol, KCl, Acetic acid)", "ĐÚNG", "ĐÚNG", "SAI", "SAI"]
+    ]
+
+    w2_widths = [Cm(2.0), Cm(6.0), Cm(2.5), Cm(2.5), Cm(2.5), Cm(2.5)]
+
+    for r_idx, row_vals in enumerate(tbl2_data):
+        row = tbl2.rows[r_idx]
+        for c_idx, val in enumerate(row_vals):
+            cell = row.cells[c_idx]
+            cell.width = w2_widths[c_idx]
+            cell.vertical_alignment = WD_ALIGN_VERTICAL.CENTER
+            p = cell.paragraphs[0]
+            p.alignment = WD_ALIGN_PARAGRAPH.CENTER if c_idx != 1 else WD_ALIGN_PARAGRAPH.LEFT
+            p.paragraph_format.space_before = Pt(2)
+            p.paragraph_format.space_after = Pt(2)
+
+            if r_idx == 0:
+                set_cell_shading(cell, "E8F5E9")
+                render_rich_text(p, f"*{val}*", base_size=9.5, base_bold=True, base_color=COLOR_PRIMARY)
+            else:
+                is_label = (c_idx < 2)
+                set_cell_shading(cell, "F5F5F5" if is_label else "FFFFFF")
+                if is_label:
+                    c_color = COLOR_PRIMARY if c_idx == 0 else RGBColor(0, 0, 0)
+                else:
+                    c_color = COLOR_CORRECT if val == "ĐÚNG" else COLOR_GRAY
+                render_rich_text(p, f"*{val}*", base_size=9.5, base_bold=True, base_color=c_color)
+
+            set_cell_border(cell,
+                            top=("single", "4", "0", "8BC390"),
+                            bottom=("single", "4", "0", "8BC390"),
+                            left=("single", "4", "0", "8BC390"),
+                            right=("single", "4", "0", "8BC390"))
+
+    # 3. PHẦN III (4 câu - 2,0 điểm)
+    p_p3 = doc.add_paragraph()
+    p_p3.paragraph_format.space_before = Pt(5)
+    p_p3.paragraph_format.space_after = Pt(2)
+    render_rich_text(p_p3, "*3. PHẦN III: TRẮC NGHIỆM TRẢ LỜI NGẮN (2,0 ĐIỂM - MỖI CÂU 0,5 Đ)*", base_size=10.5, base_bold=True, base_color=COLOR_PRIMARY)
+
+    tbl3 = doc.add_table(rows=2, cols=5)
+    tbl3.alignment = WD_TABLE_ALIGNMENT.CENTER
+    tbl3.autofit = False
+
+    tbl3_headers = ["Câu", "Câu 1", "Câu 2", "Câu 3", "Câu 4"]
+    tbl3_answers = ["Đáp án", "19", "6", "3", "4"]
+
+    w3_c0 = Cm(2.4)
+    w3_c = Cm(3.9)
+
+    for r_idx, row_vals in enumerate([tbl3_headers, tbl3_answers]):
+        row = tbl3.rows[r_idx]
+        for c_idx, val in enumerate(row_vals):
+            cell = row.cells[c_idx]
+            cell.width = w3_c0 if c_idx == 0 else w3_c
+            cell.vertical_alignment = WD_ALIGN_VERTICAL.CENTER
+            p = cell.paragraphs[0]
+            p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            p.paragraph_format.space_before = Pt(2)
+            p.paragraph_format.space_after = Pt(2)
+
+            if r_idx == 0:
+                set_cell_shading(cell, "E8F5E9")
+                render_rich_text(p, f"*{val}*", base_size=9.5, base_bold=True, base_color=COLOR_PRIMARY)
+            else:
+                is_label = (c_idx == 0)
+                set_cell_shading(cell, "F5F5F5" if is_label else "FFFFFF")
+                c_color = COLOR_PRIMARY if is_label else COLOR_CORRECT
+                render_rich_text(p, f"*{val}*", base_size=10, base_bold=True, base_color=c_color)
+
+            set_cell_border(cell,
+                            top=("single", "4", "0", "8BC390"),
+                            bottom=("single", "4", "0", "8BC390"),
+                            left=("single", "4", "0", "8BC390"),
+                            right=("single", "4", "0", "8BC390"))
+
+    # 4. TÓM TẮT ĐÁP SỐ PHẦN TỰ LUẬN (1,5 điểm)
+    p_tl = doc.add_paragraph()
+    p_tl.paragraph_format.space_before = Pt(5)
+    p_tl.paragraph_format.space_after = Pt(2)
+    render_rich_text(p_tl, "*4. TÓM TẮT ĐÁP SỐ PHẦN TỰ LUẬN (1,5 ĐIỂM)*", base_size=10.5, base_bold=True, base_color=COLOR_PRIMARY)
+
+    tbl4 = doc.add_table(rows=4, cols=3)
+    tbl4.alignment = WD_TABLE_ALIGNMENT.CENTER
+    tbl4.autofit = False
+
+    tbl4_data = [
+        ("Câu", "Điểm", "Đáp số cốt lõi & Hướng dẫn chấm"),
+        ("Câu 1", "0,5 đ", "• %O = 26,7% ⇒ Tỉ lệ C : H : O = 3 : 8 : 1 ⇒ Công thức đơn giản nhất: C~3~H~8~O.\n• Pic ion phân tử [M^+^] trên phổ khối lượng MS có m/z = 60 ⇒ M = 60.\n• Công thức phân tử của hợp chất A là C~3~H~8~O."),
+        ("Câu 2", "0,5 đ", "• Thể tích nước mưa rơi xuống KCN: V = 10 km^2^ × 80 mm = 800.000 m^3^ = 8.10^8^ lít.\n• Số mol H~2~SO~4~: n = 2.10^-5^ × 8.10^8^ = 16.000 mol.\n• Khối lượng H~2~SO~4~ trong nước mưa: m = 16.000 × 98 = 1.568.000 g = 1.568 kg (hay 1,568 tấn)."),
+        ("Câu 3", "0,5 đ", "• Hằng số cân bằng: K~c~ = ([HbCO] × [O~2~]) / ([HbO~2~] × [CO]) = 170.\n• Tỉ lệ hòa tan trong máu: [O~2~] / [CO] = 20,0% / 0,1% = 200.\n• Tỉ lệ giữa HbCO và HbO~2~ trong máu: [HbCO] / [HbO~2~] = 170 / 200 = 0,85 (hay 85%).")
+    ]
+
+    w4_widths = [Cm(2.0), Cm(1.8), Cm(14.2)]
+
+    for r_idx, row_vals in enumerate(tbl4_data):
+        row = tbl4.rows[r_idx]
+        for c_idx, val in enumerate(row_vals):
+            cell = row.cells[c_idx]
+            cell.width = w4_widths[c_idx]
+            cell.vertical_alignment = WD_ALIGN_VERTICAL.CENTER
+            p = cell.paragraphs[0]
+            p.alignment = WD_ALIGN_PARAGRAPH.CENTER if c_idx < 2 else WD_ALIGN_PARAGRAPH.LEFT
+            p.paragraph_format.space_before = Pt(2)
+            p.paragraph_format.space_after = Pt(2)
+
+            if r_idx == 0:
+                set_cell_shading(cell, "E8F5E9")
+                render_rich_text(p, f"*{val}*", base_size=9.5, base_bold=True, base_color=COLOR_PRIMARY)
+            else:
+                is_label = (c_idx < 2)
+                set_cell_shading(cell, "F5F5F5" if is_label else "FFFFFF")
+                c_color = COLOR_PRIMARY if is_label else RGBColor(0, 0, 0)
+                render_rich_text(p, val, base_size=9.5, base_bold=is_label, base_color=c_color)
+
+            set_cell_border(cell,
+                            top=("single", "4", "0", "8BC390"),
+                            bottom=("single", "4", "0", "8BC390"),
+                            left=("single", "4", "0", "8BC390"),
+                            right=("single", "4", "0", "8BC390"))
+
+    p_div = doc.add_paragraph()
+    p_div.paragraph_format.space_before = Pt(4)
+    p_div.paragraph_format.space_after = Pt(6)
+    add_p_border_bottom(p_div, color="8BC390", sz="6")
+
 
 # Dữ liệu Đề thi
 DATA_EXAM = {
@@ -349,7 +569,11 @@ def generate_exam_doc(is_teacher=False):
         is_teacher=is_teacher
     )
 
-    # 2. PHẦN I
+    # 2. BẢNG ĐÁP ÁN RÚT GỌN (Chỉ hiển thị ở Bản Giáo Viên)
+    if is_teacher:
+        add_quick_answer_table_thuanhoa(doc)
+
+    # 3. PHẦN I
     add_section_header(
         doc,
         "PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn.",
@@ -383,7 +607,7 @@ def generate_exam_doc(is_teacher=False):
         if is_teacher and "solution" in q:
             add_solution_no_table(doc, q["solution"])
 
-    # 3. PHẦN II
+    # 4. PHẦN II
     add_section_header(
         doc,
         "PHẦN II. Câu trắc nghiệm đúng sai.",
@@ -415,7 +639,7 @@ def generate_exam_doc(is_teacher=False):
         if is_teacher and "solution" in q:
             add_solution_no_table(doc, q["solution"])
 
-    # 4. PHẦN III
+    # 5. PHẦN III
     add_section_header(
         doc,
         "PHẦN III. Câu trắc nghiệm yêu cầu trả lời ngắn.",
@@ -437,7 +661,7 @@ def generate_exam_doc(is_teacher=False):
         else:
             render_rich_text(p_ans, "*Trả lời:* ....................................................................")
 
-    # 5. PHẦN IV
+    # 6. PHẦN IV
     add_section_header(
         doc,
         "PHẦN IV. Tự luận.",
@@ -473,8 +697,11 @@ def generate_exam_doc(is_teacher=False):
     # Lưu file
     suffix = "GiaoVien" if is_teacher else "HocSinh"
     out_file = os.path.join(DIR_SAN_PHAM, f"De_Kiem_Tra_CK1_Hoa_11_Thuan_Hoa_{suffix}.docx")
-    doc.save(out_file)
-    print(f"Đã tạo thành công: {out_file}")
+    try:
+        doc.save(out_file)
+        print(f"Đã tạo thành công: {out_file}")
+    except PermissionError:
+        print(f"File {out_file} đang mở trong ứng dụng khác, bỏ qua cập nhật file này.")
     return out_file
 
 if __name__ == "__main__":
