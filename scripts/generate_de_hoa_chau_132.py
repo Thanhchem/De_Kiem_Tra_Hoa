@@ -45,49 +45,11 @@ def create_exam_file(is_teacher=False, output_path=""):
     )
 
     # -------------------------------------------------------------
-    # BẢNG ĐÁP ÁN RÚT GỌN (DÀNH CHO BẢN GIÁO VIÊN)
+    # BẢNG ĐÁP ÁN RÚT GỌN (DÀNH CHO BẢN GIÁO VIÊN THEO MẪU ẢNH CHUẨN)
     # -------------------------------------------------------------
     if is_teacher:
-        p_ans_title = doc.add_paragraph()
-        p_ans_title.paragraph_format.space_before = Pt(4)
-        p_ans_title.paragraph_format.space_after = Pt(2)
-        render_rich_text(p_ans_title, "*BẢNG ĐÁP ÁN RÚT GỌN (TRẮC NGHIỆM & TỰ LUẬN)*", base_size=11, base_bold=True, base_color=COLOR_PRIMARY)
-
-        # Bảng đáp án trắc nghiệm Phần I
-        p_p1 = doc.add_paragraph()
-        p_p1.paragraph_format.space_before = Pt(2)
-        p_p1.paragraph_format.space_after = Pt(1)
-        render_rich_text(p_p1, "*Phần I (Mỗi câu 0,25 điểm):*", base_size=10, base_bold=True)
-
-        tbl1 = doc.add_table(rows=2, cols=12)
-        tbl1.alignment = WD_TABLE_ALIGNMENT.CENTER
-        ans_p1 = ["1. B", "2. C", "3. D", "4. B", "5. C", "6. D", "7. C", "8. B", "9. D", "10. D", "11. A", "12. A"]
-        for col_idx in range(12):
-            cell_top = tbl1.cell(0, col_idx)
-            cell_top.text = f"C{col_idx+1}"
-            cell_top.paragraphs[0].alignment = WD_ALIGN_PARAGRAPH.CENTER
-            set_run_style(cell_top.paragraphs[0].runs[0], font_size=9.5, bold=True)
-
-            cell_bot = tbl1.cell(1, col_idx)
-            cell_bot.text = ans_p1[col_idx].split(". ")[1]
-            cell_bot.paragraphs[0].alignment = WD_ALIGN_PARAGRAPH.CENTER
-            set_run_style(cell_bot.paragraphs[0].runs[0], font_size=9.5, bold=True, color=COLOR_CORRECT)
-
-        # Đáp án Phần II & Phần III & Phần Tự luận
-        p_p2 = doc.add_paragraph()
-        p_p2.paragraph_format.space_before = Pt(3)
-        p_p2.paragraph_format.space_after = Pt(1)
-        render_rich_text(p_p2, "*Phần II (Đúng/Sai):* Câu 1: *a-S, b-Đ, c-S, d-S*  |  Câu 2: *a-Đ, b-S, c-Đ, d-S*", base_size=9.5)
-
-        p_p3 = doc.add_paragraph()
-        p_p3.paragraph_format.space_before = Pt(1)
-        p_p3.paragraph_format.space_after = Pt(1)
-        render_rich_text(p_p3, "*Phần III (Trả lời ngắn):* C1: *2* | C2: *9* | C3: *108* | C4: *8* | C5: *3* | C6: *14* | C7: *6* | C8: *16*", base_size=9.5)
-
-        p_p4 = doc.add_paragraph()
-        p_p4.paragraph_format.space_before = Pt(1)
-        p_p4.paragraph_format.space_after = Pt(4)
-        render_rich_text(p_p4, "*Phần Tự luận:* Câu 1: *NH~3~ (CHT phân cực); H~2~S (CHT không phân cực); Cl~2~ (CHT không phân cực); CO (CHT phân cực + cho nhận)*  |  Câu 2: *Ca (Ô 20, CK 4, nhóm IIA); Tính kim loại: K > Ca > Mg*", base_size=9.5)
+        from build_bang_dap_an_rut_gon import add_styled_answer_block, EXAMS_DATA
+        add_styled_answer_block(doc, EXAMS_DATA[1])
 
     # -------------------------------------------------------------
     # PHẦN I
