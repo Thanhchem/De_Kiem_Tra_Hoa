@@ -1,0 +1,817 @@
+# -*- coding: utf-8 -*-
+"""
+Script tạo file LaTeX và biên dịch PDF cho Đề Kiểm Tra Cuối Học Kì I Hóa Học 11 - THPT Cao Thắng - Huế
+Mã đề: 324 - Năm học 2024 - 2025
+Chuẩn FORM ĐỀ KIỂM TRA (Thầy TRẦN VĂN THẠNH)
+Sinh cả 2 phiên bản:
+1. Bản Học sinh: De_Kiem_Tra_CK1_Hoa_11_CaoThang_Ma324_HocSinh.pdf
+2. Bản Giáo viên: De_Kiem_Tra_CK1_Hoa_11_CaoThang_Ma324_GiaoVien.pdf (Kèm bảng đáp án rút gọn và lời giải chi tiết)
+"""
+
+import os
+import sys
+import subprocess
+import glob
+
+if sys.stdout.encoding.lower() != 'utf-8':
+    try:
+        sys.stdout.reconfigure(encoding='utf-8')
+    except Exception:
+        pass
+
+SAN_PHAM_DIR = os.path.abspath("San_Pham")
+DIR_IMAGES = os.path.join(SAN_PHAM_DIR, "images_de324")
+
+def build_latex_content(is_teacher=False):
+    tex = []
+    tex.append(r"""\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{geometry}
+\geometry{top=1.5cm,bottom=1.2cm,left=1.4cm,right=1.4cm,headheight=28pt,headsep=12pt,footskip=18pt}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{multido}
+\usepackage{tcolorbox}
+
+\definecolor{hfRed}{HTML}{D32F2F}
+\definecolor{hfGreen}{HTML}{8BC390}
+\definecolor{mainGreen}{HTML}{2E7D32}
+\definecolor{solBlue}{HTML}{1565C0}
+\definecolor{tableGreen}{HTML}{E8F5E9}
+
+\usepackage{ex_test}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.75pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0.75pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+
+\fancyhead[L]{\small\itshape\color{hfRed}Tài liệu lưu hành nội bộ}
+\fancyhead[R]{\small\color{hfRed}Thầy \textbf{TRẦN VĂN THẠNH} - 0777.470.803}
+
+\fancyfoot[L]{\footnotesize\itshape\color{hfRed}CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+\fancyfoot[R]{\small\textbf{\color{hfRed}Trang \thepage}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+
+\begin{document}
+
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{SỞ GIÁO DỤC \& ĐÀO TẠO}\\
+\textbf{TRƯỜNG THPT CAO THẮNG}\\
+\textit{ĐỀ CHÍNH THỨC}\\
+\textit{(Đề thi có 04 trang)}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\raggedleft
+\textbf{\color{hfRed}ĐỀ KIỂM TRA CUỐI KÌ 1}\\
+\textbf{NĂM HỌC 2024 -- 2025}\\
+\textbf{MÔN: HÓA HỌC 11}\\
+\textit{Thời gian làm bài: 45 phút (không kể thời gian giao đề)}\\
+\textbf{MÃ ĐỀ: 324}
+\end{minipage}
+
+\vspace{4pt}
+\noindent
+\textit{Họ và tên:} \dotfill \textit{Số báo danh:} \dotfill
+
+\vspace{3pt}
+\noindent
+\textit{\footnotesize Cho biết nguyên tử khối: $\ce{H}=1;\ \ce{O}=16;\ \ce{C}=12;\ \ce{N}=14;\ \ce{Ca}=40;\ \ce{Fe}=56;\ \ce{S}=32;\ \ce{P}=31$.}
+
+\vspace{3pt}
+\hrule color{hfGreen} height 0.5pt
+""")
+
+    if is_teacher:
+        # BẢNG ĐÁP ÁN RÚT GỌN CHO GIÁO VIÊN
+        tex.append(r"""
+\vspace{6pt}
+\begin{center}
+{\Large\textbf{\color{hfRed}BẢNG ĐÁP ÁN RÚT GỌN (DÀNH CHO GIÁO VIÊN -- MÃ ĐỀ 324)}}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}1. Phần I: Trắc nghiệm nhiều phương án lựa chọn (3,5 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} & \textbf{13} & \textbf{14} \\
+\hline
+\textbf{Đ/A} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}B} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}2. Phần II: Trắc nghiệm Đúng / Sai (3,0 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|p{7.5cm}|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Nội dung câu hỏi} & \textbf{Lệnh a} & \textbf{Lệnh b} & \textbf{Lệnh c} & \textbf{Lệnh d} \\
+\hline
+\textbf{Câu 1} & Hợp chất hữu cơ X ($\ce{CH2O}, M=60$) & \textbf{\color{hfRed}Đ} & \textbf{\color{hfRed}Đ} & \textbf{\color{gray}S} & \textbf{\color{gray}S} \\
+\hline
+\textbf{Câu 2} & Sản xuất $\ce{H2SO4}$ công nghiệp & \textbf{\color{gray}S} & \textbf{\color{gray}S} & \textbf{\color{gray}S} & \textbf{\color{hfRed}Đ} \\
+\hline
+\textbf{Câu 3} & Tách $\beta$-carotene từ nước ép cà rốt & \textbf{\color{hfRed}Đ} & \textbf{\color{hfRed}Đ} & \textbf{\color{hfRed}Đ} & \textbf{\color{hfRed}Đ} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}3. Phần III: Trắc nghiệm Trả lời ngắn (1,5 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Câu 1} & \textbf{Câu 2} & \textbf{Câu 3} & \textbf{Câu 4} & \textbf{Câu 5} & \textbf{Câu 6} \\
+\hline
+\textbf{Đáp án} & \textbf{\color{hfRed}0,87} & \textbf{\color{hfRed}31} & \textbf{\color{hfRed}3} & \textbf{\color{hfRed}6 (hoặc 5)} & \textbf{\color{hfRed}2} & \textbf{\color{hfRed}3} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}4. Tóm tắt đáp số Phần Tự luận (2,0 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|p{11.5cm}|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Điểm} & \textbf{Đáp số cốt lõi} \\
+\hline
+\textbf{Câu 1} & 1,0 đ & $n[\ce{Ca(H2PO4)2}] = 8\,000\text{ kmol} \Rightarrow n(\ce{H2SO4}) = 16\,000\text{ kmol} \Rightarrow m(\ce{H2SO4}) = 1\,568\text{ tấn} \Rightarrow V(\text{dd 70\%}) = 1\,400\text{ m}^3$. \\
+\hline
+\textbf{Câu 2} & 1,0 đ & • a) CTPT: $\ce{C4H10O}$ ($M = 74$).\newline • b) X là alcohol (vùng 3500 -- 3200 cm$^{-1}$), có 4 đồng phân cấu tạo: butan-1-ol, butan-2-ol, 2-methylpropan-1-ol, 2-methylpropan-2-ol. \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{4pt}
+\hrule color{hfGreen} height 0.5pt
+""")
+
+    # NỘI DUNG ĐỀ THI
+    tex.append(r"""
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\Large A. TRẮC NGHIỆM KHÁCH QUAN (8,0 ĐIỂM)}}
+
+\vspace{3pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn (3,5 điểm).}}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 14. Mỗi câu hỏi thí sinh chỉ chọn một phương án.}
+\vspace{2pt}
+""")
+
+    # 14 CÂU PHẦN I
+    # Câu 1
+    tex.append(r"""
+\begin{ex}
+Ứng dụng nào sau đây không phải của sulfur dioxide?
+\choice
+{Sản xuất sulfuric acid}
+{\True Sản xuất phân bón}
+{Chống nấm mốc cho lương thực, thực phẩm}
+{Tẩy trắng giấy, bột giấy}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+$\ce{SO2}$ được dùng làm chất trung gian sản xuất $\ce{H2SO4}$, tẩy trắng bột giấy, diệt khuẩn chống nấm mốc lương thực. Bản thân $\ce{SO2}$ không dùng làm phân bón.\\
+\textbf{Chọn B.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 2
+    tex.append(r"""
+\begin{ex}
+Phân tử ammonia có dạng hình học nào sau đây?
+\choice
+{\True Chóp tam giác}
+{Tam giác đều}
+{Chữ T}
+{Chóp tứ giác}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Trong phân tử $\ce{NH3}$, nguyên tử $\ce{N}$ ở trạng thái lai hóa $sp^3$, gồm 3 liên kết $\ce{N-H}$ và 1 cặp electron tự do, tạo nên hình học dạng chóp tam giác (gần $107^\circ$).\\
+\textbf{Chọn A.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 3
+    tex.append(r"""
+\begin{ex}
+Công thức phân tử cho biết thông tin nào sau đây về phân tử hợp chất hữu cơ?
+\choice
+{Thành phần nguyên tố và tỉ lệ số lượng nguyên tử của mỗi nguyên tố}
+{\True Thành phần nguyên tố và số lượng nguyên tử của mỗi nguyên tố}
+{Số lượng nguyên tử mỗi nguyên tố và trật tự liên kết giữa các nguyên tử}
+{Tỉ lệ số lượng nguyên tử của mỗi nguyên tố và trật tự liên kết giữa các nguyên tử}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Theo định nghĩa: Công thức phân tử cho biết thành phần nguyên tố và số lượng nguyên tử của mỗi nguyên tố trong phân tử.\\
+\textbf{Chọn B.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 4
+    tex.append(r"""
+\begin{ex}
+Tại nhiệt độ không đổi, ở trạng thái cân bằng,
+\choice
+{\True nồng độ của các chất trong phản ứng không thay đổi}
+{phản ứng hoá học không xảy ra}
+{tốc độ phản ứng hoá học xảy ra chậm dần}
+{nồng độ của các chất trong phản ứng vẫn liên tục thay đổi}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Ở trạng thái cân bằng hóa học, tốc độ phản ứng thuận bằng tốc độ phản ứng nghịch ($v_\text{t} = v_\text{n} > 0$), do đó nồng độ các chất trong hệ phản ứng giữ nguyên không đổi theo thời gian.\\
+\textbf{Chọn A.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 5
+    tex.append(r"""
+\begin{ex}
+Nitric acid là một acid có tính oxi hóa mạnh. Do đó, nitric acid oxi hóa được hầu hết kim loại, trừ vàng (Au), platinum (Pt),... Tuy nhiên, Au và Pt có thể bị hòa tan trong nước cường toan, là hỗn hợp nitric acid đặc và hydrochloric acid đặc có tỉ lệ thể tích là
+\choice
+{2:3}
+{3:1}
+{1:1}
+{\True 1:3}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Nước cường toan (aqua regia) là hỗn hợp gồm 1 thể tích $\ce{HNO3}$ đặc và 3 thể tích $\ce{HCl}$ đặc ($V_{\ce{HNO3}} : V_{\ce{HCl}} = 1 : 3$).\\
+\textbf{Chọn D.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 6
+    tex.append(r"""
+\begin{ex}
+Tính chất nào sau đây không phải tính chất vật lí của sulfur?
+\choice
+{Thể rắn ở điều kiện thường}
+{\True Không tan trong benzene}
+{Màu vàng ở điều kiện thường}
+{Không tan trong nước}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Sulfur là chất rắn màu vàng, không tan trong nước nhưng tan tốt trong các dung môi hữu cơ không phân cực như benzene, $\ce{CS2}$, toluene.\\
+\textbf{Chọn B.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 7
+    tex.append(r"""
+\begin{ex}
+``Đất phèn'' là một khái niệm dân gian để chỉ loại đất chứa nhiều ion sulfate, có $\text{pH} < 7$. Môi trường của đất phèn là
+\choice
+{môi trường trung hòa}
+{môi trường base}
+{môi trường trung tính}
+{\True môi trường acid}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Giá trị $\text{pH} < 7$ đặc trưng cho môi trường acid.\\
+\textbf{Chọn D.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 8
+    tex.append(r"""
+\begin{ex}
+Chất nào sau đây có chứa nhóm chức alcohol?
+\choice
+{$\ce{CH3CHO}$}
+{$\ce{CH3COCH3}$}
+{$\ce{CH3NH2}$}
+{\True $\ce{C2H5OH}$}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+$\ce{C2H5OH}$ chứa nhóm chức hydroxy ($-\ce{OH}$) liên kết với carbon no, là alcohol.\\
+\textbf{Chọn D.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 9
+    tex.append(r"""
+\begin{ex}
+Trong tự nhiên, nguyên tố nitrogen tồn tại chủ yếu ở dạng đồng vị nào sau đây?
+\choice
+{$^{15}\ce{N}$}
+{\True $^{14}\ce{N}$}
+{$^{13}\ce{N}$}
+{$^{12}\ce{N}$}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Đồng vị $^{14}\ce{N}$ chiếm khoảng $99,63\%$ tổng lượng nitrogen trong tự nhiên.\\
+\textbf{Chọn B.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 10
+    tex.append(r"""
+\begin{ex}
+Cặp chất nào sau đây là đồng đẳng của nhau?
+\choice
+{\True $\ce{CH3CH2CH3}$ và $\ce{CH3CH3}$}
+{$\ce{CH3CH2CH2CH3}$ và $\ce{(CH3)2CHCH3}$}
+{$\ce{CH3CH=CH2}$ và $\ce{CH3CH2CH2CH3}$}
+{$\ce{CH2=CH-CH=CH2}$ và $\ce{CH3C#CH}$}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+$\ce{CH3CH2CH3}$ ($\ce{C3H8}$) và $\ce{CH3CH3}$ ($\ce{C2H6}$) đều là alkane mạch hở, hơn kém nhau một nhóm $-\ce{CH2}-$, là đồng đẳng của nhau.\\
+\textbf{Chọn A.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 11
+    tex.append(r"""
+\begin{ex}
+Cho iron (III) oxide tác dụng với nitric acid thì sản phẩm thu được là:
+\choice
+{\True $\ce{Fe(NO3)3}$ và $\ce{H2O}$}
+{$\ce{Fe(NO3)3}$, $\ce{NO2}$ và $\ce{H2O}$}
+{$\ce{Fe(NO3)3}$, $\ce{N2}$ và $\ce{H2O}$}
+{$\ce{Fe(NO3)3}$, $\ce{NO}$ và $\ce{H2O}$}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Trong $\ce{Fe2O3}$, Fe đã có số oxi hóa cao nhất là $+3$, phản ứng với $\ce{HNO3}$ là phản ứng trao đổi: $\ce{Fe2O3 + 6HNO3 -> 2Fe(NO3)3 + 3H2O}$.\\
+\textbf{Chọn A.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 12
+    tex.append(r"""
+\begin{ex}
+Trong các hợp chất sau, chất nào là dẫn xuất của hydrocarbon?
+\choice
+{$\ce{C7H8}$}
+{$\ce{C4H4}$}
+{\True $\ce{CH3NH2}$}
+{$\ce{C2H2}$}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+$\ce{CH3NH2}$ chứa nguyên tố nitrogen bên cạnh C và H, là dẫn xuất của hydrocarbon.\\
+\textbf{Chọn C.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 13
+    tex.append(r"""
+\begin{ex}
+Dãy gồm các chất đều tác dụng với sulfur (trong điều kiện thích hợp của phản ứng) là:
+\choice
+{Au, Pt, Ag}
+{Ag, $\ce{O2}$, $\ce{Cl2}$}
+{\True Fe, Hg, $\ce{O2}$}
+{Fe, Hg, C}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Sulfur phản ứng được với Fe ($\ce{Fe + S -> FeS}$), Hg ($\ce{Hg + S -> HgS}$ ngay nhiệt độ thường) và $\ce{O2}$ ($\ce{S + O2 -> SO2}$).\\
+\textbf{Chọn C.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 14
+    tex.append(r"""
+\begin{ex}
+Tín hiệu phổ hồng ngoại của một số nhóm chức cơ bản được cho ở Bảng (a) và Phổ hồng ngoại (IR) của hợp chất hữu cơ X được cho ở Hình (b).
+\begin{center}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{|l|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Hợp chất} & \textbf{Số sóng ($\text{cm}^{-1}$)} \\
+\hline
+Alcohol & $3600 - 3300\ (\ce{O-H})$ \\
+\hline
+Amine & $3500 - 3300\ (\ce{N-H})$ \\
+\hline
+Aldehyde & $2900 - 2700\ (\ce{C-H});\ 1740 - 1720\ (\ce{C=O})$ \\
+\hline
+Ketone & $1725 - 1700\ (\ce{C=O})$ \\
+\hline
+Carboxylic acid & $3300 - 2500\ (\ce{O-H});\ 1725 - 1700\ (\ce{C=O})$ \\
+\hline
+Ester & $1750 - 1735\ (\ce{C=O});\ 1300 - 1000\ (\ce{C-O})$ \\
+\hline
+\end{tabular}
+\end{center}
+\begin{center}
+\includegraphics[width=8.0cm]{San_Pham/images_de324/hinh_b_ir_crop.png}
+\end{center}
+Phát biểu nào sau đây là đúng?
+\choice
+{Peak A và peak D cho thấy X là một carboxylic acid}
+{\True Peak A là tín hiệu của nhóm OH}
+{Peak C là tín hiệu của nhóm chức $\ce{C=O}$}
+{Peak B và peak D cho thấy X là một aldehyde}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Peak A là dải hấp thụ rộng và tù ở vùng khoảng $3350\text{ cm}^{-1}$, đặc trưng cho dao động hóa trị của liên kết $\ce{O-H}$ trong alcohol. Trên phổ không có peak ở $1700 - 1750\text{ cm}^{-1}$ nên không có nhóm $\ce{C=O}$.\\
+\textbf{Chọn B.}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # PHẦN II
+    tex.append(r"""
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN II: Câu trắc nghiệm đúng sai (3,0 điểm).}}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 3. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}
+\vspace{2pt}
+""")
+
+    # Câu 1 Phần II
+    tex.append(r"""
+\begin{ex}
+Một hợp chất hữu cơ X được xác định có công thức đơn giản nhất là $\ce{CH2O}$. Bằng phổ khối lượng MS, người ta xác định được phân tử khối của X là 60.
+\choiceTF
+{\True X là dẫn xuất hydrocarbon}
+{\True Công thức phân tử của X là $\ce{C2H4O2}$}
+{Thành phần phần trăm theo khối lượng của nguyên tố carbon trong X là $44\%$}
+{Nếu X chỉ chứa một nhóm chức thì X có 3 đồng phân cấu tạo}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+$M(\ce{X}) = 60 \Rightarrow (\ce{CH2O})_n = 60 \Rightarrow 30n = 60 \Rightarrow n = 2 \Rightarrow \text{CTPT: } \ce{C2H4O2}$.\\
+a) \textbf{Đúng}: $\ce{C2H4O2}$ chứa C, H, O nên là dẫn xuất hydrocarbon.\\
+b) \textbf{Đúng}: CTPT là $\ce{C2H4O2}$.\\
+c) \textbf{Sai}: $\%C = (2 \times 12 / 60) \times 100\% = 40\%$ (khác $44\%$).\\
+d) \textbf{Sai}: Các đồng phân mạch hở chỉ chứa một nhóm chức của $\ce{C2H4O2}$ gồm 2 chất: $\ce{CH3COOH}$ (acid) và $\ce{HCOOCH3}$ (ester).
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 2 Phần II
+    tex.append(r"""
+\begin{ex}
+Sulfuric acid là một trong những hoá chất quan trọng nhất được sử dụng trong công nghiệp; được sản xuất hàng trăm triệu tấn mỗi năm, chiếm nhiều nhất trong ngành công nghiệp hoá chất. Phương pháp sản xuất sulfuric acid phổ biến nhất là phương pháp tiếp xúc, theo đó acid có thể được điều chế qua các giai đoạn sau:
+\begin{align*}
+(1) &\quad 4\ce{FeS2} + 11\ce{O2} \xrightarrow{t^\circ} 2\ce{Fe2O3} + 8\ce{SO2} \\
+(2) &\quad 2\ce{SO2}(g) + \ce{O2}(g) \xrightleftharpoons[\text{V}_2\text{O}_5]{450^\circ\text{C}} 2\ce{SO3}(g);\quad \Delta_r H^\circ_{298} = -196\text{ kJ} \\
+(3) &\quad \ce{H2SO4} + n\ce{SO3} \longrightarrow \ce{H2SO4.nSO3} \\
+(4) &\quad \ce{H2SO4.nSO3} + n\ce{H2O} \longrightarrow (n+1)\ce{H2SO4}
+\end{align*}
+\choiceTF
+{Có ba phản ứng oxi hóa – khử đã xảy ra trong các giai đoạn sản xuất sulfuric acid trên}
+{Để làm tăng hiệu suất tổng hợp $\ce{SO3}$ ở phản ứng (2) cần tăng nhiệt độ của phản ứng trên $450^\circ\text{C}$}
+{Ở phản ứng (3), có thể dùng nước hấp thụ trực tiếp $\ce{SO3}$ để tạo thành $\ce{H2SO4}$ với nồng độ cao}
+{\True Để sản xuất được 1 tấn dung dịch $\ce{H2SO4}$ $98\%$ cần 1 tấn quặng pyrite chứa $75\%\ \ce{FeS2}$. Biết hiệu suất của cả quá trình điều chế đạt $80\%$ và các tạp chất trong quặng không chứa sulfur}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+a) \textbf{Sai}: Chỉ có 2 phản ứng oxi hóa - khử là (1) và (2). Phản ứng (3) và (4) không có sự thay đổi số oxi hóa.\\
+b) \textbf{Sai}: Phản ứng (2) tỏa nhiệt ($\Delta_r H^\circ_{298} < 0$). Khi tăng nhiệt độ, cân bằng chuyển dịch theo chiều nghịch, làm giảm hiệu suất tạo $\ce{SO3}$.\\
+c) \textbf{Sai}: Phản ứng giữa $\ce{SO3}$ và nước tỏa nhiệt dữ dội tạo sương mù acid khó ngưng tụ và ăn mòn thiết bị. Thực tế dùng $\ce{H2SO4}$ $98\%$ để hấp thụ $\ce{SO3}$ tạo oleum.\\
+d) \textbf{Đúng}: $m(\ce{H2SO4}) = 0,98\text{ tấn}$. Sơ đồ: $\ce{FeS2 -> 2 H2SO4}$.\\
+$m(\ce{FeS2})_{\text{lt}} = (0,98 \times 120) / 196 = 0,6\text{ tấn} \Rightarrow m(\ce{FeS2})_{\text{tt}} = 0,6 / 0,8 = 0,75\text{ tấn}$.\\
+$m(\text{quặng}) = 0,75 / 0,75 = 1,0\text{ tấn}$.
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 3 Phần II
+    tex.append(r"""
+\begin{ex}
+Thí nghiệm tách $\beta$-carotene từ nước ép cà rốt được thực hiện như sau:\\
+- Bước 1: Cho khoảng $20\text{ mL}$ nước ép cà rốt vào phễu chiết. Thêm tiếp khoảng $20\text{ mL}$ hexane, lắc đều khoảng 2 phút.\\
+- Bước 2: Để yên phễu chiết trên giá thí nghiệm khoảng 5 phút để chất lỏng tách thành hai lớp.\\
+- Bước 3: Mở khoá phễu chiết cho phần nước chảy xuống, còn lại phần dung dịch $\beta$-carotene hoà tan trong hexane.
+\choiceTF
+{\True Phễu chiết tách thành hai lớp, lớp bên trên là $\beta$-carotene hoà tan trong hexane, lớp dưới là nước}
+{\True Thí nghiệm tách $\beta$-carotene từ nước ép cà rốt dựa theo nguyên tắc chiết lỏng – lỏng}
+{\True Dùng dung môi là hexane có khả năng hoà tan $\beta$-carotene nhưng không tan trong nước và có nhiệt độ sôi thấp để chiết}
+{\True Sau bước 3, để thu được $\beta$-carotene người ta đun nóng để loại bỏ dung môi hexane}
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+a) \textbf{Đúng}: Hexane ($d \approx 0,66\text{ g/mL}$) nhẹ hơn nước và không tan trong nước, hòa tan $\beta$-carotene tạo lớp dung dịch màu cam nổi ở trên.\\
+b) \textbf{Đúng}: Đây là nguyên tắc chiết lỏng - lỏng giữa hai pha lỏng không trộn lẫn.\\
+c) \textbf{Đúng}: Hexane hòa tan tốt $\beta$-carotene, không tan trong nước và có nhiệt độ sôi thấp ($68,7^\circ\text{C}$).\\
+d) \textbf{Đúng}: Để thu hồi $\beta$-carotene tinh khiết, người ta đun nhẹ làm bay hơi dung môi hexane.
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # PHẦN III
+    tex.append(r"""
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN III: Câu trắc nghiệm yêu cầu trả lời ngắn (1,5 điểm).}}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 6. Thí sinh điền kết quả vào ô trả lời tương ứng.}
+\vspace{2pt}
+""")
+
+    # Câu 1 Phần III
+    tex.append(r"""
+\begin{ex}
+Cho cân bằng hóa học: $\ce{N2O4}(g) \rightleftharpoons 2\ce{NO2}(g)$. Ban đầu có $0,02\text{ mol}\ \ce{N2O4}$ trong bình kín có thể tích $500\text{ mL}$. Khi phản ứng đạt trạng thái cân bằng, nồng độ của $\ce{N2O4}$ là $0,0055\text{ M}$. Tính hằng số cân bằng $K_c$. \textit{(Kết quả làm tròn đến hàng phần trăm)}.
+\hfill \textbf{Trả lời:} \dotfill
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+$C_0(\ce{N2O4}) = 0,02 / 0,5 = 0,04\text{ M}$.\\
+Tại cân bằng: $[\ce{N2O4}] = 0,0055\text{ M} \Rightarrow \Delta C(\ce{N2O4}) = 0,04 - 0,0055 = 0,0345\text{ M}$.\\
+$[\ce{NO2}] = 2 \times 0,0345 = 0,069\text{ M}$.\\
+$K_c = \dfrac{[\ce{NO2}]^2}{[\ce{N2O4}]} = \dfrac{(0,069)^2}{0,0055} \approx 0,8656 \xrightarrow{\text{làm tròn}} \mathbf{0,87}$.\\
+\textbf{Đáp án: 0,87}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 2 Phần III
+    tex.append(r"""
+\begin{ex}
+Menthol là hợp chất hữu cơ được tìm thấy trong cây bạc hà. Nó được sử dụng làm hương liệu trong nhiều chất như: kem đánh răng, kẹo cao su và xi-rô ho,... menthol có công thức cấu tạo là:
+\begin{center}
+\includegraphics[width=3.5cm]{San_Pham/images_de324/menthol.png}
+\end{center}
+Tổng số nguyên tử có trong phân tử menthol là bao nhiêu?
+\hfill \textbf{Trả lời:} \dotfill
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Menthol có khung carbon gồm: 1 vòng cyclohexane ($6\ce{C}$) + 1 nhóm methyl ($1\ce{C}$) + 1 nhóm isopropyl ($3\ce{C}$) $\Rightarrow 10$ nguyên tử C.\\
+Phân tử no đơn chức có 1 vòng $\Rightarrow$ CTPT là $\ce{C10H20O}$.\\
+Tổng số nguyên tử: $10 + 20 + 1 = \mathbf{31}$.\\
+\textbf{Đáp án: 31}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 3 Phần III
+    tex.append(r"""
+\begin{ex}
+Cho các chất khí: $\ce{NO, NO2, SO2, N2O}$ và $\ce{N2}$. Có bao nhiêu chất khí là nguyên nhân góp phần gây ra hiện tượng mưa acid?
+\hfill \textbf{Trả lời:} \dotfill
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Các khí gây mưa acid là $\ce{NO, NO2}$ (tạo $\ce{HNO3}$) và $\ce{SO2}$ (tạo $\ce{H2SO4}$). Tổng cộng có \textbf{3} chất khí.\\
+\textbf{Đáp án: 3}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 4 Phần III
+    tex.append(r"""
+\begin{ex}
+Cho dãy các chất sau: $\ce{HClO4, HClO, Mg(OH)2, HNO3, KH2PO4, Ca(OH)2, NaCl, CuSO4, CH3COOH}$. Có bao nhiêu chất trong dãy thuộc loại chất điện li mạnh?
+\hfill \textbf{Trả lời:} \dotfill
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Chất điện li mạnh gồm: acid mạnh ($\ce{HClO4, HNO3}$), base mạnh ($\ce{Ca(OH)2}$), và muối tan ($\ce{KH2PO4, NaCl, CuSO4}$). Tổng cộng có \textbf{6} chất (hoặc 5 chất nếu không tính $\ce{Ca(OH)2}$).\\
+\textbf{Đáp án: 6 (hoặc 5)}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 5 Phần III
+    tex.append(r"""
+\begin{ex}
+Cho các chất có công thức cấu tạo sau:
+\begin{center}
+\includegraphics[width=13.0cm]{San_Pham/images_de324/cau5_4chat.png}
+\end{center}
+Có bao nhiêu chất trong các chất trên có tín hiệu trên phổ hồng ngoại ở khoảng tần số $1750 - 1680\text{ cm}^{-1}$? Xem bảng tín hiệu phổ hồng ngoại của một số nhóm chức cơ bản ở phần I-Trắc nghiệm nhiều phương án lựa chọn.
+\hfill \textbf{Trả lời:} \dotfill
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Khoảng $1750 - 1680\text{ cm}^{-1}$ là vùng hấp thụ đặc trưng của liên kết $\ce{C=O}$.\\
+Trong 4 chất, chỉ có chất (3) (nhóm $-\ce{COOH}$) và chất (4) (nhóm $-\ce{CH=O}$) có liên kết $\ce{C=O}$. Vậy có \textbf{2} chất.\\
+\textbf{Đáp án: 2}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # Câu 6 Phần III
+    tex.append(r"""
+\begin{ex}
+Cho phương trình hóa học của các phản ứng sau:
+\begin{align*}
+(1) &\quad 8\ce{NH3} + 3\ce{Cl2} \longrightarrow 6\ce{NH4Cl} + \ce{N2} \\
+(2) &\quad 4\ce{NH3} + 5\ce{O2} \xrightarrow{t^\circ, \text{Pt}} 4\ce{NO} + 6\ce{H2O} \\
+(3) &\quad 2\ce{NH3} + \ce{H2SO4} \longrightarrow (\ce{NH4})_2\ce{SO4} \\
+(4) &\quad 2\ce{NH3} + 3\ce{CuO} \xrightarrow{t^\circ} \ce{N2} + 3\ce{Cu} + 3\ce{H2O} \\
+(5) &\quad \ce{MgCl2} + 2\ce{NH3} + 2\ce{H2O} \longrightarrow \ce{Mg(OH)2}\downarrow + 2\ce{NH4Cl}
+\end{align*}
+Có bao nhiêu phản ứng hóa học trong đó ammonia đóng vai trò là chất khử?
+\hfill \textbf{Trả lời:} \dotfill
+""")
+    if is_teacher:
+        tex.append(r"""
+\loigiai{
+Số oxi hóa của N tăng từ $-3$ lên $0$ trong (1), (4) và lên $+2$ trong (2). Vậy có \textbf{3} phản ứng trong đó $\ce{NH3}$ đóng vai trò chất khử.\\
+\textbf{Đáp án: 3}
+}
+""")
+    tex.append(r"\end{ex}")
+
+    # PHẦN II. TỰ LUẬN
+    tex.append(r"""
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\Large B. PHẦN TỰ LUẬN (2,0 ĐIỂM)}}
+
+\vspace{3pt}
+""")
+
+    # Câu 1 Tự luận
+    tex.append(r"""
+\noindent
+\textbf{Câu 1. (1,0 điểm)} Tại một công ty superphosphate và hóa chất, superphosphate kép được sản xuất từ quặng phosphorite theo hai giai đoạn sau:
+\begin{align*}
+\ce{Ca3(PO4)2 + 3H2SO4} &\longrightarrow \ce{2H3PO4 + 3CaSO4} \\
+\ce{Ca3(PO4)2 + 4H3PO4} &\longrightarrow \ce{3Ca(H2PO4)2}
+\end{align*}
+Trung bình mỗi ngày, công ty sản xuất được $1872\text{ tấn}\ \ce{Ca(H2PO4)2}$, giả thiết hiệu suất của mỗi giai đoạn đạt $100\%$. Tính thể tích dung dịch $\ce{H2SO4}\ 70\%\ (D = 1,6\text{ tấn/m}^3)$ mà công ty đã dùng trong một ngày.
+""")
+    if is_teacher:
+        tex.append(r"""
+\begin{tcolorbox}[colback=tableGreen!30,colframe=mainGreen!70,title=\textbf{Hướng dẫn giải chi tiết Câu 1},fonttitle=\bfseries]
+1. Tính số mol $\ce{Ca(H2PO4)2}$ sản xuất mỗi ngày:\\
+$M[\ce{Ca(H2PO4)2}] = 40 + (2 + 31 + 64) \times 2 = 234\text{ g/mol}$.\\
+$n[\ce{Ca(H2PO4)2}] = \dfrac{1872}{234} = 8\,000\text{ kmol}$.\\[4pt]
+2. Quan hệ số mol giữa $\ce{H2SO4}$ và $\ce{Ca(H2PO4)2}$:\\
+Phương trình gộp tổng quát:\\
+$\ce{Ca3(PO4)2 + 2H2SO4 -> Ca(H2PO4)2 + 2CaSO4}$\\
+$\Rightarrow n(\ce{H2SO4}) = 2 \times n[\ce{Ca(H2PO4)2}] = 2 \times 8\,000 = 16\,000\text{ kmol}$.\\[4pt]
+3. Tính thể tích dung dịch $\ce{H2SO4}\ 70\%$:\\
+$m(\ce{H2SO4}) = 16\,000 \times 98 = 1\,568\,000\text{ kg} = 1\,568\text{ tấn}$.\\
+$m(\text{dd}) = \dfrac{1\,568}{0,7} = 2\,240\text{ tấn}$.\\
+$V(\text{dd}) = \dfrac{m}{D} = \dfrac{2\,240}{1,6} = \mathbf{1\,400\text{ m}^3}$.
+\end{tcolorbox}
+""")
+    else:
+        tex.append(r"""
+\vspace{2pt}
+\multido{\i=1+1}{8}{\noindent\dotfill\\}
+""")
+
+    # Câu 2 Tự luận
+    tex.append(r"""
+\vspace{4pt}
+\noindent
+\textbf{Câu 2. (1,0 điểm)} Hợp chất hữu cơ X (mạch hở) được dùng làm dung môi trong quá trình tổng hợp dược phẩm. Kết quả phân tích nguyên tố của X như sau: $64,864\%\ce{C}$; $13,514\%\ce{H}$ về khối lượng và còn lại là oxygen. Phân tử khối của X được xác định thông qua kết quả phổ khối lượng với peak ion phân tử có giá trị $m/z$ lớn nhất bằng 74.\\
+a. Hãy xác định công thức phân tử chất hữu cơ X.\\
+b. Trong phổ hồng ngoại (IR), chất X có số sóng hấp thụ đặc trưng trong khoảng $3500 - 3200\text{ cm}^{-1}$. Hãy viết các đồng phân cấu tạo của X thỏa mãn điều kiện trên. Xem bảng tín hiệu phổ hồng ngoại của một số nhóm chức cơ bản ở phần I-Trắc nghiệm nhiều phương án lựa chọn.
+""")
+    if is_teacher:
+        tex.append(r"""
+\begin{tcolorbox}[colback=tableGreen!30,colframe=mainGreen!70,title=\textbf{Hướng dẫn giải chi tiết Câu 2},fonttitle=\bfseries]
+\textbf{a. Xác định công thức phân tử chất hữu cơ X:}\\
+$\%O = 100\% - 64,864\% - 13,514\% = 21,622\%$.\\
+$M(\ce{X}) = 74\text{ amu}$. Đặt CTPT là $\ce{C_xH_yO_z}$:\\
+$x = \dfrac{64,864 \times 74}{1200} \approx 4;\quad y = \dfrac{13,514 \times 74}{100} \approx 10;\quad z = \dfrac{21,622 \times 74}{1600} \approx 1$.\\
+$\Rightarrow \text{CTPT: } \mathbf{\ce{C4H10O}}$.\\[4pt]
+\textbf{b. Viết các đồng phân cấu tạo thỏa mãn phổ IR:}\\
+Peak ở $3500 - 3200\text{ cm}^{-1}$ chứng tỏ X chứa nhóm chức $-\ce{OH}$ alcohol.\\
+Các đồng phân cấu tạo alcohol ứng với $\ce{C4H10O}$:\\
+1. $\ce{CH3-CH2-CH2-CH2-OH}$ (butan-1-ol)\\
+2. $\ce{CH3-CH2-CH(OH)-CH3}$ (butan-2-ol)\\
+3. $\ce{(CH3)2CH-CH2-OH}$ (2-methylpropan-1-ol)\\
+4. $\ce{(CH3)3C-OH}$ (2-methylpropan-2-ol)
+\end{tcolorbox}
+""")
+    else:
+        tex.append(r"""
+\vspace{2pt}
+\multido{\i=1+1}{8}{\noindent\dotfill\\}
+""")
+
+    tex.append(r"""
+\vspace{8pt}
+\begin{center}
+\textbf{---------- HẾT ----------}
+\end{center}
+
+\end{document}
+""")
+    return "".join(tex)
+
+def compile_pdf(tex_path):
+    out_dir = os.path.dirname(tex_path)
+    base_name = os.path.splitext(os.path.basename(tex_path))[0]
+    
+    for i in range(2):
+        cmd = ["pdflatex", "-interaction=nonstopmode", f"-output-directory={out_dir}", tex_path]
+        res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, cwd=out_dir, encoding="utf-8", errors="ignore")
+        if res.returncode != 0 and i == 1:
+            print(f"[CẢNH BÁO] pdflatex kết thúc với mã {res.returncode}")
+            log_file = os.path.join(out_dir, f"{base_name}.log")
+            if os.path.exists(log_file):
+                with open(log_file, "r", encoding="utf-8", errors="ignore") as f:
+                    lines = f.readlines()
+                    print("".join(lines[-30:]))
+    
+    for ext in [".aux", ".log", ".thm", ".out", ".synctex.gz"]:
+        f_junk = os.path.join(out_dir, base_name + ext)
+        if os.path.exists(f_junk):
+            try:
+                os.remove(f_junk)
+            except Exception:
+                pass
+    for f in glob.glob(os.path.join(out_dir, "ans-*.tex")):
+        try:
+            os.remove(f)
+        except Exception:
+            pass
+    print(f"[OK] Đã biên dịch xong PDF: {os.path.join(out_dir, base_name + '.pdf')}")
+
+def main():
+    tex_hs = os.path.join(SAN_PHAM_DIR, "De_Kiem_Tra_CK1_Hoa_11_CaoThang_Ma324_HocSinh.tex")
+    tex_gv = os.path.join(SAN_PHAM_DIR, "De_Kiem_Tra_CK1_Hoa_11_CaoThang_Ma324_GiaoVien.tex")
+
+    print("Đang tạo mã nguồn LaTeX Bản Học sinh THPT Cao Thắng Hóa 11...")
+    with open(tex_hs, "w", encoding="utf-8") as f:
+        f.write(build_latex_content(is_teacher=False))
+
+    print("Đang tạo mã nguồn LaTeX Bản Giáo viên THPT Cao Thắng Hóa 11...")
+    with open(tex_gv, "w", encoding="utf-8") as f:
+        f.write(build_latex_content(is_teacher=True))
+
+    print("\nĐang biên dịch PDF Bản Học sinh THPT Cao Thắng Hóa 11...")
+    compile_pdf(tex_hs)
+
+    print("\nĐang biên dịch PDF Bản Giáo viên THPT Cao Thắng Hóa 11...")
+    compile_pdf(tex_gv)
+
+if __name__ == "__main__":
+    main()
