@@ -1,0 +1,655 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{geometry}
+\geometry{top=1.5cm,bottom=1.2cm,left=1.4cm,right=1.4cm,headheight=28pt,headsep=12pt,footskip=18pt}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{multido}
+\usepackage{tcolorbox}
+
+\definecolor{hfRed}{HTML}{D32F2F}
+\definecolor{hfGreen}{HTML}{8BC390}
+\definecolor{mainGreen}{HTML}{2E7D32}
+\definecolor{solBlue}{HTML}{1565C0}
+\definecolor{tableGreen}{HTML}{E8F5E9}
+
+\usepackage{ex_test}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.75pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0.75pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+
+\fancyhead[L]{\small\itshape\color{hfRed}Tài liệu lưu hành nội bộ}
+\fancyhead[R]{\small\color{hfRed}Thầy \textbf{TRẦN VĂN THẠNH} - 0777.470.803}
+
+\fancyfoot[L]{\footnotesize\itshape\color{hfRed}CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+\fancyfoot[R]{\small\textbf{\color{hfRed}Trang \thepage}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+
+\begin{document}
+
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{SỞ GD \& ĐT THÀNH PHỐ HUẾ}\\
+\textbf{TRƯỜNG THPT HOÁ CHÂU}\\
+\textit{ĐỀ CHÍNH THỨC}\\
+\textit{(Đề thi có 03 trang)}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\raggedleft
+\textbf{\color{hfRed}ĐỀ KIỂM TRA CUỐI HỌC KÌ I}\\
+\textbf{NĂM HỌC 2025 -- 2026}\\
+\textbf{MÔN: HOÁ HỌC -- LỚP 12}\\
+\textit{Thời gian làm bài: 45 phút (Không kể thời gian phát đề)}\\
+\textbf{MÃ ĐỀ: 357}
+\end{minipage}
+
+\vspace{4pt}
+\noindent
+\textit{Họ, tên thí sinh:} \dotfill \textit{Lớp:} \dotfill \textit{Số báo danh:} \dotfill
+
+\vspace{3pt}
+\noindent
+\textit{\footnotesize (Cho nguyên tử khối của các nguyên tố: $\ce{H}=1;\ \ce{C}=12;\ \ce{O}=16;\ \ce{N}=14;\ \ce{Cl}=35,5;\ \ce{Ag}=108;\ \ce{Cu}=64;\ \ce{Zn}=65$)}
+
+\vspace{3pt}
+\hrule color{hfGreen} height 0.5pt
+
+\vspace{6pt}
+\begin{center}
+{\Large\textbf{\color{hfRed}BẢNG ĐÁP ÁN RÚT GỌN (DÀNH CHO GIÁO VIÊN -- MÃ ĐỀ 357)}}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}1. Phần I: Câu trắc nghiệm nhiều phương án lựa chọn (3,0 điểm -- 0,25 đ/câu)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đ/A} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}D} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}B} & \textbf{\color{hfRed}A} & \textbf{\color{hfRed}C} & \textbf{\color{hfRed}C} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}2. Phần II: Trắc nghiệm Đúng / Sai (2,0 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|p{7.5cm}|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Nội dung câu hỏi} & \textbf{Lệnh a} & \textbf{Lệnh b} & \textbf{Lệnh c} & \textbf{Lệnh d} \\
+\hline
+\textbf{Câu 1} & Polymer nhiệt dẻo & \textbf{\color{hfRed}Đ} & \textbf{\color{hfRed}Đ} & \textbf{\color{hfRed}Đ} & \textbf{\color{hfRed}Đ} \\
+\hline
+\textbf{Câu 2} & Pin điện hóa Zn -- Cu & \textbf{\color{gray}S} & \textbf{\color{gray}S} & \textbf{\color{gray}S} & \textbf{\color{hfRed}Đ} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}3. Phần III: Trắc nghiệm Trả lời ngắn (2,0 điểm -- 0,25 đ/câu)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Câu 1} & \textbf{Câu 2} & \textbf{Câu 3} & \textbf{Câu 4} & \textbf{Câu 5} & \textbf{Câu 6} & \textbf{Câu 7} & \textbf{Câu 8} \\
+\hline
+\textbf{Đáp án} & \textbf{\color{hfRed}3} & \textbf{\color{hfRed}10} & \textbf{\color{hfRed}4} & \textbf{\color{hfRed}2} & \textbf{\color{hfRed}-1,66 V} & \textbf{\color{hfRed}2} & \textbf{\color{hfRed}2} & \textbf{\color{hfRed}4958 $\text{m}^3$} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+\noindent
+\textbf{\color{mainGreen}4. Tóm tắt đáp số Phần IV: Tự luận (3,0 điểm)}
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|p{11.5cm}|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Câu} & \textbf{Điểm} & \textbf{Đáp số cốt lõi} \\
+\hline
+\textbf{Câu 1} & 1,5 đ & a) 3 PTHH: Trùng hợp buna, PVC; Trùng ngưng nylon-6,6.\\
+& & b) Chloro hóa PVC: $\%Cl = \frac{35,5(k+1)}{62,5k+34,5} \times 100\% = 66,77\% \Rightarrow \mathbf{k = 2}$. \\
+\hline
+\textbf{Câu 2} & 1,5 đ & a) Pin Zn-Cu: Hóa năng thành điện năng; m(Zn) giảm, m(Cu) tăng; $E^\circ_\text{pin} = \mathbf{1,10\text{ V}}$.\\
+& & b) Điện phân: $n(\ce{O2}) = 0,0125\text{ mol} \Rightarrow n_\ce{e} = 0,05\text{ mol} \Rightarrow M = 108n \Rightarrow n = 1, M = 108$ (\textbf{Ag});\\
+& & PTHH: $4\ce{AgNO3} + 2\ce{H2O} \xrightarrow{\text{đpdd}} 4\ce{Ag} + \ce{O2}\uparrow + 4\ce{HNO3}$; Anode sinh $\ce{H^+} \Rightarrow \mathbf{pH\text{ giảm}}$. \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{4pt}
+\hrule color{hfGreen} height 0.5pt
+
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\Large A. TRẮC NGHIỆM KHÁCH QUAN}}
+
+\vspace{3pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN 1: CÂU TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN LỰA CHỌN (3 ĐIỂM).}}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 12. Mỗi câu hỏi thí sinh chỉ chọn một phương án.}
+\vspace{2pt}
+
+\begin{ex}
+Cho các phát biểu sau:
+\begin{enumerate}[label=(\arabic*),leftmargin=20pt,itemsep=1pt]
+\item Protein bị thủy phân khi đun nóng với dung dịch acid.
+\item Tripeptide có khả năng tham gia phản ứng màu biuret.
+\item Trong phân tử Gly-Ala-Gly có chứa 3 liên kết peptide.
+\item Hợp chất $\ce{H2N-CH2-CO-NH-CH2-CH2-COOH}$ là dipeptide.
+\end{enumerate}
+Có bao nhiêu phát biểu đúng trong các phát biểu trên?
+\choice
+{1}
+{\True 2}
+{3}
+{4}
+
+\loigiai{
+Phân tích từng phát biểu:
+\begin{itemize}[leftmargin=15pt,itemsep=1pt]
+\item (1) \textbf{ĐÚNG}: Liên kết peptide trong protein bị thủy phân khi đun nóng với acid hoặc kiềm.
+\item (2) \textbf{ĐÚNG}: Tripeptide có 2 liên kết peptide nên có phản ứng màu biuret với $\ce{Cu(OH)2}$ trong kiềm tạo phức màu tím.
+\item (3) \textbf{SAI}: Tripeptide Gly-Ala-Gly chỉ chứa $3 - 1 = 2$ liên kết peptide.
+\item (4) \textbf{SAI}: Gốc amino acid thứ hai là $\ce{H2N-CH2-CH2-COOH}$ ($\beta$-alanine) không phải $\alpha$-amino acid nên hợp chất này không phải dipeptide.
+\end{itemize}
+$\Rightarrow$ Có 2 phát biểu đúng là (1) và (2).\\
+\textbf{Chọn B.}
+}
+\end{ex}
+\begin{ex}
+Ester là đồng phân với $\ce{HCOOC2H5}$ được điều chế từ các hợp chất tương ứng nào sau đây?
+\choice
+{Acetic acid và ethyl alcohol}
+{Formic acid và methyl alcohol}
+{Formic acid và ethyl alcohol}
+{\True Acetic acid và methyl alcohol}
+
+\loigiai{
+$\ce{HCOOC2H5}$ có CTPT là $\ce{C3H6O2}$. Ester đồng phân là methyl acetate ($\ce{CH3COOCH3}$), được điều chế từ acetic acid ($\ce{CH3COOH}$) và methyl alcohol ($\ce{CH3OH}$).\\
+\textbf{Chọn D.}
+}
+\end{ex}
+\begin{ex}
+Cho pin điện hoá Zn-Cu. Quá trình xảy ra ở cực dương của pin là
+\choice
+{$\ce{Zn^2+ + 2e -> Zn}$}
+{$\ce{Zn -> Zn^2+ + 2e}$}
+{\True $\ce{Cu^2+ + 2e -> Cu}$}
+{$\ce{Cu -> Cu^2+ + 2e}$}
+
+\loigiai{
+Trong pin Galvani Zn-Cu: cực âm (anode) là Zn xảy ra quá trình oxi hóa ($\ce{Zn -> Zn^2+ + 2e}$); cực dương (cathode) là Cu xảy ra quá trình khử ($\ce{Cu^2+ + 2e -> Cu}$).\\
+\textbf{Chọn C.}
+}
+\end{ex}
+\begin{ex}
+Tên gọi của polyme có công thức cho dưới đây là:
+\begin{center}
+\includegraphics[width=8.5cm]{C:/Antigravity_Thanh/San_Pham/images_de357/ctct_nylon66_cau4.png}
+\end{center}
+\choice
+{\True nilon-6,6}
+{olon}
+{nilon-7}
+{nilon-6}
+
+\loigiai{
+Polymer có công thức $\ce{[-NH-(CH2)6-NH-CO-(CH2)4-CO-]_n}$ được điều chế bằng phản ứng trùng ngưng giữa hexamethylenediamine và adipic acid, có tên gọi là poly(hexamethylene adipamide) hay nilon-6,6 (nylon-6,6).\\
+\textbf{Chọn A.}
+}
+\end{ex}
+\begin{ex}
+Cho các phát biểu sau:
+\begin{enumerate}[label=(\alph*),leftmargin=20pt,itemsep=1pt]
+\item Tinh bột trong gạo tẻ chứa nhiều amylose, trong gạo nếp chứa nhiều amylopectin.
+\item Amylose có mạch không phân nhánh do giữa các đơn vị $\alpha$-glucose chỉ có liên kết $\alpha$-1,4-glycoside.
+\item Ngoài liên kết $\alpha$-1,4-glycoside, còn xuất hiện liên kết $\alpha$-1,6-glycoside giữa các đơn vị $\alpha$-glucose là nguyên nhân làm cho amylopectin có mạch phân nhánh.
+\item Amylose và amylopectin đều cho được phản ứng thuỷ phân.
+\end{enumerate}
+Số phát biểu đúng là
+\choice
+{\True 4}
+{3}
+{2}
+{1}
+
+\loigiai{
+Cả 4 phát biểu (a), (b), (c), (d) đều đúng về cấu tạo và tính chất hóa học của tinh bột (amylose và amylopectin).\\
+\textbf{Chọn A.}
+}
+\end{ex}
+\begin{ex}
+Phân tử glucose có số nguyên tử oxygen là
+\choice
+{11}
+{5}
+{12}
+{\True 6}
+
+\loigiai{
+Công thức phân tử của glucose là $\ce{C6H12O6}$ nên phân tử có 6 nguyên tử oxygen.\\
+\textbf{Chọn D.}
+}
+\end{ex}
+\begin{ex}
+Điện phân với điện cực trơ, có màng ngăn giữa các điện cực các dung dịch sau: $\ce{KCl}$, $\ce{CuSO4}$, $\ce{AgNO3}$, $\ce{CuCl2}$, $\ce{NaCl}$, $\ce{NiSO4}$, $\ce{ZnCl2}$. Số dung dịch sau điện phân có khả năng hoà tan $\ce{Al2O3}$ là
+\choice
+{4}
+{3}
+{2}
+{\True 5}
+
+\loigiai{
+$\ce{Al2O3}$ là oxide lưỡng tính, tan được trong dung dịch acid mạnh và base kiềm mạnh. Sau điện phân:\\
+- Dung dịch $\ce{KCl}$ tạo $\ce{KOH}$ (kiềm mạnh) $\Rightarrow$ hòa tan $\ce{Al2O3}$.\\
+- Dung dịch $\ce{CuSO4}$ tạo $\ce{H2SO4}$ (acid mạnh) $\Rightarrow$ hòa tan $\ce{Al2O3}$.\\
+- Dung dịch $\ce{AgNO3}$ tạo $\ce{HNO3}$ (acid mạnh) $\Rightarrow$ hòa tan $\ce{Al2O3}$.\\
+- Dung dịch $\ce{CuCl2}$ điện phân tạo $\ce{Cu}$ và $\ce{Cl2}$ $\Rightarrow$ không hòa tan $\ce{Al2O3}$.\\
+- Dung dịch $\ce{NaCl}$ tạo $\ce{NaOH}$ (kiềm mạnh) $\Rightarrow$ hòa tan $\ce{Al2O3}$.\\
+- Dung dịch $\ce{NiSO4}$ tạo $\ce{H2SO4}$ (acid mạnh) $\Rightarrow$ hòa tan $\ce{Al2O3}$.\\
+- Dung dịch $\ce{ZnCl2}$ điện phân tạo $\ce{Zn}$ và $\ce{Cl2}$ $\Rightarrow$ không hòa tan $\ce{Al2O3}$.\\
+$\Rightarrow$ Có 5 dung dịch sau điện phân hòa tan được $\ce{Al2O3}$ là $\ce{KCl}$, $\ce{CuSO4}$, $\ce{AgNO3}$, $\ce{NaCl}$, $\ce{NiSO4}$.\\
+\textbf{Chọn D.}
+}
+\end{ex}
+\begin{ex}
+Cho các phát biểu sau:
+\begin{enumerate}[label=(\alph*),leftmargin=20pt,itemsep=1pt]
+\item Stearic acid là chất béo no, oleic acid là chất béo không no.
+\item Muối sodium hoặc potassium của stearic acid đều là thành phần chính của xà phòng.
+\item Hydrogen hoá oleic acid thu được stearic acid.
+\item Stearic acid có nhiệt độ nóng chảy cao hơn oleic acid.
+\end{enumerate}
+Số phát biểu đúng là
+\choice
+{4}
+{\True 3}
+{1}
+{2}
+
+\loigiai{
+Phân tích:
+\begin{itemize}[leftmargin=15pt,itemsep=1pt]
+\item (a) \textbf{SAI}: Stearic acid ($\ce{C17H35COOH}$) và oleic acid ($\ce{C17H33COOH}$) là các \textbf{acid béo}, không phải chất béo (chất béo là triester của glycerol).
+\item (b) \textbf{ĐÚNG}: Muối sodium stearate hoặc potassium stearate là thành phần chính của xà phòng.
+\item (c) \textbf{ĐÚNG}: $\ce{C17H33COOH + H2 ->[Ni, t^\circ] C17H35COOH}$.
+\item (d) \textbf{ĐÚNG}: Stearic acid là acid béo no ở thể rắn ($t^\circ_\text{nc} \approx 69^\circ\text{C}$), cao hơn oleic acid là acid béo không no ở thể lỏng ($t^\circ_\text{nc} \approx 13^\circ\text{C}$).
+\end{itemize}
+$\Rightarrow$ Có 3 phát biểu đúng là (b), (c), (d).\\
+\textbf{Chọn B.}
+}
+\end{ex}
+\begin{ex}
+Trên một số vật dụng polymer có các ký hiệu sau:
+\begin{center}
+\includegraphics[width=9.5cm]{C:/Antigravity_Thanh/San_Pham/images_de357/ky_hieu_tai_che_6.png}
+\end{center}
+Các kí hiệu này giúp người sử dụng và thu gom vật liệu polymer biết được thông tin gì?
+\choice
+{Vật liệu độc hại, cần tránh xa tầm tay trẻ em}
+{\True Vật liệu có thể tái chế được}
+{Vật liệu dễ cháy, nên bảo quản ở nhiệt độ thấp}
+{Vật liệu có thể đốt và không gây ô nhiễm môi trường}
+
+\loigiai{
+Ký hiệu hình tam giác có 3 mũi tên xoay vòng kèm số từ 1 đến 6 là mã nhận diện nhựa (Resin Identification Code) cho biết vật liệu đó có thể tái chế được.\\
+\textbf{Chọn B.}
+}
+\end{ex}
+\begin{ex}
+Thuỷ phân $10\text{ gam}$ saccharose thu được dung dịch X chứa $10,3\text{ gam}$ hỗn hợp glucose, fructose và saccharose còn dư. Trung hoà dung dịch X rồi thực hiện phản ứng với lượng dư thuốc thử Tollens thì thu được tối đa bao nhiêu gam bạc?
+\choice
+{\True $7,20\text{ gam}$}
+{$8,64\text{ gam}$}
+{$3,24\text{ gam}$}
+{$6,48\text{ gam}$}
+
+\loigiai{
+1. Khối lượng tăng lên sau phản ứng là do nước phản ứng:
+\[
+m(\ce{H2O}) = 10,3 - 10 = 0,3\text{ gam} \Rightarrow n(\ce{H2O}) = \frac{0,3}{18} = \frac{1}{60}\text{ mol}
+\]
+2. Phương trình thủy phân: $\ce{C12H22O11 + H2O -> C6H12O6}\text{ (glucose)} + \ce{C6H12O6}\text{ (fructose)}$\\
+$\Rightarrow n(\text{glucose}) = n(\text{fructose}) = n(\ce{H2O}) = \frac{1}{60}\text{ mol}$.\\
+3. Phản ứng tráng bạc với thuốc thử Tollens dư (trong môi trường kiềm $\ce{NH3}$, cả glucose và fructose đều phản ứng):
+\[
+n(\ce{Ag}) = 2 \times n(\text{glucose}) + 2 \times n(\text{fructose}) = 4 \times \frac{1}{60} = \frac{1}{15}\text{ mol}
+\]
+4. Khối lượng Ag tối đa thu được:
+\[
+m(\ce{Ag}) = \frac{1}{15} \times 108 = \mathbf{7,20\text{ gam}}
+\]
+\textbf{Chọn A.}
+}
+\end{ex}
+\begin{ex}
+Phát biểu nào sau đây không đúng?
+\choice
+{Protein tác dụng với dung dịch nitric acid đặc tạo thành sản phẩm rắn có màu vàng}
+{Thuỷ phân hoàn toàn polypeptide thu được các phân tử $\alpha$-amino acid}
+{\True Protein tác dụng với $\ce{Cu(OH)2}$ trong môi trường kiềm tạo dung dịch màu xanh lam}
+{Protein có thể bị đông tụ dưới tác dụng của nhiệt, acid hoặc base}
+
+\loigiai{
+Phát biểu C không đúng: Protein tác dụng với $\ce{Cu(OH)2}$ trong môi trường kiềm tạo hợp chất phức có màu TÍM đặc trưng (phản ứng màu biuret), không phải màu xanh lam.\\
+\textbf{Chọn C.}
+}
+\end{ex}
+\begin{ex}
+Trong các đồng phân cấu tạo của các amine có công thức $\ce{C3H9N}$, số amine bậc một là
+\choice
+{0}
+{3}
+{\True 2}
+{1}
+
+\loigiai{
+Các đồng phân amine bậc I ($\ce{R-NH2}$) của $\ce{C3H9N}$ gồm 2 chất:\\
+(1) $\ce{CH3-CH2-CH2-NH2}$ (propan-1-amine)\\
+(2) $\ce{CH3-CH(NH2)-CH3}$ (propan-2-amine).\\
+\textbf{Chọn C.}
+}
+\end{ex}
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN II. CÂU TRẮC NGHIỆM ĐÚNG SAI: 2 ĐIỂM}}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 2. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}
+\vspace{2pt}
+
+\begin{ex}
+Polymer nhiệt dẻo khi bị đun nóng đến nóng chảy thì trở nên mềm, dễ ăn khuôn và khi nguội thì đóng rắn lại.
+\choiceTF
+{\True Vật liệu polymer nhiệt dẻo có thể đun nóng và tạo hình nhiều lần}
+{\True Vật liệu polymer nhiệt dẻo thích hợp cho việc tái chế}
+{\True PVC và PS là polymer nhiệt dẻo có nhiều ứng dụng}
+{\True Polymer nhiệt dẻo thường có các kí hiệu in trên bao bì, vỏ hộp, đồ dùng, ... để giúp nhận biết vật liệu polymer cũng như thuận lợi cho việc thu gom, phân loại, tái chế}
+
+\loigiai{
+\begin{itemize}[leftmargin=15pt,itemsep=1pt]
+\item a) \textbf{ĐÚNG}: Đặc tính của polymer nhiệt dẻo là có thể nung nóng chảy rồi tạo hình nhiều lần.
+\item b) \textbf{ĐÚNG}: Dễ dàng nấu chảy và tạo hình lại nên rất thích hợp để tái chế.
+\item c) \textbf{ĐÚNG}: PVC và PS là các polymer nhiệt dẻo điển hình có vô số ứng dụng.
+\item d) \textbf{ĐÚNG}: Ký hiệu mã nhận diện giúp việc phân loại và tái chế nhựa thuận lợi.
+\end{itemize}
+}
+\end{ex}
+\begin{ex}
+Một pin điện hoá có điện cực kẽm nhúng trong dung dịch $\ce{ZnSO4}$ và điện cực đồng nhúng trong dung dịch $\ce{CuSO4}$. Em hãy cho biết các phát biểu sau đúng hay sai?
+\choiceTF
+{Điện cực kẽm tăng còn khối lượng điện cực đồng giảm}
+{Cho $E_\text{pin(Zn - Cu)} = 1,1\text{ V}$ và $E^\circ(\ce{Cu^2+}/\ce{Cu}) = 0,34\text{ V}$. Thế điện cực chuẩn của cặp oxi hoá - khử $E^\circ(\ce{Zn^2+}/\ce{Zn})$ là $0,76\text{V}$}
+{Điện cực Zn xảy ra sự oxi hoá ion $\ce{Zn^2+}$}
+{\True Điện cực kẽm giảm còn khối lượng điện cực đồng tăng}
+
+\loigiai{
+\begin{itemize}[leftmargin=15pt,itemsep=1pt]
+\item a) \textbf{SAI}: Kẽm ở cực âm tan ra ($\ce{Zn -> Zn^2+ + 2e}$) nên khối lượng giảm; đồng ở cực dương sinh ra ($\ce{Cu^2+ + 2e -> Cu}$) nên khối lượng tăng.
+\item b) \textbf{SAI}: $E^\circ_\text{pin} = E^\circ(\ce{Cu^2+}/\ce{Cu}) - E^\circ(\ce{Zn^2+}/\ce{Zn}) \Rightarrow 1,1 = 0,34 - E^\circ(\ce{Zn^2+}/\ce{Zn}) \Rightarrow E^\circ(\ce{Zn^2+}/\ce{Zn}) = \mathbf{-0,76\text{ V}}$ (đề ghi $0,76\text{V}$ thiếu dấu trừ).
+\item c) \textbf{SAI}: Ở cực Zn xảy ra sự oxi hóa kim loại Zn thành ion $\ce{Zn^2+}$, không phải oxi hóa ion $\ce{Zn^2+}$.
+\item d) \textbf{ĐÚNG}: Khối lượng điện cực Zn giảm và khối lượng điện cực Cu tăng.
+\end{itemize}
+}
+\end{ex}
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN III. (8 CÂU: 2 ĐIỂM) CÂU HỎI TRẮC NGHIỆM YÊU CẦU TRẢ LỜI NGẮN.}}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 8.}
+\vspace{2pt}
+
+\begin{ex}
+Số nhóm -OH trong một mắt xích để tạo phân tử cellulose là bao nhiêu?
+\hfill \textbf{Trả lời:} \dotfill
+
+\loigiai{
+Mỗi mắt xích $\beta$-glucose trong phân tử cellulose có 3 nhóm hydroxy (-OH) tự do: $\ce{[C6H7O2(OH)3]}_n$.\\
+\textbf{Đáp án: 3}
+}
+\end{ex}
+\begin{ex}
+Nicotine làm tăng huyết áp và nhịp tim, có khả năng gây xơ vữa động mạch vành và suy giảm trí nhớ. Trong cây thuốc lá và khói thuốc lá có chứa một amine rất độc, đó là nicotine với công thức cấu tạo như hình bên. Số nguyên tử carbon trong phân tử nicotine là bao nhiêu?
+\begin{center}
+\includegraphics[width=4.0cm]{C:/Antigravity_Thanh/San_Pham/images_de357/nicotine.png}
+\end{center}
+\hfill \textbf{Trả lời:} \dotfill
+
+\loigiai{
+Phân tử nicotine gồm vòng pyridine ($5\ce{C}$), vòng pyrrolidine ($4\ce{C}$) và 1 nhóm methyl $-\ce{CH3}$ ($1\ce{C}$). Tổng cộng: $5 + 4 + 1 = 10$ nguyên tử carbon (CTPT: $\ce{C10H14N2}$).\\
+\textbf{Đáp án: 10}
+}
+\end{ex}
+\begin{ex}
+Có bao nhiêu phát biểu đúng khi nhận xét về acid béo?
+\begin{enumerate}[label=(\arabic*).,leftmargin=20pt,itemsep=1pt]
+\item Là monocarboxylic acid, thường có số nguyên tử carbon chẵn và mạch carbon không phân nhánh.
+\item Có thể no hoặc không no.
+\item Tính chất vật lí phụ thuộc vào độ dài của mạch carbon và mức độ bão hoà.
+\item Muối của chúng được dùng làm xà phòng.
+\end{enumerate}
+\hfill \textbf{Trả lời:} \dotfill
+
+\loigiai{
+Cả 4 phát biểu (1), (2), (3), (4) đều hoàn toàn chính xác khi nhận xét về đặc điểm cấu tạo và ứng dụng của acid béo.\\
+\textbf{Đáp án: 4}
+}
+\end{ex}
+\begin{ex}
+Cho các phát biểu sau:
+\begin{enumerate}[label=(\alph*),leftmargin=20pt,itemsep=1pt]
+\item Saccharose chỉ có cấu tạo dạng mạch vòng.
+\item Dung dịch saccharose hoà tan $\ce{Cu(OH)2}$ tạo dung dịch xanh lam.
+\item Saccharose bị oxi hoá bởi thuốc thử Tollens.
+\item Saccharose có khả năng làm mất màu nước bromine.
+\item Saccharose cho được phản ứng thuỷ phân.
+\end{enumerate}
+Có bao nhiêu phát biểu sai?
+\hfill \textbf{Trả lời:} \dotfill
+
+\loigiai{
+Các phát biểu sai là (c) và (d):\\
+- (c) SAI vì saccharose không có nhóm -CHO hoặc -OH hemiaxetal tự do nên không phản ứng với thuốc thử Tollens.\\
+- (d) SAI vì saccharose không làm mất màu nước bromine.\\
+Các phát biểu (a), (b), (e) đều đúng $\Rightarrow$ Số phát biểu sai là 2.\\
+\textbf{Đáp án: 2}
+}
+\end{ex}
+\begin{ex}
+Cho pin điện hoá Al - Cu có $E^\circ_\text{pin(Al-Cu)} = 2,00\text{ V}$; và $E^\circ(\ce{Cu^2+}/\ce{Cu}) = 0,34\text{V}$. Thế điện cực chuẩn của cặp oxi hoá khử $\ce{Al^3+}/\ce{Al}$ có giá trị là bao nhiêu volt? (Không làm tròn kết quả)
+\hfill \textbf{Trả lời:} \dotfill
+
+\loigiai{
+$E^\circ_\text{pin(Al-Cu)} = E^\circ(\ce{Cu^2+}/\ce{Cu}) - E^\circ(\ce{Al^3+}/\ce{Al})$\\
+$\Rightarrow 2,00 = 0,34 - E^\circ(\ce{Al^3+}/\ce{Al}) \Rightarrow E^\circ(\ce{Al^3+}/\ce{Al}) = 0,34 - 2,00 = \mathbf{-1,66\text{ V}}$.\\
+\textbf{Đáp án: -1,66}
+}
+\end{ex}
+\begin{ex}
+Có bao nhiêu amino acid ứng với công thức phân tử $\ce{C3H7NO2}$?
+\hfill \textbf{Trả lời:} \dotfill
+
+\loigiai{
+Các amino acid ứng với $\ce{C3H7NO2}$ gồm 2 chất:\\
+(1) $\ce{CH3-CH(NH2)-COOH}$ (alanine)\\
+(2) $\ce{H2N-CH2-CH2-COOH}$ ($\beta$-alanine).\\
+\textbf{Đáp án: 2}
+}
+\end{ex}
+\begin{ex}
+Kevlar là một polymer có độ bền kéo rất cao. Loại vật liệu này được dùng để sản xuất áo chống đạn và mũ bảo hiểm cho quân đội. Kevlar được điều chế bằng phản ứng của hai chất sau:
+\begin{center}
+\includegraphics[width=9.5cm]{C:/Antigravity_Thanh/San_Pham/images_de357/kevlar_scheme.png}
+\end{center}
+Cho các phát biểu sau:
+\begin{enumerate}[label=(\arabic*),leftmargin=20pt,itemsep=1pt]
+\item Kevlar thuộc loại polyamide.
+\item Phản ứng tổng hợp Kevlar thuộc phản ứng trùng ngưng.
+\item Mỗi phân tử terephthalic acid và 1,2-diaminebenzene đều có chứa 3 liên kết pi.
+\item Monomer để tổng hợp Kevlar là terephthalic acid và 1,2-diaminebenzene.
+\item Cả hai chất terephthalic acid và 1,2-diaminebenzene đều là hợp chất tạp chức.
+\end{enumerate}
+Có bao nhiêu phát biểu đúng?
+\hfill \textbf{Trả lời:} \dotfill
+
+\loigiai{
+Phân tích:
+\begin{itemize}[leftmargin=15pt,itemsep=1pt]
+\item (1) \textbf{ĐÚNG}: Kevlar có liên kết amide $-\ce{CO-NH}-$ nên là polyamide.
+\item (2) \textbf{ĐÚNG}: Phản ứng đồng trùng ngưng giải phóng $\ce{H2O}$.
+\item (3) \textbf{SAI}: Terephthalic acid chứa 5 liên kết $\pi$ ($3\pi$ trong vòng benzen và $2\pi$ trong 2 nhóm $\ce{C=O}$).
+\item (4) \textbf{SAI}: Monomer là 1,4-diaminebenzene (đối xứng para), không phải 1,2-diaminebenzene.
+\item (5) \textbf{SAI}: Cả hai chất đều là hợp chất đa chức (chứa 2 nhóm giống nhau), không phải tạp chức.
+\end{itemize}
+$\Rightarrow$ Có 2 phát biểu đúng là (1) và (2).\\
+\textbf{Đáp án: 2}
+}
+\end{ex}
+\begin{ex}
+Da nhân tạo (PVC) được điều chế từ khí thiên nhiên ($\ce{CH4}$). Nếu hiệu suất của toàn bộ quá trình là $20\%$ thì để điều chế 1 tấn PVC phải cần một thể tích khí thiên nhiên ở điều kiện chuẩn (xem khí thiên nhiên chứa $80\%$ methane) là bao nhiêu $\text{m}^3$?
+\hfill \textbf{Trả lời:} \dotfill
+
+\loigiai{
+Sơ đồ bảo toàn nguyên tố C: $2\,\ce{CH4} \longrightarrow \ce{[-CH2-CH(Cl)-]_n}$\\
+1. $m(\text{PVC}) = 1\text{ tấn} = 10^6\text{ g} \Rightarrow n(\text{mắt xích PVC}) = \frac{10^6}{62,5} = 16000\text{ mol}$.\\
+2. $n(\ce{CH4}\text{ lt}) = 2 \times 16000 = 32000\text{ mol}$.\\
+3. $V_\text{LT}(\ce{CH4}\text{ ở đkc}) = 32000 \times 24,79 \times 10^{-3} = 793,28\text{ m}^3$.\\
+4. Do $H = 20\% \Rightarrow V_\text{TT}(\ce{CH4}) = \frac{793,28}{20\%} = 3966,4\text{ m}^3$.\\
+5. Thể tích khí thiên nhiên cần dùng (chứa $80\%$ methane):
+\[
+V(\text{khí thiên nhiên}) = \frac{3966,4}{80\%} = \mathbf{4958\text{ m}^3}
+\]
+\textbf{Đáp án: 4958 $\text{m}^3$}
+}
+\end{ex}
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\Large B. PHẦN IV - TỰ LUẬN: 3 ĐIỂM}}
+\vspace{3pt}
+
+\noindent
+\textbf{Câu 1: (1,5 điểm)}
+\begin{enumerate}[label=\alph*),leftmargin=20pt,itemsep=2pt]
+\item Viết phương trình điều chế các polymer sau: Cao su Buna, PVC, nylon -- 6,6.
+\item Chloro hoá PVC thu được một polymer chứa $66,77\%$ chlorine về khối lượng, trung bình 1 phân tử chlorine phản ứng với $k$ mắt xích trong mạch PVC. Hãy xác định $k$? (cho $\ce{H}=1, \ce{C}=12, \ce{Cl}=35,5$).
+\end{enumerate}
+
+\begin{tcolorbox}[colback=tableGreen!30,colframe=mainGreen!70,title=\textbf{Hướng dẫn giải chi tiết Câu 1},fonttitle=\bfseries]
+\textbf{a) Viết phương trình hóa học điều chế các polymer:}
+\begin{itemize}[leftmargin=15pt,itemsep=2pt]
+\item Cao su Buna (trùng hợp buta-1,3-diene):
+\[
+n\,\ce{CH2=CH-CH=CH2} \xrightarrow{t^\circ, \text{Na}, p} \ce{[-CH2-CH=CH-CH2-]_n}
+\]
+\item Poly(vinyl chloride) (trùng hợp vinyl chloride):
+\[
+n\,\ce{CH2=CH-Cl} \xrightarrow{t^\circ, xt, p} \ce{[-CH2-CH(Cl)-]_n}
+\]
+\item Tơ nylon-6,6 (đồng trùng ngưng hexamethylenediamine và adipic acid):
+\[
+n\,\ce{H2N-(CH2)6-NH2} + n\,\ce{HOOC-(CH2)4-COOH} \xrightarrow{t^\circ, p} \ce{[-NH-(CH2)6-NH-CO-(CH2)4-CO-]_n} + 2n\,\ce{H2O}
+\]
+\end{itemize}
+\textbf{b) Xác định hệ số $k$ trong phản ứng chloro hóa PVC:}
+\begin{itemize}[leftmargin=15pt,itemsep=2pt]
+\item Đoạn mạch chứa $k$ mắt xích PVC: $\ce{(C2H3Cl)}_k$ hay $\ce{C_{2k}H_{3k}Cl_k}$.
+\item Phản ứng thế 1 phân tử $\ce{Cl2}$ vào $k$ mắt xích:
+\[
+\ce{C_{2k}H_{3k}Cl_k + Cl2 -> C_{2k}H_{3k-1}Cl_{k+1} + HCl}
+\]
+\item Khối lượng phân tử đoạn mạch: $M = 12 \times 2k + 1 \times (3k - 1) + 35,5 \times (k + 1) = 62,5k + 34,5$.
+\item Hàm lượng chlorine trong sản phẩm:
+\[
+\%Cl = \frac{35,5(k + 1)}{62,5k + 34,5} \times 100\% = 66,77\%
+\]
+\[
+\Rightarrow 35,5k + 35,5 = 0,6677 \times (62,5k + 34,5) \Rightarrow 6,23125k = 12,46435 \Rightarrow \mathbf{k = 2}.
+\]
+\end{itemize}
+\textbf{Kết luận:} $k = 2$ (trung bình cứ 2 mắt xích PVC thì phản ứng với 1 phân tử $\ce{Cl2}$).
+\end{tcolorbox}
+
+\vspace{3pt}
+\noindent
+\textbf{Câu 2: (1,5 điểm)}
+\begin{enumerate}[label=\alph*),leftmargin=20pt,itemsep=2pt]
+\item Pin Galvani Zn - Cu gồm điện cực Zn nhúng trong dung dịch $\ce{ZnSO4}$ và điện cực Cu nhúng trong dung dịch $\ce{CuSO4}$ được nối với nhau bởi cầu muối (thường chứa dung dịch $\ce{KCl}$ bão hoà) như hình sau:
+\begin{center}
+\includegraphics[width=8.0cm]{C:/Antigravity_Thanh/San_Pham/images_de357/pin_galvani_de357.png}
+\end{center}
+Em hãy:
+\begin{itemize}[leftmargin=15pt,itemsep=1pt]
+\item Nêu nguyên tắc hoạt động của pin Galvani Zn-Cu.
+\item Sau quá trình hoạt động, khối lượng của hai điện cực thay đổi như thế nào? Giải thích.
+\item Tính sức điện động chuẩn của pin Zn-Cu, biết $E^\circ(\ce{Cu^2+}/\ce{Cu}) = 0,34\text{V}$; $E^\circ(\ce{Zn^2+}/\ce{Zn}) = -0,76\text{V}$.
+\end{itemize}
+\item Điện phân dung dịch $\ce{M(NO3)_n}$ (điện cực trơ, cường độ dòng điện không đổi), ở cathode chỉ thu được $5,4\text{ gam}$ kim loại M và ở anode thu được $0,31\text{ lít}$ khí (đkc). Viết các quá trình xảy ra ở các điện cực và phương trình điện phân; Xác định kim loại M; Ở điện cực nào có pH thay đổi? Giải thích?
+\end{enumerate}
+
+\begin{tcolorbox}[colback=tableGreen!30,colframe=mainGreen!70,title=\textbf{Hướng dẫn giải chi tiết Câu 2},fonttitle=\bfseries]
+\textbf{a) Pin Galvani Zn - Cu:}
+\begin{itemize}[leftmargin=15pt,itemsep=2pt]
+\item \textbf{Nguyên tắc hoạt động:} Dựa trên phản ứng oxi hóa - khử tự diễn biến: $\ce{Zn + Cu^2+ -> Zn^2+ + Cu}$. Năng lượng phản ứng hóa học chuyển hóa thành điện năng. Các electron chuyển từ thanh Zn (cực âm anode) qua mạch ngoài sang thanh Cu (cực dương cathode). Cầu muối cho các ion khuếch tán để trung hòa điện tích hai dung dịch.
+\item \textbf{Sự thay đổi khối lượng điện cực:}
+\begin{itemize}[leftmargin=15pt,itemsep=1pt]
+\item Anode (cực âm Zn): Zn tan ra ($\ce{Zn -> Zn^2+ + 2e}$) $\Rightarrow$ Khối lượng thanh Zn \textbf{giảm}.
+\item Cathode (cực dương Cu): Cu sinh ra bám vào ($\ce{Cu^2+ + 2e -> Cu}$) $\Rightarrow$ Khối lượng thanh Cu \textbf{tăng}.
+\end{itemize}
+\item \textbf{Sức điện động chuẩn của pin Zn-Cu:}
+\[
+E^\circ_\text{pin} = E^\circ(\ce{Cu^2+}/\ce{Cu}) - E^\circ(\ce{Zn^2+}/\ce{Zn}) = 0,34 - (-0,76) = \mathbf{1,10\text{ V}}
+\]
+\end{itemize}
+\textbf{b) Điện phân dung dịch $\ce{M(NO3)_n}$:}
+\begin{itemize}[leftmargin=15pt,itemsep=2pt]
+\item Tại anode (cực dương): $\ce{H2O}$ bị oxi hóa giải phóng khí $\ce{O2}$:
+\[
+2\ce{H2O -> O2 + 4H+ + 4e}
+\]
+$n(\ce{O2}) = \frac{0,31}{24,79} \approx 0,0125\text{ mol} \Rightarrow n_\ce{e} = 4 \times 0,0125 = 0,05\text{ mol}$.
+\item Tại cathode (cực âm): ion $\ce{M^{n+}}$ bị khử tạo kim loại M:
+\[
+\ce{M^{n+} + n e -> M} \Rightarrow n(\text{M}) = \frac{0,05}{n}\text{ mol}
+\]
+\item Xác định kim loại M:
+\[
+M_\text{M} = \frac{m(\text{M})}{n(\text{M})} = \frac{5,4}{0,05/n} = 108n
+\]
+Với $n = 1 \Rightarrow M = 108\text{ (g/mol)}$: Kim loại Bạc (\textbf{Ag}). (Với $n=2, 3$: không phù hợp).\\
+Vậy kim loại M là \textbf{Bạc (Ag)}, muối là $\ce{AgNO3}$.
+\item Phương trình điện phân dung dịch:
+\[
+4\ce{AgNO3} + 2\ce{H2O} \xrightarrow{\text{đpdd}} 4\ce{Ag} + \ce{O2}\uparrow + 4\ce{HNO3}
+\]
+\item \textbf{Điện cực có pH thay đổi:} Ở \textbf{anode (cực dương)} sinh ra ion $\ce{H^+}$ làm tăng nồng độ $[\ce{H^+}] \Rightarrow$ \textbf{pH giảm} ($\text{pH} < 7$, môi trường acid).
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{6pt}
+\begin{center}
+\textbf{-------------------- HẾT --------------------}
+\end{center}
+\end{document}
