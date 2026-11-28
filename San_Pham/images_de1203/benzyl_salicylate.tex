@@ -1,0 +1,96 @@
+\documentclass[border=4mm]{standalone}
+\usepackage[utf8]{inputenc}
+\usepackage[T5]{fontenc}
+\usepackage{amsmath}
+\usepackage{mathptmx}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc}
+
+\begin{document}
+\begin{tikzpicture}[line cap=round, line join=round, >=stealth, font=\fontsize{11}{13}\selectfont]
+    \tikzset{
+        chemline/.style={line width=0.9pt},
+        rxarrow/.style={line width=0.9pt}
+    }
+
+    % --- 1. Salicylic acid ---
+    \begin{scope}[shift={(0,0)}]
+        % Vòng benzen 6 cạnh
+        \def\r{0.75}
+        \coordinate (b1) at (90:\r);
+        \coordinate (b2) at (30:\r);
+        \coordinate (b3) at (330:\r);
+        \coordinate (b4) at (270:\r);
+        \coordinate (b5) at (210:\r);
+        \coordinate (b6) at (150:\r);
+        \draw[chemline] (b1) -- (b2) -- (b3) -- (b4) -- (b5) -- (b6) -- cycle;
+        \draw[chemline] (0,0) circle (0.45);
+        % Nhánh COOH ở b1
+        \draw[chemline] (b1) -- ($(b1)+(0,0.45)$) node[above=-2pt] {$\mathrm{COOH}$};
+        % Nhánh OH ở b2
+        \draw[chemline] (b2) -- ($(b2)+(0.4,0.15)$) node[right=-2pt] {$\mathrm{OH}$};
+        \node at (0,-1.15) {\textit{salicylic acid}};
+    \end{scope}
+
+    \node at (1.5,0) {\textbf{+}};
+
+    % --- 2. Benzyl alcohol ---
+    \begin{scope}[shift={(3.2,0)}]
+        \def\r{0.75}
+        \coordinate (a1) at (90:\r);
+        \coordinate (a2) at (30:\r);
+        \coordinate (a3) at (330:\r);
+        \coordinate (a4) at (270:\r);
+        \coordinate (a5) at (210:\r);
+        \coordinate (a6) at (150:\r);
+        \draw[chemline] (a1) -- (a2) -- (a3) -- (a4) -- (a5) -- (a6) -- cycle;
+        \draw[chemline] (0,0) circle (0.45);
+        % Nhánh CH2OH ở a1
+        \draw[chemline] (a1) -- ($(a1)+(0,0.45)$) node[above=-2pt] {$\mathrm{CH_2OH}$};
+        \node at (0,-1.15) {\textit{benzyl alcohol}};
+    \end{scope}
+
+    % --- Mũi tên thuận nghịch ---
+    \begin{scope}[shift={(4.9,0)}]
+        \draw[rxarrow, -{Latex[length=4pt, width=3pt]}] (-0.4, 0.08) -- (0.5, 0.08) node[midway, above=-1pt] {\scriptsize $\mathrm{H_2SO_4\ \text{đặc},\ t^\circ}$};
+        \draw[rxarrow, {Latex[length=4pt, width=3pt]}-] (-0.4, -0.08) -- (0.5, -0.08);
+    \end{scope}
+
+    % --- 3. Benzyl salicylate ---
+    \begin{scope}[shift={(7.3,0)}]
+        \def\r{0.75}
+        \coordinate (s1) at (90:\r);
+        \coordinate (s2) at (30:\r);
+        \coordinate (s3) at (330:\r);
+        \coordinate (s4) at (270:\r);
+        \coordinate (s5) at (210:\r);
+        \coordinate (s6) at (150:\r);
+        \draw[chemline] (s1) -- (s2) -- (s3) -- (s4) -- (s5) -- (s6) -- cycle;
+        \draw[chemline] (0,0) circle (0.45);
+        \draw[chemline] (s2) -- ($(s2)+(0.4,0.15)$) node[right=-2pt] {$\mathrm{OH}$};
+
+        % Cầu nối COOCH2
+        \coordinate (Ctop) at ($(s1)+(0,0.45)$);
+        \draw[chemline] (s1) -- (Ctop) node[above=-2pt] (Cnode) {$\mathrm{COOCH_2}$};
+
+        % Vòng benzyl thứ hai
+        \begin{scope}[shift={(8.9, 1.1)}]
+            \def\rB{0.65}
+            \coordinate (k1) at (210:\rB);
+            \coordinate (k2) at (150:\rB);
+            \coordinate (k3) at (90:\rB);
+            \coordinate (k4) at (30:\rB);
+            \coordinate (k5) at (330:\rB);
+            \coordinate (k6) at (270:\rB);
+            \draw[chemline] (k1) -- (k2) -- (k3) -- (k4) -- (k5) -- (k6) -- cycle;
+            \draw[chemline] (0,0) circle (0.38);
+            \draw[chemline] (Cnode.east) -- (k1);
+        \end{scope}
+        
+        \node at (0.8,-1.15) {\textit{benzyl salicylate}};
+    \end{scope}
+
+    \node at (10.6,0) {\textbf{+} $\mathbf{H_2O}$};
+
+\end{tikzpicture}
+\end{document}
