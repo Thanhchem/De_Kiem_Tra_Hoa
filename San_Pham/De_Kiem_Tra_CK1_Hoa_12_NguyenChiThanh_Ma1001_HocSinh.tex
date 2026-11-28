@@ -1,0 +1,326 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{geometry}
+\geometry{top=1.5cm,bottom=1.2cm,left=1.4cm,right=1.4cm,headheight=28pt,headsep=12pt,footskip=18pt}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{multido}
+\usepackage{tcolorbox}
+
+\definecolor{hfRed}{HTML}{D32F2F}
+\definecolor{hfGreen}{HTML}{8BC390}
+\definecolor{mainGreen}{HTML}{2E7D32}
+\definecolor{solBlue}{HTML}{1565C0}
+\definecolor{tableGreen}{HTML}{E8F5E9}
+
+\usepackage{ex_test}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.75pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0.75pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+
+\fancyhead[L]{\small\itshape\color{hfRed}Tài liệu lưu hành nội bộ}
+\fancyhead[R]{\small\color{hfRed}Thầy \textbf{TRẦN VĂN THẠNH} - 0777.470.803}
+
+\fancyfoot[L]{\footnotesize\itshape\color{hfRed}CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+\fancyfoot[R]{\small\textbf{\color{hfRed}Trang \thepage}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+
+\begin{document}
+
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{SỞ GD VÀ ĐT THÀNH PHỐ HUẾ}\\
+\textbf{TRƯỜNG THPT NGUYỄN CHÍ THANH}\\
+\textit{ĐỀ CHÍNH THỨC}\\
+\textit{(gồm có: 04 trang)}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\raggedleft
+\textbf{\color{hfRed}ĐỀ KIỂM TRA CUỐI HỌC KÌ I}\\
+\textbf{NĂM HỌC 2025 -- 2026}\\
+\textbf{MÔN: HÓA HỌC -- LỚP 12}\\
+\textit{Thời gian làm bài: 45 phút (không kể thời gian phát đề)}\\
+\textbf{MÃ ĐỀ: 1001}
+\end{minipage}
+
+\vspace{4pt}
+\noindent
+\textit{Họ và tên:} \dotfill \textit{Số báo danh:} \dotfill
+
+\vspace{3pt}
+\noindent
+\textit{\footnotesize Cho biết nguyên tử khối của các nguyên tố (amu): $\ce{C}=12,\ \ce{H}=1,\ \ce{O}=16,\ \ce{Cu}=64,\ \ce{Ag}=108,\ \ce{Cl}=35,5,\ \ce{Na}=23,\ \ce{N}=14$.}
+
+\vspace{3pt}
+\hrule color{hfGreen} height 0.5pt
+
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\Large A. PHẦN TRẮC NGHIỆM}}
+
+\vspace{3pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN 1: TRẮC NGHIỆM NHIỀU LỰA CHỌN (4 điểm – 16 câu).}}\\
+\textit{\small Thí sinh trả lời câu hỏi từ câu 1 đến câu 16, mỗi câu hỏi thí sinh chỉ chọn một phương án.}
+\vspace{2pt}
+
+\begin{ex}
+Methyl acetate có công thức cấu tạo nào sau đây?
+\choice
+{$\ce{CH3COOC3H7}$}
+{$\ce{HCOOC2H5}$}
+{\True $\ce{CH3COOCH3}$}
+{$\ce{CH3COOC2H5}$}
+\end{ex}
+\begin{ex}
+Amine nào sau đây là amine bậc hai?
+\choice
+{$\ce{(CH3)3N}$}
+{$\ce{CH5N}$}
+{\True $\ce{(CH3)2NH}$}
+{$\ce{C2H7NH2}$}
+\end{ex}
+\begin{ex}
+Khi nấu món canh từ thịt cua, tôm, tép có nhiều mảng thịt đóng rắn lại. Hiện tượng trên gây ra bởi tính chất nào sau đây?
+\choice
+{Sự thủy phân protein bởi nhiệt độ}
+{Sự đông tụ protein bởi sự thay đổi pH}
+{\True Sự đông tụ protein bởi nhiệt độ}
+{Kết tủa carbonate của các chất khoáng có trong vỏ}
+\end{ex}
+\begin{ex}
+Cho sức điện động chuẩn của các pin điện hoá sau:
+$E^\circ_{\text{pin}(\text{T-X})} = 2,46\text{ V}$; $E^\circ_{\text{pin}(\text{T-Y})} = 2,00\text{ V}$ (với X, Y, T là ba kim loại). Dãy các kim loại được sắp xếp theo chiều tăng dần tính khử là:
+\choice
+{\True $\text{X} < \text{Y} < \text{T}$}
+{$\text{Y} < \text{X} < \text{T}$}
+{$\text{T} < \text{Y} < \text{X}$}
+{$\text{T} < \text{X} < \text{Y}$}
+\end{ex}
+\begin{ex}
+Chất nào sau đây thuộc loại monosaccharide?
+\choice
+{Cellulose}
+{Saccharose}
+{Tinh bột}
+{\True Glucose}
+\end{ex}
+\begin{ex}
+Tinh bột thuộc loại polysaccharide, có nhiều trong các loại ngũ cốc như hạt lúa, hạt ngô, củ khoai, củ sắn, .... Công thức phân tử của tinh bột là:
+\choice
+{$\ce{C12H22O11}$}
+{$\ce{C6H12O6}$}
+{\True $\ce{(C6H10O5)_n}$}
+{$\ce{C2H4O2}$}
+\end{ex}
+\begin{ex}
+Dạng ion chủ yếu nào của amino acid tồn tại trong môi trường acid mạnh (pH khoảng 1-2)?
+\begin{center}
+\includegraphics[width=11.5cm]{C:/Antigravity_Thanh/San_Pham/images_de1001/cau7_amino_acid_forms.png}
+\end{center}
+\choice
+{Dạng anion $\ce{H2N-CH2-COO-}$}
+{Dạng ion lưỡng cực $\ce{^{+}H3N-CH2-COO-}$}
+{Dạng anion $\ce{CH3-CH(NH2)-COO-}$}
+{\True Dạng cation $\ce{CH3-CH(^{+}NH3)-COOH}$}
+\end{ex}
+\begin{ex}
+Sản phẩm thu được khi điện phân dung dịch KCl (điện cực trơ, có màng ngăn) gồm:
+\choice
+{K và $\ce{Cl2}$}
+{K, $\ce{H2}$ và $\ce{Cl2}$}
+{\True KOH, $\ce{H2}$ và $\ce{Cl2}$}
+{KOH, $\ce{O2}$ và HCl}
+\end{ex}
+\begin{ex}
+Saccharose được cấu tạo từ:
+\choice
+{hai đơn vị $\alpha$-glucose qua liên kết $\alpha$-1,4-glycoside}
+{một đơn vị $\alpha$-glucose và một đơn vị $\beta$-fructose qua liên kết $\alpha$-1,4-glycoside}
+{\True một đơn vị $\alpha$-glucose và một đơn vị $\beta$-fructose qua liên kết $\alpha$-1,2-glycoside}
+{hai đơn vị $\beta$-fructose qua liên kết $\beta$-1,4-glycoside}
+\end{ex}
+\begin{ex}
+Một pin điện hoá có điện cực Zn nhúng trong dung dịch $\ce{ZnSO4}$ và điện cực Cu nhúng trong dung dịch $\ce{CuSO4}$. Sau một thời gian pin đó phóng điện thì:
+\begin{center}
+\includegraphics[width=7.5cm]{C:/Antigravity_Thanh/San_Pham/images_de1001/pin_galvani_de1001.png}
+\end{center}
+\choice
+{khối lượng cả hai điện cực Zn và Cu đều tăng}
+{khối lượng cả hai điện cực Zn và Cu đều giảm}
+{khối lượng điện cực Zn tăng còn khối lượng điện cực Cu giảm}
+{\True khối lượng điện cực Zn giảm còn khối lượng điện cực Cu tăng}
+\end{ex}
+\begin{ex}
+Kết quả phân tích nguyên tố của một $\alpha$-amino acid X như sau: $\%C=46,60\%$; $\%H=8,74\%$; $\%N=13,59\%$ (về khối lượng); còn lại là oxygen. Bằng phổ khối lượng (MS), xác định được phân tử khối của X bằng 103. Số công thức cấu tạo thỏa mãn của X là:
+\choice
+{4}
+{3}
+{\True 2}
+{1}
+\end{ex}
+\begin{ex}
+Linoleic acid có công thức khung phân tử như bên dưới thuộc loại acid béo nào sau đây?
+\begin{center}
+\includegraphics[width=9.5cm]{C:/Antigravity_Thanh/San_Pham/images_de1001/linoleic_acid.png}
+\end{center}
+\choice
+{Omega-3}
+{\True Omega-6}
+{Omega-9}
+{Omega-12}
+\end{ex}
+\begin{ex}
+Trong quá trình điện phân $\ce{MgCl2}$ nóng chảy với các điện cực trơ, ở cathode xảy ra quá trình:
+\choice
+{khử ion $\ce{Cl-}$}
+{oxi hóa ion $\ce{Cl-}$}
+{\True khử ion $\ce{Mg^2+}$}
+{oxi hóa ion $\ce{Mg^2+}$}
+\end{ex}
+\begin{ex}
+Polymer nào sau đây được tổng hợp bằng phản ứng trùng hợp?
+\choice
+{tinh bột}
+{tơ visco}
+{tơ nylon-6}
+{\True cao su buna}
+\end{ex}
+\begin{ex}
+Số liên kết peptide trong phân tử peptide Gly-Ala-Val-Tyr-Phe là:
+\choice
+{2}
+{1}
+{3}
+{\True 4}
+\end{ex}
+\begin{ex}
+Trong các loại tơ: nylon-6,6; tơ visco; nylon-6; tơ capron; sợi bông; tơ cellulose acetate. Số loại tơ có nguồn gốc từ cellulose là:
+\choice
+{5}
+{\True 3}
+{2}
+{4}
+\end{ex}
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN 2: TRẮC NGHIỆM ĐÚNG -- SAI (2 điểm – 2 câu).}}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 2. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}
+\vspace{2pt}
+
+\begin{ex}
+Cho thế điện cực chuẩn của các cặp oxi hóa -- khử như sau:
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\rowcolor{tableGreen}
+\textbf{Cặp oxi hóa -- khử} & $\ce{Fe^2+}/\ce{Fe}$ & $\ce{Cu^2+}/\ce{Cu}$ & $\ce{Fe^3+}/\ce{Fe^2+}$ & $\ce{Ag+}/\ce{Ag}$ \\
+\hline
+$E^\circ\ (\text{V})$ & -0,04 & 0,34 & 0,77 & 0,80 \\
+\hline
+\end{tabular}
+\end{center}
+\choiceTF
+{Các kim loại được xếp theo chiều tính khử tăng dần: $\text{Ag} < \text{Fe} < \text{Cu}$}
+{Cho Fe tác dụng với dung dịch $\ce{AgNO3}$ dư thu được dung dịch Y chứa 2 muối là $\ce{Fe(NO3)2}$ và $\ce{AgNO3}$}
+{\True Sức điện động chuẩn của pin điện hóa Fe-Cu là: 0,38V}
+{\True Khi nhúng thanh đồng có khối lượng $6,4\text{ gam}$ vào $400\text{ mL}$ dung dịch $\ce{AgNO3}\ 0,2\text{M}$. Giả thiết toàn bộ lượng Ag giải phóng đều bám vào thanh đồng thì khối lượng thanh đồng sau khi phản ứng kết thúc là $12,48\text{ gam}$}
+\end{ex}
+\begin{ex}
+Tơ capron là loại tơ có tính dai, độ đàn hồi và độ bóng cao, ít thấm nước và được sử dụng để dệt vải may mặc. Tơ capron được tổng hợp từ caprolactam theo phương trình hóa học sau:
+\begin{center}
+\includegraphics[width=9.5cm]{C:/Antigravity_Thanh/San_Pham/images_de1001/caprolactam_scheme.png}
+\end{center}
+\choiceTF
+{Phản ứng (1) thuộc loại phản ứng trùng ngưng}
+{\True Tơ capron là tơ tổng hợp}
+{Do tơ capron có các nhóm $-\ce{CO-NH}-$ nên tơ này bền với dung dịch kiềm mạnh}
+{Do tơ capron có các nhóm $-\ce{CO-NH}-$ nên tơ capron là loại polypeptide}
+\end{ex}
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN 3: CÂU TRẮC NGHIỆM TRẢ LỜI NGẮN (1 điểm - 4 câu).}}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 4.}
+\vspace{2pt}
+
+\begin{ex}
+Isoamyl acetate có mùi thơm đặc trưng của chuối chín nên còn được gọi là dầu chuối. Khi đun nóng hỗn hợp gồm $16,2\text{ gam}$ acetic acid và $26,4\text{ gam}$ isoamyl alcohol ($\ce{((CH3)2CHCH2CH2OH)}$) với xúc tác là $\ce{H2SO4}$ đặc, đun nóng thu được $26\text{ gam}$ dầu chuối. Tính hiệu suất của phản ứng điều chế dầu chuối trên. (Kết quả làm tròn đến hàng phần mười).
+\hfill \textbf{Trả lời:} \dotfill
+\end{ex}
+\begin{ex}
+Cho các chất: glucose, amylose, cellulose, maltose, fructose, saccharose. Có bao nhiêu chất tham gia phản ứng thuỷ phân trong môi trường acid?
+\hfill \textbf{Trả lời:} \dotfill
+\end{ex}
+\begin{ex}
+Thủy phân một tripeptide X (mạch hở) thu được hỗn hợp gồm glycine, alanine (có tỉ lệ mol 2:1). Có bao nhiêu đồng phân cấu tạo của X thỏa mãn tính chất trên?
+\hfill \textbf{Trả lời:} \dotfill
+\end{ex}
+\begin{ex}
+Poly(hexamethylene adipamide) còn được gọi là tơ nylon-6,6 được điều chế từ phản ứng trùng ngưng của adipic acid và hexamethylene diamine. Tơ nylon-6,6 có tính dai, mềm, ít thấm nước nên được dùng để dệt vải may mặc, bện dây cáp, dây dù, đan lưới. Một loại tơ nylon-6,6 có khối lượng phân tử là $37290\text{ đvC}$. Có bao nhiêu đơn vị mắt xích có trong phân tử loại tơ sợi này?
+\hfill \textbf{Trả lời:} \dotfill
+\end{ex}
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\Large B. PHẦN TỰ LUẬN (3 câu – 3 điểm)}}\\
+\textit{\small Thí sinh trình bày chi tiết lời giải từ câu 1 đến câu 3 vào giấy làm bài thi.}
+\vspace{3pt}
+
+\noindent
+\textbf{Câu 1. (1,0 điểm)} Glycine là một amino acid có khối lượng phân tử nhỏ nhất trong số 20 amino acid thường được tìm thấy trong protein. Glycine tham gia vào nhiều chức năng của cơ thể, thúc đẩy quá trình phát triển cơ, cải thiện hệ tiêu hóa, làm chậm quá trình lão hóa,...
+\begin{enumerate}[label=\alph*.,leftmargin=20pt,itemsep=1pt]
+\item Hãy viết công thức cấu tạo và gọi tên hệ thống của Glycine.
+\item Viết phương trình hóa học chứng minh tính lưỡng tính của Glycine.
+\end{enumerate}
+
+\vspace{1pt}
+\noindent
+\multido{}{7}{\noindent\makebox[\linewidth]{\dotfill}\\[14pt]}
+
+\vspace{2pt}
+\noindent
+\textbf{Câu 2. (1,0 điểm)} Poly(vinyl chloride) hay còn được gọi là PVC được điều chế từ khí thiên nhiên theo sơ đồ:
+\[
+\ce{CH4 -> C2H2 -> CH2=CHCl -> PVC}
+\]
+Để sản xuất 1 tấn PVC theo sơ đồ trên cần bao nhiêu $\text{m}^3$ khí thiên nhiên (ở đkc), giả sử hiệu suất toàn bộ quá trình là $80\%$? Biết khí thiên nhiên chứa $95\%$ methane về thể tích. (Kết quả làm tròn đến hàng phần mười).
+
+\vspace{1pt}
+\noindent
+\multido{}{7}{\noindent\makebox[\linewidth]{\dotfill}\\[14pt]}
+
+\vspace{2pt}
+\noindent
+\textbf{Câu 3. (1,0 điểm)}
+\begin{enumerate}[label=\alph*.,leftmargin=20pt,itemsep=1pt]
+\item Xà phòng (xà bông) là một chất giặt rửa các vết bẩn, vết dầu mỡ,... Hãy nêu thành phần chính của xà phòng?
+\begin{center}
+\includegraphics[width=4.0cm]{C:/Antigravity_Thanh/San_Pham/images_de1001/banh_xa_bong.png}
+\end{center}
+\item Hỗn hợp X gồm tristearin, tripalmitin, stearic acid và palmitic acid (tỉ lệ mol $n_\text{tristearin} : n_\text{tripalmitin} = 1 : 1$ và $n_\text{palmitic acid} : n_\text{stearic acid} = 2 : 1$). Để sản xuất $b$ bánh xà phòng (mỗi bánh đều nặng $75\text{ gam}$ và chứa $75\%$ muối của các acid béo theo khối lượng), người ta cho $863,92\text{ gam}$ hỗn hợp X tác dụng vừa đủ với $306\text{ gam}$ dung dịch NaOH $40\%$, đun nóng. Biết hiệu suất toàn bộ quá trình sản xuất xà phòng là $88\%$. Tính giá trị của $b$ (Kết quả làm tròn đến hàng đơn vị).
+\end{enumerate}
+
+\vspace{1pt}
+\noindent
+\multido{}{9}{\noindent\makebox[\linewidth]{\dotfill}\\[14pt]}
+
+\vfill
+\begin{center}
+\textbf{---------- HẾT ----------}
+\end{center}
+\end{document}
