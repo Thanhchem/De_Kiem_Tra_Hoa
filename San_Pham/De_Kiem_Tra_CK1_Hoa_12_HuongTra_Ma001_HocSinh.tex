@@ -1,0 +1,304 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{geometry}
+\geometry{top=1.5cm,bottom=1.2cm,left=1.4cm,right=1.4cm,headheight=28pt,headsep=12pt,footskip=18pt}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{multido}
+\usepackage{tcolorbox}
+
+\definecolor{hfRed}{HTML}{D32F2F}
+\definecolor{hfGreen}{HTML}{8BC390}
+\definecolor{mainGreen}{HTML}{2E7D32}
+\definecolor{solBlue}{HTML}{1565C0}
+\definecolor{tableGreen}{HTML}{E8F5E9}
+
+\usepackage{ex_test}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.75pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0.75pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{hfGreen}\leaders\hrule height \footrulewidth\hfill}}
+
+\fancyhead[L]{\small\itshape\color{hfRed}Tài liệu lưu hành nội bộ}
+\fancyhead[R]{\small\color{hfRed}Thầy \textbf{TRẦN VĂN THẠNH} - 0777.470.803}
+
+\fancyfoot[L]{\footnotesize\itshape\color{hfRed}CS1: 6/15 Nguyễn Hoàng, P. Kim Long, TP Huế \quad|\quad CS2: 24 Đặng Thái Thân, TP Huế}
+\fancyfoot[R]{\small\textbf{\color{hfRed}Trang \thepage}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+
+\begin{document}
+
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{SỞ GD\&ĐT TP HUẾ}\\
+\textbf{TRƯỜNG THPT HƯƠNG TRÀ}\\
+\textbf{TỔ HÓA -- SINH -- CNNN}\\
+\textit{ĐỀ CHÍNH THỨC}\\
+\textit{(Đề thi có 03 trang)}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\raggedleft
+\textbf{\color{hfRed}ĐỀ KIỂM TRA HỌC KỲ I}\\
+\textbf{NĂM HỌC: 2025 -- 2026}\\
+\textbf{Môn: HÓA HỌC -- Khối 12}\\
+\textit{Thời gian làm bài: 45 phút (không kể thời gian phát đề)}\\
+\textbf{MÃ ĐỀ: 001}
+\end{minipage}
+
+\vspace{4pt}
+\noindent
+\textit{Họ và tên thí sinh:} \dotfill \textit{Số báo danh:} \dotfill
+
+\vspace{3pt}
+\noindent
+\textit{\footnotesize Cho nguyên tử khối: $\ce{C}=12;\ \ce{H}=1;\ \ce{O}=16;\ \ce{N}=14;\ \ce{Na}=23;\ \ce{Mg}=24;\ \ce{S}=32;\ \ce{Cl}=35,5;\ \ce{Cu}=64;\ \ce{Ag}=108;\ F = 96500\text{ C/mol};\ \pi = 3,14$.}
+
+\vspace{3pt}
+\hrule color{hfGreen} height 0.5pt
+
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN I: (4,0 điểm) Câu trắc nghiệm nhiều phương án lựa chọn.}}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 16. Mỗi câu hỏi thí sinh chỉ chọn một phương án.}
+\vspace{2pt}
+
+\begin{ex}
+Polymer nào sau đây được dùng để chế tạo vật liệu có tính dẻo?
+\choice
+{\True Poly(vinyl chloride)}
+{Poly(vinyl cyanide)}
+{Poli(hexamethylene adipamide)}
+{Poly(ethylene terephthalate)}
+\end{ex}
+\begin{ex}
+Trong số các ion: $\ce{Ag+}$, $\ce{Al^3+}$, $\ce{Fe^2+}$, $\ce{Cu^2+}$, ion nào có tính oxi hóa mạnh nhất ở điều kiện chuẩn?
+\choice
+{$\ce{Fe^2+}$}
+{\True $\ce{Ag+}$}
+{$\ce{Al^3+}$}
+{$\ce{Cu^2+}$}
+\end{ex}
+\begin{ex}
+Chất nào sau đây là thành phần chủ yếu của xà phòng?
+\choice
+{$\ce{CH2CH2OH}$}
+{$\ce{CH3COONa}$}
+{\True $\ce{CH3[CH2]14COONa}$}
+{$\ce{CH3[CH2]16COOH}$}
+\end{ex}
+\begin{ex}
+Tác hại lớn nhất của việc lạm dụng chất dẻo đối với môi trường là gì?
+\choice
+{Gây mùi khó chịu}
+{Làm giảm độ màu mỡ của đất}
+{\True Khó phân hủy, gây ô nhiễm môi trường lâu dài}
+{Gây ra hiệu ứng nhà kính}
+\end{ex}
+\begin{ex}
+Dãy gồm các chất được dùng để tổng hợp cao su Buna-S là:
+\choice
+{$\ce{CH2=C(CH3)-CH=CH2}$, $\ce{C6H5CH=CH2}$}
+{\True $\ce{CH2=CH-CH=CH2}$, $\ce{C6H5CH=CH2}$}
+{$\ce{CH2=CH-CH=CH2}$, lưu huỳnh}
+{$\ce{CH2=CH-CH=CH2}$, $\ce{CH3-CH=CH2}$}
+\end{ex}
+\begin{ex}
+Thuốc thử nào sau đây được dùng để nhận biết tinh bột?
+\choice
+{Thuốc thử Tollens}
+{Dung dịch $\ce{Br2}$}
+{$\ce{Cu(OH)2}$}
+{\True Dung dịch $\ce{I2}$}
+\end{ex}
+\begin{ex}
+Điện phân $\ce{CaCl2}$ nóng chảy, ở cathode xảy ra quá trình nào?
+\choice
+{Oxi hóa ion $\ce{Ca^2+}$}
+{Khử ion $\ce{Cl-}$}
+{\True Khử ion $\ce{Ca^2+}$}
+{Oxi hóa ion $\ce{Cl-}$}
+\end{ex}
+\begin{ex}
+Amino acid không có loại phản ứng nào sau đây?
+\choice
+{\True Phản ứng thủy phân}
+{Phản ứng ester hoá}
+{Phản ứng với acid và base}
+{Phản ứng trùng ngưng}
+\end{ex}
+\begin{ex}
+Khẳng định nào sau đây là sai?
+\choice
+{Polymer không bay hơi được}
+{Polymer không có nhiệt độ nóng chảy nhất định}
+{Đa số polymer không tan trong các dung môi thông thường}
+{\True Thủy tinh hữu cơ là vật liệu trong suốt, giòn và kém bền}
+\end{ex}
+\begin{ex}
+Chất nào sau đây thuộc loại monosaccharide?
+\choice
+{Maltose}
+{Cellulose}
+{Saccharose}
+{\True Fructose}
+\end{ex}
+\begin{ex}
+Tinh bột và cellulose là các polymer tự nhiên tạo bởi các mắt xích tương ứng là
+\choice
+{$\alpha$-glucose và $\beta$-fructose}
+{$\beta$-fructose và $\beta$-glucose}
+{\True $\alpha$-glucose và $\beta$-glucose}
+{$\alpha$-fructose và $\beta$-glucose}
+\end{ex}
+\begin{ex}
+Phát biểu nào sau đây là không đúng?
+\choice
+{Saccharose có nhiều trong thân cây mía}
+{Glucose có nhiều trong các quả chín}
+{Fructose có nhiều trong mật ong}
+{\True Maltose có nhiều trong đường kính}
+\end{ex}
+\begin{ex}
+Kí hiệu cặp oxi hóa -- khử ứng với quá trình khử: $\ce{Fe^3+} + 1\ce{e} \rightleftharpoons \ce{Fe^2+}$ là
+\choice
+{\True $\ce{Fe^3+}/\ce{Fe^2+}$}
+{$\ce{Fe^2+}/\ce{Fe^3+}$}
+{$\ce{Fe^3+}/\ce{Fe}$}
+{$\ce{Fe^2+}/\ce{Fe}$}
+\end{ex}
+\begin{ex}
+Số amine bậc I trong số các chất: $\ce{CH3NH2}$, $\ce{CH3NH3Cl}$, $\ce{(NH2)2CO}$, $\ce{CH3NHCH3}$, $\ce{CH3CH2NH2}$, $\ce{(CH3)3N}$, $\ce{C6H5NH2}$ (aniline) là:
+\choice
+{6}
+{\True 3}
+{4}
+{5}
+\end{ex}
+\begin{ex}
+Hợp chất X có công thức cấu tạo $\ce{CH3CH2COOCH3}$. X có tên gọi nào sau đây?
+\choice
+{Methyl acetate}
+{\True Methyl propionate}
+{Ethyl propionate}
+{Propyl acetate}
+\end{ex}
+\begin{ex}
+Khi nấu món canh từ thịt của tôm tép có nhiều mảng thịt đóng rắn lại. Hiện tượng trên gây ra bởi tính chất nào sau đây?
+\choice
+{Sự thủy phân protein bởi nhiệt độ}
+{Kết tủa carbonate của các chất khoáng có trong vỏ}
+{\True Sự đông tụ protein bởi nhiệt độ}
+{Sự đông tụ protein bởi sự thay đổi pH}
+\end{ex}
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN II: (2,0 điểm) Câu trắc nghiệm đúng sai.}}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 2. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}
+\vspace{2pt}
+
+\begin{ex}
+Kevlar là một polymer có độ bền kéo rất cao. Loại vật liệu này được dùng để sản xuất áo chống đạn và mũ bảo hiểm cho quân đội. Kevlar được tổng hợp bằng phản ứng sau (các điều kiện có đủ):
+\begin{center}
+$n\,\ce{H2N-C6H4-NH2} + n\,\ce{HOOC-C6H4-COOH} \xrightarrow{t^\circ, xt} \ce{[-NH-C6H4-NH-CO-C6H4-CO-]_n} + 2n\,\ce{H2O}$
+\end{center}
+\begin{center}
+\includegraphics[width=3.6cm]{C:/Antigravity_Thanh/San_Pham/images_de001/ao_chong_dan.png}\\
+\textit{\small Hình: Áo chống đạn gia cường sợi Kevlar}
+\end{center}
+\choiceTF
+{\True Kevlar thuộc loại polymer tổng hợp}
+{\True Phản ứng tổng hợp Kevlar thuộc loại phản ứng trùng ngưng}
+{Cả hai chất terephthalic acid và 1,4-diaminebenzene đều là hợp chất tạp chức}
+{\True Trong một mắt xích Kevlar, phần trăm khối lượng nitrogen là $11,76\%$ (Kết quả làm tròn đến hàng phần trăm)}
+\end{ex}
+\begin{ex}
+Cho Pin Galvani Zn--Cu gồm điện cực kẽm và điện cực đồng được nối với nhau bởi cầu muối (thường chứa dung dịch $\ce{KCl}$ bão hòa) như hình sau:
+\begin{center}
+\includegraphics[width=8.0cm]{C:/Antigravity_Thanh/San_Pham/images_de001/pin_galvani.png}\\
+\textit{\small Sơ đồ pin điện hóa Galvani Zn -- Cu}
+\end{center}
+\choiceTF
+{Tại anode xảy ra quá trình khử Zn, tại cathode xảy ra quá trình oxi hóa $\ce{Cu^2+}$}
+{\True Khi pin hoạt động thì nồng độ của $\ce{Cu^2+}$ giảm, nồng độ của $\ce{Zn^2+}$ tăng lên}
+{\True Dòng electron di chuyển từ thanh Zn qua dây dẫn đến thanh Cu}
+{Biết thế điện cực chuẩn của cặp oxi hoá -- khử $\ce{Zn^2+}/\ce{Zn}$ và $\ce{Cu^2+}/\ce{Cu}$ là $E^\circ_{\ce{Zn^2+}/\ce{Zn}} = -0,76\text{ V}$, $E^\circ_{\ce{Cu^2+}/\ce{Cu}} = +0,34\text{ V}$. Sức điện động của pin Galvani Zn--Cu có giá trị bằng 0,42 (V)}
+\end{ex}
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN III: (2,0 điểm) Câu trắc nghiệm yêu cầu trả lời ngắn.}}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 4. Thí sinh điền kết quả vào ô trả lời tương ứng.}
+\vspace{2pt}
+
+\begin{ex}
+Tiến hành các thí nghiệm sau:
+\begin{enumerate}[label=(\arabic*),leftmargin=20pt,itemsep=1pt]
+\item Đun nóng hỗn hợp $3\text{ mL}$ isoamyl acetate và $5\text{ mL}$ dung dịch sulfuric acid $0,1\text{ M}$.
+\item Đun nóng hỗn hợp $3\text{ mL}$ ethyl acetate và $5\text{ mL}$ dung dịch NaOH $0,2\text{ M}$.
+\item Đun $5\text{ gam}$ mỡ động vật trong nước.
+\item Đun nóng hỗn hợp $3\text{ mL}$ ethyl bromide và $5\text{ mL}$ dung dịch NaOH $0,2\text{ M}$.
+\item Cho $3\text{ mL}$ dung dịch $\ce{CH3COOH}\ 0,1\text{ M}$ vào ống nghiệm chứa $3\text{ mL}$ dung dịch NaOH $0,2\text{ M}$.
+\item Đun nóng hỗn hợp $3\text{ gam}$ tristearin và $5\text{ mL}$ dung dịch NaOH $0,2\text{ M}$.
+\end{enumerate}
+Trong các thí nghiệm trên, có bao nhiêu thí nghiệm xảy ra phản ứng xà phòng hoá?
+\hfill \textbf{Trả lời:} \dotfill
+\end{ex}
+\begin{ex}
+Trong những carbohydrate sau: glucose, fructose, saccharose, maltose, tinh bột và cellulose, có bao nhiêu carbohydrate tham gia phản ứng thuỷ phân trong môi trường acid?
+\hfill \textbf{Trả lời:} \dotfill
+\end{ex}
+\begin{ex}
+Khối lượng của một đoạn mạch capron ($\ce{[-NH-(CH2)5-CO-]_n}$) là $11\,300\text{ amu}$. Số lượng mắt xích trong đoạn mạch capron nêu trên là bao nhiêu? (Kết quả làm tròn đến hàng đơn vị)
+\hfill \textbf{Trả lời:} \dotfill
+\end{ex}
+\begin{ex}
+Điện phân $1\text{ lít}$ dung dịch $\ce{CuSO4}\ 0,1\text{ M}$ (điện cực trơ) cho đến khi ở anode thu được $2,479\text{ lít}$ khí (đkc) thì ở cathode thu được bao nhiêu gam kim loại? (Kết quả làm tròn đến hàng phần mười)
+\hfill \textbf{Trả lời:} \dotfill
+\end{ex}
+\vspace{4pt}
+\noindent
+{\color{mainGreen}\textbf{\large PHẦN IV: (3,0 điểm) Tự luận.}}\\
+\textit{\small Thí sinh trình bày chi tiết lời giải từ câu 1 đến câu 3 vào giấy làm bài thi.}
+\vspace{3pt}
+
+\noindent
+\textbf{Câu 1. (1,0 điểm)} PVC là viết tắt của poly(vinyl chloride) là một loại nhựa nhiệt dẻo. PVC là loại vật liệu nhân tạo được tổng hợp sớm nhất và mở ra một sự tiện lợi lớn lao trong sinh hoạt và sản xuất cho nhân loại với độ bền cao và giá thành rẻ, mới đầu khi được khám phá ra, PVC có rất nhiều nhược điểm như cứng, kém ổn định và khó gia công. Mãi đến năm 1926 khi xuất hiện phương pháp hoá dẻo PVC thì chúng mới dần được nhân rộng. Viết phương trình hóa học tổng hợp PVC từ vinyl chloride?
+
+\vspace{1pt}
+\noindent
+\multido{}{5}{\noindent\makebox[\linewidth]{\dotfill}\\[14pt]}
+
+\vspace{2pt}
+\noindent
+\textbf{Câu 2. (1,0 điểm)} Cho $E^\circ_{\text{pin}(\text{Mg-Ag})} = 3,17\text{ V}$ và $E^\circ(\ce{Mg^2+}/\ce{Mg}) = -2,37\text{ V}$. Tính thế điện cực chuẩn của cặp oxi hóa -- khử $\ce{Ag+}/\ce{Ag}$ ($E^\circ(\ce{Ag+}/\ce{Ag})$)?
+
+\vspace{1pt}
+\noindent
+\multido{}{6}{\noindent\makebox[\linewidth]{\dotfill}\\[14pt]}
+
+\vspace{2pt}
+\noindent
+\textbf{Câu 3. (1,0 điểm)} Hiện nay, mạ điện được sử dụng rộng rãi trong thực tế, mạ điện là quá trình phủ một lớp kim loại lên bề mặt kim loại khác bằng phương pháp điện phân. Giả sử người ta cần mạ Bạc lên một mặt của một chiếc đĩa kim loại hình tròn có bán kính $30\text{ cm}$, độ dày lớp mạ là $0,01\text{ mm}$ bằng phương pháp điện phân dung dịch $\ce{AgNO3}$. Nếu được cung cấp nguồn điện một chiều có cường độ dòng điện $I = 2,5\text{ A}$ thì thời gian cần dùng là $t\text{ giờ}$. Biết khối lượng riêng của Ag là $10,5\text{ g/cm}^3$; $\pi = 3,14$; Hằng số Faraday ($F = 96500\text{ C/mol}$); Hiệu suất điện phân là $100\%$. Tính $t$? (Cho nguyên tử khối: $\ce{Ag}=108;\ \ce{O}=16;\ \ce{N}=14$)
+
+\vspace{1pt}
+\noindent
+\multido{}{8}{\noindent\makebox[\linewidth]{\dotfill}\\[14pt]}
+
+\vfill
+\begin{center}
+\textbf{---------- HẾT ----------}
+\end{center}
+\end{document}
